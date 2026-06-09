@@ -253,7 +253,7 @@ $text['label-call_flow_extension']['ja-jp'] = "拡大";
 $text['label-call_flow_extension']['ko-kr'] = "확대";
 
 $text['label-call_flow_label']['en-us'] = "Destination Label";
-$text['label-call_flow_label']['vi-vn'] = 'Nhãn đích';
+$text['label-call_flow_label']['vi-vn'] = 'Nhãn đích đến';
 $text['label-call_flow_label']['en-gb'] = "Destination Label";
 $text['label-call_flow_label']['ar-eg'] = "تسمية الوجهة";
 $text['label-call_flow_label']['de-at'] = "Ziel Kennzeichnung";
@@ -281,7 +281,7 @@ $text['label-call_flow_label']['ja-jp'] = "宛先ラベル";
 $text['label-call_flow_label']['ko-kr'] = "목적지 라벨";
 
 $text['label-call_flow_destination']['en-us'] = "Destination";
-$text['label-call_flow_destination']['vi-vn'] = 'Đích';
+$text['label-call_flow_destination']['vi-vn'] = 'Đích đến';
 $text['label-call_flow_destination']['en-gb'] = "Destination";
 $text['label-call_flow_destination']['ar-eg'] = "وجهة";
 $text['label-call_flow_destination']['de-at'] = "Ziel";
@@ -365,7 +365,7 @@ $text['label-call_flow_alternate_label']['ja-jp'] = "代替ラベル";
 $text['label-call_flow_alternate_label']['ko-kr'] = "대체 레이블";
 
 $text['label-call_flow_alternate_destination']['en-us'] = "Alternate Destination";
-$text['label-call_flow_alternate_destination']['vi-vn'] = 'Đích thay thế';
+$text['label-call_flow_alternate_destination']['vi-vn'] = 'Đích đến thay thế';
 $text['label-call_flow_alternate_destination']['en-gb'] = "Alternate Destination";
 $text['label-call_flow_alternate_destination']['ar-eg'] = "وجهة بديلة";
 $text['label-call_flow_alternate_destination']['de-at'] = "Alternatives Ziel";
@@ -701,7 +701,7 @@ $text['description-call_flow_destination_label']['ja-jp'] = "宛先ラベルを�
 $text['description-call_flow_destination_label']['ko-kr'] = "대상 라벨을 입력합니다.";
 
 $text['description-call_flow_destination']['en-us'] = "Select the destination.";
-$text['description-call_flow_destination']['vi-vn'] = 'Chọn đích.';
+$text['description-call_flow_destination']['vi-vn'] = 'Chọn đích đến.';
 $text['description-call_flow_destination']['en-gb'] = "Select the destination.";
 $text['description-call_flow_destination']['ar-eg'] = "حدد الوجهة.";
 $text['description-call_flow_destination']['de-at'] = "Wählen Sie das Ziel.";
@@ -757,7 +757,7 @@ $text['description-call_flow_context']['ja-jp'] = "コンテキストを入力�
 $text['description-call_flow_context']['ko-kr'] = "컨텍스트를 입력하십시오.";
 
 $text['description-call_flows']['en-us'] = "Direct calls between two destinations by calling a feature code.";
-$text['description-call_flows']['vi-vn'] = 'Chuyển cuộc gọi giữa hai đích bằng cách gọi mã tính năng.';
+$text['description-call_flows']['vi-vn'] = 'Chuyển cuộc gọi giữa hai đích đến bằng cách gọi mã tính năng.';
 $text['description-call_flows']['en-gb'] = "Direct calls between two destinations by calling a feature code.";
 $text['description-call_flows']['ar-eg'] = "مكالمات مباشرة بين وجهتين عن طريق استدعاء رمز الميزة.";
 $text['description-call_flows']['de-at'] = "Leiten Sie Anrufe zwischen zwei Zielen um indem Sie einen Funktions-Code wählen.";
@@ -785,7 +785,7 @@ $text['description-call_flows']['ja-jp'] = "機能コードを呼び出して、
 $text['description-call_flows']['ko-kr'] = "기능 코드를 호출하여 두 대상 간에 직접 호출합니다.";
 
 $text['description-call_flow_alternate_label']['en-us'] = "Enter the alternate destination label.";
-$text['description-call_flow_alternate_label']['vi-vn'] = 'Nhập nhãn đích thay thế.';
+$text['description-call_flow_alternate_label']['vi-vn'] = 'Nhập nhãn đích đến thay thế.';
 $text['description-call_flow_alternate_label']['en-gb'] = "Enter the alternate destination label.";
 $text['description-call_flow_alternate_label']['ar-eg'] = "أدخل تسمية الوجهة البديلة.";
 $text['description-call_flow_alternate_label']['de-at'] = "Geben Sie eine Beschreibung für das alternative Ziel ein.";
@@ -813,7 +813,7 @@ $text['description-call_flow_alternate_label']['ja-jp'] = "代替宛先ラベル
 $text['description-call_flow_alternate_label']['ko-kr'] = "대체 대상 레이블을 입력합니다.";
 
 $text['description-call_flow_alternate_destination']['en-us'] = "Select the alternate destination.";
-$text['description-call_flow_alternate_destination']['vi-vn'] = 'Chọn đích thay thế.';
+$text['description-call_flow_alternate_destination']['vi-vn'] = 'Chọn đích đến thay thế.';
 $text['description-call_flow_alternate_destination']['en-gb'] = "Select the alternate destination.";
 $text['description-call_flow_alternate_destination']['ar-eg'] = "حدد الوجهة البديلة.";
 $text['description-call_flow_alternate_destination']['de-at'] = "Wählen Sie ein alternatives Ziel.";
@@ -841,7 +841,7 @@ $text['description-call_flow_alternate_destination']['ja-jp'] = "代替宛先を
 $text['description-call_flow_alternate_destination']['ko-kr'] = "대체 대상을 선택합니다.";
 
 $text['description-call_flow_sound']['en-us'] = "Select the sound to play when the status is set to the destinations.";
-$text['description-call_flow_sound']['vi-vn'] = 'Chọn âm thanh phát khi trạng thái được đặt sang các đích.';
+$text['description-call_flow_sound']['vi-vn'] = 'Chọn âm thanh phát khi trạng thái được đặt sang các đích đến.';
 $text['description-call_flow_sound']['en-gb'] = "Select the sound to play when the status is set to the destinations.";
 $text['description-call_flow_sound']['ar-eg'] = "حدد الصوت المراد تشغيله عند تعيين الحالة على الوجهات.";
 $text['description-call_flow_sound']['de-at'] = "Wählen Sie den zu spielenden Rufton aus, wenn das primäre Ziel ausgewählt ist.";
@@ -869,7 +869,7 @@ $text['description-call_flow_sound']['ja-jp'] = "ステータスが目的地に�
 $text['description-call_flow_sound']['ko-kr'] = "상태가 목적지로 설정되었을 때 재생할 사운드를 선택합니다.";
 
 $text['description-call_flow_alternate_sound']['en-us'] = "Select the sound to play when status is set to the alternate destination.";
-$text['description-call_flow_alternate_sound']['vi-vn'] = 'Chọn âm thanh phát khi trạng thái được đặt sang đích thay thế.';
+$text['description-call_flow_alternate_sound']['vi-vn'] = 'Chọn âm thanh phát khi trạng thái được đặt sang đích đến thay thế.';
 $text['description-call_flow_alternate_sound']['en-gb'] = "Select the sound to play when status is set to the alternate destination.";
 $text['description-call_flow_alternate_sound']['ar-eg'] = "حدد الصوت المراد تشغيله عند ضبط الحالة على الوجهة البديلة.";
 $text['description-call_flow_alternate_sound']['de-at'] = "Wählen Sie den zu spielenden Rufton aus, wenn das alternative Ziel ausgewählt ist.";

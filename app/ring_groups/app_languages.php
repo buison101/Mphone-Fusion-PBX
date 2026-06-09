@@ -1149,7 +1149,7 @@ $text['label-active']['ja-jp'] = "アクティブ";
 $text['label-active']['ko-kr'] = "활동적인";
 
 $text['label-destination']['en-us'] = "Destination";
-$text['label-destination']['vi-vn'] = "Đích";
+$text['label-destination']['vi-vn'] = "Đích đến";
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "جهات الأتصال";
 $text['label-destination']['de-at'] = "Ziele";
@@ -1177,7 +1177,7 @@ $text['label-destination']['ja-jp'] = "行き先";
 $text['label-destination']['ko-kr'] = "목적지";
 
 $text['label-destinations']['en-us'] = "Destinations";
-$text['label-destinations']['vi-vn'] = "Đích";
+$text['label-destinations']['vi-vn'] = "Đích đến";
 $text['label-destinations']['en-gb'] = "Destinations";
 $text['label-destinations']['ar-eg'] = "الوجهة";
 $text['label-destinations']['de-at'] = "Ziele";
@@ -1373,7 +1373,7 @@ $text['label-destination_order']['ja-jp'] = "注文";
 $text['label-destination_order']['ko-kr'] = "주문하다";
 
 $text['label-destination_number']['en-us'] = "Destination";
-$text['label-destination_number']['vi-vn'] = "Đích";
+$text['label-destination_number']['vi-vn'] = "Đích đến";
 $text['label-destination_number']['en-gb'] = "Destination";
 $text['label-destination_number']['ar-eg'] = "الوجهة";
 $text['label-destination_number']['de-at'] = "Ziel";
@@ -1907,7 +1907,7 @@ $text['description-skip_active']['ja-jp'] = "アクティブな通話がある�
 $text['description-skip_active']['ko-kr'] = "활성 통화가 있는 대상을 건너뜁니다.";
 
 $text['description-ringback']['en-us'] = "Defines what the caller will hear while the destination is being called.";
-$text['description-ringback']['vi-vn'] = "Xác định âm thanh người gọi sẽ nghe trong khi đích đang được gọi.";
+$text['description-ringback']['vi-vn'] = "Xác định âm thanh người gọi sẽ nghe trong khi đích đến đang được gọi.";
 $text['description-ringback']['en-gb'] = "Defines what the caller will hear while the destination is being called.";
 $text['description-ringback']['ar-eg'] = "يحدد ما سيسمعه المتصل بينما يتم استدعاء الوجهة";
 $text['description-ringback']['de-at'] = "Definiert was der Anrufer hört, während die Ziele angerufen werden.";
@@ -1935,7 +1935,7 @@ $text['description-ringback']['ja-jp'] = "宛先への通話中に発信者に�
 $text['description-ringback']['ko-kr'] = "목적지가 호출되는 동안 발신자가 듣게 될 내용을 정의합니다.";
 
 $text['description-ring-group-forward']['en-us'] = "Forward a called Ring Group to an alternate destination.";
-$text['description-ring-group-forward']['vi-vn'] = "Chuyển tiếp nhóm đến một đích thay thế.";
+$text['description-ring-group-forward']['vi-vn'] = "Chuyển tiếp nhóm đến một đích đến thay thế.";
 $text['description-ring-group-forward']['en-gb'] = "Forward a called Ring Group to an alternate destination.";
 $text['description-ring-group-forward']['ar-eg'] = "قم بإعادة توجيه مجموعة Ring المسماة إلى وجهة بديلة.";
 $text['description-ring-group-forward']['de-at'] = "Leitet Anrufe an ein alternatives Ziel weiter.";
@@ -2075,7 +2075,7 @@ $text['description-ring_group_follow_me_enabled']['ja-jp'] = "着信グループ
 $text['description-ring_group_follow_me_enabled']['ko-kr'] = "전화 수신 그룹 대상의 팔로우 나를 팔로우하도록 선택합니다.";
 
 $text['description-missed_call']['en-us'] = "Select the notification type, and enter the appropriate destination.";
-$text['description-missed_call']['vi-vn'] = "Chọn loại thông báo và nhập đích phù hợp.";
+$text['description-missed_call']['vi-vn'] = "Chọn loại thông báo và nhập đích đến phù hợp.";
 $text['description-missed_call']['en-gb'] = "Select the notification type, and enter the appropriate destination.";
 $text['description-missed_call']['ar-eg'] = "حدد نوع الإشعار ، وأدخل الوجهة المناسبة.";
 $text['description-missed_call']['de-at'] = "Wählen Sie den Benachrichtigungstyp und geben Sie das entsprechende Ziel an.";
@@ -2215,7 +2215,7 @@ $text['description-distinctive_ring']['ja-jp'] = "特徴的な呼び出し音を
 $text['description-distinctive_ring']['ko-kr'] = "독특한 벨소리에 대한 사운드를 선택합니다.";
 
 $text['description-destinations']['en-us'] = "Add destinations and parameters to the ring group.";
-$text['description-destinations']['vi-vn'] = "Thêm đích và tham số vào nhóm đổ chuông.";
+$text['description-destinations']['vi-vn'] = "Thêm đích đến và tham số vào nhóm đổ chuông.";
 $text['description-destinations']['en-gb'] = "Add destinations and parameters to the ring group.";
 $text['description-destinations']['ar-eg'] = "أضف الوجهات والبارامترات لمجموعة الخاتم";
 $text['description-destinations']['de-at'] = "Fügen Sie Ziele und Parameter zu einer Rufgruppe hinzu.";
@@ -2355,7 +2355,7 @@ $text['description-cid-name-prefix']['ja-jp'] = "発信者ID名にプレフィ�
 $text['description-cid-name-prefix']['ko-kr'] = "발신자 ID 이름에 접두사를 설정합니다.";
 
 $text['description']['en-us'] = "A ring group is a set of destinations that can be called with a ring strategy.";
-$text['description']['vi-vn'] = "Nhóm đổ chuông là tập hợp các đích có thể được gọi theo một chiến lược đổ chuông.";
+$text['description']['vi-vn'] = "Nhóm đổ chuông là tập hợp các đích đến có thể được gọi theo một chiến lược đổ chuông.";
 $text['description']['en-gb'] = "A ring group is a set of destinations that can be called with a ring strategy.";
 $text['description']['ar-eg'] = "مجموعة الخواتم هي مجموعة من المقصد التي يمكن الاتصال بها باستراتيجية الخاتم";
 $text['description']['de-at'] = "Rufgruppen sind gruppierte Ziele, welche über eine vordefinierte Rufstrategie angerufen werden.";

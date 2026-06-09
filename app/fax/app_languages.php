@@ -1597,7 +1597,7 @@ $text['label-fax_recipient']['ja-jp'] = "受取人";
 $text['label-fax_recipient']['ko-kr'] = "받는 사람";
 
 $text['label-fax_destination']['en-us'] = "Destination";
-$text['label-fax_destination']['vi-vn'] = 'Đích';
+$text['label-fax_destination']['vi-vn'] = 'Đích đến';
 $text['label-fax_destination']['en-gb'] = "Destination";
 $text['label-fax_destination']['ar-eg'] = "الوجهة";
 $text['label-fax_destination']['de-at'] = "Ziel";
@@ -2745,7 +2745,7 @@ $text['description-email_confirmation']['ja-jp'] = "成功または失敗した�
 $text['description-email_confirmation']['ko-kr'] = "성공하거나 실패한 팩스에 대한 알림을 받아야 하는 모든 이메일을 나열하십시오";
 
 $text['label-destination_number']['en-us'] = "Destination Number";
-$text['label-destination_number']['vi-vn'] = 'Số đích';
+$text['label-destination_number']['vi-vn'] = 'Số đích đến';
 $text['label-destination_number']['en-gb'] = "Destination Number";
 $text['label-destination_number']['ar-eg'] = "رقم الوجهة";
 $text['label-destination_number']['de-at'] = "Ziel Nummer";
@@ -3501,7 +3501,7 @@ $text['description-fax_prefix']['ja-jp'] = "FAX送信時に使用するプレフ
 $text['description-fax_prefix']['ko-kr'] = "팩스를 보낼 때 사용할 접두사를 입력합니다.";
 
 $text['description-fax_number']['en-us'] = "Fax destination number";
-$text['description-fax_number']['vi-vn'] = 'Số đích fax.';
+$text['description-fax_number']['vi-vn'] = 'Số đích đến fax.';
 $text['description-fax_number']['en-gb'] = "Fax destination number";
 $text['description-fax_number']['ar-eg'] = "رقم الفاكس الوجهة";
 $text['description-fax_number']['de-at'] = "Fax Zielnummer";
@@ -3557,7 +3557,7 @@ $text['description-fax_mode']['ja-jp'] = "RX は受信を意味し、TX は送�
 $text['description-fax_mode']['ko-kr'] = "RX는 수신을 의미하고 TX는 전송을 의미합니다.";
 
 $text['description-fax_log']['en-us'] = "The details for sending and receiving a fax included are whether fax was successful, ECM (Error Correction Mode), number of retries, destination number, date, etc.";
-$text['description-fax_log']['vi-vn'] = 'Chi tiết gửi và nhận fax bao gồm fax có thành công hay không, ECM (Error Correction Mode), số lần thử lại, số đích, ngày và các thông tin khác.';
+$text['description-fax_log']['vi-vn'] = 'Chi tiết gửi và nhận fax bao gồm fax có thành công hay không, ECM (Error Correction Mode), số lần thử lại, số đích đến, ngày và các thông tin khác.';
 $text['description-fax_log']['en-gb'] = "The details for sending and receiving a fax included are whether fax was successful, ECM (Error Correction Mode), number of retries, destination number, date, etc.";
 $text['description-fax_log']['ar-eg'] = "وتشمل التفاصيل المتعلقة بإرسال وتلقي فاكس ما إذا كان الفاكس ناجحاً، ونموذج ECM (Error Correction Mode)، وعدد المستودعات، ورقم المقصد، والتاريخ، وما إلى ذلك.";
 $text['description-fax_log']['de-at'] = "Die angeführten Details für gesendete und empfangende Faxe sind entweder Fax erfolgreich gesendet, ECM (Error Correction Mode), Anzahl der Versuche, Zielnummer, Datum, etc...";
@@ -4649,7 +4649,7 @@ $text['description-email']['ja-jp'] = "FAX通知の宛先アドレスを入力�
 $text['description-email']['ko-kr'] = "팩스 알림을 받을 배송 주소를 입력하세요.";
 
 $text['description-destination_number']['en-us'] = "Enter the fax destination number.";
-$text['description-destination_number']['vi-vn'] = 'Nhập số đích fax.';
+$text['description-destination_number']['vi-vn'] = 'Nhập số đích đến fax.';
 $text['description-destination_number']['en-gb'] = "Enter the fax destination number.";
 $text['description-destination_number']['ar-eg'] = "أدخل رقم المقصد بالفاكس";
 $text['description-destination_number']['de-at'] = "Geben Sie die Fax Zielnummer ein.";

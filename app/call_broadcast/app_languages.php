@@ -309,7 +309,7 @@ $text['label-has-been']['ja-jp'] = "開始されました";
 $text['label-has-been']['ko-kr'] = "시작되었습니다";
 
 $text['label-destination']['en-us'] = "Destination Number";
-$text['label-destination']['vi-vn'] = 'Số đích';
+$text['label-destination']['vi-vn'] = 'Số đích đến';
 $text['label-destination']['en-gb'] = "Destination Number";
 $text['label-destination']['ar-eg'] = "رقم الوجهة";
 $text['label-destination']['de-at'] = "Zielnummer";

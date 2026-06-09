@@ -61,7 +61,7 @@
 									backgroundColor: [
 										<?php
 										if ($percent_disk_usage <= 80) {
-											echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[0] ?? '#03c04a')."',\n";
+											echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[0] ?? '#28a745')."',\n";
 										} else if ($percent_disk_usage <= 90) {
 											echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[1] ?? '#ff9933')."',\n";
 										} else if ($percent_disk_usage > 90) {

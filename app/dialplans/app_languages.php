@@ -1009,7 +1009,7 @@ $text['option-dialplan']['ja-jp'] = "ダイヤルプラン";
 $text['option-dialplan']['ko-kr'] = "다이얼플랜";
 
 $text['option-destination_number']['en-us'] = "Destination Number";
-$text['option-destination_number']['vi-vn'] = 'Số đích';
+$text['option-destination_number']['vi-vn'] = 'Số đích đến';
 $text['option-destination_number']['en-gb'] = "Destination Number";
 $text['option-destination_number']['ar-eg'] = "رقم الوجهة";
 $text['option-destination_number']['de-at'] = "Zielnummer";
@@ -1457,7 +1457,7 @@ $text['optgroup-applications']['ja-jp'] = "アプリケーション";
 $text['optgroup-applications']['ko-kr'] = "애플리케이션";
 
 $text['label-destination']['en-us'] = "Destination";
-$text['label-destination']['vi-vn'] = 'Đích';
+$text['label-destination']['vi-vn'] = 'Đích đến';
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "جهه الأتصال";
 $text['label-destination']['de-at'] = "Ziel";
@@ -2297,7 +2297,7 @@ $text['description-queues']['ja-jp'] = "キューは、発信者の待機ライ�
 $text['description-queues']['ko-kr'] = "대기열은 발신자를 위한 대기 라인을 설정하는 데 사용됩니다. FIFO 대기열이라고도 합니다.";
 
 $text['description-outbound_routes']['en-us'] = "Route outbound calls to gateways, tdm, enum and more. When a call matches the conditions the call to outbound routes.";
-$text['description-outbound_routes']['vi-vn'] = 'Định tuyến cuộc gọi ra đến gateway, TDM, ENUM và các đích khác. Khi cuộc gọi khớp điều kiện, cuộc gọi sẽ đi theo tuyến gọi ra.';
+$text['description-outbound_routes']['vi-vn'] = 'Định tuyến cuộc gọi ra đến gateway, TDM, ENUM và các đích đến khác. Khi cuộc gọi khớp điều kiện, cuộc gọi sẽ đi theo tuyến gọi ra.';
 $text['description-outbound_routes']['en-gb'] = "Route outbound calls to gateways, tdm, enum and more. When a call matches the conditions the call to outbound routes.";
 $text['description-outbound_routes']['ar-eg'] = "طريق نداءات متجهة إلى البوابات، التدمير، الصعود، أكثر. عندما يطابق الإتصال الظروف التي تتطلبها المكالمات";
 $text['description-outbound_routes']['de-at'] = "Ausgehende Anrufe zu Gateways, TDM, ENUM und andere weiterleiten, wenn der Anruf die Bedingungen für die ausgehenden Routen erfüllt.";
@@ -2353,7 +2353,7 @@ $text['description-inbound_routes']['ja-jp'] = "1 つ以上の条件に基づい
 $text['description-inbound_routes']['ko-kr'] = "하나 이상의 조건에 따라 수신 통화를 대상으로 라우팅합니다. IVR 메뉴, 통화 그룹, 내선 번호, 외부 번호, 스크립트로 수신 통화를 보낼 수 있습니다. 안티 액션을 사용하거나 일치하는 조건이 여러 개인 경우 순서가 중요합니다.";
 
 $text['description-dialplan_manager-superadmin']['en-us'] = "The dialplan is used to setup call destinations based on conditions and context. You can use the dialplan to send calls to gateways, auto attendants, external numbers, to scripts, or any destination.";
-$text['description-dialplan_manager-superadmin']['vi-vn'] = 'Dialplan dùng để thiết lập đích cuộc gọi dựa trên điều kiện và context. Bạn có thể dùng dialplan để chuyển cuộc gọi đến gateway, auto attendant, số ngoài, script hoặc bất kỳ đích nào.';
+$text['description-dialplan_manager-superadmin']['vi-vn'] = 'Dialplan dùng để thiết lập đích đến cuộc gọi dựa trên điều kiện và context. Bạn có thể dùng dialplan để chuyển cuộc gọi đến gateway, auto attendant, số ngoài, script hoặc bất kỳ đích đến nào.';
 $text['description-dialplan_manager-superadmin']['en-gb'] = "The dialplan is used to setup call destinations based on conditions and context. You can use the dialplan to send calls to gateways, auto attendants, external numbers, to scripts, or any destination.";
 $text['description-dialplan_manager-superadmin']['ar-eg'] = "وتُستخدم هذه الخطة في تحديد وجهات الاتصال على أساس الظروف والسياق. يمكنك استخدام الهاتف لإرسال نداءات إلى البوابات، مضيفات السيارات، الأرقام الخارجية، إلى النصوص، أو أي وجهة.";
 $text['description-dialplan_manager-superadmin']['de-at'] = "Der Wählplan wird für die Anrufsteuerung basierend auf Bedingungen und Kontext benutzt. Sie können den Wählplan dazu benutzen um Anrufe an Gateways, automatische Vermittlungen, externe Nummern, Skripte oder andere Anwendungen zu routen.";
@@ -2381,7 +2381,7 @@ $text['description-dialplan_manager-superadmin']['ja-jp'] = "ダイヤルプラ�
 $text['description-dialplan_manager-superadmin']['ko-kr'] = "다이얼플랜은 조건 및 컨텍스트에 따라 통화 대상을 설정하는 데 사용됩니다. 다이얼 플랜을 사용하여 게이트웨이, 자동 전화 교환, 외부 번호, 스크립트 또는 모든 대상으로 통화를 보낼 수 있습니다.";
 
 $text['description-dialplan_manager']['en-us'] = "The dialplan provides a view of some of the feature codes, as well as the IVR Menu, Conferences, Queues and other destinations.";
-$text['description-dialplan_manager']['vi-vn'] = 'Dialplan hiển thị một số mã tính năng, cùng với menu IVR, hội nghị, hàng đợi và các đích khác.';
+$text['description-dialplan_manager']['vi-vn'] = 'Dialplan hiển thị một số mã tính năng, cùng với menu IVR, hội nghị, hàng đợi và các đích đến khác.';
 $text['description-dialplan_manager']['en-gb'] = "The dialplan provides a view of some of the feature codes, as well as the IVR Menu, Conferences, Queues and other destinations.";
 $text['description-dialplan_manager']['ar-eg'] = "وتوفر خطة الاتصال صورة لبعض رموز السمات، فضلا عن قائمة العاج والمؤتمرات والأسئلة وغيرها من الوجهات.";
 $text['description-dialplan_manager']['de-at'] = "Der Wählplan bietet eine Ansicht aller Funktions-Codes sowie aller IVR Menüs, Konferenzen, Warteschlangen und anderen Zielen.";
@@ -2437,7 +2437,7 @@ $text['description-dialplan-edit']['ja-jp'] = "ダイヤルプランには一般
 $text['description-dialplan-edit']['ko-kr'] = "다이얼플랜에는 일반 설정이 포함됩니다.";
 
 $text['description-default_dialplan']['en-us'] = "The default dialplan is used to setup call destinations based on conditions and context. You can use the dialplan to send calls to gateways, auto attendants, external numbers, to scripts, or any destination.";
-$text['description-default_dialplan']['vi-vn'] = 'Dialplan mặc định dùng để thiết lập đích cuộc gọi dựa trên điều kiện và context. Bạn có thể dùng dialplan để chuyển cuộc gọi đến gateway, auto attendant, số ngoài, script hoặc bất kỳ đích nào.';
+$text['description-default_dialplan']['vi-vn'] = 'Dialplan mặc định dùng để thiết lập đích đến cuộc gọi dựa trên điều kiện và context. Bạn có thể dùng dialplan để chuyển cuộc gọi đến gateway, auto attendant, số ngoài, script hoặc bất kỳ đích đến nào.';
 $text['description-default_dialplan']['en-gb'] = "The default dialplan is used to setup call destinations based on conditions and context. You can use the dialplan to send calls to gateways, auto attendants, external numbers, to scripts, or any destination.";
 $text['description-default_dialplan']['ar-eg'] = "وتُستخدَم غلاف الهاتف الافتراضي في تحديد وجهات الاتصال على أساس الظروف والسياق. يمكنك استخدام الهاتف لإرسال نداءات إلى البوابات، مضيفات السيارات، الأرقام الخارجية، إلى النصوص، أو أي وجهة.";
 $text['description-default_dialplan']['de-at'] = "Der Standard Wählplan wird für Anruf-Ziele basierend auf Bedingungen und Kontext verwendet. Sie können den Wählplan dazu benutzen um Anrufe an Gateways, Automatische Vermittlungen, externe Nummern, Skripte oder andere Anwendungen zu routen.";

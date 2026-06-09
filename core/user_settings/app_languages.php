@@ -982,7 +982,7 @@ $text['label-total_extensions']['ja-jp'] = "総延長";
 $text['label-total_extensions']['ko-kr'] = "총 확장";
 
 $text['label-total_destinations']['en-us'] = "Total Destinations";
-$text['label-total_destinations']['vi-vn'] = "Tổng số đích";
+$text['label-total_destinations']['vi-vn'] = "Tổng số đích đến";
 $text['label-total_destinations']['en-gb'] = "Total Destinations";
 $text['label-total_destinations']['ar-eg'] = "مجموع ظبي";
 $text['label-total_destinations']['de-at'] = "Ziele insgesamt";
@@ -2382,7 +2382,7 @@ $text['label-devices']['ja-jp'] = "デバイス";
 $text['label-devices']['ko-kr'] = "장치";
 
 $text['label-destinations']['en-us'] = "Destinations";
-$text['label-destinations']['vi-vn'] = "Đích";
+$text['label-destinations']['vi-vn'] = "Đích đến";
 $text['label-destinations']['en-gb'] = "Destinations";
 $text['label-destinations']['ar-eg'] = "جهات الأتصال";
 $text['label-destinations']['de-at'] = "Kopfnummern";

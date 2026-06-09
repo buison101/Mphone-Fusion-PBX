@@ -197,7 +197,7 @@ $text['option-network_addr']['ja-jp'] = "ネットワークアドレス";
 $text['option-network_addr']['ko-kr'] = "네트워크 주소";
 
 $text['option-destination_number']['en-us'] = "Destination Number";
-$text['option-destination_number']['vi-vn'] = 'Số đích';
+$text['option-destination_number']['vi-vn'] = 'Số đích đến';
 $text['option-destination_number']['en-gb'] = "Destination Number";
 $text['option-destination_number']['ar-eg'] = "رقم الوجهة";
 $text['option-destination_number']['de-at'] = "Ziel Rufnummer";
@@ -393,7 +393,7 @@ $text['option-ani']['ja-jp'] = "ANI";
 $text['option-ani']['ko-kr'] = "ANI";
 
 $text['label-select-inbound-destination-number']['en-us'] = "Select the inbound destination number.";
-$text['label-select-inbound-destination-number']['vi-vn'] = 'Chọn số đích gọi vào.';
+$text['label-select-inbound-destination-number']['vi-vn'] = 'Chọn số đích đến gọi vào.';
 $text['label-select-inbound-destination-number']['en-gb'] = "Select the inbound destination number.";
 $text['label-select-inbound-destination-number']['ar-eg'] = "إختار رقم المقصد";
 $text['label-select-inbound-destination-number']['de-at'] = "Wählen Sie die Zielnummer für eingehende Anrufe.";
@@ -673,7 +673,7 @@ $text['label-expression']['ja-jp'] = "表現";
 $text['label-expression']['ko-kr'] = "표현";
 
 $text['label-destination-number']['en-us'] = "Destination Number";
-$text['label-destination-number']['vi-vn'] = 'Số đích';
+$text['label-destination-number']['vi-vn'] = 'Số đích đến';
 $text['label-destination-number']['en-gb'] = "Destination Number";
 $text['label-destination-number']['ar-eg'] = "رقم الوجهة";
 $text['label-destination-number']['de-at'] = "Zielrufnummer";

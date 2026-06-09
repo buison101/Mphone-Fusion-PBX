@@ -2409,7 +2409,7 @@ $text['label-column_name']['ja-jp'] = "列名";
 $text['label-column_name']['ko-kr'] = "열 이름";
 
 $text['label-destination']['en-us'] = "Destination";
-$text['label-destination']['vi-vn'] = 'Đích';
+$text['label-destination']['vi-vn'] = 'Đích đến';
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "جهات الأتصال";
 $text['label-destination']['de-at'] = "Ziele";
@@ -3611,7 +3611,7 @@ $text['description-force_ping']['ja-jp'] = "OPTIONS を使用して内線番号�
 $text['description-force_ping']['ko-kr'] = "OPTIONS를 사용하여 내선 번호에 연결할 수 있는지 감지";
 
 $text['description-missed_call']['en-us'] = "Select the notification type, and enter the appropriate destination.";
-$text['description-missed_call']['vi-vn'] = 'Chọn loại thông báo và nhập đích phù hợp.';
+$text['description-missed_call']['vi-vn'] = 'Chọn loại thông báo và nhập đích đến phù hợp.';
 $text['description-missed_call']['en-gb'] = "Select the notification type, and enter the appropriate destination.";
 $text['description-missed_call']['ar-eg'] = "حدد نوع الإشعار ، وأدخل الوجهة المناسبة.";
 $text['description-missed_call']['de-at'] = "Wählen Sie den Benachrichtigungstyp und geben Sie das entsprechende Ziel an.";
@@ -3695,7 +3695,7 @@ $text['description-limit_max']['ja-jp'] = "許可される同時アウトバウ�
 $text['description-limit_max']['ko-kr'] = "허용되는 최대 동시 발신 통화 수를 입력합니다.";
 
 $text['description-limit_destination']['en-us'] = "Enter the destination to send the calls when the max number of outgoing calls has been reached.";
-$text['description-limit_destination']['vi-vn'] = 'Nhập đích chuyển cuộc gọi khi đã đạt số cuộc gọi ra tối đa.';
+$text['description-limit_destination']['vi-vn'] = 'Nhập đích đến chuyển cuộc gọi khi đã đạt số cuộc gọi ra tối đa.';
 $text['description-limit_destination']['en-gb'] = "Enter the destination to send the calls when the max number of outgoing calls has been reached.";
 $text['description-limit_destination']['ar-eg'] = "أدخل المقصد لإرسال المكالمات عندما يتم الوصول إلى أكبر عدد من المكالمات";
 $text['description-limit_destination']['de-at'] = "Geben Sie das Ziel an, wohin der Anruf geleitet werden soll, falls die maximale Anzahl ausgehender Gespräche erreicht wurde.";

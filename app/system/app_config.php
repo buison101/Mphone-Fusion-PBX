@@ -101,7 +101,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "dashboard_cpu_usage_chart_main_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "array";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#03c04a";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#28a745";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_order'] = "10";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "";
@@ -136,7 +136,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "dashboard_disk_usage_chart_main_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "array";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#03c04a";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#28a745";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_order'] = "10";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "";

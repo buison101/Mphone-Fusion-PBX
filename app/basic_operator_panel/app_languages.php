@@ -533,7 +533,7 @@ $text['label-filter']['ja-jp'] = "フィルター";
 $text['label-filter']['ko-kr'] = "필터";
 
 $text['description-eavesdrop_destination']['en-us'] = "Select the Eavesdrop Destination";
-$text['description-eavesdrop_destination']['vi-vn'] = 'Chọn đích nghe xen';
+$text['description-eavesdrop_destination']['vi-vn'] = 'Chọn đích đến nghe xen';
 $text['description-eavesdrop_destination']['en-gb'] = "Select the Eavesdrop Destination";
 $text['description-eavesdrop_destination']['ar-eg'] = "حدد وجهة Eavesdrop";
 $text['description-eavesdrop_destination']['de-at'] = "Wählen Sie ein Ziel zum Mithören";

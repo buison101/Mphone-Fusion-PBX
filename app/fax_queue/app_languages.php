@@ -352,7 +352,7 @@ $text['label-fax_number']['ja-jp'] = "番号";
 $text['label-fax_number']['ko-kr'] = "숫자";
 
 $text['description-fax_number']['en-us'] = "Enter the fax destination.";
-$text['description-fax_number']['vi-vn'] = 'Nhập đích fax.';
+$text['description-fax_number']['vi-vn'] = 'Nhập đích đến fax.';
 $text['description-fax_number']['en-gb'] = "Enter the fax destination.";
 $text['description-fax_number']['ar-eg'] = "أدخل المقصد بالفاكس";
 $text['description-fax_number']['de-at'] = "Geben Sie das Fax-Ziel ein.";

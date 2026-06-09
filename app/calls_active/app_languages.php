@@ -487,7 +487,7 @@ $text['label-domain']['ja-jp'] = "ドメイン";
 $text['label-domain']['ko-kr'] = "도메인";
 
 $text['label-destination']['en-us'] = "Destination";
-$text['label-destination']['vi-vn'] = "Đích";
+$text['label-destination']['vi-vn'] = "Đích đến";
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "الوجهة";
 $text['label-destination']['de-at'] = "Ziel";
@@ -758,7 +758,7 @@ $text['description']['ja-jp'] = "これを使用して、アクティブな通�
 $text['description']['ko-kr'] = "이를 사용하여 활성 통화를 모니터링하고 상호 작용합니다.";
 
 $text['description-eavesdrop_destination']['en-us'] = "Select the Eavesdrop Destination";
-$text['description-eavesdrop_destination']['vi-vn'] = "Chọn đích nghe xen";
+$text['description-eavesdrop_destination']['vi-vn'] = "Chọn đích đến nghe xen";
 $text['description-eavesdrop_destination']['en-gb'] = "Select the Eavesdrop Destination";
 $text['description-eavesdrop_destination']['ar-eg'] = "حدد وجهة Eavesdrop";
 $text['description-eavesdrop_destination']['de-at'] = "Wählen Sie ein Ziel zum Mithören";

@@ -167,7 +167,7 @@ if (!isset($widget_chart_type) || $widget_chart_type == "doughnut") {
 	echo "					datasets: [{\n";
 	echo "							data: ['".$total_running."','".($total_services-$total_running)."'],\n";
 	echo "							backgroundColor: [\n";
-	echo "								'".$settings->get('theme', 'dashboard_system_counts_chart_main_color','#2a9df4')."',\n";
+	echo "								'".$settings->get('theme', 'dashboard_system_counts_chart_main_color','#3086f2')."',\n";
 	echo "								'".$settings->get('theme', 'dashboard_system_counts_chart_sub_color','#d4d4d4')."'\n";
 	echo "							],\n";
 	echo "							borderColor: '".$settings->get('theme', 'dashboard_chart_border_color')."',\n";

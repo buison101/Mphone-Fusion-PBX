@@ -163,7 +163,7 @@ $text['label-caller_id_number']['ja-jp'] = "発信者番号";
 $text['label-caller_id_number']['ko-kr'] = "발신자 번호";
 
 $text['label-caller_destination']['en-us'] = "Caller Destination";
-$text['label-caller_destination']['vi-vn'] = "Đích người gọi";
+$text['label-caller_destination']['vi-vn'] = "Đích đến của người gọi";
 $text['label-caller_destination']['en-gb'] = "Caller Destination";
 $text['label-caller_destination']['ar-eg'] = "وجهة المتصل";
 $text['label-caller_destination']['de-at'] = "Rufziel";
@@ -190,7 +190,7 @@ $text['label-caller_destination']['ja-jp'] = "発信者の宛先";
 $text['label-caller_destination']['ko-kr'] = "발신자 목적지";
 
 $text['label-destination_number']['en-us'] = "Destination";
-$text['label-destination_number']['vi-vn'] = "Đích";
+$text['label-destination_number']['vi-vn'] = "Đích đến";
 $text['label-destination_number']['en-gb'] = "Destination";
 $text['label-destination_number']['ar-eg'] = "وجهة";
 $text['label-destination_number']['de-at'] = "Ziel";

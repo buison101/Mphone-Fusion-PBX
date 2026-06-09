@@ -57,7 +57,7 @@ $text['title-bridge']['ja-jp'] = "橋";
 $text['title-bridge']['ko-kr'] = "다리";
 
 $text['title_description-bridge']['en-us'] = "Add bridge statements to destination select list.";
-$text['title_description-bridge']['vi-vn'] = 'Thêm câu lệnh bridge vào danh sách chọn đích.';
+$text['title_description-bridge']['vi-vn'] = 'Thêm câu lệnh bridge vào danh sách chọn đích đến.';
 $text['title_description-bridge']['en-gb'] = "Add bridge statements to destination select list.";
 $text['title_description-bridge']['ar-eg'] = "إضافة عبارات الجسر إلى قائمة تحديد الوجهة.";
 $text['title_description-bridge']['de-at'] = "Bridge-Anweisungen zur Zielauswahlliste hinzufügen.";
@@ -225,7 +225,7 @@ $text['description-bridge_action']['ja-jp'] = "ブリッジアクションを選
 $text['description-bridge_action']['ko-kr'] = "브리지 작업을 선택합니다.";
 
 $text['label-bridge_destination']['en-us'] = "Destination";
-$text['label-bridge_destination']['vi-vn'] = 'Đích';
+$text['label-bridge_destination']['vi-vn'] = 'Đích đến';
 $text['label-bridge_destination']['en-gb'] = "Destination";
 $text['label-bridge_destination']['ar-eg'] = "وجهة";
 $text['label-bridge_destination']['de-at'] = "Ziel";
@@ -253,7 +253,7 @@ $text['label-bridge_destination']['ja-jp'] = "行き先";
 $text['label-bridge_destination']['ko-kr'] = "목적지";
 
 $text['description-bridge_destination']['en-us'] = "Enter the destination.";
-$text['description-bridge_destination']['vi-vn'] = 'Nhập đích.';
+$text['description-bridge_destination']['vi-vn'] = 'Nhập đích đến.';
 $text['description-bridge_destination']['en-gb'] = "Enter the destination.";
 $text['description-bridge_destination']['ar-eg'] = "أدخل الوجهة.";
 $text['description-bridge_destination']['de-at'] = "Geben Sie das Ziel ein.";
@@ -589,7 +589,7 @@ $text['description-bridge_variables']['ja-jp'] = "変数の値を設定します
 $text['description-bridge_variables']['ko-kr'] = "변수의 값을 설정합니다.";
 
 $text['label-destination_number']['en-us'] = "Destination Number";
-$text['label-destination_number']['vi-vn'] = 'Số đích';
+$text['label-destination_number']['vi-vn'] = 'Số đích đến';
 $text['label-destination_number']['en-gb'] = "Destination Number";
 $text['label-destination_number']['ar-eg'] = "رقم الوجهة";
 $text['label-destination_number']['de-at'] = "Zielnummer";
@@ -617,7 +617,7 @@ $text['label-destination_number']['ja-jp'] = "宛先番号";
 $text['label-destination_number']['ko-kr'] = "대상 번호";
 
 $text['description-destination_number']['en-us'] = "Set the destination number for the action.";
-$text['description-destination_number']['vi-vn'] = 'Đặt số đích cho hành động.';
+$text['description-destination_number']['vi-vn'] = 'Đặt số đích đến cho hành động.';
 $text['description-destination_number']['en-gb'] = "Set the destination number for the action.";
 $text['description-destination_number']['ar-eg'] = "قم بتعيين رقم الوجهة للإجراء.";
 $text['description-destination_number']['de-at'] = "Legen Sie die Zielnummer für die Aktion fest.";

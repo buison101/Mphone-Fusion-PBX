@@ -1597,7 +1597,7 @@ $text['description-limit']['ja-jp'] = "発信通話の数を制限するには�
 $text['description-limit']['ko-kr'] = "아웃바운드 통화 수를 제한하려면 한도를 입력합니다.";
 
 $text['description-enter-prefix']['en-us'] = "Enter a prefix number to add to the beginning of the destination number.";
-$text['description-enter-prefix']['vi-vn'] = 'Nhập số tiền tố để thêm vào đầu số đích.';
+$text['description-enter-prefix']['vi-vn'] = 'Nhập số tiền tố để thêm vào đầu số đích đến.';
 $text['description-enter-prefix']['en-gb'] = "Enter a prefix number to add to the beginning of the destination number.";
 $text['description-enter-prefix']['ar-eg'] = "أدخل رقماً مسبقاً ليضيف إلى بداية رقم المقصد";
 $text['description-enter-prefix']['de-at'] = "Geben Sie eine präfix Nummer an, die am Anfang der Zielrufnummer hinzugefügt wird.";

@@ -1346,7 +1346,7 @@ $text['label-recording_options']['ja-jp'] = "録音オプション";
 $text['label-recording_options']['ko-kr'] = "녹음 옵션";
 
 $text['label-forward_destinations']['en-us'] = "Forward Destinations";
-$text['label-forward_destinations']['vi-vn'] = "Đích chuyển tiếp";
+$text['label-forward_destinations']['vi-vn'] = "Đích đến chuyển tiếp";
 $text['label-forward_destinations']['en-gb'] = "Forward Destinations";
 $text['label-forward_destinations']['ar-eg'] = "وجهات أمامية";
 $text['label-forward_destinations']['de-at'] = "Weiterleitungs Ziele";
@@ -1402,7 +1402,7 @@ $text['label-download']['ja-jp'] = "ダウンロード";
 $text['label-download']['ko-kr'] = "다운로드";
 
 $text['label-destination']['en-us'] = "Destination";
-$text['label-destination']['vi-vn'] = "Đích";
+$text['label-destination']['vi-vn'] = "Đích đến";
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "وجهة";
 $text['label-destination']['de-at'] = "Ziel";
@@ -2214,7 +2214,7 @@ $text['description-greeting']['ja-jp'] = "目的の挨拶を選択します。";
 $text['description-greeting']['ko-kr'] = "원하는 인사말을 선택하세요.";
 
 $text['description-forward_destinations']['en-us'] = "Forward voicemail messages to additional destinations.";
-$text['description-forward_destinations']['vi-vn'] = "Chuyển tiếp tin nhắn thư thoại đến các đích bổ sung.";
+$text['description-forward_destinations']['vi-vn'] = "Chuyển tiếp tin nhắn thư thoại đến các đích đến bổ sung.";
 $text['description-forward_destinations']['en-gb'] = "Forward voicemail messages to additional destinations.";
 $text['description-forward_destinations']['ar-eg'] = "إعادة توجيه رسائل البريد الصوتي إلى وجهات إضافية.";
 $text['description-forward_destinations']['de-at'] = "Mailbox Nachrichten an zusätzliche Nebenstellen weiterleiten.";

@@ -143,10 +143,10 @@
 			echo "					'".($settings->get('theme', 'dashboard_call_forward_chart_color_do_not_disturb') ?? '#ea4c46')."',\n";
 		}
 		if (permission_exists('follow_me')) {
-			echo "					'".($settings->get('theme', 'dashboard_call_forward_chart_color_follow_me') ?? '#03c04a')."',\n";
+			echo "					'".($settings->get('theme', 'dashboard_call_forward_chart_color_follow_me') ?? '#28a745')."',\n";
 		}
 		if (permission_exists('call_forward')) {
-			echo "					'".($settings->get('theme', 'dashboard_call_forward_chart_color_call_forward') ?? '#2a9df4')."',\n";
+			echo "					'".($settings->get('theme', 'dashboard_call_forward_chart_color_call_forward') ?? '#3086f2')."',\n";
 		}
 		echo "						'".($settings->get('theme', 'dashboard_call_forward_chart_color_active') ?? '#d4d4d4')."',\n";
 		echo "						'".($settings->get('theme', 'dashboard_call_forward_chart_color_active') ?? '#d4d4d4')."'\n";

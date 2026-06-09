@@ -337,7 +337,7 @@ $text['label-duration']['ja-jp'] = "間隔";
 $text['label-duration']['ko-kr'] = "지속";
 
 $text['label-destination_number']['en-us'] = "Destination Number";
-$text['label-destination_number']['vi-vn'] = 'Số đích';
+$text['label-destination_number']['vi-vn'] = 'Số đích đến';
 $text['label-destination_number']['en-gb'] = "Destination Number";
 $text['label-destination_number']['ar-eg'] = "رقم الوجهة";
 $text['label-destination_number']['de-at'] = "Zielnummer";

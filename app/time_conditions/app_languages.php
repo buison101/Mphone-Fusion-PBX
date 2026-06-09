@@ -85,7 +85,7 @@ $text['button-dialplan']['ja-jp'] = "ダイヤルプラン";
 $text['button-dialplan']['ko-kr'] = "다이얼플랜";
 
 $text['message-alternate_destination_required']['en-us'] = "Alternate Destination Required";
-$text['message-alternate_destination_required']['vi-vn'] = 'Cần có đích thay thế';
+$text['message-alternate_destination_required']['vi-vn'] = 'Cần có đích đến thay thế';
 $text['message-alternate_destination_required']['en-gb'] = "Alternate Destination Required";
 $text['message-alternate_destination_required']['ar-eg'] = "الوجهة البديلة مطلوبة";
 $text['message-alternate_destination_required']['de-at'] = "Alternatives Ziel benötigt";
@@ -337,7 +337,7 @@ $text['label-settings']['ja-jp'] = "設定";
 $text['label-settings']['ko-kr'] = "설정";
 
 $text['label-select_destination']['en-us'] = "Select Destination";
-$text['label-select_destination']['vi-vn'] = 'Chọn đích';
+$text['label-select_destination']['vi-vn'] = 'Chọn đích đến';
 $text['label-select_destination']['en-gb'] = "Select Destination";
 $text['label-select_destination']['ar-eg'] = "حدد وجهتك";
 $text['label-select_destination']['de-at'] = "Wählen Sie ein Ziel";
@@ -365,7 +365,7 @@ $text['label-select_destination']['ja-jp'] = "目的地を選択してくださ�
 $text['label-select_destination']['ko-kr'] = "목적지 선택";
 
 $text['label-select_default_destination']['en-us'] = "Select Default Destination";
-$text['label-select_default_destination']['vi-vn'] = 'Chọn đích mặc định';
+$text['label-select_default_destination']['vi-vn'] = 'Chọn đích đến mặc định';
 $text['label-select_default_destination']['en-gb'] = "Select Default Destination";
 $text['label-select_default_destination']['ar-eg'] = "حدد الوجهة الافتراضية";
 $text['label-select_default_destination']['de-at'] = "Wählen Sie das Standard Ziel";
@@ -449,7 +449,7 @@ $text['label-required-dialplan_name']['ja-jp'] = "入力してください: 拡�
 $text['label-required-dialplan_name']['ko-kr'] = "제공하십시오: 확장자 이름";
 
 $text['label-required-action']['en-us'] = "Please Provide: Destination";
-$text['label-required-action']['vi-vn'] = 'Vui lòng cung cấp: Đích';
+$text['label-required-action']['vi-vn'] = 'Vui lòng cung cấp: Đích đến';
 $text['label-required-action']['en-gb'] = "Please Provide: Destination";
 $text['label-required-action']['ar-eg'] = "يرجى تقديم: الوجهة";
 $text['label-required-action']['de-at'] = "Bitte geben Sie folgendes an: Ziel";
@@ -1261,7 +1261,7 @@ $text['label-condition']['ja-jp'] = "状態";
 $text['label-condition']['ko-kr'] = "상태";
 
 $text['label-alternate-destination']['en-us'] = "Alternate Destination";
-$text['label-alternate-destination']['vi-vn'] = 'Đích thay thế';
+$text['label-alternate-destination']['vi-vn'] = 'Đích đến thay thế';
 $text['label-alternate-destination']['en-gb'] = "Alternate Destination";
 $text['label-alternate-destination']['ar-eg'] = "وجهة بديلة";
 $text['label-alternate-destination']['de-at'] = "Alternatives Ziel";
@@ -1401,7 +1401,7 @@ $text['description-template']['ja-jp'] = "テンプレートには、事前に�
 $text['description-template']['ko-kr'] = "템플릿은 미리 설정된 시간 조건 목록을 제공합니다.";
 
 $text['description-settings']['en-us'] = "Define custom conditions necessary to execute the destination selected above.";
-$text['description-settings']['vi-vn'] = 'Định nghĩa các điều kiện tùy chỉnh cần thiết để thực thi đích đã chọn ở trên.';
+$text['description-settings']['vi-vn'] = 'Định nghĩa các điều kiện tùy chỉnh cần thiết để thực thi đích đến đã chọn ở trên.';
 $text['description-settings']['en-gb'] = "Define custom conditions necessary to execute the destination selected above.";
 $text['description-settings']['ar-eg'] = "حدد الشروط المخصصة اللازمة لتنفيذ الوجهة المحددة أعلاه.";
 $text['description-settings']['de-at'] = "Definieren Sie benutzerdefinierte Bedingungen für das oben ausgewählte Ziel.";
@@ -1429,7 +1429,7 @@ $text['description-settings']['ja-jp'] = "上で選択した宛先を実行す�
 $text['description-settings']['ko-kr'] = "위에서 선택한 대상을 실행하는 데 필요한 사용자 지정 조건을 정의합니다.";
 
 $text['description-presets_advanced']['en-us'] = "Select a Default Destination above to be <i>applied</i> to each preset checked (without a destination already defined).";
-$text['description-presets_advanced']['vi-vn'] = 'Chọn Đích mặc định ở trên để <i>áp dụng</i> cho từng mẫu được chọn (nếu chưa có đích được định nghĩa).';
+$text['description-presets_advanced']['vi-vn'] = 'Chọn đích đến mặc định ở trên để <i>áp dụng</i> cho từng mẫu được chọn (nếu chưa có đích đến được định nghĩa).';
 $text['description-presets_advanced']['en-gb'] = "Select a Default Destination above to be <i>applied</i> to each preset checked (without a destination already defined).";
 $text['description-presets_advanced']['ar-eg'] = "حدد وجهة افتراضية أعلاه ليتم <i> تطبيقها </ i> على كل إعداد مسبق محدد (بدون وجهة محددة بالفعل).";
 $text['description-presets_advanced']['de-at'] = "Wählen Sie oben ein Standard Ziel , welches jeder ausgewählten Vorgabe zugewiesen wird.";
@@ -1457,7 +1457,7 @@ $text['description-presets_advanced']['ja-jp'] = "上記のデフォルト宛先
 $text['description-presets_advanced']['ko-kr'] = "위에서 선택한 각 사전 설정에 <i>적용</i>할 기본 대상을 선택합니다(대상이 이미 정의되지 않은 상태).";
 
 $text['description-presets']['en-us'] = "Select from available presets. Click a preset name to further customize the conditions and/or destination of each.";
-$text['description-presets']['vi-vn'] = 'Chọn từ các mẫu có sẵn. Bấm vào tên mẫu để tùy chỉnh thêm điều kiện và/hoặc đích của từng mẫu.';
+$text['description-presets']['vi-vn'] = 'Chọn từ các mẫu có sẵn. Bấm vào tên mẫu để tùy chỉnh thêm điều kiện và/hoặc đích đến của từng mẫu.';
 $text['description-presets']['en-gb'] = "Select from available presets. Click a preset name to further customize the conditions and/or destination of each.";
 $text['description-presets']['ar-eg'] = "اختر من الإعدادات المسبقة المتاحة. انقر فوق اسم الإعداد المسبق لتخصيص شروط و / أو وجهة كل منها بشكل أكبر.";
 $text['description-presets']['de-at'] = "Wählen Sie aus den vorhandenen Vorgaben. Klicken Sie den Namen der Voreinstellung um weitere persönliche Anpassungen vorzunehmen";

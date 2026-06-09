@@ -28,7 +28,7 @@ $text['label-click2call']['ja-jp'] = "電話するにはクリック";
 $text['label-click2call']['ko-kr'] = "클릭 투 콜";
 
 $text['desc-click2call']['en-us'] = "Provide the following information to make a call from the source number to the destination number.";
-$text['desc-click2call']['vi-vn'] = 'Cung cấp thông tin sau để thực hiện cuộc gọi từ số nguồn đến số đích.';
+$text['desc-click2call']['vi-vn'] = 'Cung cấp thông tin sau để thực hiện cuộc gọi từ số nguồn đến số đích đến.';
 $text['desc-click2call']['en-gb'] = "Provide the following information to make a call from the source number to the destination number.";
 $text['desc-click2call']['ar-eg'] = "قم بتوفير المعلومات التالية لإجراء مكالمة من رقم المصدر إلى رقم الوجهة.";
 $text['desc-click2call']['de-at'] = "Geben Sie folgende Informationen an um einen Anruf von der Quellrufnummer zur Zielrufniummer her zu stellen";
@@ -136,7 +136,7 @@ $text['label-src-caller-id-num']['ja-jp'] = "発信元の発信者番号";
 $text['label-src-caller-id-num']['ko-kr'] = "소스 발신자 ID 번호";
 
 $text['desc-src-caller-id-num']['en-us'] = "Enter the Caller ID number to send to your phone (you probably want this to be the same as the destination number).";
-$text['desc-src-caller-id-num']['vi-vn'] = 'Nhập số Caller ID gửi đến điện thoại của bạn (thường nên đặt giống số đích).';
+$text['desc-src-caller-id-num']['vi-vn'] = 'Nhập số Caller ID gửi đến điện thoại của bạn (thường nên đặt giống số đích đến).';
 $text['desc-src-caller-id-num']['en-gb'] = "Enter the Caller ID number to send to your phone (you probably want this to be the same as the destination number).";
 $text['desc-src-caller-id-num']['ar-eg'] = "أدخل رقم معرف المتصل لإرساله إلى هاتفك (ربما تريد أن يكون هذا هو نفس رقم الوجهة).";
 $text['desc-src-caller-id-num']['de-at'] = "Geben Sie die Anruferkennung (Nummer) ein, die an Ihr Telefon übermittelt werden soll.(In der Regel ist diese identisch mit der Zielrufnummer).";
@@ -163,7 +163,7 @@ $text['desc-src-caller-id-num']['ja-jp'] = "電話に送信する発信者 ID �
 $text['desc-src-caller-id-num']['ko-kr'] = "전화로 보낼 발신자 ID 번호를 입력합니다(대상 번호와 동일하게 하고 싶을 것입니다).";
 
 $text['label-dest-caller-id-nam']['en-us'] = "Destination Caller ID Name";
-$text['label-dest-caller-id-nam']['vi-vn'] = 'Tên Caller ID đích';
+$text['label-dest-caller-id-nam']['vi-vn'] = 'Tên Caller ID đích đến';
 $text['label-dest-caller-id-nam']['en-gb'] = "Destination Caller ID Name";
 $text['label-dest-caller-id-nam']['ar-eg'] = "اسم هوية المتصل الوجهة";
 $text['label-dest-caller-id-nam']['de-at'] = "Ziel Anruferkennung (Name)";
@@ -190,7 +190,7 @@ $text['label-dest-caller-id-nam']['ja-jp'] = "宛先の発信者ID名";
 $text['label-dest-caller-id-nam']['ko-kr'] = "대상 발신자 ID 이름";
 
 $text['desc-dest-caller-id-nam']['en-us'] = "Enter the Caller ID name to send to the destination number.";
-$text['desc-dest-caller-id-nam']['vi-vn'] = 'Nhập tên Caller ID gửi đến số đích.';
+$text['desc-dest-caller-id-nam']['vi-vn'] = 'Nhập tên Caller ID gửi đến số đích đến.';
 $text['desc-dest-caller-id-nam']['en-gb'] = "Enter the Caller ID name to send to the destination number.";
 $text['desc-dest-caller-id-nam']['ar-eg'] = "أدخل اسم معرف المتصل لإرساله إلى رقم الوجهة.";
 $text['desc-dest-caller-id-nam']['de-at'] = "Geben Sie die Anruferkennung (Name) ein, die an das Ziel übermittelt werden soll.";
@@ -217,7 +217,7 @@ $text['desc-dest-caller-id-nam']['ja-jp'] = "宛先番号に送信する発信�
 $text['desc-dest-caller-id-nam']['ko-kr'] = "상대방 번호로 보낼 발신번호를 입력하세요.";
 
 $text['label-dest-caller-id-num']['en-us'] = "Destination Caller ID Number";
-$text['label-dest-caller-id-num']['vi-vn'] = 'Số Caller ID đích';
+$text['label-dest-caller-id-num']['vi-vn'] = 'Số Caller ID đích đến';
 $text['label-dest-caller-id-num']['en-gb'] = "Destination Caller ID Number";
 $text['label-dest-caller-id-num']['ar-eg'] = "رقم هوية المتصل الوجهة";
 $text['label-dest-caller-id-num']['de-at'] = "Ziel Anruferkennung (Nummer)";
@@ -244,7 +244,7 @@ $text['label-dest-caller-id-num']['ja-jp'] = "宛先の発信者番号";
 $text['label-dest-caller-id-num']['ko-kr'] = "대상 발신자 ID 번호";
 
 $text['desc-dest-caller-id-num']['en-us'] = "Enter the Caller ID number to send to the destination number (you probably want this to be your phone number).";
-$text['desc-dest-caller-id-num']['vi-vn'] = 'Nhập số Caller ID gửi đến số đích (thường nên đặt là số điện thoại của bạn).';
+$text['desc-dest-caller-id-num']['vi-vn'] = 'Nhập số Caller ID gửi đến số đích đến (thường nên đặt là số điện thoại của bạn).';
 $text['desc-dest-caller-id-num']['en-gb'] = "Enter the Caller ID number to send to the destination number (you probably want this to be your phone number).";
 $text['desc-dest-caller-id-num']['ar-eg'] = "أدخل رقم معرف المتصل لإرساله إلى رقم الوجهة (ربما تريد أن يكون هذا رقم هاتفك).";
 $text['desc-dest-caller-id-num']['de-at'] = "Geben Sie die Anruferkennung (Nummer) ein, die an das Ziel übermittelt werden soll (Normalerweise Ihre Rufnummer).";
@@ -325,7 +325,7 @@ $text['desc-src-num']['ja-jp'] = "電話番号を入力してください。 こ
 $text['desc-src-num']['ko-kr'] = "전화번호를 입력하세요. 이것은 시스템의 내선 번호이거나 다른 번호(예: 휴대폰)일 수 있습니다.";
 
 $text['label-dest-num']['en-us'] = "Destination Number";
-$text['label-dest-num']['vi-vn'] = 'Số đích';
+$text['label-dest-num']['vi-vn'] = 'Số đích đến';
 $text['label-dest-num']['en-gb'] = "Destination Number";
 $text['label-dest-num']['ar-eg'] = "رقم الوجهة";
 $text['label-dest-num']['de-at'] = "Ziel Rufnummer";
@@ -568,7 +568,7 @@ $text['label-ringback']['ja-jp'] = "リングバック";
 $text['label-ringback']['ko-kr'] = "링백";
 
 $text['desc-ringback']['en-us'] = "Defines what you will hear while destination is being called. The choices are music (music on hold) ring (ring tone).";
-$text['desc-ringback']['vi-vn'] = 'Định nghĩa âm bạn sẽ nghe trong khi số đích đang được gọi. Các lựa chọn là music (nhạc chờ) hoặc ring (nhạc chuông).';
+$text['desc-ringback']['vi-vn'] = 'Định nghĩa âm bạn sẽ nghe trong khi số đích đến đang được gọi. Các lựa chọn là music (nhạc chờ) hoặc ring (nhạc chuông).';
 $text['desc-ringback']['en-gb'] = "Defines what you will hear while destination is being called. The choices are music (music on hold) ring (ring tone).";
 $text['desc-ringback']['ar-eg'] = "يحدد ما سوف تسمعه أثناء الاتصال بالوجهة. الاختيارات هي رنين الموسيقى (الموسيقى قيد الانتظار) (نغمة الرنين).";
 $text['desc-ringback']['de-at'] = "Geben Sie an, was Sie hören möchten, während die Verbindung aufgebaut wird. Zur Auswahl stehen musik (Wartemusik) oder Rufton";

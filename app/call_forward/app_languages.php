@@ -460,7 +460,7 @@ $text['label-dnd']['ja-jp'] = "邪魔しないでください";
 $text['label-dnd']['ko-kr'] = "방해하지 마";
 
 $text['label-destinations']['en-us'] = "Destinations";
-$text['label-destinations']['vi-vn'] = "Đích";
+$text['label-destinations']['vi-vn'] = "Đích đến";
 $text['label-destinations']['en-gb'] = "Destinations";
 $text['label-destinations']['ar-eg'] = "الأماكن";
 $text['label-destinations']['de-at'] = "Ziele";
@@ -595,7 +595,7 @@ $text['label-destination_prompt']['ja-jp'] = "促す";
 $text['label-destination_prompt']['ko-kr'] = "즉각적인";
 
 $text['label-destination_number']['en-us'] = "Destination";
-$text['label-destination_number']['vi-vn'] = "Đích";
+$text['label-destination_number']['vi-vn'] = "Đích đến";
 $text['label-destination_number']['en-gb'] = "Destination";
 $text['label-destination_number']['ar-eg'] = "وجهة";
 $text['label-destination_number']['de-at'] = "Ziel";
@@ -649,7 +649,7 @@ $text['label-destination_delay']['ja-jp'] = "遅れ";
 $text['label-destination_delay']['ko-kr'] = "지연";
 
 $text['label-destination']['en-us'] = "Destination";
-$text['label-destination']['vi-vn'] = "Đích";
+$text['label-destination']['vi-vn'] = "Đích đến";
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "وجهة";
 $text['label-destination']['de-at'] = "Ziel";
@@ -893,7 +893,7 @@ $text['description-no_answer']['ja-jp'] = "有効にすると、内線番号で�
 $text['description-no_answer']['ko-kr'] = "활성화된 경우 내선에서 활성화된 음성 메일 값을 재정의합니다.";
 
 $text['description-not_registered']['en-us'] = "If endpoint is not reachable, forward to this destination before going to voicemail.";
-$text['description-not_registered']['vi-vn'] = "Nếu endpoint không liên lạc được, chuyển tiếp đến đích này trước khi vào thư thoại.";
+$text['description-not_registered']['vi-vn'] = "Nếu endpoint không liên lạc được, chuyển tiếp đến đích đến này trước khi vào thư thoại.";
 $text['description-not_registered']['en-gb'] = "If endpoint is not reachable, forward to this destination before going to voicemail.";
 $text['description-not_registered']['ar-eg'] = "إذا كانت نقطة النهاية لا يمكن الوصول إليها ، فأعد توجيهها إلى هذه الوجهة قبل الانتقال إلى البريد الصوتي.";
 $text['description-not_registered']['de-at'] = "Rufweiterleitung an neues Ziel, wenn ursprüngliches Ziel nicht erreichbar ist, bevor die Mailbox aktiviert wird.";
@@ -920,7 +920,7 @@ $text['description-not_registered']['ja-jp'] = "エンドポイントに到達�
 $text['description-not_registered']['ko-kr'] = "끝점에 도달할 수 없는 경우 음성 메일로 이동하기 전에 이 대상으로 전달하십시오.";
 
 $text['description-ignore_busy']['en-us'] = "Interrupt the call if a destination is busy.";
-$text['description-ignore_busy']['vi-vn'] = "Ngắt cuộc gọi nếu một đích đang bận.";
+$text['description-ignore_busy']['vi-vn'] = "Ngắt cuộc gọi nếu một đích đến đang bận.";
 $text['description-ignore_busy']['en-gb'] = "Interrupt the call if a destination is busy.";
 $text['description-ignore_busy']['ar-eg'] = "مقاطعة المكالمة إذا كانت الوجهة مشغولة.";
 $text['description-ignore_busy']['de-at'] = "Anruf unterbrechen wenn ein Ziel besetzt ist.";
@@ -1028,7 +1028,7 @@ $text['description-cid-name-prefix']['ja-jp'] = "発信者 ID 名のプレフィ
 $text['description-cid-name-prefix']['ko-kr'] = "발신자 ID 이름 접두사를 설정합니다.";
 
 $text['description-call-prompt']['en-us'] = "Prompt to accept the call for external destinations.";
-$text['description-call-prompt']['vi-vn'] = "Nhắc để chấp nhận cuộc gọi cho các đích bên ngoài.";
+$text['description-call-prompt']['vi-vn'] = "Nhắc để chấp nhận cuộc gọi cho các đích đến bên ngoài.";
 $text['description-call-prompt']['en-gb'] = "Prompt to accept the call for external destinations.";
 $text['description-call-prompt']['ar-eg'] = "موجه لقبول المكالمة للوجهات الخارجية.";
 $text['description-call-prompt']['de-at'] = "Nachfragen, ob der Anruf auch wirklich durchgestellt werden soll.";
@@ -1082,7 +1082,7 @@ $text['description-call_routing']['ja-jp'] = "次の内線番号の代替イン�
 $text['description-call_routing']['ko-kr'] = "다음 내선에 대한 대체 인바운드 통화 처리를 정의합니다.";
 
 $text['description-call_forward']['en-us'] = "Forward all calls to the specified destination.";
-$text['description-call_forward']['vi-vn'] = "Chuyển tiếp tất cả cuộc gọi đến đích đã chỉ định.";
+$text['description-call_forward']['vi-vn'] = "Chuyển tiếp tất cả cuộc gọi đến đích đến đã chỉ định.";
 $text['description-call_forward']['en-gb'] = "Forward all calls to the specified destination.";
 $text['description-call_forward']['ar-eg'] = "إعادة توجيه جميع المكالمات إلى الوجهة المحددة.";
 $text['description-call_forward']['de-at'] = "Leiten Sie alle Anrufe an das angegebene Ziel.";

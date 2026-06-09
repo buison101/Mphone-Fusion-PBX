@@ -53,7 +53,7 @@ echo "</span>\n";
 
 		// Use your theme colors: [main, accent1, accent2]
 		const dashboard_network_usage_chart_main_color = [
-			'<?php echo($settings->get('theme', 'dashboard_network_usage_chart_main_color', [0 => '#03c04a'])[0]); ?>',  // green default
+			'<?php echo($settings->get('theme', 'dashboard_network_usage_chart_main_color', [0 => '#28a745'])[0]); ?>',  // green default
 			'<?php echo($settings->get('theme', 'dashboard_network_usage_chart_main_color', [1 => '#ff9933'])[1]); ?>'   // orange default
 		];
 

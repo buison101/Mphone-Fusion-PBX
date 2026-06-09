@@ -499,7 +499,7 @@ $text['label-outbound']['ja-jp'] = "アウトバウンド";
 $text['label-outbound']['ko-kr'] = "배 밖으로";
 
 $text['label-destination']['en-us'] = "Destination";
-$text['label-destination']['vi-vn'] = 'Đích';
+$text['label-destination']['vi-vn'] = 'Đích đến';
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "وجهة";
 $text['label-destination']['de-at'] = "Ziel";

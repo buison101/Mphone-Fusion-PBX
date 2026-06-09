@@ -785,7 +785,7 @@ $text['label-digit_length']['ja-jp'] = "桁の長さ";
 $text['label-digit_length']['ko-kr'] = "자릿수 길이";
 
 $text['label-destination']['en-us'] = "Destination";
-$text['label-destination']['vi-vn'] = 'Đích';
+$text['label-destination']['vi-vn'] = 'Đích đến';
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "الوجهة";
 $text['label-destination']['de-at'] = "Ziel";
@@ -1205,7 +1205,7 @@ $text['description-timeout']['ja-jp'] = "挨拶または確認マクロの再生
 $text['description-timeout']['ko-kr'] = "인사말 또는 확인 매크로를 재생한 후 대기하는 시간(밀리초)입니다.";
 
 $text['description-ring_back']['en-us'] = "Defines what the caller will hear while the destination is being called.";
-$text['description-ring_back']['vi-vn'] = 'Xác định âm thanh người gọi sẽ nghe trong khi đích đang được gọi.';
+$text['description-ring_back']['vi-vn'] = 'Xác định âm thanh người gọi sẽ nghe trong khi đích đến đang được gọi.';
 $text['description-ring_back']['en-gb'] = "Defines what the caller will hear while the destination is being called.";
 $text['description-ring_back']['ar-eg'] = "يحدد ما سيسمعه المتصل بينما يتم استدعاء الوجهة";
 $text['description-ring_back']['de-at'] = "Definiert was der Anrufer hört wenn das Ziel angerufen wird.";
@@ -1289,7 +1289,7 @@ $text['description-options']['ja-jp'] = "IVR メニューの発信者オプシ�
 $text['description-options']['ko-kr'] = "IVR 메뉴에 대한 발신자 옵션을 정의합니다.";
 
 $text['description-option_list']['en-us'] = "The recording presents options to the caller. Options match key presses (DTMF digits) from the caller which directs the call to the destinations.";
-$text['description-option_list']['vi-vn'] = 'Bản ghi âm trình bày các tùy chọn cho người gọi. Tùy chọn khớp với phím bấm (chữ số DTMF) của người gọi để chuyển cuộc gọi đến các đích.';
+$text['description-option_list']['vi-vn'] = 'Bản ghi âm trình bày các tùy chọn cho người gọi. Tùy chọn khớp với phím bấm (chữ số DTMF) của người gọi để chuyển cuộc gọi đến các đích đến.';
 $text['description-option_list']['en-gb'] = "The recording presents options to the caller. Options match key presses (DTMF digits) from the caller which directs the call to the destinations.";
 $text['description-option_list']['ar-eg'] = "التسجيل يقدم خيارات للمتصل وتتطابق الخيارات مع الصحافة الرئيسية (أرقام الصندوق) من جهاز الاتصال الذي يوجه النداء إلى الوجهات.";
 $text['description-option_list']['de-at'] = "Die Aufnahme bietet dem Anrufer optionen an. Diese Optionen müssen den Tastendrücken entsprechen die den Anrufer an das entsprechende Ziel führen.";
@@ -1317,7 +1317,7 @@ $text['description-option_list']['ja-jp'] = "録音により、発信者にオ�
 $text['description-option_list']['ko-kr'] = "녹음은 발신자에게 옵션을 제공합니다. 옵션은 통화를 대상으로 보내는 발신자의 키 누름(DTMF 숫자)과 일치합니다.";
 
 $text['description-option_add_edit']['en-us'] = "The recording presents options to the caller. Options match key presses (DTMF digits) from the caller which directs the call to the destinations. ";
-$text['description-option_add_edit']['vi-vn'] = 'Bản ghi âm trình bày các tùy chọn cho người gọi. Tùy chọn khớp với phím bấm (chữ số DTMF) của người gọi để chuyển cuộc gọi đến các đích. ';
+$text['description-option_add_edit']['vi-vn'] = 'Bản ghi âm trình bày các tùy chọn cho người gọi. Tùy chọn khớp với phím bấm (chữ số DTMF) của người gọi để chuyển cuộc gọi đến các đích đến. ';
 $text['description-option_add_edit']['en-gb'] = "The recording presents options to the caller. Options match key presses (DTMF digits) from the caller which directs the call to the destinations. ";
 $text['description-option_add_edit']['ar-eg'] = "التسجيل يقدم خيارات للمتصل وتتطابق الخيارات مع الصحافة الرئيسية (أرقام الصندوق) من جهاز الاتصال الذي يوجه النداء إلى الوجهات.";
 $text['description-option_add_edit']['de-at'] = "Die Aufnahme bietet dem Anrufer optionen an. Diese Optionen müssen den Tastendrücken entsprechen die den Anrufer an das entsprechende Ziel führen.";
@@ -1457,7 +1457,7 @@ $text['description-max_failures']['ja-jp'] = "終了するまでの最大再試�
 $text['description-max_failures']['ko-kr'] = "종료 전 최대 재시도 횟수입니다.";
 
 $text['description-ivr_menus']['en-us'] = "The IVR Menu plays a recording or a pre-defined phrase that presents the caller with options to choose from. Each option has a corresponding destination. The destinations can be extensions, voicemail, other IVR menus, call groups, FAX extensions, and more.";
-$text['description-ivr_menus']['vi-vn'] = 'Menu IVR phát một bản ghi âm hoặc cụm từ đã định nghĩa sẵn để trình bày các tùy chọn cho người gọi. Mỗi tùy chọn có một đích tương ứng. Đích có thể là máy nhánh, thư thoại, menu IVR khác, nhóm gọi, máy nhánh FAX và nhiều mục khác.';
+$text['description-ivr_menus']['vi-vn'] = 'Menu IVR phát một bản ghi âm hoặc cụm từ đã định nghĩa sẵn để trình bày các tùy chọn cho người gọi. Mỗi tùy chọn có một đích đến tương ứng. Đích đến có thể là máy nhánh, thư thoại, menu IVR khác, nhóm gọi, máy nhánh FAX và nhiều mục khác.';
 $text['description-ivr_menus']['en-gb'] = "The IVR Menu plays a recording or a pre-defined phrase that presents the caller with options to choose from. Each option has a corresponding destination. The destinations can be extensions, voicemail, other IVR menus, call groups, FAX extensions, and more.";
 $text['description-ivr_menus']['ar-eg'] = "The IVR (مينو) يعزف تسجيلاً أو عبارة محددة مسبقاً تعرض على المتصل خيارات للاختيار منها ولكل خيار وجهة مقابلة. ويمكن أن تكون الوجهات هي التمديدات، والبريد الصوتي، وأجهزة الاتصال الأخرى، ومجموعات الاتصال، وتمديدات الخدمة الميدانية، والأكثر.";
 $text['description-ivr_menus']['de-at'] = "Die Automatische Vermittlung spielt eine Aufnahme oder eine vordefinierte Phrase ab von welcher der Anrufe seine Optionen wählt. Jede Option hat ein entsprechendes Ziel. Das Ziel kann eine Nebenstelle, eine Mailbox eine andere Automatische Vermittlung, Rufgruppen, Fax Server und weitere Funktionen sein.";
@@ -1485,7 +1485,7 @@ $text['description-ivr_menus']['ja-jp'] = "IVR メニューでは、録音また
 $text['description-ivr_menus']['ko-kr'] = "IVR 메뉴는 발신자에게 선택할 수 있는 옵션을 제공하는 녹음 또는 미리 정의된 문구를 재생합니다. 각 옵션에는 해당 대상이 있습니다. 대상은 내선 번호, 음성 메일, 기타 IVR 메뉴, 통화 그룹, FAX 내선 번호 등이 될 수 있습니다.";
 
 $text['description-ivr_menu']['en-us'] = "The IVR Menu plays a recording or a pre-defined phrase that presents the caller with options to choose from. Each option has a corresponding destination. The destinations can be extensions, voicemail, other IVR menus, call groups, FAX extensions, and more.";
-$text['description-ivr_menu']['vi-vn'] = 'Menu IVR phát một bản ghi âm hoặc cụm từ đã định nghĩa sẵn để trình bày các tùy chọn cho người gọi. Mỗi tùy chọn có một đích tương ứng. Đích có thể là máy nhánh, thư thoại, menu IVR khác, nhóm gọi, máy nhánh FAX và nhiều mục khác.';
+$text['description-ivr_menu']['vi-vn'] = 'Menu IVR phát một bản ghi âm hoặc cụm từ đã định nghĩa sẵn để trình bày các tùy chọn cho người gọi. Mỗi tùy chọn có một đích đến tương ứng. Đích đến có thể là máy nhánh, thư thoại, menu IVR khác, nhóm gọi, máy nhánh FAX và nhiều mục khác.';
 $text['description-ivr_menu']['en-gb'] = "The IVR Menu plays a recording or a pre-defined phrase that presents the caller with options to choose from. Each option has a corresponding destination. The destinations can be extensions, voicemail, other IVR menus, call groups, FAX extensions, and more.";
 $text['description-ivr_menu']['ar-eg'] = "The IVR (مينو) يعزف تسجيلاً أو عبارة محددة مسبقاً تعرض على المتصل خيارات للاختيار منها ولكل خيار وجهة مقابلة. ويمكن أن تكون الوجهات هي التمديدات، والبريد الصوتي، وأجهزة الاتصال الأخرى، ومجموعات الاتصال، وتمديدات الخدمة الميدانية، والأكثر.";
 $text['description-ivr_menu']['de-at'] = "Die Automatische Vermittlung spielt eine Aufnahme oder eine vordefinierte Phrase ab von welcher der Anrufe seine Optionen wählt. Jede Option hat ein entsprechendes Ziel. Das Ziel kann eine Nebenstelle, eine Mailbox eine andere Automatische Vermittlung, Rufgruppen, Fax Server und weitere Funktionen sein.";
@@ -1793,7 +1793,7 @@ $text['description-digit_length']['ja-jp'] = "許可される最大桁数。";
 $text['description-digit_length']['ko-kr'] = "허용되는 최대 자릿수입니다.";
 
 $text['description-destination']['en-us'] = "Select the destination.";
-$text['description-destination']['vi-vn'] = 'Chọn đích.';
+$text['description-destination']['vi-vn'] = 'Chọn đích đến.';
 $text['description-destination']['en-gb'] = "Select the destination.";
 $text['description-destination']['ar-eg'] = "اختيار الوجهة.";
 $text['description-destination']['de-at'] = "Wählen Sie das Ziel.";

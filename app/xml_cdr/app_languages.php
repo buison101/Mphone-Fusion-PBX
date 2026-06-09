@@ -2433,7 +2433,7 @@ $text['label-direction']['ja-jp'] = "方向";
 $text['label-direction']['ko-kr'] = "방향";
 
 $text['label-destination']['en-us'] = "Destination";
-$text['label-destination']['vi-vn'] = 'Đích';
+$text['label-destination']['vi-vn'] = 'Đích đến';
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "وجهة";
 $text['label-destination']['de-at'] = "Ziel";
@@ -2713,7 +2713,7 @@ $text['label-outbound_caller_id_name']['ja-jp'] = "発信者ID名";
 $text['label-outbound_caller_id_name']['ko-kr'] = "아웃바운드 발신자 ID 이름";
 
 $text['label-caller_destination']['en-us'] = "Caller Destination";
-$text['label-caller_destination']['vi-vn'] = 'Đích người gọi';
+$text['label-caller_destination']['vi-vn'] = 'Đích đến của người gọi';
 $text['label-caller_destination']['en-gb'] = "Caller Destination";
 $text['label-caller_destination']['ar-eg'] = "وجهة المتصل";
 $text['label-caller_destination']['de-at'] = "Rufziel";
@@ -3803,7 +3803,7 @@ $text['label-call_center_queue']['ja-jp'] = "コールセンターのキュー";
 $text['label-call_center_queue']['ko-kr'] = "콜센터 대기열";
 
 $text['description_search']['en-us'] = "Destination and Caller ID (CID) Name fields support the use of an <i>asterisk</i> ('*') as a wildcard character.";
-$text['description_search']['vi-vn'] = 'Các trường Đích và Tên Caller ID (CID) hỗ trợ dùng <i>dấu sao</i> (\'*\') làm ký tự đại diện.';
+$text['description_search']['vi-vn'] = 'Các trường Đích đến và Tên Caller ID (CID) hỗ trợ dùng <i>dấu sao</i> (\'*\') làm ký tự đại diện.';
 $text['description_search']['en-gb'] = "Destination and Caller ID (CID) Name fields support the use of an <i>asterisk</i> ('*') as a wildcard character.";
 $text['description_search']['ar-eg'] = "يدعم حقلا الوجهة واسم تعريف المتصل استخدام علامة النجمة كحرف بدل.";
 $text['description_search']['de-at'] = "Info: Ziel und Anruferkennung (CID) Namesfelder unterstützen die Verwendung von Stern ('*') als Wildcard Zeichen.";
@@ -3859,7 +3859,7 @@ $text['description-details']['ja-jp'] = "通話とそれに関するすべての
 $text['description-details']['ko-kr'] = "통화에 대한 자세한 보기 및 통화와 관련된 모든 정보. 이 정보에는 발신자 ID 이름 및 번호, 채널 데이터, 통화 변수, 통화 흐름, 타이밍 정보 및 기타 유용한 통화 세부 정보가 포함됩니다.";
 
 $text['description']['en-us'] = "Call Detail Records (CDRs) are detailed information on the calls. The information contains source, destination, duration, and other useful call details. Use the fields to filter the information for the specific call records that are desired. Records in the call list can be saved locally using the Export button.";
-$text['description']['vi-vn'] = 'Chi tiết cuộc gọi (CDR) gồm thông tin về nguồn, đích, thời lượng và các dữ liệu hữu ích khác. Dùng các trường để lọc đúng cuộc gọi cần xem. Có thể lưu danh sách bằng nút Xuất.';
+$text['description']['vi-vn'] = 'Chi tiết cuộc gọi (CDR) gồm thông tin về nguồn, đích đến, thời lượng và các dữ liệu hữu ích khác. Dùng các trường để lọc đúng cuộc gọi cần xem. Có thể lưu danh sách bằng nút Xuất.';
 $text['description']['en-gb'] = "Call Detail Records (CDRs) are detailed information on the calls. The information contains source, destination, duration, and other useful call details. Use the fields to filter the information for the specific call records that are desired. Records in the call list can be saved locally using the Export button.";
 $text['description']['ar-eg'] = "سجلات تفاصيل المكالمات هي معلومات مفصلة عن المكالمات. تحتوي المعلومات على المصدر والوجهة والمدة وتفاصيل أخرى مفيدة للمكالمات. استخدم الحقول لتصفية المعلومات الخاصة بسجلات المكالمات المحددة المطلوبة. يمكن حفظ السجلات في قائمة المكالمات محليًا باستخدام زر التصدير.";
 $text['description']['de-at'] = "Call Detail Records (CDRs) enthalten detaiilierte Informationen zu den Anrufen. Die Information beinhaltet Quelle, Ziel, Dauer und andere nützliche Details. Benutzen Sie die Felder um Informationen betreffend spezifischer Anrufe zu filtern. Datensätze in der Anruferliste können mittels der Export-Funktion lokal gespeichert werden.";
