@@ -925,7 +925,7 @@ $text['label-missed_call']['ja-jp'] = "不在着信";
 $text['label-missed_call']['ko-kr'] = "부재중 전화";
 
 $text['label-ring_group_forward']['en-us'] = "Ring Group Forward";
-$text['label-ring_group_forward']['vi-vn'] = "Chuyển tiếp nhóm đổ chuông";
+$text['label-ring_group_forward']['vi-vn'] = "Chuyển tiếp nhóm";
 $text['label-ring_group_forward']['en-gb'] = "Ring Group Forward";
 $text['label-ring_group_forward']['ar-eg'] = "إعادة توجيه";
 $text['label-ring_group_forward']['de-at'] = "Rufgruppenweiterleitung";
@@ -1706,8 +1706,12 @@ $text['label-forwarding']['zh-cn'] = "转发";
 $text['label-forwarding']['ja-jp'] = "転送";
 $text['label-forwarding']['ko-kr'] = "전송";
 
+$text['header-ring_group_forward']['en-us'] = "Ring Group Forward";
+$text['header-ring_group_forward']['vi-vn'] = "Chuyển tiếp nhóm";
+$text['header-ring_group_forward']['en-gb'] = "Ring Group Forward";
+
 $text['header-ring-group-forward']['en-us'] = "Ring Group Forward";
-$text['header-ring-group-forward']['vi-vn'] = "Chuyển tiếp nhóm đổ chuông";
+$text['header-ring-group-forward']['vi-vn'] = "Chuyển tiếp nhóm";
 $text['header-ring-group-forward']['en-gb'] = "Ring Group Forward";
 $text['header-ring-group-forward']['ar-eg'] = "فريق الرنين إلى الأمام";
 $text['header-ring-group-forward']['de-at'] = "Rufgruppe weiterleiten";
@@ -1931,7 +1935,7 @@ $text['description-ringback']['ja-jp'] = "宛先への通話中に発信者に�
 $text['description-ringback']['ko-kr'] = "목적지가 호출되는 동안 발신자가 듣게 될 내용을 정의합니다.";
 
 $text['description-ring-group-forward']['en-us'] = "Forward a called Ring Group to an alternate destination.";
-$text['description-ring-group-forward']['vi-vn'] = "Chuyển tiếp nhóm đổ chuông được gọi đến một đích thay thế.";
+$text['description-ring-group-forward']['vi-vn'] = "Chuyển tiếp nhóm đến một đích thay thế.";
 $text['description-ring-group-forward']['en-gb'] = "Forward a called Ring Group to an alternate destination.";
 $text['description-ring-group-forward']['ar-eg'] = "قم بإعادة توجيه مجموعة Ring المسماة إلى وجهة بديلة.";
 $text['description-ring-group-forward']['de-at'] = "Leitet Anrufe an ein alternatives Ziel weiter.";

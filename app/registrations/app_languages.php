@@ -1,5 +1,9 @@
 <?php
 
+$text['title-registrations']['en-us'] = "Registrations";
+$text['title-registrations']['vi-vn'] = 'Quản lý đăng ký';
+$text['title-registrations']['en-gb'] = "Registrations";
+
 $text['label-user']['en-us'] = "User";
 $text['label-user']['vi-vn'] = 'Người dùng';
 $text['label-user']['en-gb'] = "User";
@@ -477,7 +481,7 @@ $text['label-sip_profile_name']['ja-jp'] = "プロフィール";
 $text['label-sip_profile_name']['ko-kr'] = "프로필";
 
 $text['header-registrations']['en-us'] = "Registrations";
-$text['header-registrations']['vi-vn'] = 'Đăng ký';
+$text['header-registrations']['vi-vn'] = 'Quản lý đăng ký';
 $text['header-registrations']['en-gb'] = "Registrations";
 $text['header-registrations']['ar-eg'] = "التسجيلات";
 $text['header-registrations']['de-at'] = "Registrierungen";

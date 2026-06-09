@@ -865,7 +865,7 @@ $text['description-user-add']['ja-jp'] = "この会議の内線番号を管理�
 $text['description-user-add']['ko-kr'] = "이 회의 확장을 관리할 수 있는 사용자를 할당합니다.";
 
 $text['description-profile']['en-us'] = "Conference Profile is a collection of settings for the conference.";
-$text['description-profile']['vi-vn'] = 'Conference Profile là tập hợp cấu hình cho hội nghị.';
+$text['description-profile']['vi-vn'] = 'Hồ sơ hội nghị là tập hợp cấu hình cho hội nghị.';
 $text['description-profile']['en-gb'] = "Conference Profile is a collection of settings for the conference.";
 $text['description-profile']['ar-eg'] = "ملف تعريف المؤتمر عبارة عن مجموعة من الإعدادات الخاصة بالمؤتمر.";
 $text['description-profile']['de-at'] = "Ein Profil ist eine Zusammenfassung von Parametern für die Konferenz.";

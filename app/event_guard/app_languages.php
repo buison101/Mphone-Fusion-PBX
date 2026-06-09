@@ -1,7 +1,11 @@
 <?php
 
+$text['title-event_guard']['en-us'] = "Event Guard";
+$text['title-event_guard']['vi-vn'] = 'Đăng ký bị chặn';
+$text['title-event_guard']['en-gb'] = "Event Guard";
+
 $text['title-event_guard_logs']['en-us'] = "Event Guard";
-$text['title-event_guard_logs']['vi-vn'] = 'Event Guard';
+$text['title-event_guard_logs']['vi-vn'] = 'Đăng ký bị chặn';
 $text['title-event_guard_logs']['en-gb'] = "Event Guard";
 $text['title-event_guard_logs']['ar-eg'] = "حراس الأحداث";
 $text['title-event_guard_logs']['de-at'] = "Ereignisüberwachung";
@@ -29,7 +33,7 @@ $text['title-event_guard_logs']['ja-jp'] = "イベントガード";
 $text['title-event_guard_logs']['ko-kr'] = "이벤트 가드";
 
 $text['title-event_guard_log']['en-us'] = "Event Guard";
-$text['title-event_guard_log']['vi-vn'] = 'Event Guard';
+$text['title-event_guard_log']['vi-vn'] = 'Đăng ký bị chặn';
 $text['title-event_guard_log']['en-gb'] = "Event Guard";
 $text['title-event_guard_log']['ar-eg'] = "حراس الأحداث";
 $text['title-event_guard_log']['de-at'] = "Ereignisüberwachung";

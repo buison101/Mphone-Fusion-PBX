@@ -1,7 +1,7 @@
 <?php
 
 $text['title-conference_centers']['en-us'] = "Conference Centers";
-$text['title-conference_centers']['vi-vn'] = 'Conference Center';
+$text['title-conference_centers']['vi-vn'] = 'Phòng hội nghị';
 $text['title-conference_centers']['en-gb'] = "Conference Centers";
 $text['title-conference_centers']['ar-eg'] = "مراكز المؤتمرات";
 $text['title-conference_centers']['de-at'] = "Konferenz Zentralen";
@@ -28,7 +28,7 @@ $text['title-conference_centers']['ja-jp'] = "会議センター";
 $text['title-conference_centers']['ko-kr'] = "컨퍼런스 센터";
 
 $text['title-conference_center']['en-us'] = "Conference Center";
-$text['title-conference_center']['vi-vn'] = 'Conference Center';
+$text['title-conference_center']['vi-vn'] = 'Phòng hội nghị';
 $text['title-conference_center']['en-gb'] = "Conference Center";
 $text['title-conference_center']['ar-eg'] = "مركز المؤتمرات";
 $text['title-conference_center']['de-at'] = "Konferenz Zentrale";
@@ -55,7 +55,7 @@ $text['title-conference_center']['ja-jp'] = "会議センター";
 $text['title-conference_center']['ko-kr'] = "컨퍼런스 센터";
 
 $text['title_description-conference_centers']['en-us'] = "Conference Centers are a group of conference rooms. They can be organized by cost center, geographically, or other criteria.";
-$text['title_description-conference_centers']['vi-vn'] = 'Conference Center là nhóm các phòng hội nghị. Có thể tổ chức theo trung tâm chi phí, vị trí địa lý hoặc tiêu chí khác.';
+$text['title_description-conference_centers']['vi-vn'] = 'Phòng hội nghị là nhóm các phòng họp, có thể tổ chức theo trung tâm chi phí, vị trí địa lý hoặc tiêu chí khác.';
 $text['title_description-conference_centers']['en-gb'] = "Conference Centers are a group of conference rooms. They can be organized by cost center, geographically, or other criteria.";
 $text['title_description-conference_centers']['ar-eg'] = "مراكز المؤتمرات هي مجموعة من غرف المؤتمرات. يمكن تنظيمها حسب مركز التكلفة أو جغرافيًا أو معايير أخرى.";
 $text['title_description-conference_centers']['de-at'] = "Konferenz-Zentralen sind Gruppen mehrerer Konferenzräume. Diese können anhand diverser Kriterien organisiert werden.";
@@ -82,7 +82,7 @@ $text['title_description-conference_centers']['ja-jp'] = "カンファレンス�
 $text['title_description-conference_centers']['ko-kr'] = "컨퍼런스 센터는 회의실의 그룹입니다. 해당 이용 후기에 달린 코멘트가 없습니다.";
 
 $text['title_description-conference_rooms']['en-us'] = "Conference Rooms are individual meeting places within a Conference Center.";
-$text['title_description-conference_rooms']['vi-vn'] = 'Phòng hội nghị là từng nơi họp riêng trong một Conference Center.';
+$text['title_description-conference_rooms']['vi-vn'] = 'Phòng họp là từng phòng riêng trong một phòng hội nghị.';
 $text['title_description-conference_rooms']['en-gb'] = "Conference Rooms are individual meeting places within a Conference Center.";
 $text['title_description-conference_rooms']['ar-eg'] = "غرف المؤتمرات هي أماكن اجتماعات فردية داخل مركز المؤتمرات.";
 $text['title_description-conference_rooms']['de-at'] = "Konferenzräume sind individuelle Treffpunkte innerhalb eines Konferenzzentrums.";
@@ -136,7 +136,7 @@ $text['label-conference_center_name']['ja-jp'] = "お名前";
 $text['label-conference_center_name']['ko-kr'] = "이름";
 
 $text['description-conference_center_name']['en-us'] = "Enter the conference center name.";
-$text['description-conference_center_name']['vi-vn'] = 'Nhập tên Conference Center.';
+$text['description-conference_center_name']['vi-vn'] = 'Nhập tên phòng hội nghị.';
 $text['description-conference_center_name']['en-gb'] = "Enter the conference center name.";
 $text['description-conference_center_name']['ar-eg'] = "أدخل اسم مركز المؤتمرات.";
 $text['description-conference_center_name']['de-at'] = "Geben Sie den Namen der Konferenz-Zentrale an.";
@@ -190,7 +190,7 @@ $text['label-conference_center_extension']['ja-jp'] = "エクステンション"
 $text['label-conference_center_extension']['ko-kr'] = "제품 정보";
 
 $text['description-conference_center_extension']['en-us'] = "Enter the conference center extension number.";
-$text['description-conference_center_extension']['vi-vn'] = 'Nhập số máy nhánh của Conference Center.';
+$text['description-conference_center_extension']['vi-vn'] = 'Nhập số máy nhánh của phòng hội nghị.';
 $text['description-conference_center_extension']['en-gb'] = "Enter the conference center extension number.";
 $text['description-conference_center_extension']['ar-eg'] = "أدخل الرقم الداخلي لمركز المؤتمرات.";
 $text['description-conference_center_extension']['de-at'] = "Geben Sie eine Nebenstelle für die Konferenz-Zentrale an.";
@@ -271,7 +271,7 @@ $text['description-conference_center_pin_length']['ja-jp'] = "最小PIN番号を
 $text['description-conference_center_pin_length']['ko-kr'] = "최소 PIN 길이를 입력합니다.";
 
 $text['message-conference_center_required']['en-us'] = "Conference Center Required";
-$text['message-conference_center_required']['vi-vn'] = 'Cần có Conference Center';
+$text['message-conference_center_required']['vi-vn'] = 'Cần chọn phòng hội nghị';
 $text['message-conference_center_required']['en-gb'] = "Conference Center Required";
 $text['message-conference_center_required']['ar-eg'] = "مركز المؤتمرات مطلوب";
 $text['message-conference_center_required']['de-at'] = "Konferenzzentrum erforderlich";
@@ -487,7 +487,7 @@ $text['label-conference_center_enabled']['ja-jp'] = "有効化";
 $text['label-conference_center_enabled']['ko-kr'] = "이름";
 
 $text['description-conference_center_enabled']['en-us'] = "Select whether to enable or disable the conference center.";
-$text['description-conference_center_enabled']['vi-vn'] = 'Chọn bật hoặc tắt Conference Center.';
+$text['description-conference_center_enabled']['vi-vn'] = 'Chọn bật hoặc tắt phòng hội nghị.';
 $text['description-conference_center_enabled']['en-gb'] = "Select whether to enable or disable the conference center.";
 $text['description-conference_center_enabled']['ar-eg'] = "حدد ما إذا كنت تريد تمكين أو تعطيل مركز المؤتمرات.";
 $text['description-conference_center_enabled']['de-at'] = "Wählen Sie ob die Konferenz-Zentrale Ein- oder Ausgeschaltet werden soll.";
@@ -595,7 +595,7 @@ $text['title-conference_session_details']['ja-jp'] = "会議セッション詳�
 $text['title-conference_session_details']['ko-kr'] = "컨퍼런스";
 
 $text['title-conference_rooms']['en-us'] = "Conference Rooms";
-$text['title-conference_rooms']['vi-vn'] = 'Phòng hội nghị';
+$text['title-conference_rooms']['vi-vn'] = 'Phòng họp';
 $text['title-conference_rooms']['en-gb'] = "Conference Rooms";
 $text['title-conference_rooms']['ar-eg'] = "غرف المؤتمرات";
 $text['title-conference_rooms']['de-at'] = "Konferenzräume";
@@ -622,7 +622,7 @@ $text['title-conference_rooms']['ja-jp'] = "会議室";
 $text['title-conference_rooms']['ko-kr'] = "회의실";
 
 $text['title-conference_room']['en-us'] = "Conference Room";
-$text['title-conference_room']['vi-vn'] = 'Phòng hội nghị';
+$text['title-conference_room']['vi-vn'] = 'Phòng họp';
 $text['title-conference_room']['en-gb'] = "Conference Room";
 $text['title-conference_room']['ar-eg'] = "غرفة المؤتمرات";
 $text['title-conference_room']['de-at'] = "Konferenzraum";
@@ -1999,7 +1999,7 @@ $text['description-room-name']['ja-jp'] = "会議室名を入力してくださ�
 $text['description-room-name']['ko-kr'] = "회의실의 이름을 입력하십시오.";
 
 $text['description-profile']['en-us'] = "Conference Profile is a collection of settings for the conference center.";
-$text['description-profile']['vi-vn'] = 'Conference Profile là tập hợp cấu hình cho Conference Center.';
+$text['description-profile']['vi-vn'] = 'Hồ sơ hội nghị là tập hợp cấu hình cho phòng hội nghị.';
 $text['description-profile']['en-gb'] = "Conference Profile is a collection of settings for the conference center.";
 $text['description-profile']['ar-eg'] = "ملف تعريف المؤتمر عبارة عن مجموعة من الإعدادات الخاصة بمركز المؤتمرات.";
 $text['description-profile']['de-at'] = "Das Konferenz-Profil ist eine Zusammenfassung von Einstellungen für die Konferenz Zentrale.";
@@ -2134,7 +2134,7 @@ $text['description-conference_session_details']['ja-jp'] = "会議セッショ�
 $text['description-conference_session_details']['ko-kr'] = "회의 회의는 회의 통화의 로그 세부 사항입니다.";
 
 $text['description-conference_centers']['en-us'] = "Conference Centers are a group of conference rooms. They can be organized by cost center, geographically, or other criteria.";
-$text['description-conference_centers']['vi-vn'] = 'Conference Center là nhóm các phòng hội nghị. Có thể tổ chức theo trung tâm chi phí, vị trí địa lý hoặc tiêu chí khác.';
+$text['description-conference_centers']['vi-vn'] = 'Phòng hội nghị là nhóm các phòng họp, có thể tổ chức theo trung tâm chi phí, vị trí địa lý hoặc tiêu chí khác.';
 $text['description-conference_centers']['en-gb'] = "Conference Centers are a group of conference rooms. They can be organized by cost center, geographically, or other criteria.";
 $text['description-conference_centers']['ar-eg'] = "مراكز المؤتمرات هي مجموعة من غرف المؤتمرات. يمكن تنظيمها حسب مركز التكلفة أو جغرافيًا أو معايير أخرى.";
 $text['description-conference_centers']['de-at'] = "Konferenz-Zentralen sind Gruppen mehrere Konferenzräume. Diese können anhand diverse Kriterien wie Kostenstelle, geographisher Ort oder sonstiges organisiert werden.";
@@ -2161,7 +2161,7 @@ $text['description-conference_centers']['ja-jp'] = "カンファレンスセン�
 $text['description-conference_centers']['ko-kr'] = "컨퍼런스 센터는 회의실의 그룹입니다. 해당 이용 후기에 달린 코멘트가 없습니다.";
 
 $text['description-conference_center']['en-us'] = "Conference Center is used to setup one or more conference rooms with a name, extension number, a required pin number length, and a description.";
-$text['description-conference_center']['vi-vn'] = 'Conference Center dùng để thiết lập một hoặc nhiều phòng hội nghị với tên, số máy nhánh, độ dài PIN bắt buộc và mô tả.';
+$text['description-conference_center']['vi-vn'] = 'Dùng để thiết lập một hoặc nhiều phòng hội nghị với tên, số máy nhánh, độ dài PIN bắt buộc và mô tả.';
 $text['description-conference_center']['en-gb'] = "Conference Center is used to setup one or more conference rooms with a name, extension number, a required pin number length, and a description.";
 $text['description-conference_center']['ar-eg'] = "يُستخدم مركز المؤتمرات لإعداد غرفة اجتماعات واحدة أو أكثر باستخدام اسم ورقم داخلي وطول رقم التعريف الشخصي المطلوب ووصف.";
 $text['description-conference_center']['de-at'] = "Konferenz Zentralen ermöglichen die Erstellung von einem oder mehrere Konferenzräume mit Namen, Nebenstelle, benötigte PIN Mindestlänge und eine Beschreibung.";

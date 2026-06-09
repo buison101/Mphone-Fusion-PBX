@@ -141,7 +141,7 @@ $text['message-click_to_mute']['ja-jp'] = "クリックしてメンバーをミ�
 $text['message-click_to_mute']['ko-kr'] = "회원을 음소거하려면 클릭하세요.";
 
 $text['label-conference_center_room']['en-us'] = "Conference Center Room";
-$text['label-conference_center_room']['vi-vn'] = 'Phòng Conference Center';
+$text['label-conference_center_room']['vi-vn'] = 'Phòng hội nghị';
 $text['label-conference_center_room']['en-gb'] = "Conference Center Room";
 $text['label-conference_center_room']['ar-eg'] = "غرفة مركز المؤتمرات";
 $text['label-conference_center_room']['de-at'] = "Konferenz Zentrale";

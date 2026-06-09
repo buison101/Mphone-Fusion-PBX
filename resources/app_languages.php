@@ -6574,7 +6574,7 @@ $text['title-logout']['ja-jp'] = "ログアウト";
 $text['title-logout']['ko-kr'] = "로그아웃";
 
 $text['title-user_profile']['en-us'] = "User Profile";
-$text['title-user_profile']['vi-vn'] = "Hồ sơ người dùng";
+$text['title-user_profile']['vi-vn'] = "Quản lý hồ sơ";
 $text['title-user_profile']['en-gb'] = "User Profile";
 $text['title-user_profile']['ar-eg'] = "ملف المستخدم";
 $text['title-user_profile']['de-at'] = "Benutzerprofil";

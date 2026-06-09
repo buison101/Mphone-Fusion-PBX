@@ -3306,7 +3306,7 @@ $text['description-dialplan_recordings']['ja-jp'] = "\${number} をダイヤル�
 $text['description-dialplan_recordings']['ko-kr'] = "\${number}를 눌러 내선에서 녹음을 생성하세요. PIN을 입력하라는 메시지가 표시될 수 있습니다.";
 
 $text['label-dialplan_ring_group_forward']['en-us'] = "Ring Group Forward";
-$text['label-dialplan_ring_group_forward']['vi-vn'] = 'Chuyển tiếp nhóm đổ chuông';
+$text['label-dialplan_ring_group_forward']['vi-vn'] = 'Chuyển tiếp nhóm';
 $text['label-dialplan_ring_group_forward']['en-gb'] = "Ring Group Forward";
 $text['label-dialplan_ring_group_forward']['ar-eg'] = "تحويل مجموعة الرنين";
 $text['label-dialplan_ring_group_forward']['de-at'] = "Rufgruppen-Weiterleitung";

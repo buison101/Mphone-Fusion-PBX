@@ -144,7 +144,7 @@
 
 //add multi-lingual support
 	$language = new text();
-	$text = $language->get($settings->get('domain','language','en-us'), 'core/user_settings');
+	$text = $language->get($settings->get('domain','language','en-us'), 'app/system');
 
 //get the dashboard label
 	$widget_label = $text['label-'.$widget_key] ?? $widget_name;
@@ -163,7 +163,7 @@ if (!isset($widget_chart_type) || $widget_chart_type == "doughnut") {
 	echo "			{\n";
 	echo "				type: 'doughnut',\n";
 	echo "				data: {\n";
-	echo "					labels: ['Active: ".$total_running."' , 'Inactive: ".($total_services-$total_running)."'],\n";
+	echo "					labels: ['".($text['label-active'] ?? 'Active').": ".$total_running."' , '".($text['label-inactive'] ?? 'Inactive').": ".($total_services-$total_running)."'],\n";
 	echo "					datasets: [{\n";
 	echo "							data: ['".$total_running."','".($total_services-$total_running)."'],\n";
 	echo "							backgroundColor: [\n";
@@ -226,8 +226,8 @@ if ($widget_details_state != 'disabled') {
 	foreach ($services as $info) {
 		$label = $info['label'];
 		$status = $info['running']
-			? "<span style='background-color: #28a745; color: white; padding: 2px 8px; border-radius: 10px;'>Yes</span>"
-			: "<span style='background-color: #dc3545; color: white; padding: 2px 8px; border-radius: 10px;'>No</span>";
+			? "<span style='background-color: #28a745; color: white; padding: 2px 8px; border-radius: 10px;'>".($text['label-yes'] ?? 'Yes')."</span>"
+			: "<span style='background-color: #dc3545; color: white; padding: 2px 8px; border-radius: 10px;'>".($text['label-no'] ?? 'No')."</span>";
 		$etime = isset($info['etime']) ? format_etime($info['etime']) : '-';
 		$pid = $info['pid'] ?? '';
 		$tooltip_attr = $pid ? "title='PID: $pid'" : '';

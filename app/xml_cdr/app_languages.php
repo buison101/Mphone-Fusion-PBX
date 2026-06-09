@@ -57,7 +57,7 @@ $text['title-extension_summary']['ja-jp'] = "拡張機能の概要";
 $text['title-extension_summary']['ko-kr'] = "확장 요약";
 
 $text['title']['en-us'] = "Call Detail Records";
-$text['title']['vi-vn'] = 'Bản ghi chi tiết cuộc gọi';
+$text['title']['vi-vn'] = 'Chi tiết cuộc gọi';
 $text['title']['en-gb'] = "Call Detail Records";
 $text['title']['ar-eg'] = "سجلات تفاصيل المكالمات";
 $text['title']['de-at'] = "Meine Gespräche";
@@ -85,7 +85,7 @@ $text['title']['ja-jp'] = "通話詳細記録";
 $text['title']['ko-kr'] = "통화 내역 기록";
 
 $text['title-call_detail_records']['en-us'] = "Call Detail Records";
-$text['title-call_detail_records']['vi-vn'] = 'Bản ghi chi tiết cuộc gọi';
+$text['title-call_detail_records']['vi-vn'] = 'Chi tiết cuộc gọi';
 $text['title-call_detail_records']['en-gb'] = "Call Detail Records";
 $text['title-call_detail_records']['ar-eg'] = "سجلات تفاصيل المكالمات";
 $text['title-call_detail_records']['de-at'] = "Meine Gespräche";
@@ -141,7 +141,7 @@ $text['title-call-statistics']['ja-jp'] = "通話詳細記録の統計";
 $text['title-call-statistics']['ko-kr'] = "통화 세부 기록 통계";
 
 $text['title-call_detail_records_archive']['en-us'] = "Call Detail Records Archive";
-$text['title-call_detail_records_archive']['vi-vn'] = 'Lưu trữ bản ghi chi tiết cuộc gọi';
+$text['title-call_detail_records_archive']['vi-vn'] = 'Lưu trữ chi tiết cuộc gọi';
 $text['title-call_detail_records_archive']['en-gb'] = "Call Detail Records Archive";
 $text['title-call_detail_records_archive']['ar-eg'] = "Arhiva de înregistrări cu detalii apel";
 $text['title-call_detail_records_archive']['de-at'] = "Meine Gespräche Archiv";
@@ -3859,7 +3859,7 @@ $text['description-details']['ja-jp'] = "通話とそれに関するすべての
 $text['description-details']['ko-kr'] = "통화에 대한 자세한 보기 및 통화와 관련된 모든 정보. 이 정보에는 발신자 ID 이름 및 번호, 채널 데이터, 통화 변수, 통화 흐름, 타이밍 정보 및 기타 유용한 통화 세부 정보가 포함됩니다.";
 
 $text['description']['en-us'] = "Call Detail Records (CDRs) are detailed information on the calls. The information contains source, destination, duration, and other useful call details. Use the fields to filter the information for the specific call records that are desired. Records in the call list can be saved locally using the Export button.";
-$text['description']['vi-vn'] = 'Bản ghi chi tiết cuộc gọi (CDR) là thông tin chi tiết về các cuộc gọi. Thông tin gồm nguồn, đích, thời lượng và các chi tiết hữu ích khác. Dùng các trường để lọc đúng bản ghi cuộc gọi cần xem. Có thể lưu cục bộ các bản ghi trong danh sách bằng nút Xuất.';
+$text['description']['vi-vn'] = 'Chi tiết cuộc gọi (CDR) gồm thông tin về nguồn, đích, thời lượng và các dữ liệu hữu ích khác. Dùng các trường để lọc đúng cuộc gọi cần xem. Có thể lưu danh sách bằng nút Xuất.';
 $text['description']['en-gb'] = "Call Detail Records (CDRs) are detailed information on the calls. The information contains source, destination, duration, and other useful call details. Use the fields to filter the information for the specific call records that are desired. Records in the call list can be saved locally using the Export button.";
 $text['description']['ar-eg'] = "سجلات تفاصيل المكالمات هي معلومات مفصلة عن المكالمات. تحتوي المعلومات على المصدر والوجهة والمدة وتفاصيل أخرى مفيدة للمكالمات. استخدم الحقول لتصفية المعلومات الخاصة بسجلات المكالمات المحددة المطلوبة. يمكن حفظ السجلات في قائمة المكالمات محليًا باستخدام زر التصدير.";
 $text['description']['de-at'] = "Call Detail Records (CDRs) enthalten detaiilierte Informationen zu den Anrufen. Die Information beinhaltet Quelle, Ziel, Dauer und andere nützliche Details. Benutzen Sie die Felder um Informationen betreffend spezifischer Anrufe zu filtern. Datensätze in der Anruferliste können mittels der Export-Funktion lokal gespeichert werden.";

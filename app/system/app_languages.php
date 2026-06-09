@@ -252,6 +252,14 @@ $text['message-unavailable']['zh-cn'] = "不可用";
 $text['message-unavailable']['ja-jp'] = "利用不可";
 $text['message-unavailable']['ko-kr'] = "없는";
 
+$text['label-active']['en-us'] = "Active";
+$text['label-active']['vi-vn'] = 'Đang chạy';
+$text['label-active']['en-gb'] = "Active";
+
+$text['label-inactive']['en-us'] = "Inactive";
+$text['label-inactive']['vi-vn'] = 'Không chạy';
+$text['label-inactive']['en-gb'] = "Inactive";
+
 $text['label-service']['en-us'] = 'Service';
 $text['label-service']['vi-vn'] = 'Dịch vụ';
 $text['label-service']['en-gb'] = 'Service';
@@ -1143,8 +1151,12 @@ $text['label-system_cpu_usage']['zh-cn'] = "CPU使用率";
 $text['label-system_cpu_usage']['ja-jp'] = "CPU使用率";
 $text['label-system_cpu_usage']['ko-kr'] = "CPU 사용량";
 
+$text['label-system_cpu_status']['en-us'] = "System CPU Status";
+$text['label-system_cpu_status']['vi-vn'] = 'Trạng thái CPU';
+$text['label-system_cpu_status']['en-gb'] = "System CPU Status";
+
 $text['label-system_network_status']['en-us'] = "System Network Status";
-$text['label-system_network_status']['vi-vn'] = 'Trạng thái mạng hệ thống';
+$text['label-system_network_status']['vi-vn'] = 'Trạng thái mạng';
 $text['label-system_network_status']['en-gb'] = "System Network Status";
 $text['label-system_network_status']['ar-eg'] = "حالة الشبكة النظامية";
 $text['label-system_network_status']['de-at'] = "System-Netzwerkstatus";
@@ -1170,7 +1182,7 @@ $text['label-system_network_status']['ja-jp'] = "システムネットワーク�
 $text['label-system_network_status']['ko-kr'] = "시스템 네트워크 상태";
 
 $text['label-system_services']['en-us'] = "System Services";
-$text['label-system_services']['vi-vn'] = 'Dịch vụ hệ thống';
+$text['label-system_services']['vi-vn'] = 'Dịch vụ đang chạy';
 $text['label-system_services']['en-gb'] = "System Services";
 $text['label-system_services']['ar-eg'] = "خدمات النظام";
 $text['label-system_services']['de-at'] = "Systemdienste";

@@ -124,6 +124,67 @@ class menu {
 	}
 
 	/**
+	 * Render a compact language toggle for English and Vietnamese.
+	 *
+	 * @param string $layout Header layout name.
+	 *
+	 * @return string
+	 */
+	private function language_toggle_link($layout = 'top') {
+		if (empty($this->username)) {
+			return '';
+		}
+
+		$app_languages = $_SESSION['app']['languages'] ?? [];
+		if (!in_array('en-us', $app_languages, true) || !in_array('vi-vn', $app_languages, true)) {
+			return '';
+		}
+
+		$current_language = strtolower($this->settings->get('domain', 'language', 'en-us'));
+		$current_language = $current_language == 'vi-vn' ? 'vi-vn' : 'en-us';
+		$return_url = $_SERVER['REQUEST_URI'] ?? PROJECT_PATH . '/';
+		$token = (new token)->create('userlanguage');
+
+		$language_options = [
+			'vi-vn' => ['label' => 'Vie', 'flag' => '🇻🇳'],
+			'en-us' => ['label' => 'Eng', 'flag' => '🇺🇸'],
+		];
+
+		$token_parameter = urlencode($token['name']) . "=" . urlencode($token['hash']);
+		$return_parameter = "return=" . urlencode($return_url);
+		$menu_id = 'header_language_menu_' . $layout . '_' . substr(md5($token['hash']), 0, 8);
+		$toggle_style = "display: inline-flex; align-items: center; gap: 6px; height: 32px;";
+		$item_style = "display: flex; align-items: center; gap: 4px; min-height: 32px;";
+		$menu_position_style = $layout == 'side' ? "top: 50%; right: -40%;" : "top: 100%; right: 0;";
+		$menu_style = "display: none; min-width: 8rem; padding: 0px; margin: 0px; position: absolute; " . $menu_position_style . " left: auto; float: left; font-size: 0.9rem; color: rgb(33, 37, 41); text-align: left; list-style: none; background-color: transparent; border: 0px; border-radius: 0px; z-index: 99999; width: 130px;";
+		$language = $language_options[$current_language];
+		$toggle_class = $layout == 'top' ? 'nav-link dropdown-toggle header_language_toggle' : 'dropdown-toggle header_language_toggle';
+		$toggle_script = "event.preventDefault(); event.stopPropagation(); var menu = document.getElementById('" . $menu_id . "'); var open = menu && menu.style.display == 'block'; document.querySelectorAll('.header_language_menu').forEach(function(item){ item.style.display = 'none'; }); if (menu && !open) { menu.style.display = 'block'; }";
+		$html = "<a href='#' class='" . $toggle_class . "' aria-haspopup='true' aria-expanded='false' title='Language' style='" . $toggle_style . "' onclick='" . escape($toggle_script) . "'>";
+		$html .= "<span>" . escape($language['flag'] . ' ' . $language['label']) . "</span>";
+		$html .= "</a>";
+		$html .= "<ul id='" . escape($menu_id) . "' class='dropdown-menu dropdown-menu-right header_language_menu' style='" . $menu_style . "' onclick='event.stopPropagation();'>";
+		foreach ($language_options as $language_code => $language) {
+			if ($language_code == $current_language) {
+				continue;
+			}
+			$link = PROJECT_PATH . "/core/users/user_language.php?language=" . urlencode($language_code) . "&" . $return_parameter . "&" . $token_parameter;
+			$html .= "<li class='nav-item'><a class='nav-link" . ($current_language == $language_code ? " active" : "") . "' href='" . escape($link) . "' style='" . $item_style . "'>";
+			$html .= "<span>" . escape($language['flag']) . "</span>";
+			$html .= "<span>" . escape($language['label']) . "</span>";
+			$html .= "</a></li>";
+		}
+		$html .= "</ul>";
+		$html .= "<script>if (!window.headerLanguageMenuReady) { window.headerLanguageMenuReady = true; document.addEventListener('click', function(){ document.querySelectorAll('.header_language_menu').forEach(function(item){ item.style.display = 'none'; }); }); }</script>";
+
+		if ($layout == 'side') {
+			return "<span class='dropdown header_language' style='display: inline-block; padding-right: 15px; font-size: 0.9rem;'>" . $html . "</span>\n";
+		}
+
+		return "<li class='nav-item dropdown header_language' style='font-size: 0.9rem;'>" . $html . "</li>\n";
+	}
+
+	/**
 	 * Deletes one or more menu items.
 	 *
 	 * @param array $records An array of records to delete, where each record contains a 'uuid' key with the UUID of
@@ -1310,6 +1371,9 @@ class menu {
 		$html .= "			</ul>\n";
 
 		$html .= "			<ul class='navbar-nav ml-auto'>\n";
+		if (!empty($language_toggle_link = $this->language_toggle_link('top'))) {
+			$html .= "		" . $language_toggle_link;
+		}
 		//current user (latter condition for backward compatibility)
 		if (
 			!empty($this->username) &&
@@ -1543,6 +1607,9 @@ class menu {
 		$html .= "</div>\n";
 		//header: right
 		$html .= "<div class='float-right' style='white-space: nowrap;'>";
+		if (!empty($language_toggle_link = $this->language_toggle_link('side'))) {
+			$html .= $language_toggle_link;
+		}
 		//current user
 		//set (default) user graphic size and icon
 		$user_graphic_size = 18;

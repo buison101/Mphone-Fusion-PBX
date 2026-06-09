@@ -784,7 +784,7 @@ $text['label-call-prompt']['ja-jp'] = "プロンプトを呼び出す";
 $text['label-call-prompt']['ko-kr'] = "전화 프롬프트";
 
 $text['label-call_forward']['en-us'] = "Call Forward";
-$text['label-call_forward']['vi-vn'] = "Chuyển tiếp cuộc gọi";
+$text['label-call_forward']['vi-vn'] = "Chuyển tiếp";
 $text['label-call_forward']['en-gb'] = "Call Forward";
 $text['label-call_forward']['ar-eg'] = "دعوة إلى الأمام";
 $text['label-call_forward']['de-at'] = "Rufumleitung";
