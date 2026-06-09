@@ -1,6 +1,7 @@
 <?php
 
 $text['title-dialplan-inbound-add']['en-us'] = "Inbound Call Routing";
+$text['title-dialplan-inbound-add']['vi-vn'] = 'Định tuyến cuộc gọi vào';
 $text['title-dialplan-inbound-add']['en-gb'] = "Inbound Call Routing";
 $text['title-dialplan-inbound-add']['ar-eg'] = "الاتصال السريع";
 $text['title-dialplan-inbound-add']['de-at'] = "Routing eingehender Anrufe";
@@ -28,6 +29,7 @@ $text['title-dialplan-inbound-add']['ja-jp'] = "インバウンドコールル�
 $text['title-dialplan-inbound-add']['ko-kr'] = "인바운드 통화 라우팅";
 
 $text['option-uuid']['en-us'] = "UUID";
+$text['option-uuid']['vi-vn'] = 'UUID';
 $text['option-uuid']['en-gb'] = "UUID";
 $text['option-uuid']['ar-eg'] = "UUID";
 $text['option-uuid']['de-at'] = "UUID";
@@ -55,6 +57,7 @@ $text['option-uuid']['ja-jp'] = "UUID";
 $text['option-uuid']['ko-kr'] = "UUID";
 
 $text['option-username']['en-us'] = "Username";
+$text['option-username']['vi-vn'] = 'Tên đăng nhập';
 $text['option-username']['en-gb'] = "Username";
 $text['option-username']['ar-eg'] = "المستعمل";
 $text['option-username']['de-at'] = "Benutzername";
@@ -82,6 +85,7 @@ $text['option-username']['ja-jp'] = "ユーザ名";
 $text['option-username']['ko-kr'] = "사용자 이름";
 
 $text['option-source']['en-us'] = "Source";
+$text['option-source']['vi-vn'] = 'Nguồn';
 $text['option-source']['en-gb'] = "Source";
 $text['option-source']['ar-eg'] = "المصدر";
 $text['option-source']['de-at'] = "Quelle";
@@ -109,6 +113,7 @@ $text['option-source']['ja-jp'] = "ソース";
 $text['option-source']['ko-kr'] = "원천";
 
 $text['option-rdnis']['en-us'] = "RDNIS";
+$text['option-rdnis']['vi-vn'] = 'RDNIS';
 $text['option-rdnis']['en-gb'] = "RDNIS";
 $text['option-rdnis']['ar-eg'] = "RDNIS";
 $text['option-rdnis']['de-at'] = "RDNIS";
@@ -136,6 +141,7 @@ $text['option-rdnis']['ja-jp'] = "RDNIS";
 $text['option-rdnis']['ko-kr'] = "RDNIS";
 
 $text['option-public']['en-us'] = "Public";
+$text['option-public']['vi-vn'] = 'Public';
 $text['option-public']['en-gb'] = "Public";
 $text['option-public']['ar-eg'] = "الجمهور";
 $text['option-public']['de-at'] = "Öffentlich";
@@ -163,6 +169,7 @@ $text['option-public']['ja-jp'] = "公共";
 $text['option-public']['ko-kr'] = "공공의";
 
 $text['option-network_addr']['en-us'] = "Network Address";
+$text['option-network_addr']['vi-vn'] = 'Địa chỉ mạng';
 $text['option-network_addr']['en-gb'] = "Network Address";
 $text['option-network_addr']['ar-eg'] = "العنوان الشبكي";
 $text['option-network_addr']['de-at'] = "Netzwerk Adresse";
@@ -190,6 +197,7 @@ $text['option-network_addr']['ja-jp'] = "ネットワークアドレス";
 $text['option-network_addr']['ko-kr'] = "네트워크 주소";
 
 $text['option-destination_number']['en-us'] = "Destination Number";
+$text['option-destination_number']['vi-vn'] = 'Số đích';
 $text['option-destination_number']['en-gb'] = "Destination Number";
 $text['option-destination_number']['ar-eg'] = "رقم الوجهة";
 $text['option-destination_number']['de-at'] = "Ziel Rufnummer";
@@ -217,6 +225,7 @@ $text['option-destination_number']['ja-jp'] = "宛先番号";
 $text['option-destination_number']['ko-kr'] = "목적지 번호";
 
 $text['option-context']['en-us'] = "Context";
+$text['option-context']['vi-vn'] = 'Ngữ cảnh';
 $text['option-context']['en-gb'] = "Context";
 $text['option-context']['ar-eg'] = "السياق";
 $text['option-context']['de-at'] = "Kontext";
@@ -244,6 +253,7 @@ $text['option-context']['ja-jp'] = "コンテクスト";
 $text['option-context']['ko-kr'] = "문맥";
 
 $text['option-chan_name']['en-us'] = "Channel Name";
+$text['option-chan_name']['vi-vn'] = 'Tên kênh';
 $text['option-chan_name']['en-gb'] = "Channel Name";
 $text['option-chan_name']['ar-eg'] = "اسم القناة";
 $text['option-chan_name']['de-at'] = "Kanal Name";
@@ -271,6 +281,7 @@ $text['option-chan_name']['ja-jp'] = "チャンネル名";
 $text['option-chan_name']['ko-kr'] = "채널 이름";
 
 $text['option-caller_id_number']['en-us'] = "Caller ID Number";
+$text['option-caller_id_number']['vi-vn'] = 'Số Caller ID';
 $text['option-caller_id_number']['en-gb'] = "Caller ID Number";
 $text['option-caller_id_number']['ar-eg'] = "رقم هوية المتصل";
 $text['option-caller_id_number']['de-at'] = "Anruferkennung (Nummer)";
@@ -298,6 +309,7 @@ $text['option-caller_id_number']['ja-jp'] = "発信者番号";
 $text['option-caller_id_number']['ko-kr'] = "발신자 ID 번호";
 
 $text['option-caller_id_name']['en-us'] = "Caller ID Name";
+$text['option-caller_id_name']['vi-vn'] = 'Tên Caller ID';
 $text['option-caller_id_name']['en-gb'] = "Caller ID Name";
 $text['option-caller_id_name']['ar-eg'] = "اسم المتصل";
 $text['option-caller_id_name']['de-at'] = "Anruferkennung (Name)";
@@ -325,6 +337,7 @@ $text['option-caller_id_name']['ja-jp'] = "発信者ID名";
 $text['option-caller_id_name']['ko-kr'] = "발신자 ID 이름";
 
 $text['option-ani2']['en-us'] = "ANI2";
+$text['option-ani2']['vi-vn'] = 'ANI2';
 $text['option-ani2']['en-gb'] = "ANI2";
 $text['option-ani2']['ar-eg'] = "ANI2";
 $text['option-ani2']['de-at'] = "ANI2";
@@ -352,6 +365,7 @@ $text['option-ani2']['ja-jp'] = "ANI2";
 $text['option-ani2']['ko-kr'] = "ANI2";
 
 $text['option-ani']['en-us'] = "ANI";
+$text['option-ani']['vi-vn'] = 'ANI';
 $text['option-ani']['en-gb'] = "ANI";
 $text['option-ani']['ar-eg'] = "ANI";
 $text['option-ani']['de-at'] = "ANI";
@@ -379,6 +393,7 @@ $text['option-ani']['ja-jp'] = "ANI";
 $text['option-ani']['ko-kr'] = "ANI";
 
 $text['label-select-inbound-destination-number']['en-us'] = "Select the inbound destination number.";
+$text['label-select-inbound-destination-number']['vi-vn'] = 'Chọn số đích gọi vào.';
 $text['label-select-inbound-destination-number']['en-gb'] = "Select the inbound destination number.";
 $text['label-select-inbound-destination-number']['ar-eg'] = "إختار رقم المقصد";
 $text['label-select-inbound-destination-number']['de-at'] = "Wählen Sie die Zielnummer für eingehende Anrufe.";
@@ -406,6 +421,7 @@ $text['label-select-inbound-destination-number']['ja-jp'] = "受信先の番号�
 $text['label-select-inbound-destination-number']['ko-kr'] = "인바운드 대상 번호를 선택합니다.";
 
 $text['label-required-domain_uuid']['en-us'] = "Please provide: domain_uuid";
+$text['label-required-domain_uuid']['vi-vn'] = 'Vui lòng cung cấp: domain_uuid';
 $text['label-required-domain_uuid']['en-gb'] = "Please provide: domain_uuid";
 $text['label-required-domain_uuid']['ar-eg'] = "يرجى تقديم ما يلي:";
 $text['label-required-domain_uuid']['de-at'] = "Bitte angeben: domain_uuid";
@@ -433,6 +449,7 @@ $text['label-required-domain_uuid']['ja-jp'] = "入力してください:domain_
 $text['label-required-domain_uuid']['ko-kr'] = "제공하십시오: domain_uuid";
 
 $text['label-required-dialplan_name']['en-us'] = "Please provide: Extension Name";
+$text['label-required-dialplan_name']['vi-vn'] = 'Vui lòng cung cấp: Tên máy nhánh';
 $text['label-required-dialplan_name']['en-gb'] = "Please provide: Extension Name";
 $text['label-required-dialplan_name']['ar-eg'] = "يرجى تقديم: اسم التمديد";
 $text['label-required-dialplan_name']['de-at'] = "Bitte angeben: Namen der Nebenstelle";
@@ -460,6 +477,7 @@ $text['label-required-dialplan_name']['ja-jp'] = "入力してください: 拡�
 $text['label-required-dialplan_name']['ko-kr'] = "제공하십시오: 확장자 이름";
 
 $text['label-required-condition_field_1']['en-us'] = "Please provide: Condition Field";
+$text['label-required-condition_field_1']['vi-vn'] = 'Vui lòng cung cấp: Trường điều kiện';
 $text['label-required-condition_field_1']['en-gb'] = "Please provide: Condition Field";
 $text['label-required-condition_field_1']['ar-eg'] = "يرجى تقديم ما يلي:";
 $text['label-required-condition_field_1']['de-at'] = "Bitte angeben: Feld für Bedingung";
@@ -487,6 +505,7 @@ $text['label-required-condition_field_1']['ja-jp'] = "入力してください: 
 $text['label-required-condition_field_1']['ko-kr'] = "제공하십시오: 조건 필드";
 
 $text['label-required-condition_expression_1']['en-us'] = "Please provide: Condition Expression";
+$text['label-required-condition_expression_1']['vi-vn'] = 'Vui lòng cung cấp: Biểu thức điều kiện';
 $text['label-required-condition_expression_1']['en-gb'] = "Please provide: Condition Expression";
 $text['label-required-condition_expression_1']['ar-eg'] = "يرجى تقديم ما يلي:";
 $text['label-required-condition_expression_1']['de-at'] = "Bitte angeben: Ausdruck für Bedingung";
@@ -514,6 +533,7 @@ $text['label-required-condition_expression_1']['ja-jp'] = "入力してくださ
 $text['label-required-condition_expression_1']['ko-kr'] = "제공하십시오: 조건식";
 
 $text['label-required-action_application_1']['en-us'] = "Please provide: Action Application";
+$text['label-required-action_application_1']['vi-vn'] = 'Vui lòng cung cấp: Ứng dụng hành động';
 $text['label-required-action_application_1']['en-gb'] = "Please provide: Action Application";
 $text['label-required-action_application_1']['ar-eg'] = "يرجى تقديم ما يلي:";
 $text['label-required-action_application_1']['de-at'] = "Bitte angeben: Anwendung für Aktion";
@@ -541,6 +561,7 @@ $text['label-required-action_application_1']['ja-jp'] = "提供してくださ�
 $text['label-required-action_application_1']['ko-kr'] = "제공하십시오: 조치 신청서";
 
 $text['label-caller-id-number-prefix']['en-us'] = "Caller ID Number Prefix";
+$text['label-caller-id-number-prefix']['vi-vn'] = 'Tiền tố số Caller ID';
 $text['label-caller-id-number-prefix']['en-gb'] = "Caller ID Number Prefix";
 $text['label-caller-id-number-prefix']['ar-eg'] = "رقم بريديكس";
 $text['label-caller-id-number-prefix']['de-at'] = "Präfix für Anruferkennung";
@@ -568,6 +589,7 @@ $text['label-caller-id-number-prefix']['ja-jp'] = "発信者番号プレフィ�
 $text['label-caller-id-number-prefix']['ko-kr'] = "발신자 ID 번호 접두사";
 
 $text['label-limit']['en-us'] = "Limit";
+$text['label-limit']['vi-vn'] = 'Giới hạn';
 $text['label-limit']['en-gb'] = "Limit";
 $text['label-limit']['ar-eg'] = "الحد الأقصى";
 $text['label-limit']['de-at'] = "Obergrenze";
@@ -595,6 +617,7 @@ $text['label-limit']['ja-jp'] = "限界";
 $text['label-limit']['ko-kr'] = "한계";
 
 $text['label-field']['en-us'] = "Field";
+$text['label-field']['vi-vn'] = 'Trường';
 $text['label-field']['en-gb'] = "Field";
 $text['label-field']['ar-eg'] = "الميدان";
 $text['label-field']['de-at'] = "Feld";
@@ -622,6 +645,7 @@ $text['label-field']['ja-jp'] = "分野";
 $text['label-field']['ko-kr'] = "필드";
 
 $text['label-expression']['en-us'] = "Expression";
+$text['label-expression']['vi-vn'] = 'Biểu thức';
 $text['label-expression']['en-gb'] = "Expression";
 $text['label-expression']['ar-eg'] = "التعبير";
 $text['label-expression']['de-at'] = "Ausdruck";
@@ -649,6 +673,7 @@ $text['label-expression']['ja-jp'] = "表現";
 $text['label-expression']['ko-kr'] = "표현";
 
 $text['label-destination-number']['en-us'] = "Destination Number";
+$text['label-destination-number']['vi-vn'] = 'Số đích';
 $text['label-destination-number']['en-gb'] = "Destination Number";
 $text['label-destination-number']['ar-eg'] = "رقم الوجهة";
 $text['label-destination-number']['de-at'] = "Zielrufnummer";
@@ -676,6 +701,7 @@ $text['label-destination-number']['ja-jp'] = "宛先番号";
 $text['label-destination-number']['ko-kr'] = "목적지 번호";
 
 $text['label-condition_2']['en-us'] = "Condition 2";
+$text['label-condition_2']['vi-vn'] = 'Điều kiện 2';
 $text['label-condition_2']['en-gb'] = "Condition 2";
 $text['label-condition_2']['ar-eg'] = "المادة 2";
 $text['label-condition_2']['de-at'] = "Bedingung 2";
@@ -703,6 +729,7 @@ $text['label-condition_2']['ja-jp'] = "条件2";
 $text['label-condition_2']['ko-kr'] = "조건 2";
 
 $text['label-condition_1']['en-us'] = "Condition 1";
+$text['label-condition_1']['vi-vn'] = 'Điều kiện 1';
 $text['label-condition_1']['en-gb'] = "Condition 1";
 $text['label-condition_1']['ar-eg'] = "المادة 1";
 $text['label-condition_1']['de-at'] = "Bedingung 1";
@@ -730,6 +757,7 @@ $text['label-condition_1']['ja-jp'] = "条件 1";
 $text['label-condition_1']['ko-kr'] = "조건 1";
 
 $text['label-action_2']['en-us'] = "Action 2";
+$text['label-action_2']['vi-vn'] = 'Hành động 2';
 $text['label-action_2']['en-gb'] = "Action 2";
 $text['label-action_2']['ar-eg'] = "الإجراء 2";
 $text['label-action_2']['de-at'] = "Aktion 2";
@@ -757,6 +785,7 @@ $text['label-action_2']['ja-jp'] = "アクション 2";
 $text['label-action_2']['ko-kr'] = "행동 2";
 
 $text['label-action_1']['en-us'] = "Action 1";
+$text['label-action_1']['vi-vn'] = 'Hành động 1';
 $text['label-action_1']['en-gb'] = "Action 1";
 $text['label-action_1']['ar-eg'] = "الإجراء 1";
 $text['label-action_1']['de-at'] = "Aktion 1";
@@ -784,6 +813,7 @@ $text['label-action_1']['ja-jp'] = "アクション 1";
 $text['label-action_1']['ko-kr'] = "활동 1";
 
 $text['label-action']['en-us'] = "Action";
+$text['label-action']['vi-vn'] = 'Thao tác';
 $text['label-action']['en-gb'] = "Action";
 $text['label-action']['ar-eg'] = "الإجراء";
 $text['label-action']['de-at'] = "Aktion";
@@ -811,6 +841,7 @@ $text['label-action']['ja-jp'] = "アクション";
 $text['label-action']['ko-kr'] = "행동";
 
 $text['label-access-denied']['en-us'] = "access denied";
+$text['label-access-denied']['vi-vn'] = 'truy cập bị từ chối';
 $text['label-access-denied']['en-gb'] = "access denied";
 $text['label-access-denied']['ar-eg'] = "منع الوصول";
 $text['label-access-denied']['de-at'] = "Zugriff verweigert";
@@ -838,6 +869,7 @@ $text['label-access-denied']['ja-jp'] = "アクセス拒否";
 $text['label-access-denied']['ko-kr'] = "접근 불가";
 
 $text['description-caller-id-number-prefix']['en-us'] = "Set a prefix on the caller ID number.";
+$text['description-caller-id-number-prefix']['vi-vn'] = 'Thiết lập tiền tố cho số Caller ID.';
 $text['description-caller-id-number-prefix']['en-gb'] = "Set a prefix on the caller ID number.";
 $text['description-caller-id-number-prefix']['ar-eg'] = "جهزي مُسبقاً على رقم هوية المتصل";
 $text['description-caller-id-number-prefix']['de-at'] = "Präfix für Anruferkennung (Nummer) setzen.";
@@ -865,6 +897,7 @@ $text['description-caller-id-number-prefix']['ja-jp'] = "発信者番号にプ�
 $text['description-caller-id-number-prefix']['ko-kr'] = "발신자 ID 번호에 접두사를 설정합니다.";
 
 $text['description-name']['en-us'] = "Please enter an inbound route name.";
+$text['description-name']['vi-vn'] = 'Vui lòng nhập tên tuyến gọi vào.';
 $text['description-name']['en-gb'] = "Please enter an inbound route name.";
 $text['description-name']['ar-eg'] = "رجاءً إدخلْ a اسم طريقِ مُحدّدِ.";
 $text['description-name']['de-at'] = "Bitte geben Sie einen Namen für die eingehende Route an.";
@@ -892,6 +925,7 @@ $text['description-name']['ja-jp'] = "上り路線名を入力してください
 $text['description-name']['ko-kr'] = "인바운드 경로 이름을 입력하십시오.";
 
 $text['description-dialplan-inbound-add']['en-us'] = "The public dialplan is used to route incoming calls to destinations based on one or more conditions and context. It can send incoming calls to an auto attendant, huntgroup, extension, external number, or a script.";
+$text['description-dialplan-inbound-add']['vi-vn'] = 'Dialplan public được dùng để định tuyến cuộc gọi đến đích dựa trên một hoặc nhiều điều kiện và context. Nó có thể chuyển cuộc gọi vào đến auto attendant, huntgroup, máy nhánh, số ngoài hoặc script.';
 $text['description-dialplan-inbound-add']['en-gb'] = "The public dialplan is used to route incoming calls to destinations based on one or more conditions and context. It can send incoming calls to an auto attendant, huntgroup, extension, external number, or a script.";
 $text['description-dialplan-inbound-add']['ar-eg'] = "The public dialplan is used to route incoming calls to destinations based on one or more conditions and context. ويمكنها أن ترسل نداءات واردة إلى مضيف آلي أو مجموعة صيد أو تمديد أو رقم خارجي أو نص.";
 $text['description-dialplan-inbound-add']['de-at'] = "Der öffentliche Wählplan wird verwendet, um eingehende Anrufe anhand von einem oder mehrere Bedingungen an bestimmte Ziele weiter zu leiten.";
@@ -919,6 +953,7 @@ $text['description-dialplan-inbound-add']['ja-jp'] = "パブリック ダイヤ�
 $text['description-dialplan-inbound-add']['ko-kr'] = "공개 다이얼플랜은 하나 이상의 조건 및 컨텍스트에 따라 수신 통화를 대상으로 라우팅하는 데 사용됩니다. 수신 전화를 자동 전화 교환, 헌트 그룹, 내선 번호, 외부 번호 또는 스크립트로 보낼 수 있습니다.";
 
 $text['confirm-update-complete']['en-us'] = "Update Complete";
+$text['confirm-update-complete']['vi-vn'] = 'Cập nhật hoàn tất';
 $text['confirm-update-complete']['en-gb'] = "Update Complete";
 $text['confirm-update-complete']['ar-eg'] = "آخر المستجدات";
 $text['confirm-update-complete']['de-at'] = "Aktualisierung abgeschlossen";

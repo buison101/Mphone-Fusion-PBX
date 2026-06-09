@@ -1,6 +1,7 @@
 <?php
 
 $text['title-conference_profiles']['en-us'] = "Conference Profiles";
+$text['title-conference_profiles']['vi-vn'] = 'Conference Profile';
 $text['title-conference_profiles']['en-gb'] = "Conference Profiles";
 $text['title-conference_profiles']['ar-eg'] = "ملفات تعريف المؤتمر";
 $text['title-conference_profiles']['de-at'] = "Konferenzprofile";
@@ -27,6 +28,7 @@ $text['title-conference_profiles']['ja-jp'] = "会議プロファイル";
 $text['title-conference_profiles']['ko-kr'] = "컨퍼런스 프로필";
 
 $text['title-conference_profile']['en-us'] = "Conference Profile";
+$text['title-conference_profile']['vi-vn'] = 'Conference Profile';
 $text['title-conference_profile']['en-gb'] = "Conference Profile";
 $text['title-conference_profile']['ar-eg'] = "الملف الشخصي للمؤتمر";
 $text['title-conference_profile']['de-at'] = "Konferenzprofile";
@@ -53,6 +55,7 @@ $text['title-conference_profile']['ja-jp'] = "会議のプロフィール";
 $text['title-conference_profile']['ko-kr'] = "컨퍼런스 프로필";
 
 $text['description-conference_profiles']['en-us'] = "A group of conference parameters saved together as a profile.";
+$text['description-conference_profiles']['vi-vn'] = 'Nhóm tham số hội nghị được lưu cùng nhau dưới dạng profile.';
 $text['description-conference_profiles']['en-gb'] = "A group of conference parameters saved together as a profile.";
 $text['description-conference_profiles']['ar-eg'] = "مجموعة من معلمات المؤتمر المحفوظة معًا كملف تعريف.";
 $text['description-conference_profiles']['de-at'] = "Eine Gruppe von Konferenz-Parametern zu einem Profil zusammengefasst";
@@ -79,6 +82,7 @@ $text['description-conference_profiles']['ja-jp'] = "プロファイルとして
 $text['description-conference_profiles']['ko-kr'] = "프로필로 함께 저장된 회의 매개변수 그룹입니다.";
 
 $text['label-profile_name']['en-us'] = "Name";
+$text['label-profile_name']['vi-vn'] = 'Tên';
 $text['label-profile_name']['en-gb'] = "Name";
 $text['label-profile_name']['ar-eg'] = "اسم";
 $text['label-profile_name']['de-at'] = "Name";
@@ -105,6 +109,7 @@ $text['label-profile_name']['ja-jp'] = "名前";
 $text['label-profile_name']['ko-kr'] = "이름";
 
 $text['description-profile_name']['en-us'] = "Enter the profile name.";
+$text['description-profile_name']['vi-vn'] = 'Nhập tên profile.';
 $text['description-profile_name']['en-gb'] = "Enter the profile name.";
 $text['description-profile_name']['ar-eg'] = "أدخل اسم ملف التعريف.";
 $text['description-profile_name']['de-at'] = "Geben Sie den Profil Namen ein.";
@@ -131,6 +136,7 @@ $text['description-profile_name']['ja-jp'] = "プロファイル名を入力し�
 $text['description-profile_name']['ko-kr'] = "프로필 이름을 입력합니다.";
 
 $text['label-profile_enabled']['en-us'] = "Enabled";
+$text['label-profile_enabled']['vi-vn'] = 'Đã bật';
 $text['label-profile_enabled']['en-gb'] = "Enabled";
 $text['label-profile_enabled']['ar-eg'] = "ممكن";
 $text['label-profile_enabled']['de-at'] = "Aktiviert";
@@ -157,6 +163,7 @@ $text['label-profile_enabled']['ja-jp'] = "有効";
 $text['label-profile_enabled']['ko-kr'] = "사용";
 
 $text['description-profile_enabled']['en-us'] = "Set the status of the profile.";
+$text['description-profile_enabled']['vi-vn'] = 'Đặt trạng thái của profile.';
 $text['description-profile_enabled']['en-gb'] = "Set the status of the profile.";
 $text['description-profile_enabled']['ar-eg'] = "اضبط حالة الملف الشخصي.";
 $text['description-profile_enabled']['de-at'] = "Setzen Sie den Status des Profils";
@@ -183,6 +190,7 @@ $text['description-profile_enabled']['ja-jp'] = "プロファイルのステー�
 $text['description-profile_enabled']['ko-kr'] = "프로필 상태를 설정합니다.";
 
 $text['label-profile_description']['en-us'] = "Description";
+$text['label-profile_description']['vi-vn'] = 'Mô tả';
 $text['label-profile_description']['en-gb'] = "Description";
 $text['label-profile_description']['ar-eg'] = "وصف";
 $text['label-profile_description']['de-at'] = "Beschreibung";
@@ -209,6 +217,7 @@ $text['label-profile_description']['ja-jp'] = "説明";
 $text['label-profile_description']['ko-kr'] = "설명";
 
 $text['description-profile_description']['en-us'] = "Enter the description.";
+$text['description-profile_description']['vi-vn'] = 'Nhập mô tả.';
 $text['description-profile_description']['en-gb'] = "Enter the description.";
 $text['description-profile_description']['ar-eg'] = "أدخل الوصف.";
 $text['description-profile_description']['de-at'] = "Geben Sie die Beschreibung ein.";
@@ -235,6 +244,7 @@ $text['description-profile_description']['ja-jp'] = "説明を入力します。
 $text['description-profile_description']['ko-kr'] = "설명을 입력합니다.";
 
 $text['title-conference_profile_params']['en-us'] = "Profile Parameters";
+$text['title-conference_profile_params']['vi-vn'] = 'Tham số profile';
 $text['title-conference_profile_params']['en-gb'] = "Profile Parameters";
 $text['title-conference_profile_params']['ar-eg'] = "معلمات الملف الشخصي";
 $text['title-conference_profile_params']['de-at'] = "Profil Parameter";
@@ -261,6 +271,7 @@ $text['title-conference_profile_params']['ja-jp'] = "プロファイル パラ�
 $text['title-conference_profile_params']['ko-kr'] = "프로필 매개변수";
 
 $text['title-conference_profile_param']['en-us'] = "Profile Parameter";
+$text['title-conference_profile_param']['vi-vn'] = 'Tham số profile';
 $text['title-conference_profile_param']['en-gb'] = "Profile Parameter";
 $text['title-conference_profile_param']['ar-eg'] = "معلمة الملف الشخصي";
 $text['title-conference_profile_param']['de-at'] = "Profil Parameter";
@@ -287,6 +298,7 @@ $text['title-conference_profile_param']['ja-jp'] = "プロファイル パラメ
 $text['title-conference_profile_param']['ko-kr'] = "프로필 매개변수";
 
 $text['title_description-conference_profile_param']['en-us'] = "Settings assigned to the conference profiles.";
+$text['title_description-conference_profile_param']['vi-vn'] = 'Các thiết lập được gán cho Conference Profile.';
 $text['title_description-conference_profile_param']['en-gb'] = "Settings assigned to the conference profiles.";
 $text['title_description-conference_profile_param']['ar-eg'] = "الإعدادات المعينة لملفات تعريف المؤتمر.";
 $text['title_description-conference_profile_param']['de-at'] = "Zugewiesene Einstellungen des Konferenz Profils";
@@ -313,6 +325,7 @@ $text['title_description-conference_profile_param']['ja-jp'] = "会議プロフ�
 $text['title_description-conference_profile_param']['ko-kr'] = "회의 프로필에 할당된 설정입니다.";
 
 $text['label-profile_param_name']['en-us'] = "Name";
+$text['label-profile_param_name']['vi-vn'] = 'Tên';
 $text['label-profile_param_name']['en-gb'] = "Name";
 $text['label-profile_param_name']['ar-eg'] = "اسم";
 $text['label-profile_param_name']['de-at'] = "Name";
@@ -339,6 +352,7 @@ $text['label-profile_param_name']['ja-jp'] = "名前";
 $text['label-profile_param_name']['ko-kr'] = "이름";
 
 $text['description-profile_param_name']['en-us'] = "Enter the parameter name.";
+$text['description-profile_param_name']['vi-vn'] = 'Nhập tên tham số.';
 $text['description-profile_param_name']['en-gb'] = "Enter the parameter name.";
 $text['description-profile_param_name']['ar-eg'] = "أدخل اسم المعلمة.";
 $text['description-profile_param_name']['de-at'] = "Geben Sie den Namen für den Parameter ein.";
@@ -365,6 +379,7 @@ $text['description-profile_param_name']['ja-jp'] = "パラメータ名を入力�
 $text['description-profile_param_name']['ko-kr'] = "매개변수 이름을 입력합니다.";
 
 $text['label-profile_param_value']['en-us'] = "Value";
+$text['label-profile_param_value']['vi-vn'] = 'Giá trị';
 $text['label-profile_param_value']['en-gb'] = "Value";
 $text['label-profile_param_value']['ar-eg'] = "قيمة";
 $text['label-profile_param_value']['de-at'] = "Wert";
@@ -391,6 +406,7 @@ $text['label-profile_param_value']['ja-jp'] = "価値";
 $text['label-profile_param_value']['ko-kr'] = "값";
 
 $text['description-profile_param_value']['en-us'] = "Enter the value.";
+$text['description-profile_param_value']['vi-vn'] = 'Nhập giá trị.';
 $text['description-profile_param_value']['en-gb'] = "Enter the value.";
 $text['description-profile_param_value']['ar-eg'] = "Introduzca el valor.";
 $text['description-profile_param_value']['de-at'] = "Geben Sie den Wert ein.";
@@ -417,6 +433,7 @@ $text['description-profile_param_value']['ja-jp'] = "値を入力します。";
 $text['description-profile_param_value']['ko-kr'] = "값을 입력합니다.";
 
 $text['label-profile_param_enabled']['en-us'] = "Enabled";
+$text['label-profile_param_enabled']['vi-vn'] = 'Đã bật';
 $text['label-profile_param_enabled']['en-gb'] = "Enabled";
 $text['label-profile_param_enabled']['ar-eg'] = "ممكن";
 $text['label-profile_param_enabled']['de-at'] = "Aktiviert";
@@ -443,6 +460,7 @@ $text['label-profile_param_enabled']['ja-jp'] = "有効";
 $text['label-profile_param_enabled']['ko-kr'] = "사용";
 
 $text['description-profile_param_enabled']['en-us'] = "Set the status of the parameter.";
+$text['description-profile_param_enabled']['vi-vn'] = 'Đặt trạng thái của tham số.';
 $text['description-profile_param_enabled']['en-gb'] = "Set the status of the parameter.";
 $text['description-profile_param_enabled']['ar-eg'] = "عيّن حالة المعلمة.";
 $text['description-profile_param_enabled']['de-at'] = "Setzen Sie den Status des Parameters";
@@ -469,6 +487,7 @@ $text['description-profile_param_enabled']['ja-jp'] = "パラメータのステ�
 $text['description-profile_param_enabled']['ko-kr'] = "매개변수의 상태를 설정합니다.";
 
 $text['label-profile_param_description']['en-us'] = "Description";
+$text['label-profile_param_description']['vi-vn'] = 'Mô tả';
 $text['label-profile_param_description']['en-gb'] = "Description";
 $text['label-profile_param_description']['ar-eg'] = "وصف";
 $text['label-profile_param_description']['de-at'] = "Beschreibung";
@@ -495,6 +514,7 @@ $text['label-profile_param_description']['ja-jp'] = "説明";
 $text['label-profile_param_description']['ko-kr'] = "설명";
 
 $text['description-profile_param_description']['en-us'] = "Enter the description.";
+$text['description-profile_param_description']['vi-vn'] = 'Nhập mô tả.';
 $text['description-profile_param_description']['en-gb'] = "Enter the description.";
 $text['description-profile_param_description']['ar-eg'] = "أدخل الوصف.";
 $text['description-profile_param_description']['de-at'] = "Geben Sie die Beschreibung ein.";

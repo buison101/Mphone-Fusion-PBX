@@ -1,6 +1,7 @@
 <?php
 
 $text['title-database_transactions']['en-us'] = "Database Transactions";
+$text['title-database_transactions']['vi-vn'] = 'Giao dịch cơ sở dữ liệu';
 $text['title-database_transactions']['en-gb'] = "Database Transactions";
 $text['title-database_transactions']['ar-eg'] = "معاملات قواعد البيانات";
 $text['title-database_transactions']['de-at'] = "Datenbank Transaktionen";
@@ -28,6 +29,7 @@ $text['title-database_transactions']['ja-jp'] = "データベース トランザ
 $text['title-database_transactions']['ko-kr'] = "데이터베이스 트랜잭션";
 
 $text['title-database_transaction']['en-us'] = "Database Transaction";
+$text['title-database_transaction']['vi-vn'] = 'Giao dịch cơ sở dữ liệu';
 $text['title-database_transaction']['en-gb'] = "Database Transaction";
 $text['title-database_transaction']['ar-eg'] = "قواعد البيانات";
 $text['title-database_transaction']['de-at'] = "Datenbank Transaktionen";
@@ -55,6 +57,7 @@ $text['title-database_transaction']['ja-jp'] = "データベース トランザ�
 $text['title-database_transaction']['ko-kr'] = "데이터베이스 트랜잭션";
 
 $text['description-database_transactions']['en-us'] = "Track changes to the database. Track when the changes were made, the user and address of the user that made the changes. Provide an option to undo delete and update transactions.";
+$text['description-database_transactions']['vi-vn'] = 'Theo dõi thay đổi trong cơ sở dữ liệu, gồm thời điểm thay đổi, người dùng và địa chỉ của người thực hiện. Cung cấp tùy chọn hoàn tác các giao dịch xóa và cập nhật.';
 $text['description-database_transactions']['en-gb'] = "Track changes to the database. Track when the changes were made, the user and address of the user that made the changes. Provide an option to undo delete and update transactions.";
 $text['description-database_transactions']['ar-eg'] = "تغيير المسار إلى قاعدة البيانات. تعقّب عند إجراء التغييرات، مستخدم وعنوان المستخدم الذي أدخل التغييرات. Provide an option to undo delete and update transactions.";
 $text['description-database_transactions']['de-at'] = "Verfolgen Sie Änderungen an der Datenbank. Verfolgen Sie, wann die Änderungen vorgenommen wurden, den Benutzer und die Adresse des Benutzers, der die Änderungen vorgenommen hat. Stellen Sie eine Option bereit, um das Löschen und Aktualisieren von Transaktionen rückgängig zu machen.";
@@ -82,6 +85,7 @@ $text['description-database_transactions']['ja-jp'] = "データベースへの�
 $text['description-database_transactions']['ko-kr'] = "데이터베이스에 대한 변경 사항을 추적합니다. 변경된 시기, 사용자 및 변경한 사용자의 주소를 추적합니다. 트랜잭션 삭제 및 업데이트를 실행 취소하는 옵션을 제공합니다.";
 
 $text['label-user']['en-us'] = "User";
+$text['label-user']['vi-vn'] = 'Người dùng';
 $text['label-user']['en-gb'] = "User";
 $text['label-user']['ar-eg'] = "مستخدم";
 $text['label-user']['de-at'] = "Benutzer";
@@ -109,6 +113,7 @@ $text['label-user']['ja-jp'] = "ユーザー";
 $text['label-user']['ko-kr'] = "사용자";
 
 $text['label-user_uuid']['en-us'] = "User";
+$text['label-user_uuid']['vi-vn'] = 'Người dùng';
 $text['label-user_uuid']['en-gb'] = "User";
 $text['label-user_uuid']['ar-eg'] = "مستخدم";
 $text['label-user_uuid']['de-at'] = "Benutzer";
@@ -136,6 +141,7 @@ $text['label-user_uuid']['ja-jp'] = "ユーザー";
 $text['label-user_uuid']['ko-kr'] = "사용자";
 
 $text['description-user_uuid']['en-us'] = "User transaction.";
+$text['description-user_uuid']['vi-vn'] = 'Giao dịch của người dùng.';
 $text['description-user_uuid']['en-gb'] = "User transaction.";
 $text['description-user_uuid']['ar-eg'] = "معاملة مستعمل";
 $text['description-user_uuid']['de-at'] = "Benutzer Transaktion";
@@ -163,6 +169,7 @@ $text['description-user_uuid']['ja-jp'] = "ユーザー取引。";
 $text['description-user_uuid']['ko-kr'] = "사용자 거래.";
 
 $text['label-app_name']['en-us'] = "Application";
+$text['label-app_name']['vi-vn'] = 'Ứng dụng';
 $text['label-app_name']['en-gb'] = "Application";
 $text['label-app_name']['ar-eg'] = "التطبيق";
 $text['label-app_name']['de-at'] = "Anwendung";
@@ -190,6 +197,7 @@ $text['label-app_name']['ja-jp'] = "応用";
 $text['label-app_name']['ko-kr'] = "애플리케이션";
 
 $text['description-app_name']['en-us'] = "Application name.";
+$text['description-app_name']['vi-vn'] = 'Tên ứng dụng.';
 $text['description-app_name']['en-gb'] = "Application name.";
 $text['description-app_name']['ar-eg'] = "اسم الطلب";
 $text['description-app_name']['de-at'] = "Anwendungs-Name.";
@@ -217,6 +225,7 @@ $text['description-app_name']['ja-jp'] = "アプリケーション名。";
 $text['description-app_name']['ko-kr'] = "애플리케이션 이름.";
 
 $text['label-app_uuid']['en-us'] = "Application Id";
+$text['label-app_uuid']['vi-vn'] = 'ID ứng dụng';
 $text['label-app_uuid']['en-gb'] = "Application Id";
 $text['label-app_uuid']['ar-eg'] = "رقم الاستمارة";
 $text['label-app_uuid']['de-at'] = "Anwendungs-ID";
@@ -244,6 +253,7 @@ $text['label-app_uuid']['ja-jp'] = "アプリケーションID";
 $text['label-app_uuid']['ko-kr'] = "애플리케이션 ID";
 
 $text['description-app_uuid']['en-us'] = "Application name.";
+$text['description-app_uuid']['vi-vn'] = 'Tên ứng dụng.';
 $text['description-app_uuid']['en-gb'] = "Application name.";
 $text['description-app_uuid']['ar-eg'] = "اسم التطبيق.";
 $text['description-app_uuid']['de-at'] = "Anwendungs-Name.";
@@ -271,6 +281,7 @@ $text['description-app_uuid']['ja-jp'] = "アプリケーション名。";
 $text['description-app_uuid']['ko-kr'] = "애플리케이션 이름.";
 
 $text['label-transaction_code']['en-us'] = "Code";
+$text['label-transaction_code']['vi-vn'] = 'Mã';
 $text['label-transaction_code']['en-gb'] = "Code";
 $text['label-transaction_code']['ar-eg'] = "المدونة";
 $text['label-transaction_code']['de-at'] = "Code";
@@ -298,6 +309,7 @@ $text['label-transaction_code']['ja-jp'] = "コード";
 $text['label-transaction_code']['ko-kr'] = "암호";
 
 $text['description-transaction_code']['en-us'] = "Transaction code.";
+$text['description-transaction_code']['vi-vn'] = 'Mã giao dịch.';
 $text['description-transaction_code']['en-gb'] = "Transaction code.";
 $text['description-transaction_code']['ar-eg'] = "رمز المعاملات";
 $text['description-transaction_code']['de-at'] = "Transaktions-Code";
@@ -325,6 +337,7 @@ $text['description-transaction_code']['ja-jp'] = "取引コード。";
 $text['description-transaction_code']['ko-kr'] = "트랜잭션 코드.";
 
 $text['label-transaction_address']['en-us'] = "IP Address";
+$text['label-transaction_address']['vi-vn'] = 'Địa chỉ IP';
 $text['label-transaction_address']['en-gb'] = "IP Address";
 $text['label-transaction_address']['ar-eg'] = "العنوان";
 $text['label-transaction_address']['de-at'] = "IP Adresse";
@@ -352,6 +365,7 @@ $text['label-transaction_address']['ja-jp'] = "IPアドレス";
 $text['label-transaction_address']['ko-kr'] = "IP 주소";
 
 $text['description-transaction_address']['en-us'] = "IP address of the user.";
+$text['description-transaction_address']['vi-vn'] = 'Địa chỉ IP của người dùng.';
 $text['description-transaction_address']['en-gb'] = "IP address of the user.";
 $text['description-transaction_address']['ar-eg'] = "عنوان آي بي للمستعمل";
 $text['description-transaction_address']['de-at'] = "IP Adresse des Anwenders";
@@ -379,6 +393,7 @@ $text['description-transaction_address']['ja-jp'] = "ユーザーの IP アド�
 $text['description-transaction_address']['ko-kr'] = "사용자의 IP 주소입니다.";
 
 $text['label-transaction_type']['en-us'] = "Type";
+$text['label-transaction_type']['vi-vn'] = 'Loại';
 $text['label-transaction_type']['en-gb'] = "Type";
 $text['label-transaction_type']['ar-eg'] = "النوع";
 $text['label-transaction_type']['de-at'] = "Typ";
@@ -406,6 +421,7 @@ $text['label-transaction_type']['ja-jp'] = "タイプ";
 $text['label-transaction_type']['ko-kr'] = "유형";
 
 $text['description-transaction_type']['en-us'] = "Type: add, update, delete";
+$text['description-transaction_type']['vi-vn'] = 'Loại: thêm, cập nhật, xóa';
 $text['description-transaction_type']['en-gb'] = "Type: add, update, delete";
 $text['description-transaction_type']['ar-eg'] = "النوع: إضافة، تحديث، حذف";
 $text['description-transaction_type']['de-at'] = "Typ: hinzufügen, aktualisieren, löschen";
@@ -433,6 +449,7 @@ $text['description-transaction_type']['ja-jp'] = "タイプ: 追加、更新、�
 $text['description-transaction_type']['ko-kr'] = "유형: 추가, 업데이트, 삭제";
 
 $text['label-transaction_date']['en-us'] = "Date";
+$text['label-transaction_date']['vi-vn'] = 'Ngày';
 $text['label-transaction_date']['en-gb'] = "Date";
 $text['label-transaction_date']['ar-eg'] = "التاريخ";
 $text['label-transaction_date']['de-at'] = "Datum";
@@ -460,6 +477,7 @@ $text['label-transaction_date']['ja-jp'] = "日にち";
 $text['label-transaction_date']['ko-kr'] = "날짜";
 
 $text['description-transaction_date']['en-us'] = "Transaction date.";
+$text['description-transaction_date']['vi-vn'] = 'Ngày giao dịch.';
 $text['description-transaction_date']['en-gb'] = "Transaction date.";
 $text['description-transaction_date']['ar-eg'] = "تاريخ المعاملات";
 $text['description-transaction_date']['de-at'] = "Transaktions-Datum";
@@ -487,6 +505,7 @@ $text['description-transaction_date']['ja-jp'] = "取引日。";
 $text['description-transaction_date']['ko-kr'] = "거래 날짜.";
 
 $text['label-transaction_old']['en-us'] = "Before";
+$text['label-transaction_old']['vi-vn'] = 'Trước';
 $text['label-transaction_old']['en-gb'] = "Before";
 $text['label-transaction_old']['ar-eg'] = "قبل";
 $text['label-transaction_old']['de-at'] = "Vor";
@@ -514,6 +533,7 @@ $text['label-transaction_old']['ja-jp'] = "前";
 $text['label-transaction_old']['ko-kr'] = "전에";
 
 $text['description-transaction_old']['en-us'] = "Array before the transaction.";
+$text['description-transaction_old']['vi-vn'] = 'Mảng trước giao dịch.';
 $text['description-transaction_old']['en-gb'] = "Array before the transaction.";
 $text['description-transaction_old']['ar-eg'] = "أراي قبل الصفقة";
 $text['description-transaction_old']['de-at'] = "Array vor der Transaktion.";
@@ -541,6 +561,7 @@ $text['description-transaction_old']['ja-jp'] = "トランザクション前の�
 $text['description-transaction_old']['ko-kr'] = "거래 전 배열.";
 
 $text['label-transaction_new']['en-us'] = "After";
+$text['label-transaction_new']['vi-vn'] = 'Sau';
 $text['label-transaction_new']['en-gb'] = "After";
 $text['label-transaction_new']['ar-eg'] = "بعد";
 $text['label-transaction_new']['de-at'] = "Nach";
@@ -568,6 +589,7 @@ $text['label-transaction_new']['ja-jp'] = "後";
 $text['label-transaction_new']['ko-kr'] = "후에";
 
 $text['description-transaction_new']['en-us'] = "Array after the transaction.";
+$text['description-transaction_new']['vi-vn'] = 'Mảng sau giao dịch.';
 $text['description-transaction_new']['en-gb'] = "Array after the transaction.";
 $text['description-transaction_new']['ar-eg'] = "أصرخ بعد الصفقة";
 $text['description-transaction_new']['de-at'] = "Array nach der Transaktion.";
@@ -595,6 +617,7 @@ $text['description-transaction_new']['ja-jp'] = "トランザクション後の�
 $text['description-transaction_new']['ko-kr'] = "트랜잭션 후 배열.";
 
 $text['label-transaction_result']['en-us'] = "Result";
+$text['label-transaction_result']['vi-vn'] = 'Kết quả';
 $text['label-transaction_result']['en-gb'] = "Result";
 $text['label-transaction_result']['ar-eg'] = "النتيجة";
 $text['label-transaction_result']['de-at'] = "Ergebnis";
@@ -622,6 +645,7 @@ $text['label-transaction_result']['ja-jp'] = "結果";
 $text['label-transaction_result']['ko-kr'] = "결과";
 
 $text['description-transaction_result']['en-us'] = "Result of the transaction.";
+$text['description-transaction_result']['vi-vn'] = 'Kết quả của giao dịch.';
 $text['description-transaction_result']['en-gb'] = "Result of the transaction.";
 $text['description-transaction_result']['ar-eg'] = "نتيجة الصفقة";
 $text['description-transaction_result']['de-at'] = "Ergebnis der Transaktion.";
@@ -649,6 +673,7 @@ $text['description-transaction_result']['ja-jp'] = "トランザクションの�
 $text['description-transaction_result']['ko-kr'] = "거래 결과.";
 
 $text['label-true']['en-us'] = "true";
+$text['label-true']['vi-vn'] = 'true';
 $text['label-true']['en-gb'] = "true";
 $text['label-true']['ar-eg'] = "صحيح";
 $text['label-true']['de-at'] = "wahr";
@@ -676,6 +701,7 @@ $text['label-true']['ja-jp'] = "真実";
 $text['label-true']['ko-kr'] = "진실";
 
 $text['label-false']['en-us'] = "false";
+$text['label-false']['vi-vn'] = 'false';
 $text['label-false']['en-gb'] = "false";
 $text['label-false']['ar-eg'] = "كاذب";
 $text['label-false']['de-at'] = "aus";
@@ -703,6 +729,7 @@ $text['label-false']['ja-jp'] = "間違い";
 $text['label-false']['ko-kr'] = "거짓";
 
 $text['button-add']['en-us'] = "Add";
+$text['button-add']['vi-vn'] = 'Thêm';
 $text['button-add']['en-gb'] = "Add";
 $text['button-add']['ar-eg'] = "يضيف";
 $text['button-add']['de-at'] = "Hinzufügen";
@@ -730,6 +757,7 @@ $text['button-add']['ja-jp'] = "追加";
 $text['button-add']['ko-kr'] = "추가하다";
 
 $text['button-edit']['en-us'] = "Edit";
+$text['button-edit']['vi-vn'] = 'Sửa';
 $text['button-edit']['en-gb'] = "Edit";
 $text['button-edit']['ar-eg'] = "يحرر";
 $text['button-edit']['de-at'] = "Bearbeiten";
@@ -757,6 +785,7 @@ $text['button-edit']['ja-jp'] = "編集";
 $text['button-edit']['ko-kr'] = "편집하다";
 
 $text['button-delete']['en-us'] = "Delete";
+$text['button-delete']['vi-vn'] = 'Xóa';
 $text['button-delete']['en-gb'] = "Delete";
 $text['button-delete']['ar-eg'] = "تحذف";
 $text['button-delete']['de-at'] = "Löschen";
@@ -784,6 +813,7 @@ $text['button-delete']['ja-jp'] = "消去";
 $text['button-delete']['ko-kr'] = "삭제";
 
 $text['button-save']['en-us'] = "Save";
+$text['button-save']['vi-vn'] = 'Lưu';
 $text['button-save']['en-gb'] = "Save";
 $text['button-save']['ar-eg'] = "أنقذ";
 $text['button-save']['de-at'] = "Speichern";
@@ -811,6 +841,7 @@ $text['button-save']['ja-jp'] = "保存";
 $text['button-save']['ko-kr'] = "구하다";
 
 $text['button-view']['en-us'] = "View";
+$text['button-view']['vi-vn'] = 'Xem';
 $text['button-view']['en-gb'] = "View";
 $text['button-view']['ar-eg'] = "رأي";
 $text['button-view']['de-at'] = "Anzeigen";
@@ -838,6 +869,7 @@ $text['button-view']['ja-jp'] = "意見";
 $text['button-view']['ko-kr'] = "보다";
 
 $text['button-back']['en-us'] = "Back";
+$text['button-back']['vi-vn'] = 'Quay lại';
 $text['button-back']['en-gb'] = "Back";
 $text['button-back']['ar-eg'] = "العودة";
 $text['button-back']['de-at'] = "Zurück";
@@ -865,6 +897,7 @@ $text['button-back']['ja-jp'] = "戻る";
 $text['button-back']['ko-kr'] = "뒤쪽에";
 
 $text['confirm-delete']['en-us'] = "Do you really want to delete this?";
+$text['confirm-delete']['vi-vn'] = 'Bạn có chắc muốn xóa mục này không?';
 $text['confirm-delete']['en-gb'] = "Do you really want to delete this?";
 $text['confirm-delete']['ar-eg'] = "هل تريد حقا حذف هذا؟";
 $text['confirm-delete']['de-at'] = "Wollen Sie das wirklich löschen?";
@@ -892,6 +925,7 @@ $text['confirm-delete']['ja-jp'] = "本当にこれを削除しますか?";
 $text['confirm-delete']['ko-kr'] = "정말 삭제하시겠습니까?";
 
 $text['message-add']['en-us'] = "Add Completed";
+$text['message-add']['vi-vn'] = 'Thêm hoàn tất';
 $text['message-add']['en-gb'] = "Add Completed";
 $text['message-add']['ar-eg'] = "اكتمل الإضافة";
 $text['message-add']['de-at'] = "Erfolgreich hinzugefügt";
@@ -919,6 +953,7 @@ $text['message-add']['ja-jp'] = "追加完了";
 $text['message-add']['ko-kr'] = "추가완료";
 
 $text['message-update']['en-us'] = "Update Completed";
+$text['message-update']['vi-vn'] = 'Cập nhật hoàn tất';
 $text['message-update']['en-gb'] = "Update Completed";
 $text['message-update']['ar-eg'] = "تحديث الانتهاء";
 $text['message-update']['de-at'] = "Aktualisierung durchgeführt";
@@ -946,6 +981,7 @@ $text['message-update']['ja-jp'] = "アップデート完了";
 $text['message-update']['ko-kr'] = "업데이트 완료";
 
 $text['message-delete']['en-us'] = "Delete Completed";
+$text['message-delete']['vi-vn'] = 'Xóa hoàn tất';
 $text['message-delete']['en-gb'] = "Delete Completed";
 $text['message-delete']['ar-eg'] = "اكتمل الحذف";
 $text['message-delete']['de-at'] = "Erfolgreich gelöscht";
@@ -973,6 +1009,7 @@ $text['message-delete']['ja-jp'] = "削除完了";
 $text['message-delete']['ko-kr'] = "삭제 완료";
 
 $text['message-required']['en-us'] = "Please provide: ";
+$text['message-required']['vi-vn'] = 'Vui lòng cung cấp: ';
 $text['message-required']['en-gb'] = "Please provide: ";
 $text['message-required']['ar-eg'] = "يرجى تقديم:";
 $text['message-required']['de-at'] = "Bitte geben Sie folgendes an:";

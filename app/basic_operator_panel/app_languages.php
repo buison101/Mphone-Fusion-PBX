@@ -1,6 +1,7 @@
 <?php
 
 $text['title-operator_panel']['en-us'] = "Operator Panel";
+$text['title-operator_panel']['vi-vn'] = 'Bảng operator';
 $text['title-operator_panel']['en-gb'] = "Operator Panel";
 $text['title-operator_panel']['ar-eg'] = "لوحة المشغل";
 $text['title-operator_panel']['de-at'] = "Bedienfeld";
@@ -28,6 +29,7 @@ $text['title-operator_panel']['ja-jp'] = "オペレーターパネル";
 $text['title-operator_panel']['ko-kr'] = "운영자 패널";
 
 $text['label-status_on_demand']['en-us'] = "On Demand";
+$text['label-status_on_demand']['vi-vn'] = 'Theo yêu cầu';
 $text['label-status_on_demand']['en-gb'] = "On Demand";
 $text['label-status_on_demand']['ar-eg'] = "على الطلب";
 $text['label-status_on_demand']['de-at'] = "Bei Bedarf";
@@ -55,6 +57,7 @@ $text['label-status_on_demand']['ja-jp'] = "オンデマンド";
 $text['label-status_on_demand']['ko-kr'] = "주문형";
 
 $text['label-status_on_break']['en-us'] = "On Break";
+$text['label-status_on_break']['vi-vn'] = 'Đang nghỉ';
 $text['label-status_on_break']['en-gb'] = "On Break";
 $text['label-status_on_break']['ar-eg'] = "في استراحة";
 $text['label-status_on_break']['de-at'] = "In Pause";
@@ -82,6 +85,7 @@ $text['label-status_on_break']['ja-jp'] = "休んで";
 $text['label-status_on_break']['ko-kr'] = "쉬는 중";
 
 $text['label-status_logged_out_or_unknown']['en-us'] = "Logged Out / Unknown";
+$text['label-status_logged_out_or_unknown']['vi-vn'] = 'Đã đăng xuất / Không rõ';
 $text['label-status_logged_out_or_unknown']['en-gb'] = "Logged Out / Unknown";
 $text['label-status_logged_out_or_unknown']['ar-eg'] = "تم تسجيل الخروج / غير معروف";
 $text['label-status_logged_out_or_unknown']['de-at'] = "Abgemeldet / Unbekannt";
@@ -109,6 +113,7 @@ $text['label-status_logged_out_or_unknown']['ja-jp'] = "ログアウト/不明";
 $text['label-status_logged_out_or_unknown']['ko-kr'] = "로그아웃됨/알 수 없음";
 
 $text['label-status_logged_out']['en-us'] = "Logged Out";
+$text['label-status_logged_out']['vi-vn'] = 'Đã đăng xuất';
 $text['label-status_logged_out']['en-gb'] = "Logged Out";
 $text['label-status_logged_out']['ar-eg'] = "تسجيل الخروج";
 $text['label-status_logged_out']['de-at'] = "Abgemeldet";
@@ -136,6 +141,7 @@ $text['label-status_logged_out']['ja-jp'] = "ログアウトしました";
 $text['label-status_logged_out']['ko-kr'] = "로그아웃됨";
 
 $text['label-status_do_not_disturb']['en-us'] = "Do Not Disturb";
+$text['label-status_do_not_disturb']['vi-vn'] = 'Không làm phiền';
 $text['label-status_do_not_disturb']['en-gb'] = "Do Not Disturb";
 $text['label-status_do_not_disturb']['ar-eg'] = "لا تخل";
 $text['label-status_do_not_disturb']['de-at'] = "Bitte nicht Stören";
@@ -163,6 +169,7 @@ $text['label-status_do_not_disturb']['ja-jp'] = "邪魔しないでください"
 $text['label-status_do_not_disturb']['ko-kr'] = "방해하지 마";
 
 $text['label-status_available_on_demand']['en-us'] = "Available (On Demand)";
+$text['label-status_available_on_demand']['vi-vn'] = 'Sẵn sàng (theo yêu cầu)';
 $text['label-status_available_on_demand']['en-gb'] = "Available (On Demand)";
 $text['label-status_available_on_demand']['ar-eg'] = "متاح (عند الطلب)";
 $text['label-status_available_on_demand']['de-at'] = "Verfügbar (Bei Bedarf)";
@@ -190,6 +197,7 @@ $text['label-status_available_on_demand']['ja-jp'] = "あり（オンデマン�
 $text['label-status_available_on_demand']['ko-kr'] = "사용 가능(주문형)";
 
 $text['label-status_available']['en-us'] = "Available";
+$text['label-status_available']['vi-vn'] = 'Sẵn sàng';
 $text['label-status_available']['en-gb'] = "Available";
 $text['label-status_available']['ar-eg'] = "متاح";
 $text['label-status_available']['de-at'] = "Verfügbar";
@@ -217,6 +225,7 @@ $text['label-status_available']['ja-jp'] = "利用可能";
 $text['label-status_available']['ko-kr'] = "사용 가능";
 
 $text['label-refresh_pause']['en-us'] = "Pause Refresh";
+$text['label-refresh_pause']['vi-vn'] = 'Tạm dừng làm mới';
 $text['label-refresh_pause']['en-gb'] = "Pause Refresh";
 $text['label-refresh_pause']['ar-eg'] = "وقفة التحديث";
 $text['label-refresh_pause']['de-at'] = "Seite neu laden deaktivieren";
@@ -244,6 +253,7 @@ $text['label-refresh_pause']['ja-jp'] = "リフレッシュを一時停止";
 $text['label-refresh_pause']['ko-kr'] = "새로고침 일시중지";
 
 $text['label-refresh_enable']['en-us'] = "Enable Refresh";
+$text['label-refresh_enable']['vi-vn'] = 'Bật làm mới';
 $text['label-refresh_enable']['en-gb'] = "Enable Refresh";
 $text['label-refresh_enable']['ar-eg'] = "تمكين التحديث";
 $text['label-refresh_enable']['de-at'] = "Seite neu laden aktivieren";
@@ -271,6 +281,7 @@ $text['label-refresh_enable']['ja-jp'] = "リフレッシュを有効にする";
 $text['label-refresh_enable']['ko-kr'] = "새로 고침 활성화";
 
 $text['label-recording']['en-us'] = "Recording";
+$text['label-recording']['vi-vn'] = 'Bản ghi âm';
 $text['label-recording']['en-gb'] = "Recording";
 $text['label-recording']['ar-eg'] = "تسجيل";
 $text['label-recording']['de-at'] = "Aufnahme";
@@ -298,6 +309,7 @@ $text['label-recording']['ja-jp'] = "録音";
 $text['label-recording']['ko-kr'] = "녹음";
 
 $text['label-record']['en-us'] = "Record";
+$text['label-record']['vi-vn'] = 'Ghi âm';
 $text['label-record']['en-gb'] = "Record";
 $text['label-record']['ar-eg'] = "سِجِلّ";
 $text['label-record']['de-at'] = "Aufnehmen";
@@ -325,6 +337,7 @@ $text['label-record']['ja-jp'] = "記録";
 $text['label-record']['ko-kr'] = "기록";
 
 $text['label-other_extensions']['en-us'] = "Other Extensions";
+$text['label-other_extensions']['vi-vn'] = 'Máy nhánh khác';
 $text['label-other_extensions']['en-gb'] = "Other Extensions";
 $text['label-other_extensions']['ar-eg'] = "ملحقات أخرى";
 $text['label-other_extensions']['de-at'] = "Andere Nebenstellen";
@@ -352,6 +365,7 @@ $text['label-other_extensions']['ja-jp'] = "その他の拡張子";
 $text['label-other_extensions']['ko-kr'] = "기타 확장";
 
 $text['label-no_extensions_found']['en-us'] = "No extensions found.";
+$text['label-no_extensions_found']['vi-vn'] = 'Không tìm thấy máy nhánh.';
 $text['label-no_extensions_found']['en-gb'] = "No extensions found.";
 $text['label-no_extensions_found']['ar-eg'] = "لم يتم العثور على ملحقات.";
 $text['label-no_extensions_found']['de-at'] = "Keine Nebenstellen gefunden.";
@@ -379,6 +393,7 @@ $text['label-no_extensions_found']['ja-jp'] = "拡張子が見つかりません
 $text['label-no_extensions_found']['ko-kr'] = "확장 프로그램이 없습니다.";
 
 $text['label-hangup']['en-us'] = "Hangup";
+$text['label-hangup']['vi-vn'] = 'Ngắt cuộc gọi';
 $text['label-hangup']['en-gb'] = "Hangup";
 $text['label-hangup']['ar-eg'] = "تشبث";
 $text['label-hangup']['de-at'] = "Abwürgen";
@@ -406,6 +421,7 @@ $text['label-hangup']['ja-jp'] = "ちょっとまって";
 $text['label-hangup']['ko-kr'] = "잠깐만";
 
 $text['label-eavesdrop']['en-us'] = "Eavesdrop";
+$text['label-eavesdrop']['vi-vn'] = 'Nghe xen';
 $text['label-eavesdrop']['en-gb'] = "Eavesdrop";
 $text['label-eavesdrop']['ar-eg'] = "التنصت";
 $text['label-eavesdrop']['de-at'] = "Mithören";
@@ -433,6 +449,7 @@ $text['label-eavesdrop']['ja-jp'] = "盗聴";
 $text['label-eavesdrop']['ko-kr'] = "엿듣다";
 
 $text['label-call_group']['en-us'] = "Call Group";
+$text['label-call_group']['vi-vn'] = 'Nhóm gọi';
 $text['label-call_group']['en-gb'] = "Call Group";
 $text['label-call_group']['ar-eg'] = "مجموعة الاتصال";
 $text['label-call_group']['de-at'] = "Rufgruppe";
@@ -460,6 +477,7 @@ $text['label-call_group']['ja-jp'] = "通話グループ";
 $text['label-call_group']['ko-kr'] = "통화 그룹";
 
 $text['label-call_direction']['en-us'] = "Call Direction";
+$text['label-call_direction']['vi-vn'] = 'Hướng cuộc gọi';
 $text['label-call_direction']['en-gb'] = "Call Direction";
 $text['label-call_direction']['ar-eg'] = "اتجاه الاتصال";
 $text['label-call_direction']['de-at'] = "Anruf Richtung";
@@ -487,6 +505,7 @@ $text['label-call_direction']['ja-jp'] = "通話方向";
 $text['label-call_direction']['ko-kr'] = "통화 방향";
 
 $text['label-filter']['en-us'] = "Filter...";
+$text['label-filter']['vi-vn'] = 'Lọc...';
 $text['label-filter']['en-gb'] = "Filter...";
 $text['label-filter']['ar-eg'] = "فيلم";
 $text['label-filter']['de-at'] = "Filter...";
@@ -514,6 +533,7 @@ $text['label-filter']['ja-jp'] = "フィルター";
 $text['label-filter']['ko-kr'] = "필터";
 
 $text['description-eavesdrop_destination']['en-us'] = "Select the Eavesdrop Destination";
+$text['description-eavesdrop_destination']['vi-vn'] = 'Chọn đích nghe xen';
 $text['description-eavesdrop_destination']['en-gb'] = "Select the Eavesdrop Destination";
 $text['description-eavesdrop_destination']['ar-eg'] = "حدد وجهة Eavesdrop";
 $text['description-eavesdrop_destination']['de-at'] = "Wählen Sie ein Ziel zum Mithören";
@@ -541,6 +561,7 @@ $text['description-eavesdrop_destination']['ja-jp'] = "盗聴先を選択";
 $text['description-eavesdrop_destination']['ko-kr'] = "도청 대상 선택";
 
 $text['button-all']['en-us'] = "All";
+$text['button-all']['vi-vn'] = 'Tất cả';
 $text['button-all']['en-gb'] = "All";
 $text['button-all']['ar-eg'] = "الجميع";
 $text['button-all']['de-at'] = "Alle";

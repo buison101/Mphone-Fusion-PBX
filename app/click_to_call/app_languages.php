@@ -1,6 +1,7 @@
 <?php
 
 $text['label-click2call']['en-us'] = "Click to Call";
+$text['label-click2call']['vi-vn'] = 'Nhấp để gọi';
 $text['label-click2call']['en-gb'] = "Click to Call";
 $text['label-click2call']['ar-eg'] = "اضغط للاتصال";
 $text['label-click2call']['de-at'] = "Click to Call";
@@ -27,6 +28,7 @@ $text['label-click2call']['ja-jp'] = "電話するにはクリック";
 $text['label-click2call']['ko-kr'] = "클릭 투 콜";
 
 $text['desc-click2call']['en-us'] = "Provide the following information to make a call from the source number to the destination number.";
+$text['desc-click2call']['vi-vn'] = 'Cung cấp thông tin sau để thực hiện cuộc gọi từ số nguồn đến số đích.';
 $text['desc-click2call']['en-gb'] = "Provide the following information to make a call from the source number to the destination number.";
 $text['desc-click2call']['ar-eg'] = "قم بتوفير المعلومات التالية لإجراء مكالمة من رقم المصدر إلى رقم الوجهة.";
 $text['desc-click2call']['de-at'] = "Geben Sie folgende Informationen an um einen Anruf von der Quellrufnummer zur Zielrufniummer her zu stellen";
@@ -53,6 +55,7 @@ $text['desc-click2call']['ja-jp'] = "発信元番号から宛先番号に電話�
 $text['desc-click2call']['ko-kr'] = "발신 번호에서 착신 번호로 전화를 걸려면 다음 정보를 입력하세요.";
 
 $text['label-src-caller-id-nam']['en-us'] = "Source Caller ID Name";
+$text['label-src-caller-id-nam']['vi-vn'] = 'Tên Caller ID nguồn';
 $text['label-src-caller-id-nam']['en-gb'] = "Source Caller ID Name";
 $text['label-src-caller-id-nam']['ar-eg'] = "اسم معرف المتصل المصدر";
 $text['label-src-caller-id-nam']['de-at'] = "Quell Anruferkennung (Namen)";
@@ -79,6 +82,7 @@ $text['label-src-caller-id-nam']['ja-jp'] = "発信元の発信者ID名";
 $text['label-src-caller-id-nam']['ko-kr'] = "소스 발신자 ID 이름";
 
 $text['desc-src-caller-id-nam']['en-us'] = "Enter the Caller ID name to send to your phone.";
+$text['desc-src-caller-id-nam']['vi-vn'] = 'Nhập tên Caller ID gửi đến điện thoại của bạn.';
 $text['desc-src-caller-id-nam']['en-gb'] = "Enter the Caller ID name to send to your phone.";
 $text['desc-src-caller-id-nam']['ar-eg'] = "أدخل اسم معرف المتصل لإرساله إلى هاتفك.";
 $text['desc-src-caller-id-nam']['de-at'] = "Geben Sie die Anruferkennung (Namen) ein, die an Ihr Telefon übermittelt werden soll.";
@@ -105,6 +109,7 @@ $text['desc-src-caller-id-nam']['ja-jp'] = "電話に送信する発信者 ID �
 $text['desc-src-caller-id-nam']['ko-kr'] = "전화로 보낼 발신자 ID 이름을 입력하십시오.";
 
 $text['label-src-caller-id-num']['en-us'] = "Source Caller ID Number";
+$text['label-src-caller-id-num']['vi-vn'] = 'Số Caller ID nguồn';
 $text['label-src-caller-id-num']['en-gb'] = "Source Caller ID Number";
 $text['label-src-caller-id-num']['ar-eg'] = "رقم هوية المتصل المصدر";
 $text['label-src-caller-id-num']['de-at'] = "Quell Anruferkennung (Nummer)";
@@ -131,6 +136,7 @@ $text['label-src-caller-id-num']['ja-jp'] = "発信元の発信者番号";
 $text['label-src-caller-id-num']['ko-kr'] = "소스 발신자 ID 번호";
 
 $text['desc-src-caller-id-num']['en-us'] = "Enter the Caller ID number to send to your phone (you probably want this to be the same as the destination number).";
+$text['desc-src-caller-id-num']['vi-vn'] = 'Nhập số Caller ID gửi đến điện thoại của bạn (thường nên đặt giống số đích).';
 $text['desc-src-caller-id-num']['en-gb'] = "Enter the Caller ID number to send to your phone (you probably want this to be the same as the destination number).";
 $text['desc-src-caller-id-num']['ar-eg'] = "أدخل رقم معرف المتصل لإرساله إلى هاتفك (ربما تريد أن يكون هذا هو نفس رقم الوجهة).";
 $text['desc-src-caller-id-num']['de-at'] = "Geben Sie die Anruferkennung (Nummer) ein, die an Ihr Telefon übermittelt werden soll.(In der Regel ist diese identisch mit der Zielrufnummer).";
@@ -157,6 +163,7 @@ $text['desc-src-caller-id-num']['ja-jp'] = "電話に送信する発信者 ID �
 $text['desc-src-caller-id-num']['ko-kr'] = "전화로 보낼 발신자 ID 번호를 입력합니다(대상 번호와 동일하게 하고 싶을 것입니다).";
 
 $text['label-dest-caller-id-nam']['en-us'] = "Destination Caller ID Name";
+$text['label-dest-caller-id-nam']['vi-vn'] = 'Tên Caller ID đích';
 $text['label-dest-caller-id-nam']['en-gb'] = "Destination Caller ID Name";
 $text['label-dest-caller-id-nam']['ar-eg'] = "اسم هوية المتصل الوجهة";
 $text['label-dest-caller-id-nam']['de-at'] = "Ziel Anruferkennung (Name)";
@@ -183,6 +190,7 @@ $text['label-dest-caller-id-nam']['ja-jp'] = "宛先の発信者ID名";
 $text['label-dest-caller-id-nam']['ko-kr'] = "대상 발신자 ID 이름";
 
 $text['desc-dest-caller-id-nam']['en-us'] = "Enter the Caller ID name to send to the destination number.";
+$text['desc-dest-caller-id-nam']['vi-vn'] = 'Nhập tên Caller ID gửi đến số đích.';
 $text['desc-dest-caller-id-nam']['en-gb'] = "Enter the Caller ID name to send to the destination number.";
 $text['desc-dest-caller-id-nam']['ar-eg'] = "أدخل اسم معرف المتصل لإرساله إلى رقم الوجهة.";
 $text['desc-dest-caller-id-nam']['de-at'] = "Geben Sie die Anruferkennung (Name) ein, die an das Ziel übermittelt werden soll.";
@@ -209,6 +217,7 @@ $text['desc-dest-caller-id-nam']['ja-jp'] = "宛先番号に送信する発信�
 $text['desc-dest-caller-id-nam']['ko-kr'] = "상대방 번호로 보낼 발신번호를 입력하세요.";
 
 $text['label-dest-caller-id-num']['en-us'] = "Destination Caller ID Number";
+$text['label-dest-caller-id-num']['vi-vn'] = 'Số Caller ID đích';
 $text['label-dest-caller-id-num']['en-gb'] = "Destination Caller ID Number";
 $text['label-dest-caller-id-num']['ar-eg'] = "رقم هوية المتصل الوجهة";
 $text['label-dest-caller-id-num']['de-at'] = "Ziel Anruferkennung (Nummer)";
@@ -235,6 +244,7 @@ $text['label-dest-caller-id-num']['ja-jp'] = "宛先の発信者番号";
 $text['label-dest-caller-id-num']['ko-kr'] = "대상 발신자 ID 번호";
 
 $text['desc-dest-caller-id-num']['en-us'] = "Enter the Caller ID number to send to the destination number (you probably want this to be your phone number).";
+$text['desc-dest-caller-id-num']['vi-vn'] = 'Nhập số Caller ID gửi đến số đích (thường nên đặt là số điện thoại của bạn).';
 $text['desc-dest-caller-id-num']['en-gb'] = "Enter the Caller ID number to send to the destination number (you probably want this to be your phone number).";
 $text['desc-dest-caller-id-num']['ar-eg'] = "أدخل رقم معرف المتصل لإرساله إلى رقم الوجهة (ربما تريد أن يكون هذا رقم هاتفك).";
 $text['desc-dest-caller-id-num']['de-at'] = "Geben Sie die Anruferkennung (Nummer) ein, die an das Ziel übermittelt werden soll (Normalerweise Ihre Rufnummer).";
@@ -261,6 +271,7 @@ $text['desc-dest-caller-id-num']['ja-jp'] = "宛先番号に送信する発信�
 $text['desc-dest-caller-id-num']['ko-kr'] = "대상 번호로 보낼 발신자 ID 번호를 입력합니다(아마도 이 번호를 전화번호로 사용하고 싶을 것입니다).";
 
 $text['label-src-num']['en-us'] = "Source Number";
+$text['label-src-num']['vi-vn'] = 'Số nguồn';
 $text['label-src-num']['en-gb'] = "Source Number";
 $text['label-src-num']['ar-eg'] = "رقم المصدر";
 $text['label-src-num']['de-at'] = "Quell Rufnummer";
@@ -287,6 +298,7 @@ $text['label-src-num']['ja-jp'] = "ソース番号";
 $text['label-src-num']['ko-kr'] = "소스 번호";
 
 $text['desc-src-num']['en-us'] = "Enter your phone number. This can be an extension on the system, or another number (eg: mobile phone).";
+$text['desc-src-num']['vi-vn'] = 'Nhập số điện thoại của bạn. Đây có thể là máy nhánh trên hệ thống hoặc số khác (ví dụ: điện thoại di động).';
 $text['desc-src-num']['en-gb'] = "Enter your phone number. This can be an extension on the system, or another number (eg: mobile phone).";
 $text['desc-src-num']['ar-eg'] = "أدخل رقم هاتفك. يمكن أن يكون هذا امتدادًا على النظام ، أو رقمًا آخر (مثل: الهاتف المحمول).";
 $text['desc-src-num']['de-at'] = "Geben Sie Ihre Rufnummer ein.Diese kann eine Nebenstelle auf dem System sein, oder eine andere Rufnummer (z.B. Ihre Mobilfunknummer).";
@@ -313,6 +325,7 @@ $text['desc-src-num']['ja-jp'] = "電話番号を入力してください。 こ
 $text['desc-src-num']['ko-kr'] = "전화번호를 입력하세요. 이것은 시스템의 내선 번호이거나 다른 번호(예: 휴대폰)일 수 있습니다.";
 
 $text['label-dest-num']['en-us'] = "Destination Number";
+$text['label-dest-num']['vi-vn'] = 'Số đích';
 $text['label-dest-num']['en-gb'] = "Destination Number";
 $text['label-dest-num']['ar-eg'] = "رقم الوجهة";
 $text['label-dest-num']['de-at'] = "Ziel Rufnummer";
@@ -339,6 +352,7 @@ $text['label-dest-num']['ja-jp'] = "宛先番号";
 $text['label-dest-num']['ko-kr'] = "목적지 번호";
 
 $text['desc-dest-num']['en-us'] = "Enter the number to call. This can be an extension on the system, another number, or a sip uri.  Sip URI's are of the form 5551234567@voip.example.com:5080 (5080 for freeswitch, or 5060 for other systems).";
+$text['desc-dest-num']['vi-vn'] = 'Nhập số cần gọi. Đây có thể là máy nhánh trên hệ thống, số khác hoặc SIP URI. SIP URI có dạng 5551234567@voip.example.com:5080 (5080 cho FreeSWITCH hoặc 5060 cho hệ thống khác).';
 $text['desc-dest-num']['en-gb'] = "Enter the number to call. This can be an extension on the system, another number, or a sip uri.  Sip URI's are of the form 5551234567@voip.example.com:5080 (5080 for freeswitch, or 5060 for other systems).";
 $text['desc-dest-num']['ar-eg'] = "أدخل الرقم للاتصال. يمكن أن يكون هذا امتدادًا على النظام ، أو رقمًا آخر ، أو sip uri. Sip URI's هي من الشكل 5551234567@voip.example.com: 5080 (5080 لـ freeswitch ، أو 5060 للأنظمة الأخرى).";
 $text['desc-dest-num']['de-at'] = "Geben Sie die Zielnummer ein. Diese kann eine Nebenstelle auf dem System sein, eine andere Rufnummer, oder eine SIP URI. Sip URI's sind wie folgt einzugeben: 5551234567@voip.example.com:5080 (5080 für freeswitch, oder 5060 für andere Systeme).";
@@ -365,6 +379,7 @@ $text['desc-dest-num']['ja-jp'] = "電話をかける番号を入力します。
 $text['desc-dest-num']['ko-kr'] = "전화를 걸 번호를 입력하세요. 이것은 시스템의 내선 번호, 다른 번호 또는 sip uri일 수 있습니다. Sip URI는 5551234567@voip.example.com:5080(freeswitch의 경우 5080, 기타 시스템의 경우 5060) 형식입니다.";
 
 $text['label-auto-answer']['en-us'] = "Auto Answer";
+$text['label-auto-answer']['vi-vn'] = 'Tự động trả lời';
 $text['label-auto-answer']['en-gb'] = "Auto Answer";
 $text['label-auto-answer']['ar-eg'] = "رد ألي";
 $text['label-auto-answer']['de-at'] = "Automatische Rufannahme";
@@ -391,6 +406,7 @@ $text['label-auto-answer']['ja-jp'] = "自動応答";
 $text['label-auto-answer']['ko-kr'] = "자동 응답";
 
 $text['desc-auto-answer']['en-us'] = "Select whether to enable auto answer.";
+$text['desc-auto-answer']['vi-vn'] = 'Chọn có bật tự động trả lời hay không.';
 $text['desc-auto-answer']['en-gb'] = "Select whether to enable auto answer.";
 $text['desc-auto-answer']['ar-eg'] = "حدد ما إذا كنت تريد تمكين الرد التلقائي.";
 $text['desc-auto-answer']['de-at'] = "Wählen Sie, ob die automatische Rufannahme aktiviert werden soll.";
@@ -417,6 +433,7 @@ $text['desc-auto-answer']['ja-jp'] = "自動応答を有効にするかどうか
 $text['desc-auto-answer']['ko-kr'] = "자동 응답 활성화 여부를 선택합니다.";
 
 $text['label-record']['en-us'] = "Record";
+$text['label-record']['vi-vn'] = 'Ghi âm';
 $text['label-record']['en-gb'] = "Record";
 $text['label-record']['ar-eg'] = "سِجِلّ";
 $text['label-record']['de-at'] = "Aufzeichnen";
@@ -443,6 +460,7 @@ $text['label-record']['ja-jp'] = "記録";
 $text['label-record']['ko-kr'] = "기록";
 
 $text['label-true']['en-us'] = "true";
+$text['label-true']['vi-vn'] = 'true';
 $text['label-true']['en-gb'] = "true";
 $text['label-true']['ar-eg'] = "حقيقي";
 $text['label-true']['de-at'] = "ein";
@@ -469,6 +487,7 @@ $text['label-true']['ja-jp'] = "真実";
 $text['label-true']['ko-kr'] = "진실";
 
 $text['label-false']['en-us'] = "false";
+$text['label-false']['vi-vn'] = 'false';
 $text['label-false']['en-gb'] = "false";
 $text['label-false']['ar-eg'] = "خطأ شنيع";
 $text['label-false']['de-at'] = "aus";
@@ -495,6 +514,7 @@ $text['label-false']['ja-jp'] = "間違い";
 $text['label-false']['ko-kr'] = "거짓";
 
 $text['desc-record']['en-us'] = "Select whether to record the call.";
+$text['desc-record']['vi-vn'] = 'Chọn có ghi âm cuộc gọi hay không.';
 $text['desc-record']['en-gb'] = "Select whether to record the call.";
 $text['desc-record']['ar-eg'] = "حدد ما إذا كنت تريد تسجيل المكالمة.";
 $text['desc-record']['de-at'] = "Wählen Sie, ob der Anruf aufgezeichnet werden soll.";
@@ -521,6 +541,7 @@ $text['desc-record']['ja-jp'] = "通話を録音するかどうかを選択し�
 $text['desc-record']['ko-kr'] = "통화 녹음 여부를 선택합니다.";
 
 $text['label-ringback']['en-us'] = "Ring Back";
+$text['label-ringback']['vi-vn'] = 'Ringback';
 $text['label-ringback']['en-gb'] = "Ring Back";
 $text['label-ringback']['ar-eg'] = "رنين مرة أخرى";
 $text['label-ringback']['de-at'] = "Rufton";
@@ -547,6 +568,7 @@ $text['label-ringback']['ja-jp'] = "リングバック";
 $text['label-ringback']['ko-kr'] = "링백";
 
 $text['desc-ringback']['en-us'] = "Defines what you will hear while destination is being called. The choices are music (music on hold) ring (ring tone).";
+$text['desc-ringback']['vi-vn'] = 'Định nghĩa âm bạn sẽ nghe trong khi số đích đang được gọi. Các lựa chọn là music (nhạc chờ) hoặc ring (nhạc chuông).';
 $text['desc-ringback']['en-gb'] = "Defines what you will hear while destination is being called. The choices are music (music on hold) ring (ring tone).";
 $text['desc-ringback']['ar-eg'] = "يحدد ما سوف تسمعه أثناء الاتصال بالوجهة. الاختيارات هي رنين الموسيقى (الموسيقى قيد الانتظار) (نغمة الرنين).";
 $text['desc-ringback']['de-at'] = "Geben Sie an, was Sie hören möchten, während die Verbindung aufgebaut wird. Zur Auswahl stehen musik (Wartemusik) oder Rufton";
@@ -573,6 +595,7 @@ $text['desc-ringback']['ja-jp'] = "宛先が呼び出されているときに聞
 $text['desc-ringback']['ko-kr'] = "목적지가 호출되는 동안 듣게 될 내용을 정의합니다. 선택 항목은 음악(보류 중인 음악) ring(벨소리)입니다.";
 
 $text['opt-usring']['en-us'] = "us-ring";
+$text['opt-usring']['vi-vn'] = 'us-ring';
 $text['opt-usring']['en-gb'] = "us-ring";
 $text['opt-usring']['ar-eg'] = "us-ring";
 $text['opt-usring']['de-at'] = "us-ring";
@@ -599,6 +622,7 @@ $text['opt-usring']['ja-jp'] = "アメリカのリング";
 $text['opt-usring']['ko-kr'] = "미국 반지";
 
 $text['opt-frring']['en-us'] = "fr-ring";
+$text['opt-frring']['vi-vn'] = 'fr-ring';
 $text['opt-frring']['en-gb'] = "fr-ring";
 $text['opt-frring']['ar-eg'] = "fr-ring";
 $text['opt-frring']['de-at'] = "fr-ring";
@@ -625,6 +649,7 @@ $text['opt-frring']['ja-jp'] = "frリング";
 $text['opt-frring']['ko-kr'] = "프 링";
 
 $text['opt-ptring']['en-us'] = "pt-ring";
+$text['opt-ptring']['vi-vn'] = 'pt-ring';
 $text['opt-ptring']['en-gb'] = "pt-ring";
 $text['opt-ptring']['ar-eg'] = "pt-ring";
 $text['opt-ptring']['de-at'] = "pt-ring";
@@ -651,6 +676,7 @@ $text['opt-ptring']['ja-jp'] = "ptリング";
 $text['opt-ptring']['ko-kr'] = "pt-링";
 
 $text['opt-ukring']['en-us'] = "uk-ring";
+$text['opt-ukring']['vi-vn'] = 'uk-ring';
 $text['opt-ukring']['en-gb'] = "uk-ring";
 $text['opt-ukring']['ar-eg'] = "uk-ring";
 $text['opt-ukring']['de-at'] = "uk-ring";
@@ -677,6 +703,7 @@ $text['opt-ukring']['ja-jp'] = "英国リング";
 $text['opt-ukring']['ko-kr'] = "영국 링";
 
 $text['opt-rsring']['en-us'] = "rs-ring";
+$text['opt-rsring']['vi-vn'] = 'rs-ring';
 $text['opt-rsring']['en-gb'] = "rs-ring";
 $text['opt-rsring']['ar-eg'] = "rs-ring";
 $text['opt-rsring']['de-at'] = "rs-ring";
@@ -703,6 +730,7 @@ $text['opt-rsring']['ja-jp'] = "rs-リング";
 $text['opt-rsring']['ko-kr'] = "rs-링";
 
 $text['opt-ruring']['en-us'] = "ru-ring";
+$text['opt-ruring']['vi-vn'] = 'ru-ring';
 $text['opt-ruring']['en-gb'] = "ru-ring";
 $text['opt-ruring']['ar-eg'] = "ru-ring";
 $text['opt-ruring']['de-at'] = "ru-ring";
@@ -729,6 +757,7 @@ $text['opt-ruring']['ja-jp'] = "ルーリング";
 $text['opt-ruring']['ko-kr'] = "루링";
 
 $text['opt-itring']['en-us'] = "it-ring";
+$text['opt-itring']['vi-vn'] = 'it-ring';
 $text['opt-itring']['en-gb'] = "it-ring";
 $text['opt-itring']['ar-eg'] = "it-ring";
 $text['opt-itring']['de-at'] = "it-ring";
@@ -755,6 +784,7 @@ $text['opt-itring']['ja-jp'] = "それリング";
 $text['opt-itring']['ko-kr'] = "잇링";
 
 $text['opt-dering']['en-us'] = "de-ring";
+$text['opt-dering']['vi-vn'] = 'bỏ đổ chuông';
 $text['opt-dering']['en-gb'] = "de-ring";
 $text['opt-dering']['ar-eg'] = "de-ring";
 $text['opt-dering']['de-at'] = "de-ring";
@@ -781,6 +811,7 @@ $text['opt-dering']['ja-jp'] = "リング";
 $text['opt-dering']['ko-kr'] = "반지";
 
 $text['opt-moh']['en-us'] = "music";
+$text['opt-moh']['vi-vn'] = 'music';
 $text['opt-moh']['en-gb'] = "music";
 $text['opt-moh']['ar-eg'] = "موسيقى";
 $text['opt-moh']['de-at'] = "Musik";
@@ -807,6 +838,7 @@ $text['opt-moh']['ja-jp'] = "音楽";
 $text['opt-moh']['ko-kr'] = "음악";
 
 $text['button-call']['en-us'] = "Call";
+$text['button-call']['vi-vn'] = 'Gọi';
 $text['button-call']['en-gb'] = "Call";
 $text['button-call']['ar-eg'] = "يتصل";
 $text['button-call']['de-at'] = "Anrufen";

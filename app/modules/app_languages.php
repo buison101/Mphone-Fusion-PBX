@@ -1,6 +1,7 @@
 <?php
 
 $text['title-modules']['en-us'] = "Modules";
+$text['title-modules']['vi-vn'] = 'Module';
 $text['title-modules']['en-gb'] = "Modules";
 $text['title-modules']['ar-eg'] = "الوحدات";
 $text['title-modules']['de-at'] = "Module";
@@ -28,6 +29,7 @@ $text['title-modules']['ja-jp'] = "モジュール";
 $text['title-modules']['ko-kr'] = "모듈";
 
 $text['title-module_edit']['en-us'] = "Module Edit";
+$text['title-module_edit']['vi-vn'] = 'Sửa module';
 $text['title-module_edit']['en-gb'] = "Module Edit";
 $text['title-module_edit']['ar-eg'] = "وحدة التحرير";
 $text['title-module_edit']['de-at'] = "Module bearbeiten";
@@ -55,6 +57,7 @@ $text['title-module_edit']['ja-jp'] = "モジュール編集";
 $text['title-module_edit']['ko-kr'] = "모듈 편집";
 
 $text['title-module_add']['en-us'] = "Module Add";
+$text['title-module_add']['vi-vn'] = 'Thêm module';
 $text['title-module_add']['en-gb'] = "Module Add";
 $text['title-module_add']['ar-eg'] = "الوحدة";
 $text['title-module_add']['de-at'] = "Module hinzufügen";
@@ -82,6 +85,7 @@ $text['title-module_add']['ja-jp'] = "モジュールの追加";
 $text['title-module_add']['ko-kr'] = "모듈 추가";
 
 $text['label-unknown']['en-us'] = "Unknown";
+$text['label-unknown']['vi-vn'] = 'Không rõ';
 $text['label-unknown']['en-gb'] = "Unknown";
 $text['label-unknown']['ar-eg'] = "غير معروف";
 $text['label-unknown']['de-at'] = "Unbekannt";
@@ -109,6 +113,7 @@ $text['label-unknown']['ja-jp'] = "知らない";
 $text['label-unknown']['ko-kr'] = "알려지지 않은";
 
 $text['label-none']['en-us'] = "None";
+$text['label-none']['vi-vn'] = 'Không có';
 $text['label-none']['en-gb'] = "None";
 $text['label-none']['ar-eg'] = "لا";
 $text['label-none']['de-at'] = "Keine";
@@ -136,6 +141,7 @@ $text['label-none']['ja-jp'] = "なし";
 $text['label-none']['ko-kr'] = "없음";
 
 $text['label-stopped']['en-us'] = "Stopped";
+$text['label-stopped']['vi-vn'] = 'Đã dừng';
 $text['label-stopped']['en-gb'] = "Stopped";
 $text['label-stopped']['ar-eg'] = "توقف";
 $text['label-stopped']['de-at'] = "beendet";
@@ -163,6 +169,7 @@ $text['label-stopped']['ja-jp'] = "停止";
 $text['label-stopped']['ko-kr'] = "중지됨";
 
 $text['label-stop']['en-us'] = "Stop";
+$text['label-stop']['vi-vn'] = 'Dừng';
 $text['label-stop']['en-gb'] = "Stop";
 $text['label-stop']['ar-eg'] = "توقف";
 $text['label-stop']['de-at'] = "Beenden";
@@ -190,6 +197,7 @@ $text['label-stop']['ja-jp'] = "ストップ";
 $text['label-stop']['ko-kr'] = "멈추다";
 
 $text['label-status']['en-us'] = "Status";
+$text['label-status']['vi-vn'] = 'Trạng thái';
 $text['label-status']['en-gb'] = "Status";
 $text['label-status']['ar-eg'] = "الحالة";
 $text['label-status']['de-at'] = "Status";
@@ -217,6 +225,7 @@ $text['label-status']['ja-jp'] = "スターテス";
 $text['label-status']['ko-kr'] = "상태";
 
 $text['label-start']['en-us'] = "Start";
+$text['label-start']['vi-vn'] = 'Bắt đầu';
 $text['label-start']['en-gb'] = "Start";
 $text['label-start']['ar-eg'] = "ابدأ";
 $text['label-start']['de-at'] = "Start";
@@ -244,6 +253,7 @@ $text['label-start']['ja-jp'] = "始める";
 $text['label-start']['ko-kr'] = "시작";
 
 $text['label-running']['en-us'] = "Running";
+$text['label-running']['vi-vn'] = 'Đang chạy';
 $text['label-running']['en-gb'] = "Running";
 $text['label-running']['ar-eg'] = "تشغيل";
 $text['label-running']['de-at'] = "läuft";
@@ -271,6 +281,7 @@ $text['label-running']['ja-jp'] = "ランニング";
 $text['label-running']['ko-kr'] = "달리기";
 
 $text['label-module_name']['en-us'] = "Module Name";
+$text['label-module_name']['vi-vn'] = 'Tên module';
 $text['label-module_name']['en-gb'] = "Module Name";
 $text['label-module_name']['ar-eg'] = "اسم الوحدة";
 $text['label-module_name']['de-at'] = "Modul Name";
@@ -298,6 +309,7 @@ $text['label-module_name']['ja-jp'] = "モジュール名";
 $text['label-module_name']['ko-kr'] = "모듈 이름";
 
 $text['label-module_category']['en-us'] = "Module Category";
+$text['label-module_category']['vi-vn'] = 'Danh mục module';
 $text['label-module_category']['en-gb'] = "Module Category";
 $text['label-module_category']['ar-eg'] = "فئة الوحدات";
 $text['label-module_category']['de-at'] = "Modul Kategorie";
@@ -325,6 +337,7 @@ $text['label-module_category']['ja-jp'] = "モジュールカテゴリ";
 $text['label-module_category']['ko-kr'] = "모듈 카테고리";
 
 $text['label-message']['en-us'] = "Message";
+$text['label-message']['vi-vn'] = 'Thông báo';
 $text['label-message']['en-gb'] = "Message";
 $text['label-message']['ar-eg'] = "الرسالة";
 $text['label-message']['de-at'] = "Nachricht";
@@ -352,6 +365,7 @@ $text['label-message']['ja-jp'] = "メッセージ";
 $text['label-message']['ko-kr'] = "메시지";
 
 $text['label-label']['en-us'] = "Label";
+$text['label-label']['vi-vn'] = 'Nhãn';
 $text['label-label']['en-gb'] = "Label";
 $text['label-label']['ar-eg'] = "علامة";
 $text['label-label']['de-at'] = "Kennzeichnung";
@@ -379,6 +393,7 @@ $text['label-label']['ja-jp'] = "ラベル";
 $text['label-label']['ko-kr'] = "상표";
 
 $text['label-default_enabled']['en-us'] = "Default Enabled";
+$text['label-default_enabled']['vi-vn'] = 'Bật mặc định';
 $text['label-default_enabled']['en-gb'] = "Default Enabled";
 $text['label-default_enabled']['ar-eg'] = "افتراضي ممكّن";
 $text['label-default_enabled']['de-at'] = "Standard aktiv";
@@ -406,6 +421,7 @@ $text['label-default_enabled']['ja-jp'] = "デフォルトで有効";
 $text['label-default_enabled']['ko-kr'] = "기본값 사용";
 
 $text['label-action']['en-us'] = "Action";
+$text['label-action']['vi-vn'] = 'Thao tác';
 $text['label-action']['en-gb'] = "Action";
 $text['label-action']['ar-eg'] = "الإجراء";
 $text['label-action']['de-at'] = "Aktion";
@@ -433,6 +449,7 @@ $text['label-action']['ja-jp'] = "アクション";
 $text['label-action']['ko-kr'] = "행동";
 
 $text['label-other']['en-us'] = "Other...";
+$text['label-other']['vi-vn'] = 'Khác...';
 $text['label-other']['en-gb'] = "Other...";
 $text['label-other']['ar-eg'] = "أخرى";
 $text['label-other']['de-at'] = "Andere...";
@@ -460,6 +477,7 @@ $text['label-other']['ja-jp'] = "その他";
 $text['label-other']['ko-kr'] = "다른";
 
 $text['header-modules']['en-us'] = "Modules";
+$text['header-modules']['vi-vn'] = 'Module';
 $text['header-modules']['en-gb'] = "Modules";
 $text['header-modules']['ar-eg'] = "الوحدات";
 $text['header-modules']['de-at'] = "Module";
@@ -487,6 +505,7 @@ $text['header-modules']['ja-jp'] = "モジュール";
 $text['header-modules']['ko-kr'] = "모듈";
 
 $text['header-module_edit']['en-us'] = "Module Edit";
+$text['header-module_edit']['vi-vn'] = 'Sửa module';
 $text['header-module_edit']['en-gb'] = "Module Edit";
 $text['header-module_edit']['ar-eg'] = "وحدة التحرير";
 $text['header-module_edit']['de-at'] = "Module bearbeiten";
@@ -514,6 +533,7 @@ $text['header-module_edit']['ja-jp'] = "モジュール編集";
 $text['header-module_edit']['ko-kr'] = "모듈 편집";
 
 $text['header-module_add']['en-us'] = "Module Add";
+$text['header-module_add']['vi-vn'] = 'Thêm module';
 $text['header-module_add']['en-gb'] = "Module Add";
 $text['header-module_add']['ar-eg'] = "إضافة وحدة";
 $text['header-module_add']['de-at'] = "Module hinzufügen";
@@ -541,6 +561,7 @@ $text['header-module_add']['ja-jp'] = "モジュールの追加";
 $text['header-module_add']['ko-kr'] = "모듈 추가";
 
 $text['description-modules']['en-us'] = "Modules extend the features of the system. Use this page to enable or disable modules.";
+$text['description-modules']['vi-vn'] = 'Module mở rộng tính năng của hệ thống. Dùng trang này để bật hoặc tắt module.';
 $text['description-modules']['en-gb'] = "Modules extend the features of the system. Use this page to enable or disable modules.";
 $text['description-modules']['ar-eg'] = "وتوسّع النماذج سمات النظام. استخدام هذه الصفحة للتمكين من الوحدات أو تفكيكها.";
 $text['description-modules']['de-at'] = "Module erweitern die Funktionalität des Systems. Benutzen Sie diese Seite um Module zu aktivieren oder zu deaktivieren.";
@@ -568,6 +589,7 @@ $text['description-modules']['ja-jp'] = "モジュールはシステムの機能
 $text['description-modules']['ko-kr'] = "모듈은 시스템의 기능을 확장합니다. 이 페이지를 사용하여 모듈을 활성화하거나 비활성화합니다.";
 
 $text['error-event-socket']['en-us'] = "Connection to Event Socket failed.";
+$text['error-event-socket']['vi-vn'] = 'Kết nối đến Event Socket thất bại.';
 $text['error-event-socket']['en-gb'] = "Connection to Event Socket failed.";
 $text['error-event-socket']['ar-eg'] = "فشل الاتصال بـ Event Socket.";
 $text['error-event-socket']['de-at'] = "Verbindung zum Event Socket fehlgeschlagen.";
@@ -595,6 +617,7 @@ $text['error-event-socket']['ja-jp'] = "イベントソケットへの接続に�
 $text['error-event-socket']['ko-kr'] = "이벤트 소켓에 연결하지 못했습니다.";
 
 $text['message-module_started']['en-us'] = "Module(s) Started";
+$text['message-module_started']['vi-vn'] = 'Module đã khởi động';
 $text['message-module_started']['en-gb'] = "Module(s) Started";
 $text['message-module_started']['ar-eg'] = "النموذج (الوحدات)";
 $text['message-module_started']['de-at'] = "Modul laden";
@@ -622,6 +645,7 @@ $text['message-module_started']['ja-jp'] = "モジュールが開始されまし
 $text['message-module_started']['ko-kr'] = "모듈 시작됨";
 
 $text['message-module_stopped']['en-us'] = "Module(s) Stopped";
+$text['message-module_stopped']['vi-vn'] = 'Module đã dừng';
 $text['message-module_stopped']['en-gb'] = "Module(s) Stopped";
 $text['message-module_stopped']['ar-eg'] = "الوحدة (الوحدات)";
 $text['message-module_stopped']['de-at'] = "Modul deaktivieren";
@@ -649,6 +673,7 @@ $text['message-module_stopped']['ja-jp'] = "モジュールが停止しました
 $text['message-module_stopped']['ko-kr'] = "중지된 모듈";
 
 $text['confirm-start_modules']['en-us'] = "Are you sure you wish to START these modules?";
+$text['confirm-start_modules']['vi-vn'] = 'Bạn có chắc muốn KHỞI ĐỘNG các module này không?';
 $text['confirm-start_modules']['en-gb'] = "Are you sure you wish to START these modules?";
 $text['confirm-start_modules']['ar-eg'] = "هل أنت متأكد أنك ترغب في بدء هذه الوحدات؟";
 $text['confirm-start_modules']['de-at'] = "Sind Sie sicher, dass Sie diese Module STARTEN möchten?";
@@ -676,6 +701,7 @@ $text['confirm-start_modules']['ja-jp'] = "これらのモジュールを開始�
 $text['confirm-start_modules']['ko-kr'] = "이 모듈을 시작하시겠습니까?";
 
 $text['confirm-stop_modules']['en-us'] = "Are you sure you wish to STOP these modules?";
+$text['confirm-stop_modules']['vi-vn'] = 'Bạn có chắc muốn DỪNG các module này không?';
 $text['confirm-stop_modules']['en-gb'] = "Are you sure you wish to STOP these modules?";
 $text['confirm-stop_modules']['ar-eg'] = "هل أنت متأكد أنك تريد إيقاف هذه الوحدات؟";
 $text['confirm-stop_modules']['de-at'] = "Möchten Sie diese Module wirklich STOPPEN?";

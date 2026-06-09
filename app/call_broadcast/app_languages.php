@@ -1,6 +1,7 @@
 <?php
 
 $text['title-call_broadcasts']['en-us'] = "Call Broadcasts";
+$text['title-call_broadcasts']['vi-vn'] = 'Phát cuộc gọi hàng loạt';
 $text['title-call_broadcasts']['en-gb'] = "Call Broadcasts";
 $text['title-call_broadcasts']['ar-eg'] = "البث دعوة";
 $text['title-call_broadcasts']['de-at'] = "Rundrufe";
@@ -28,6 +29,7 @@ $text['title-call_broadcasts']['ja-jp'] = "コール ブロードキャスト";
 $text['title-call_broadcasts']['ko-kr'] = "통화 방송";
 
 $text['title-call_broadcast']['en-us'] = "Call Broadcast";
+$text['title-call_broadcast']['vi-vn'] = 'Phát cuộc gọi';
 $text['title-call_broadcast']['en-gb'] = "Call Broadcast";
 $text['title-call_broadcast']['ar-eg'] = "بث دعوة";
 $text['title-call_broadcast']['de-at'] = "Rundrufe";
@@ -55,6 +57,7 @@ $text['title-call_broadcast']['ja-jp'] = "コール ブロードキャスト";
 $text['title-call_broadcast']['ko-kr'] = "통화 브로드캐스트";
 
 $text['title_description-call_broadcast']['en-us'] = "Manage the delivery of pre-recorded messages to mass recipients.";
+$text['title_description-call_broadcast']['vi-vn'] = 'Quản lý việc gửi thông điệp ghi âm sẵn đến nhiều người nhận.';
 $text['title_description-call_broadcast']['en-gb'] = "Manage the delivery of pre-recorded messages to mass recipients.";
 $text['title_description-call_broadcast']['ar-eg'] = "إدارة تسليم الرسائل المسجلة مسبقًا إلى المستلمين بالجملة.";
 $text['title_description-call_broadcast']['de-at'] = "Verwalten Sie die Zustellung von aufgezeichneten Nachrichten an Massenempfänger.";
@@ -82,6 +85,7 @@ $text['title_description-call_broadcast']['ja-jp'] = "大量の受信者への�
 $text['title_description-call_broadcast']['ko-kr'] = "대량 수신자에게 미리 녹음된 메시지 전달을 관리합니다.";
 
 $text['option-true']['en-us'] = "True";
+$text['option-true']['vi-vn'] = 'Đúng';
 $text['option-true']['en-gb'] = "True";
 $text['option-true']['ar-eg'] = "حقيقي";
 $text['option-true']['de-at'] = "Ein";
@@ -109,6 +113,7 @@ $text['option-true']['ja-jp'] = "真実";
 $text['option-true']['ko-kr'] = "진실";
 
 $text['option-false']['en-us'] = "False";
+$text['option-false']['vi-vn'] = 'Sai';
 $text['option-false']['en-gb'] = "False";
 $text['option-false']['ar-eg'] = "خطأ شنيع";
 $text['option-false']['de-at'] = "Aus";
@@ -136,6 +141,7 @@ $text['option-false']['ja-jp'] = "間違い";
 $text['option-false']['ko-kr'] = "거짓";
 
 $text['label-view-calls']['en-us'] = "View Calls";
+$text['label-view-calls']['vi-vn'] = 'Xem cuộc gọi';
 $text['label-view-calls']['en-gb'] = "View Calls";
 $text['label-view-calls']['ar-eg'] = "مشاهدة المكالمات";
 $text['label-view-calls']['de-at'] = "Anrufe ansehen";
@@ -163,6 +169,7 @@ $text['label-view-calls']['ja-jp'] = "通話を表示";
 $text['label-view-calls']['ko-kr'] = "통화 보기";
 
 $text['label-start_time']['en-us'] = "Start Time";
+$text['label-start_time']['vi-vn'] = 'Thời gian bắt đầu';
 $text['label-start_time']['en-gb'] = "Start Time";
 $text['label-start_time']['ar-eg'] = "وقت البدء";
 $text['label-start_time']['de-at'] = "Startzeit";
@@ -190,6 +197,7 @@ $text['label-start_time']['ja-jp'] = "始まる時間";
 $text['label-start_time']['ko-kr'] = "시작 시간";
 
 $text['label-timeout']['en-us'] = "Timeout";
+$text['label-timeout']['vi-vn'] = 'Thời gian chờ';
 $text['label-timeout']['en-gb'] = "Timeout";
 $text['label-timeout']['ar-eg'] = "نفذ الوقت";
 $text['label-timeout']['de-at'] = "Zeitüberschreitung";
@@ -217,6 +225,7 @@ $text['label-timeout']['ja-jp'] = "タイムアウト";
 $text['label-timeout']['ko-kr'] = "타임아웃";
 
 $text['label-phone']['en-us'] = "Phone Numbers";
+$text['label-phone']['vi-vn'] = 'Số điện thoại';
 $text['label-phone']['en-gb'] = "Phone Numbers";
 $text['label-phone']['ar-eg'] = "قائمة رقم الهاتف";
 $text['label-phone']['de-at'] = "Liste der Telefonnummern";
@@ -244,6 +253,7 @@ $text['label-phone']['ja-jp'] = "電話番号";
 $text['label-phone']['ko-kr'] = "전화 번호";
 
 $text['label-message']['en-us'] = "Message";
+$text['label-message']['vi-vn'] = 'Thông báo';
 $text['label-message']['en-gb'] = "Message";
 $text['label-message']['ar-eg'] = "رسالة";
 $text['label-message']['de-at'] = "Nachricht";
@@ -271,6 +281,7 @@ $text['label-message']['ja-jp'] = "メッセージ";
 $text['label-message']['ko-kr'] = "메시지";
 
 $text['label-has-been']['en-us'] = "has been started";
+$text['label-has-been']['vi-vn'] = 'đã được bắt đầu';
 $text['label-has-been']['en-gb'] = "has been started";
 $text['label-has-been']['ar-eg'] = "قد بدأ";
 $text['label-has-been']['de-at'] = "wurde gestartet";
@@ -298,6 +309,7 @@ $text['label-has-been']['ja-jp'] = "開始されました";
 $text['label-has-been']['ko-kr'] = "시작되었습니다";
 
 $text['label-destination']['en-us'] = "Destination Number";
+$text['label-destination']['vi-vn'] = 'Số đích';
 $text['label-destination']['en-gb'] = "Destination Number";
 $text['label-destination']['ar-eg'] = "رقم الوجهة";
 $text['label-destination']['de-at'] = "Zielnummer";
@@ -325,6 +337,7 @@ $text['label-destination']['ja-jp'] = "宛先番号";
 $text['label-destination']['ko-kr'] = "목적지 번호";
 
 $text['label-concurrent-limit']['en-us'] = "Concurrent Limit";
+$text['label-concurrent-limit']['vi-vn'] = 'Giới hạn đồng thời';
 $text['label-concurrent-limit']['en-gb'] = "Concurrent Limit";
 $text['label-concurrent-limit']['ar-eg'] = "الحد المتزامن";
 $text['label-concurrent-limit']['de-at'] = "Gleichzeitige Anrufe";
@@ -352,6 +365,7 @@ $text['label-concurrent-limit']['ja-jp'] = "同時制限";
 $text['label-concurrent-limit']['ko-kr'] = "동시 제한";
 
 $text['label-callerid-number']['en-us'] = "Caller ID Number";
+$text['label-callerid-number']['vi-vn'] = 'Số Caller ID';
 $text['label-callerid-number']['en-gb'] = "Caller ID Number";
 $text['label-callerid-number']['ar-eg'] = "رقم هوية المتصل";
 $text['label-callerid-number']['de-at'] = "Anruferkennung (Nummer)";
@@ -379,6 +393,7 @@ $text['label-callerid-number']['ja-jp'] = "発信者番号";
 $text['label-callerid-number']['ko-kr'] = "발신자 ID 번호";
 
 $text['label-caller-id-name']['en-us'] = "Caller ID Name";
+$text['label-caller-id-name']['vi-vn'] = 'Tên Caller ID';
 $text['label-caller-id-name']['en-gb'] = "Caller ID Name";
 $text['label-caller-id-name']['ar-eg'] = "اسم معرف المتصل";
 $text['label-caller-id-name']['de-at'] = "Anruferkennung (Name)";
@@ -406,6 +421,7 @@ $text['label-caller-id-name']['ja-jp'] = "発信者番号名";
 $text['label-caller-id-name']['ko-kr'] = "발신자 ID 이름";
 
 $text['label-call-broadcasts']['en-us'] = "Call Broadcasts";
+$text['label-call-broadcasts']['vi-vn'] = 'Phát cuộc gọi hàng loạt';
 $text['label-call-broadcasts']['en-gb'] = "Call Broadcasts";
 $text['label-call-broadcasts']['ar-eg'] = "البث دعوة";
 $text['label-call-broadcasts']['de-at'] = "Rundrufe";
@@ -433,6 +449,7 @@ $text['label-call-broadcasts']['ja-jp'] = "コール ブロードキャスト";
 $text['label-call-broadcasts']['ko-kr'] = "통화 방송";
 
 $text['label-call-broadcast']['en-us'] = "Call Broadcast";
+$text['label-call-broadcast']['vi-vn'] = 'Phát cuộc gọi';
 $text['label-call-broadcast']['en-gb'] = "Call Broadcast";
 $text['label-call-broadcast']['ar-eg'] = "بث دعوة";
 $text['label-call-broadcast']['de-at'] = "Rundrufe";
@@ -460,6 +477,7 @@ $text['label-call-broadcast']['ja-jp'] = "コール ブロードキャスト";
 $text['label-call-broadcast']['ko-kr'] = "통화 브로드캐스트";
 
 $text['label-avmd']['en-us'] = "Voicemail Detection";
+$text['label-avmd']['vi-vn'] = 'Phát hiện thư thoại';
 $text['label-avmd']['en-gb'] = "Voicemail Detection";
 $text['label-avmd']['ar-eg'] = "كشف البريد الصوتي";
 $text['label-avmd']['de-at'] = "Erkennung von Sprachnachrichten";
@@ -487,6 +505,7 @@ $text['label-avmd']['ja-jp'] = "ボイスメールの検出";
 $text['label-avmd']['ko-kr'] = "음성 메일 감지";
 
 $text['label-broadcast_toll_allow']['en-us'] = "Toll Allow";
+$text['label-broadcast_toll_allow']['vi-vn'] = 'Toll Allow';
 $text['label-broadcast_toll_allow']['en-gb'] = "Toll Allow";
 $text['label-broadcast_toll_allow']['ar-eg'] = "عدد مسموح به";
 $text['label-broadcast_toll_allow']['de-at'] = "Berechtigung";
@@ -514,6 +533,7 @@ $text['label-broadcast_toll_allow']['ja-jp'] = "トールアロー";
 $text['label-broadcast_toll_allow']['ko-kr'] = "통행료 허용";
 
 $text['label-accountcode']['en-us'] = "Account Code";
+$text['label-accountcode']['vi-vn'] = 'Mã tài khoản';
 $text['label-accountcode']['en-gb'] = "Account Code";
 $text['label-accountcode']['ar-eg'] = "رمز الحساب";
 $text['label-accountcode']['de-at'] = "Kontoschlüssel";
@@ -541,6 +561,7 @@ $text['label-accountcode']['ja-jp'] = "口座番号";
 $text['label-accountcode']['ko-kr'] = "계정 코드";
 
 $text['label-sample_file']['en-us'] = "Sample CSV File";
+$text['label-sample_file']['vi-vn'] = 'Tệp CSV mẫu';
 $text['label-sample_file']['en-gb'] = "Sample CSV File";
 $text['label-sample_file']['ar-eg'] = "نموذج لملف CSV";
 $text['label-sample_file']['de-at'] = "Beispiel-CSV-Datei";
@@ -568,6 +589,7 @@ $text['label-sample_file']['ja-jp'] = "サンプル CSV ファイル";
 $text['label-sample_file']['ko-kr'] = "샘플 CSV 파일";
 
 $text['label-list_example']['en-us'] = "Number|First,LastNumber|First,Last...";
+$text['label-list_example']['vi-vn'] = 'Số|Tên,HọSố|Tên,Họ...';
 $text['label-list_example']['en-gb'] = "Number|First,LastNumber|First,Last...";
 $text['label-list_example']['ar-eg'] = "الرقم|الأول،الرقم الأخير|الأول،الأخير...";
 $text['label-list_example']['de-at'] = "Nummer|Erste,ZuletztNummer|Erste,Zuletzt...";
@@ -595,6 +617,7 @@ $text['label-list_example']['ja-jp'] = "番号|最初、最後番号|最初、�
 $text['label-list_example']['ko-kr'] = "번호|이름, 성번호|이름, 성...";
 
 $text['description-start_time']['en-us'] = "The date and time to begin sending calls.";
+$text['description-start_time']['vi-vn'] = 'Ngày và giờ bắt đầu gửi cuộc gọi.';
 $text['description-start_time']['en-gb'] = "The date and time to begin sending calls.";
 $text['description-start_time']['ar-eg'] = "تاريخ ووقت بدء إرسال المكالمات.";
 $text['description-start_time']['de-at'] = "Das Datum und die Uhrzeit für den Beginn des Sendens von Anrufen.";
@@ -622,6 +645,7 @@ $text['description-start_time']['ja-jp'] = "通話の送信を開始する日時
 $text['description-start_time']['ko-kr'] = "통화 전송을 시작할 날짜 및 시간입니다.";
 
 $text['description-accountcode']['en-us'] = "Used most often for billing systems.";
+$text['description-accountcode']['vi-vn'] = 'Thường được dùng cho hệ thống tính cước.';
 $text['description-accountcode']['en-gb'] = "Used most often for billing systems.";
 $text['description-accountcode']['ar-eg'] = "تستخدم في أغلب الأحيان لأنظمة الفوترة.";
 $text['description-accountcode']['de-at'] = "Wird am häufigsten für Abrechnungssysteme verwendet.";
@@ -649,6 +673,7 @@ $text['description-accountcode']['ja-jp'] = "課金システムで最もよく�
 $text['description-accountcode']['ko-kr'] = "청구 시스템에 가장 자주 사용됩니다.";
 
 $text['description-timeout']['en-us'] = "Specify the absolute timeout in seconds.";
+$text['description-timeout']['vi-vn'] = 'Chỉ định timeout tuyệt đối tính bằng giây.';
 $text['description-timeout']['en-gb'] = "Specify the absolute timeout in seconds.";
 $text['description-timeout']['ar-eg'] = "حدد المهلة المطلقة بالثواني.";
 $text['description-timeout']['de-at'] = "Geben Sie die absolute Zeitüberschreitung in Sekunden an.";
@@ -676,6 +701,7 @@ $text['description-timeout']['ja-jp'] = "絶対タイムアウトを秒単位で
 $text['description-timeout']['ko-kr'] = "절대 제한 시간을 초 단위로 지정합니다.";
 
 $text['description-phone']['en-us'] = "Select a TXT/CSV file for upload, or enter Phone Numbers one per line in the format shown above.";
+$text['description-phone']['vi-vn'] = 'Chọn tệp TXT/CSV để tải lên, hoặc nhập số điện thoại mỗi dòng một số theo định dạng bên trên.';
 $text['description-phone']['en-gb'] = "Select a TXT/CSV file for upload, or enter Phone Numbers one per line in the format shown above.";
 $text['description-phone']['ar-eg'] = "حدد ملف TXT / CSV للتحميل ، أو أدخل رقم هاتف واحدًا في كل سطر بالتنسيق الموضح أعلاه.";
 $text['description-phone']['de-at'] = "Optional: Ergänzen Sie eine Liste von Telefonnummern, eine Nummer pro Zeile im folgenden Format: 123-123-1234|Nachname,Vorname";
@@ -703,6 +729,7 @@ $text['description-phone']['ja-jp'] = "アップロードする TXT/CSV ファ�
 $text['description-phone']['ko-kr'] = "업로드할 TXT/CSV 파일을 선택하거나 위에 표시된 형식으로 한 줄에 하나씩 전화번호를 입력합니다.";
 
 $text['description-name']['en-us'] = "Enter the name here.";
+$text['description-name']['vi-vn'] = 'Nhập tên tại đây.';
 $text['description-name']['en-gb'] = "Enter the name here.";
 $text['description-name']['ar-eg'] = "أدخل الاسم هنا.";
 $text['description-name']['de-at'] = "Geben Sie den Namen an.";
@@ -730,6 +757,7 @@ $text['description-name']['ja-jp'] = "ここに名前を入力します。";
 $text['description-name']['ko-kr'] = "여기에 이름을 입력합니다.";
 
 $text['description-info']['en-us'] = "Enter the description here.";
+$text['description-info']['vi-vn'] = 'Nhập mô tả tại đây.';
 $text['description-info']['en-gb'] = "Enter the description here.";
 $text['description-info']['ar-eg'] = "أدخل الوصف هنا.";
 $text['description-info']['de-at'] = "Geben Sie eine Beschreibung an.";
@@ -757,6 +785,7 @@ $text['description-info']['ja-jp'] = "ここに説明を入力します。";
 $text['description-info']['ko-kr'] = "여기에 설명을 입력합니다.";
 
 $text['description-destination']['en-us'] = "Send the call to an extension, an IVR Menu, Conference Room, or any other number.";
+$text['description-destination']['vi-vn'] = 'Gửi cuộc gọi đến máy nhánh, menu IVR, phòng hội nghị hoặc bất kỳ số nào khác.';
 $text['description-destination']['en-gb'] = "Send the call to an extension, an IVR Menu, Conference Room, or any other number.";
 $text['description-destination']['ar-eg'] = "أرسل المكالمة إلى رقم داخلي أو قائمة IVR أو غرفة اجتماعات أو أي رقم آخر.";
 $text['description-destination']['de-at'] = "Der Anruf wird an eine Nebenstelle, eine Automatische Vermittlung, ein Konferenzraum oder jede andere Nummer weitergeleitet.";
@@ -784,6 +813,7 @@ $text['description-destination']['ja-jp'] = "通話を内線番号、IVR メニ�
 $text['description-destination']['ko-kr'] = "내선 번호, IVR 메뉴, 회의실 또는 기타 번호로 통화를 보냅니다.";
 
 $text['description-concurrent-limit']['en-us'] = "Limit the approximate number of concurrent calls. Leave this empty for no limit.";
+$text['description-concurrent-limit']['vi-vn'] = 'Giới hạn số cuộc gọi đồng thời xấp xỉ. Để trống nếu không giới hạn.';
 $text['description-concurrent-limit']['en-gb'] = "Limit the approximate number of concurrent calls. Leave this empty for no limit.";
 $text['description-concurrent-limit']['ar-eg'] = "حدد العدد التقريبي للمكالمات المتزامنة. اترك هذا فارغًا بلا حدود.";
 $text['description-concurrent-limit']['de-at'] = "Begrenzt die Anzahl gleichzeitiger Anrufe. Kein Limit wenn leer gelassen.";
@@ -811,6 +841,7 @@ $text['description-concurrent-limit']['ja-jp'] = "同時呼び出しのおおよ
 $text['description-concurrent-limit']['ko-kr'] = "대략적인 동시 호출 수를 제한합니다. 제한 없이 비워 둡니다.";
 
 $text['description-caller-id-number']['en-us'] = "Applicable if the provider that allow the Caller ID number to be sent. default: 0000000000";
+$text['description-caller-id-number']['vi-vn'] = 'Áp dụng nếu nhà cung cấp cho phép gửi số Caller ID. Mặc định: 0000000000';
 $text['description-caller-id-number']['en-gb'] = "Applicable if the provider that allow the Caller ID number to be sent. default: 0000000000";
 $text['description-caller-id-number']['ar-eg'] = "ينطبق إذا كان الموفر الذي يسمح بإرسال رقم معرف المتصل. الافتراضي: 0000000000";
 $text['description-caller-id-number']['de-at'] = "Gilt, wenn der Anbieter das Senden der Anrufer-ID-Nummer zulässt. Standard: 0000000000";
@@ -838,6 +869,7 @@ $text['description-caller-id-number']['ja-jp'] = "発信者 ID 番号の送信�
 $text['description-caller-id-number']['ko-kr'] = "발신자 ID 번호 전송을 허용하는 공급자인 경우에 해당합니다. 기본값: 0000000000";
 
 $text['description-caller-id-name']['en-us'] = "Applicable if the provider allow the Caller ID Name to be set. default: anonymous";
+$text['description-caller-id-name']['vi-vn'] = 'Áp dụng nếu nhà cung cấp cho phép đặt tên Caller ID. Mặc định: anonymous';
 $text['description-caller-id-name']['en-gb'] = "Applicable if the provider allow the Caller ID Name to be set. default: anonymous";
 $text['description-caller-id-name']['ar-eg'] = "قابل للتطبيق إذا سمح الموفر بتعيين اسم معرف المتصل. الافتراضي: مجهول";
 $text['description-caller-id-name']['de-at'] = "Geben Sie die Anruferkennung (Name) hier ein, sofern der Provider dieses unterstützt. Default: anonym.";
@@ -865,6 +897,7 @@ $text['description-caller-id-name']['ja-jp'] = "プロバイダーが発信者 I
 $text['description-caller-id-name']['ko-kr'] = "공급자가 발신자 ID 이름 설정을 허용하는 경우에 적용됩니다. 기본값: 익명";
 
 $text['description-avmd']['en-us'] = "Select whether to enable or disable the detection of voicemail messaging and answering machine systems.";
+$text['description-avmd']['vi-vn'] = 'Chọn bật hoặc tắt phát hiện hệ thống thư thoại và máy trả lời tự động.';
 $text['description-avmd']['en-gb'] = "Select whether to enable or disable the detection of voicemail messaging and answering machine systems.";
 $text['description-avmd']['ar-eg'] = "حدد ما إذا كنت تريد تمكين أو تعطيل اكتشاف رسائل البريد الصوتي وأنظمة جهاز الرد على المكالمات.";
 $text['description-avmd']['de-at'] = "Wählen Sie ob die Erkennung von Sprach-Mailboxen und automatischen Anrufbeantwortern Ein- oder Ausgeschaltet werden soll.";
@@ -892,6 +925,7 @@ $text['description-avmd']['ja-jp'] = "ボイスメール メッセージと留�
 $text['description-avmd']['ko-kr'] = "음성 메일 메시징 및 자동 응답기 시스템 감지를 활성화할지 비활성화할지 선택합니다.";
 
 $text['description-broadcast_toll_allow']['en-us'] = "Enter the toll allow value here.  (Examples: domestic,international,local)";
+$text['description-broadcast_toll_allow']['vi-vn'] = 'Nhập giá trị Toll Allow tại đây. (Ví dụ: domestic, international, local)';
 $text['description-broadcast_toll_allow']['en-gb'] = "Enter the toll allow value here.  (Examples: domestic,international,local)";
 $text['description-broadcast_toll_allow']['ar-eg'] = "أدخل قيمة رسوم المرور المسموح بها هنا. (أمثلة: محلي ، دولي ، محلي)";
 $text['description-broadcast_toll_allow']['de-at'] = "Geben Sie die Berechtigung an. (z.B.: domestic, international, local)";
@@ -919,6 +953,7 @@ $text['description-broadcast_toll_allow']['ja-jp'] = "通行料の値をここ�
 $text['description-broadcast_toll_allow']['ko-kr'] = "여기에 통행료 허용 값을 입력합니다. (예: 국내, 국제, 지역)";
 
 $text['confirm-update']['en-us'] = "Update Complete";
+$text['confirm-update']['vi-vn'] = 'Cập nhật hoàn tất';
 $text['confirm-update']['en-gb'] = "Update Complete";
 $text['confirm-update']['ar-eg'] = "Оновлення завершено";
 $text['confirm-update']['de-at'] = "Aktualisierung durchgeführt";
@@ -946,6 +981,7 @@ $text['confirm-update']['ja-jp'] = "アップデート完了";
 $text['confirm-update']['ko-kr'] = "업데이트 완료";
 
 $text['confirm-name']['en-us'] = "Please provide: Name";
+$text['confirm-name']['vi-vn'] = 'Vui lòng cung cấp: Tên';
 $text['confirm-name']['en-gb'] = "Please provide: Name";
 $text['confirm-name']['ar-eg'] = "يرجى تقديم: الاسم";
 $text['confirm-name']['de-at'] = "Bitte geben Sie den Namen an";
@@ -973,6 +1009,7 @@ $text['confirm-name']['ja-jp'] = "入力してください: 名前";
 $text['confirm-name']['ko-kr'] = "제공하십시오: 이름";
 
 $text['confirm-delete-info']['en-us'] = "Do you really want to delete this?";
+$text['confirm-delete-info']['vi-vn'] = 'Bạn có chắc muốn xóa mục này không?';
 $text['confirm-delete-info']['en-gb'] = "Do you really want to delete this?";
 $text['confirm-delete-info']['ar-eg'] = "هل تريد حقًا حذف هذا؟";
 $text['confirm-delete-info']['de-at'] = "Wollen Sie das wirklich löschen?";
@@ -1000,6 +1037,7 @@ $text['confirm-delete-info']['ja-jp'] = "本当にこれを削除しますか?";
 $text['confirm-delete-info']['ko-kr'] = "정말 삭제하시겠습니까?";
 
 $text['confirm-add']['en-us'] = "Add Complete";
+$text['confirm-add']['vi-vn'] = 'Thêm hoàn tất';
 $text['confirm-add']['en-gb'] = "Add Complete";
 $text['confirm-add']['ar-eg'] = "أضف مكتمل";
 $text['confirm-add']['de-at'] = "Erfolgreich hinzugefügt";
@@ -1027,6 +1065,7 @@ $text['confirm-add']['ja-jp'] = "追加完了";
 $text['confirm-add']['ko-kr'] = "추가완료";
 
 $text['file-error']['en-us'] = "Sorry, File type not allowed";
+$text['file-error']['vi-vn'] = 'Rất tiếc, loại tệp không được phép.';
 $text['file-error']['en-gb'] = "Sorry, File type not allowed";
 $text['file-error']['ar-eg'] = "عذرا ، نوع الملف غير مسموح به";
 $text['file-error']['de-at'] = "Entschuldigung, Dateityp nicht erlaubt";

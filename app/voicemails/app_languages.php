@@ -1,6 +1,7 @@
 <?php
 
 $text['title-voicemails']['en-us'] = "Voicemails";
+$text['title-voicemails']['vi-vn'] = "Thư thoại";
 $text['title-voicemails']['en-gb'] = "Voicemails";
 $text['title-voicemails']['ar-eg'] = "رسائل البريد الصوتي";
 $text['title-voicemails']['de-at'] = "Mailboxen";
@@ -28,6 +29,7 @@ $text['title-voicemails']['ja-jp'] = "ボイスメール";
 $text['title-voicemails']['ko-kr'] = "음성 메일";
 
 $text['title-voicemail_option']['en-us'] = "Voicemail Option";
+$text['title-voicemail_option']['vi-vn'] = "Tùy chọn thư thoại";
 $text['title-voicemail_option']['en-gb'] = "Voicemail Option";
 $text['title-voicemail_option']['ar-eg'] = "خيار البريد الصوتي";
 $text['title-voicemail_option']['de-at'] = "Mailbox Option";
@@ -55,6 +57,7 @@ $text['title-voicemail_option']['ja-jp'] = "ボイスメールオプション";
 $text['title-voicemail_option']['ko-kr'] = "음성 메일 옵션";
 
 $text['title-voicemail_messages']['en-us'] = "Voicemail Messages";
+$text['title-voicemail_messages']['vi-vn'] = "Tin nhắn thư thoại";
 $text['title-voicemail_messages']['en-gb'] = "Voicemail Messages";
 $text['title-voicemail_messages']['ar-eg'] = "رسائل البريد الصوتي";
 $text['title-voicemail_messages']['de-at'] = "Mailbox Nachrichten";
@@ -82,6 +85,7 @@ $text['title-voicemail_messages']['ja-jp'] = "ボイスメールメッセージ"
 $text['title-voicemail_messages']['ko-kr'] = "음성 메일 메시지";
 
 $text['title-voicemail_message']['en-us'] = "Voicemail Message";
+$text['title-voicemail_message']['vi-vn'] = "Tin nhắn thư thoại";
 $text['title-voicemail_message']['en-gb'] = "Voicemail Message";
 $text['title-voicemail_message']['ar-eg'] = "رسالة بريد صوتي";
 $text['title-voicemail_message']['de-at'] = "Mailbox Nachricht";
@@ -109,6 +113,7 @@ $text['title-voicemail_message']['ja-jp'] = "ボイスメールメッセージ";
 $text['title-voicemail_message']['ko-kr'] = "음성 메일 메시지";
 
 $text['title-voicemail']['en-us'] = "Voicemail";
+$text['title-voicemail']['vi-vn'] = "Thư thoại";
 $text['title-voicemail']['en-gb'] = "Voicemail";
 $text['title-voicemail']['ar-eg'] = "البريد الصوتي";
 $text['title-voicemail']['de-at'] = "Mailbox";
@@ -136,6 +141,7 @@ $text['title-voicemail']['ja-jp'] = "ボイスメール";
 $text['title-voicemail']['ko-kr'] = "음성사서함";
 
 $text['title-voicemail_import']['en-us'] = "Voicemail Import";
+$text['title-voicemail_import']['vi-vn'] = "Nhập thư thoại";
 $text['title-voicemail_import']['en-gb'] = "Voicemail Import";
 $text['title-voicemail_import']['ar-eg'] = "استيراد البريد الصوتي";
 $text['title-voicemail_import']['de-at'] = "Importieren";
@@ -163,6 +169,7 @@ $text['title-voicemail_import']['ja-jp'] = "ボイスメールのインポート
 $text['title-voicemail_import']['ko-kr'] = "음성 메일 가져오기";
 
 $text['title-voicemail_export']['en-us'] = "Voicemail Export";
+$text['title-voicemail_export']['vi-vn'] = "Xuất thư thoại";
 $text['title-voicemail_export']['en-gb'] = "Voicemail Export";
 $text['title-voicemail_export']['ar-eg'] = "التصدير";
 $text['title-voicemail_export']['de-at'] = "Exportieren";
@@ -191,6 +198,7 @@ $text['title-voicemail_export']['ja-jp'] = "宛先エクスポート";
 $text['title-voicemail_export']['ko-kr'] = "대상 내보내기";
 
 $text['option-voicemail_file_listen']['en-us'] = "Listen Link (Login Required)";
+$text['option-voicemail_file_listen']['vi-vn'] = "Liên kết nghe (yêu cầu đăng nhập)";
 $text['option-voicemail_file_listen']['en-gb'] = "Listen Link (Login Required)";
 $text['option-voicemail_file_listen']['ar-eg'] = "رابط الاستماع (تسجيل الدخول مطلوب)";
 $text['option-voicemail_file_listen']['de-at'] = "Link zur Nachricht (Login erforderlich)";
@@ -218,6 +226,7 @@ $text['option-voicemail_file_listen']['ja-jp'] = "リッスンリンク (ログ�
 $text['option-voicemail_file_listen']['ko-kr'] = "듣기 링크(로그인 필요)";
 
 $text['option-voicemail_file_link']['en-us'] = "Download Link (No Login Required)";
+$text['option-voicemail_file_link']['vi-vn'] = "Liên kết tải xuống (không cần đăng nhập)";
 $text['option-voicemail_file_link']['en-gb'] = "Download Link (No Login Required)";
 $text['option-voicemail_file_link']['ar-eg'] = "رابط التنزيل (لا يلزم تسجيل الدخول)";
 $text['option-voicemail_file_link']['de-at'] = "Link zur Nachricht (kein Login erforderlich)";
@@ -245,6 +254,7 @@ $text['option-voicemail_file_link']['ja-jp'] = "ダウンロードリンク (ロ
 $text['option-voicemail_file_link']['ko-kr'] = "다운로드 링크(로그인 필요 없음)";
 
 $text['option-voicemail_file_attach']['en-us'] = "Audio File Attachment";
+$text['option-voicemail_file_attach']['vi-vn'] = "File âm thanh đính kèm";
 $text['option-voicemail_file_attach']['en-gb'] = "Audio File Attachment";
 $text['option-voicemail_file_attach']['ar-eg'] = "مرفق ملف صوتي";
 $text['option-voicemail_file_attach']['de-at'] = "Audiodatei als Anhang";
@@ -272,6 +282,7 @@ $text['option-voicemail_file_attach']['ja-jp'] = "音声ファイルの添付";
 $text['option-voicemail_file_attach']['ko-kr'] = "오디오 파일 첨부";
 
 $text['message-toggled']['en-us'] = "Toggle Completed";
+$text['message-toggled']['vi-vn'] = "Chuyển trạng thái hoàn tất";
 $text['message-toggled']['en-gb'] = "Toggle Completed";
 $text['message-toggled']['ar-eg'] = "الانتهاء من تبديل";
 $text['message-toggled']['de-at'] = "Toggle Completed";
@@ -299,6 +310,7 @@ $text['message-toggled']['ja-jp'] = "切り替えが完了しました";
 $text['message-toggled']['ko-kr'] = "토글 완료됨";
 
 $text['message-messages_not_found']['en-us'] = "No messages found.";
+$text['message-messages_not_found']['vi-vn'] = "Không tìm thấy tin nhắn.";
 $text['message-messages_not_found']['en-gb'] = "No messages found.";
 $text['message-messages_not_found']['ar-eg'] = "لا توجد رسائل.";
 $text['message-messages_not_found']['de-at'] = "Nachricht nicht gefunden.";
@@ -326,6 +338,7 @@ $text['message-messages_not_found']['ja-jp'] = "メッセージが見つかり�
 $text['message-messages_not_found']['ko-kr'] = "메시지가 없습니다.";
 
 $text['message-password_blank']['en-us'] = "Invalid Password";
+$text['message-password_blank']['vi-vn'] = "Mật khẩu không hợp lệ";
 $text['message-password_blank']['en-gb'] = "Invalid Password";
 $text['message-password_blank']['ar-eg'] = "رمز مرور خاطئ";
 $text['message-password_blank']['de-at'] = "Falsches Passwort";
@@ -353,6 +366,7 @@ $text['message-password_blank']['ja-jp'] = "無効なパスワード";
 $text['message-password_blank']['ko-kr'] = "유효하지 않은 비밀번호";
 
 $text['message-password_requirements']['en-us'] = "Password Requirements";
+$text['message-password_requirements']['vi-vn'] = "Yêu cầu mật khẩu";
 $text['message-password_requirements']['en-gb'] = "Password Requirements";
 $text['message-password_requirements']['ar-eg'] = "متطلبات كلمة المرور";
 $text['message-password_requirements']['de-at'] = "Kennwortanforderungen ";
@@ -380,6 +394,7 @@ $text['message-password_requirements']['ja-jp'] = "パスワード要件";
 $text['message-password_requirements']['ko-kr'] = "암호 요구 사항";
 
 $text['label-numberic_only']['en-us'] = "Only Numbers Allowed";
+$text['label-numberic_only']['vi-vn'] = "Chỉ cho phép số";
 $text['label-numberic_only']['en-gb'] = "Only Numbers Allowed";
 $text['label-numberic_only']['ar-eg'] = "فقط الأرقام المسموح بها";
 $text['label-numberic_only']['de-at'] = "Nur Zahlen erlaubt";
@@ -407,6 +422,7 @@ $text['label-numberic_only']['ja-jp'] = "数字のみを使用できます";
 $text['label-numberic_only']['ko-kr'] = "숫자만 허용됨";
 
 $text['label-password_repeating']['en-us'] = "Too Many Repeating Digits";
+$text['label-password_repeating']['vi-vn'] = "Quá nhiều chữ số lặp lại";
 $text['label-password_repeating']['en-gb'] = "Too Many Repeating Digits";
 $text['label-password_repeating']['ar-eg'] = "تكرار الأرقام أكثر مما يجب";
 $text['label-password_repeating']['de-at'] = "Zu viele sich wiederholende Ziffern";
@@ -434,6 +450,7 @@ $text['label-password_repeating']['ja-jp'] = "繰り返しの数字が多すぎ�
 $text['label-password_repeating']['ko-kr'] = "너무 많은 반복 숫자";
 
 $text['label-password_sequential']['en-us'] = "Too Many Sequential Digits";
+$text['label-password_sequential']['vi-vn'] = "Quá nhiều chữ số liên tiếp";
 $text['label-password_sequential']['en-gb'] = "Too Many Sequential Digits";
 $text['label-password_sequential']['ar-eg'] = "أرقام متسلسلة كثيرة جدًا";
 $text['label-password_sequential']['de-at'] = "Zu viele aufeinanderfolgende Ziffern";
@@ -461,6 +478,7 @@ $text['label-password_sequential']['ja-jp'] = "連続する数字が多すぎま
 $text['label-password_sequential']['ko-kr'] = "연속 숫자가 너무 많음";
 
 $text['label-voicemail_uuid']['en-us'] = "Voicemail UUID";
+$text['label-voicemail_uuid']['vi-vn'] = "UUID thư thoại";
 $text['label-voicemail_uuid']['en-gb'] = "Voicemail UUID";
 $text['label-voicemail_uuid']['ar-eg'] = "UUID البريد الصوتي";
 $text['label-voicemail_uuid']['de-at'] = "Mailbox UUID";
@@ -488,6 +506,7 @@ $text['label-voicemail_uuid']['ja-jp'] = "ボイスメール UUID";
 $text['label-voicemail_uuid']['ko-kr'] = "음성 메일 UUID";
 
 $text['label-voicemail_password']['en-us'] = "Password";
+$text['label-voicemail_password']['vi-vn'] = "Mật khẩu";
 $text['label-voicemail_password']['en-gb'] = "Password";
 $text['label-voicemail_password']['ar-eg'] = "كلمة المرور";
 $text['label-voicemail_password']['de-at'] = "Mailbox Passwort";
@@ -515,6 +534,7 @@ $text['label-voicemail_password']['ja-jp'] = "パスワード";
 $text['label-voicemail_password']['ko-kr'] = "비밀번호";
 
 $text['label-voicemail_alternate_greet_id']['en-us'] = "Alternate Greeting ID";
+$text['label-voicemail_alternate_greet_id']['vi-vn'] = "ID lời chào thay thế";
 $text['label-voicemail_alternate_greet_id']['en-gb'] = "Alternate Greeting ID";
 $text['label-voicemail_alternate_greet_id']['ar-eg'] = "معرف الترحيب البديل";
 $text['label-voicemail_alternate_greet_id']['de-at'] = "ID der alternativen Begrüßung";
@@ -542,6 +562,7 @@ $text['label-voicemail_alternate_greet_id']['ja-jp'] = "代替グリート ID";
 $text['label-voicemail_alternate_greet_id']['ko-kr'] = "대체 인사말 ID";
 
 $text['label-voicemail_sms_to']['en-us'] = "SMS To";
+$text['label-voicemail_sms_to']['vi-vn'] = "Gửi SMS đến";
 $text['label-voicemail_sms_to']['en-gb'] = "SMS To";
 $text['label-voicemail_sms_to']['ar-eg'] = "SMS إلى";
 $text['label-voicemail_sms_to']['de-at'] = "SMS an";
@@ -569,6 +590,7 @@ $text['label-voicemail_sms_to']['ja-jp'] = "メッセージ お問い合わせ";
 $text['label-voicemail_sms_to']['ko-kr'] = "SMS 메시지 으로";
 
 $text['label-voicemail_transcription_enabled']['en-us'] = "Transcription Enabled";
+$text['label-voicemail_transcription_enabled']['vi-vn'] = "Đã bật chép lời";
 $text['label-voicemail_transcription_enabled']['en-gb'] = "Transcription Enabled";
 $text['label-voicemail_transcription_enabled']['ar-eg'] = "النسخ ممكّن";
 $text['label-voicemail_transcription_enabled']['de-at'] = "Übertragung aktiviert";
@@ -596,6 +618,7 @@ $text['label-voicemail_transcription_enabled']['ja-jp'] = "SMS 送信先";
 $text['label-voicemail_transcription_enabled']['ko-kr'] = "SMS 대상";
 
 $text['label-voicemail_mail_to']['en-us'] = "Mail To";
+$text['label-voicemail_mail_to']['vi-vn'] = "Gửi email đến";
 $text['label-voicemail_mail_to']['en-gb'] = "Mail To";
 $text['label-voicemail_mail_to']['ar-eg'] = "بريد إلى";
 $text['label-voicemail_mail_to']['de-at'] = "Email senden an";
@@ -623,6 +646,7 @@ $text['label-voicemail_mail_to']['ja-jp'] = "メールアドレス";
 $text['label-voicemail_mail_to']['ko-kr'] = "메일 수신";
 
 $text['label-voicemail_local_after_email']['en-us'] = "Keep Local After Email";
+$text['label-voicemail_local_after_email']['vi-vn'] = "Giữ cục bộ sau khi gửi email";
 $text['label-voicemail_local_after_email']['en-gb'] = "Keep Local After Email";
 $text['label-voicemail_local_after_email']['ar-eg'] = "حافظ على المحلية";
 $text['label-voicemail_local_after_email']['de-at'] = "Mailbox Nachricht auf dem Server behalten";
@@ -650,6 +674,7 @@ $text['label-voicemail_local_after_email']['ja-jp'] = "ローカルに保つ";
 $text['label-voicemail_local_after_email']['ko-kr'] = "로컬 유지";
 
 $text['label-voicemail_transcribe_enabled']['en-us'] = "Transcribe";
+$text['label-voicemail_transcribe_enabled']['vi-vn'] = "Chép lời";
 $text['label-voicemail_transcribe_enabled']['en-gb'] = "Transcribe";
 $text['label-voicemail_transcribe_enabled']['ar-eg'] = "نسخ";
 $text['label-voicemail_transcribe_enabled']['de-at'] = "transkribieren";
@@ -677,6 +702,7 @@ $text['label-voicemail_transcribe_enabled']['ja-jp'] = "転写する";
 $text['label-voicemail_transcribe_enabled']['ko-kr'] = "고쳐 쓰다";
 
 $text['label-voicemail_id']['en-us'] = "Voicemail ID";
+$text['label-voicemail_id']['vi-vn'] = "Voicemail ID";
 $text['label-voicemail_id']['en-gb'] = "Voicemail ID";
 $text['label-voicemail_id']['ar-eg'] = "معرف البريد الصوتي";
 $text['label-voicemail_id']['de-at'] = "Voicemail ID";
@@ -704,6 +730,7 @@ $text['label-voicemail_id']['ja-jp'] = "ボイスメールID";
 $text['label-voicemail_id']['ko-kr'] = "음성사서함 ID";
 
 $text['label-voicemail_file_attached']['en-us'] = "Attached";
+$text['label-voicemail_file_attached']['vi-vn'] = "Đính kèm";
 $text['label-voicemail_file_attached']['en-gb'] = "Attached";
 $text['label-voicemail_file_attached']['ar-eg'] = "مُرفَق";
 $text['label-voicemail_file_attached']['de-at'] = "als Anhang";
@@ -731,6 +758,7 @@ $text['label-voicemail_file_attached']['ja-jp'] = "添付";
 $text['label-voicemail_file_attached']['ko-kr'] = "첨부된";
 
 $text['label-voicemail_file']['en-us'] = "Voicemail File";
+$text['label-voicemail_file']['vi-vn'] = "File thư thoại";
 $text['label-voicemail_file']['en-gb'] = "Voicemail File";
 $text['label-voicemail_file']['ar-eg'] = "ملف البريد الصوتي";
 $text['label-voicemail_file']['de-at'] = "Voicemail Datei";
@@ -758,6 +786,7 @@ $text['label-voicemail_file']['ja-jp'] = "ボイスメールファイル";
 $text['label-voicemail_file']['ko-kr'] = "음성 메일 파일";
 
 $text['label-voicemail_enabled']['en-us'] = "Enabled";
+$text['label-voicemail_enabled']['vi-vn'] = "Đã bật";
 $text['label-voicemail_enabled']['en-gb'] = "Enabled";
 $text['label-voicemail_enabled']['ar-eg'] = "ممكن";
 $text['label-voicemail_enabled']['de-at'] = "Eingeschaltet";
@@ -785,6 +814,7 @@ $text['label-voicemail_enabled']['ja-jp'] = "有効";
 $text['label-voicemail_enabled']['ko-kr'] = "사용";
 
 $text['label-voicemail_description']['en-us'] = "Description";
+$text['label-voicemail_description']['vi-vn'] = "Mô tả";
 $text['label-voicemail_description']['en-gb'] = "Description";
 $text['label-voicemail_description']['ar-eg'] = "وصف";
 $text['label-voicemail_description']['de-at'] = "Beschreibung";
@@ -812,6 +842,7 @@ $text['label-voicemail_description']['ja-jp'] = "説明";
 $text['label-voicemail_description']['ko-kr'] = "설명";
 
 $text['label-voicemail_tutorial']['en-us'] = "Play Tutorial";
+$text['label-voicemail_tutorial']['vi-vn'] = "Phát hướng dẫn";
 $text['label-voicemail_tutorial']['en-gb'] = "Play Tutorial";
 $text['label-voicemail_tutorial']['ar-eg'] = "تشغيل البرنامج التعليمي";
 $text['label-voicemail_tutorial']['de-at'] = "Anleitung abspielen";
@@ -839,6 +870,7 @@ $text['label-voicemail_tutorial']['ja-jp'] = "チュートリアルをプレイ�
 $text['label-voicemail_tutorial']['ko-kr'] = "플레이 튜토리얼";
 
 $text['label-tools']['en-us'] = "Tools";
+$text['label-tools']['vi-vn'] = "Công cụ";
 $text['label-tools']['en-gb'] = "Tools";
 $text['label-tools']['ar-eg'] = "أدوات";
 $text['label-tools']['de-at'] = "Werkzeuge";
@@ -866,6 +898,7 @@ $text['label-tools']['ja-jp'] = "ツール";
 $text['label-tools']['ko-kr'] = "도구";
 
 $text['label-read_epoch']['en-us'] = "Read";
+$text['label-read_epoch']['vi-vn'] = "Đã đọc";
 $text['label-read_epoch']['en-gb'] = "Read";
 $text['label-read_epoch']['ar-eg'] = "يقرأ";
 $text['label-read_epoch']['de-at'] = "Lesen";
@@ -893,6 +926,7 @@ $text['label-read_epoch']['ja-jp'] = "読む";
 $text['label-read_epoch']['ko-kr'] = "읽다";
 
 $text['label-play']['en-us'] = "Play";
+$text['label-play']['vi-vn'] = "Phát";
 $text['label-play']['en-gb'] = "Play";
 $text['label-play']['ar-eg'] = "يلعب";
 $text['label-play']['de-at'] = "Abspielen";
@@ -920,6 +954,7 @@ $text['label-play']['ja-jp'] = "遊ぶ";
 $text['label-play']['ko-kr'] = "놀다";
 
 $text['label-pause']['en-us'] = "Pause";
+$text['label-pause']['vi-vn'] = "Tạm dừng";
 $text['label-pause']['en-gb'] = "Pause";
 $text['label-pause']['ar-eg'] = "يوقف";
 $text['label-pause']['de-at'] = "Pause";
@@ -947,6 +982,7 @@ $text['label-pause']['ja-jp'] = "一時停止";
 $text['label-pause']['ko-kr'] = "정지시키다";
 
 $text['label-options']['en-us'] = "Options";
+$text['label-options']['vi-vn'] = "Tùy chọn";
 $text['label-options']['en-gb'] = "Options";
 $text['label-options']['ar-eg'] = "خيارات";
 $text['label-options']['de-at'] = "Optionen";
@@ -974,6 +1010,7 @@ $text['label-options']['ja-jp'] = "オプション";
 $text['label-options']['ko-kr'] = "옵션";
 
 $text['label-option']['en-us'] = "Option";
+$text['label-option']['vi-vn'] = "Tùy chọn";
 $text['label-option']['en-gb'] = "Option";
 $text['label-option']['ar-eg'] = "خيار";
 $text['label-option']['de-at'] = "Option";
@@ -1001,6 +1038,7 @@ $text['label-option']['ja-jp'] = "オプション";
 $text['label-option']['ko-kr'] = "옵션";
 
 $text['label-messages']['en-us'] = "Messages";
+$text['label-messages']['vi-vn'] = "Tin nhắn";
 $text['label-messages']['en-gb'] = "Messages";
 $text['label-messages']['ar-eg'] = "رسائل";
 $text['label-messages']['de-at'] = "Nachrichten";
@@ -1028,6 +1066,7 @@ $text['label-messages']['ja-jp'] = "メッセージ";
 $text['label-messages']['ko-kr'] = "메시지";
 
 $text['label-message_status']['en-us'] = "Status";
+$text['label-message_status']['vi-vn'] = "Trạng thái";
 $text['label-message_status']['en-gb'] = "Status";
 $text['label-message_status']['ar-eg'] = "حالة";
 $text['label-message_status']['de-at'] = "Status";
@@ -1055,6 +1094,7 @@ $text['label-message_status']['ja-jp'] = "スターテス";
 $text['label-message_status']['ko-kr'] = "상태";
 
 $text['label-message_size']['en-us'] = "Size";
+$text['label-message_size']['vi-vn'] = "Kích thước";
 $text['label-message_size']['en-gb'] = "Size";
 $text['label-message_size']['ar-eg'] = "مقاس";
 $text['label-message_size']['de-at'] = "Größe";
@@ -1082,6 +1122,7 @@ $text['label-message_size']['ja-jp'] = "サイズ";
 $text['label-message_size']['ko-kr'] = "크기";
 
 $text['label-transcription']['en-us'] = "Transcription";
+$text['label-transcription']['vi-vn'] = "Bản chép lời";
 $text['label-transcription']['en-gb'] = "Transcription";
 $text['label-transcription']['ar-eg'] = "النسخ";
 $text['label-transcription']['de-at'] = "Transkription";
@@ -1109,6 +1150,7 @@ $text['label-transcription']['ja-jp'] = "転写";
 $text['label-transcription']['ko-kr'] = "전사";
 
 $text['label-message_priority']['en-us'] = "Priority";
+$text['label-message_priority']['vi-vn'] = "Ưu tiên";
 $text['label-message_priority']['en-gb'] = "Priority";
 $text['label-message_priority']['ar-eg'] = "أولوية";
 $text['label-message_priority']['de-at'] = "Priorität";
@@ -1136,6 +1178,7 @@ $text['label-message_priority']['ja-jp'] = "優先順位";
 $text['label-message_priority']['ko-kr'] = "우선 사항";
 
 $text['label-message_length']['en-us'] = "Length";
+$text['label-message_length']['vi-vn'] = "Độ dài";
 $text['label-message_length']['en-gb'] = "Length";
 $text['label-message_length']['ar-eg'] = "طول";
 $text['label-message_length']['de-at'] = "Länge";
@@ -1163,6 +1206,7 @@ $text['label-message_length']['ja-jp'] = "長さ";
 $text['label-message_length']['ko-kr'] = "길이";
 
 $text['label-mailbox']['en-us'] = "Mailbox";
+$text['label-mailbox']['vi-vn'] = "Hộp thư";
 $text['label-mailbox']['en-gb'] = "Mailbox";
 $text['label-mailbox']['ar-eg'] = "صندوق بريد";
 $text['label-mailbox']['de-at'] = "Mailbox";
@@ -1190,6 +1234,7 @@ $text['label-mailbox']['ja-jp'] = "メールボックス";
 $text['label-mailbox']['ko-kr'] = "사서함";
 
 $text['label-greetings']['en-us'] = "Greetings";
+$text['label-greetings']['vi-vn'] = "Lời chào";
 $text['label-greetings']['en-gb'] = "Greetings";
 $text['label-greetings']['ar-eg'] = "تحيات";
 $text['label-greetings']['de-at'] = "Begrüßungen";
@@ -1217,6 +1262,7 @@ $text['label-greetings']['ja-jp'] = "ご挨拶";
 $text['label-greetings']['ko-kr'] = "인사말";
 
 $text['label-greeting']['en-us'] = "Greeting";
+$text['label-greeting']['vi-vn'] = "Lời chào";
 $text['label-greeting']['en-gb'] = "Greeting";
 $text['label-greeting']['ar-eg'] = "تحية";
 $text['label-greeting']['de-at'] = "Begrüßung";
@@ -1244,6 +1290,7 @@ $text['label-greeting']['ja-jp'] = "挨拶";
 $text['label-greeting']['ko-kr'] = "인사";
 
 $text['label-recording_instructions']['en-us'] = "Recording Instructions";
+$text['label-recording_instructions']['vi-vn'] = "Hướng dẫn ghi âm";
 $text['label-recording_instructions']['en-gb'] = "Recording Instructions";
 $text['label-recording_instructions']['ar-eg'] = "تعليمات التسجيل";
 $text['label-recording_instructions']['de-at'] = "Aufnahmeanweisungen";
@@ -1271,6 +1318,7 @@ $text['label-recording_instructions']['ja-jp'] = "録音手順";
 $text['label-recording_instructions']['ko-kr'] = "녹음 지침";
 
 $text['label-recording_options']['en-us'] = "Recording Options";
+$text['label-recording_options']['vi-vn'] = "Tùy chọn ghi âm";
 $text['label-recording_options']['en-gb'] = "Recording Options";
 $text['label-recording_options']['ar-eg'] = "خيارات التسجيل";
 $text['label-recording_options']['de-at'] = "Aufnahmeoptionen";
@@ -1298,6 +1346,7 @@ $text['label-recording_options']['ja-jp'] = "録音オプション";
 $text['label-recording_options']['ko-kr'] = "녹음 옵션";
 
 $text['label-forward_destinations']['en-us'] = "Forward Destinations";
+$text['label-forward_destinations']['vi-vn'] = "Đích chuyển tiếp";
 $text['label-forward_destinations']['en-gb'] = "Forward Destinations";
 $text['label-forward_destinations']['ar-eg'] = "وجهات أمامية";
 $text['label-forward_destinations']['de-at'] = "Weiterleitungs Ziele";
@@ -1325,6 +1374,7 @@ $text['label-forward_destinations']['ja-jp'] = "転送先";
 $text['label-forward_destinations']['ko-kr'] = "전달 목적지";
 
 $text['label-download']['en-us'] = "Download";
+$text['label-download']['vi-vn'] = "Tải xuống";
 $text['label-download']['en-gb'] = "Download";
 $text['label-download']['ar-eg'] = "تحميل";
 $text['label-download']['de-at'] = "Herunterladen";
@@ -1352,6 +1402,7 @@ $text['label-download']['ja-jp'] = "ダウンロード";
 $text['label-download']['ko-kr'] = "다운로드";
 
 $text['label-destination']['en-us'] = "Destination";
+$text['label-destination']['vi-vn'] = "Đích";
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "وجهة";
 $text['label-destination']['de-at'] = "Ziel";
@@ -1379,6 +1430,7 @@ $text['label-destination']['ja-jp'] = "行き先";
 $text['label-destination']['ko-kr'] = "목적지";
 
 $text['label-received']['en-us'] = "Received";
+$text['label-received']['vi-vn'] = "Đã nhận";
 $text['label-received']['en-gb'] = "Received";
 $text['label-received']['ar-eg'] = "تلقى";
 $text['label-received']['de-at'] = "Erstellt";
@@ -1406,6 +1458,7 @@ $text['label-received']['ja-jp'] = "受け取った";
 $text['label-received']['ko-kr'] = "받았다";
 
 $text['label-count']['en-us'] = "Count";
+$text['label-count']['vi-vn'] = "Số lượng";
 $text['label-count']['en-gb'] = "Count";
 $text['label-count']['ar-eg'] = "عدد";
 $text['label-count']['de-at'] = "Zähler";
@@ -1433,6 +1486,7 @@ $text['label-count']['ja-jp'] = "カウント";
 $text['label-count']['ko-kr'] = "세다";
 
 $text['label-caller_id_number']['en-us'] = "Caller ID Number";
+$text['label-caller_id_number']['vi-vn'] = "Số Caller ID";
 $text['label-caller_id_number']['en-gb'] = "Caller ID Number";
 $text['label-caller_id_number']['ar-eg'] = "رقم هوية المتصل";
 $text['label-caller_id_number']['de-at'] = "Anrufer Nummer";
@@ -1460,6 +1514,7 @@ $text['label-caller_id_number']['ja-jp'] = "発信者番号";
 $text['label-caller_id_number']['ko-kr'] = "발신자 ID 번호";
 
 $text['label-caller_id_name']['en-us'] = "Caller ID Name";
+$text['label-caller_id_name']['vi-vn'] = "Tên Caller ID";
 $text['label-caller_id_name']['en-gb'] = "Caller ID Name";
 $text['label-caller_id_name']['ar-eg'] = "اسم معرف المتصل";
 $text['label-caller_id_name']['de-at'] = "Anrufer Name";
@@ -1487,6 +1542,7 @@ $text['label-caller_id_name']['ja-jp'] = "発信者ID名";
 $text['label-caller_id_name']['ko-kr'] = "발신자 ID 이름";
 
 $text['label-recorded_name']['en-us'] = "Name";
+$text['label-recorded_name']['vi-vn'] = "Tên";
 $text['label-recorded_name']['en-gb'] = "Name";
 $text['label-recorded_name']['ar-eg'] = "اسم";
 $text['label-recorded_name']['de-at'] = "Name";
@@ -1512,6 +1568,7 @@ $text['label-recorded_name']['ja-jp'] = "名前";
 $text['label-recorded_name']['ko-kr'] = "이름";
 
 $text['header-voicemail_import']['en-us'] = "Voicemail Import";
+$text['header-voicemail_import']['vi-vn'] = "Nhập thư thoại";
 $text['header-voicemail_import']['en-gb'] = "Voicemail Import";
 $text['header-voicemail_import']['ar-eg'] = "استيراد البريد الصوتي";
 $text['header-voicemail_import']['de-at'] = "Importieren";
@@ -1539,6 +1596,7 @@ $text['header-voicemail_import']['ja-jp'] = "ボイスメールのインポー�
 $text['header-voicemail_import']['ko-kr'] = "음성 메일 가져오기";
 
 $text['header-voicemail_export']['en-us'] = "Voicemail Export";
+$text['header-voicemail_export']['vi-vn'] = "Xuất thư thoại";
 $text['header-voicemail_export']['en-gb'] = "Voicemail Export";
 $text['header-voicemail_export']['ar-eg'] = "التصدير";
 $text['header-voicemail_export']['de-at'] = "Exportieren";
@@ -1567,6 +1625,7 @@ $text['header-voicemail_export']['ja-jp'] = "宛先エクスポート";
 $text['header-voicemail_export']['ko-kr'] = "대상 내보내기";
 
 $text['header-voicemail_option']['en-us'] = "Voicemail Option";
+$text['header-voicemail_option']['vi-vn'] = "Tùy chọn thư thoại";
 $text['header-voicemail_option']['en-gb'] = "Voicemail Option";
 $text['header-voicemail_option']['ar-eg'] = "خيار البريد الصوتي";
 $text['header-voicemail_option']['de-at'] = "Mailbox Option";
@@ -1594,6 +1653,7 @@ $text['header-voicemail_option']['ja-jp'] = "ボイスメールオプション";
 $text['header-voicemail_option']['ko-kr'] = "음성 메일 옵션";
 
 $text['description-voicemail_uuid']['en-us'] = "Voicemail UUID";
+$text['description-voicemail_uuid']['vi-vn'] = "UUID thư thoại";
 $text['description-voicemail_uuid']['en-gb'] = "Voicemail UUID";
 $text['description-voicemail_uuid']['ar-eg'] = "UUID البريد الصوتي";
 $text['description-voicemail_uuid']['de-at'] = "Mailbox UUID";
@@ -1621,6 +1681,7 @@ $text['description-voicemail_uuid']['ja-jp'] = "ボイスメール UUID";
 $text['description-voicemail_uuid']['ko-kr'] = "음성 메일 UUID";
 
 $text['description-voicemail_password']['en-us'] = "Enter the Password";
+$text['description-voicemail_password']['vi-vn'] = "Nhập mật khẩu";
 $text['description-voicemail_password']['en-gb'] = "Enter the Password";
 $text['description-voicemail_password']['ar-eg'] = "أدخل كلمة المرور";
 $text['description-voicemail_password']['de-at'] = "Geben Sie das Mailbox Passwort an.";
@@ -1648,6 +1709,7 @@ $text['description-voicemail_password']['ja-jp'] = "パスワードを入力し�
 $text['description-voicemail_password']['ko-kr'] = "비밀번호를 입력하세요";
 
 $text['description-voicemail_sms_to']['en-us'] = "Enter the Phone Number to send voicemail SMS notification to.";
+$text['description-voicemail_sms_to']['vi-vn'] = "Nhập số điện thoại để gửi thông báo SMS thư thoại đến.";
 $text['description-voicemail_sms_to']['en-gb'] = "Enter the Phone Number to send voicemail SMS notification to.";
 $text['description-voicemail_sms_to']['ar-eg'] = "أدخل رقم الهاتف لإرسال إشعار عبر البريد الصوتي عبر الرسائل القصيرة.";
 $text['description-voicemail_sms_to']['de-at'] = "Geben Sie die SMS-Nummer an, an die Voicemail-Benachrichtigung gesendet werden sollen.";
@@ -1675,6 +1737,7 @@ $text['description-voicemail_sms_to']['ja-jp'] = "ボイスメール SMS 通知�
 $text['description-voicemail_sms_to']['ko-kr'] = "음성 메일 SMS 알림을 보낼 전화번호를 입력합니다.";
 
 $text['description-voicemail_transcription_enabled']['en-us'] = "Choose if voicemail transcription is enabled for this extension.";
+$text['description-voicemail_transcription_enabled']['vi-vn'] = "Chọn có bật chép lời thư thoại cho máy nhánh này hay không.";
 $text['description-voicemail_transcription_enabled']['en-gb'] = "Choose if voicemail transcription is enabled for this extension.";
 $text['description-voicemail_transcription_enabled']['ar-eg'] = "اختر ما إذا تم تمكين نسخ البريد الصوتي لهذا الامتداد.";
 $text['description-voicemail_transcription_enabled']['de-at'] = "Wählen Sie, ob die Voicemail Übertragung für diese Nebenstelle aktiviert werden soll";
@@ -1702,6 +1765,7 @@ $text['description-voicemail_transcription_enabled']['ja-jp'] = "この内線番
 $text['description-voicemail_transcription_enabled']['ko-kr'] = "이 확장 프로그램에 음성 메일 전사가 활성화되어 있는지 선택하십시오.";
 
 $text['description-voicemail_message']['en-us'] = "A list of recorded voice messages which shows when the message was created, caller ID information, length, file size and download or delete the message.";
+$text['description-voicemail_message']['vi-vn'] = "Danh sách tin nhắn thoại đã ghi, hiển thị thời điểm tạo, thông tin Caller ID, độ dài, kích thước file và cho phép tải xuống hoặc xóa tin nhắn.";
 $text['description-voicemail_message']['en-gb'] = "A list of recorded voice messages which shows when the message was created, caller ID information, length, file size and download or delete the message.";
 $text['description-voicemail_message']['ar-eg'] = "قائمة بالرسائل الصوتية المسجلة التي تظهر وقت إنشاء الرسالة ومعلومات هوية المتصل وطولها وحجم الملف وتنزيل الرسالة أو حذفها.";
 $text['description-voicemail_message']['de-at'] = "Eine Liste der Aufgenommenen Mailbox Nachrichten. Die Liste zeigt, wann die Nachricht aufgenommen wurde, wer angerufen hat, wie lange gesprochen wurde und wie groß die Datei ist. Die Dateien können heruntergeladen und/oder gelöscht werden.";
@@ -1729,6 +1793,7 @@ $text['description-voicemail_message']['ja-jp'] = "録音された音声メッ�
 $text['description-voicemail_message']['ko-kr'] = "메시지가 생성된 시간, 발신자 ID 정보, 길이, 파일 크기 및 메시지 다운로드 또는 삭제를 보여주는 녹음된 음성 메시지 목록입니다.";
 
 $text['description-voicemail_alternate_greet_id']['en-us'] = "An alternative greeting ID used in the default greeting.";
+$text['description-voicemail_alternate_greet_id']['vi-vn'] = "ID lời chào thay thế dùng trong lời chào mặc định.";
 $text['description-voicemail_alternate_greet_id']['en-gb'] = "An alternative greeting ID used in the default greeting.";
 $text['description-voicemail_alternate_greet_id']['ar-eg'] = "معرف ترحيب بديل مستخدم في الترحيب الافتراضي.";
 $text['description-voicemail_alternate_greet_id']['de-at'] = "Eine alternative begrüßungs ID, welche in der standard Begrüßung verwendet wird.";
@@ -1756,6 +1821,7 @@ $text['description-voicemail_alternate_greet_id']['ja-jp'] = "デフォルトの
 $text['description-voicemail_alternate_greet_id']['ko-kr'] = "기본 인사말에 사용되는 대체 인사말 ID입니다.";
 
 $text['description-voicemail_mail_to']['en-us'] = "Enter the email address to send voicemail to (optional). Multiple addresses may be separated by commas.";
+$text['description-voicemail_mail_to']['vi-vn'] = "Nhập địa chỉ email để gửi thư thoại đến (tùy chọn). Có thể phân tách nhiều địa chỉ bằng dấu phẩy.";
 $text['description-voicemail_mail_to']['en-gb'] = "Enter the email address to send voicemail to (optional). Multiple addresses may be separated by commas.";
 $text['description-voicemail_mail_to']['ar-eg'] = "أدخل عنوان البريد الإلكتروني لإرسال البريد الصوتي إليه (اختياري). يمكن فصل العناوين المتعددة بفواصل.";
 $text['description-voicemail_mail_to']['de-at'] = "Geben Sie die E-Mail-Adresse ein, an die die Voicemail gesendet werden soll (optional). Mehrere Adressen können durch Kommas getrennt werden.";
@@ -1783,6 +1849,7 @@ $text['description-voicemail_mail_to']['ja-jp'] = "ボイスメールを送信�
 $text['description-voicemail_mail_to']['ko-kr'] = "보이스메일을 보낼 이메일 주소를 입력하세요(선택 사항). 여러 개의 주소는 쉼표로 구분할 수 있습니다.";
 
 $text['description-voicemail_local_after_email']['en-us'] = "Choose whether to keep the voicemail in the system after sending the email notification.";
+$text['description-voicemail_local_after_email']['vi-vn'] = "Chọn có giữ thư thoại trong hệ thống sau khi gửi thông báo email hay không.";
 $text['description-voicemail_local_after_email']['en-gb'] = "Choose whether to keep the voicemail in the system after sending the email notification.";
 $text['description-voicemail_local_after_email']['ar-eg'] = "اختر ما إذا كنت تريد الاحتفاظ بالبريد الصوتي في النظام بعد إرسال إشعار البريد الإلكتروني.";
 $text['description-voicemail_local_after_email']['de-at'] = "Wählen Sie ob die Mailbox Nachricht am Server gespeichert werden soll, nachdem die Nachricht per Mail versendet worden ist.";
@@ -1810,6 +1877,7 @@ $text['description-voicemail_local_after_email']['ja-jp'] = "電子メール通�
 $text['description-voicemail_local_after_email']['ko-kr'] = "이메일 알림을 보낸 후 시스템에 음성 메일을 유지할지 여부를 선택합니다.";
 
 $text['description-voicemail_id']['en-us'] = "Enter the Voicemail ID";
+$text['description-voicemail_id']['vi-vn'] = "Nhập Voicemail ID";
 $text['description-voicemail_id']['en-gb'] = "Enter the Voicemail ID";
 $text['description-voicemail_id']['ar-eg'] = "أدخل معرف البريد الصوتي";
 $text['description-voicemail_id']['de-at'] = "Geben Sie die Mailbox ID an";
@@ -1837,6 +1905,7 @@ $text['description-voicemail_id']['ja-jp'] = "ボイスメールIDを入力し�
 $text['description-voicemail_id']['ko-kr'] = "음성사서함 ID를 입력하세요.";
 
 $text['description-voicemail_file']['en-us'] = "Select a listening option to include with the email notification.";
+$text['description-voicemail_file']['vi-vn'] = "Chọn tùy chọn nghe để đưa vào thông báo email.";
 $text['description-voicemail_file']['en-gb'] = "Select a listening option to include with the email notification.";
 $text['description-voicemail_file']['ar-eg'] = "حدد خيار استماع لتضمينه مع إشعار البريد الإلكتروني.";
 $text['description-voicemail_file']['de-at'] = "Wählen Sie eine Abhör-Option für die Mailbox Benachrichtigung.";
@@ -1864,6 +1933,7 @@ $text['description-voicemail_file']['ja-jp'] = "電子メール通知に含め�
 $text['description-voicemail_file']['ko-kr'] = "이메일 알림에 포함할 청취 옵션을 선택합니다.";
 
 $text['description-voicemail_enabled']['en-us'] = "Select to enable or disable this voicemail.";
+$text['description-voicemail_enabled']['vi-vn'] = "Chọn để bật hoặc tắt thư thoại này.";
 $text['description-voicemail_enabled']['en-gb'] = "Select to enable or disable this voicemail.";
 $text['description-voicemail_enabled']['ar-eg'] = "حدد لتمكين أو تعطيل هذا البريد الصوتي.";
 $text['description-voicemail_enabled']['de-at'] = "Mailbox für diese Nebenstelle Ein- oder Ausschalten.";
@@ -1891,6 +1961,7 @@ $text['description-voicemail_enabled']['ja-jp'] = "このボイスメールを�
 $text['description-voicemail_enabled']['ko-kr'] = "이 음성 메일을 활성화 또는 비활성화하려면 선택합니다.";
 
 $text['description-voicemail_description']['en-us'] = "Enter the description.";
+$text['description-voicemail_description']['vi-vn'] = "Nhập mô tả.";
 $text['description-voicemail_description']['en-gb'] = "Enter the description.";
 $text['description-voicemail_description']['ar-eg'] = "أدخل الوصف.";
 $text['description-voicemail_description']['de-at'] = "Geben Sie eine Beschreibung an.";
@@ -1918,6 +1989,7 @@ $text['description-voicemail_description']['ja-jp'] = "説明を入力します�
 $text['description-voicemail_description']['ko-kr'] = "설명을 입력합니다.";
 
 $text['description-voicemail']['en-us'] = "Voicemail settings.";
+$text['description-voicemail']['vi-vn'] = "Cài đặt thư thoại.";
 $text['description-voicemail']['en-gb'] = "Voicemail settings.";
 $text['description-voicemail']['ar-eg'] = "إعدادات البريد الصوتي.";
 $text['description-voicemail']['de-at'] = "Mailbox Einstellungen.";
@@ -1945,6 +2017,7 @@ $text['description-voicemail']['ja-jp'] = "ボイスメールの設定。";
 $text['description-voicemail']['ko-kr'] = "음성사서함 설정.";
 
 $text['description-voicemail_export']['en-us'] = "Select the fields you wish to include in the export.";
+$text['description-voicemail_export']['vi-vn'] = "Chọn các trường bạn muốn đưa vào file xuất.";
 $text['description-voicemail_export']['en-gb'] = "Select the fields you wish to include in the export.";
 $text['description-voicemail_export']['ar-eg'] = "حدد الحقول التي ترغب في تضمينها في التصدير.";
 $text['description-voicemail_export']['de-at'] = "Wählen Sie die Felder aus, die Sie in den Export einbeziehen möchten.";
@@ -1973,6 +2046,7 @@ $text['description-voicemail_export']['ja-jp'] = "エクスポートに含める
 $text['description-voicemail_export']['ko-kr'] = "내보내기에 포함할 필드를 선택합니다.";
 
 $text['description-read_epoch']['en-us'] = "Read";
+$text['description-read_epoch']['vi-vn'] = "Đã đọc";
 $text['description-read_epoch']['en-gb'] = "Read";
 $text['description-read_epoch']['ar-eg'] = "يقرأ";
 $text['description-read_epoch']['de-at'] = "Abgehört";
@@ -2000,6 +2074,7 @@ $text['description-read_epoch']['ja-jp'] = "読む";
 $text['description-read_epoch']['ko-kr'] = "읽다";
 
 $text['description-options']['en-us'] = "Define caller options for the voicemail greeting.";
+$text['description-options']['vi-vn'] = "Định nghĩa tùy chọn người gọi cho lời chào thư thoại.";
 $text['description-options']['en-gb'] = "Define caller options for the voicemail greeting.";
 $text['description-options']['ar-eg'] = "حدد خيارات المتصل لتحية البريد الصوتي.";
 $text['description-options']['de-at'] = "Definieren Sie Optionen für die Mailbox Begrüßung.";
@@ -2027,6 +2102,7 @@ $text['description-options']['ja-jp'] = "ボイスメール応答の発信者オ
 $text['description-options']['ko-kr'] = "음성 메일 인사말에 대한 발신자 옵션을 정의합니다.";
 
 $text['description-message_status']['en-us'] = "Status";
+$text['description-message_status']['vi-vn'] = "Trạng thái";
 $text['description-message_status']['en-gb'] = "Status";
 $text['description-message_status']['ar-eg'] = "حالة";
 $text['description-message_status']['de-at'] = "Status";
@@ -2054,6 +2130,7 @@ $text['description-message_status']['ja-jp'] = "スターテス";
 $text['description-message_status']['ko-kr'] = "상태";
 
 $text['description-message_priority']['en-us'] = "Priority";
+$text['description-message_priority']['vi-vn'] = "Ưu tiên";
 $text['description-message_priority']['en-gb'] = "Priority";
 $text['description-message_priority']['ar-eg'] = "أولوية";
 $text['description-message_priority']['de-at'] = "Priorität";
@@ -2081,6 +2158,7 @@ $text['description-message_priority']['ja-jp'] = "優先順位";
 $text['description-message_priority']['ko-kr'] = "우선 사항";
 
 $text['description-message_length']['en-us'] = "Length";
+$text['description-message_length']['vi-vn'] = "Độ dài";
 $text['description-message_length']['en-gb'] = "Length";
 $text['description-message_length']['ar-eg'] = "طول";
 $text['description-message_length']['de-at'] = "Länge";
@@ -2108,6 +2186,7 @@ $text['description-message_length']['ja-jp'] = "長さ";
 $text['description-message_length']['ko-kr'] = "길이";
 
 $text['description-greeting']['en-us'] = "Select the desired Greeting.";
+$text['description-greeting']['vi-vn'] = "Chọn lời chào mong muốn.";
 $text['description-greeting']['en-gb'] = "Select the desired Greeting.";
 $text['description-greeting']['ar-eg'] = "حدد التحية المطلوبة.";
 $text['description-greeting']['de-at'] = "Geben Sie die Begrüßungs-ID an.";
@@ -2135,6 +2214,7 @@ $text['description-greeting']['ja-jp'] = "目的の挨拶を選択します。";
 $text['description-greeting']['ko-kr'] = "원하는 인사말을 선택하세요.";
 
 $text['description-forward_destinations']['en-us'] = "Forward voicemail messages to additional destinations.";
+$text['description-forward_destinations']['vi-vn'] = "Chuyển tiếp tin nhắn thư thoại đến các đích bổ sung.";
 $text['description-forward_destinations']['en-gb'] = "Forward voicemail messages to additional destinations.";
 $text['description-forward_destinations']['ar-eg'] = "إعادة توجيه رسائل البريد الصوتي إلى وجهات إضافية.";
 $text['description-forward_destinations']['de-at'] = "Mailbox Nachrichten an zusätzliche Nebenstellen weiterleiten.";
@@ -2162,6 +2242,7 @@ $text['description-forward_destinations']['ja-jp'] = "ボイスメール メッ�
 $text['description-forward_destinations']['ko-kr'] = "음성 메일 메시지를 추가 대상으로 전달합니다.";
 
 $text['description-created_epoch']['en-us'] = "Created";
+$text['description-created_epoch']['vi-vn'] = "Đã tạo";
 $text['description-created_epoch']['en-gb'] = "Created";
 $text['description-created_epoch']['ar-eg'] = "مخلوق";
 $text['description-created_epoch']['de-at'] = "Erstellt";
@@ -2189,6 +2270,7 @@ $text['description-created_epoch']['ja-jp'] = "作成した";
 $text['description-created_epoch']['ko-kr'] = "만들어진";
 
 $text['description-caller_id_number']['en-us'] = "Caller ID Number";
+$text['description-caller_id_number']['vi-vn'] = "Số Caller ID";
 $text['description-caller_id_number']['en-gb'] = "Caller ID Number";
 $text['description-caller_id_number']['ar-eg'] = "رقم هوية المتصل";
 $text['description-caller_id_number']['de-at'] = "Anruferkennung (Nummer)";
@@ -2216,6 +2298,7 @@ $text['description-caller_id_number']['ja-jp'] = "発信者番号";
 $text['description-caller_id_number']['ko-kr'] = "발신자 ID 번호";
 
 $text['description-caller_id_name']['en-us'] = "Caller ID Name";
+$text['description-caller_id_name']['vi-vn'] = "Tên Caller ID";
 $text['description-caller_id_name']['en-gb'] = "Caller ID Name";
 $text['description-caller_id_name']['ar-eg'] = "اسم معرف المتصل";
 $text['description-caller_id_name']['de-at'] = "Anruferkennung (Name)";
@@ -2243,6 +2326,7 @@ $text['description-caller_id_name']['ja-jp'] = "発信者ID名";
 $text['description-caller_id_name']['ko-kr'] = "발신자 ID 이름";
 
 $text['description-voicemail_tutorial']['en-us'] = "Play the voicemail tutorial after the next voicemail login.";
+$text['description-voicemail_tutorial']['vi-vn'] = "Phát hướng dẫn thư thoại sau lần đăng nhập thư thoại tiếp theo.";
 $text['description-voicemail_tutorial']['en-gb'] = "Play the voicemail tutorial after the next voicemail login.";
 $text['description-voicemail_tutorial']['ar-eg'] = "قم بتشغيل البرنامج التعليمي للبريد الصوتي بعد تسجيل الدخول إلى البريد الصوتي التالي.";
 $text['description-voicemail_tutorial']['de-at'] = "Die Anleitung für die Mailbox nach der nächsten Anmeldung abspielen.";
@@ -2270,6 +2354,7 @@ $text['description-voicemail_tutorial']['ja-jp'] = "次回ボイスメールに�
 $text['description-voicemail_tutorial']['ko-kr'] = "다음 음성 메일 로그인 후 음성 메일 자습서를 재생합니다.";
 
 $text['description-recording_instructions']['en-us'] = "Play instructions <strong>before</strong> the recording.";
+$text['description-recording_instructions']['vi-vn'] = "Phát hướng dẫn <strong>trước</strong> khi ghi âm.";
 $text['description-recording_instructions']['en-gb'] = "Play instructions <strong>before</strong> the recording.";
 $text['description-recording_instructions']['ar-eg'] = "قم بتشغيل تعليمات تسجيل البريد الصوتي.";
 $text['description-recording_instructions']['de-at'] = "Spielen Sie die Anweisungen zur Voicemail-Aufzeichnung ab.";
@@ -2297,6 +2382,7 @@ $text['description-recording_instructions']['ja-jp'] = "ボイスメールの録
 $text['description-recording_instructions']['ko-kr'] = "음성 메일 녹음 지침을 재생합니다.";
 
 $text['description-recording_options']['en-us'] = "Play options <strong>after</strong> the recording.";
+$text['description-recording_options']['vi-vn'] = "Phát tùy chọn <strong>sau</strong> khi ghi âm.";
 $text['description-recording_options']['en-gb'] = "Play options <strong>after</strong> the recording.";
 $text['description-recording_options']['ar-eg'] = "تشغيل خيارات التسجيل.";
 $text['description-recording_options']['de-at'] = "Spielen Sie die Aufnahmeoptionen ab.";
@@ -2324,6 +2410,7 @@ $text['description-recording_options']['ja-jp'] = "録音オプションを再�
 $text['description-recording_options']['ko-kr'] = "녹음 옵션을 재생합니다.";
 
 $text['description-recorded_name']['en-us'] = "Manage the extension's recorded name in the Company Directory.";
+$text['description-recorded_name']['vi-vn'] = "Quản lý tên đã ghi âm của máy nhánh trong danh bạ công ty.";
 $text['description-recorded_name']['en-gb'] = "Manage the extension's recorded name in the Company Directory.";
 $text['description-recorded_name']['ar-eg'] = "إدارة الاسم المسجل للامتداد في دليل الشركة.";
 $text['description-recorded_name']['de-at'] = "Verwalten Sie den aufgezeichneten Namen der Nebenstelle im Firmenverzeichnis.";
@@ -2349,6 +2436,7 @@ $text['description-recorded_name']['ja-jp'] = "社内ディレクトリで内線
 $text['description-recorded_name']['ko-kr'] = "회사 디렉토리에서 확장 프로그램의 기록된 이름을 관리합니다.";
 
 $text['button-toggle']['en-us'] = "Toggle";
+$text['button-toggle']['vi-vn'] = "Chuyển trạng thái";
 $text['button-toggle']['en-gb'] = "Toggle";
 $text['button-toggle']['ar-eg'] = "تبديل";
 $text['button-toggle']['de-at'] = "Umschalten";
@@ -2376,6 +2464,7 @@ $text['button-toggle']['ja-jp'] = "トグル";
 $text['button-toggle']['ko-kr'] = "비녀장";
 
 $text['button-resend']['en-us'] = "Resend";
+$text['button-resend']['vi-vn'] = "Gửi lại";
 $text['button-resend']['en-gb'] = "Resend";
 $text['button-resend']['ar-eg'] = "إعادة إرسال";
 $text['button-resend']['de-at'] = "Erneut senden";
@@ -2403,6 +2492,7 @@ $text['button-resend']['ja-jp'] = "再送信";
 $text['button-resend']['ko-kr'] = "재전송";
 
 $text['button-settings']['en-us'] = "Settings";
+$text['button-settings']['vi-vn'] = "Cài đặt";
 $text['button-settings']['en-gb'] = "Settings";
 $text['button-settings']['ar-eg'] = "إعدادات";
 $text['button-settings']['de-at'] = "Einstellungen";
@@ -2430,6 +2520,7 @@ $text['button-settings']['ja-jp'] = "設定";
 $text['button-settings']['ko-kr'] = "설정";
 
 $text['button-greetings']['en-us'] = "Greetings";
+$text['button-greetings']['vi-vn'] = "Lời chào";
 $text['button-greetings']['en-gb'] = "Greetings";
 $text['button-greetings']['ar-eg'] = "تحيات";
 $text['button-greetings']['de-at'] = "Begrüßungen";
@@ -2457,6 +2548,7 @@ $text['button-greetings']['ja-jp'] = "ご挨拶";
 $text['button-greetings']['ko-kr'] = "인사말";
 
 $text['modal_title-resend']['en-us'] = "Resend Email";
+$text['modal_title-resend']['vi-vn'] = "Gửi lại email";
 $text['modal_title-resend']['en-gb'] = "Resend Email";
 $text['modal_title-resend']['ar-eg'] = "إعادة إرسال البريد الإلكتروني";
 $text['modal_title-resend']['de-at'] = "E-Mail zurücksenden";
@@ -2484,6 +2576,7 @@ $text['modal_title-resend']['ja-jp'] = "メールを再送";
 $text['modal_title-resend']['ko-kr'] = "이메일 재전송";
 
 $text['modal_message-resend']['en-us'] = "You are about to resend email notifications for the selected voicemail message(s).";
+$text['modal_message-resend']['vi-vn'] = "Bạn sắp gửi lại thông báo email cho các tin nhắn thư thoại đã chọn.";
 $text['modal_message-resend']['en-gb'] = "You are about to resend email notifications for the selected voicemail message(s).";
 $text['modal_message-resend']['ar-eg'] = "أنت على وشك إعادة إرسال إشعارات البريد الإلكتروني لرسالة (رسائل) البريد الصوتي المحددة.";
 $text['modal_message-resend']['de-at'] = "Sie sind dabei, E-Mail-Benachrichtigungen für die ausgewählte(n) Voicemail-Nachricht(en) erneut zu senden.";
@@ -2511,6 +2604,7 @@ $text['modal_message-resend']['ja-jp'] = "選択したボイスメール メッ�
 $text['modal_message-resend']['ko-kr'] = "선택한 음성 메일 메시지에 대한 이메일 알림을 다시 보내려고 합니다.";
 
 $text['label-voicemail_from']['en-us'] = "Voicemail from";
+$text['label-voicemail_from']['vi-vn'] = "Thư thoại từ";
 $text['label-voicemail_from']['en-gb'] = "Voicemail from";
 $text['label-voicemail_from']['ar-eg'] = "- البريد الصوتي";
 $text['label-voicemail_from']['de-at'] = "Voicemail -";
@@ -2538,6 +2632,7 @@ $text['label-voicemail_from']['ja-jp'] = "ボイスメール -";
 $text['label-voicemail_from']['ko-kr'] = "음성사서함 -";
 
 $text['label-attached']['en-us'] = "Attached";
+$text['label-attached']['vi-vn'] = "Đính kèm";
 $text['label-attached']['en-gb'] = "Attached";
 $text['label-attached']['ar-eg'] = "مُرفَق";
 $text['label-attached']['de-at'] = "Beigefügt";
@@ -2565,6 +2660,7 @@ $text['label-attached']['ja-jp'] = "添付";
 $text['label-attached']['ko-kr'] = "첨부된";
 
 $text['label-listen']['en-us'] = "Listen";
+$text['label-listen']['vi-vn'] = "Nghe";
 $text['label-listen']['en-gb'] = "Listen";
 $text['label-listen']['ar-eg'] = "يستمع";
 $text['label-listen']['de-at'] = "Hören";
@@ -2592,6 +2688,7 @@ $text['label-listen']['ja-jp'] = "聞く";
 $text['label-listen']['ko-kr'] = "듣다";
 
 $text['label-introduction']['en-us'] = "Intro";
+$text['label-introduction']['vi-vn'] = "Giới thiệu";
 $text['label-introduction']['en-gb'] = "Intro";
 $text['label-introduction']['ar-eg'] = "مقدمة";
 $text['label-introduction']['de-at'] = "Einführung";
@@ -2619,6 +2716,7 @@ $text['label-introduction']['ja-jp'] = "導入";
 $text['label-introduction']['ko-kr'] = "소개";
 
 $text['label-message']['en-us'] = "Message";
+$text['label-message']['vi-vn'] = "Thông báo";
 $text['label-message']['en-gb'] = "Message";
 $text['label-message']['ar-eg'] = "رسالة";
 $text['label-message']['de-at'] = "Nachricht";
@@ -2646,6 +2744,7 @@ $text['label-message']['ja-jp'] = "メッセージ";
 $text['label-message']['ko-kr'] = "메시지";
 
 $text['message-emails_resent']['en-us'] = "Emails Resent";
+$text['message-emails_resent']['vi-vn'] = "Email đã được gửi lại";
 $text['message-emails_resent']['en-gb'] = "Emails Resent";
 $text['message-emails_resent']['ar-eg'] = "إعادة إرسال رسائل البريد الإلكتروني";
 $text['message-emails_resent']['de-at'] = "Erneut gesendete E-Mails";

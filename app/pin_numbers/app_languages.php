@@ -1,6 +1,7 @@
 <?php
 
 $text['title-pin_numbers']['en-us'] = "PIN Numbers";
+$text['title-pin_numbers']['vi-vn'] = 'Số PIN';
 $text['title-pin_numbers']['en-gb'] = "PIN Numbers";
 $text['title-pin_numbers']['ar-eg'] = "أرقام PIN";
 $text['title-pin_numbers']['de-at'] = "PIN Nummern";
@@ -28,6 +29,7 @@ $text['title-pin_numbers']['ja-jp'] = "PIN番号";
 $text['title-pin_numbers']['ko-kr'] = "PIN 번호";
 
 $text['title-pin_number']['en-us'] = "PIN Number";
+$text['title-pin_number']['vi-vn'] = 'Số PIN';
 $text['title-pin_number']['en-gb'] = "PIN Number";
 $text['title-pin_number']['ar-eg'] = "الرقم السري";
 $text['title-pin_number']['de-at'] = "PIN Nummer";
@@ -55,6 +57,7 @@ $text['title-pin_number']['ja-jp'] = "暗証番号";
 $text['title-pin_number']['ko-kr'] = "핀 번호";
 
 $text['title_description-pin_number']['en-us'] = "List of PIN Numbers and account codes.";
+$text['title_description-pin_number']['vi-vn'] = 'Danh sách số PIN và mã tài khoản.';
 $text['title_description-pin_number']['en-gb'] = "List of PIN Numbers and account codes.";
 $text['title_description-pin_number']['ar-eg'] = "قائمة بأعداد الدبابيس و رموز الحسابات";
 $text['title_description-pin_number']['de-at'] = "Liste von PIN Nummern und Kontoschlüssel.";
@@ -82,6 +85,7 @@ $text['title_description-pin_number']['ja-jp'] = "PIN番号とアカウントコ
 $text['title_description-pin_number']['ko-kr'] = "PIN 번호 및 계정 코드 목록.";
 
 $text['label-pin_number']['en-us'] = "PIN Number";
+$text['label-pin_number']['vi-vn'] = 'Số PIN';
 $text['label-pin_number']['en-gb'] = "PIN Number";
 $text['label-pin_number']['ar-eg'] = "الرقم السري";
 $text['label-pin_number']['de-at'] = "PIN Nummer";
@@ -109,6 +113,7 @@ $text['label-pin_number']['ja-jp'] = "暗証番号";
 $text['label-pin_number']['ko-kr'] = "핀 번호";
 
 $text['description-pin_number']['en-us'] = "Enter the PIN number.";
+$text['description-pin_number']['vi-vn'] = 'Nhập số PIN.';
 $text['description-pin_number']['en-gb'] = "Enter the PIN number.";
 $text['description-pin_number']['ar-eg'] = "أدخل رقم PIN.";
 $text['description-pin_number']['de-at'] = "Geben Sie die PIN Nummer ein.";
@@ -136,6 +141,7 @@ $text['description-pin_number']['ja-jp'] = "PIN番号を入力します。";
 $text['description-pin_number']['ko-kr'] = "PIN 번호를 입력합니다.";
 
 $text['label-accountcode']['en-us'] = "Accountcode";
+$text['label-accountcode']['vi-vn'] = 'Accountcode';
 $text['label-accountcode']['en-gb'] = "Accountcode";
 $text['label-accountcode']['ar-eg'] = "رمز الحساب";
 $text['label-accountcode']['de-at'] = "Kontoschlüssel";
@@ -163,6 +169,7 @@ $text['label-accountcode']['ja-jp'] = "口座番号";
 $text['label-accountcode']['ko-kr'] = "계정 코드";
 
 $text['description-accountcode']['en-us'] = "Enter the accountcode.";
+$text['description-accountcode']['vi-vn'] = 'Nhập accountcode.';
 $text['description-accountcode']['en-gb'] = "Enter the accountcode.";
 $text['description-accountcode']['ar-eg'] = "أدخل رمز الحساب.";
 $text['description-accountcode']['de-at'] = "Geben Sie den Kontoschlüssel ein.";
@@ -190,6 +197,7 @@ $text['description-accountcode']['ja-jp'] = "アカウントコードを入力�
 $text['description-accountcode']['ko-kr'] = "계정코드를 입력하세요.";
 
 $text['label-enabled']['en-us'] = "Enabled";
+$text['label-enabled']['vi-vn'] = 'Đã bật';
 $text['label-enabled']['en-gb'] = "Enabled";
 $text['label-enabled']['ar-eg'] = "مُتاح";
 $text['label-enabled']['de-at'] = "Aktiviert";
@@ -217,6 +225,7 @@ $text['label-enabled']['ja-jp'] = "有効";
 $text['label-enabled']['ko-kr'] = "사용";
 
 $text['description-enabled']['en-us'] = "Enable or Disable the PIN Number.";
+$text['description-enabled']['vi-vn'] = 'Bật hoặc tắt số PIN.';
 $text['description-enabled']['en-gb'] = "Enable or Disable the PIN Number.";
 $text['description-enabled']['ar-eg'] = "يمكن أو تعطيل رقم PIN.";
 $text['description-enabled']['de-at'] = "Die PIN Nummer aktivieren und deaktivieren.";
@@ -244,6 +253,7 @@ $text['description-enabled']['ja-jp'] = "PIN 番号を有効または無効に�
 $text['description-enabled']['ko-kr'] = "PIN 번호를 활성화 또는 비활성화합니다.";
 
 $text['label-description']['en-us'] = "Description";
+$text['label-description']['vi-vn'] = 'Mô tả';
 $text['label-description']['en-gb'] = "Description";
 $text['label-description']['ar-eg'] = "الوصف";
 $text['label-description']['de-at'] = "Beschreibung";
@@ -271,6 +281,7 @@ $text['label-description']['ja-jp'] = "説明";
 $text['label-description']['ko-kr'] = "설명";
 
 $text['description-description']['en-us'] = "Enter the description.";
+$text['description-description']['vi-vn'] = 'Nhập mô tả.';
 $text['description-description']['en-gb'] = "Enter the description.";
 $text['description-description']['ar-eg'] = "أدخل الوصف.";
 $text['description-description']['de-at'] = "Geben Sie die Beschreibung ein.";
@@ -298,6 +309,7 @@ $text['description-description']['ja-jp'] = "説明を入力します。";
 $text['description-description']['ko-kr'] = "설명을 입력합니다.";
 
 $text['label-column_name']['en-us'] = "Column Name";
+$text['label-column_name']['vi-vn'] = 'Tên cột';
 $text['label-column_name']['en-gb'] = "Column Name";
 $text['label-column_name']['ar-eg'] = "اسم العمود";
 $text['label-column_name']['de-at'] = "Bezeichnung der Spalte";
@@ -325,6 +337,7 @@ $text['label-column_name']['ja-jp'] = "列名";
 $text['label-column_name']['ko-kr'] = "열 이름";
 
 $text['button-add']['en-us'] = "Add";
+$text['button-add']['vi-vn'] = 'Thêm';
 $text['button-add']['en-gb'] = "Add";
 $text['button-add']['ar-eg'] = "يضيف";
 $text['button-add']['de-at'] = "Hinzufügen";
@@ -352,6 +365,7 @@ $text['button-add']['ja-jp'] = "追加";
 $text['button-add']['ko-kr'] = "추가하다";
 
 $text['button-edit']['en-us'] = "Edit";
+$text['button-edit']['vi-vn'] = 'Sửa';
 $text['button-edit']['en-gb'] = "Edit";
 $text['button-edit']['ar-eg'] = "يحرر";
 $text['button-edit']['de-at'] = "Bearbeiten";
@@ -379,6 +393,7 @@ $text['button-edit']['ja-jp'] = "編集";
 $text['button-edit']['ko-kr'] = "편집하다";
 
 $text['button-delete']['en-us'] = "Delete";
+$text['button-delete']['vi-vn'] = 'Xóa';
 $text['button-delete']['en-gb'] = "Delete";
 $text['button-delete']['ar-eg'] = "تحذف";
 $text['button-delete']['de-at'] = "Löschen";
@@ -406,6 +421,7 @@ $text['button-delete']['ja-jp'] = "消去";
 $text['button-delete']['ko-kr'] = "삭제";
 
 $text['button-save']['en-us'] = "Save";
+$text['button-save']['vi-vn'] = 'Lưu';
 $text['button-save']['en-gb'] = "Save";
 $text['button-save']['ar-eg'] = "أنقذ";
 $text['button-save']['de-at'] = "Speichern";
@@ -433,6 +449,7 @@ $text['button-save']['ja-jp'] = "保存";
 $text['button-save']['ko-kr'] = "구하다";
 
 $text['button-view']['en-us'] = "View";
+$text['button-view']['vi-vn'] = 'Xem';
 $text['button-view']['en-gb'] = "View";
 $text['button-view']['ar-eg'] = "رأي";
 $text['button-view']['de-at'] = "Anzeigen";
@@ -460,6 +477,7 @@ $text['button-view']['ja-jp'] = "意見";
 $text['button-view']['ko-kr'] = "보다";
 
 $text['button-back']['en-us'] = "Back";
+$text['button-back']['vi-vn'] = 'Quay lại';
 $text['button-back']['en-gb'] = "Back";
 $text['button-back']['ar-eg'] = "العودة";
 $text['button-back']['de-at'] = "Zurück";
@@ -487,6 +505,7 @@ $text['button-back']['ja-jp'] = "戻る";
 $text['button-back']['ko-kr'] = "뒤쪽에";
 
 $text['confirm-delete']['en-us'] = "Do you really want to delete this?";
+$text['confirm-delete']['vi-vn'] = 'Bạn có chắc muốn xóa mục này không?';
 $text['confirm-delete']['en-gb'] = "Do you really want to delete this?";
 $text['confirm-delete']['ar-eg'] = "هل تريد حقا حذف هذا؟";
 $text['confirm-delete']['de-at'] = "Möchten Sie dieses wirklich löschen?";
@@ -514,6 +533,7 @@ $text['confirm-delete']['ja-jp'] = "本当にこれを削除してもよろし�
 $text['confirm-delete']['ko-kr'] = "정말 삭제하시겠습니까?";
 
 $text['message-add']['en-us'] = "Add Completed";
+$text['message-add']['vi-vn'] = 'Thêm hoàn tất';
 $text['message-add']['en-gb'] = "Add Completed";
 $text['message-add']['ar-eg'] = "اكتمل الإضافة";
 $text['message-add']['de-at'] = "Erfolgreich hinzugefügt";
@@ -541,6 +561,7 @@ $text['message-add']['ja-jp'] = "追加完了";
 $text['message-add']['ko-kr'] = "추가완료";
 
 $text['message-update']['en-us'] = "Update Completed";
+$text['message-update']['vi-vn'] = 'Cập nhật hoàn tất';
 $text['message-update']['en-gb'] = "Update Completed";
 $text['message-update']['ar-eg'] = "تحديث الانتهاء";
 $text['message-update']['de-at'] = "Aktualisierung durchgeführt";
@@ -568,6 +589,7 @@ $text['message-update']['ja-jp'] = "アップデートが完了しました";
 $text['message-update']['ko-kr'] = "업데이트 완료";
 
 $text['message-delete']['en-us'] = "Delete Completed";
+$text['message-delete']['vi-vn'] = 'Xóa hoàn tất';
 $text['message-delete']['en-gb'] = "Delete Completed";
 $text['message-delete']['ar-eg'] = "اكتمل الحذف";
 $text['message-delete']['de-at'] = "Erfolgreich gelöscht";
@@ -595,6 +617,7 @@ $text['message-delete']['ja-jp'] = "削除完了";
 $text['message-delete']['ko-kr'] = "삭제 완료";
 
 $text['message-required']['en-us'] = "Please provide: ";
+$text['message-required']['vi-vn'] = 'Vui lòng cung cấp: ';
 $text['message-required']['en-gb'] = "Please provide: ";
 $text['message-required']['ar-eg'] = "يرجى تقديم ما يلي: ";
 $text['message-required']['de-at'] = "Bitte geben Sie folgendes an: ";

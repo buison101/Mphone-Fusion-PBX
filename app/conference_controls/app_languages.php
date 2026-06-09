@@ -1,6 +1,7 @@
 <?php
 
 $text['title-conference_controls']['en-us'] = "Conference Controls";
+$text['title-conference_controls']['vi-vn'] = 'Điều khiển hội nghị';
 $text['title-conference_controls']['en-gb'] = "Conference Controls";
 $text['title-conference_controls']['ar-eg'] = "ضوابط المؤتمر";
 $text['title-conference_controls']['de-at'] = "Konferenzsteuerung";
@@ -27,6 +28,7 @@ $text['title-conference_controls']['ja-jp'] = "会議コントロール";
 $text['title-conference_controls']['ko-kr'] = "회의 컨트롤";
 
 $text['title-conference_control']['en-us'] = "Conference Control";
+$text['title-conference_control']['vi-vn'] = 'Điều khiển hội nghị';
 $text['title-conference_control']['en-gb'] = "Conference Control";
 $text['title-conference_control']['ar-eg'] = "التحكم بالمؤتمر";
 $text['title-conference_control']['de-at'] = "Konferenzsteuerung";
@@ -53,6 +55,7 @@ $text['title-conference_control']['ja-jp'] = "会議制御";
 $text['title-conference_control']['ko-kr'] = "회의 제어";
 
 $text['description-conference_controls']['en-us'] = "Call controls enable ability to assign digits to actions. They can be used to mute, unmute, or other actions during the conference call.";
+$text['description-conference_controls']['vi-vn'] = 'Điều khiển cuộc gọi cho phép gán chữ số cho hành động. Có thể dùng để tắt tiếng, bật tiếng hoặc thực hiện hành động khác trong cuộc gọi hội nghị.';
 $text['description-conference_controls']['en-gb'] = "Call controls enable ability to assign digits to actions. They can be used to mute, unmute, or other actions during the conference call.";
 $text['description-conference_controls']['ar-eg'] = "تتيح عناصر التحكم في المكالمات القدرة على تعيين أرقام للإجراءات. يمكن استخدامها لكتم الصوت أو إلغاء كتمه أو غير ذلك من الإجراءات أثناء المكالمة الجماعية.";
 $text['description-conference_controls']['de-at'] = "Funktionen zur Anrufsteuerung können Ziffern zugeordnet werden. Diese können verschiedene Aktionen wie Stummschaltung, usw. während einer Konferenz auslösen.";
@@ -79,6 +82,7 @@ $text['description-conference_controls']['ja-jp'] = "コール制御により、
 $text['description-conference_controls']['ko-kr'] = "통화 제어를 사용하면 동작에 숫자를 할당할 수 있습니다. 회의 통화 중 음소거, 음소거 해제 또는 기타 작업에 사용할 수 있습니다.";
 
 $text['label-control_name']['en-us'] = "Name";
+$text['label-control_name']['vi-vn'] = 'Tên';
 $text['label-control_name']['en-gb'] = "Name";
 $text['label-control_name']['ar-eg'] = "اسم";
 $text['label-control_name']['de-at'] = "Name";
@@ -105,6 +109,7 @@ $text['label-control_name']['ja-jp'] = "名前";
 $text['label-control_name']['ko-kr'] = "이름";
 
 $text['description-control_name']['en-us'] = "Enter the conference control name.";
+$text['description-control_name']['vi-vn'] = 'Nhập tên điều khiển hội nghị.';
 $text['description-control_name']['en-gb'] = "Enter the conference control name.";
 $text['description-control_name']['ar-eg'] = "أدخل اسم التحكم بالمؤتمر.";
 $text['description-control_name']['de-at'] = "Geben Sie den Namen des Steuerelements ein.";
@@ -131,6 +136,7 @@ $text['description-control_name']['ja-jp'] = "会議コントロール名を入�
 $text['description-control_name']['ko-kr'] = "회의 제어 이름을 입력합니다.";
 
 $text['label-control_enabled']['en-us'] = "Enabled";
+$text['label-control_enabled']['vi-vn'] = 'Đã bật';
 $text['label-control_enabled']['en-gb'] = "Enabled";
 $text['label-control_enabled']['ar-eg'] = "ممكن";
 $text['label-control_enabled']['de-at'] = "Aktiviert";
@@ -157,6 +163,7 @@ $text['label-control_enabled']['ja-jp'] = "有効";
 $text['label-control_enabled']['ko-kr'] = "사용";
 
 $text['description-control_enabled']['en-us'] = "Set the status of the control.";
+$text['description-control_enabled']['vi-vn'] = 'Đặt trạng thái của điều khiển.';
 $text['description-control_enabled']['en-gb'] = "Set the status of the control.";
 $text['description-control_enabled']['ar-eg'] = "اضبط حالة عنصر التحكم.";
 $text['description-control_enabled']['de-at'] = "Setzen Sie den Status des Steuerelements";
@@ -183,6 +190,7 @@ $text['description-control_enabled']['ja-jp'] = "コントロールのステー�
 $text['description-control_enabled']['ko-kr'] = "컨트롤의 상태를 설정합니다.";
 
 $text['label-control_description']['en-us'] = "Description";
+$text['label-control_description']['vi-vn'] = 'Mô tả';
 $text['label-control_description']['en-gb'] = "Description";
 $text['label-control_description']['ar-eg'] = "وصف";
 $text['label-control_description']['de-at'] = "Beschreibung";
@@ -209,6 +217,7 @@ $text['label-control_description']['ja-jp'] = "説明";
 $text['label-control_description']['ko-kr'] = "설명";
 
 $text['description-control_description']['en-us'] = "Enter the description.";
+$text['description-control_description']['vi-vn'] = 'Nhập mô tả.';
 $text['description-control_description']['en-gb'] = "Enter the description.";
 $text['description-control_description']['ar-eg'] = "أدخل الوصف.";
 $text['description-control_description']['de-at'] = "Geben Sie eine Beschreibung ein.";
@@ -235,6 +244,7 @@ $text['description-control_description']['ja-jp'] = "説明を入力します。
 $text['description-control_description']['ko-kr'] = "설명을 입력합니다.";
 
 $text['message-required']['en-us'] = "Please provide: ";
+$text['message-required']['vi-vn'] = 'Vui lòng cung cấp: ';
 $text['message-required']['en-gb'] = "Please provide: ";
 $text['message-required']['ar-eg'] = "يرجى تقديم:";
 $text['message-required']['de-at'] = "Bitte geben Sie folgendes an:";
@@ -261,6 +271,7 @@ $text['message-required']['ja-jp'] = "どうか提供してください：";
 $text['message-required']['ko-kr'] = "제공 부탁드립니다:";
 
 $text['title-conference_control_details']['en-us'] = "Controls";
+$text['title-conference_control_details']['vi-vn'] = 'Điều khiển';
 $text['title-conference_control_details']['en-gb'] = "Controls";
 $text['title-conference_control_details']['ar-eg'] = "בקרות";
 $text['title-conference_control_details']['de-at'] = "Steuerelemente";
@@ -287,6 +298,7 @@ $text['title-conference_control_details']['ja-jp'] = "コントロール";
 $text['title-conference_control_details']['ko-kr'] = "통제 수단";
 
 $text['title-conference_control_detail']['en-us'] = "Control";
+$text['title-conference_control_detail']['vi-vn'] = 'Điều khiển';
 $text['title-conference_control_detail']['en-gb'] = "Control";
 $text['title-conference_control_detail']['ar-eg'] = "يتحكم";
 $text['title-conference_control_detail']['de-at'] = "Steuern";
@@ -313,6 +325,7 @@ $text['title-conference_control_detail']['ja-jp'] = "コントロール";
 $text['title-conference_control_detail']['ko-kr'] = "제어";
 
 $text['title_description-conference_control_detail']['en-us'] = "Call controls enable ability to assign digits to actions. They can be used to mute, unmute, or other actions during the conference call.";
+$text['title_description-conference_control_detail']['vi-vn'] = 'Điều khiển cuộc gọi cho phép gán chữ số cho hành động. Có thể dùng để tắt tiếng, bật tiếng hoặc thực hiện hành động khác trong cuộc gọi hội nghị.';
 $text['title_description-conference_control_detail']['en-gb'] = "Call controls enable ability to assign digits to actions. They can be used to mute, unmute, or other actions during the conference call.";
 $text['title_description-conference_control_detail']['ar-eg'] = "تتيح عناصر التحكم في المكالمات القدرة على تعيين أرقام للإجراءات. يمكن استخدامها لكتم الصوت أو إلغاء كتمه أو غير ذلك من الإجراءات أثناء المكالمة الجماعية.";
 $text['title_description-conference_control_detail']['de-at'] = "Anrufsteuerung anhand von zugeordneten Ziffern. Diese können verschiedene Aktionen wie Stummschaltung, usw. während einer Konferenz auslösen.";
@@ -339,6 +352,7 @@ $text['title_description-conference_control_detail']['ja-jp'] = "コール制御
 $text['title_description-conference_control_detail']['ko-kr'] = "통화 제어를 사용하면 동작에 숫자를 할당할 수 있습니다. 회의 통화 중 음소거, 음소거 해제 또는 기타 작업에 사용할 수 있습니다.";
 
 $text['label-control_digits']['en-us'] = "Digits";
+$text['label-control_digits']['vi-vn'] = 'Chữ số';
 $text['label-control_digits']['en-gb'] = "Digits";
 $text['label-control_digits']['ar-eg'] = "أرقام";
 $text['label-control_digits']['de-at'] = "Ziffern";
@@ -365,6 +379,7 @@ $text['label-control_digits']['ja-jp'] = "数字";
 $text['label-control_digits']['ko-kr'] = "숫자";
 
 $text['description-control_digits']['en-us'] = "Enter the digits.";
+$text['description-control_digits']['vi-vn'] = 'Nhập chữ số.';
 $text['description-control_digits']['en-gb'] = "Enter the digits.";
 $text['description-control_digits']['ar-eg'] = "أدخل الأرقام.";
 $text['description-control_digits']['de-at'] = "Geben Sie die Ziffern ein.";
@@ -391,6 +406,7 @@ $text['description-control_digits']['ja-jp'] = "数字を入力します。";
 $text['description-control_digits']['ko-kr'] = "숫자를 입력합니다.";
 
 $text['label-control_action']['en-us'] = "Action";
+$text['label-control_action']['vi-vn'] = 'Thao tác';
 $text['label-control_action']['en-gb'] = "Action";
 $text['label-control_action']['ar-eg'] = "فعل";
 $text['label-control_action']['de-at'] = "Aktion";
@@ -417,6 +433,7 @@ $text['label-control_action']['ja-jp'] = "アクション";
 $text['label-control_action']['ko-kr'] = "행동";
 
 $text['description-control_action']['en-us'] = "Enter the action.";
+$text['description-control_action']['vi-vn'] = 'Nhập hành động.';
 $text['description-control_action']['en-gb'] = "Enter the action.";
 $text['description-control_action']['ar-eg'] = "أدخل العمل.";
 $text['description-control_action']['de-at'] = "Geben Sie die Aktion an.";
@@ -443,6 +460,7 @@ $text['description-control_action']['ja-jp'] = "アクションを入力しま�
 $text['description-control_action']['ko-kr'] = "동작을 입력합니다.";
 
 $text['label-control_data']['en-us'] = "Data";
+$text['label-control_data']['vi-vn'] = 'Dữ liệu';
 $text['label-control_data']['en-gb'] = "Data";
 $text['label-control_data']['ar-eg'] = "بيانات";
 $text['label-control_data']['de-at'] = "Daten";
@@ -469,6 +487,7 @@ $text['label-control_data']['ja-jp'] = "データ";
 $text['label-control_data']['ko-kr'] = "데이터";
 
 $text['description-control_data']['en-us'] = "Enter the data.";
+$text['description-control_data']['vi-vn'] = 'Nhập dữ liệu.';
 $text['description-control_data']['en-gb'] = "Enter the data.";
 $text['description-control_data']['ar-eg'] = "أدخل البيانات.";
 $text['description-control_data']['de-at'] = "Geben Sie die Daten ein.";

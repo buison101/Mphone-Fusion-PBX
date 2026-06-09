@@ -1,6 +1,7 @@
 <?php
 
 $text['title-default_settings']['en-us'] = "Default Settings";
+$text['title-default_settings']['vi-vn'] = "Cài đặt mặc định";
 $text['title-default_settings']['en-gb'] = "Default Settings";
 $text['title-default_settings']['ar-eg'] = "الإعدادات الافتراضية";
 $text['title-default_settings']['de-at'] = "Standardeinstellungen";
@@ -28,6 +29,7 @@ $text['title-default_settings']['ja-jp'] = "デフォルトの設定";
 $text['title-default_settings']['ko-kr'] = "기본 설정";
 
 $text['title-default_setting-edit']['en-us'] = "Default Setting";
+$text['title-default_setting-edit']['vi-vn'] = "Cài đặt mặc định";
 $text['title-default_setting-edit']['en-gb'] = "Default Setting";
 $text['title-default_setting-edit']['ar-eg'] = "الإعدادات الإفتراضية";
 $text['title-default_setting-edit']['de-at'] = "Standardeinstellungen";
@@ -55,6 +57,7 @@ $text['title-default_setting-edit']['ja-jp'] = "デフォルト設定";
 $text['title-default_setting-edit']['ko-kr'] = "기본 설정";
 
 $text['title-default_setting-add']['en-us'] = "Default Setting Add";
+$text['title-default_setting-add']['vi-vn'] = "Thêm cài đặt mặc định";
 $text['title-default_setting-add']['en-gb'] = "Default Setting Add";
 $text['title-default_setting-add']['ar-eg'] = "إضافة الإعداد الافتراضي";
 $text['title-default_setting-add']['de-at'] = "Standardeinstellungen";
@@ -82,6 +85,7 @@ $text['title-default_setting-add']['ja-jp'] = "デフォルト設定の追加";
 $text['title-default_setting-add']['ko-kr'] = "기본 설정 추가";
 
 $text['option-voicemail_file_listen']['en-us'] = "Listen Link (Login Required)";
+$text['option-voicemail_file_listen']['vi-vn'] = "Liên kết nghe (yêu cầu đăng nhập)";
 $text['option-voicemail_file_listen']['en-gb'] = "Listen Link (Login Required)";
 $text['option-voicemail_file_listen']['ar-eg'] = "رابط الاستماع (تسجيل الدخول مطلوب)";
 $text['option-voicemail_file_listen']['de-at'] = "Link zur Nachricht (Login erforderlich)";
@@ -109,6 +113,7 @@ $text['option-voicemail_file_listen']['ja-jp'] = "リッスンリンク (ログ�
 $text['option-voicemail_file_listen']['ko-kr'] = "듣기 링크(로그인 필요)";
 
 $text['option-voicemail_file_link']['en-us'] = "Download Link (No Login Required)";
+$text['option-voicemail_file_link']['vi-vn'] = "Liên kết tải xuống (không cần đăng nhập)";
 $text['option-voicemail_file_link']['en-gb'] = "Download Link (No Login Required)";
 $text['option-voicemail_file_link']['ar-eg'] = "رابط التنزيل (لا يلزم تسجيل الدخول)";
 $text['option-voicemail_file_link']['de-at'] = "Link zur Nachricht (kein Login erforderlich)";
@@ -136,6 +141,7 @@ $text['option-voicemail_file_link']['ja-jp'] = "ダウンロードリンク (ロ
 $text['option-voicemail_file_link']['ko-kr'] = "다운로드 링크(로그인 필요 없음)";
 
 $text['option-voicemail_file_attach']['en-us'] = "Audio File Attachment";
+$text['option-voicemail_file_attach']['vi-vn'] = "File âm thanh đính kèm";
 $text['option-voicemail_file_attach']['en-gb'] = "Audio File Attachment";
 $text['option-voicemail_file_attach']['ar-eg'] = "مرفق ملف صوتي";
 $text['option-voicemail_file_attach']['de-at'] = "Audiodatei als Anhang";
@@ -163,6 +169,7 @@ $text['option-voicemail_file_attach']['ja-jp'] = "音声ファイルの添付";
 $text['option-voicemail_file_attach']['ko-kr'] = "오디오 파일 첨부";
 
 $text['option-button_icons_auto']['en-us'] = "Automatic";
+$text['option-button_icons_auto']['vi-vn'] = "Tự động";
 $text['option-button_icons_auto']['en-gb'] = "Automatic";
 $text['option-button_icons_auto']['ar-eg'] = "تلقائي";
 $text['option-button_icons_auto']['de-at'] = "Automatisch";
@@ -190,6 +197,7 @@ $text['option-button_icons_auto']['ja-jp'] = "オートマチック";
 $text['option-button_icons_auto']['ko-kr'] = "자동적 인";
 
 $text['option-button_icons_only']['en-us'] = "Only";
+$text['option-button_icons_only']['vi-vn'] = "Chỉ";
 $text['option-button_icons_only']['en-gb'] = "Only";
 $text['option-button_icons_only']['ar-eg'] = "فقط";
 $text['option-button_icons_only']['de-at'] = "Nur";
@@ -217,6 +225,7 @@ $text['option-button_icons_only']['ja-jp'] = "それだけ";
 $text['option-button_icons_only']['ko-kr'] = "오직";
 
 $text['option-button_icons_always']['en-us'] = "Always";
+$text['option-button_icons_always']['vi-vn'] = "Luôn luôn";
 $text['option-button_icons_always']['en-gb'] = "Always";
 $text['option-button_icons_always']['ar-eg'] = "دائماً";
 $text['option-button_icons_always']['de-at'] = "Stets";
@@ -244,6 +253,7 @@ $text['option-button_icons_always']['ja-jp'] = "いつも";
 $text['option-button_icons_always']['ko-kr'] = "언제나";
 
 $text['option-button_icons_never']['en-us'] = "Never";
+$text['option-button_icons_never']['vi-vn'] = "Không bao giờ";
 $text['option-button_icons_never']['en-gb'] = "Never";
 $text['option-button_icons_never']['ar-eg'] = "أبداً";
 $text['option-button_icons_never']['de-at'] = "Niemals";
@@ -271,6 +281,7 @@ $text['option-button_icons_never']['ja-jp'] = "一度もない";
 $text['option-button_icons_never']['ko-kr'] = "절대";
 
 $text['option-select_box']['en-us'] = "Select Box";
+$text['option-select_box']['vi-vn'] = "Hộp chọn";
 $text['option-select_box']['en-gb'] = "Select Box";
 $text['option-select_box']['ar-eg'] = "حدد المربع";
 $text['option-select_box']['de-at'] = "Auswahlfeld";
@@ -298,6 +309,7 @@ $text['option-select_box']['ja-jp'] = "選択ボックス";
 $text['option-select_box']['ko-kr'] = "선택 상자";
 
 $text['option-switch_round']['en-us'] = "Round Switch";
+$text['option-switch_round']['vi-vn'] = "Công tắc bo tròn";
 $text['option-switch_round']['en-gb'] = "Round Switch";
 $text['option-switch_round']['ar-eg'] = "مفتاح دائري";
 $text['option-switch_round']['de-at'] = "Runder Schalter";
@@ -326,6 +338,7 @@ $text['option-switch_round']['ja-jp'] = "丸型スイッチ";
 $text['option-switch_round']['ko-kr'] = "라운드 스위치";
 
 $text['option-switch_square']['en-us'] = "Square Switch";
+$text['option-switch_square']['vi-vn'] = "Công tắc vuông";
 $text['option-switch_square']['en-gb'] = "Square Switch";
 $text['option-switch_square']['ar-eg'] = "تبديل مربع";
 $text['option-switch_square']['de-at'] = "Quadratischer Schalter";
@@ -354,6 +367,7 @@ $text['option-switch_square']['ja-jp'] = "角型スイッチ";
 $text['option-switch_square']['ko-kr'] = "사각 스위치";
 
 $text['message-toggled']['en-us'] = "Toggle Completed";
+$text['message-toggled']['vi-vn'] = "Chuyển trạng thái hoàn tất";
 $text['message-toggled']['en-gb'] = "Toggle Completed";
 $text['message-toggled']['ar-eg'] = "اكتمل التبديل";
 $text['message-toggled']['de-at'] = "Umschalten abgeschlossen";
@@ -381,6 +395,7 @@ $text['message-toggled']['ja-jp'] = "切り替えが完了しました";
 $text['message-toggled']['ko-kr'] = "토글 완료됨";
 
 $text['message-settings_reloaded']['en-us'] = "Settings Reloaded";
+$text['message-settings_reloaded']['vi-vn'] = "Đã tải lại cài đặt";
 $text['message-settings_reloaded']['en-gb'] = "Settings Reloaded";
 $text['message-settings_reloaded']['ar-eg'] = "إعادة تحميل الإعدادات";
 $text['message-settings_reloaded']['de-at'] = "Einstellungen neu geladen";
@@ -408,6 +423,7 @@ $text['message-settings_reloaded']['ja-jp'] = "設定が再ロードされまし
 $text['message-settings_reloaded']['ko-kr'] = "설정이 새로고침됨";
 
 $text['message-delete_failed']['en-us'] = "No Settings Checked";
+$text['message-delete_failed']['vi-vn'] = "Chưa chọn cài đặt nào";
 $text['message-delete_failed']['en-gb'] = "No Settings Checked";
 $text['message-delete_failed']['ar-eg'] = "لم يتم التحقق من الإعدادات";
 $text['message-delete_failed']['de-at'] = "Löschen fehlgeschlagen";
@@ -435,6 +451,7 @@ $text['message-delete_failed']['ja-jp'] = "設定はチェックされていま�
 $text['message-delete_failed']['ko-kr'] = "선택한 설정 없음";
 
 $text['message-copy_failed']['en-us'] = "No Settings Checked or Invalid Domain";
+$text['message-copy_failed']['vi-vn'] = "Chưa chọn cài đặt nào hoặc tên miền không hợp lệ";
 $text['message-copy_failed']['en-gb'] = "No Settings Checked or Invalid Domain";
 $text['message-copy_failed']['ar-eg'] = "لا توجد إعدادات محددة أو مجال غير صالح";
 $text['message-copy_failed']['de-at'] = "Keine Einstellungen ausgewählt oder ungültige Domain";
@@ -462,6 +479,7 @@ $text['message-copy_failed']['ja-jp'] = "設定がチェックされていない
 $text['message-copy_failed']['ko-kr'] = "선택된 설정이 없거나 유효하지 않은 도메인";
 
 $text['label-web_fonts']['en-us'] = "Web Fonts";
+$text['label-web_fonts']['vi-vn'] = "Font web";
 $text['label-web_fonts']['en-gb'] = "Web Fonts";
 $text['label-web_fonts']['ar-eg'] = "خطوط الويب";
 $text['label-web_fonts']['de-at'] = "Web-Schriftarten";
@@ -489,6 +507,7 @@ $text['label-web_fonts']['ja-jp'] = "ウェブフォント";
 $text['label-web_fonts']['ko-kr'] = "웹폰트";
 
 $text['label-top']['en-us'] = "Top";
+$text['label-top']['vi-vn'] = "Trên";
 $text['label-top']['en-gb'] = "Top";
 $text['label-top']['ar-eg'] = "قمة";
 $text['label-top']['de-at'] = "Oben";
@@ -516,6 +535,7 @@ $text['label-top']['ja-jp'] = "上";
 $text['label-top']['ko-kr'] = "맨 위";
 
 $text['label-text']['en-us'] = "Text";
+$text['label-text']['vi-vn'] = "Văn bản";
 $text['label-text']['en-gb'] = "Text";
 $text['label-text']['ar-eg'] = "نص";
 $text['label-text']['de-at'] = "Text";
@@ -543,6 +563,7 @@ $text['label-text']['ja-jp'] = "文章";
 $text['label-text']['ko-kr'] = "텍스트";
 
 $text['label-superfine']['en-us'] = "Superfine";
+$text['label-superfine']['vi-vn'] = "Rất mịn";
 $text['label-superfine']['en-gb'] = "Superfine";
 $text['label-superfine']['ar-eg'] = "رقيق";
 $text['label-superfine']['de-at'] = "Superfein";
@@ -570,6 +591,7 @@ $text['label-superfine']['ja-jp'] = "スーパーファイン";
 $text['label-superfine']['ko-kr'] = "지나치게 섬세한";
 
 $text['label-static']['en-us'] = "Static";
+$text['label-static']['vi-vn'] = "Tĩnh";
 $text['label-static']['en-gb'] = "Static";
 $text['label-static']['ar-eg'] = "ثابتة";
 $text['label-static']['de-at'] = "Statisch";
@@ -597,6 +619,7 @@ $text['label-static']['ja-jp'] = "スタティック";
 $text['label-static']['ko-kr'] = "공전";
 
 $text['label-reference']['en-us'] = "See";
+$text['label-reference']['vi-vn'] = "Xem";
 $text['label-reference']['en-gb'] = "See";
 $text['label-reference']['ar-eg'] = "يرى";
 $text['label-reference']['de-at'] = "Referenz";
@@ -624,6 +647,7 @@ $text['label-reference']['ja-jp'] = "見る";
 $text['label-reference']['ko-kr'] = "보다";
 
 $text['label-right']['en-us'] = "Right";
+$text['label-right']['vi-vn'] = "Phải";
 $text['label-right']['en-gb'] = "Right";
 $text['label-right']['ar-eg'] = "يمين";
 $text['label-right']['de-at'] = "Rechts";
@@ -651,6 +675,7 @@ $text['label-right']['ja-jp'] = "右";
 $text['label-right']['ko-kr'] = "오른쪽";
 
 $text['label-other']['en-us'] = "Other";
+$text['label-other']['vi-vn'] = "Khác";
 $text['label-other']['en-gb'] = "Other";
 $text['label-other']['ar-eg'] = "آخر";
 $text['label-other']['de-at'] = "Andere";
@@ -678,6 +703,7 @@ $text['label-other']['ja-jp'] = "他の";
 $text['label-other']['ko-kr'] = "다른";
 
 $text['label-normal']['en-us'] = "Normal";
+$text['label-normal']['vi-vn'] = "Bình thường";
 $text['label-normal']['en-gb'] = "Normal";
 $text['label-normal']['ar-eg'] = "طبيعي";
 $text['label-normal']['de-at'] = "Normal";
@@ -705,6 +731,7 @@ $text['label-normal']['ja-jp'] = "普通";
 $text['label-normal']['ko-kr'] = "정상";
 
 $text['label-none']['en-us'] = "None";
+$text['label-none']['vi-vn'] = "Không có";
 $text['label-none']['en-gb'] = "None";
 $text['label-none']['ar-eg'] = "لا أحد";
 $text['label-none']['de-at'] = "Keiner";
@@ -732,6 +759,7 @@ $text['label-none']['ja-jp'] = "なし";
 $text['label-none']['ko-kr'] = "없음";
 
 $text['label-left']['en-us'] = "Left";
+$text['label-left']['vi-vn'] = "Trái";
 $text['label-left']['en-gb'] = "Left";
 $text['label-left']['ar-eg'] = "غادر";
 $text['label-left']['de-at'] = "Links";
@@ -759,6 +787,7 @@ $text['label-left']['ja-jp'] = "左";
 $text['label-left']['ko-kr'] = "왼쪽";
 
 $text['label-inline']['en-us'] = "Inline";
+$text['label-inline']['vi-vn'] = "Nội tuyến";
 $text['label-inline']['en-gb'] = "Inline";
 $text['label-inline']['ar-eg'] = "في النسق";
 $text['label-inline']['de-at'] = "Im Einklang";
@@ -786,6 +815,7 @@ $text['label-inline']['ja-jp'] = "列をなして";
 $text['label-inline']['ko-kr'] = "인라인";
 
 $text['label-image']['en-us'] = "Image";
+$text['label-image']['vi-vn'] = "Hình ảnh";
 $text['label-image']['en-gb'] = "Image";
 $text['label-image']['ar-eg'] = "صورة";
 $text['label-image']['de-at'] = "Image";
@@ -813,6 +843,7 @@ $text['label-image']['ja-jp'] = "画像";
 $text['label-image']['ko-kr'] = "영상";
 
 $text['label-fixed']['en-us'] = "Fixed";
+$text['label-fixed']['vi-vn'] = "Cố định";
 $text['label-fixed']['en-gb'] = "Fixed";
 $text['label-fixed']['ar-eg'] = "مُثَبَّت";
 $text['label-fixed']['de-at'] = "Fest";
@@ -840,6 +871,7 @@ $text['label-fixed']['ja-jp'] = "修理済み";
 $text['label-fixed']['ko-kr'] = "결정된";
 
 $text['label-side']['en-us'] = "Side";
+$text['label-side']['vi-vn'] = "Bên cạnh";
 $text['label-side']['en-gb'] = "Side";
 $text['label-side']['ar-eg'] = "جانب";
 $text['label-side']['de-at'] = "Seite";
@@ -867,6 +899,7 @@ $text['label-side']['ja-jp'] = "側";
 $text['label-side']['ko-kr'] = "옆";
 
 $text['label-fine']['en-us'] = "Fine";
+$text['label-fine']['vi-vn'] = "Mịn";
 $text['label-fine']['en-gb'] = "Fine";
 $text['label-fine']['ar-eg'] = "بخير";
 $text['label-fine']['de-at'] = "Fein";
@@ -894,6 +927,7 @@ $text['label-fine']['ja-jp'] = "大丈夫";
 $text['label-fine']['ko-kr'] = "괜찮은";
 
 $text['label-center']['en-us'] = "Center";
+$text['label-center']['vi-vn'] = "Giữa";
 $text['label-center']['en-gb'] = "Center";
 $text['label-center']['ar-eg'] = "مركز";
 $text['label-center']['de-at'] = "Mitte";
@@ -921,6 +955,7 @@ $text['label-center']['ja-jp'] = "センター";
 $text['label-center']['ko-kr'] = "센터";
 
 $text['label-bottom']['en-us'] = "Bottom";
+$text['label-bottom']['vi-vn'] = "Dưới";
 $text['label-bottom']['en-gb'] = "Bottom";
 $text['label-bottom']['ar-eg'] = "قاع";
 $text['label-bottom']['de-at'] = "Unten";
@@ -948,6 +983,7 @@ $text['label-bottom']['ja-jp'] = "下";
 $text['label-bottom']['ko-kr'] = "맨 아래";
 
 $text['label-24-hour']['en-us'] = "24-Hour";
+$text['label-24-hour']['vi-vn'] = "24 giờ";
 $text['label-24-hour']['en-gb'] = "24-Hour";
 $text['label-24-hour']['ar-eg'] = "24 ساعة";
 $text['label-24-hour']['de-at'] = "24 Stunden";
@@ -975,6 +1011,7 @@ $text['label-24-hour']['ja-jp'] = "24時間";
 $text['label-24-hour']['ko-kr'] = "24시간";
 
 $text['label-12-hour']['en-us'] = "12-Hour";
+$text['label-12-hour']['vi-vn'] = "12 giờ";
 $text['label-12-hour']['en-gb'] = "12-Hour";
 $text['label-12-hour']['ar-eg'] = "12 ساعة";
 $text['label-12-hour']['de-at'] = "12 Stunden";
@@ -1002,6 +1039,7 @@ $text['label-12-hour']['ja-jp'] = "12時間";
 $text['label-12-hour']['ko-kr'] = "12시간";
 
 $text['label-hours']['en-us'] = "Hour(s)";
+$text['label-hours']['vi-vn'] = "Giờ";
 $text['label-hours']['en-gb'] = "Hour(s)";
 $text['label-hours']['ar-eg'] = "ساعات)";
 $text['label-hours']['de-at'] = "Geruch";
@@ -1029,6 +1067,7 @@ $text['label-hours']['ja-jp'] = "時間";
 $text['label-hours']['ko-kr'] = "시간";
 
 $text['label-days']['en-us'] = "Day(s)";
+$text['label-days']['vi-vn'] = "Ngày";
 $text['label-days']['en-gb'] = "Day(s)";
 $text['label-days']['ar-eg'] = "اليوم (اليوم)";
 $text['label-days']['de-at'] = "Tag(e)";
@@ -1056,6 +1095,7 @@ $text['label-days']['ja-jp'] = "日(日)";
 $text['label-days']['ko-kr'] = "일()";
 
 $text['label-messages']['en-us'] = "Message(s)";
+$text['label-messages']['vi-vn'] = "Tin nhắn";
 $text['label-messages']['en-gb'] = "Message(s)";
 $text['label-messages']['ar-eg'] = "رسائل";
 $text['label-messages']['de-at'] = "Nachricht(en)";
@@ -1083,6 +1123,7 @@ $text['label-messages']['ja-jp'] = "メッセージ";
 $text['label-messages']['ko-kr'] = "메시지";
 
 $text['label-image_text']['en-us'] = "Image & Text";
+$text['label-image_text']['vi-vn'] = "Hình ảnh & văn bản";
 $text['label-image_text']['en-gb'] = "Image & Text";
 $text['label-image_text']['ar-eg'] = "الصورة والنص";
 $text['label-image_text']['de-at'] = "Bild und Text";
@@ -1110,6 +1151,7 @@ $text['label-image_text']['ja-jp'] = "画像とテキスト";
 $text['label-image_text']['ko-kr'] = "이미지 및 텍스트";
 
 $text['label-file']['en-us'] = "File";
+$text['label-file']['vi-vn'] = "File";
 $text['label-file']['en-gb'] = "File";
 $text['label-file']['ar-eg'] = "ملف";
 $text['label-file']['de-at'] = "Dateien";
@@ -1137,6 +1179,7 @@ $text['label-file']['ja-jp'] = "ファイル";
 $text['label-file']['ko-kr'] = "파일";
 
 $text['label-base64']['en-us'] = "Base64";
+$text['label-base64']['vi-vn'] = "Base64";
 $text['label-base64']['en-gb'] = "Base64";
 $text['label-base64']['ar-eg'] = "قاعدة 64";
 $text['label-base64']['de-at'] = "Basis 64";
@@ -1164,6 +1207,7 @@ $text['label-base64']['ja-jp'] = "64 進数";
 $text['label-base64']['ko-kr'] = "기본 64";
 
 $text['label-dynamic']['en-us'] = "Dynamic";
+$text['label-dynamic']['vi-vn'] = "Động";
 $text['label-dynamic']['en-gb'] = "Dynamic";
 $text['label-dynamic']['ar-eg'] = "متحرك";
 $text['label-dynamic']['de-at'] = "Dynamisch";
@@ -1191,6 +1235,7 @@ $text['label-dynamic']['ja-jp'] = "ダイナミック";
 $text['label-dynamic']['ko-kr'] = "동적";
 
 $text['label-single']['en-us'] = "Single";
+$text['label-single']['vi-vn'] = "Đơn";
 $text['label-single']['en-gb'] = "Single";
 $text['label-single']['ar-eg'] = "أعزب";
 $text['label-single']['de-at'] = "Einzel";
@@ -1218,6 +1263,7 @@ $text['label-single']['ja-jp'] = "シングル";
 $text['label-single']['ko-kr'] = "하나의";
 
 $text['label-multiple']['en-us'] = "Multiple";
+$text['label-multiple']['vi-vn'] = "Nhiều";
 $text['label-multiple']['en-gb'] = "Multiple";
 $text['label-multiple']['ar-eg'] = "عديد";
 $text['label-multiple']['de-at'] = "Mehrere";
@@ -1245,6 +1291,7 @@ $text['label-multiple']['ja-jp'] = "多数";
 $text['label-multiple']['ko-kr'] = "다수의";
 
 $text['header-default_settings']['en-us'] = "Default Settings";
+$text['header-default_settings']['vi-vn'] = "Cài đặt mặc định";
 $text['header-default_settings']['en-gb'] = "Default Settings";
 $text['header-default_settings']['ar-eg'] = "الإعدادات الافتراضية";
 $text['header-default_settings']['de-at'] = "Standard Einstellungen";
@@ -1272,6 +1319,7 @@ $text['header-default_settings']['ja-jp'] = "デフォルトの設定";
 $text['header-default_settings']['ko-kr'] = "기본 설정";
 
 $text['header-default_setting-edit']['en-us'] = "Default Setting";
+$text['header-default_setting-edit']['vi-vn'] = "Cài đặt mặc định";
 $text['header-default_setting-edit']['en-gb'] = "Default Setting";
 $text['header-default_setting-edit']['ar-eg'] = "الإعدادات الإفتراضية";
 $text['header-default_setting-edit']['de-at'] = "Standard Einstellungen";
@@ -1299,6 +1347,7 @@ $text['header-default_setting-edit']['ja-jp'] = "デフォルト設定";
 $text['header-default_setting-edit']['ko-kr'] = "기본 설정";
 
 $text['header-default_setting-add']['en-us'] = "Default Setting Add";
+$text['header-default_setting-add']['vi-vn'] = "Thêm cài đặt mặc định";
 $text['header-default_setting-add']['en-gb'] = "Default Setting Add";
 $text['header-default_setting-add']['ar-eg'] = "إضافة الإعداد الافتراضي";
 $text['header-default_setting-add']['de-at'] = "Standard Einstellungen hinzufügen";
@@ -1326,6 +1375,7 @@ $text['header-default_setting-add']['ja-jp'] = "デフォルト設定の追加";
 $text['header-default_setting-add']['ko-kr'] = "기본 설정 추가";
 
 $text['description-order']['en-us'] = "Set the order (index) for this array element.";
+$text['description-order']['vi-vn'] = "Thiết lập thứ tự (chỉ mục) cho phần tử mảng này.";
 $text['description-order']['en-gb'] = "Set the order (index) for this array element.";
 $text['description-order']['ar-eg'] = "قم بتعيين الترتيب (الفهرس) لعنصر المصفوفة هذا.";
 $text['description-order']['de-at'] = "Wählen Sie die Reihenfolge (Index) für das Array Element.";
@@ -1353,6 +1403,7 @@ $text['description-order']['ja-jp'] = "この配列要素の順序 (インデッ
 $text['description-order']['ko-kr'] = "이 배열 요소의 순서(색인)를 설정합니다.";
 
 $text['description-enabled']['en-us'] = "Set the status of this default setting.";
+$text['description-enabled']['vi-vn'] = "Thiết lập trạng thái của cài đặt mặc định này.";
 $text['description-enabled']['en-gb'] = "Set the status of this default setting.";
 $text['description-enabled']['ar-eg'] = "حددي وضع هذا الوضع الافتراضي";
 $text['description-enabled']['de-at'] = "Setzen Sie den Status dieser Standardeinstellung.";
@@ -1380,6 +1431,7 @@ $text['description-enabled']['ja-jp'] = "このデフォルト設定のステー
 $text['description-enabled']['ko-kr'] = "이 기본 설정의 상태를 설정합니다.";
 
 $text['description-default_settings']['en-us'] = "Settings used for all domains.";
+$text['description-default_settings']['vi-vn'] = "Cài đặt dùng cho tất cả tên miền.";
 $text['description-default_settings']['en-gb'] = "Settings used for all domains.";
 $text['description-default_settings']['ar-eg'] = "الإعدادات المستخدمة لجميع المجالات.";
 $text['description-default_settings']['de-at'] = "Einstellungen für alle Domains.";
@@ -1407,6 +1459,7 @@ $text['description-default_settings']['ja-jp'] = "すべてのドメインに使
 $text['description-default_settings']['ko-kr'] = "모든 도메인에 사용되는 설정입니다.";
 
 $text['description-default_setting-edit']['en-us'] = "Settings used for all domains.";
+$text['description-default_setting-edit']['vi-vn'] = "Cài đặt dùng cho tất cả tên miền.";
 $text['description-default_setting-edit']['en-gb'] = "Settings used for all domains.";
 $text['description-default_setting-edit']['ar-eg'] = "الإعدادات المستخدمة لجميع المجالات.";
 $text['description-default_setting-edit']['de-at'] = "Einstellungen für alle Domains.";
@@ -1434,6 +1487,7 @@ $text['description-default_setting-edit']['ja-jp'] = "すべてのドメイン�
 $text['description-default_setting-edit']['ko-kr'] = "모든 도메인에 사용되는 설정입니다.";
 
 $text['description-default_setting-add']['en-us'] = "Settings used for all domains.";
+$text['description-default_setting-add']['vi-vn'] = "Cài đặt dùng cho tất cả tên miền.";
 $text['description-default_setting-add']['en-gb'] = "Settings used for all domains.";
 $text['description-default_setting-add']['ar-eg'] = "الإعدادات المستخدمة لجميع المجالات.";
 $text['description-default_setting-add']['de-at'] = "Einstellungen für alle Domains.";
@@ -1461,6 +1515,7 @@ $text['description-default_setting-add']['ja-jp'] = "すべてのドメインに
 $text['description-default_setting-add']['ko-kr'] = "모든 도메인에 사용되는 설정입니다.";
 
 $text['button-toggle']['en-us'] = "Toggle";
+$text['button-toggle']['vi-vn'] = "Chuyển trạng thái";
 $text['button-toggle']['en-gb'] = "Toggle";
 $text['button-toggle']['ar-eg'] = "تبديل";
 $text['button-toggle']['de-at'] = "Umschalten";
@@ -1488,6 +1543,7 @@ $text['button-toggle']['ja-jp'] = "トグル";
 $text['button-toggle']['ko-kr'] = "비녀장";
 
 $text['label-custom']['en-us'] = "Custom";
+$text['label-custom']['vi-vn'] = "Tùy chỉnh";
 $text['label-custom']['en-gb'] = "Custom";
 $text['label-custom']['ar-eg'] = "العرف";
 $text['label-custom']['de-at'] = "Zoll";
@@ -1514,6 +1570,7 @@ $text['label-custom']['ja-jp'] = "カスタム";
 $text['label-custom']['ko-kr'] = "관습";
 
 $text['label-hidden']['en-us'] = "Hidden";
+$text['label-hidden']['vi-vn'] = "Ẩn";
 $text['label-hidden']['en-gb'] = "Hidden";
 $text['label-hidden']['ar-eg'] = "مخفي";
 $text['label-hidden']['de-at'] = "Versteckt";
@@ -1540,6 +1597,7 @@ $text['label-hidden']['ja-jp'] = "隠し";
 $text['label-hidden']['ko-kr'] = "숨겨짐";
 
 $text['label-scroll']['en-us'] = "Scroll";
+$text['label-scroll']['vi-vn'] = "Cuộn";
 $text['label-scroll']['en-gb'] = "Scroll";
 $text['label-scroll']['ar-eg'] = "تمرير";
 $text['label-scroll']['de-at'] = "Scrollen";

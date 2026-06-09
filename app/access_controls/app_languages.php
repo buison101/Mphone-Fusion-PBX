@@ -1,6 +1,7 @@
 <?php
 
 $text['title-access_controls']['en-us'] = "Access Controls";
+$text['title-access_controls']['vi-vn'] = 'Kiểm soát truy cập';
 $text['title-access_controls']['en-gb'] = "Access Controls";
 $text['title-access_controls']['ar-eg'] = "عناصر التحكم في الوصول";
 $text['title-access_controls']['de-at'] = "Zugriffskontrolle";
@@ -28,6 +29,7 @@ $text['title-access_controls']['ja-jp'] = "アクセス制御";
 $text['title-access_controls']['ko-kr'] = "액세스 제어";
 
 $text['title-access_control_nodes']['en-us'] = "Nodes";
+$text['title-access_control_nodes']['vi-vn'] = 'Node';
 $text['title-access_control_nodes']['en-gb'] = "Nodes";
 $text['title-access_control_nodes']['ar-eg'] = "العقد";
 $text['title-access_control_nodes']['de-at'] = "Knoten";
@@ -55,6 +57,7 @@ $text['title-access_control_nodes']['ja-jp'] = "ノード";
 $text['title-access_control_nodes']['ko-kr'] = "노드";
 
 $text['title-access_control_node']['en-us'] = "Node";
+$text['title-access_control_node']['vi-vn'] = 'Node';
 $text['title-access_control_node']['en-gb'] = "Node";
 $text['title-access_control_node']['ar-eg'] = "العقدة";
 $text['title-access_control_node']['de-at'] = "Netzknoten";
@@ -82,6 +85,7 @@ $text['title-access_control_node']['ja-jp'] = "ノード";
 $text['title-access_control_node']['ko-kr'] = "마디";
 
 $text['title-access_control']['en-us'] = "Access Control";
+$text['title-access_control']['vi-vn'] = 'Kiểm soát truy cập';
 $text['title-access_control']['en-gb'] = "Access Control";
 $text['title-access_control']['ar-eg'] = "التحكم في الوصول";
 $text['title-access_control']['de-at'] = "Zugangskontrolle";
@@ -109,6 +113,7 @@ $text['title-access_control']['ja-jp'] = "アクセス制御";
 $text['title-access_control']['ko-kr'] = "액세스 제어";
 
 $text['title-access_control_export']['en-us'] = "Access Control Export";
+$text['title-access_control_export']['vi-vn'] = 'Xuất kiểm soát truy cập';
 $text['title-access_control_export']['en-gb'] = "Access Control Export";
 $text['title-access_control_export']['ar-eg'] = "تصدير التحكم في الوصول";
 $text['title-access_control_export']['de-at'] = "Export des Zugriffskontrolls";
@@ -136,6 +141,7 @@ $text['title-access_control_export']['ja-jp'] = "アクセス制御のエクス�
 $text['title-access_control_export']['ko-kr'] = "접근 제어 내보내기";
 
 $text['header-access_control_export']['en-us'] = "Access Control Export";
+$text['header-access_control_export']['vi-vn'] = 'Xuất kiểm soát truy cập';
 $text['header-access_control_export']['en-us'] = "Access Control Export";
 $text['header-access_control_export']['en-gb'] = "Access Control Export";
 $text['header-access_control_export']['ar-eg'] = "تصدير التحكم في الوصول";
@@ -164,6 +170,7 @@ $text['header-access_control_export']['ja-jp'] = "アクセス制御のエクス
 $text['header-access_control_export']['ko-kr'] = "접근 제어 내보내기";
 
 $text['label-node_type']['en-us'] = "Type";
+$text['label-node_type']['vi-vn'] = 'Loại';
 $text['label-node_type']['en-gb'] = "Type";
 $text['label-node_type']['ar-eg'] = "اكتب";
 $text['label-node_type']['de-at'] = "Art";
@@ -191,6 +198,7 @@ $text['label-node_type']['ja-jp'] = "タイプ";
 $text['label-node_type']['ko-kr'] = "유형";
 
 $text['label-node_domain']['en-us'] = "Domain";
+$text['label-node_domain']['vi-vn'] = 'Tên miền';
 $text['label-node_domain']['en-gb'] = "Domain";
 $text['label-node_domain']['ar-eg'] = "مجال";
 $text['label-node_domain']['de-at'] = "Domäne";
@@ -218,6 +226,7 @@ $text['label-node_domain']['ja-jp'] = "ドメイン";
 $text['label-node_domain']['ko-kr'] = "도메인";
 
 $text['label-node_description']['en-us'] = "Description";
+$text['label-node_description']['vi-vn'] = 'Mô tả';
 $text['label-node_description']['en-gb'] = "Description";
 $text['label-node_description']['ar-eg'] = "وصف";
 $text['label-node_description']['de-at'] = "Beschreibung";
@@ -245,6 +254,7 @@ $text['label-node_description']['ja-jp'] = "説明";
 $text['label-node_description']['ko-kr'] = "설명";
 
 $text['label-node_cidr']['en-us'] = "CIDR";
+$text['label-node_cidr']['vi-vn'] = 'CIDR';
 $text['label-node_cidr']['en-gb'] = "CIDR";
 $text['label-node_cidr']['ar-eg'] = "CIDR";
 $text['label-node_cidr']['de-at'] = "CIDR";
@@ -272,6 +282,7 @@ $text['label-node_cidr']['ja-jp'] = "CIDR";
 $text['label-node_cidr']['ko-kr'] = "CIDR";
 
 $text['label-deny']['en-us'] = "deny";
+$text['label-deny']['vi-vn'] = 'từ chối';
 $text['label-deny']['en-gb'] = "deny";
 $text['label-deny']['ar-eg'] = "تنكر";
 $text['label-deny']['de-at'] = "verbieten";
@@ -299,6 +310,7 @@ $text['label-deny']['ja-jp'] = "拒否";
 $text['label-deny']['ko-kr'] = "부인하다";
 
 $text['label-allow']['en-us'] = "allow";
+$text['label-allow']['vi-vn'] = 'cho phép';
 $text['label-allow']['en-gb'] = "allow";
 $text['label-allow']['ar-eg'] = "السماح";
 $text['label-allow']['de-at'] = "erlauben";
@@ -326,6 +338,7 @@ $text['label-allow']['ja-jp'] = "許可する";
 $text['label-allow']['ko-kr'] = "허용하다";
 
 $text['label-access_control_name']['en-us'] = "Name";
+$text['label-access_control_name']['vi-vn'] = 'Tên';
 $text['label-access_control_name']['en-gb'] = "Name";
 $text['label-access_control_name']['ar-eg'] = "اسم";
 $text['label-access_control_name']['de-at'] = "Name";
@@ -353,6 +366,7 @@ $text['label-access_control_name']['ja-jp'] = "名前";
 $text['label-access_control_name']['ko-kr'] = "이름";
 
 $text['label-access_control_default']['en-us'] = "Default";
+$text['label-access_control_default']['vi-vn'] = 'Mặc định';
 $text['label-access_control_default']['en-gb'] = "Default";
 $text['label-access_control_default']['ar-eg'] = "افتراضي";
 $text['label-access_control_default']['de-at'] = "Standard";
@@ -380,6 +394,7 @@ $text['label-access_control_default']['ja-jp'] = "デフォルト";
 $text['label-access_control_default']['ko-kr'] = "기본";
 
 $text['label-access_control_nodes']['en-us'] = "Nodes";
+$text['label-access_control_nodes']['vi-vn'] = 'Node';
 $text['label-access_control_nodes']['en-gb'] = "Nodes";
 $text['label-access_control_nodes']['ar-eg'] = "العقد";
 $text['label-access_control_nodes']['de-at'] = "Knoten";
@@ -407,6 +422,7 @@ $text['label-access_control_nodes']['ja-jp'] = "ノード";
 $text['label-access_control_nodes']['ko-kr'] = "노드";
 
 $text['label-access_control_description']['en-us'] = "Description";
+$text['label-access_control_description']['vi-vn'] = 'Mô tả';
 $text['label-access_control_description']['en-gb'] = "Description";
 $text['label-access_control_description']['ar-eg'] = "وصف";
 $text['label-access_control_description']['de-at'] = "Beschreibung";
@@ -434,6 +450,7 @@ $text['label-access_control_description']['ja-jp'] = "説明";
 $text['label-access_control_description']['ko-kr'] = "설명";
 
 $text['title_description-access_controls']['en-us'] = "Access control list can allow or deny ranges of IP addresses.";
+$text['title_description-access_controls']['vi-vn'] = 'Danh sách kiểm soát truy cập có thể cho phép hoặc từ chối các dải địa chỉ IP.';
 $text['title_description-access_controls']['en-gb'] = "Access control list can allow or deny ranges of IP addresses.";
 $text['title_description-access_controls']['ar-eg'] = "قائمة التحكم بالوصول يمكن السماح أو الرفض نطاقات العناوين.";
 $text['title_description-access_controls']['de-at'] = "Die Zugriffskontrollliste kann Bereiche von IP Adressen zulassen oder ablehnen.";
@@ -461,6 +478,7 @@ $text['title_description-access_controls']['ja-jp'] = "アクセス コントロ
 $text['title_description-access_controls']['ko-kr'] = "액세스 제어 목록은 IP 주소 범위를 허용하거나 거부할 수 있습니다.";
 
 $text['description-node_type']['en-us'] = "Select the type.";
+$text['description-node_type']['vi-vn'] = 'Chọn loại.';
 $text['description-node_type']['en-gb'] = "Select the type.";
 $text['description-node_type']['ar-eg'] = "حدد نوع.";
 $text['description-node_type']['de-at'] = "Wählen Sie den Typ.";
@@ -488,6 +506,7 @@ $text['description-node_type']['ja-jp'] = "タイプを選択してください�
 $text['description-node_type']['ko-kr'] = "유형을 선택합니다.";
 
 $text['description-node_domain']['en-us'] = "Enter the domain name.";
+$text['description-node_domain']['vi-vn'] = 'Nhập tên domain.';
 $text['description-node_domain']['en-gb'] = "Enter the domain name.";
 $text['description-node_domain']['ar-eg'] = "أدخل اسم المجال.";
 $text['description-node_domain']['de-at'] = "Geben Sie den Domain-Namen.";
@@ -515,6 +534,7 @@ $text['description-node_domain']['ja-jp'] = "ドメイン名を入力します�
 $text['description-node_domain']['ko-kr'] = "도메인 이름을 입력합니다.";
 
 $text['description-node_description']['en-us'] = "Enter the description.";
+$text['description-node_description']['vi-vn'] = 'Nhập mô tả.';
 $text['description-node_description']['en-gb'] = "Enter the description.";
 $text['description-node_description']['ar-eg'] = "أدخل الوصف.";
 $text['description-node_description']['de-at'] = "Geben Sie die Beschreibung ein.";
@@ -542,6 +562,7 @@ $text['description-node_description']['ja-jp'] = "説明を入力します。";
 $text['description-node_description']['ko-kr'] = "설명을 입력합니다.";
 
 $text['description-node_cidr']['en-us'] = "Enter the IP CIDR range.";
+$text['description-node_cidr']['vi-vn'] = 'Nhập dải IP CIDR.';
 $text['description-node_cidr']['en-gb'] = "Enter the IP CIDR range.";
 $text['description-node_cidr']['ar-eg'] = "أدخل نطاق IP CIDR.";
 $text['description-node_cidr']['de-at'] = "Geben Sie die IP CIDR-Bereich an.";
@@ -569,6 +590,7 @@ $text['description-node_cidr']['ja-jp'] = "IP CIDR 範囲を入力します。";
 $text['description-node_cidr']['ko-kr'] = "IP CIDR 범위를 입력합니다.";
 
 $text['description-access_control_name']['en-us'] = "Enter the name.";
+$text['description-access_control_name']['vi-vn'] = 'Nhập tên.';
 $text['description-access_control_name']['en-gb'] = "Enter the name.";
 $text['description-access_control_name']['ar-eg'] = "أدخل اسم.";
 $text['description-access_control_name']['de-at'] = "Namen eingeben.";
@@ -596,6 +618,7 @@ $text['description-access_control_name']['ja-jp'] = "名前を入力します。
 $text['description-access_control_name']['ko-kr'] = "이름을 입력하세요.";
 
 $text['description-access_control_description']['en-us'] = "Enter the description";
+$text['description-access_control_description']['vi-vn'] = 'Nhập mô tả.';
 $text['description-access_control_description']['en-gb'] = "Enter the description";
 $text['description-access_control_description']['ar-eg'] = "دخل وصف";
 $text['description-access_control_description']['de-at'] = "Beschreibung eingeben.";
@@ -623,6 +646,7 @@ $text['description-access_control_description']['ja-jp'] = "説明を入力し�
 $text['description-access_control_description']['ko-kr'] = "설명을 입력하세요";
 
 $text['description-access_control_default']['en-us'] = "Select the default type.";
+$text['description-access_control_default']['vi-vn'] = 'Chọn loại mặc định.';
 $text['description-access_control_default']['en-gb'] = "Select the default type.";
 $text['description-access_control_default']['ar-eg'] = "حدد نوع الافتراضي.";
 $text['description-access_control_default']['de-at'] = "Wählen Sie den Standardtyp.";
@@ -650,6 +674,7 @@ $text['description-access_control_default']['ja-jp'] = "デフォルトのタイ
 $text['description-access_control_default']['ko-kr'] = "기본 유형을 선택합니다.";
 
 $text['description-access_control_export']['en-us'] = "Select the fields you wish to include in the export.";
+$text['description-access_control_export']['vi-vn'] = 'Chọn các trường bạn muốn đưa vào file xuất.';
 $text['description-access_control_export']['en-gb'] = "Select the fields you wish to include in the export.";
 $text['description-access_control_export']['ar-eg'] = "حدد الحقول التي ترغب في تضمينها في التصدير.";
 $text['description-access_control_export']['de-at'] = "Wählen Sie die Felder aus, die Sie in den Export einbeziehen möchten.";

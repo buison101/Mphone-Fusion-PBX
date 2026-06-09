@@ -1,6 +1,7 @@
 <?php
 
 $text['title']['en-us'] = "Voicemail Greetings";
+$text['title']['vi-vn'] = 'Lời chào thư thoại';
 $text['title']['en-gb'] = "Voicemail Greetings";
 $text['title']['ar-eg'] = "تحيات البريد الصوتي";
 $text['title']['de-at'] = "Begrüßungen für Sprachnachrichten";
@@ -28,6 +29,7 @@ $text['title']['ja-jp'] = "ボイスメールの挨拶";
 $text['title']['ko-kr'] = "음성 메일 인사말";
 
 $text['label-size']['en-us'] = "Size";
+$text['label-size']['vi-vn'] = 'Kích thước';
 $text['label-size']['en-gb'] = "Size";
 $text['label-size']['ar-eg'] = "مقاس";
 $text['label-size']['de-at'] = "Größe";
@@ -55,6 +57,7 @@ $text['label-size']['ja-jp'] = "サイズ";
 $text['label-size']['ko-kr'] = "크기";
 
 $text['label-number']['en-us'] = "#";
+$text['label-number']['vi-vn'] = '#';
 $text['label-number']['en-gb'] = "#";
 $text['label-number']['ar-eg'] = "#";
 $text['label-number']['de-at'] = "#";
@@ -82,6 +85,7 @@ $text['label-number']['ja-jp'] = "#";
 $text['label-number']['ko-kr'] = "#";
 
 $text['label-name']['en-us'] = "Name";
+$text['label-name']['vi-vn'] = 'Tên';
 $text['label-name']['en-gb'] = "Name";
 $text['label-name']['ar-eg'] = "Имя";
 $text['label-name']['de-at'] = "Name";
@@ -109,6 +113,7 @@ $text['label-name']['ja-jp'] = "名前";
 $text['label-name']['ko-kr'] = "이름";
 
 $text['label-description']['en-us'] = "Description";
+$text['label-description']['vi-vn'] = 'Mô tả';
 $text['label-description']['en-gb'] = "Description";
 $text['label-description']['ar-eg'] = "وصف";
 $text['label-description']['de-at'] = "Beschreibung";
@@ -136,6 +141,7 @@ $text['label-description']['ja-jp'] = "説明";
 $text['label-description']['ko-kr'] = "설명";
 
 $text['message-uploaded']['en-us'] = "Upload Complete";
+$text['message-uploaded']['vi-vn'] = 'Tải lên hoàn tất';
 $text['message-uploaded']['en-gb'] = "Upload Complete";
 $text['message-uploaded']['ar-eg'] = "اكتمل التحميل";
 $text['message-uploaded']['de-at'] = "Hochladen abgeschlossen";
@@ -163,6 +169,7 @@ $text['message-uploaded']['ja-jp'] = "アップロード完了";
 $text['message-uploaded']['ko-kr'] = "업로드 완료";
 
 $text['message-greeting_selected']['en-us'] = "Greeting Selected";
+$text['message-greeting_selected']['vi-vn'] = 'Đã chọn lời chào';
 $text['message-greeting_selected']['en-gb'] = "Greeting Selected";
 $text['message-greeting_selected']['ar-eg'] = "تم تحديد الترحيب";
 $text['message-greeting_selected']['de-at'] = "Begrüßung ausgewählt";
@@ -190,6 +197,7 @@ $text['message-greeting_selected']['ja-jp'] = "選択された挨拶";
 $text['message-greeting_selected']['ko-kr'] = "인사말 선택됨";
 
 $text['message-greeting_created']['en-us'] = "Greeting Created";
+$text['message-greeting_created']['vi-vn'] = 'Đã tạo lời chào';
 $text['message-greeting_created']['en-gb'] = "Greeting Created";
 $text['message-greeting_created']['ar-eg'] = "تم إنشاء التحية";
 $text['message-greeting_created']['de-at'] = "Begrüßung erstellt";
@@ -217,6 +225,7 @@ $text['message-greeting_created']['ja-jp'] = "挨拶が作成されました";
 $text['message-greeting_created']['ko-kr'] = "인사말이 생성되었습니다";
 
 $text['message-maximum_voicemail_greetings']['en-us'] = "Maximum Voicemail Greetings:";
+$text['message-maximum_voicemail_greetings']['vi-vn'] = 'Số lời chào thư thoại tối đa:';
 $text['message-maximum_voicemail_greetings']['en-gb'] = "Maximum Voicemail Greetings:";
 $text['message-maximum_voicemail_greetings']['ar-eg'] = "الترحيبات الأقصى للمصوات المرئية:";
 $text['message-maximum_voicemail_greetings']['de-at'] = "Maximale Anrufbeantworter-Begrüßungen:";
@@ -244,6 +253,7 @@ $text['message-maximum_voicemail_greetings']['ja-jp'] = "ボイスメールの�
 $text['message-maximum_voicemail_greetings']['ko-kr'] = "최대 음성메일 인사말 수:";
 
 $text['label-tools']['en-us'] = "Tools";
+$text['label-tools']['vi-vn'] = 'Công cụ';
 $text['label-tools']['en-gb'] = "Tools";
 $text['label-tools']['ar-eg'] = "أدوات";
 $text['label-tools']['de-at'] = "Werkzeuge";
@@ -271,6 +281,7 @@ $text['label-tools']['ja-jp'] = "ツール";
 $text['label-tools']['ko-kr'] = "도구";
 
 $text['label-select_a_file']['en-us'] = "Select a file...";
+$text['label-select_a_file']['vi-vn'] = 'Chọn tệp...';
 $text['label-select_a_file']['en-gb'] = "Select a file...";
 $text['label-select_a_file']['ar-eg'] = "حدد ملف...";
 $text['label-select_a_file']['de-at'] = "Wähle eine Datei aus...";
@@ -298,6 +309,7 @@ $text['label-select_a_file']['ja-jp'] = "ファイルを選択してください
 $text['label-select_a_file']['ko-kr'] = "파일 선택...";
 
 $text['label-play']['en-us'] = "Play";
+$text['label-play']['vi-vn'] = 'Phát';
 $text['label-play']['en-gb'] = "Play";
 $text['label-play']['ar-eg'] = "يلعب";
 $text['label-play']['de-at'] = "Abspielen";
@@ -325,6 +337,7 @@ $text['label-play']['ja-jp'] = "遊ぶ";
 $text['label-play']['ko-kr'] = "놀다";
 
 $text['label-pause']['en-us'] = "Pause";
+$text['label-pause']['vi-vn'] = 'Tạm dừng';
 $text['label-pause']['en-gb'] = "Pause";
 $text['label-pause']['ar-eg'] = "يوقف";
 $text['label-pause']['de-at'] = "Pause";
@@ -352,6 +365,7 @@ $text['label-pause']['ja-jp'] = "一時停止";
 $text['label-pause']['ko-kr'] = "정지시키다";
 
 $text['label-preview']['en-us'] = "Preview";
+$text['label-preview']['vi-vn'] = 'Xem trước';
 $text['label-preview']['en-gb'] = "Preview";
 $text['label-preview']['ar-eg'] = "معاينة";
 $text['label-preview']['de-at'] = "Vorschau";
@@ -379,6 +393,7 @@ $text['label-preview']['ja-jp'] = "プレビュー";
 $text['label-preview']['ko-kr'] = "시사";
 
 $text['label-greeting']['en-us'] = "Greeting";
+$text['label-greeting']['vi-vn'] = 'Lời chào';
 $text['label-greeting']['en-gb'] = "Greeting";
 $text['label-greeting']['ar-eg'] = "تحية";
 $text['label-greeting']['de-at'] = "Begrüßung";
@@ -406,6 +421,7 @@ $text['label-greeting']['ja-jp'] = "挨拶";
 $text['label-greeting']['ko-kr'] = "인사";
 
 $text['label-filename']['en-us'] = "File Name";
+$text['label-filename']['vi-vn'] = 'Tên file';
 $text['label-filename']['en-gb'] = "File Name";
 $text['label-filename']['ar-eg'] = "اسم الملف";
 $text['label-filename']['de-at'] = "Dateiname";
@@ -433,6 +449,7 @@ $text['label-filename']['ja-jp'] = "ファイル名";
 $text['label-filename']['ko-kr'] = "파일 이름";
 
 $text['label-edit']['en-us'] = "Edit Greeting";
+$text['label-edit']['vi-vn'] = 'Sửa lời chào';
 $text['label-edit']['en-gb'] = "Edit Greeting";
 $text['label-edit']['ar-eg'] = "تحرير التحية";
 $text['label-edit']['de-at'] = "Begrüßung bearbeiten";
@@ -460,6 +477,7 @@ $text['label-edit']['ja-jp'] = "挨拶の編集";
 $text['label-edit']['ko-kr'] = "인사말 편집";
 
 $text['label-download']['en-us'] = "Download";
+$text['label-download']['vi-vn'] = 'Tải xuống';
 $text['label-download']['en-gb'] = "Download";
 $text['label-download']['ar-eg'] = "تحميل";
 $text['label-download']['de-at'] = "Herunterladen";
@@ -487,6 +505,7 @@ $text['label-download']['ja-jp'] = "ダウンロード";
 $text['label-download']['ko-kr'] = "다운로드";
 
 $text['label-add']['en-us'] = "Add Greeting";
+$text['label-add']['vi-vn'] = 'Thêm lời chào';
 $text['label-add']['en-gb'] = "Add Greeting";
 $text['label-add']['ar-eg'] = "أضف التحية";
 $text['label-add']['de-at'] = "Begrüßung hinzufügen";
@@ -514,6 +533,7 @@ $text['label-add']['ja-jp'] = "挨拶を追加";
 $text['label-add']['ko-kr'] = "인사말 추가";
 
 $text['label-selected']['en-us'] = "Selected";
+$text['label-selected']['vi-vn'] = 'Đã chọn';
 $text['label-selected']['en-gb'] = "Selected";
 $text['label-selected']['ar-eg'] = "المحدد";
 $text['label-selected']['de-at'] = "Ausgewählt";
@@ -541,6 +561,7 @@ $text['label-selected']['ja-jp'] = "選択済み";
 $text['label-selected']['ko-kr'] = "선택된";
 
 $text['description-name']['en-us'] = "A name for the greeting (not parsed).";
+$text['description-name']['vi-vn'] = 'Tên cho lời chào (không được phân tích).';
 $text['description-name']['en-gb'] = "A name for the greeting (not parsed).";
 $text['description-name']['ar-eg'] = "اسم التحية (غير معرب).";
 $text['description-name']['de-at'] = "Ein Namen für die Begrüßung.";
@@ -568,6 +589,7 @@ $text['description-name']['ja-jp'] = "グリーティングの名前 (解析さ�
 $text['description-name']['ko-kr'] = "인사말의 이름(구문 분석되지 않음).";
 
 $text['description-info']['en-us'] = "You may enter a description here for your reference (not parsed).";
+$text['description-info']['vi-vn'] = 'Bạn có thể nhập mô tả tại đây để tham khảo (không được phân tích).';
 $text['description-info']['en-gb'] = "You may enter a description here for your reference (not parsed).";
 $text['description-info']['ar-eg'] = "يمكنك إدخال وصف هنا للرجوع اليها (غير معرب).";
 $text['description-info']['de-at'] = "Sie können hier eine Beschreibung als Referenz eintragen.";
@@ -595,6 +617,7 @@ $text['description-info']['ja-jp'] = "あ参照用にここに説明を入力で
 $text['description-info']['ko-kr'] = "참조용으로 여기에 설명을 입력할 수 있습니다(파싱되지 않음).";
 
 $text['description']['en-us'] = "Select the active greeting message to play for extension:";
+$text['description']['vi-vn'] = 'Chọn lời chào đang hoạt động để phát cho máy nhánh:';
 $text['description']['en-gb'] = "Select the active greeting message to play for extension:";
 $text['description']['ar-eg'] = "حدد رسالة الترحيب النشطة لتشغيلها للتمديد:";
 $text['description']['de-at'] = "Wählen Sie die aktive Begrüßung aus, welche für diese Nebenstelle abgespielt werden soll:";
@@ -622,6 +645,7 @@ $text['description']['ja-jp'] = "内線で再生するアクティブなグリ�
 $text['description']['ko-kr'] = "확장을 위해 재생할 활성 인사말 메시지를 선택하십시오.";
 
 $text['confirm-name']['en-us'] = "Please provide: Greeting Name";
+$text['confirm-name']['vi-vn'] = 'Vui lòng cung cấp: Tên lời chào';
 $text['confirm-name']['en-gb'] = "Please provide: Greeting Name";
 $text['confirm-name']['ar-eg'] = "يرجى تقديم: اسم الترحيب";
 $text['confirm-name']['de-at'] = "Bitte bereitstellen: Namen der Begrüßung";
@@ -649,6 +673,7 @@ $text['confirm-name']['ja-jp'] = "入力してください: 挨拶の名前";
 $text['confirm-name']['ko-kr'] = "제공하십시오: 인사말 이름";
 
 $text['confirm-filename']['en-us'] = "Please provide: Greeting Filename";
+$text['confirm-filename']['vi-vn'] = 'Vui lòng cung cấp: Tên tệp lời chào';
 $text['confirm-filename']['en-gb'] = "Please provide: Greeting Filename";
 $text['confirm-filename']['ar-eg'] = "يرجى تقديم: اسم ملف الترحيب";
 $text['confirm-filename']['de-at'] = "Bitte bereitstellen: Dateinamen der Begrüßung";
@@ -676,6 +701,7 @@ $text['confirm-filename']['ja-jp'] = "入力してください: 挨拶ファイ�
 $text['confirm-filename']['ko-kr'] = "제공하십시오: 인사말 파일 이름";
 
 $text['label-model']['en-us'] = "Model";
+$text['label-model']['vi-vn'] = 'Mô hình';
 $text['label-model']['en-gb'] = "Model";
 $text['label-model']['ar-eg'] = "نموذج";
 $text['label-model']['de-at'] = "Modell";
@@ -703,6 +729,7 @@ $text['label-model']['ja-jp'] = "モデル";
 $text['label-model']['ko-kr'] = "모델";
 
 $text['description-model']['en-us'] = "Select the model that is used to make the recording.";
+$text['description-model']['vi-vn'] = 'Chọn mô hình dùng để tạo bản ghi âm.';
 $text['description-model']['en-gb'] = "Select the model that is used to make the recording.";
 $text['description-model']['ar-eg'] = "حدد النموذج المستخدم لإجراء التسجيل.";
 $text['description-model']['de-at'] = "Wählen Sie das Modell aus, das für die Aufnahme verwendet wird.";
@@ -730,6 +757,7 @@ $text['description-model']['ja-jp'] = "録音に使用したモデルを選択�
 $text['description-model']['ko-kr'] = "녹음에 사용되는 모델을 선택합니다.";
 
 $text['label-voice']['en-us'] = "Voice";
+$text['label-voice']['vi-vn'] = 'Thoại';
 $text['label-voice']['en-gb'] = "Voice";
 $text['label-voice']['ar-eg'] = "صوت";
 $text['label-voice']['de-at'] = "Stimme";
@@ -757,6 +785,7 @@ $text['label-voice']['ja-jp'] = "声";
 $text['label-voice']['ko-kr'] = "목소리";
 
 $text['description-voice']['en-us'] = "Select the voice that is used to make the recording.";
+$text['description-voice']['vi-vn'] = 'Chọn giọng dùng để tạo bản ghi âm.';
 $text['description-voice']['en-gb'] = "Select the voice that is used to make the recording.";
 $text['description-voice']['ar-eg'] = "حدد الصوت المستخدم في التسجيل.";
 $text['description-voice']['de-at'] = "Wählen Sie die Stimme aus, die für die Aufnahme verwendet wird.";
@@ -784,6 +813,7 @@ $text['description-voice']['ja-jp'] = "録音に使用する音声を選択し�
 $text['description-voice']['ko-kr'] = "녹음에 사용되는 음성을 선택합니다.";
 
 $text['label-message']['en-us'] = "Message";
+$text['label-message']['vi-vn'] = 'Thông báo';
 $text['label-message']['en-gb'] = "Message";
 $text['label-message']['ar-eg'] = "رسالة";
 $text['label-message']['de-at'] = "Nachricht";
@@ -811,6 +841,7 @@ $text['label-message']['ja-jp'] = "メッセージ";
 $text['label-message']['ko-kr'] = "메시지";
 
 $text['description-message']['en-us'] = "The recording message.";
+$text['description-message']['vi-vn'] = 'Nội dung ghi âm.';
 $text['description-message']['en-gb'] = "The recording message.";
 $text['description-message']['ar-eg'] = "رسالة التسجيل.";
 $text['description-message']['de-at'] = "Die Aufnahmenachricht.";
@@ -838,6 +869,7 @@ $text['description-message']['ja-jp'] = "録音メッセージ。";
 $text['description-message']['ko-kr'] = "녹음 메시지입니다.";
 
 $text['label-update_greeting']['en-us'] = "Update";
+$text['label-update_greeting']['vi-vn'] = 'Cập nhật';
 $text['label-update_greeting']['en-gb'] = "Update";
 $text['label-update_greeting']['ar-eg'] = "تحديث";
 $text['label-update_greeting']['de-at'] = "Aktualisieren";
@@ -865,6 +897,7 @@ $text['label-update_greeting']['ja-jp'] = "アップデート";
 $text['label-update_greeting']['ko-kr'] = "업데이트";
 
 $text['description-update_greeting']['en-us'] = "When enabled a greeting will be created to replace the previous one.";
+$text['description-update_greeting']['vi-vn'] = 'Khi bật, một lời chào sẽ được tạo để thay thế lời chào trước đó.';
 $text['description-update_greeting']['en-gb'] = "When enabled a greeting will be created to replace the previous one.";
 $text['description-update_greeting']['ar-eg'] = "عند تمكينه، سيُخلق تحية لت-replace السابقة.";
 $text['description-update_greeting']['de-at'] = "Wenn aktiviert, wird eine Begrüßung erstellt, um die vorherige zu ersetzen.";

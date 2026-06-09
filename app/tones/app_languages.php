@@ -1,6 +1,7 @@
 <?php
 
 $text['title-tones']['en-us'] = "Tones";
+$text['title-tones']['vi-vn'] = 'Âm báo';
 $text['title-tones']['en-gb'] = "Tones";
 $text['title-tones']['ar-eg'] = "النغمات";
 $text['title-tones']['de-at'] = "Töne";
@@ -28,6 +29,7 @@ $text['title-tones']['ja-jp'] = "トーン";
 $text['title-tones']['ko-kr'] = "톤";
 
 $text['label-tone']['en-us'] = "Tone";
+$text['label-tone']['vi-vn'] = 'Tone';
 $text['label-tone']['en-gb'] = "Tone";
 $text['label-tone']['ar-eg'] = "نغمة";
 $text['label-tone']['de-at'] = "Ton";
@@ -55,6 +57,7 @@ $text['label-tone']['ja-jp'] = "調子";
 $text['label-tone']['ko-kr'] = "음정";
 
 $text['label-tones']['en-us'] = "Tones";
+$text['label-tones']['vi-vn'] = 'Âm báo';
 $text['label-tones']['en-gb'] = "Tones";
 $text['label-tones']['ar-eg'] = "النغمات";
 $text['label-tones']['de-at'] = "Töne";

@@ -1,6 +1,7 @@
 <?php
 
 $text['title-emergency_logs']['en-us'] = "Emergency Logs";
+$text['title-emergency_logs']['vi-vn'] = 'Log khẩn cấp';
 $text['title-emergency_logs']['en-gb'] = "Emergency Logs";
 $text['title-emergency_logs']['ar-eg'] = "سجلات الطوارئ";
 $text['title-emergency_logs']['de-at'] = "Notfall-Protokolle";
@@ -28,6 +29,7 @@ $text['title-emergency_logs']['ja-jp'] = "緊急ログ";
 $text['title-emergency_logs']['ko-kr'] = "비상 기록";
 
 $text['title_description-emergency_logs']['en-us'] = "Track emergency calls including details of the time, date, and originating extension.";
+$text['title_description-emergency_logs']['vi-vn'] = 'Theo dõi cuộc gọi khẩn cấp, bao gồm chi tiết thời gian, ngày và máy nhánh phát sinh cuộc gọi.';
 $text['title_description-emergency_logs']['en-gb'] = "Track emergency calls including details of the time, date, and originating extension.";
 $text['title_description-emergency_logs']['ar-eg'] = "تتبع مكالمات الطوارئ بما في ذلك تفاصيل الوقت والتاريخ والامتداد الأصلي.";
 $text['title_description-emergency_logs']['de-at'] = "Verfolgen Sie Notrufe mit Angaben zu Uhrzeit, Datum und Nebenstelle des Anrufers.";
@@ -55,6 +57,7 @@ $text['title_description-emergency_logs']['ja-jp'] = "時間、日付、発信�
 $text['title_description-emergency_logs']['ko-kr'] = "시간, 날짜, 발신 내선 번호 등의 세부 정보를 포함하여 긴급 전화를 추적합니다.";
 
 $text['label-emergency_time']['en-us'] = "Time";
+$text['label-emergency_time']['vi-vn'] = 'Thời gian';
 $text['label-emergency_time']['en-gb'] = "Time";
 $text['label-emergency_time']['ar-eg'] = "وقت";
 $text['label-emergency_time']['de-at'] = "Zeitpunkt";
@@ -82,6 +85,7 @@ $text['label-emergency_time']['ja-jp'] = "時間";
 $text['label-emergency_time']['ko-kr'] = "시간";
 
 $text['label-emergency_date']['en-us'] = "Date";
+$text['label-emergency_date']['vi-vn'] = 'Ngày';
 $text['label-emergency_date']['en-gb'] = "Date";
 $text['label-emergency_date']['ar-eg'] = "تاريخ";
 $text['label-emergency_date']['de-at'] = "Datum";
@@ -109,6 +113,7 @@ $text['label-emergency_date']['ja-jp'] = "日付";
 $text['label-emergency_date']['ko-kr'] = "날짜";
 
 $text['label-emergency_extension']['en-us'] = "Extension";
+$text['label-emergency_extension']['vi-vn'] = 'Máy nhánh';
 $text['label-emergency_extension']['en-gb'] = "Extension";
 $text['label-emergency_extension']['ar-eg'] = "امتداد";
 $text['label-emergency_extension']['de-at'] = "Nebenstelle";
@@ -136,6 +141,7 @@ $text['label-emergency_extension']['ja-jp'] = "拡大";
 $text['label-emergency_extension']['ko-kr'] = "확대";
 
 $text['label-emergency_event']['en-us'] = "Event";
+$text['label-emergency_event']['vi-vn'] = 'Sự kiện';
 $text['label-emergency_event']['en-gb'] = "Event";
 $text['label-emergency_event']['ar-eg'] = "حدث";
 $text['label-emergency_event']['de-at'] = "Ereignis";
@@ -163,6 +169,7 @@ $text['label-emergency_event']['ja-jp'] = "イベント";
 $text['label-emergency_event']['ko-kr'] = "이벤트";
 
 $text['label-emergency_call_status']['en-us'] = "Call Status";
+$text['label-emergency_call_status']['vi-vn'] = 'Trạng thái cuộc gọi';
 $text['label-emergency_call_status']['en-gb'] = "Call Status";
 $text['label-emergency_call_status']['ar-eg'] = "حالة الاتصال";
 $text['label-emergency_call_status']['de-at'] = "Anrufstatus";
@@ -190,6 +197,7 @@ $text['label-emergency_call_status']['ja-jp'] = "通話状態";
 $text['label-emergency_call_status']['ko-kr'] = "통화 상태";
 
 $text['label-recording']['en-us'] = "Recording";
+$text['label-recording']['vi-vn'] = 'Bản ghi âm';
 $text['label-recording']['en-gb'] = "Recording";
 $text['label-recording']['ar-eg'] = "تسجيل";
 $text['label-recording']['de-at'] = "Aufnahme";

@@ -1,6 +1,7 @@
 <?php
 
 $text['title-email_queue']['en-us'] = "Email Queue";
+$text['title-email_queue']['vi-vn'] = 'Hàng đợi email';
 $text['title-email_queue']['en-gb'] = "Email Queue";
 $text['title-email_queue']['ar-eg'] = "قائمة انتظار البريد الإلكتروني";
 $text['title-email_queue']['de-at'] = "Email Warteschlange";
@@ -28,6 +29,7 @@ $text['title-email_queue']['ja-jp'] = "電子メールキュー";
 $text['title-email_queue']['ko-kr'] = "이메일 대기열";
 
 $text['title_description-email_queue']['en-us'] = "Email Queue Description";
+$text['title_description-email_queue']['vi-vn'] = 'Mô tả hàng đợi email';
 $text['title_description-email_queue']['en-gb'] = "Email Queue Description";
 $text['title_description-email_queue']['ar-eg'] = "وصف قائمة انتظار البريد الإلكتروني";
 $text['title_description-email_queue']['de-at'] = "Beschreibung der E-Mail-Warteschlange";
@@ -55,6 +57,7 @@ $text['title_description-email_queue']['ja-jp'] = "電子メールキューの�
 $text['title_description-email_queue']['ko-kr'] = "이메일 대기열 설명";
 
 $text['label-email_date']['en-us'] = "Date";
+$text['label-email_date']['vi-vn'] = 'Ngày';
 $text['label-email_date']['en-gb'] = "Date";
 $text['label-email_date']['ar-eg'] = "التاريخ";
 $text['label-email_date']['de-at'] = "Datum";
@@ -82,6 +85,7 @@ $text['label-email_date']['ja-jp'] = "日にち";
 $text['label-email_date']['ko-kr'] = "날짜";
 
 $text['description-email_date']['en-us'] = "Enter the email date.";
+$text['description-email_date']['vi-vn'] = 'Nhập ngày email.';
 $text['description-email_date']['en-gb'] = "Enter the email date.";
 $text['description-email_date']['ar-eg'] = "أدخل تاريخ البريد الإلكتروني";
 $text['description-email_date']['de-at'] = "Geben Sie das E-Mail-Datum ein.";
@@ -109,6 +113,7 @@ $text['description-email_date']['ja-jp'] = "メールの日付を入力します
 $text['description-email_date']['ko-kr'] = "이메일 날짜를 입력합니다.";
 
 $text['label-email_from']['en-us'] = "From";
+$text['label-email_from']['vi-vn'] = 'Từ';
 $text['label-email_from']['en-gb'] = "From";
 $text['label-email_from']['ar-eg'] = "من";
 $text['label-email_from']['de-at'] = "Von";
@@ -136,6 +141,7 @@ $text['label-email_from']['ja-jp'] = "から";
 $text['label-email_from']['ko-kr'] = "에서";
 
 $text['description-email_from']['en-us'] = "Enter the email from.";
+$text['description-email_from']['vi-vn'] = 'Nhập email người gửi.';
 $text['description-email_from']['en-gb'] = "Enter the email from.";
 $text['description-email_from']['ar-eg'] = "أدخل الرسالة من";
 $text['description-email_from']['de-at'] = "Geben Sie die E-Mail ein.";
@@ -163,6 +169,7 @@ $text['description-email_from']['ja-jp'] = "からのメールを入力します
 $text['description-email_from']['ko-kr'] = "보낸 이메일을 입력합니다.";
 
 $text['label-email_to']['en-us'] = "To";
+$text['label-email_to']['vi-vn'] = 'Đến';
 $text['label-email_to']['en-gb'] = "To";
 $text['label-email_to']['ar-eg'] = "إلى";
 $text['label-email_to']['de-at'] = "Zu";
@@ -190,6 +197,7 @@ $text['label-email_to']['ja-jp'] = "に";
 $text['label-email_to']['ko-kr'] = "에게";
 
 $text['description-email_to']['en-us'] = "Enter the email to.";
+$text['description-email_to']['vi-vn'] = 'Nhập email người nhận.';
 $text['description-email_to']['en-gb'] = "Enter the email to.";
 $text['description-email_to']['ar-eg'] = "أدخل البريد الإلكتروني إلى.";
 $text['description-email_to']['de-at'] = "Geben Sie die E-Mail an.";
@@ -217,6 +225,7 @@ $text['description-email_to']['ja-jp'] = "宛先のメールアドレスを入�
 $text['description-email_to']['ko-kr'] = "이메일 주소를 입력하세요.";
 
 $text['label-email_cc']['en-us'] = "CC";
+$text['label-email_cc']['vi-vn'] = 'CC';
 $text['label-email_cc']['en-gb'] = "CC";
 $text['label-email_cc']['ar-eg'] = "CC";
 $text['label-email_cc']['de-at'] = "CC";
@@ -244,6 +253,7 @@ $text['label-email_cc']['ja-jp'] = "CC";
 $text['label-email_cc']['ko-kr'] = "CC";
 
 $text['description-email_cc']['en-us'] = "Enter the email cc.";
+$text['description-email_cc']['vi-vn'] = 'Nhập email CC.';
 $text['description-email_cc']['en-gb'] = "Enter the email cc.";
 $text['description-email_cc']['ar-eg'] = "أدخلي البريد الإلكتروني";
 $text['description-email_cc']['de-at'] = "Geben Sie die E-Mail cc.";
@@ -271,6 +281,7 @@ $text['description-email_cc']['ja-jp'] = "メールアドレス「CC」を入力
 $text['description-email_cc']['ko-kr'] = "이메일 참조를 입력하십시오.";
 
 $text['label-email_bcc']['en-us'] = "BCC";
+$text['label-email_bcc']['vi-vn'] = 'BCC';
 $text['label-email_bcc']['en-gb'] = "BCC";
 $text['label-email_bcc']['ar-eg'] = "BCC";
 $text['label-email_bcc']['de-at'] = "BCC";
@@ -298,6 +309,7 @@ $text['label-email_bcc']['ja-jp'] = "BCC";
 $text['label-email_bcc']['ko-kr'] = "BCC";
 
 $text['description-email_bcc']['en-us'] = "Enter the email bcc.";
+$text['description-email_bcc']['vi-vn'] = 'Nhập email BCC.';
 $text['description-email_bcc']['en-gb'] = "Enter the email bcc.";
 $text['description-email_bcc']['ar-eg'] = "أدخلي كاميرا البريد الإلكتروني";
 $text['description-email_bcc']['de-at'] = "Geben Sie die E-Mail bcc ein.";
@@ -325,6 +337,7 @@ $text['description-email_bcc']['ja-jp'] = "メールアドレスのBCCを入力�
 $text['description-email_bcc']['ko-kr'] = "이메일 숨은 참조를 입력하십시오.";
 
 $text['label-email_subject']['en-us'] = "Subject";
+$text['label-email_subject']['vi-vn'] = 'Tiêu đề';
 $text['label-email_subject']['en-gb'] = "Subject";
 $text['label-email_subject']['ar-eg'] = "الموضوع";
 $text['label-email_subject']['de-at'] = "Gegenstand";
@@ -352,6 +365,7 @@ $text['label-email_subject']['ja-jp'] = "コンテンツ";
 $text['label-email_subject']['ko-kr'] = "주제";
 
 $text['description-email_subject']['en-us'] = "Enter the email subject.";
+$text['description-email_subject']['vi-vn'] = 'Nhập tiêu đề email.';
 $text['description-email_subject']['en-gb'] = "Enter the email subject.";
 $text['description-email_subject']['ar-eg'] = "أدخل موضوع البريد الإلكتروني";
 $text['description-email_subject']['de-at'] = "Geben Sie das E-Mail-Thema ein.";
@@ -379,6 +393,7 @@ $text['description-email_subject']['ja-jp'] = "メールの件名を入力しま
 $text['description-email_subject']['ko-kr'] = "이메일 제목을 입력하세요.";
 
 $text['label-email_body']['en-us'] = "Body";
+$text['label-email_body']['vi-vn'] = 'Nội dung';
 $text['label-email_body']['en-gb'] = "Body";
 $text['label-email_body']['ar-eg'] = "الهيئة";
 $text['label-email_body']['de-at'] = "Körper";
@@ -406,6 +421,7 @@ $text['label-email_body']['ja-jp'] = "体";
 $text['label-email_body']['ko-kr'] = "몸";
 
 $text['description-email_body']['en-us'] = "Enter the email body.";
+$text['description-email_body']['vi-vn'] = 'Nhập nội dung email.';
 $text['description-email_body']['en-gb'] = "Enter the email body.";
 $text['description-email_body']['ar-eg'] = "أدخلي الجثة";
 $text['description-email_body']['de-at'] = "Geben Sie die E-Mail-Körper ein.";
@@ -433,6 +449,7 @@ $text['description-email_body']['ja-jp'] = "メール本文を入力します。
 $text['description-email_body']['ko-kr'] = "이메일 본문을 입력합니다.";
 
 $text['label-email_status']['en-us'] = "Status";
+$text['label-email_status']['vi-vn'] = 'Trạng thái';
 $text['label-email_status']['en-gb'] = "Status";
 $text['label-email_status']['ar-eg'] = "الحالة";
 $text['label-email_status']['de-at'] = "Status";
@@ -460,6 +477,7 @@ $text['label-email_status']['ja-jp'] = "スターテス";
 $text['label-email_status']['ko-kr'] = "상태";
 
 $text['description-email_status']['en-us'] = "Enter the email status.";
+$text['description-email_status']['vi-vn'] = 'Nhập trạng thái email.';
 $text['description-email_status']['en-gb'] = "Enter the email status.";
 $text['description-email_status']['ar-eg'] = "أدخلي مركز البريد الإلكتروني";
 $text['description-email_status']['de-at'] = "Geben Sie den E-Mail-Status ein.";
@@ -487,6 +505,7 @@ $text['description-email_status']['ja-jp'] = "メールのステータスを入�
 $text['description-email_status']['ko-kr'] = "이메일 상태를 입력합니다.";
 
 $text['label-email_action_before']['en-us'] = "Before Email";
+$text['label-email_action_before']['vi-vn'] = 'Trước khi gửi email';
 $text['label-email_action_before']['en-gb'] = "Before Email";
 $text['label-email_action_before']['ar-eg'] = "قبل البريد الإلكتروني";
 $text['label-email_action_before']['de-at'] = "Vor E-Mail";
@@ -514,6 +533,7 @@ $text['label-email_action_before']['ja-jp'] = "メールの前に";
 $text['label-email_action_before']['ko-kr'] = "이메일 전";
 
 $text['description-email_action_before']['en-us'] = "Enter the action before sending the email.";
+$text['description-email_action_before']['vi-vn'] = 'Nhập hành động trước khi gửi email.';
 $text['description-email_action_before']['en-gb'] = "Enter the action before sending the email.";
 $text['description-email_action_before']['ar-eg'] = "أدخل العمل قبل إرسال البريد الإلكتروني";
 $text['description-email_action_before']['de-at'] = "Geben Sie die Aktion ein, bevor Sie die E-Mail senden.";
@@ -541,6 +561,7 @@ $text['description-email_action_before']['ja-jp'] = "メールを送信する前
 $text['description-email_action_before']['ko-kr'] = "이메일을 보내기 전에 조치를 입력하십시오.";
 
 $text['label-email_action_after']['en-us'] = "After Email";
+$text['label-email_action_after']['vi-vn'] = 'Sau khi gửi email';
 $text['label-email_action_after']['en-gb'] = "After Email";
 $text['label-email_action_after']['ar-eg'] = "بعد البريد الإلكتروني";
 $text['label-email_action_after']['de-at'] = "Nach E-Mail";
@@ -568,6 +589,7 @@ $text['label-email_action_after']['ja-jp'] = "メール送信後";
 $text['label-email_action_after']['ko-kr'] = "이메일 후";
 
 $text['description-email_action_after']['en-us'] = "Enter the action after sending the email.";
+$text['description-email_action_after']['vi-vn'] = 'Nhập hành động sau khi gửi email.';
 $text['description-email_action_after']['en-gb'] = "Enter the action after sending the email.";
 $text['description-email_action_after']['ar-eg'] = "أدخل العمل بعد إرسال البريد الإلكتروني";
 $text['description-email_action_after']['de-at'] = "Geben Sie die Aktion nach dem Senden der E-Mail ein.";
@@ -595,6 +617,7 @@ $text['description-email_action_after']['ja-jp'] = "メール送信後のアク�
 $text['description-email_action_after']['ko-kr'] = "이메일을 보낸 후 작업을 입력합니다.";
 
 $text['label-email_response']['en-us'] = "Response";
+$text['label-email_response']['vi-vn'] = 'Phản hồi';
 $text['label-email_response']['en-gb'] = "Response";
 $text['label-email_response']['ar-eg'] = "الرد";
 $text['label-email_response']['de-at'] = "Antwort";
@@ -622,6 +645,7 @@ $text['label-email_response']['ja-jp'] = "応答";
 $text['label-email_response']['ko-kr'] = "응답";
 
 $text['label-email_retry_count']['en-us'] = "Retry";
+$text['label-email_retry_count']['vi-vn'] = 'Thử lại';
 $text['label-email_retry_count']['en-gb'] = "Retry";
 $text['label-email_retry_count']['ar-eg'] = "إعادة الفحص";
 $text['label-email_retry_count']['de-at'] = "Wiederkehr";
@@ -649,6 +673,7 @@ $text['label-email_retry_count']['ja-jp'] = "リトライ";
 $text['label-email_retry_count']['ko-kr'] = "다시 해 보다";
 
 $text['description-email_retry_count']['en-us'] = "Enter the email retry.";
+$text['description-email_retry_count']['vi-vn'] = 'Nhập số lần thử lại email.';
 $text['description-email_retry_count']['en-gb'] = "Enter the email retry.";
 $text['description-email_retry_count']['ar-eg'] = "أدخلي إعادة البريد الإلكتروني";
 $text['description-email_retry_count']['de-at'] = "Geben Sie die E-Mail-Retry ein.";
@@ -676,6 +701,7 @@ $text['description-email_retry_count']['ja-jp'] = "メールの再試行を入�
 $text['description-email_retry_count']['ko-kr'] = "이메일 재시도를 입력하십시오.";
 
 $text['label-waiting']['en-us'] = "waiting";
+$text['label-waiting']['vi-vn'] = 'đang chờ';
 $text['label-waiting']['en-gb'] = "waiting";
 $text['label-waiting']['ar-eg'] = "الانتظار";
 $text['label-waiting']['de-at'] = "warten";
@@ -703,6 +729,7 @@ $text['label-waiting']['ja-jp'] = "待っている";
 $text['label-waiting']['ko-kr'] = "대기 중";
 
 $text['label-failed']['en-us'] = "failed";
+$text['label-failed']['vi-vn'] = 'thất bại';
 $text['label-failed']['en-gb'] = "failed";
 $text['label-failed']['ar-eg'] = "فشل";
 $text['label-failed']['de-at'] = "gescheitert";
@@ -730,6 +757,7 @@ $text['label-failed']['ja-jp'] = "失敗した";
 $text['label-failed']['ko-kr'] = "실패한";
 
 $text['label-sent']['en-us'] = "sent";
+$text['label-sent']['vi-vn'] = 'đã gửi';
 $text['label-sent']['en-gb'] = "sent";
 $text['label-sent']['ar-eg'] = "أرسلت";
 $text['label-sent']['de-at'] = "gesendet";
@@ -757,6 +785,7 @@ $text['label-sent']['ja-jp'] = "送信済";
 $text['label-sent']['ko-kr'] = "전송된";
 
 $text['label-trying']['en-us'] = "trying";
+$text['label-trying']['vi-vn'] = 'đang thử';
 $text['label-trying']['en-gb'] = "trying";
 $text['label-trying']['ar-eg'] = "محاولة";
 $text['label-trying']['de-at'] = "versuchen";
@@ -784,6 +813,7 @@ $text['label-trying']['ja-jp'] = "試しています";
 $text['label-trying']['ko-kr'] = "견딜 수 없는";
 
 $text['button-test']['en-us'] = "Test";
+$text['button-test']['vi-vn'] = 'Kiểm tra';
 $text['button-test']['en-gb'] = "Test";
 $text['button-test']['ar-eg'] = "الاختبار";
 $text['button-test']['de-at'] = "Prüfung";
@@ -811,6 +841,7 @@ $text['button-test']['ja-jp'] = "テスト";
 $text['button-test']['ko-kr'] = "시험";
 
 $text['header-email_test']['en-us'] = "Email Test";
+$text['header-email_test']['vi-vn'] = 'Kiểm tra email';
 $text['header-email_test']['en-gb'] = "Email Test";
 $text['header-email_test']['ar-eg'] = "اختبار البريد الإلكتروني";
 $text['header-email_test']['de-at'] = "E-Mail-Test";
@@ -838,6 +869,7 @@ $text['header-email_test']['ja-jp'] = "メールテスト";
 $text['header-email_test']['ko-kr'] = "이메일 테스트";
 
 $text['header-settings']['en-us'] = "Settings";
+$text['header-settings']['vi-vn'] = 'Cài đặt';
 $text['header-settings']['en-gb'] = "Settings";
 $text['header-settings']['ar-eg'] = "الترتيبات";
 $text['header-settings']['de-at'] = "Einstellungen";
@@ -865,6 +897,7 @@ $text['header-settings']['ja-jp'] = "設定";
 $text['header-settings']['ko-kr'] = "설정";
 
 $text['header-connection']['en-us'] = "Connection";
+$text['header-connection']['vi-vn'] = 'Kết nối';
 $text['header-connection']['en-gb'] = "Connection";
 $text['header-connection']['ar-eg'] = "الاتصال";
 $text['header-connection']['de-at'] = "Verbindung";
@@ -892,6 +925,7 @@ $text['header-connection']['ja-jp'] = "繋がり";
 $text['header-connection']['ko-kr'] = "연결";
 
 $text['header-result']['en-us'] = "Result";
+$text['header-result']['vi-vn'] = 'Kết quả';
 $text['header-result']['en-gb'] = "Result";
 $text['header-result']['ar-eg'] = "النتيجة";
 $text['header-result']['de-at'] = "Ergebnis";
@@ -919,6 +953,7 @@ $text['header-result']['ja-jp'] = "結果";
 $text['header-result']['ko-kr'] = "결과";
 
 $text['description-email_test']['en-us'] = "This is a simple test of your SMTP settings currently configured in Default or Domain Settings. Note: The message sent will not show up in the Email Queue.";
+$text['description-email_test']['vi-vn'] = 'Đây là kiểm tra đơn giản cho thiết lập SMTP hiện được cấu hình trong Default Settings hoặc Domain Settings. Lưu ý: email được gửi sẽ không xuất hiện trong Hàng đợi email.';
 $text['description-email_test']['en-gb'] = "This is a simple test of your SMTP settings currently configured in Default or Domain Settings. Note: The message sent will not show up in the Email Queue.";
 $text['description-email_test']['ar-eg'] = "يعد هذا اختبارًا بسيطًا لإعدادات SMTP التي تم تكوينها حاليًا في الإعدادات الافتراضية أو إعدادات المجال. ملاحظة: لن تظهر الرسالة المرسلة في قائمة انتظار البريد الإلكتروني.";
 $text['description-email_test']['de-at'] = "Dies ist ein einfacher Test Ihrer SMTP-Einstellungen, die derzeit in den Standard- oder Domäneneinstellungen konfiguriert sind. Hinweis: Die gesendete Nachricht wird nicht in der E-Mail-Warteschlange angezeigt.";
@@ -946,6 +981,7 @@ $text['description-email_test']['ja-jp'] = "これは、現在デフォルト設
 $text['description-email_test']['ko-kr'] = "이는 현재 기본 또는 도메인 설정에 구성된 SMTP 설정에 대한 간단한 테스트입니다. 참고: 전송된 메시지는 이메일 대기열에 표시되지 않습니다.";
 
 $text['button-resend']['en-us'] = "Resend";
+$text['button-resend']['vi-vn'] = 'Gửi lại';
 $text['button-resend']['en-gb'] = "Resend";
 $text['button-resend']['ar-eg'] = "إعادة إرسال";
 $text['button-resend']['de-at'] = "Erneut senden";
@@ -973,6 +1009,7 @@ $text['button-resend']['ja-jp'] = "再送信";
 $text['button-resend']['ko-kr'] = "재전송";
 
 $text['modal_title-resend']['en-us'] = "Resend Messages";
+$text['modal_title-resend']['vi-vn'] = 'Gửi lại tin nhắn';
 $text['modal_title-resend']['en-gb'] = "Resend Messages";
 $text['modal_title-resend']['ar-eg'] = "إعادة إرسال البريد الإلكتروني";
 $text['modal_title-resend']['de-at'] = "E-Mail zurücksenden";
@@ -1000,6 +1037,7 @@ $text['modal_title-resend']['ja-jp'] = "メールを再送";
 $text['modal_title-resend']['ko-kr'] = "이메일 재전송";
 
 $text['modal_message-resend']['en-us'] = "You are about to resend the selected messages in the email queue.";
+$text['modal_message-resend']['vi-vn'] = 'Bạn sắp gửi lại các tin nhắn đã chọn trong hàng đợi email.';
 $text['modal_message-resend']['en-gb'] = "You are about to resend the selected messages in the email queue.";
 $text['modal_message-resend']['ar-eg'] = "أنت على وشك إعادة إرسال الرسائل المحددة في قائمة البريد الإلكتروني.";
 $text['modal_message-resend']['de-at'] = "Sie sind dabei, die ausgewählten Nachrichten in der E-Mail-Warteschlange erneut zu senden.";
@@ -1027,6 +1065,7 @@ $text['modal_message-resend']['ja-jp'] = "電子メール キュー内の選択�
 $text['modal_message-resend']['ko-kr'] = "이메일 대기열에서 선택한 메시지를 다시 보내려고 합니다.";
 
 $text['message-resending_messages']['en-us'] = "Resending Message(s)";
+$text['message-resending_messages']['vi-vn'] = 'Đang gửi lại tin nhắn';
 $text['message-resending_messages']['en-gb'] = "Resending Message(s)";
 $text['message-resending_messages']['ar-eg'] = "إعادة إرسال الرسائل";
 $text['message-resending_messages']['de-at'] = "Nachrichten erneut senden";

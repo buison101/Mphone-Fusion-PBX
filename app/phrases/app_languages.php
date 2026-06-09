@@ -1,6 +1,7 @@
 <?php
 
 $text['title-phrases']['en-us'] = "Phrases";
+$text['title-phrases']['vi-vn'] = 'Cụm từ';
 $text['title-phrases']['en-gb'] = "Phrases";
 $text['title-phrases']['ar-eg'] = "الصيغة";
 $text['title-phrases']['de-at'] = "Phrasen";
@@ -28,6 +29,7 @@ $text['title-phrases']['ja-jp'] = "フレーズ";
 $text['title-phrases']['ko-kr'] = "한국어";
 
 $text['title-edit_phrase']['en-us'] = "Edit Phrase";
+$text['title-edit_phrase']['vi-vn'] = 'Sửa cụm âm thanh';
 $text['title-edit_phrase']['en-gb'] = "Edit Phrase";
 $text['title-edit_phrase']['ar-eg'] = "عبارة تحرير";
 $text['title-edit_phrase']['de-at'] = "Phrasen bearbeiten";
@@ -55,6 +57,7 @@ $text['title-edit_phrase']['ja-jp'] = "フレーズの編集";
 $text['title-edit_phrase']['ko-kr'] = "Phrase 편집";
 
 $text['title-add_phrase']['en-us'] = "Add Phrase";
+$text['title-add_phrase']['vi-vn'] = 'Thêm cụm âm thanh';
 $text['title-add_phrase']['en-gb'] = "Add Phrase";
 $text['title-add_phrase']['ar-eg'] = "مضافا إليه:";
 $text['title-add_phrase']['de-at'] = "Phrasen hinzufügen";
@@ -82,6 +85,7 @@ $text['title-add_phrase']['ja-jp'] = "フレーズを追加";
 $text['title-add_phrase']['ko-kr'] = "Phrase 추가";
 
 $text['label-tools']['en-us'] = "Tools";
+$text['label-tools']['vi-vn'] = 'Công cụ';
 $text['label-tools']['en-gb'] = "Tools";
 $text['label-tools']['ar-eg'] = "الأدوات";
 $text['label-tools']['de-at'] = "Funktionen";
@@ -109,6 +113,7 @@ $text['label-tools']['ja-jp'] = "ツール";
 $text['label-tools']['ko-kr'] = "제품정보";
 
 $text['label-structure']['en-us'] = "Structure";
+$text['label-structure']['vi-vn'] = 'Cấu trúc';
 $text['label-structure']['en-gb'] = "Structure";
 $text['label-structure']['ar-eg'] = "الهيكل";
 $text['label-structure']['de-at'] = "Struktur";
@@ -136,6 +141,7 @@ $text['label-structure']['ja-jp'] = "コンテンツ";
 $text['label-structure']['ko-kr'] = "제품 설명";
 
 $text['label-sounds']['en-us'] = "Sounds";
+$text['label-sounds']['vi-vn'] = 'Âm thanh';
 $text['label-sounds']['en-gb'] = "Sounds";
 $text['label-sounds']['ar-eg'] = "الأصوات";
 $text['label-sounds']['de-at'] = "Töne";
@@ -163,6 +169,7 @@ $text['label-sounds']['ja-jp'] = "サウンド";
 $text['label-sounds']['ko-kr'] = "언어 선택";
 
 $text['label-say']['en-us'] = "Say";
+$text['label-say']['vi-vn'] = 'Đọc';
 $text['label-say']['en-gb'] = "Say";
 $text['label-say']['ar-eg'] = "قل";
 $text['label-say']['de-at'] = "Sagen";
@@ -190,6 +197,7 @@ $text['label-say']['ja-jp'] = "お問い合わせ";
 $text['label-say']['ko-kr'] = "이름 *";
 
 $text['label-recordings']['en-us'] = "Recordings";
+$text['label-recordings']['vi-vn'] = 'Bản ghi âm';
 $text['label-recordings']['en-gb'] = "Recordings";
 $text['label-recordings']['ar-eg'] = "السجلات";
 $text['label-recordings']['de-at'] = "Aufnahmen";
@@ -217,6 +225,7 @@ $text['label-recordings']['ja-jp'] = "レコーディング";
 $text['label-recordings']['ko-kr'] = "관련 기사";
 
 $text['label-play']['en-us'] = "Play";
+$text['label-play']['vi-vn'] = 'Phát';
 $text['label-play']['en-gb'] = "Play";
 $text['label-play']['ar-eg'] = "اللعب";
 $text['label-play']['de-at'] = "Abspielen";
@@ -244,6 +253,7 @@ $text['label-play']['ja-jp'] = "プレイ";
 $text['label-play']['ko-kr'] = "뚱 베어";
 
 $text['label-pause']['en-us'] = "Pause";
+$text['label-pause']['vi-vn'] = 'Tạm dừng';
 $text['label-pause']['en-gb'] = "Pause";
 $text['label-pause']['ar-eg'] = "وقف";
 $text['label-pause']['de-at'] = "Pause";
@@ -271,6 +281,7 @@ $text['label-pause']['ja-jp'] = "パデュース";
 $text['label-pause']['ko-kr'] = "팟캐스트";
 
 $text['label-language']['en-us'] = "Language";
+$text['label-language']['vi-vn'] = 'Ngôn ngữ';
 $text['label-language']['en-gb'] = "Language";
 $text['label-language']['ar-eg'] = "اللغة";
 $text['label-language']['de-at'] = "Sprache";
@@ -298,6 +309,7 @@ $text['label-language']['ja-jp'] = "用語集";
 $text['label-language']['ko-kr'] = "이름";
 
 $text['label-function']['en-us'] = "Function";
+$text['label-function']['vi-vn'] = 'Hàm';
 $text['label-function']['en-gb'] = "Function";
 $text['label-function']['ar-eg'] = "المهمة";
 $text['label-function']['de-at'] = "Funktion";
@@ -325,6 +337,7 @@ $text['label-function']['ja-jp'] = "関数";
 $text['label-function']['ko-kr'] = "제품정보";
 
 $text['label-execute']['en-us'] = "Execute";
+$text['label-execute']['vi-vn'] = 'Thực thi';
 $text['label-execute']['en-gb'] = "Execute";
 $text['label-execute']['ar-eg'] = "اعدام";
 $text['label-execute']['de-at'] = "Ausführen";
@@ -352,6 +365,7 @@ $text['label-execute']['ja-jp'] = "実行する";
 $text['label-execute']['ko-kr'] = "지원하다";
 
 $text['label-action']['en-us'] = "Action";
+$text['label-action']['vi-vn'] = 'Thao tác';
 $text['label-action']['en-gb'] = "Action";
 $text['label-action']['ar-eg'] = "الإجراء";
 $text['label-action']['de-at'] = "Aktion";
@@ -379,6 +393,7 @@ $text['label-action']['ja-jp'] = "アクション";
 $text['label-action']['ko-kr'] = "(주)";
 
 $text['header_phrases']['en-us'] = "Phrases";
+$text['header_phrases']['vi-vn'] = 'Cụm từ';
 $text['header_phrases']['en-gb'] = "Phrases";
 $text['header_phrases']['ar-eg'] = "الصيغة";
 $text['header_phrases']['de-at'] = "Phrasen";
@@ -406,6 +421,7 @@ $text['header_phrases']['ja-jp'] = "フレーズ";
 $text['header_phrases']['ko-kr'] = "한국어";
 
 $text['header-edit_phrase']['en-us'] = "Edit Phrase";
+$text['header-edit_phrase']['vi-vn'] = 'Sửa cụm âm thanh';
 $text['header-edit_phrase']['en-gb'] = "Edit Phrase";
 $text['header-edit_phrase']['ar-eg'] = "عبارة تحرير";
 $text['header-edit_phrase']['de-at'] = "Phrasen bearbeiten";
@@ -433,6 +449,7 @@ $text['header-edit_phrase']['ja-jp'] = "フレーズの編集";
 $text['header-edit_phrase']['ko-kr'] = "Phrase 편집";
 
 $text['header-add_phrase']['en-us'] = "Add Phrase";
+$text['header-add_phrase']['vi-vn'] = 'Thêm cụm âm thanh';
 $text['header-add_phrase']['en-gb'] = "Add Phrase";
 $text['header-add_phrase']['ar-eg'] = "مضافا إليه:";
 $text['header-add_phrase']['de-at'] = "Phrasen hinzufügen";
@@ -460,6 +477,7 @@ $text['header-add_phrase']['ja-jp'] = "フレーズを追加";
 $text['header-add_phrase']['ko-kr'] = "Phrase 추가";
 
 $text['description-structure']['en-us'] = "Define the various components that make up the phrase.";
+$text['description-structure']['vi-vn'] = 'Định nghĩa các thành phần tạo nên cụm âm thanh.';
 $text['description-structure']['en-gb'] = "Define the various components that make up the phrase.";
 $text['description-structure']['ar-eg'] = "تحديد مختلف العناصر التي تشكل العبارة.";
 $text['description-structure']['de-at'] = "Definieren Sie die einzelnen Komponenten und fügen Sie diese zu einer Phrase zusammen";
@@ -487,6 +505,7 @@ $text['description-structure']['ja-jp'] = "フレーズを構成するさまざ�
 $text['description-structure']['ko-kr'] = "문구를 만들 수있는 다양한 구성 요소를 정의합니다.";
 
 $text['description-phrases']['en-us'] = "Create phrases of audio files to be played in sequence.";
+$text['description-phrases']['vi-vn'] = 'Tạo cụm gồm các tệp âm thanh để phát theo thứ tự.';
 $text['description-phrases']['en-gb'] = "Create phrases of audio files to be played in sequence.";
 $text['description-phrases']['ar-eg'] = ":: وضع عبارات للملفات الصوتية التي ستُستخدم بالتسلسل.";
 $text['description-phrases']['de-at'] = "Stellen Sie Phrasen aus Audiodateien zusammen, welche sequenziell abgespielt werden.";
@@ -514,6 +533,7 @@ $text['description-phrases']['ja-jp'] = "シーケンスで再生されるオー
 $text['description-phrases']['ko-kr'] = "오디오 파일의 구문을 작성하여 순서대로 재생합니다.";
 
 $text['description-name']['en-us'] = "Name for the phrase (Example: 'xyz_audio')";
+$text['description-name']['vi-vn'] = 'Tên cho cụm âm thanh (ví dụ: \'xyz_audio\')';
 $text['description-name']['en-gb'] = "Name for the phrase (Example: 'xyz_audio')";
 $text['description-name']['ar-eg'] = "الاسم للجملة";
 $text['description-name']['de-at'] = "Geben Sie den Namen der Phrase an (Bsp: 'xyz_audio')";
@@ -541,6 +561,7 @@ $text['description-name']['ja-jp'] = "フレーズの名前(例:'xyz_audio')";
 $text['description-name']['ko-kr'] = "구문 이름 (예 : 'xyz_audio')";
 
 $text['description-language']['en-us'] = "Language used in the phrase.";
+$text['description-language']['vi-vn'] = 'Ngôn ngữ dùng trong cụm âm thanh.';
 $text['description-language']['en-gb'] = "Language used in the phrase.";
 $text['description-language']['ar-eg'] = "اللغة المستخدمة في العبارة.";
 $text['description-language']['de-at'] = "Geben Sie die Sprache an.";
@@ -568,6 +589,7 @@ $text['description-language']['ja-jp'] = "フレーズで使用される言語�
 $text['description-language']['ko-kr'] = "구문에 사용되는 언어.";
 
 $text['description-enabled']['en-us'] = "Set the status of the phrase.";
+$text['description-enabled']['vi-vn'] = 'Đặt trạng thái của cụm âm thanh.';
 $text['description-enabled']['en-gb'] = "Set the status of the phrase.";
 $text['description-enabled']['ar-eg'] = "حدد وضع العبارة";
 $text['description-enabled']['de-at'] = "Setzen Sie den Status dieser Phrase.";

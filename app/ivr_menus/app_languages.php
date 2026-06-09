@@ -1,6 +1,7 @@
 <?php
 
 $text['title-option_edit']['en-us'] = "IVR Menu Option Edit";
+$text['title-option_edit']['vi-vn'] = 'Sửa tùy chọn menu IVR';
 $text['title-option_edit']['en-gb'] = "IVR Menu Option Edit";
 $text['title-option_edit']['ar-eg'] = "تحرير خيار قائمة IVR";
 $text['title-option_edit']['de-at'] = "Optionen der Automatischen Vermittlung bearbeiten";
@@ -28,6 +29,7 @@ $text['title-option_edit']['ja-jp'] = "IVRについて メニューオプショ�
 $text['title-option_edit']['ko-kr'] = "아이VR 메뉴 옵션 편집";
 
 $text['title-option_add']['en-us'] = "IVR Menu Option Add";
+$text['title-option_add']['vi-vn'] = 'Thêm tùy chọn menu IVR';
 $text['title-option_add']['en-gb'] = "IVR Menu Option Add";
 $text['title-option_add']['ar-eg'] = "خيار قائمة الطعام";
 $text['title-option_add']['de-at'] = "Optionen der Automatischen Vermittlung hinzufügen";
@@ -55,6 +57,7 @@ $text['title-option_add']['ja-jp'] = "IVR メニュー オプションの追加"
 $text['title-option_add']['ko-kr'] = "IVR 메뉴 옵션 추가";
 
 $text['title-ivr_menus']['en-us'] = "IVR Menus";
+$text['title-ivr_menus']['vi-vn'] = 'Menu IVR';
 $text['title-ivr_menus']['en-gb'] = "IVR Menus";
 $text['title-ivr_menus']['ar-eg'] = "قوائم IVR";
 $text['title-ivr_menus']['de-at'] = "Automatische Vermittlungen";
@@ -82,6 +85,7 @@ $text['title-ivr_menus']['ja-jp'] = "IVRメニュー";
 $text['title-ivr_menus']['ko-kr'] = "IVR 메뉴";
 
 $text['title-ivr_menu']['en-us'] = "IVR Menu";
+$text['title-ivr_menu']['vi-vn'] = 'Menu IVR';
 $text['title-ivr_menu']['en-gb'] = "IVR Menu";
 $text['title-ivr_menu']['ar-eg'] = "قائمة العاج";
 $text['title-ivr_menu']['de-at'] = "Automatische Vermittlung";
@@ -109,6 +113,7 @@ $text['title-ivr_menu']['ja-jp'] = "IVRメニュー";
 $text['title-ivr_menu']['ko-kr'] = "IVR 메뉴";
 
 $text['title-ivr_menus_sub']['en-us'] = "IVR Menus - Sub";
+$text['title-ivr_menus_sub']['vi-vn'] = 'Menu IVR - phụ';
 $text['title-ivr_menus_sub']['en-gb'] = "IVR Menus - Sub";
 $text['title-ivr_menus_sub']['ar-eg'] = "قوائم الرد الصوتي التفاعلي - فرعية";
 $text['title-ivr_menus_sub']['de-at'] = "Automatische Vermittlungen - Sub";
@@ -136,6 +141,7 @@ $text['title-ivr_menus_sub']['ja-jp'] = "IVR メニュー - サブ";
 $text['title-ivr_menus_sub']['ko-kr'] = "IVR 메뉴 - 하위";
 
 $text['title-ivr_menus_other']['en-us'] = "IVR Menus - Other";
+$text['title-ivr_menus_other']['vi-vn'] = 'Menu IVR - khác';
 $text['title-ivr_menus_other']['en-gb'] = "IVR Menus - Other";
 $text['title-ivr_menus_other']['ar-eg'] = "IVR مينوس أخرى";
 $text['title-ivr_menus_other']['de-at'] = "Automatische Vermittlungen - Other";
@@ -163,6 +169,7 @@ $text['title-ivr_menus_other']['ja-jp'] = "IVR メニュー - その他";
 $text['title-ivr_menus_other']['ko-kr'] = "IVR 메뉴 - 기타";
 
 $text['option-exit']['en-us'] = "Exit";
+$text['option-exit']['vi-vn'] = 'Thoát';
 $text['option-exit']['en-gb'] = "Exit";
 $text['option-exit']['ar-eg'] = "مخرج";
 $text['option-exit']['de-at'] = "Aus";
@@ -190,6 +197,7 @@ $text['option-exit']['ja-jp'] = "出口";
 $text['option-exit']['ko-kr'] = "출구";
 
 $text['option-top']['en-us'] = "Top";
+$text['option-top']['vi-vn'] = 'Trên';
 $text['option-top']['en-gb'] = "Top";
 $text['option-top']['ar-eg'] = "القمة";
 $text['option-top']['de-at'] = "Kopf";
@@ -217,6 +225,7 @@ $text['option-top']['ja-jp'] = "上";
 $text['option-top']['ko-kr'] = "맨 위";
 
 $text['option-back']['en-us'] = "Back";
+$text['option-back']['vi-vn'] = 'Quay lại';
 $text['option-back']['en-gb'] = "Back";
 $text['option-back']['ar-eg'] = "العودة";
 $text['option-back']['de-at'] = "Zurück";
@@ -244,6 +253,7 @@ $text['option-back']['ja-jp'] = "戻る";
 $text['option-back']['ko-kr'] = "뒤쪽에";
 
 $text['message-maximum_ivr_menus']['en-us'] = "Maximum IVR Menus:";
+$text['message-maximum_ivr_menus']['vi-vn'] = 'Số menu IVR tối đa:';
 $text['message-maximum_ivr_menus']['en-gb'] = "Maximum IVR Menus:";
 $text['message-maximum_ivr_menus']['ar-eg'] = "الحد الأقصى للفئة الرابعة مينوس:";
 $text['message-maximum_ivr_menus']['de-at'] = "Maximale Anzahl an Automatischen Vermittlungen:";
@@ -271,6 +281,7 @@ $text['message-maximum_ivr_menus']['ja-jp'] = "最大 IVR メニュー:";
 $text['message-maximum_ivr_menus']['ko-kr'] = "최대 IVR 메뉴:";
 
 $text['label-tts_voice']['en-us'] = "TTS Voice";
+$text['label-tts_voice']['vi-vn'] = 'Giọng TTS';
 $text['label-tts_voice']['en-gb'] = "TTS Voice";
 $text['label-tts_voice']['ar-eg'] = "TTS الصوت";
 $text['label-tts_voice']['de-at'] = "TTS Sprache";
@@ -298,6 +309,7 @@ $text['label-tts_voice']['ja-jp'] = "テキスト読み上げ音声";
 $text['label-tts_voice']['ko-kr'] = "텍스트 음성 변환 음성";
 
 $text['label-tts_engine']['en-us'] = "TTS Engine";
+$text['label-tts_engine']['vi-vn'] = 'Công cụ TTS';
 $text['label-tts_engine']['en-gb'] = "TTS Engine";
 $text['label-tts_engine']['ar-eg'] = "المحرك";
 $text['label-tts_engine']['de-at'] = "TTS Generator";
@@ -325,6 +337,7 @@ $text['label-tts_engine']['ja-jp'] = "TTSエンジン";
 $text['label-tts_engine']['ko-kr'] = "TTS 엔진";
 
 $text['label-timeout']['en-us'] = "Timeout";
+$text['label-timeout']['vi-vn'] = 'Thời gian chờ';
 $text['label-timeout']['en-gb'] = "Timeout";
 $text['label-timeout']['ar-eg'] = "الوقت";
 $text['label-timeout']['de-at'] = "Zeitbeschränkung";
@@ -352,6 +365,7 @@ $text['label-timeout']['ja-jp'] = "タイムアウト";
 $text['label-timeout']['ko-kr'] = "타임아웃";
 
 $text['label-ring_back']['en-us'] = "Ring Back";
+$text['label-ring_back']['vi-vn'] = 'Ringback';
 $text['label-ring_back']['en-gb'] = "Ring Back";
 $text['label-ring_back']['ar-eg'] = "العودة";
 $text['label-ring_back']['de-at'] = "Wählton";
@@ -379,6 +393,7 @@ $text['label-ring_back']['ja-jp'] = "リングバック";
 $text['label-ring_back']['ko-kr'] = "링백";
 
 $text['label-options']['en-us'] = "Options";
+$text['label-options']['vi-vn'] = 'Tùy chọn';
 $text['label-options']['en-gb'] = "Options";
 $text['label-options']['ar-eg'] = "الخيارات";
 $text['label-options']['de-at'] = "Optionen";
@@ -406,6 +421,7 @@ $text['label-options']['ja-jp'] = "オプション";
 $text['label-options']['ko-kr'] = "옵션";
 
 $text['label-option']['en-us'] = "Option";
+$text['label-option']['vi-vn'] = 'Tùy chọn';
 $text['label-option']['en-gb'] = "Option";
 $text['label-option']['ar-eg'] = "الخيار";
 $text['label-option']['de-at'] = "Möglichkeit";
@@ -433,6 +449,7 @@ $text['label-option']['ja-jp'] = "オプション";
 $text['label-option']['ko-kr'] = "옵션";
 
 $text['label-max_timeouts']['en-us'] = "Max Timeouts";
+$text['label-max_timeouts']['vi-vn'] = 'Số timeout tối đa';
 $text['label-max_timeouts']['en-gb'] = "Max Timeouts";
 $text['label-max_timeouts']['ar-eg'] = "ماكس تايمز";
 $text['label-max_timeouts']['de-at'] = "Max Zeitbeschränkung";
@@ -460,6 +477,7 @@ $text['label-max_timeouts']['ja-jp'] = "最大タイムアウト数";
 $text['label-max_timeouts']['ko-kr'] = "최대 시간 제한";
 
 $text['label-max_failures']['en-us'] = "Max Failures";
+$text['label-max_failures']['vi-vn'] = 'Số lỗi tối đa';
 $text['label-max_failures']['en-gb'] = "Max Failures";
 $text['label-max_failures']['ar-eg'] = "أقصى عدد من حالات الفشل";
 $text['label-max_failures']['de-at'] = "Max Fehlversuche";
@@ -487,6 +505,7 @@ $text['label-max_failures']['ja-jp'] = "最大失敗数";
 $text['label-max_failures']['ko-kr'] = "최대 실패";
 
 $text['label-invalid_sound']['en-us'] = "Invalid Sound";
+$text['label-invalid_sound']['vi-vn'] = 'Âm báo không hợp lệ';
 $text['label-invalid_sound']['en-gb'] = "Invalid Sound";
 $text['label-invalid_sound']['ar-eg'] = "الصوت الخفي";
 $text['label-invalid_sound']['de-at'] = "Ungültiger Ton";
@@ -514,6 +533,7 @@ $text['label-invalid_sound']['ja-jp'] = "無効なサウンド";
 $text['label-invalid_sound']['ko-kr'] = "잘못된 소리";
 
 $text['label-inter-digit_timeout']['en-us'] = "Inter-Digit Timeout";
+$text['label-inter-digit_timeout']['vi-vn'] = 'Timeout giữa các phím';
 $text['label-inter-digit_timeout']['en-gb'] = "Inter-Digit Timeout";
 $text['label-inter-digit_timeout']['ar-eg'] = "الجدول الزمني المشترك";
 $text['label-inter-digit_timeout']['de-at'] = "Time-Out zwischen Tastendrucke";
@@ -541,6 +561,7 @@ $text['label-inter-digit_timeout']['ja-jp'] = "桁間タイムアウト";
 $text['label-inter-digit_timeout']['ko-kr'] = "숫자 간 시간 초과";
 
 $text['label-greet_short']['en-us'] = "Greet Short";
+$text['label-greet_short']['vi-vn'] = 'Lời chào ngắn';
 $text['label-greet_short']['en-gb'] = "Greet Short";
 $text['label-greet_short']['ar-eg'] = "تحية قصيرة";
 $text['label-greet_short']['de-at'] = "Begrüßung kurz";
@@ -568,6 +589,7 @@ $text['label-greet_short']['ja-jp'] = "短い挨拶";
 $text['label-greet_short']['ko-kr'] = "짧은 인사";
 
 $text['label-greet_long']['en-us'] = "Greet Long";
+$text['label-greet_long']['vi-vn'] = 'Lời chào dài';
 $text['label-greet_long']['en-gb'] = "Greet Long";
 $text['label-greet_long']['ar-eg'] = "(جراند لونغ)";
 $text['label-greet_long']['de-at'] = "Begrüßung lang";
@@ -595,6 +617,7 @@ $text['label-greet_long']['ja-jp'] = "長い挨拶";
 $text['label-greet_long']['ko-kr'] = "긴 인사";
 
 $text['label-extension']['en-us'] = "Extension";
+$text['label-extension']['vi-vn'] = 'Máy nhánh';
 $text['label-extension']['en-gb'] = "Extension";
 $text['label-extension']['ar-eg'] = "التمديد";
 $text['label-extension']['de-at'] = "Nebenstelle";
@@ -622,6 +645,7 @@ $text['label-extension']['ja-jp'] = "拡大";
 $text['label-extension']['ko-kr'] = "확대";
 
 $text['label-ivr_menu_parent_uuid']['en-us'] = "Parent Menu";
+$text['label-ivr_menu_parent_uuid']['vi-vn'] = 'Menu cha';
 $text['label-ivr_menu_parent_uuid']['en-gb'] = "Parent Menu";
 $text['label-ivr_menu_parent_uuid']['ar-eg'] = "الوالد مينو";
 $text['label-ivr_menu_parent_uuid']['de-at'] = "Übergeordnetes Menü";
@@ -649,6 +673,7 @@ $text['label-ivr_menu_parent_uuid']['ja-jp'] = "親メニュー";
 $text['label-ivr_menu_parent_uuid']['ko-kr'] = "학부모 메뉴";
 
 $text['label-exit_sound']['en-us'] = "Exit Sound";
+$text['label-exit_sound']['vi-vn'] = 'Âm khi thoát';
 $text['label-exit_sound']['en-gb'] = "Exit Sound";
 $text['label-exit_sound']['ar-eg'] = "صوت الخروج";
 $text['label-exit_sound']['de-at'] = "Ton bei Verlassen";
@@ -676,6 +701,7 @@ $text['label-exit_sound']['ja-jp'] = "終了音";
 $text['label-exit_sound']['ko-kr'] = "종료음";
 
 $text['label-exit_action']['en-us'] = "Exit Action";
+$text['label-exit_action']['vi-vn'] = 'Hành động thoát';
 $text['label-exit_action']['en-gb'] = "Exit Action";
 $text['label-exit_action']['ar-eg'] = "الإجراء الخاص بالمنفاذ";
 $text['label-exit_action']['de-at'] = "Aktion bei Verlassen";
@@ -703,6 +729,7 @@ $text['label-exit_action']['ja-jp'] = "終了アクション";
 $text['label-exit_action']['ko-kr'] = "종료 작업";
 
 $text['label-direct_dial']['en-us'] = "Direct Dial";
+$text['label-direct_dial']['vi-vn'] = 'Quay trực tiếp';
 $text['label-direct_dial']['en-gb'] = "Direct Dial";
 $text['label-direct_dial']['ar-eg'] = "Dial Direct Dial";
 $text['label-direct_dial']['de-at'] = "Direkte Wahl";
@@ -730,6 +757,7 @@ $text['label-direct_dial']['ja-jp'] = "直通";
 $text['label-direct_dial']['ko-kr'] = "직통전화";
 
 $text['label-digit_length']['en-us'] = "Digit Length";
+$text['label-digit_length']['vi-vn'] = 'Độ dài chữ số';
 $text['label-digit_length']['en-gb'] = "Digit Length";
 $text['label-digit_length']['ar-eg'] = "طول الرقم";
 $text['label-digit_length']['de-at'] = "Ziffernlänge";
@@ -757,6 +785,7 @@ $text['label-digit_length']['ja-jp'] = "桁の長さ";
 $text['label-digit_length']['ko-kr'] = "자릿수 길이";
 
 $text['label-destination']['en-us'] = "Destination";
+$text['label-destination']['vi-vn'] = 'Đích';
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "الوجهة";
 $text['label-destination']['de-at'] = "Ziel";
@@ -784,6 +813,7 @@ $text['label-destination']['ja-jp'] = "行き先";
 $text['label-destination']['ko-kr'] = "목적지";
 
 $text['label-pin_number']['en-us'] = "Pin Number";
+$text['label-pin_number']['vi-vn'] = 'Số PIN';
 $text['label-pin_number']['en-gb'] = "Pin Number";
 $text['label-pin_number']['ar-eg'] = "الرقم السري";
 $text['label-pin_number']['de-at'] = "PIN Nummer";
@@ -811,6 +841,7 @@ $text['label-pin_number']['ja-jp'] = "ピン番号";
 $text['label-pin_number']['ko-kr'] = "핀 번호";
 
 $text['label-comfirm_macro']['en-us'] = "Confirm Macro";
+$text['label-comfirm_macro']['vi-vn'] = 'Macro xác nhận';
 $text['label-comfirm_macro']['en-gb'] = "Confirm Macro";
 $text['label-comfirm_macro']['ar-eg'] = "قم بتأكيد الماكرو";
 $text['label-comfirm_macro']['de-at'] = "Bestätigungs Makro";
@@ -838,6 +869,7 @@ $text['label-comfirm_macro']['ja-jp'] = "マクロの確認";
 $text['label-comfirm_macro']['ko-kr'] = "매크로 확인";
 
 $text['label-comfirm_key']['en-us'] = "Confirm Key";
+$text['label-comfirm_key']['vi-vn'] = 'Phím xác nhận';
 $text['label-comfirm_key']['en-gb'] = "Confirm Key";
 $text['label-comfirm_key']['ar-eg'] = "مفتاح تأكيد";
 $text['label-comfirm_key']['de-at'] = "Bestätigungs Schlüssel";
@@ -865,6 +897,7 @@ $text['label-comfirm_key']['ja-jp'] = "キーの確認";
 $text['label-comfirm_key']['ko-kr'] = "키 확인";
 
 $text['label-comfirm_attempts']['en-us'] = "Confirm Attempts";
+$text['label-comfirm_attempts']['vi-vn'] = 'Số lần thử xác nhận';
 $text['label-comfirm_attempts']['en-gb'] = "Confirm Attempts";
 $text['label-comfirm_attempts']['ar-eg'] = "تأكيد المحاولات";
 $text['label-comfirm_attempts']['de-at'] = "Bestätigungs Versuche";
@@ -892,6 +925,7 @@ $text['label-comfirm_attempts']['ja-jp'] = "試行の確認";
 $text['label-comfirm_attempts']['ko-kr'] = "시도 확인";
 
 $text['label-caller_id_name_prefix']['en-us'] = "Caller ID Name Prefix";
+$text['label-caller_id_name_prefix']['vi-vn'] = 'Tiền tố tên Caller ID';
 $text['label-caller_id_name_prefix']['en-gb'] = "Caller ID Name Prefix";
 $text['label-caller_id_name_prefix']['ar-eg'] = "اسم المتصل بريفيكس";
 $text['label-caller_id_name_prefix']['de-at'] = "Anruferkennung (Name) Prefix";
@@ -919,6 +953,7 @@ $text['label-caller_id_name_prefix']['ja-jp'] = "発信者ID名プレフィッ�
 $text['label-caller_id_name_prefix']['ko-kr'] = "발신자 ID 이름 접두사";
 
 $text['label-copy']['en-us'] = "Copy";
+$text['label-copy']['vi-vn'] = 'Sao chép';
 $text['label-copy']['en-gb'] = "Copy";
 $text['label-copy']['ar-eg'] = "ينسخ";
 $text['label-copy']['de-at'] = "Kopieren";
@@ -946,6 +981,7 @@ $text['label-copy']['ja-jp'] = "コピー";
 $text['label-copy']['ko-kr'] = "복사";
 
 $text['header-option_list']['en-us'] = "Option List";
+$text['header-option_list']['vi-vn'] = 'Danh sách tùy chọn';
 $text['header-option_list']['en-gb'] = "Option List";
 $text['header-option_list']['ar-eg'] = "قائمة الخيارات";
 $text['header-option_list']['de-at'] = "Optionsliste";
@@ -973,6 +1009,7 @@ $text['header-option_list']['ja-jp'] = "オプション一覧";
 $text['header-option_list']['ko-kr'] = "옵션 목록";
 
 $text['header-option_edit']['en-us'] = "IVR Menu Option Edit";
+$text['header-option_edit']['vi-vn'] = 'Sửa tùy chọn menu IVR';
 $text['header-option_edit']['en-gb'] = "IVR Menu Option Edit";
 $text['header-option_edit']['ar-eg'] = "تحرير خيار قائمة IVR";
 $text['header-option_edit']['de-at'] = "Optionen der Automatischen Vermittlung bearbeiten";
@@ -1000,6 +1037,7 @@ $text['header-option_edit']['ja-jp'] = "IVRについて メニューオプショ
 $text['header-option_edit']['ko-kr'] = "아이VR 메뉴 옵션 편집";
 
 $text['header-option_add']['en-us'] = "IVR Menu Option Add";
+$text['header-option_add']['vi-vn'] = 'Thêm tùy chọn menu IVR';
 $text['header-option_add']['en-gb'] = "IVR Menu Option Add";
 $text['header-option_add']['ar-eg'] = "خيار قائمة الطعام";
 $text['header-option_add']['de-at'] = "Optionen der Automatischen Vermittlung hinzufügen";
@@ -1027,6 +1065,7 @@ $text['header-option_add']['ja-jp'] = "IVR メニュー オプションの追加
 $text['header-option_add']['ko-kr'] = "IVR 메뉴 옵션 추가";
 
 $text['header-ivr_menus']['en-us'] = "IVR Menus";
+$text['header-ivr_menus']['vi-vn'] = 'Menu IVR';
 $text['header-ivr_menus']['en-gb'] = "IVR Menus";
 $text['header-ivr_menus']['ar-eg'] = "قوائم IVR";
 $text['header-ivr_menus']['de-at'] = "Automatische Vermittlungen";
@@ -1054,6 +1093,7 @@ $text['header-ivr_menus']['ja-jp'] = "IVRメニュー";
 $text['header-ivr_menus']['ko-kr'] = "IVR 메뉴";
 
 $text['header-ivr_menu']['en-us'] = "IVR Menu";
+$text['header-ivr_menu']['vi-vn'] = 'Menu IVR';
 $text['header-ivr_menu']['en-gb'] = "IVR Menu";
 $text['header-ivr_menu']['ar-eg'] = "قائمة العاج";
 $text['header-ivr_menu']['de-at'] = "Automatische Vermittlung";
@@ -1081,6 +1121,7 @@ $text['header-ivr_menu']['ja-jp'] = "IVRメニュー";
 $text['header-ivr_menu']['ko-kr'] = "IVR 메뉴";
 
 $text['description-tts_voice']['en-us'] = "Text to speech voice.";
+$text['description-tts_voice']['vi-vn'] = 'Giọng text-to-speech.';
 $text['description-tts_voice']['en-gb'] = "Text to speech voice.";
 $text['description-tts_voice']['ar-eg'] = "نص لصوت الخطاب";
 $text['description-tts_voice']['de-at'] = "'Text To Speech' Stimme.";
@@ -1108,6 +1149,7 @@ $text['description-tts_voice']['ja-jp'] = "テキスト読み上げ音声。";
 $text['description-tts_voice']['ko-kr'] = "텍스트 음성 변환.";
 
 $text['description-tts_engine']['en-us'] = "Text to speech engine.";
+$text['description-tts_engine']['vi-vn'] = 'Công cụ text-to-speech.';
 $text['description-tts_engine']['en-gb'] = "Text to speech engine.";
 $text['description-tts_engine']['ar-eg'] = "نص لمحرك الخطاب";
 $text['description-tts_engine']['de-at'] = "'Text To Speech' Generator.";
@@ -1135,6 +1177,7 @@ $text['description-tts_engine']['ja-jp'] = "テキスト読み上げエンジン
 $text['description-tts_engine']['ko-kr'] = "텍스트 음성 변환 엔진.";
 
 $text['description-timeout']['en-us'] = "The number of milliseconds to wait after playing the greeting or the confirm macro.";
+$text['description-timeout']['vi-vn'] = 'Số mili giây chờ sau khi phát lời chào hoặc macro xác nhận.';
 $text['description-timeout']['en-gb'] = "The number of milliseconds to wait after playing the greeting or the confirm macro.";
 $text['description-timeout']['ar-eg'] = 'عدد الـ "ميل ثانية" للانتظار بعد لعب التحية أو التأكيد';
 $text['description-timeout']['de-at'] = "Wartezeit in Millisekunden nach abspielen der Begrüßung oder des Bestätigungs-Makros";
@@ -1162,6 +1205,7 @@ $text['description-timeout']['ja-jp'] = "挨拶または確認マクロの再生
 $text['description-timeout']['ko-kr'] = "인사말 또는 확인 매크로를 재생한 후 대기하는 시간(밀리초)입니다.";
 
 $text['description-ring_back']['en-us'] = "Defines what the caller will hear while the destination is being called.";
+$text['description-ring_back']['vi-vn'] = 'Xác định âm thanh người gọi sẽ nghe trong khi đích đang được gọi.';
 $text['description-ring_back']['en-gb'] = "Defines what the caller will hear while the destination is being called.";
 $text['description-ring_back']['ar-eg'] = "يحدد ما سيسمعه المتصل بينما يتم استدعاء الوجهة";
 $text['description-ring_back']['de-at'] = "Definiert was der Anrufer hört wenn das Ziel angerufen wird.";
@@ -1189,6 +1233,7 @@ $text['description-ring_back']['ja-jp'] = "宛先への通話中に発信者に�
 $text['description-ring_back']['ko-kr'] = "목적지가 호출되는 동안 발신자가 듣게 될 내용을 정의합니다.";
 
 $text['description-order']['en-us'] = "Select the order.";
+$text['description-order']['vi-vn'] = 'Chọn thứ tự.';
 $text['description-order']['en-gb'] = "Select the order.";
 $text['description-order']['ar-eg'] = "إختار الطلب";
 $text['description-order']['de-at'] = "Wählen Sie die Reihenfolge.";
@@ -1216,6 +1261,7 @@ $text['description-order']['ja-jp'] = "注文を選択します。";
 $text['description-order']['ko-kr'] = "주문을 선택합니다.";
 
 $text['description-options']['en-us'] = "Define caller options for the IVR menu.";
+$text['description-options']['vi-vn'] = 'Định nghĩa các tùy chọn cho người gọi trong menu IVR.';
 $text['description-options']['en-gb'] = "Define caller options for the IVR menu.";
 $text['description-options']['ar-eg'] = "تحديد خيارات المُتصلين للقائمة";
 $text['description-options']['de-at'] = "Geben Sie Anrufer Optionen für die Automatische Vermittlung an.";
@@ -1243,6 +1289,7 @@ $text['description-options']['ja-jp'] = "IVR メニューの発信者オプシ�
 $text['description-options']['ko-kr'] = "IVR 메뉴에 대한 발신자 옵션을 정의합니다.";
 
 $text['description-option_list']['en-us'] = "The recording presents options to the caller. Options match key presses (DTMF digits) from the caller which directs the call to the destinations.";
+$text['description-option_list']['vi-vn'] = 'Bản ghi âm trình bày các tùy chọn cho người gọi. Tùy chọn khớp với phím bấm (chữ số DTMF) của người gọi để chuyển cuộc gọi đến các đích.';
 $text['description-option_list']['en-gb'] = "The recording presents options to the caller. Options match key presses (DTMF digits) from the caller which directs the call to the destinations.";
 $text['description-option_list']['ar-eg'] = "التسجيل يقدم خيارات للمتصل وتتطابق الخيارات مع الصحافة الرئيسية (أرقام الصندوق) من جهاز الاتصال الذي يوجه النداء إلى الوجهات.";
 $text['description-option_list']['de-at'] = "Die Aufnahme bietet dem Anrufer optionen an. Diese Optionen müssen den Tastendrücken entsprechen die den Anrufer an das entsprechende Ziel führen.";
@@ -1270,6 +1317,7 @@ $text['description-option_list']['ja-jp'] = "録音により、発信者にオ�
 $text['description-option_list']['ko-kr'] = "녹음은 발신자에게 옵션을 제공합니다. 옵션은 통화를 대상으로 보내는 발신자의 키 누름(DTMF 숫자)과 일치합니다.";
 
 $text['description-option_add_edit']['en-us'] = "The recording presents options to the caller. Options match key presses (DTMF digits) from the caller which directs the call to the destinations. ";
+$text['description-option_add_edit']['vi-vn'] = 'Bản ghi âm trình bày các tùy chọn cho người gọi. Tùy chọn khớp với phím bấm (chữ số DTMF) của người gọi để chuyển cuộc gọi đến các đích. ';
 $text['description-option_add_edit']['en-gb'] = "The recording presents options to the caller. Options match key presses (DTMF digits) from the caller which directs the call to the destinations. ";
 $text['description-option_add_edit']['ar-eg'] = "التسجيل يقدم خيارات للمتصل وتتطابق الخيارات مع الصحافة الرئيسية (أرقام الصندوق) من جهاز الاتصال الذي يوجه النداء إلى الوجهات.";
 $text['description-option_add_edit']['de-at'] = "Die Aufnahme bietet dem Anrufer optionen an. Diese Optionen müssen den Tastendrücken entsprechen die den Anrufer an das entsprechende Ziel führen.";
@@ -1297,6 +1345,7 @@ $text['description-option_add_edit']['ja-jp'] = "録音により、発信者に�
 $text['description-option_add_edit']['ko-kr'] = "녹음은 발신자에게 옵션을 제공합니다. 옵션은 통화를 대상으로 보내는 발신자의 키 누름(DTMF 숫자)과 일치합니다.";
 
 $text['description-option']['en-us'] = "Any number between 1-5 digits or regular expressions.";
+$text['description-option']['vi-vn'] = 'Bất kỳ số nào từ 1-5 chữ số hoặc biểu thức chính quy.';
 $text['description-option']['en-gb'] = "Any number between 1-5 digits or regular expressions.";
 $text['description-option']['ar-eg'] = "أي رقم يتراوح بين 1-5 رقم أو تعبيرات منتظمة.";
 $text['description-option']['de-at'] = "Eine beliebige Nummer von 1 und 5 Ziffern Länge oder ein Regulärer Ausdruck.";
@@ -1324,6 +1373,7 @@ $text['description-option']['ja-jp'] = "1 ～ 5 桁の数値または正規表�
 $text['description-option']['ko-kr'] = "1-5자리 숫자 또는 정규식.";
 
 $text['description-name']['en-us'] = "Enter a name for the IVR menu.";
+$text['description-name']['vi-vn'] = 'Nhập tên cho menu IVR.';
 $text['description-name']['en-gb'] = "Enter a name for the IVR menu.";
 $text['description-name']['ar-eg'] = "أدخلي اسم لقائمة الطوارئ";
 $text['description-name']['de-at'] = "Geben Sie den Namen der Automatischen Vermittlung an";
@@ -1351,6 +1401,7 @@ $text['description-name']['ja-jp'] = "IVR メニューの名前を入力しま�
 $text['description-name']['ko-kr'] = "IVR 메뉴의 이름을 입력합니다.";
 
 $text['description-max_timeouts']['en-us'] = "Maximum number of timeouts before exit.";
+$text['description-max_timeouts']['vi-vn'] = 'Số lần timeout tối đa trước khi thoát.';
 $text['description-max_timeouts']['en-gb'] = "Maximum number of timeouts before exit.";
 $text['description-max_timeouts']['ar-eg'] = "أكبر عدد من الوقت قبل الخروج";
 $text['description-max_timeouts']['de-at'] = "Maximale Anzahl an Abwürfen bevor beendet werden soll.";
@@ -1378,6 +1429,7 @@ $text['description-max_timeouts']['ja-jp'] = "終了するまでのタイムア�
 $text['description-max_timeouts']['ko-kr'] = "종료 전 최대 제한 시간 수입니다.";
 
 $text['description-max_failures']['en-us'] = "Maximum number of retries before exit.";
+$text['description-max_failures']['vi-vn'] = 'Số lần thử lại tối đa trước khi thoát.';
 $text['description-max_failures']['en-gb'] = "Maximum number of retries before exit.";
 $text['description-max_failures']['ar-eg'] = "أكبر عدد من الفحوصات قبل الخروج";
 $text['description-max_failures']['de-at'] = "Maximale Anzahl an Widerholungen bevor beendet werden soll.";
@@ -1405,6 +1457,7 @@ $text['description-max_failures']['ja-jp'] = "終了するまでの最大再試�
 $text['description-max_failures']['ko-kr'] = "종료 전 최대 재시도 횟수입니다.";
 
 $text['description-ivr_menus']['en-us'] = "The IVR Menu plays a recording or a pre-defined phrase that presents the caller with options to choose from. Each option has a corresponding destination. The destinations can be extensions, voicemail, other IVR menus, call groups, FAX extensions, and more.";
+$text['description-ivr_menus']['vi-vn'] = 'Menu IVR phát một bản ghi âm hoặc cụm từ đã định nghĩa sẵn để trình bày các tùy chọn cho người gọi. Mỗi tùy chọn có một đích tương ứng. Đích có thể là máy nhánh, thư thoại, menu IVR khác, nhóm gọi, máy nhánh FAX và nhiều mục khác.';
 $text['description-ivr_menus']['en-gb'] = "The IVR Menu plays a recording or a pre-defined phrase that presents the caller with options to choose from. Each option has a corresponding destination. The destinations can be extensions, voicemail, other IVR menus, call groups, FAX extensions, and more.";
 $text['description-ivr_menus']['ar-eg'] = "The IVR (مينو) يعزف تسجيلاً أو عبارة محددة مسبقاً تعرض على المتصل خيارات للاختيار منها ولكل خيار وجهة مقابلة. ويمكن أن تكون الوجهات هي التمديدات، والبريد الصوتي، وأجهزة الاتصال الأخرى، ومجموعات الاتصال، وتمديدات الخدمة الميدانية، والأكثر.";
 $text['description-ivr_menus']['de-at'] = "Die Automatische Vermittlung spielt eine Aufnahme oder eine vordefinierte Phrase ab von welcher der Anrufe seine Optionen wählt. Jede Option hat ein entsprechendes Ziel. Das Ziel kann eine Nebenstelle, eine Mailbox eine andere Automatische Vermittlung, Rufgruppen, Fax Server und weitere Funktionen sein.";
@@ -1432,6 +1485,7 @@ $text['description-ivr_menus']['ja-jp'] = "IVR メニューでは、録音また
 $text['description-ivr_menus']['ko-kr'] = "IVR 메뉴는 발신자에게 선택할 수 있는 옵션을 제공하는 녹음 또는 미리 정의된 문구를 재생합니다. 각 옵션에는 해당 대상이 있습니다. 대상은 내선 번호, 음성 메일, 기타 IVR 메뉴, 통화 그룹, FAX 내선 번호 등이 될 수 있습니다.";
 
 $text['description-ivr_menu']['en-us'] = "The IVR Menu plays a recording or a pre-defined phrase that presents the caller with options to choose from. Each option has a corresponding destination. The destinations can be extensions, voicemail, other IVR menus, call groups, FAX extensions, and more.";
+$text['description-ivr_menu']['vi-vn'] = 'Menu IVR phát một bản ghi âm hoặc cụm từ đã định nghĩa sẵn để trình bày các tùy chọn cho người gọi. Mỗi tùy chọn có một đích tương ứng. Đích có thể là máy nhánh, thư thoại, menu IVR khác, nhóm gọi, máy nhánh FAX và nhiều mục khác.';
 $text['description-ivr_menu']['en-gb'] = "The IVR Menu plays a recording or a pre-defined phrase that presents the caller with options to choose from. Each option has a corresponding destination. The destinations can be extensions, voicemail, other IVR menus, call groups, FAX extensions, and more.";
 $text['description-ivr_menu']['ar-eg'] = "The IVR (مينو) يعزف تسجيلاً أو عبارة محددة مسبقاً تعرض على المتصل خيارات للاختيار منها ولكل خيار وجهة مقابلة. ويمكن أن تكون الوجهات هي التمديدات، والبريد الصوتي، وأجهزة الاتصال الأخرى، ومجموعات الاتصال، وتمديدات الخدمة الميدانية، والأكثر.";
 $text['description-ivr_menu']['de-at'] = "Die Automatische Vermittlung spielt eine Aufnahme oder eine vordefinierte Phrase ab von welcher der Anrufe seine Optionen wählt. Jede Option hat ein entsprechendes Ziel. Das Ziel kann eine Nebenstelle, eine Mailbox eine andere Automatische Vermittlung, Rufgruppen, Fax Server und weitere Funktionen sein.";
@@ -1459,6 +1513,7 @@ $text['description-ivr_menu']['ja-jp'] = "IVR メニューでは、録音また�
 $text['description-ivr_menu']['ko-kr'] = "IVR 메뉴는 발신자에게 선택할 수 있는 옵션을 제공하는 녹음 또는 미리 정의된 문구를 재생합니다. 각 옵션에는 해당 대상이 있습니다. 대상은 내선 번호, 음성 메일, 기타 IVR 메뉴, 통화 그룹, FAX 내선 번호 등이 될 수 있습니다.";
 
 $text['description-invalid_sound']['en-us'] = "Played when and invalid option is chosen.";
+$text['description-invalid_sound']['vi-vn'] = 'Phát khi chọn tùy chọn không hợp lệ.';
 $text['description-invalid_sound']['en-gb'] = "Played when and invalid option is chosen.";
 $text['description-invalid_sound']['ar-eg'] = "يعزف متى ويختار خيار غير صحيح";
 $text['description-invalid_sound']['de-at'] = "Wird abgespielt, falls eine ungültige Option gewählt wird.";
@@ -1486,6 +1541,7 @@ $text['description-invalid_sound']['ja-jp'] = "無効なオプションが選択
 $text['description-invalid_sound']['ko-kr'] = "유효하지 않은 옵션이 선택되었을 때 재생됩니다.";
 
 $text['description-inter-digit_timeout']['en-us'] = "The number of milliseconds to wait between digits.";
+$text['description-inter-digit_timeout']['vi-vn'] = 'Số mili giây chờ giữa các chữ số.';
 $text['description-inter-digit_timeout']['en-gb'] = "The number of milliseconds to wait between digits.";
 $text['description-inter-digit_timeout']['ar-eg'] = "عدد الألف ثانية للانتظار بين الأرقام";
 $text['description-inter-digit_timeout']['de-at'] = "Anzahl an Millisekunden wie lange zwischen zwei Tastendrücken gewartet werden soll.";
@@ -1513,6 +1569,7 @@ $text['description-inter-digit_timeout']['ja-jp'] = "桁間で待機するミリ
 $text['description-inter-digit_timeout']['ko-kr'] = "숫자 사이에 대기하는 시간(밀리초)입니다.";
 
 $text['description-greet_short']['en-us'] = "The short greeting is played when returning to the menu.";
+$text['description-greet_short']['vi-vn'] = 'Lời chào ngắn được phát khi quay lại menu.';
 $text['description-greet_short']['en-gb'] = "The short greeting is played when returning to the menu.";
 $text['description-greet_short']['ar-eg'] = "التهنئة القصيرة تتم عند العودة إلى القائمة";
 $text['description-greet_short']['de-at'] = "Die kurze Begrüßung wird abgespielt, wenn der Anrufer zurück zur Automatischen Vermittlung kommt.";
@@ -1540,6 +1597,7 @@ $text['description-greet_short']['ja-jp'] = "メニューに戻ると短い挨�
 $text['description-greet_short']['ko-kr'] = "메뉴로 돌아갈 때 짧은 인사말이 재생됩니다.";
 
 $text['description-greet_long']['en-us'] = "The long greeting is played when entering the menu.";
+$text['description-greet_long']['vi-vn'] = 'Lời chào dài được phát khi vào menu.';
 $text['description-greet_long']['en-gb'] = "The long greeting is played when entering the menu.";
 $text['description-greet_long']['ar-eg'] = "التهنئة الطويلة تتم عندما تدخل القائمة";
 $text['description-greet_long']['de-at'] = "Die lange Begrüßung wird abgespielt, wenn der Anrufer zum ersten mal zur Automatischen Vermittlung kommt.";
@@ -1567,6 +1625,7 @@ $text['description-greet_long']['ja-jp'] = "メニューに入るときに長い
 $text['description-greet_long']['ko-kr'] = "메뉴 진입 시 긴 인사말이 재생됩니다.";
 
 $text['description-extension']['en-us'] = "Enter the extension number.";
+$text['description-extension']['vi-vn'] = 'Nhập số máy nhánh.';
 $text['description-extension']['en-gb'] = "Enter the extension number.";
 $text['description-extension']['ar-eg'] = "أدخل رقم التمديد";
 $text['description-extension']['de-at'] = "Geben Sie die Nebenstelle ein.";
@@ -1594,6 +1653,7 @@ $text['description-extension']['ja-jp'] = "内線番号を入力します。";
 $text['description-extension']['ko-kr'] = "내선번호를 입력하세요.";
 
 $text['description-exit_sound']['en-us'] = "Played when leaving the menu.";
+$text['description-exit_sound']['vi-vn'] = 'Phát khi rời menu.';
 $text['description-exit_sound']['en-gb'] = "Played when leaving the menu.";
 $text['description-exit_sound']['ar-eg'] = "لعبت عندما تركت قائمة الطعام";
 $text['description-exit_sound']['de-at'] = "Wird abgespielt, wenn die Automatische Vermittlung verlassen wird.";
@@ -1621,6 +1681,7 @@ $text['description-exit_sound']['ja-jp'] = "メニューを終了するときに
 $text['description-exit_sound']['ko-kr'] = "메뉴를 나갈 때 재생됩니다.";
 
 $text['description-exit_action']['en-us'] = "Select the exit action to be performed if the IVR exits.";
+$text['description-exit_action']['vi-vn'] = 'Chọn hành động thoát sẽ thực hiện nếu IVR thoát.';
 $text['description-exit_action']['en-gb'] = "Select the exit action to be performed if the IVR exits.";
 $text['description-exit_action']['ar-eg'] = "(ب) اختيار إجراءات الخروج التي يتعين القيام بها إذا خرجت المحكمة الجنائية الدولية.";
 $text['description-exit_action']['de-at'] = "Wählen Sie eine Aktion bei Verlassen der Automatischen Vermittlung.";
@@ -1648,6 +1709,7 @@ $text['description-exit_action']['ja-jp'] = "IVR が終了した場合に実行�
 $text['description-exit_action']['ko-kr'] = "IVR 종료 시 수행할 종료 조치를 선택하십시오.";
 
 $text['description-enabled']['en-us'] = "Set the status of this IVR Menu.";
+$text['description-enabled']['vi-vn'] = 'Đặt trạng thái của menu IVR này.';
 $text['description-enabled']['en-gb'] = "Set the status of this IVR Menu.";
 $text['description-enabled']['ar-eg'] = "حددي وضعية هذا الـ (إي آر مينو)";
 $text['description-enabled']['de-at'] = "Setzen Sie den Status dieser Automatischen Vermittlung.";
@@ -1675,6 +1737,7 @@ $text['description-enabled']['ja-jp'] = "この IVR メニューのステータ�
 $text['description-enabled']['ko-kr'] = "이 IVR 메뉴의 상태를 설정합니다.";
 
 $text['description-direct_dial']['en-us'] = "Define whether callers can dial directly to registered extensions.";
+$text['description-direct_dial']['vi-vn'] = 'Định nghĩa người gọi có thể quay trực tiếp đến máy nhánh đã đăng ký hay không.';
 $text['description-direct_dial']['en-gb'] = "Define whether callers can dial directly to registered extensions.";
 $text['description-direct_dial']['ar-eg'] = "تحديد ما إذا كان يمكن للمتصلين الاتصال مباشرة بالتمديدات المسجلة.";
 $text['description-direct_dial']['de-at'] = "Definieren Sie ob Anrufer direkt zu Nebenstellen durchwählen können.";
@@ -1702,6 +1765,7 @@ $text['description-direct_dial']['ja-jp'] = "発信者が登録された内線�
 $text['description-direct_dial']['ko-kr'] = "발신자가 등록된 내선으로 직접 전화를 걸 수 있는지 여부를 정의합니다.";
 
 $text['description-digit_length']['en-us'] = "Maximum number of digits allowed.";
+$text['description-digit_length']['vi-vn'] = 'Số chữ số tối đa được phép.';
 $text['description-digit_length']['en-gb'] = "Maximum number of digits allowed.";
 $text['description-digit_length']['ar-eg'] = "أكبر عدد من الأرقام المسموح بها";
 $text['description-digit_length']['de-at'] = "Maximal erlaubte Länge.";
@@ -1729,6 +1793,7 @@ $text['description-digit_length']['ja-jp'] = "許可される最大桁数。";
 $text['description-digit_length']['ko-kr'] = "허용되는 최대 자릿수입니다.";
 
 $text['description-destination']['en-us'] = "Select the destination.";
+$text['description-destination']['vi-vn'] = 'Chọn đích.';
 $text['description-destination']['en-gb'] = "Select the destination.";
 $text['description-destination']['ar-eg'] = "اختيار الوجهة.";
 $text['description-destination']['de-at'] = "Wählen Sie das Ziel.";
@@ -1756,6 +1821,7 @@ $text['description-destination']['ja-jp'] = "目的地を選択します。";
 $text['description-destination']['ko-kr'] = "목적지를 선택합니다.";
 
 $text['description-pin_number']['en-us'] = "Optional pin number to secure access to the menu.";
+$text['description-pin_number']['vi-vn'] = 'Số PIN tùy chọn để bảo vệ quyền truy cập menu.';
 $text['description-pin_number']['en-gb'] = "Optional pin number to secure access to the menu.";
 $text['description-pin_number']['ar-eg'] = "رقم ملصق اختياري لتأمين الوصول إلى القائمة";
 $text['description-pin_number']['de-at'] = "Optionale Pin-Nummer, um den Zugriff auf das Menü zu sichern.";
@@ -1783,6 +1849,7 @@ $text['description-pin_number']['ja-jp'] = "メニューへのアクセスを保
 $text['description-pin_number']['ko-kr'] = "메뉴에 대한 액세스를 보호하기 위한 선택적 핀 번호입니다.";
 
 $text['description-comfirm_macro']['en-us'] = "Enter the confirm macro.";
+$text['description-comfirm_macro']['vi-vn'] = 'Nhập macro xác nhận.';
 $text['description-comfirm_macro']['en-gb'] = "Enter the confirm macro.";
 $text['description-comfirm_macro']['ar-eg'] = "أدخل تأكيد الماكرو.";
 $text['description-comfirm_macro']['de-at'] = "Geben Sie das Bestätigungs Makro an.";
@@ -1810,6 +1877,7 @@ $text['description-comfirm_macro']['ja-jp'] = "確認マクロを入力します
 $text['description-comfirm_macro']['ko-kr'] = "확인 매크로를 입력합니다.";
 
 $text['description-comfirm_key']['en-us'] = "Enter the confirm key.";
+$text['description-comfirm_key']['vi-vn'] = 'Nhập phím xác nhận.';
 $text['description-comfirm_key']['en-gb'] = "Enter the confirm key.";
 $text['description-comfirm_key']['ar-eg'] = "أدخل مفتاح التأكيد";
 $text['description-comfirm_key']['de-at'] = "Geben Sie den Bestätigungs Schlüssel an.";
@@ -1837,6 +1905,7 @@ $text['description-comfirm_key']['ja-jp'] = "確認キーを入力してくだ�
 $text['description-comfirm_key']['ko-kr'] = "확인 키를 입력합니다.";
 
 $text['description-comfirm_attempts']['en-us'] = "The maximum number of confirm attempts allowed.";
+$text['description-comfirm_attempts']['vi-vn'] = 'Số lần thử xác nhận tối đa được phép.';
 $text['description-comfirm_attempts']['en-gb'] = "The maximum number of confirm attempts allowed.";
 $text['description-comfirm_attempts']['ar-eg'] = "العدد الأقصى لمحاولات التأكيد مسموح بها";
 $text['description-comfirm_attempts']['de-at'] = "Die Maximal erlaubte Anzahl an Bestätigungsversuchen";
@@ -1864,6 +1933,7 @@ $text['description-comfirm_attempts']['ja-jp'] = "許可される確認試行の
 $text['description-comfirm_attempts']['ko-kr'] = "허용되는 최대 확인 시도 횟수입니다.";
 
 $text['description-caller_id_name_prefix']['en-us'] = "Set a prefix on the caller ID name.";
+$text['description-caller_id_name_prefix']['vi-vn'] = 'Thiết lập tiền tố cho tên Caller ID.';
 $text['description-caller_id_name_prefix']['en-gb'] = "Set a prefix on the caller ID name.";
 $text['description-caller_id_name_prefix']['ar-eg'] = "جهزي قائمة على اسم المتصل";
 $text['description-caller_id_name_prefix']['de-at'] = "Setzen Sie ein Präfix für die Anruferkennung (Name).";

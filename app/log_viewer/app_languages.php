@@ -1,6 +1,7 @@
 <?php
 
 $text['title-log_viewer']['en-us'] = "Log Viewer";
+$text['title-log_viewer']['vi-vn'] = 'Trình xem log';
 $text['title-log_viewer']['en-gb'] = "Log Viewer";
 $text['title-log_viewer']['ar-eg'] = "مشاهد سجلات";
 $text['title-log_viewer']['de-at'] = "Log Datei";
@@ -28,6 +29,7 @@ $text['title-log_viewer']['ja-jp'] = "ログビューア";
 $text['title-log_viewer']['ko-kr'] = "로그 뷰어";
 
 $text['label-syntax']['en-us'] = "Syntax Highlighted";
+$text['label-syntax']['vi-vn'] = 'Tô sáng cú pháp';
 $text['label-syntax']['en-gb'] = "Syntax Highlighted";
 $text['label-syntax']['ar-eg'] = "تمييز بناء الجملة";
 $text['label-syntax']['de-at'] = "Syntax Highlighted";
@@ -55,6 +57,7 @@ $text['label-syntax']['ja-jp'] = "強調表示された構文";
 $text['label-syntax']['ko-kr'] = "강조 표시된 구문";
 
 $text['label-sort']['en-us'] = "Sort Descending";
+$text['label-sort']['vi-vn'] = 'Sắp xếp giảm dần';
 $text['label-sort']['en-gb'] = "Sort Descending";
 $text['label-sort']['ar-eg'] = "نوع من الإنقاذ";
 $text['label-sort']['de-at'] = "Absteigend sortiert";
@@ -82,6 +85,7 @@ $text['label-sort']['ja-jp'] = "降順で並べ替え";
 $text['label-sort']['ko-kr'] = "내림차순 정렬";
 
 $text['label-open_file']['en-us'] = "opening entire file";
+$text['label-open_file']['vi-vn'] = 'đang mở toàn bộ tệp';
 $text['label-open_file']['en-gb'] = "opening entire file";
 $text['label-open_file']['ar-eg'] = "فتح الملف بأكمله";
 $text['label-open_file']['de-at'] = "gesamte Datei öffnen";
@@ -109,6 +113,7 @@ $text['label-open_file']['ja-jp'] = "ファイル全体を開く";
 $text['label-open_file']['ko-kr'] = "전체 파일 열기";
 
 $text['label-open_at']['en-us'] = "opening at";
+$text['label-open_at']['vi-vn'] = 'đang mở tại';
 $text['label-open_at']['en-gb'] = "opening at";
 $text['label-open_at']['ar-eg'] = "الافتتاح";
 $text['label-open_at']['de-at'] = "öffnen";
@@ -136,6 +141,7 @@ $text['label-open_at']['ja-jp'] = "開店時間";
 $text['label-open_at']['ko-kr'] = "개장";
 
 $text['label-line_number']['en-us'] = "Show Line Numbers";
+$text['label-line_number']['vi-vn'] = 'Hiển thị số dòng';
 $text['label-line_number']['en-gb'] = "Show Line Numbers";
 $text['label-line_number']['ar-eg'] = "عدد خطوط العرض";
 $text['label-line_number']['de-at'] = "Zeilennummern anzeigen";
@@ -163,6 +169,7 @@ $text['label-line_number']['ja-jp'] = "行番号を表示";
 $text['label-line_number']['ko-kr'] = "줄 번호 표시";
 
 $text['label-size']['en-us'] = "KB";
+$text['label-size']['vi-vn'] = 'KB';
 $text['label-size']['en-gb'] = "KB";
 $text['label-size']['ar-eg'] = "KB";
 $text['label-size']['de-at'] = "KB";
@@ -190,6 +197,7 @@ $text['label-size']['ja-jp'] = "KB";
 $text['label-size']['ko-kr'] = "KB";
 
 $text['label-max']['en-us'] = "Max";
+$text['label-max']['vi-vn'] = 'Tối đa';
 $text['label-max']['en-gb'] = "Max";
 $text['label-max']['ar-eg'] = "أقصى";
 $text['label-max']['de-at'] = "Maximal";
@@ -217,6 +225,7 @@ $text['label-max']['ja-jp'] = "最大";
 $text['label-max']['ko-kr'] = "최대";
 
 $text['label-log_file']['en-us'] = "Log file";
+$text['label-log_file']['vi-vn'] = 'Tệp log';
 $text['label-log_file']['en-gb'] = "Log file";
 $text['label-log_file']['ar-eg'] = "ملف تسجيل";
 $text['label-log_file']['de-at'] = "Logdatei";
@@ -244,6 +253,7 @@ $text['label-log_file']['ja-jp'] = "ログファイル";
 $text['label-log_file']['ko-kr'] = "로그 파일";
 
 $text['label-filter']['en-us'] = "Filter";
+$text['label-filter']['vi-vn'] = 'Bộ lọc';
 $text['label-filter']['en-gb'] = "Filter";
 $text['label-filter']['ar-eg'] = "فيلم";
 $text['label-filter']['de-at'] = "Filter";
@@ -271,6 +281,7 @@ $text['label-filter']['ja-jp'] = "フィルター";
 $text['label-filter']['ko-kr'] = "필터";
 
 $text['label-displaying']['en-us'] = "Displaying the last";
+$text['label-displaying']['vi-vn'] = 'Đang hiển thị phần cuối';
 $text['label-displaying']['en-gb'] = "Displaying the last";
 $text['label-displaying']['ar-eg'] = "التلاعب بالآخر";
 $text['label-displaying']['de-at'] = "letztes anzeigen";
@@ -298,6 +309,7 @@ $text['label-displaying']['ja-jp'] = "最後を表示する";
 $text['label-displaying']['ko-kr'] = "마지막 표시";
 
 $text['label-bytes']['en-us'] = "bytes";
+$text['label-bytes']['vi-vn'] = 'byte';
 $text['label-bytes']['en-gb'] = "bytes";
 $text['label-bytes']['ar-eg'] = "بايت";
 $text['label-bytes']['de-at'] = "bytes";
@@ -325,6 +337,7 @@ $text['label-bytes']['ja-jp'] = "バイト";
 $text['label-bytes']['ko-kr'] = "바이트";
 
 $text['error-open_file']['en-us'] = "Unable to open file!";
+$text['error-open_file']['vi-vn'] = 'Không thể mở tệp!';
 $text['error-open_file']['en-gb'] = "Unable to open file!";
 $text['error-open_file']['ar-eg'] = "غير قادر على فتح ملف";
 $text['error-open_file']['de-at'] = "Datei kann nicht geöffnet werden!";
@@ -352,6 +365,7 @@ $text['error-open_file']['ja-jp'] = "ファイルを開くことができませ�
 $text['error-open_file']['ko-kr'] = "열 수없는 파일!";
 
 $text['description-filter']['en-us'] = "Filtering the log with the text:";
+$text['description-filter']['vi-vn'] = 'Đang lọc log với nội dung:';
 $text['description-filter']['en-gb'] = "Filtering the log with the text:";
 $text['description-filter']['ar-eg'] = "وضع السجل بالنص:";
 $text['description-filter']['de-at'] = "Log Datei nach Text filtern:";
@@ -379,6 +393,7 @@ $text['description-filter']['ja-jp'] = "テキストを使用してログをフ�
 $text['description-filter']['ko-kr'] = "다음 텍스트로 로그 필터링:";
 
 $text['label-display']['en-us'] = "Display";
+$text['label-display']['vi-vn'] = 'Hiển thị';
 $text['label-display']['en-gb'] = "Display";
 $text['label-display']['ar-eg'] = "عرض";
 $text['label-display']['de-at'] = "Anzeige";

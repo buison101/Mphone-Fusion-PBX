@@ -199,10 +199,18 @@
 		$view->assign('domain_uuid', $domain_uuid);
 	//menu container
 		//load menu array into the session
-			if (!isset($_SESSION['menu']['array'])) {
+			$menu_uuid = $settings->get('domain', 'menu');
+			$menu_language = $settings->get('domain', 'language', 'en-us');
+			if (
+				!isset($_SESSION['menu']['array']) ||
+				($_SESSION['menu']['uuid'] ?? null) != $menu_uuid ||
+				($_SESSION['menu']['language'] ?? null) != $menu_language
+				) {
 				$menu = new menu;
-				$menu->menu_uuid = $settings->get('domain', 'menu');
+				$menu->menu_uuid = $menu_uuid;
 				$_SESSION['menu']['array'] = $menu->menu_array();
+				$_SESSION['menu']['uuid'] = $menu_uuid;
+				$_SESSION['menu']['language'] = $menu_language;
 				unset($menu);
 			}
 		//build menu by style

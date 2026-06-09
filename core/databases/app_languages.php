@@ -1,6 +1,7 @@
 <?php
 
 $text['title-databases']['en-us'] = "Databases";
+$text['title-databases']['vi-vn'] = "Cơ sở dữ liệu";
 $text['title-databases']['en-gb'] = "Databases";
 $text['title-databases']['ar-eg'] = "قواعد بيانات";
 $text['title-databases']['de-at'] = "Datenbanken";
@@ -28,6 +29,7 @@ $text['title-databases']['ja-jp'] = "データベース";
 $text['title-databases']['ko-kr'] = "데이터베이스";
 
 $text['title-database-edit']['en-us'] = "Database Edit";
+$text['title-database-edit']['vi-vn'] = "Sửa cơ sở dữ liệu";
 $text['title-database-edit']['en-gb'] = "Database Edit";
 $text['title-database-edit']['ar-eg'] = "تحرير قاعدة البيانات";
 $text['title-database-edit']['de-at'] = "Datenbank editieren";
@@ -55,6 +57,7 @@ $text['title-database-edit']['ja-jp'] = "データベース編集";
 $text['title-database-edit']['ko-kr'] = "데이터베이스 편집";
 
 $text['title-database-add']['en-us'] = "Database Add";
+$text['title-database-add']['vi-vn'] = "Thêm cơ sở dữ liệu";
 $text['title-database-add']['en-gb'] = "Database Add";
 $text['title-database-add']['ar-eg'] = "إضافة قاعدة بيانات";
 $text['title-database-add']['de-at'] = "Datenbank hinzufügen";
@@ -82,6 +85,7 @@ $text['title-database-add']['ja-jp'] = "データベースの追加";
 $text['title-database-add']['ko-kr'] = "데이터베이스 추가";
 
 $text['label-username']['en-us'] = "Username";
+$text['label-username']['vi-vn'] = "Tên đăng nhập";
 $text['label-username']['en-gb'] = "Username";
 $text['label-username']['ar-eg'] = "اسم المستخدم";
 $text['label-username']['de-at'] = "Benutzername";
@@ -109,6 +113,7 @@ $text['label-username']['ja-jp'] = "ユーザー名";
 $text['label-username']['ko-kr'] = "사용자 이름";
 
 $text['label-port']['en-us'] = "Port";
+$text['label-port']['vi-vn'] = "Cổng";
 $text['label-port']['en-gb'] = "Port";
 $text['label-port']['ar-eg'] = "ميناء";
 $text['label-port']['de-at'] = "Hafen";
@@ -136,6 +141,7 @@ $text['label-port']['ja-jp'] = "ポート";
 $text['label-port']['ko-kr'] = "포트";
 
 $text['label-path']['en-us'] = "Path";
+$text['label-path']['vi-vn'] = "Đường dẫn";
 $text['label-path']['en-gb'] = "Path";
 $text['label-path']['ar-eg'] = "طريق";
 $text['label-path']['de-at'] = "Pfad";
@@ -163,6 +169,7 @@ $text['label-path']['ja-jp'] = "道";
 $text['label-path']['ko-kr'] = "길";
 
 $text['label-host']['en-us'] = "Host";
+$text['label-host']['vi-vn'] = "Host";
 $text['label-host']['en-gb'] = "Host";
 $text['label-host']['ar-eg'] = "يستضيف";
 $text['label-host']['de-at'] = "Gastgeber";
@@ -190,6 +197,7 @@ $text['label-host']['ja-jp'] = "ホスト";
 $text['label-host']['ko-kr'] = "주인";
 
 $text['label-driver']['en-us'] = "Driver";
+$text['label-driver']['vi-vn'] = "Driver";
 $text['label-driver']['en-gb'] = "Driver";
 $text['label-driver']['ar-eg'] = "سائق";
 $text['label-driver']['de-at'] = "Treiber";
@@ -217,6 +225,7 @@ $text['label-driver']['ja-jp'] = "運転者";
 $text['label-driver']['ko-kr'] = "운전사";
 
 $text['header-databases']['en-us'] = "Databases";
+$text['header-databases']['vi-vn'] = "Cơ sở dữ liệu";
 $text['header-databases']['en-gb'] = "Databases";
 $text['header-databases']['ar-eg'] = "قواعد بيانات";
 $text['header-databases']['de-at'] = "Datenbanken";
@@ -244,6 +253,7 @@ $text['header-databases']['ja-jp'] = "データベース";
 $text['header-databases']['ko-kr'] = "데이터베이스";
 
 $text['header-database-edit']['en-us'] = "Database Edit";
+$text['header-database-edit']['vi-vn'] = "Sửa cơ sở dữ liệu";
 $text['header-database-edit']['en-gb'] = "Database Edit";
 $text['header-database-edit']['ar-eg'] = "تحرير قاعدة البيانات";
 $text['header-database-edit']['de-at'] = "Datenbanken bearbeiten";
@@ -271,6 +281,7 @@ $text['header-database-edit']['ja-jp'] = "データベース編集";
 $text['header-database-edit']['ko-kr'] = "데이터베이스 편집";
 
 $text['header-database-add']['en-us'] = "Database Add";
+$text['header-database-add']['vi-vn'] = "Thêm cơ sở dữ liệu";
 $text['header-database-add']['en-gb'] = "Database Add";
 $text['header-database-add']['ar-eg'] = "إضافة قاعدة بيانات";
 $text['header-database-add']['de-at'] = "Datenbanken hinzufügen";
@@ -298,6 +309,7 @@ $text['header-database-add']['ja-jp'] = "データベースの追加";
 $text['header-database-add']['ko-kr'] = "데이터베이스 추가";
 
 $text['description-username']['en-us'] = "Enter the database username.";
+$text['description-username']['vi-vn'] = "Nhập tên đăng nhập cơ sở dữ liệu.";
 $text['description-username']['en-gb'] = "Enter the database username.";
 $text['description-username']['ar-eg'] = "أدخل اسم مستخدم قاعدة البيانات.";
 $text['description-username']['de-at'] = "Geben Sie den Datenbank Benutzernamen an.";
@@ -325,6 +337,7 @@ $text['description-username']['ja-jp'] = "データベースのユーザー名�
 $text['description-username']['ko-kr'] = "데이터베이스 사용자 이름을 입력합니다.";
 
 $text['description-type']['en-us'] = "Select the database type.";
+$text['description-type']['vi-vn'] = "Chọn loại cơ sở dữ liệu.";
 $text['description-type']['en-gb'] = "Select the database type.";
 $text['description-type']['ar-eg'] = "حدد نوع قاعدة البيانات.";
 $text['description-type']['de-at'] = "Wählen Sie den Datenbank Typ.";
@@ -352,6 +365,7 @@ $text['description-type']['ja-jp'] = "データベースの種類を選択しま
 $text['description-type']['ko-kr'] = "데이터베이스 유형을 선택합니다.";
 
 $text['description-port']['en-us'] = "Enter the port number.";
+$text['description-port']['vi-vn'] = "Nhập số cổng.";
 $text['description-port']['en-gb'] = "Enter the port number.";
 $text['description-port']['ar-eg'] = "أدخل رقم المنفذ.";
 $text['description-port']['de-at'] = "Geben Sie die Port Nummer an.";
@@ -379,6 +393,7 @@ $text['description-port']['ja-jp'] = "ポート番号を入力します。";
 $text['description-port']['ko-kr'] = "포트 번호를 입력합니다.";
 
 $text['description-path']['en-us'] = "Enter the database file path (SQLite only).";
+$text['description-path']['vi-vn'] = "Nhập đường dẫn file cơ sở dữ liệu (chỉ SQLite).";
 $text['description-path']['en-gb'] = "Enter the database file path (SQLite only).";
 $text['description-path']['ar-eg'] = "أدخل مسار ملف قاعدة البيانات (SQLite فقط).";
 $text['description-path']['de-at'] = "Geben Sie den Datenbank Pfad an (nur für SQLite).";
@@ -406,6 +421,7 @@ $text['description-path']['ja-jp'] = "データベース ファイル パスを�
 $text['description-path']['ko-kr'] = "데이터베이스 파일 경로를 입력합니다(SQLite만 해당).";
 
 $text['description-password']['en-us'] = "Enter the database password.";
+$text['description-password']['vi-vn'] = "Nhập mật khẩu cơ sở dữ liệu.";
 $text['description-password']['en-gb'] = "Enter the database password.";
 $text['description-password']['ar-eg'] = "أدخل كلمة مرور قاعدة البيانات.";
 $text['description-password']['de-at'] = "Geben Sie das Datenbank Passwort ein.";
@@ -433,6 +449,7 @@ $text['description-password']['ja-jp'] = "データベースのパスワード�
 $text['description-password']['ko-kr'] = "데이터베이스 암호를 입력합니다.";
 
 $text['description-name']['en-us'] = "Enter the database name.";
+$text['description-name']['vi-vn'] = "Nhập tên cơ sở dữ liệu.";
 $text['description-name']['en-gb'] = "Enter the database name.";
 $text['description-name']['ar-eg'] = "أدخل اسم قاعدة البيانات.";
 $text['description-name']['de-at'] = "Geben Sie den Namen der Datenbank an";
@@ -460,6 +477,7 @@ $text['description-name']['ja-jp'] = "データベース名を入力します。
 $text['description-name']['ko-kr'] = "데이터베이스 이름을 입력합니다.";
 
 $text['description-host']['en-us'] = "Enter the host name.";
+$text['description-host']['vi-vn'] = "Nhập hostname.";
 $text['description-host']['en-gb'] = "Enter the host name.";
 $text['description-host']['ar-eg'] = "أدخل اسم المضيف.";
 $text['description-host']['de-at'] = "Geben Sie den Host Namen ein.";
@@ -487,6 +505,7 @@ $text['description-host']['ja-jp'] = "ホスト名を入力します。";
 $text['description-host']['ko-kr'] = "호스트 이름을 입력합니다.";
 
 $text['description-driver']['en-us'] = "Select the database driver.";
+$text['description-driver']['vi-vn'] = "Chọn driver cơ sở dữ liệu.";
 $text['description-driver']['en-gb'] = "Select the database driver.";
 $text['description-driver']['ar-eg'] = "حدد برنامج تشغيل قاعدة البيانات.";
 $text['description-driver']['de-at'] = "Wählen Sie den Datenbank Treiber.";
@@ -514,6 +533,7 @@ $text['description-driver']['ja-jp'] = "データベースドライバーを選�
 $text['description-driver']['ko-kr'] = "데이터베이스 드라이버를 선택합니다.";
 
 $text['description-databases']['en-us'] = "Database information.";
+$text['description-databases']['vi-vn'] = "Thông tin cơ sở dữ liệu.";
 $text['description-databases']['en-gb'] = "Database information.";
 $text['description-databases']['ar-eg'] = "معلومات قاعدة البيانات.";
 $text['description-databases']['de-at'] = "Datenbank Information.";
@@ -541,6 +561,7 @@ $text['description-databases']['ja-jp'] = "データベース情報。";
 $text['description-databases']['ko-kr'] = "데이터베이스 정보.";
 
 $text['description-database-edit']['en-us'] = "Database connection information.";
+$text['description-database-edit']['vi-vn'] = "Thông tin kết nối cơ sở dữ liệu.";
 $text['description-database-edit']['en-gb'] = "Database connection information.";
 $text['description-database-edit']['ar-eg'] = "معلومات اتصال قاعدة البيانات.";
 $text['description-database-edit']['de-at'] = "Datenbank Verbindungs Information.";
@@ -568,6 +589,7 @@ $text['description-database-edit']['ja-jp'] = "データベース接続情報。
 $text['description-database-edit']['ko-kr'] = "데이터베이스 연결 정보.";
 
 $text['description-database-add']['en-us'] = "Database connection information.";
+$text['description-database-add']['vi-vn'] = "Thông tin kết nối cơ sở dữ liệu.";
 $text['description-database-add']['en-gb'] = "Database connection information.";
 $text['description-database-add']['ar-eg'] = "معلومات اتصال قاعدة البيانات.";
 $text['description-database-add']['de-at'] = "Datenbank Verbindungs Information.";

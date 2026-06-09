@@ -1,6 +1,7 @@
 <?php
 
 $text['title-queue']['en-us'] = "Queue";
+$text['title-queue']['vi-vn'] = 'Hàng đợi';
 $text['title-queue']['en-gb'] = "Queue";
 $text['title-queue']['ar-eg'] = "الاستفسار";
 $text['title-queue']['de-at'] = "Warteschlange";
@@ -28,6 +29,7 @@ $text['title-queue']['ja-jp'] = "列";
 $text['title-queue']['ko-kr'] = "대기줄";
 
 $text['title-active_queues']['en-us'] = "Active Queues";
+$text['title-active_queues']['vi-vn'] = 'Hàng đợi đang hoạt động';
 $text['title-active_queues']['en-gb'] = "Active Queues";
 $text['title-active_queues']['ar-eg'] = "النشيطة";
 $text['title-active_queues']['de-at'] = "Aktive Warteschlangen";
@@ -55,6 +57,7 @@ $text['title-active_queues']['ja-jp'] = "アクティブなキュー";
 $text['title-active_queues']['ko-kr'] = "활성 대기열";
 
 $text['label-waiting_count']['en-us'] = "Waiting Count";
+$text['label-waiting_count']['vi-vn'] = 'Số đang chờ';
 $text['label-waiting_count']['en-gb'] = "Waiting Count";
 $text['label-waiting_count']['ar-eg'] = "انتظر الكونت";
 $text['label-waiting_count']['de-at'] = "Anzahl Wartend";
@@ -82,6 +85,7 @@ $text['label-waiting_count']['ja-jp'] = "待機数";
 $text['label-waiting_count']['ko-kr'] = "대기 카운트";
 
 $text['label-view']['en-us'] = "View";
+$text['label-view']['vi-vn'] = 'Xem';
 $text['label-view']['en-gb'] = "View";
 $text['label-view']['ar-eg'] = "رأي";
 $text['label-view']['de-at'] = "Ansicht";
@@ -109,6 +113,7 @@ $text['label-view']['ja-jp'] = "意見";
 $text['label-view']['ko-kr'] = "보다";
 
 $text['label-username']['en-us'] = "Username";
+$text['label-username']['vi-vn'] = 'Tên đăng nhập';
 $text['label-username']['en-gb'] = "Username";
 $text['label-username']['ar-eg'] = "المستعمل";
 $text['label-username']['de-at'] = "Benutzername";
@@ -136,6 +141,7 @@ $text['label-username']['ja-jp'] = "ユーザー名";
 $text['label-username']['ko-kr'] = "사용자 이름";
 
 $text['label-status']['en-us'] = "Status";
+$text['label-status']['vi-vn'] = 'Trạng thái';
 $text['label-status']['en-gb'] = "Status";
 $text['label-status']['ar-eg'] = "الحالة";
 $text['label-status']['de-at'] = "Status";
@@ -163,6 +169,7 @@ $text['label-status']['ja-jp'] = "スターテス";
 $text['label-status']['ko-kr'] = "상태";
 
 $text['label-priority']['en-us'] = "Priority";
+$text['label-priority']['vi-vn'] = 'Ưu tiên';
 $text['label-priority']['en-gb'] = "Priority";
 $text['label-priority']['ar-eg'] = "الأولوية";
 $text['label-priority']['de-at'] = "Priorität";
@@ -190,6 +197,7 @@ $text['label-priority']['ja-jp'] = "優先順位";
 $text['label-priority']['ko-kr'] = "우선 사항";
 
 $text['label-position']['en-us'] = "Position";
+$text['label-position']['vi-vn'] = 'Vị trí';
 $text['label-position']['en-gb'] = "Position";
 $text['label-position']['ar-eg'] = "المنصب";
 $text['label-position']['de-at'] = "Position";
@@ -217,6 +225,7 @@ $text['label-position']['ja-jp'] = "位置";
 $text['label-position']['ko-kr'] = "위치";
 
 $text['label-name']['en-us'] = "Name";
+$text['label-name']['vi-vn'] = 'Tên';
 $text['label-name']['en-gb'] = "Name";
 $text['label-name']['ar-eg'] = "الاسم";
 $text['label-name']['de-at'] = "Name";
@@ -244,6 +253,7 @@ $text['label-name']['ja-jp'] = "名前";
 $text['label-name']['ko-kr'] = "이름";
 
 $text['label-language']['en-us'] = "Language";
+$text['label-language']['vi-vn'] = 'Ngôn ngữ';
 $text['label-language']['en-gb'] = "Language";
 $text['label-language']['ar-eg'] = "اللغة";
 $text['label-language']['de-at'] = "Sprache";
@@ -271,6 +281,7 @@ $text['label-language']['ja-jp'] = "言語";
 $text['label-language']['ko-kr'] = "언어";
 
 $text['label-importance']['en-us'] = "Importance";
+$text['label-importance']['vi-vn'] = 'Mức quan trọng';
 $text['label-importance']['en-gb'] = "Importance";
 $text['label-importance']['ar-eg'] = "الأهمية";
 $text['label-importance']['de-at'] = "Wichtigkeit";
@@ -298,6 +309,7 @@ $text['label-importance']['ja-jp'] = "重要性";
 $text['label-importance']['ko-kr'] = "중요성";
 
 $text['label-duration']['en-us'] = "Duration";
+$text['label-duration']['vi-vn'] = 'Thời lượng';
 $text['label-duration']['en-gb'] = "Duration";
 $text['label-duration']['ar-eg'] = "المدة";
 $text['label-duration']['de-at'] = "Dauer";
@@ -325,6 +337,7 @@ $text['label-duration']['ja-jp'] = "間隔";
 $text['label-duration']['ko-kr'] = "지속";
 
 $text['label-destination_number']['en-us'] = "Destination Number";
+$text['label-destination_number']['vi-vn'] = 'Số đích';
 $text['label-destination_number']['en-gb'] = "Destination Number";
 $text['label-destination_number']['ar-eg'] = "رقم الوجهة";
 $text['label-destination_number']['de-at'] = "Zielnummer";
@@ -352,6 +365,7 @@ $text['label-destination_number']['ja-jp'] = "宛先番号";
 $text['label-destination_number']['ko-kr'] = "목적지 번호";
 
 $text['label-consumer_count']['en-us'] = "Consumer Count";
+$text['label-consumer_count']['vi-vn'] = 'Số consumer';
 $text['label-consumer_count']['en-gb'] = "Consumer Count";
 $text['label-consumer_count']['ar-eg'] = "عدد المستهلكين";
 $text['label-consumer_count']['de-at'] = "Anzahl Verbraucher";
@@ -379,6 +393,7 @@ $text['label-consumer_count']['ja-jp'] = "消費者の数";
 $text['label-consumer_count']['ko-kr'] = "소비자 수";
 
 $text['label-caller_id_number']['en-us'] = "Caller ID Number";
+$text['label-caller_id_number']['vi-vn'] = 'Số Caller ID';
 $text['label-caller_id_number']['en-gb'] = "Caller ID Number";
 $text['label-caller_id_number']['ar-eg'] = "رقم هوية المتصل";
 $text['label-caller_id_number']['de-at'] = "Anrufer Nummer";
@@ -406,6 +421,7 @@ $text['label-caller_id_number']['ja-jp'] = "発信者番号";
 $text['label-caller_id_number']['ko-kr'] = "발신자 ID 번호";
 
 $text['label-caller_id_name']['en-us'] = "Caller ID Name";
+$text['label-caller_id_name']['vi-vn'] = 'Tên Caller ID';
 $text['label-caller_id_name']['en-gb'] = "Caller ID Name";
 $text['label-caller_id_name']['ar-eg'] = "اسم المتصل";
 $text['label-caller_id_name']['de-at'] = "Anrufer Name";
@@ -433,6 +449,7 @@ $text['label-caller_id_name']['ja-jp'] = "発信者ID名";
 $text['label-caller_id_name']['ko-kr'] = "발신자 ID 이름";
 
 $text['label-caller_count']['en-us'] = "Caller Count";
+$text['label-caller_count']['vi-vn'] = 'Số người gọi';
 $text['label-caller_count']['en-gb'] = "Caller Count";
 $text['label-caller_count']['ar-eg'] = "عدد المكالمات";
 $text['label-caller_count']['de-at'] = "Anzahl Anrufer";
@@ -460,6 +477,7 @@ $text['label-caller_count']['ja-jp'] = "発信者の数";
 $text['label-caller_count']['ko-kr'] = "발신자 수";
 
 $text['header-queue']['en-us'] = "Queue";
+$text['header-queue']['vi-vn'] = 'Hàng đợi';
 $text['header-queue']['en-gb'] = "Queue";
 $text['header-queue']['ar-eg'] = "الاستفسار";
 $text['header-queue']['de-at'] = "Warteschlange";
@@ -487,6 +505,7 @@ $text['header-queue']['ja-jp'] = "列";
 $text['header-queue']['ko-kr'] = "대기줄";
 
 $text['header-active_queues']['en-us'] = "Active Queues";
+$text['header-active_queues']['vi-vn'] = 'Hàng đợi đang hoạt động';
 $text['header-active_queues']['en-gb'] = "Active Queues";
 $text['header-active_queues']['ar-eg'] = "قوائم الانتظار النشطة";
 $text['header-active_queues']['de-at'] = "Aktive Warteschlangen";
@@ -514,6 +533,7 @@ $text['header-active_queues']['ja-jp'] = "アクティブなキュー";
 $text['header-active_queues']['ko-kr'] = "활성 대기열";
 
 $text['description-queue']['en-us'] = "Use this page to monitor the queue activity.";
+$text['description-queue']['vi-vn'] = 'Dùng trang này để giám sát hoạt động hàng đợi.';
 $text['description-queue']['en-gb'] = "Use this page to monitor the queue activity.";
 $text['description-queue']['ar-eg'] = "استخدام هذه الصفحة لرصد نشاط التساؤل.";
 $text['description-queue']['de-at'] = "Eine aktuelle Liste der Anrufer in der Warteschlange sehen sie unten.";
@@ -541,6 +561,7 @@ $text['description-queue']['ja-jp'] = "このページを使用して、キュ�
 $text['description-queue']['ko-kr'] = "이 페이지를 사용하여 대기열 활동을 모니터링합니다.";
 
 $text['description-active_queues']['en-us'] = "List all the queues that are currently active with one or more callers.";
+$text['description-active_queues']['vi-vn'] = 'Liệt kê tất cả hàng đợi hiện đang hoạt động với một hoặc nhiều người gọi.';
 $text['description-active_queues']['en-gb'] = "List all the queues that are currently active with one or more callers.";
 $text['description-active_queues']['ar-eg'] = "إدراج جميع الاستفسارات التي تعمل حاليا مع واحد أو أكثر من المتصلين.";
 $text['description-active_queues']['de-at'] = "Auflistung aller derzeit aktiven Warteschlangen mit einem oder mehreren Anrufern.";

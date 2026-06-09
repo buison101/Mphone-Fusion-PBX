@@ -1,6 +1,7 @@
 <?php
 
 $text['title-call_recordings']['en-us'] = "Call Recordings";
+$text['title-call_recordings']['vi-vn'] = "Bản ghi cuộc gọi";
 $text['title-call_recordings']['en-gb'] = "Call Recordings";
 $text['title-call_recordings']['ar-eg'] = "تسجيلات المكالمات";
 $text['title-call_recordings']['de-at'] = "Anrufaufzeichnungen";
@@ -27,6 +28,7 @@ $text['title-call_recordings']['ja-jp'] = "通話録音";
 $text['title-call_recordings']['ko-kr'] = "통화 녹음";
 
 $text['title-call_recording']['en-us'] = "Call Recording";
+$text['title-call_recording']['vi-vn'] = "Bản ghi cuộc gọi";
 $text['title-call_recording']['en-gb'] = "Call Recording";
 $text['title-call_recording']['ar-eg'] = "تسجيل المكالمات";
 $text['title-call_recording']['de-at'] = "Anrufaufzeichnung";
@@ -53,6 +55,7 @@ $text['title-call_recording']['ja-jp'] = "通話録音";
 $text['title-call_recording']['ko-kr'] = "통화 녹음";
 
 $text['title_description-call_recordings']['en-us'] = "Shows the call recordings with name, length, date and time, and call direction.";
+$text['title_description-call_recordings']['vi-vn'] = "Hiển thị bản ghi cuộc gọi với tên, độ dài, ngày giờ và hướng cuộc gọi.";
 $text['title_description-call_recordings']['en-gb'] = "Shows the call recordings with name, length, date and time, and call direction.";
 $text['title_description-call_recordings']['ar-eg'] = "يظهر تسجيلات المكالمة بالاسم والطول والتاريخ والوقت واتجاه المكالمة.";
 $text['title_description-call_recordings']['de-at'] = "Zeigt die Anrufaufzeichnungen mit Name, Dauer, Datum und Uhrzeit sowie Anrufrichtung an.";
@@ -79,6 +82,7 @@ $text['title_description-call_recordings']['ja-jp'] = "通話録音を名前、�
 $text['title_description-call_recordings']['ko-kr'] = "이름, 길이, 날짜 및 시간, 통화 방향과 함께 통화 녹음을 표시합니다.";
 
 $text['label-call_recording_name']['en-us'] = "Name";
+$text['label-call_recording_name']['vi-vn'] = "Tên";
 $text['label-call_recording_name']['en-gb'] = "Name";
 $text['label-call_recording_name']['ar-eg'] = "اسم";
 $text['label-call_recording_name']['de-at'] = "Name";
@@ -105,6 +109,7 @@ $text['label-call_recording_name']['ja-jp'] = "名前";
 $text['label-call_recording_name']['ko-kr'] = "이름";
 
 $text['label-caller_id_name']['en-us'] = "Caller Name";
+$text['label-caller_id_name']['vi-vn'] = "Tên người gọi";
 $text['label-caller_id_name']['en-gb'] = "Caller Name";
 $text['label-caller_id_name']['ar-eg'] = "اسم المتصل";
 $text['label-caller_id_name']['de-at'] = "Anrufer Name";
@@ -131,6 +136,7 @@ $text['label-caller_id_name']['ja-jp'] = "発信者名";
 $text['label-caller_id_name']['ko-kr'] = "발신자 이름";
 
 $text['label-caller_id_number']['en-us'] = "Caller Number";
+$text['label-caller_id_number']['vi-vn'] = "Số người gọi";
 $text['label-caller_id_number']['en-gb'] = "Caller Number";
 $text['label-caller_id_number']['ar-eg'] = "رقم المتصل";
 $text['label-caller_id_number']['de-at'] = "Anrufer Nummer";
@@ -157,6 +163,7 @@ $text['label-caller_id_number']['ja-jp'] = "発信者番号";
 $text['label-caller_id_number']['ko-kr'] = "발신자 번호";
 
 $text['label-caller_destination']['en-us'] = "Caller Destination";
+$text['label-caller_destination']['vi-vn'] = "Đích người gọi";
 $text['label-caller_destination']['en-gb'] = "Caller Destination";
 $text['label-caller_destination']['ar-eg'] = "وجهة المتصل";
 $text['label-caller_destination']['de-at'] = "Rufziel";
@@ -183,6 +190,7 @@ $text['label-caller_destination']['ja-jp'] = "発信者の宛先";
 $text['label-caller_destination']['ko-kr'] = "발신자 목적지";
 
 $text['label-destination_number']['en-us'] = "Destination";
+$text['label-destination_number']['vi-vn'] = "Đích";
 $text['label-destination_number']['en-gb'] = "Destination";
 $text['label-destination_number']['ar-eg'] = "وجهة";
 $text['label-destination_number']['de-at'] = "Ziel";
@@ -209,6 +217,7 @@ $text['label-destination_number']['ja-jp'] = "行き先";
 $text['label-destination_number']['ko-kr'] = "목적지";
 
 $text['description-call_recording_name']['en-us'] = "Call Recording Name";
+$text['description-call_recording_name']['vi-vn'] = "Tên bản ghi cuộc gọi";
 $text['description-call_recording_name']['en-gb'] = "Call Recording Name";
 $text['description-call_recording_name']['ar-eg'] = "اسم تسجيل المكالمات";
 $text['description-call_recording_name']['de-at'] = "Name der Anrufaufzeichnung";
@@ -235,6 +244,7 @@ $text['description-call_recording_name']['ja-jp'] = "通話録音名";
 $text['description-call_recording_name']['ko-kr'] = "통화 녹음 이름";
 
 $text['label-call_recording_path']['en-us'] = "Path";
+$text['label-call_recording_path']['vi-vn'] = "Đường dẫn";
 $text['label-call_recording_path']['en-gb'] = "Path";
 $text['label-call_recording_path']['ar-eg'] = "طريق";
 $text['label-call_recording_path']['de-at'] = "Weg";
@@ -261,6 +271,7 @@ $text['label-call_recording_path']['ja-jp'] = "道";
 $text['label-call_recording_path']['ko-kr'] = "길";
 
 $text['description-call_recording_path']['en-us'] = "Conversation recording path";
+$text['description-call_recording_path']['vi-vn'] = "Đường dẫn bản ghi hội thoại";
 $text['description-call_recording_path']['en-gb'] = "Conversation recording path";
 $text['description-call_recording_path']['ar-eg'] = "مسار تسجيل المحادثة";
 $text['description-call_recording_path']['de-at'] = "Konversationsaufzeichnungspfad";
@@ -287,6 +298,7 @@ $text['description-call_recording_path']['ja-jp'] = "会話録音パス";
 $text['description-call_recording_path']['ko-kr'] = "대화 녹음 경로";
 
 $text['label-call_recording_length']['en-us'] = "Length";
+$text['label-call_recording_length']['vi-vn'] = "Độ dài";
 $text['label-call_recording_length']['en-gb'] = "Length";
 $text['label-call_recording_length']['ar-eg'] = "طول";
 $text['label-call_recording_length']['de-at'] = "Länge";
@@ -313,6 +325,7 @@ $text['label-call_recording_length']['ja-jp'] = "長さ";
 $text['label-call_recording_length']['ko-kr'] = "길이";
 
 $text['description-call_recording_length']['en-us'] = "Call Recording Duration";
+$text['description-call_recording_length']['vi-vn'] = "Thời lượng bản ghi cuộc gọi";
 $text['description-call_recording_length']['en-gb'] = "Call Recording Duration";
 $text['description-call_recording_length']['ar-eg'] = "مدة تسجيل المكالمات";
 $text['description-call_recording_length']['de-at'] = "Anrufaufzeichnungsdauer";
@@ -339,6 +352,7 @@ $text['description-call_recording_length']['ja-jp'] = "通話録音時間";
 $text['description-call_recording_length']['ko-kr'] = "통화 녹음 시간";
 
 $text['label-call_recording_date']['en-us'] = "Date";
+$text['label-call_recording_date']['vi-vn'] = "Ngày";
 $text['label-call_recording_date']['en-gb'] = "Date";
 $text['label-call_recording_date']['ar-eg'] = "تاريخ";
 $text['label-call_recording_date']['de-at'] = "Datum";
@@ -365,6 +379,7 @@ $text['label-call_recording_date']['ja-jp'] = "日にち";
 $text['label-call_recording_date']['ko-kr'] = "날짜";
 
 $text['description-call_recording_date']['en-us'] = "Call Recording Date";
+$text['description-call_recording_date']['vi-vn'] = "Ngày ghi cuộc gọi";
 $text['description-call_recording_date']['en-gb'] = "Call Recording Date";
 $text['description-call_recording_date']['ar-eg'] = "تاريخ تسجيل المكالمة";
 $text['description-call_recording_date']['de-at'] = "Anrufaufzeichnungsdatum";
@@ -391,6 +406,7 @@ $text['description-call_recording_date']['ja-jp'] = "通話録音日";
 $text['description-call_recording_date']['ko-kr'] = "통화 녹음 날짜";
 
 $text['label-call_direction']['en-us'] = "Direction";
+$text['label-call_direction']['vi-vn'] = "Hướng";
 $text['label-call_direction']['en-gb'] = "Direction";
 $text['label-call_direction']['ar-eg'] = "اتجاه";
 $text['label-call_direction']['de-at'] = "Richtung";
@@ -417,6 +433,7 @@ $text['label-call_direction']['ja-jp'] = "方向";
 $text['label-call_direction']['ko-kr'] = "방향";
 
 $text['description-call_direction']['en-us'] = "Call recording call direction";
+$text['description-call_direction']['vi-vn'] = "Hướng cuộc gọi của bản ghi";
 $text['description-call_direction']['en-gb'] = "Call recording call direction";
 $text['description-call_direction']['ar-eg'] = "تسجيل المكالمات اتجاه المكالمة";
 $text['description-call_direction']['de-at'] = "Anrufaufzeichnung, Anrufrichtung";
@@ -443,6 +460,7 @@ $text['description-call_direction']['ja-jp'] = "通話録音の通話方向";
 $text['description-call_direction']['ko-kr'] = "통화 녹음 통화 방향";
 
 $text['label-call_recording_description']['en-us'] = "Description";
+$text['label-call_recording_description']['vi-vn'] = "Mô tả";
 $text['label-call_recording_description']['en-gb'] = "Description";
 $text['label-call_recording_description']['ar-eg'] = "وصف";
 $text['label-call_recording_description']['de-at'] = "Beschreibung";
@@ -469,6 +487,7 @@ $text['label-call_recording_description']['ja-jp'] = "説明";
 $text['label-call_recording_description']['ko-kr'] = "설명";
 
 $text['description-call_recording_description']['en-us'] = "Call recording direction";
+$text['description-call_recording_description']['vi-vn'] = "Hướng bản ghi cuộc gọi";
 $text['description-call_recording_description']['en-gb'] = "Call recording direction";
 $text['description-call_recording_description']['ar-eg'] = "اتجاه تسجيل المكالمات";
 $text['description-call_recording_description']['de-at'] = "Richtung der Anrufaufzeichnung";
@@ -495,6 +514,7 @@ $text['description-call_recording_description']['ja-jp'] = "通話録音の方�
 $text['description-call_recording_description']['ko-kr'] = "통화 녹음 방향";
 
 $text['label-call_recording_base64']['en-us'] = "Base64";
+$text['label-call_recording_base64']['vi-vn'] = "Base64";
 $text['label-call_recording_base64']['en-gb'] = "Base64";
 $text['label-call_recording_base64']['ar-eg'] = "قاعدة64";
 $text['label-call_recording_base64']['de-at'] = "Base64";
@@ -521,6 +541,7 @@ $text['label-call_recording_base64']['ja-jp'] = "ベース64";
 $text['label-call_recording_base64']['ko-kr'] = "베이스64";
 
 $text['description-call_recording_base64']['en-us'] = "Base64";
+$text['description-call_recording_base64']['vi-vn'] = "Base64";
 $text['description-call_recording_base64']['en-gb'] = "Base64";
 $text['description-call_recording_base64']['ar-eg'] = "قاعدة64";
 $text['description-call_recording_base64']['de-at'] = "Base64";
@@ -547,6 +568,7 @@ $text['description-call_recording_base64']['ja-jp'] = "ベース64";
 $text['description-call_recording_base64']['ko-kr'] = "베이스64";
 
 $text['label-inbound']['en-us'] = "Inbound";
+$text['label-inbound']['vi-vn'] = "Gọi vào";
 $text['label-inbound']['en-gb'] = "Inbound";
 $text['label-inbound']['ar-eg'] = "واردة";
 $text['label-inbound']['de-at'] = "Eingehende";
@@ -573,6 +595,7 @@ $text['label-inbound']['ja-jp'] = "インバウンド";
 $text['label-inbound']['ko-kr'] = "인바운드";
 
 $text['label-outbound']['en-us'] = "Outbound";
+$text['label-outbound']['vi-vn'] = "Gọi ra";
 $text['label-outbound']['en-gb'] = "Outbound";
 $text['label-outbound']['ar-eg'] = "الصادرة";
 $text['label-outbound']['de-at'] = "Ausgehend";
@@ -599,6 +622,7 @@ $text['label-outbound']['ja-jp'] = "アウトバウンド";
 $text['label-outbound']['ko-kr'] = "배 밖으로";
 
 $text['label-local']['en-us'] = "Local";
+$text['label-local']['vi-vn'] = "Cục bộ";
 $text['label-local']['en-gb'] = "Local";
 $text['label-local']['ar-eg'] = "محلي";
 $text['label-local']['de-at'] = "Lokal";

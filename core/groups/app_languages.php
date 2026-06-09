@@ -1,6 +1,7 @@
 <?php
 
 $text['title-groups']['en-us'] = "Group Manager";
+$text['title-groups']['vi-vn'] = "Quản lý nhóm";
 $text['title-groups']['en-gb'] = "Group Manager";
 $text['title-groups']['ar-eg'] = "مدير مجموعة";
 $text['title-groups']['de-at'] = "Gruppenverwaltung";
@@ -28,6 +29,7 @@ $text['title-groups']['ja-jp'] = "グループマネージャー";
 $text['title-groups']['ko-kr'] = "그룹 관리자";
 
 $text['title-group']['en-us'] = "Group Manager";
+$text['title-group']['vi-vn'] = "Quản lý nhóm";
 $text['title-group']['en-gb'] = "Group Manager";
 $text['title-group']['ar-eg'] = "مدير مجموعة";
 $text['title-group']['de-at'] = "Gruppenverwaltung";
@@ -55,6 +57,7 @@ $text['title-group']['ja-jp'] = "グループマネージャー";
 $text['title-group']['ko-kr'] = "그룹 관리자";
 
 $text['description-groups']['en-us'] = "Groups are a logical organization of users. Groups are assigned permissions. Users inherit permissions from the group or groups they are assigned to. The default groups are global and used across all domains. A group relevant to one domain may be created and assigned to a single domain.";
+$text['description-groups']['vi-vn'] = "Nhóm là cách tổ chức logic các người dùng. Nhóm được gán quyền. Người dùng kế thừa quyền từ một hoặc nhiều nhóm được gán. Các nhóm mặc định là toàn cục và dùng trên tất cả tên miền. Có thể tạo nhóm riêng cho một tên miền và gán cho tên miền đó.";
 $text['description-groups']['en-gb'] = "Groups are a logical organization of users. Groups are assigned permissions. Users inherit permissions from the group or groups they are assigned to. The default groups are global and used across all domains. A group relevant to one domain may be created and assigned to a single domain.";
 $text['description-groups']['ar-eg'] = "المجموعات هي منظمة منطقية للمستخدمين. يتم تعيين أذونات للمجموعات. يرث المستخدمون الأذونات من المجموعة أو المجموعات التي تم تعيينهم إليها. المجموعات الافتراضية هي عامة ويتم استخدامها في جميع المجالات. يمكن إنشاء مجموعة ذات صلة بمجال واحد وتعيينها إلى مجال واحد.";
 $text['description-groups']['de-at'] = "Gruppen sind eine logische Organisation der Benutzer. Gruppen werden Berechtigungen zugewiesen. Benutzer erben Berechtigungen von der Gruppe oder Gruppen, denen sie zugeordnet sind. Die Standardgruppen sind global und werden in allen Domänen verwendet. Eine für eine Domäne relevante Gruppe kann erstellt und einer einzigen Domäne zugeordnet werden.";
@@ -82,6 +85,7 @@ $text['description-groups']['ja-jp'] = "グループはユーザーの論理的�
 $text['description-groups']['ko-kr'] = "그룹은 사용자의 논리적 조직입니다. 그룹에는 권한이 할당됩니다. 사용자는 자신이 할당된 그룹에서 권한을 상속받습니다. 기본 그룹은 글로벌이며 모든 도메인에서 사용됩니다. 하나의 도메인과 관련된 그룹을 생성하여 단일 도메인에 할당할 수 있습니다.";
 
 $text['title-user_setting-edit']['en-us'] = "User Setting";
+$text['title-user_setting-edit']['vi-vn'] = "Cài đặt người dùng";
 $text['title-user_setting-edit']['en-gb'] = "User Setting";
 $text['title-user_setting-edit']['ar-eg'] = "إعداد المستخدم";
 $text['title-user_setting-edit']['de-at'] = "Benutzereinstellungen";
@@ -109,6 +113,7 @@ $text['title-user_setting-edit']['ja-jp'] = "ユーザー設定";
 $text['title-user_setting-edit']['ko-kr'] = "사용자 설정";
 
 $text['title-user_setting-add']['en-us'] = "User Setting Add";
+$text['title-user_setting-add']['vi-vn'] = "Thêm cài đặt người dùng";
 $text['title-user_setting-add']['en-gb'] = "User Setting Add";
 $text['title-user_setting-add']['ar-eg'] = "إضافة إعداد المستخدم";
 $text['title-user_setting-add']['de-at'] = "Benutzereinstellungen hinzufügen";
@@ -136,6 +141,7 @@ $text['title-user_setting-add']['ja-jp'] = "ユーザー設定の追加";
 $text['title-user_setting-add']['ko-kr'] = "사용자 설정 추가";
 
 $text['title-user_manager']['en-us'] = "User Manager";
+$text['title-user_manager']['vi-vn'] = "Quản lý người dùng";
 $text['title-user_manager']['en-gb'] = "User Manager";
 $text['title-user_manager']['ar-eg'] = "مدير المستخدمين";
 $text['title-user_manager']['de-at'] = "Benutzerverwaltung";
@@ -163,6 +169,7 @@ $text['title-user_manager']['ja-jp'] = "ユーザーマネージャー";
 $text['title-user_manager']['ko-kr'] = "사용자 관리자";
 
 $text['title-user_edit']['en-us'] = "User";
+$text['title-user_edit']['vi-vn'] = "Người dùng";
 $text['title-user_edit']['en-gb'] = "User";
 $text['title-user_edit']['ar-eg'] = "مستخدم";
 $text['title-user_edit']['de-at'] = "Benutzer";
@@ -190,6 +197,7 @@ $text['title-user_edit']['ja-jp'] = "ユーザー";
 $text['title-user_edit']['ko-kr'] = "사용자";
 
 $text['title-user_add']['en-us'] = "User";
+$text['title-user_add']['vi-vn'] = "Người dùng";
 $text['title-user_add']['en-gb'] = "User";
 $text['title-user_add']['ar-eg'] = "مستخدم";
 $text['title-user_add']['de-at'] = "Benutzer";
@@ -217,6 +225,7 @@ $text['title-user_add']['ja-jp'] = "ユーザー";
 $text['title-user_add']['ko-kr'] = "사용자";
 
 $text['title-group_permissions']['en-us'] = "Group Permissions";
+$text['title-group_permissions']['vi-vn'] = "Quyền nhóm";
 $text['title-group_permissions']['en-gb'] = "Group Permissions";
 $text['title-group_permissions']['ar-eg'] = "أذونات المجموعة";
 $text['title-group_permissions']['de-at'] = "Gruppenberechtigung";
@@ -244,6 +253,7 @@ $text['title-group_permissions']['ja-jp'] = "グループ権限";
 $text['title-group_permissions']['ko-kr'] = "그룹 권한";
 
 $text['title-group_members']['en-us'] = "Group Members";
+$text['title-group_members']['vi-vn'] = "Thành viên nhóm";
 $text['title-group_members']['en-gb'] = "Group Members";
 $text['title-group_members']['ar-eg'] = "أعضاء المجموعة";
 $text['title-group_members']['de-at'] = "Gruppenmitglieder";
@@ -271,6 +281,7 @@ $text['title-group_members']['ja-jp'] = "グループの人（仲間）たち";
 $text['title-group_members']['ko-kr'] = "그룹 구성원";
 
 $text['title-group_edit']['en-us'] = "Edit Group";
+$text['title-group_edit']['vi-vn'] = "Sửa nhóm";
 $text['title-group_edit']['en-gb'] = "Edit Group";
 $text['title-group_edit']['ar-eg'] = "تحرير المجموعة";
 $text['title-group_edit']['de-at'] = "Gruppe ändern";
@@ -298,6 +309,7 @@ $text['title-group_edit']['ja-jp'] = "グループの編集";
 $text['title-group_edit']['ko-kr'] = "그룹 수정";
 
 $text['title-group_add']['en-us'] = "Add Group";
+$text['title-group_add']['vi-vn'] = "Thêm nhóm";
 $text['title-group_add']['en-gb'] = "Add Group";
 $text['title-group_add']['ar-eg'] = "أضف مجموعة";
 $text['title-group_add']['de-at'] = "Gruppe hinzufügen";
@@ -325,6 +337,7 @@ $text['title-group_add']['ja-jp'] = "グループの追加";
 $text['title-group_add']['ko-kr'] = "그룹 추가";
 
 $text['option-true']['en-us'] = "True";
+$text['option-true']['vi-vn'] = "Đúng";
 $text['option-true']['en-gb'] = "True";
 $text['option-true']['ar-eg'] = "حقيقي";
 $text['option-true']['de-at'] = "Ein";
@@ -352,6 +365,7 @@ $text['option-true']['ja-jp'] = "真実";
 $text['option-true']['ko-kr'] = "진실";
 
 $text['option-on_break']['en-us'] = "On Break";
+$text['option-on_break']['vi-vn'] = "Đang nghỉ";
 $text['option-on_break']['en-gb'] = "On Break";
 $text['option-on_break']['ar-eg'] = "في استراحة";
 $text['option-on_break']['de-at'] = "In Pause";
@@ -379,6 +393,7 @@ $text['option-on_break']['ja-jp'] = "休んで";
 $text['option-on_break']['ko-kr'] = "쉬는 중";
 
 $text['option-logged_out']['en-us'] = "Logged Out";
+$text['option-logged_out']['vi-vn'] = "Đã đăng xuất";
 $text['option-logged_out']['en-gb'] = "Logged Out";
 $text['option-logged_out']['ar-eg'] = "تسجيل الخروج";
 $text['option-logged_out']['de-at'] = "Abgemeldet";
@@ -406,6 +421,7 @@ $text['option-logged_out']['ja-jp'] = "ログアウトしました";
 $text['option-logged_out']['ko-kr'] = "로그아웃됨";
 
 $text['option-global']['en-us'] = "Global";
+$text['option-global']['vi-vn'] = "Toàn cục";
 $text['option-global']['en-gb'] = "Global";
 $text['option-global']['ar-eg'] = "عالمي";
 $text['option-global']['de-at'] = "Allgemein";
@@ -433,6 +449,7 @@ $text['option-global']['ja-jp'] = "グローバル";
 $text['option-global']['ko-kr'] = "글로벌";
 
 $text['option-false']['en-us'] = "False";
+$text['option-false']['vi-vn'] = "Sai";
 $text['option-false']['en-gb'] = "False";
 $text['option-false']['ar-eg'] = "خطأ شنيع";
 $text['option-false']['de-at'] = "Aus";
@@ -460,6 +477,7 @@ $text['option-false']['ja-jp'] = "間違い";
 $text['option-false']['ko-kr'] = "거짓";
 
 $text['option-do_not_disturb']['en-us'] = "Do Not Disturb";
+$text['option-do_not_disturb']['vi-vn'] = "Không làm phiền";
 $text['option-do_not_disturb']['en-gb'] = "Do Not Disturb";
 $text['option-do_not_disturb']['ar-eg'] = "لا تخل";
 $text['option-do_not_disturb']['de-at'] = "Bitte nicht stören";
@@ -487,6 +505,7 @@ $text['option-do_not_disturb']['ja-jp'] = "邪魔しないでください";
 $text['option-do_not_disturb']['ko-kr'] = "방해하지 마";
 
 $text['option-available_on_demand']['en-us'] = "Available (On Demand)";
+$text['option-available_on_demand']['vi-vn'] = "Sẵn sàng (theo yêu cầu)";
 $text['option-available_on_demand']['en-gb'] = "Available (On Demand)";
 $text['option-available_on_demand']['ar-eg'] = "متاح (عند الطلب)";
 $text['option-available_on_demand']['de-at'] = "Verfügbar (auf Anfrage)";
@@ -514,6 +533,7 @@ $text['option-available_on_demand']['ja-jp'] = "利用可能 (オンデマンド
 $text['option-available_on_demand']['ko-kr'] = "사용 가능(주문형)";
 
 $text['option-available']['en-us'] = "Available";
+$text['option-available']['vi-vn'] = "Sẵn sàng";
 $text['option-available']['en-gb'] = "Available";
 $text['option-available']['ar-eg'] = "متاح";
 $text['option-available']['de-at'] = "Verfügbar";
@@ -541,6 +561,7 @@ $text['option-available']['ja-jp'] = "利用可能";
 $text['option-available']['ko-kr'] = "사용 가능";
 
 $text['message-username_exists']['en-us'] = "Username Already Exists";
+$text['message-username_exists']['vi-vn'] = "Tên đăng nhập đã tồn tại";
 $text['message-username_exists']['en-gb'] = "Username Already Exists";
 $text['message-username_exists']['ar-eg'] = "اسم المستخدم موجود بالفعل";
 $text['message-username_exists']['de-at'] = "Benutzername existiert bereits";
@@ -568,6 +589,7 @@ $text['message-username_exists']['ja-jp'] = "ユーザー名は既に存在し�
 $text['message-username_exists']['ko-kr'] = "사용자 이름이 이미 존재합니다";
 
 $text['message-password_mismatch']['en-us'] = "Password Mismatch";
+$text['message-password_mismatch']['vi-vn'] = "Mật khẩu không khớp";
 $text['message-password_mismatch']['en-gb'] = "Password Mismatch";
 $text['message-password_mismatch']['ar-eg'] = "كلمة المرور غير متطابقة";
 $text['message-password_mismatch']['de-at'] = "Passwörter stimmen nicht überein.";
@@ -595,6 +617,7 @@ $text['message-password_mismatch']['ja-jp'] = "パスワード";
 $text['message-password_mismatch']['ko-kr'] = "암호 불일치";
 
 $text['message-password_blank']['en-us'] = "Invalid Password";
+$text['message-password_blank']['vi-vn'] = "Mật khẩu không hợp lệ";
 $text['message-password_blank']['en-gb'] = "Invalid Password";
 $text['message-password_blank']['ar-eg'] = "رمز مرور خاطئ";
 $text['message-password_blank']['de-at'] = "Falsches Passwort";
@@ -622,6 +645,7 @@ $text['message-password_blank']['ja-jp'] = "無効なパスワード";
 $text['message-password_blank']['ko-kr'] = "유효하지 않은 비밀번호";
 
 $text['message-password_requirements']['en-us'] = "Password Requirements";
+$text['message-password_requirements']['vi-vn'] = "Yêu cầu mật khẩu";
 $text['message-password_requirements']['en-gb'] = "Password Requirements";
 $text['message-password_requirements']['ar-eg'] = "متطلبات كلمة المرور";
 $text['message-password_requirements']['de-at'] = "Kennwortanforderungen ";
@@ -649,6 +673,7 @@ $text['message-password_requirements']['ja-jp'] = "パスワード要件";
 $text['message-password_requirements']['ko-kr'] = "암호 요구 사항";
 
 $text['message-new_group_name']['en-us'] = "Enter a Name for the new Group...";
+$text['message-new_group_name']['vi-vn'] = "Nhập tên cho nhóm mới...";
 $text['message-new_group_name']['en-gb'] = "Enter a Name for the new Group...";
 $text['message-new_group_name']['ar-eg'] = "أدخل اسمًا للمجموعة الجديدة ...";
 $text['message-new_group_name']['de-at'] = "Geben Sie den Namen der neuen Gruppe an...";
@@ -676,6 +701,7 @@ $text['message-new_group_name']['ja-jp'] = "新しいグループの名前を入
 $text['message-new_group_name']['ko-kr'] = "새 그룹의 이름을 입력하십시오...";
 
 $text['message-new_group_description']['en-us'] = "Enter a Description for the new Group...";
+$text['message-new_group_description']['vi-vn'] = "Nhập mô tả cho nhóm mới...";
 $text['message-new_group_description']['en-gb'] = "Enter a Description for the new Group...";
 $text['message-new_group_description']['ar-eg'] = "أدخل وصفًا للمجموعة الجديدة...";
 $text['message-new_group_description']['de-at'] = "Geben Sie eine Beschreiben für die neue Gruppe an...";
@@ -703,6 +729,7 @@ $text['message-new_group_description']['ja-jp'] = "新しいグループの説�
 $text['message-new_group_description']['ko-kr'] = "새 그룹에 대한 설명을 입력하십시오.";
 
 $text['message-maximum_users']['en-us'] = "Maximum Users:";
+$text['message-maximum_users']['vi-vn'] = "Số người dùng tối đa:";
 $text['message-maximum_users']['en-gb'] = "Maximum Users:";
 $text['message-maximum_users']['ar-eg'] = "أقصى عدد من المستخدمين:";
 $text['message-maximum_users']['de-at'] = "Maximale Anzahl an Benutzern:";
@@ -730,6 +757,7 @@ $text['message-maximum_users']['ja-jp'] = "最大ユーザー数:";
 $text['message-maximum_users']['ko-kr'] = "최대 사용자:";
 
 $text['message-group_exists']['en-us'] = "Group Already Exists";
+$text['message-group_exists']['vi-vn'] = "Nhóm đã tồn tại";
 $text['message-group_exists']['en-gb'] = "Group Already Exists";
 $text['message-group_exists']['ar-eg'] = "المجموعة موجودة بالفعل";
 $text['message-group_exists']['de-at'] = "Gruppe existiert bereits";
@@ -757,6 +785,7 @@ $text['message-group_exists']['ja-jp'] = "グループはすでに存在しま�
 $text['message-group_exists']['ko-kr'] = "그룹이 이미 있음";
 
 $text['message-default_system_group']['en-us'] = "Default system groups cannot be edited or deleted.";
+$text['message-default_system_group']['vi-vn'] = "Không thể sửa hoặc xóa các nhóm hệ thống mặc định.";
 $text['message-default_system_group']['en-gb'] = "Default system groups cannot be edited or deleted.";
 $text['message-default_system_group']['ar-eg'] = "لا يمكن تحرير مجموعات النظام الافتراضية أو حذفها.";
 $text['message-default_system_group']['de-at'] = "Systemgruppen können nicht bearbeitet oder gelöscht werden.";
@@ -784,6 +813,7 @@ $text['message-default_system_group']['ja-jp'] = "デフォルトのシステム
 $text['message-default_system_group']['ko-kr'] = "기본 시스템 그룹은 편집하거나 삭제할 수 없습니다.";
 
 $text['message-copy']['en-us'] = "Copy Completed";
+$text['message-copy']['vi-vn'] = "Sao chép hoàn tất";
 $text['message-copy']['en-gb'] = "Copy Completed";
 $text['message-copy']['ar-eg'] = "اكتمل النسخ";
 $text['message-copy']['de-at'] = "Kopieren erfolgreich";
@@ -811,6 +841,7 @@ $text['message-copy']['ja-jp'] = "コピーが完了しました";
 $text['message-copy']['ko-kr'] = "복사 완료";
 
 $text['message-cannot_delete_own_account']['en-us'] = "You cannot delete your own user account. Please login as a different user, then try again.";
+$text['message-cannot_delete_own_account']['vi-vn'] = "Bạn không thể xóa tài khoản người dùng của chính mình. Vui lòng đăng nhập bằng người dùng khác rồi thử lại.";
 $text['message-cannot_delete_own_account']['en-gb'] = "You cannot delete your own user account. Please login as a different user, then try again.";
 $text['message-cannot_delete_own_account']['ar-eg'] = "لا يمكنك حذف حساب المستخدم الخاص بك. الرجاء تسجيل الدخول كمستخدم مختلف ، ثم حاول مرة أخرى.";
 $text['message-cannot_delete_own_account']['de-at'] = "Sie können nicht ihren eigenen Benutzer löschen. Bitte melden Sie sich mit einem anderen Benutzer an und versuchen Sie es erneut.";
@@ -838,6 +869,7 @@ $text['message-cannot_delete_own_account']['ja-jp'] = "自分のユーザー ア
 $text['message-cannot_delete_own_account']['ko-kr'] = "자신의 사용자 계정은 삭제할 수 없습니다. 다른 사용자로 로그인한 후 다시 시도하십시오.";
 
 $text['label-web_fonts']['en-us'] = "Web Fonts";
+$text['label-web_fonts']['vi-vn'] = "Font web";
 $text['label-web_fonts']['en-gb'] = "Web Fonts";
 $text['label-web_fonts']['ar-eg'] = "خطوط الويب";
 $text['label-web_fonts']['de-at'] = "Web Fonts";
@@ -865,6 +897,7 @@ $text['label-web_fonts']['ja-jp'] = "ウェブフォント";
 $text['label-web_fonts']['ko-kr'] = "웹폰트";
 
 $text['label-username']['en-us'] = "Username";
+$text['label-username']['vi-vn'] = "Tên đăng nhập";
 $text['label-username']['en-gb'] = "Username";
 $text['label-username']['ar-eg'] = "اسم المستخدم";
 $text['label-username']['de-at'] = "Benutzername";
@@ -892,6 +925,7 @@ $text['label-username']['ja-jp'] = "ユーザー名";
 $text['label-username']['ko-kr'] = "사용자 이름";
 
 $text['label-user_language']['en-us'] = "Language";
+$text['label-user_language']['vi-vn'] = "Ngôn ngữ";
 $text['label-user_language']['en-gb'] = "Language";
 $text['label-user_language']['ar-eg'] = "لغة";
 $text['label-user_language']['de-at'] = "Sprache";
@@ -919,6 +953,7 @@ $text['label-user_language']['ja-jp'] = "言語";
 $text['label-user_language']['ko-kr'] = "언어";
 
 $text['label-user_info']['en-us'] = "User Info";
+$text['label-user_info']['vi-vn'] = "Thông tin người dùng";
 $text['label-user_info']['en-gb'] = "User Info";
 $text['label-user_info']['ar-eg'] = "معلومات المستخدم";
 $text['label-user_info']['de-at'] = "Benutzerinformation";
@@ -946,6 +981,7 @@ $text['label-user_info']['ja-jp'] = "ユーザー情報";
 $text['label-user_info']['ko-kr'] = "사용자 정보";
 
 $text['label-uppercase_letters']['en-us'] = "Uppercase Letters";
+$text['label-uppercase_letters']['vi-vn'] = "Chữ hoa";
 $text['label-uppercase_letters']['en-gb'] = "Uppercase Letters";
 $text['label-uppercase_letters']['ar-eg'] = "الأحرف الكبيرة";
 $text['label-uppercase_letters']['de-at'] = "Großbuchstaben";
@@ -973,6 +1009,7 @@ $text['label-uppercase_letters']['ja-jp'] = "大文字";
 $text['label-uppercase_letters']['ko-kr'] = "대문자";
 
 $text['label-top']['en-us'] = "Top";
+$text['label-top']['vi-vn'] = "Trên";
 $text['label-top']['en-gb'] = "Top";
 $text['label-top']['ar-eg'] = "قمة";
 $text['label-top']['de-at'] = "Oben";
@@ -1000,6 +1037,7 @@ $text['label-top']['ja-jp'] = "上";
 $text['label-top']['ko-kr'] = "맨 위";
 
 $text['label-time_zone']['en-us'] = "Time Zone";
+$text['label-time_zone']['vi-vn'] = "Múi giờ";
 $text['label-time_zone']['en-gb'] = "Time Zone";
 $text['label-time_zone']['ar-eg'] = "وحدة زمنية";
 $text['label-time_zone']['de-at'] = "Zeitzone";
@@ -1027,6 +1065,7 @@ $text['label-time_zone']['ja-jp'] = "タイムゾーン";
 $text['label-time_zone']['ko-kr'] = "시간대";
 
 $text['label-text']['en-us'] = "Text";
+$text['label-text']['vi-vn'] = "Văn bản";
 $text['label-text']['en-gb'] = "Text";
 $text['label-text']['ar-eg'] = "نص";
 $text['label-text']['de-at'] = "Text";
@@ -1054,6 +1093,7 @@ $text['label-text']['ja-jp'] = "文章";
 $text['label-text']['ko-kr'] = "텍스트";
 
 $text['label-status']['en-us'] = "Status";
+$text['label-status']['vi-vn'] = "Trạng thái";
 $text['label-status']['en-gb'] = "Status";
 $text['label-status']['ar-eg'] = "حالة";
 $text['label-status']['de-at'] = "Status";
@@ -1081,6 +1121,7 @@ $text['label-status']['ja-jp'] = "スターテス";
 $text['label-status']['ko-kr'] = "상태";
 
 $text['label-static']['en-us'] = "Static";
+$text['label-static']['vi-vn'] = "Tĩnh";
 $text['label-static']['en-gb'] = "Static";
 $text['label-static']['ar-eg'] = "ثابتة";
 $text['label-static']['de-at'] = "Statisch";
@@ -1108,6 +1149,7 @@ $text['label-static']['ja-jp'] = "静的";
 $text['label-static']['ko-kr'] = "공전";
 
 $text['label-special_characters']['en-us'] = "Special Characters";
+$text['label-special_characters']['vi-vn'] = "Ký tự đặc biệt";
 $text['label-special_characters']['en-gb'] = "Special Characters";
 $text['label-special_characters']['ar-eg'] = "الشخصيات الخاصة";
 $text['label-special_characters']['de-at'] = "Sonderzeichen";
@@ -1135,6 +1177,7 @@ $text['label-special_characters']['ja-jp'] = "特殊文字";
 $text['label-special_characters']['ko-kr'] = "특수 문자";
 
 $text['label-right']['en-us'] = "Right";
+$text['label-right']['vi-vn'] = "Phải";
 $text['label-right']['en-gb'] = "Right";
 $text['label-right']['ar-eg'] = "يمين";
 $text['label-right']['de-at'] = "Rechts";
@@ -1162,6 +1205,7 @@ $text['label-right']['ja-jp'] = "右";
 $text['label-right']['ko-kr'] = "오른쪽";
 
 $text['label-reference']['en-us'] = "See";
+$text['label-reference']['vi-vn'] = "Xem";
 $text['label-reference']['en-gb'] = "See";
 $text['label-reference']['ar-eg'] = "يرى";
 $text['label-reference']['de-at'] = "Referenz";
@@ -1189,6 +1233,7 @@ $text['label-reference']['ja-jp'] = "見る";
 $text['label-reference']['ko-kr'] = "보다";
 
 $text['label-permission_permissions']['en-us'] = "Permissions";
+$text['label-permission_permissions']['vi-vn'] = "Quyền";
 $text['label-permission_permissions']['en-gb'] = "Permissions";
 $text['label-permission_permissions']['ar-eg'] = "أذونات";
 $text['label-permission_permissions']['de-at'] = "Berechtigungen";
@@ -1216,6 +1261,7 @@ $text['label-permission_permissions']['ja-jp'] = "権限";
 $text['label-permission_permissions']['ko-kr'] = "권한";
 
 $text['label-permission_description']['en-us'] = "Description";
+$text['label-permission_description']['vi-vn'] = "Mô tả";
 $text['label-permission_description']['en-gb'] = "Description";
 $text['label-permission_description']['ar-eg'] = "وصف";
 $text['label-permission_description']['de-at'] = "Beschreibung";
@@ -1243,6 +1289,7 @@ $text['label-permission_description']['ja-jp'] = "説明";
 $text['label-permission_description']['ko-kr'] = "설명";
 
 $text['label-password']['en-us'] = "Password";
+$text['label-password']['vi-vn'] = "Mật khẩu";
 $text['label-password']['en-gb'] = "Password";
 $text['label-password']['ar-eg'] = "كلمة المرور";
 $text['label-password']['de-at'] = "Passwort";
@@ -1270,6 +1317,7 @@ $text['label-password']['ja-jp'] = "パスワード";
 $text['label-password']['ko-kr'] = "비밀번호";
 
 $text['label-other']['en-us'] = "Other";
+$text['label-other']['vi-vn'] = "Khác";
 $text['label-other']['en-gb'] = "Other";
 $text['label-other']['ar-eg'] = "آخر";
 $text['label-other']['de-at'] = "Andere";
@@ -1297,6 +1345,7 @@ $text['label-other']['ja-jp'] = "他の";
 $text['label-other']['ko-kr'] = "다른";
 
 $text['label-numbers']['en-us'] = "Numbers";
+$text['label-numbers']['vi-vn'] = "Số";
 $text['label-numbers']['en-gb'] = "Numbers";
 $text['label-numbers']['ar-eg'] = "أعداد";
 $text['label-numbers']['de-at'] = "Nummern";
@@ -1324,6 +1373,7 @@ $text['label-numbers']['ja-jp'] = "ナンバー";
 $text['label-numbers']['ko-kr'] = "민수기";
 
 $text['label-none']['en-us'] = "None";
+$text['label-none']['vi-vn'] = "Không có";
 $text['label-none']['en-gb'] = "None";
 $text['label-none']['ar-eg'] = "لا أحد";
 $text['label-none']['de-at'] = "Keiner";
@@ -1351,6 +1401,7 @@ $text['label-none']['ja-jp'] = "なし";
 $text['label-none']['ko-kr'] = "없음";
 
 $text['label-lowercase_letters']['en-us'] = "Lowercase Letters";
+$text['label-lowercase_letters']['vi-vn'] = "Chữ thường";
 $text['label-lowercase_letters']['en-gb'] = "Lowercase Letters";
 $text['label-lowercase_letters']['ar-eg'] = "أحرف صغيرة";
 $text['label-lowercase_letters']['de-at'] = "Kleinbuchstaben";
@@ -1378,6 +1429,7 @@ $text['label-lowercase_letters']['ja-jp'] = "小文字";
 $text['label-lowercase_letters']['ko-kr'] = "소문자";
 
 $text['label-left']['en-us'] = "Left";
+$text['label-left']['vi-vn'] = "Trái";
 $text['label-left']['en-gb'] = "Left";
 $text['label-left']['ar-eg'] = "غادر";
 $text['label-left']['de-at'] = "Links";
@@ -1405,6 +1457,7 @@ $text['label-left']['ja-jp'] = "左";
 $text['label-left']['ko-kr'] = "왼쪽";
 
 $text['label-last_name']['en-us'] = "Last Name";
+$text['label-last_name']['vi-vn'] = "Họ";
 $text['label-last_name']['en-gb'] = "Last Name";
 $text['label-last_name']['ar-eg'] = "اسم العائلة";
 $text['label-last_name']['de-at'] = "Nachname";
@@ -1432,6 +1485,7 @@ $text['label-last_name']['ja-jp'] = "苗字";
 $text['label-last_name']['ko-kr'] = "성";
 
 $text['label-inline']['en-us'] = "Inline";
+$text['label-inline']['vi-vn'] = "Nội tuyến";
 $text['label-inline']['en-gb'] = "Inline";
 $text['label-inline']['ar-eg'] = "في النسق";
 $text['label-inline']['de-at'] = "In der Reihe";
@@ -1459,6 +1513,7 @@ $text['label-inline']['ja-jp'] = "列をなして";
 $text['label-inline']['ko-kr'] = "인라인";
 
 $text['label-image']['en-us'] = "Image";
+$text['label-image']['vi-vn'] = "Hình ảnh";
 $text['label-image']['en-gb'] = "Image";
 $text['label-image']['ar-eg'] = "صورة";
 $text['label-image']['de-at'] = "Bild";
@@ -1486,6 +1541,7 @@ $text['label-image']['ja-jp'] = "画像";
 $text['label-image']['ko-kr'] = "영상";
 
 $text['label-groups']['en-us'] = "Groups";
+$text['label-groups']['vi-vn'] = "Nhóm";
 $text['label-groups']['en-gb'] = "Groups";
 $text['label-groups']['ar-eg'] = "مجموعات";
 $text['label-groups']['de-at'] = "Gruppen";
@@ -1513,6 +1569,7 @@ $text['label-groups']['ja-jp'] = "グループ";
 $text['label-groups']['ko-kr'] = "여러 떼";
 
 $text['label-group_tools']['en-us'] = "Tools";
+$text['label-group_tools']['vi-vn'] = "Công cụ";
 $text['label-group_tools']['en-gb'] = "Tools";
 $text['label-group_tools']['ar-eg'] = "أدوات";
 $text['label-group_tools']['de-at'] = "Funktionen";
@@ -1540,6 +1597,7 @@ $text['label-group_tools']['ja-jp'] = "ツール";
 $text['label-group_tools']['ko-kr'] = "도구";
 
 $text['label-group_protected']['en-us'] = "Protected";
+$text['label-group_protected']['vi-vn'] = "Được bảo vệ";
 $text['label-group_protected']['en-gb'] = "Protected";
 $text['label-group_protected']['ar-eg'] = "محمي";
 $text['label-group_protected']['de-at'] = "Geschützt";
@@ -1567,6 +1625,7 @@ $text['label-group_protected']['ja-jp'] = "保護されています";
 $text['label-group_protected']['ko-kr'] = "보호";
 
 $text['label-group_permissions']['en-us'] = "Permissions";
+$text['label-group_permissions']['vi-vn'] = "Quyền";
 $text['label-group_permissions']['en-gb'] = "Permissions";
 $text['label-group_permissions']['ar-eg'] = "أذونات";
 $text['label-group_permissions']['de-at'] = "Berechtigungen";
@@ -1594,6 +1653,7 @@ $text['label-group_permissions']['ja-jp'] = "パーミッション";
 $text['label-group_permissions']['ko-kr'] = "제출";
 
 $text['label-group_name']['en-us'] = "Name";
+$text['label-group_name']['vi-vn'] = "Tên";
 $text['label-group_name']['en-gb'] = "Name";
 $text['label-group_name']['ar-eg'] = "اسم";
 $text['label-group_name']['de-at'] = "Name";
@@ -1621,6 +1681,7 @@ $text['label-group_name']['ja-jp'] = "名前";
 $text['label-group_name']['ko-kr'] = "이름";
 
 $text['label-group_members']['en-us'] = "Members";
+$text['label-group_members']['vi-vn'] = "Thành viên";
 $text['label-group_members']['en-gb'] = "Members";
 $text['label-group_members']['ar-eg'] = "أعضاء";
 $text['label-group_members']['de-at'] = "Mitglieder";
@@ -1648,6 +1709,7 @@ $text['label-group_members']['ja-jp'] = "メンバー";
 $text['label-group_members']['ko-kr'] = "회원";
 
 $text['label-group_level']['en-us'] = "Level";
+$text['label-group_level']['vi-vn'] = "Cấp";
 $text['label-group_level']['en-gb'] = "Level";
 $text['label-group_level']['ar-eg'] = "مستوى";
 $text['label-group_level']['de-at'] = "Ebene";
@@ -1675,6 +1737,7 @@ $text['label-group_level']['ja-jp'] = "レベル";
 $text['label-group_level']['ko-kr'] = "수준";
 
 $text['description-group_level']['en-us'] = "Select the group order.";
+$text['description-group_level']['vi-vn'] = "Chọn thứ tự nhóm.";
 $text['description-group_level']['en-gb'] = "Select the group order.";
 $text['description-group_level']['ar-eg'] = "حدد ترتيب المجموعة.";
 $text['description-group_level']['de-at'] = "Wählen Sie den Gruppenauftrag aus.";
@@ -1702,6 +1765,7 @@ $text['description-group_level']['ja-jp'] = "グループの順序を選択し�
 $text['description-group_level']['ko-kr'] = "그룹 주문을 선택합니다.";
 
 $text['label-group_description']['en-us'] = "Description";
+$text['label-group_description']['vi-vn'] = "Mô tả";
 $text['label-group_description']['en-gb'] = "Description";
 $text['label-group_description']['ar-eg'] = "وصف";
 $text['label-group_description']['de-at'] = "Beschreibung";
@@ -1729,6 +1793,7 @@ $text['label-group_description']['ja-jp'] = "説明";
 $text['label-group_description']['ko-kr'] = "설명";
 
 $text['label-group']['en-us'] = "Group";
+$text['label-group']['vi-vn'] = "Nhóm";
 $text['label-group']['en-gb'] = "Group";
 $text['label-group']['ar-eg'] = "مجموعة";
 $text['label-group']['de-at'] = "Gruppe";
@@ -1756,6 +1821,7 @@ $text['label-group']['ja-jp'] = "グループ";
 $text['label-group']['ko-kr'] = "그룹";
 
 $text['label-global']['en-us'] = "Global";
+$text['label-global']['vi-vn'] = "Toàn cục";
 $text['label-global']['en-gb'] = "Global";
 $text['label-global']['ar-eg'] = "عالمي";
 $text['label-global']['de-at'] = "Allgemein";
@@ -1783,6 +1849,7 @@ $text['label-global']['ja-jp'] = "グローバル";
 $text['label-global']['ko-kr'] = "글로벌";
 
 $text['label-fixed']['en-us'] = "Fixed";
+$text['label-fixed']['vi-vn'] = "Cố định";
 $text['label-fixed']['en-gb'] = "Fixed";
 $text['label-fixed']['ar-eg'] = "مُثَبَّت";
 $text['label-fixed']['de-at'] = "Fest";
@@ -1810,6 +1877,7 @@ $text['label-fixed']['ja-jp'] = "修理済み";
 $text['label-fixed']['ko-kr'] = "결정된";
 
 $text['label-first_name']['en-us'] = "First Name";
+$text['label-first_name']['vi-vn'] = "Tên";
 $text['label-first_name']['en-gb'] = "First Name";
 $text['label-first_name']['ar-eg'] = "الاسم الأول";
 $text['label-first_name']['de-at'] = "Vorname";
@@ -1837,6 +1905,7 @@ $text['label-first_name']['ja-jp'] = "ファーストネーム";
 $text['label-first_name']['ko-kr'] = "이름";
 
 $text['label-email']['en-us'] = "Email";
+$text['label-email']['vi-vn'] = "Email";
 $text['label-email']['en-gb'] = "Email";
 $text['label-email']['ar-eg'] = "بريد إلكتروني";
 $text['label-email']['de-at'] = "Email";
@@ -1864,6 +1933,7 @@ $text['label-email']['ja-jp'] = "Eメール";
 $text['label-email']['ko-kr'] = "이메일";
 
 $text['label-domain']['en-us'] = "Domain";
+$text['label-domain']['vi-vn'] = "Tên miền";
 $text['label-domain']['en-gb'] = "Domain";
 $text['label-domain']['ar-eg'] = "اِختِصاص";
 $text['label-domain']['de-at'] = "Domain";
@@ -1891,6 +1961,7 @@ $text['label-domain']['ja-jp'] = "ドメイン";
 $text['label-domain']['ko-kr'] = "도메인";
 
 $text['label-contact']['en-us'] = "Contact";
+$text['label-contact']['vi-vn'] = "Liên hệ";
 $text['label-contact']['en-gb'] = "Contact";
 $text['label-contact']['ar-eg'] = "اتصال";
 $text['label-contact']['de-at'] = "Kontakt";
@@ -1918,6 +1989,7 @@ $text['label-contact']['ja-jp'] = "コンタクト";
 $text['label-contact']['ko-kr'] = "연락하다";
 
 $text['label-confirm_password']['en-us'] = "Confirm Password";
+$text['label-confirm_password']['vi-vn'] = "Xác nhận mật khẩu";
 $text['label-confirm_password']['en-gb'] = "Confirm Password";
 $text['label-confirm_password']['ar-eg'] = "تأكيد كلمة المرور";
 $text['label-confirm_password']['de-at'] = "Passwort bestätigen";
@@ -1945,6 +2017,7 @@ $text['label-confirm_password']['ja-jp'] = "パスワードを認証する";
 $text['label-confirm_password']['ko-kr'] = "비밀번호 확인";
 
 $text['label-company_name']['en-us'] = "Company Name";
+$text['label-company_name']['vi-vn'] = "Tên công ty";
 $text['label-company_name']['en-gb'] = "Company Name";
 $text['label-company_name']['ar-eg'] = "اسم الشركة";
 $text['label-company_name']['de-at'] = "Firmenname";
@@ -1972,6 +2045,7 @@ $text['label-company_name']['ja-jp'] = "会社名";
 $text['label-company_name']['ko-kr'] = "회사 이름";
 
 $text['label-characters']['en-us'] = "Characters";
+$text['label-characters']['vi-vn'] = "Ký tự";
 $text['label-characters']['en-gb'] = "Characters";
 $text['label-characters']['ar-eg'] = "الشخصيات";
 $text['label-characters']['de-at'] = "Zeichen";
@@ -1999,6 +2073,7 @@ $text['label-characters']['ja-jp'] = "キャラクター";
 $text['label-characters']['ko-kr'] = "캐릭터";
 
 $text['label-center']['en-us'] = "Center";
+$text['label-center']['vi-vn'] = "Giữa";
 $text['label-center']['en-gb'] = "Center";
 $text['label-center']['ar-eg'] = "مركز";
 $text['label-center']['de-at'] = "Mitte";
@@ -2026,6 +2101,7 @@ $text['label-center']['ja-jp'] = "中心";
 $text['label-center']['ko-kr'] = "센터";
 
 $text['label-bottom']['en-us'] = "Bottom";
+$text['label-bottom']['vi-vn'] = "Dưới";
 $text['label-bottom']['en-gb'] = "Bottom";
 $text['label-bottom']['ar-eg'] = "قاع";
 $text['label-bottom']['de-at'] = "Unten";
@@ -2053,6 +2129,7 @@ $text['label-bottom']['ja-jp'] = "下";
 $text['label-bottom']['ko-kr'] = "맨 아래";
 
 $text['label-api_key']['en-us'] = "API Key";
+$text['label-api_key']['vi-vn'] = "API Key";
 $text['label-api_key']['en-gb'] = "API Key";
 $text['label-api_key']['ar-eg'] = "مفتاح API";
 $text['label-api_key']['de-at'] = "API Schlüssel";
@@ -2080,6 +2157,7 @@ $text['label-api_key']['ja-jp'] = "APIキー";
 $text['label-api_key']['ko-kr'] = "API 키";
 
 $text['label-additional_info']['en-us'] = "Additional Info";
+$text['label-additional_info']['vi-vn'] = "Thông tin bổ sung";
 $text['label-additional_info']['en-gb'] = "Additional Info";
 $text['label-additional_info']['ar-eg'] = "معلومات إضافية";
 $text['label-additional_info']['de-at'] = "Zusätzliche Information";
@@ -2107,6 +2185,7 @@ $text['label-additional_info']['ja-jp'] = "追加情報";
 $text['label-additional_info']['ko-kr'] = "추가 정보";
 
 $text['label-24-hour']['en-us'] = "24-Hour";
+$text['label-24-hour']['vi-vn'] = "24 giờ";
 $text['label-24-hour']['en-gb'] = "24-Hour";
 $text['label-24-hour']['ar-eg'] = "24 ساعة";
 $text['label-24-hour']['de-at'] = "24 Stunden";
@@ -2134,6 +2213,7 @@ $text['label-24-hour']['ja-jp'] = "24時間";
 $text['label-24-hour']['ko-kr'] = "24 시간";
 
 $text['label-12-hour']['en-us'] = "12-Hour";
+$text['label-12-hour']['vi-vn'] = "12 giờ";
 $text['label-12-hour']['en-gb'] = "12-Hour";
 $text['label-12-hour']['ar-eg'] = "12 ساعة";
 $text['label-12-hour']['de-at'] = "12 Stunden";
@@ -2161,6 +2241,7 @@ $text['label-12-hour']['ja-jp'] = "12時間";
 $text['label-12-hour']['ko-kr'] = "12시간";
 
 $text['label-assigned']['en-us'] = "Assigned";
+$text['label-assigned']['vi-vn'] = "Đã gán";
 $text['label-assigned']['en-gb'] = "Assigned";
 $text['label-assigned']['ar-eg'] = "مُكَلَّف";
 $text['label-assigned']['de-at'] = "Zugewiesen";
@@ -2188,6 +2269,7 @@ $text['label-assigned']['ja-jp'] = "割り当て済み";
 $text['label-assigned']['ko-kr'] = "할당된";
 
 $text['label-unassigned']['en-us'] = "Unassigned";
+$text['label-unassigned']['vi-vn'] = "Chưa gán";
 $text['label-unassigned']['en-gb'] = "Unassigned";
 $text['label-unassigned']['ar-eg'] = "غير معين";
 $text['label-unassigned']['de-at'] = "Nicht zugewiesen";
@@ -2215,6 +2297,7 @@ $text['label-unassigned']['ja-jp'] = "未割り当て";
 $text['label-unassigned']['ko-kr'] = "할당되지 않음";
 
 $text['header-user_setting-edit']['en-us'] = "User Setting";
+$text['header-user_setting-edit']['vi-vn'] = "Cài đặt người dùng";
 $text['header-user_setting-edit']['en-gb'] = "User Setting";
 $text['header-user_setting-edit']['ar-eg'] = "إعداد المستخدم";
 $text['header-user_setting-edit']['de-at'] = "Benutzereinstellung";
@@ -2242,6 +2325,7 @@ $text['header-user_setting-edit']['ja-jp'] = "ユーザー設定";
 $text['header-user_setting-edit']['ko-kr'] = "사용자 설정";
 
 $text['header-user_setting-add']['en-us'] = "User Setting Add";
+$text['header-user_setting-add']['vi-vn'] = "Thêm cài đặt người dùng";
 $text['header-user_setting-add']['en-gb'] = "User Setting Add";
 $text['header-user_setting-add']['ar-eg'] = "إضافة إعدادات المستخدم";
 $text['header-user_setting-add']['de-at'] = "Benutzereinstellung hinzufügen";
@@ -2269,6 +2353,7 @@ $text['header-user_setting-add']['ja-jp'] = "ユーザー設定の追加";
 $text['header-user_setting-add']['ko-kr'] = "사용자 설정 추가";
 
 $text['header-user_manager']['en-us'] = "Users";
+$text['header-user_manager']['vi-vn'] = "Người dùng";
 $text['header-user_manager']['en-gb'] = "Users";
 $text['header-user_manager']['ar-eg'] = "المستخدمون";
 $text['header-user_manager']['de-at'] = "Benutzer";
@@ -2296,6 +2381,7 @@ $text['header-user_manager']['ja-jp'] = "ユーザー";
 $text['header-user_manager']['ko-kr'] = "사용자";
 
 $text['header-user_edit']['en-us'] = "User";
+$text['header-user_edit']['vi-vn'] = "Người dùng";
 $text['header-user_edit']['en-gb'] = "User";
 $text['header-user_edit']['ar-eg'] = "مستخدم";
 $text['header-user_edit']['de-at'] = "Benutzer";
@@ -2323,6 +2409,7 @@ $text['header-user_edit']['ja-jp'] = "ユーザー";
 $text['header-user_edit']['ko-kr'] = "사용자";
 
 $text['header-user_add']['en-us'] = "User";
+$text['header-user_add']['vi-vn'] = "Người dùng";
 $text['header-user_add']['en-gb'] = "User";
 $text['header-user_add']['ar-eg'] = "مستخدم";
 $text['header-user_add']['de-at'] = "Benutzer";
@@ -2350,6 +2437,7 @@ $text['header-user_add']['ja-jp'] = "ユーザー";
 $text['header-user_add']['ko-kr'] = "사용자";
 
 $text['header-group_members']['en-us'] = "Group Members";
+$text['header-group_members']['vi-vn'] = "Thành viên nhóm";
 $text['header-group_members']['en-gb'] = "Group Members";
 $text['header-group_members']['ar-eg'] = "أعضاء المجموعة";
 $text['header-group_members']['de-at'] = "Gruppenmitglieder";
@@ -2377,6 +2465,7 @@ $text['header-group_members']['ja-jp'] = "グループの人（仲間）たち";
 $text['header-group_members']['ko-kr'] = "그룹 구성원";
 
 $text['header-group_manager']['en-us'] = "Group Manager";
+$text['header-group_manager']['vi-vn'] = "Quản lý nhóm";
 $text['header-group_manager']['en-gb'] = "Group Manager";
 $text['header-group_manager']['ar-eg'] = "مدير مجموعة";
 $text['header-group_manager']['de-at'] = "Gruppenverwaltung";
@@ -2404,6 +2493,7 @@ $text['header-group_manager']['ja-jp'] = "グループマネージャー";
 $text['header-group_manager']['ko-kr'] = "그룹 관리자";
 
 $text['header-group_edit']['en-us'] = "Edit Group";
+$text['header-group_edit']['vi-vn'] = "Sửa nhóm";
 $text['header-group_edit']['en-gb'] = "Edit Group";
 $text['header-group_edit']['ar-eg'] = "تحرير المجموعة";
 $text['header-group_edit']['de-at'] = "Gruppe bearbeiten";
@@ -2431,6 +2521,7 @@ $text['header-group_edit']['ja-jp'] = "グループの編集";
 $text['header-group_edit']['ko-kr'] = "그룹 수정";
 
 $text['header-group_add']['en-us'] = "Add Group";
+$text['header-group_add']['vi-vn'] = "Thêm nhóm";
 $text['header-group_add']['en-gb'] = "Add Group";
 $text['header-group_add']['ar-eg'] = "أضف مجموعة";
 $text['header-group_add']['de-at'] = "Gruppe hinzufügen";
@@ -2458,6 +2549,7 @@ $text['header-group_add']['ja-jp'] = "グループの追加";
 $text['header-group_add']['ko-kr'] = "그룹 추가";
 
 $text['description-user_setting-edit']['en-us'] = "Edit a setting for this user.";
+$text['description-user_setting-edit']['vi-vn'] = "Sửa một cài đặt cho người dùng này.";
 $text['description-user_setting-edit']['en-gb'] = "Edit a setting for this user.";
 $text['description-user_setting-edit']['ar-eg'] = "تحرير إعداد لهذا المستخدم.";
 $text['description-user_setting-edit']['de-at'] = "Eine Einstellung dieses Benuters anpassen.";
@@ -2485,6 +2577,7 @@ $text['description-user_setting-edit']['ja-jp'] = "このユーザーの設定�
 $text['description-user_setting-edit']['ko-kr'] = "이 사용자에 대한 설정을 편집합니다.";
 
 $text['description-user_setting-add']['en-us'] = "Add a setting for this user.";
+$text['description-user_setting-add']['vi-vn'] = "Thêm một cài đặt cho người dùng này.";
 $text['description-user_setting-add']['en-gb'] = "Add a setting for this user.";
 $text['description-user_setting-add']['ar-eg'] = "أضف إعدادًا لهذا المستخدم.";
 $text['description-user_setting-add']['de-at'] = "Eine Einstellung für diesen Benutzer hinzufügen.";
@@ -2512,6 +2605,7 @@ $text['description-user_setting-add']['ja-jp'] = "このユーザーの設定を
 $text['description-user_setting-add']['ko-kr'] = "이 사용자에 대한 설정을 추가합니다.";
 
 $text['description-user_manager']['en-us'] = "Add, edit, delete, and search users.";
+$text['description-user_manager']['vi-vn'] = "Thêm, sửa, xóa và tìm kiếm người dùng.";
 $text['description-user_manager']['en-gb'] = "Add, edit, delete, and search users.";
 $text['description-user_manager']['ar-eg'] = "إضافة وتعديل وحذف والبحث عن المستخدمين.";
 $text['description-user_manager']['de-at'] = "Benutzer anlegen, editieren, löschen und suchen.";
@@ -2539,6 +2633,7 @@ $text['description-user_manager']['ja-jp'] = "ユーザーを追加、編集、�
 $text['description-user_manager']['ko-kr'] = "사용자를 추가, 편집, 삭제 및 검색합니다.";
 
 $text['description-user_language']['en-us'] = "Select the language.";
+$text['description-user_language']['vi-vn'] = "Chọn ngôn ngữ.";
 $text['description-user_language']['en-gb'] = "Select the language.";
 $text['description-user_language']['ar-eg'] = "اختر اللغة.";
 $text['description-user_language']['de-at'] = "Sprache auswählen";
@@ -2566,6 +2661,7 @@ $text['description-user_language']['ja-jp'] = "言語を選択します。";
 $text['description-user_language']['ko-kr'] = "언어를 선택합니다.";
 
 $text['description-user_edit']['en-us'] = "Edit user information and group membership.";
+$text['description-user_edit']['vi-vn'] = "Sửa thông tin người dùng và tư cách thành viên nhóm.";
 $text['description-user_edit']['en-gb'] = "Edit user information and group membership.";
 $text['description-user_edit']['ar-eg'] = "تحرير معلومات المستخدم وعضوية المجموعة.";
 $text['description-user_edit']['de-at'] = "Benutzerinformationen und Gruppen verwalten.";
@@ -2593,6 +2689,7 @@ $text['description-user_edit']['ja-jp'] = "ユーザー情報とグループメ�
 $text['description-user_edit']['ko-kr'] = "사용자 정보 및 그룹 구성원을 편집합니다.";
 
 $text['description-user_add']['en-us'] = "To add a user, please fill out this form completely. All fields are required.";
+$text['description-user_add']['vi-vn'] = "Để thêm người dùng, vui lòng điền đầy đủ biểu mẫu này. Tất cả các trường đều bắt buộc.";
 $text['description-user_add']['en-gb'] = "To add a user, please fill out this form completely. All fields are required.";
 $text['description-user_add']['ar-eg'] = "لإضافة مستخدم ، يرجى ملء هذا النموذج بالكامل. جميع الحقول مطلوبة.";
 $text['description-user_add']['de-at'] = "Um einen Benutzer anzulegen, füllen Sie bitte dieses Formular komplett aus. Alle Felder sind erforderlich.";
@@ -2620,6 +2717,7 @@ $text['description-user_add']['ja-jp'] = "ユーザーを追加するには、�
 $text['description-user_add']['ko-kr'] = "사용자를 추가하려면 이 양식을 완전히 작성하십시오. 모든 분야가 요구됩니다.";
 
 $text['description-time_zone']['en-us'] = "Select the default time zone.";
+$text['description-time_zone']['vi-vn'] = "Chọn múi giờ mặc định.";
 $text['description-time_zone']['en-gb'] = "Select the default time zone.";
 $text['description-time_zone']['ar-eg'] = "حدد المنطقة الزمنية الافتراضية.";
 $text['description-time_zone']['de-at'] = "Wählen Sie die Standard-Zeitzone";
@@ -2647,6 +2745,7 @@ $text['description-time_zone']['ja-jp'] = "デフォルトのタイムゾーン�
 $text['description-time_zone']['ko-kr'] = "기본 시간대를 선택합니다.";
 
 $text['description-status']['en-us'] = "Set the user's presence.";
+$text['description-status']['vi-vn'] = "Thiết lập trạng thái hiện diện của người dùng.";
 $text['description-status']['en-gb'] = "Set the user's presence.";
 $text['description-status']['ar-eg'] = "تعيين حضور المستخدم.";
 $text['description-status']['de-at'] = "Benutzerstatus auswählen";
@@ -2674,6 +2773,7 @@ $text['description-status']['ja-jp'] = "ユーザーのプレゼンスを設定�
 $text['description-status']['ko-kr'] = "사용자의 프레즌스를 설정합니다.";
 
 $text['description-group_permissions']['en-us'] = "Assign permissions for this group.";
+$text['description-group_permissions']['vi-vn'] = "Gán quyền cho nhóm này.";
 $text['description-group_permissions']['en-gb'] = "Assign permissions for this group.";
 $text['description-group_permissions']['ar-eg'] = "تعيين أذونات لهذه المجموعة.";
 $text['description-group_permissions']['de-at'] = "Ordnen Sie Berechtigungen für diese Gruppe zu.";
@@ -2701,6 +2801,7 @@ $text['description-group_permissions']['ja-jp'] = "このグループに権限�
 $text['description-group_permissions']['ko-kr'] = "이 그룹에 대한 권한을 할당합니다.";
 
 $text['description-group_edit']['en-us'] = "Edit the properties of the group.";
+$text['description-group_edit']['vi-vn'] = "Sửa thuộc tính của nhóm.";
 $text['description-group_edit']['en-gb'] = "Edit the properties of the group.";
 $text['description-group_edit']['ar-eg'] = "قم بتحرير خصائص المجموعة.";
 $text['description-group_edit']['de-at'] = "Bearbeiten Sie die Eigenschaften dieser Gruppe";
@@ -2728,6 +2829,7 @@ $text['description-group_edit']['ja-jp'] = "グループのプロパティを編
 $text['description-group_edit']['ko-kr'] = "그룹의 속성을 편집합니다.";
 
 $text['description-group_add']['en-us'] = "Create a new user group.";
+$text['description-group_add']['vi-vn'] = "Tạo nhóm người dùng mới.";
 $text['description-group_add']['en-gb'] = "Create a new user group.";
 $text['description-group_add']['ar-eg'] = "قم بإنشاء مجموعة مستخدمين جديدة.";
 $text['description-group_add']['de-at'] = "Neue Benutzergruppe anlegen.";
@@ -2755,6 +2857,7 @@ $text['description-group_add']['ja-jp'] = "新しいユーザーグループを�
 $text['description-group_add']['ko-kr'] = "새 사용자 그룹을 만듭니다.";
 
 $text['description-enabled']['en-us'] = "Set the status of this account.";
+$text['description-enabled']['vi-vn'] = "Thiết lập trạng thái của tài khoản này.";
 $text['description-enabled']['en-gb'] = "Set the status of this account.";
 $text['description-enabled']['ar-eg'] = "اضبط حالة هذا الحساب.";
 $text['description-enabled']['de-at'] = "Status dieses Kontos setzen.";
@@ -2782,6 +2885,7 @@ $text['description-enabled']['ja-jp'] = "このアカウントのステータス
 $text['description-enabled']['ko-kr'] = "이 계정의 상태를 설정합니다.";
 
 $text['description-contact_view']['en-us'] = "View";
+$text['description-contact_view']['vi-vn'] = "Xem";
 $text['description-contact_view']['en-gb'] = "View";
 $text['description-contact_view']['ar-eg'] = "منظر";
 $text['description-contact_view']['de-at'] = "Ansicht";
@@ -2809,6 +2913,7 @@ $text['description-contact_view']['ja-jp'] = "意見";
 $text['description-contact_view']['ko-kr'] = "보다";
 
 $text['description-contact']['en-us'] = "Assign a contact to this user account.";
+$text['description-contact']['vi-vn'] = "Gán liên hệ cho tài khoản người dùng này.";
 $text['description-contact']['en-gb'] = "Assign a contact to this user account.";
 $text['description-contact']['ar-eg'] = "تعيين جهة اتصال لحساب المستخدم هذا.";
 $text['description-contact']['de-at'] = "Weisen Sie diesem Benutzer einen Kontakt zu.";
@@ -2836,6 +2941,7 @@ $text['description-contact']['ja-jp'] = "このユーザー アカウントに�
 $text['description-contact']['ko-kr'] = "이 사용자 계정에 연락처를 할당합니다.";
 
 $text['description-api_key']['en-us'] = "Enter the API key is often a UUID. The API key should be 128 bit or greater.";
+$text['description-api_key']['vi-vn'] = "Nhập API Key, thường là UUID. API Key nên có độ dài 128 bit trở lên.";
 $text['description-api_key']['en-gb'] = "Enter the API key is often a UUID. The API key should be 128 bit or greater.";
 $text['description-api_key']['ar-eg'] = 'غالبًا ما يكون إدخال مفتاح API عبارة عن UUID. يجب أن يكون مفتاح API 128 بت أو أكبر.';
 $text['description-api_key']['de-at'] = "Geben Sie den API Schlüssel an. Der API Schlüssel sollte mindestens 128 bit oder länger sein.";
@@ -2863,6 +2969,7 @@ $text['description-api_key']['ja-jp'] = "API キーを入力するのは、多�
 $text['description-api_key']['ko-kr'] = "API 키는 종종 UUID를 입력합니다. API 키는 128비트 이상이어야 합니다.";
 
 $text['confirm-delete']['en-us'] = "Do you really want to delete this?";
+$text['confirm-delete']['vi-vn'] = "Bạn có chắc muốn xóa mục này không?";
 $text['confirm-delete']['en-gb'] = "Do you really want to delete this?";
 $text['confirm-delete']['ar-eg'] = "هل تريد حقًا حذف هذا؟";
 $text['confirm-delete']['de-at'] = "Wollen Sie das wirklich löschen?";
@@ -2890,6 +2997,7 @@ $text['confirm-delete']['ja-jp'] = "本当にこれを削除してもよろし�
 $text['confirm-delete']['ko-kr'] = "정말 삭제하시겠습니까?";
 
 $text['button-show_all']['en-us'] = "Show All";
+$text['button-show_all']['vi-vn'] = "Hiển thị tất cả";
 $text['button-show_all']['en-gb'] = "Show All";
 $text['button-show_all']['ar-eg'] = "عرض الكل";
 $text['button-show_all']['de-at'] = "Alle anzeigen";
@@ -2917,6 +3025,7 @@ $text['button-show_all']['ja-jp'] = "すべて表示する";
 $text['button-show_all']['ko-kr'] = "모두 보이기";
 
 $text['button-generate']['en-us'] = "Generate";
+$text['button-generate']['vi-vn'] = "Tạo";
 $text['button-generate']['en-gb'] = "Generate";
 $text['button-generate']['ar-eg'] = "يولد";
 $text['button-generate']['de-at'] = "Erzeugen";
@@ -2944,6 +3053,7 @@ $text['button-generate']['ja-jp'] = "生成";
 $text['button-generate']['ko-kr'] = "생성하다";
 
 $text['button-create_account']['en-us'] = "Create Account";
+$text['button-create_account']['vi-vn'] = "Tạo tài khoản";
 $text['button-create_account']['en-gb'] = "Create Account";
 $text['button-create_account']['ar-eg'] = "إنشاء حساب";
 $text['button-create_account']['de-at'] = "Konto hinzufügen";
@@ -2971,6 +3081,7 @@ $text['button-create_account']['ja-jp'] = "アカウントを作成する";
 $text['button-create_account']['ko-kr'] = "계정 만들기";
 
 $text['button-add_member']['en-us'] = "Add Member";
+$text['button-add_member']['vi-vn'] = "Thêm thành viên";
 $text['button-add_member']['en-gb'] = "Add Member";
 $text['button-add_member']['ar-eg'] = "إضافة عضو";
 $text['button-add_member']['de-at'] = "Mitglied hinzufügen";
@@ -2998,6 +3109,7 @@ $text['button-add_member']['ja-jp'] = "メンバーを追加";
 $text['button-add_member']['ko-kr'] = "회원 추가";
 
 $text['button-users']['en-us'] = "Users";
+$text['button-users']['vi-vn'] = "Người dùng";
 $text['button-users']['en-gb'] = "Users";
 $text['button-users']['ar-eg'] = "المستخدمون";
 $text['button-users']['de-at'] = "Benutzer";
@@ -3025,6 +3137,7 @@ $text['button-users']['ja-jp'] = "ユーザー";
 $text['button-users']['ko-kr'] = "사용자";
 
 $text['button-members']['en-us'] = "Members";
+$text['button-members']['vi-vn'] = "Thành viên";
 $text['button-members']['en-gb'] = "Members";
 $text['button-members']['ar-eg'] = "أعضاء";
 $text['button-members']['de-at'] = "Teilnehmer";
@@ -3052,6 +3165,7 @@ $text['button-members']['ja-jp'] = "メンバー";
 $text['button-members']['ko-kr'] = "회원";
 
 $text['button-permissions']['en-us'] = "Permissions";
+$text['button-permissions']['vi-vn'] = "Quyền";
 $text['button-permissions']['en-gb'] = "Permissions";
 $text['button-permissions']['ar-eg'] = "أذونات";
 $text['button-permissions']['de-at'] = "Berechtigungen";
@@ -3079,6 +3193,7 @@ $text['button-permissions']['ja-jp'] = "権限";
 $text['button-permissions']['ko-kr'] = "권한";
 
 $text['button-restore_default']['en-us'] = "Restore Default";
+$text['button-restore_default']['vi-vn'] = "Khôi phục mặc định";
 $text['button-restore_default']['en-gb'] = "Restore Default";
 $text['button-restore_default']['ar-eg'] = "استعادة الافتراضي";
 $text['button-restore_default']['de-at'] = "Zurücksetzen";
@@ -3106,6 +3221,7 @@ $text['button-restore_default']['ja-jp'] = "デフォルトを復元";
 $text['button-restore_default']['ko-kr'] = "기본값 복원";
 
 $text['message-permissions_reloaded']['en-us'] = "Permissions Reloaded";
+$text['message-permissions_reloaded']['vi-vn'] = "Đã tải lại quyền";
 $text['message-permissions_reloaded']['en-gb'] = "Permissions Reloaded";
 $text['message-permissions_reloaded']['ar-eg'] = "إعادة تحميل الأذونات";
 $text['message-permissions_reloaded']['de-at'] = "Berechtigungen neu geladen";

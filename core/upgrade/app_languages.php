@@ -1,6 +1,7 @@
 <?php
 
 $text['title-upgrade']['en-us'] = "Upgrade";
+$text['title-upgrade']['vi-vn'] = "Nâng cấp";
 $text['title-upgrade']['en-gb'] = "Upgrade";
 $text['title-upgrade']['ar-eg'] = "يرقي";
 $text['title-upgrade']['de-at'] = "Aktualisierung";
@@ -28,6 +29,7 @@ $text['title-upgrade']['ja-jp'] = "アップグレード";
 $text['title-upgrade']['ko-kr'] = "업그레이드";
 
 $text['title-upgrade_schema']['en-us'] = "Upgrade Schema";
+$text['title-upgrade_schema']['vi-vn'] = "Nâng cấp schema";
 $text['title-upgrade_schema']['en-gb'] = "Upgrade Schema";
 $text['title-upgrade_schema']['ar-eg'] = "ترقية المخطط";
 $text['title-upgrade_schema']['de-at'] = "Schema Aktualisieren";
@@ -55,6 +57,7 @@ $text['title-upgrade_schema']['ja-jp'] = "アップグレードスキーマ";
 $text['title-upgrade_schema']['ko-kr'] = "업그레이드 스키마";
 
 $text['title-cli_upgrade']['en-us'] = "Upgrade Menu";
+$text['title-cli_upgrade']['vi-vn'] = "Menu nâng cấp";
 $text['title-cli_upgrade']['en-gb'] = "Upgrade Menu";
 $text['title-cli_upgrade']['ar-eg'] = "قائمة الترقية";
 $text['title-cli_upgrade']['de-at'] = "UPGRADE-MENÜ";
@@ -82,6 +85,7 @@ $text['title-cli_upgrade']['ja-jp'] = "アップグレードメニュー";
 $text['title-cli_upgrade']['ko-kr'] = "업그레이드 메뉴";
 
 $text['option-true']['en-us'] = "True";
+$text['option-true']['vi-vn'] = "Đúng";
 $text['option-true']['en-gb'] = "True";
 $text['option-true']['ar-eg'] = "صحيح";
 $text['option-true']['de-at'] = "WAHR";
@@ -109,6 +113,7 @@ $text['option-true']['ja-jp'] = "真実";
 $text['option-true']['ko-kr'] = "진실";
 
 $text['option-false']['en-us'] = "False";
+$text['option-false']['vi-vn'] = "Sai";
 $text['option-false']['en-gb'] = "False";
 $text['option-false']['ar-eg'] = "خطأ شنيع";
 $text['option-false']['de-at'] = "FALSCH";
@@ -136,6 +141,7 @@ $text['option-false']['ja-jp'] = "間違い";
 $text['option-false']['ko-kr'] = "거짓";
 
 $text['message-upgrade_permissions']['en-us'] = "Group Permission Defaults Restored";
+$text['message-upgrade_permissions']['vi-vn'] = "Đã khôi phục mặc định quyền nhóm";
 $text['message-upgrade_permissions']['en-gb'] = "Group Permission Defaults Restored";
 $text['message-upgrade_permissions']['ar-eg'] = "تمت استعادة إعدادات الأذونات الافتراضية";
 $text['message-upgrade_permissions']['de-at'] = "Standard Berechtigungen wiederhergestellt.";
@@ -163,6 +169,7 @@ $text['message-upgrade_permissions']['ja-jp'] = "許可デフォルトが復元�
 $text['message-upgrade_permissions']['ko-kr'] = "권한 기본값이 복원되었습니다";
 
 $text['message-upgrade_source_scripts']['en-us'] = "Source Files and Scripts Updated";
+$text['message-upgrade_source_scripts']['vi-vn'] = "Đã cập nhật file nguồn và script";
 $text['message-upgrade_source_scripts']['en-gb'] = "Source Files and Scripts Updated";
 $text['message-upgrade_source_scripts']['ar-eg'] = "تم تحديث ملفات المصدر والبرامج النصية";
 $text['message-upgrade_source_scripts']['de-at'] = "Quelldateien und Skripte aktualisiert";
@@ -190,6 +197,7 @@ $text['message-upgrade_source_scripts']['ja-jp'] = "ソースファイルとス�
 $text['message-upgrade_source_scripts']['ko-kr'] = "소스 파일 및 스크립트가 업데이트되었습니다";
 
 $text['message-upgrade_source_failed']['en-us'] = "Source Files Update Failed";
+$text['message-upgrade_source_failed']['vi-vn'] = "Cập nhật file nguồn thất bại";
 $text['message-upgrade_source_failed']['en-gb'] = "Source Files Update Failed";
 $text['message-upgrade_source_failed']['ar-eg'] = "فشل تحديث ملفات المصدر";
 $text['message-upgrade_source_failed']['de-at'] = "Quellcode Aktualisierung fehlgeschlagen";
@@ -217,6 +225,7 @@ $text['message-upgrade_source_failed']['ja-jp'] = "ソースファイルの更�
 $text['message-upgrade_source_failed']['ko-kr'] = "소스 파일 업데이트가 실패했습니다";
 
 $text['message-upgrade_source']['en-us'] = "Source Files Updated";
+$text['message-upgrade_source']['vi-vn'] = "Đã cập nhật file nguồn";
 $text['message-upgrade_source']['en-gb'] = "Source Files Updated";
 $text['message-upgrade_source']['ar-eg'] = "تم تحديث ملفات المصدر";
 $text['message-upgrade_source']['de-at'] = "Quellcode aktualisiert";
@@ -244,6 +253,7 @@ $text['message-upgrade_source']['ja-jp'] = "ソースファイルが更新され
 $text['message-upgrade_source']['ko-kr'] = "소스 파일이 업데이트되었습니다";
 
 $text['message-optional_apps_upgrade_source']['en-us'] = "Optional Apps Source Files Updated";
+$text['message-optional_apps_upgrade_source']['vi-vn'] = "Đã cập nhật file nguồn ứng dụng tùy chọn";
 $text['message-optional_apps_upgrade_source']['en-gb'] = "Optional Apps Source Files Updated";
 $text['message-optional_apps_upgrade_source']['ar-eg'] = "تم تحديث ملفات مصدر التطبيق الاختيارية";
 $text['message-optional_apps_upgrade_source']['de-at'] = "Optionale Anwendungsquelldateien aktualisiert";
@@ -271,6 +281,7 @@ $text['message-optional_apps_upgrade_source']['ja-jp'] = "オプションのア�
 $text['message-optional_apps_upgrade_source']['ko-kr'] = "선택적 애플리케이션 소스 파일이 업데이트되었습니다.";
 
 $text['message-optional_apps_upgrade_source_cli']['en-us'] = "Updated";
+$text['message-optional_apps_upgrade_source_cli']['vi-vn'] = "Đã cập nhật";
 $text['message-optional_apps_upgrade_source_cli']['en-gb'] = "Updated";
 $text['message-optional_apps_upgrade_source_cli']['ar-eg'] = "محدث";
 $text['message-optional_apps_upgrade_source_cli']['de-at'] = "Aktualisiert";
@@ -298,6 +309,7 @@ $text['message-optional_apps_upgrade_source_cli']['ja-jp'] = "更新しました
 $text['message-optional_apps_upgrade_source_cli']['ko-kr'] = "업데이트됨";
 
 $text['message-upgrade_manually']['en-us'] = "Upgrade Manually";
+$text['message-upgrade_manually']['vi-vn'] = "Nâng cấp thủ công";
 $text['message-upgrade_manually']['en-gb'] = "Upgrade Manually";
 $text['message-upgrade_manually']['ar-eg'] = "الترقية يدويًا";
 $text['message-upgrade_manually']['de-at'] = "Manuell aktualisieren";
@@ -325,6 +337,7 @@ $text['message-upgrade_manually']['ja-jp'] = "手動でアップグレードす�
 $text['message-upgrade_manually']['ko-kr'] = "수동으로 업그레이드";
 
 $text['message-upgrade_schema']['en-us'] = "Schema Verified";
+$text['message-upgrade_schema']['vi-vn'] = "Schema đã được xác minh";
 $text['message-upgrade_schema']['en-gb'] = "Schema Verified";
 $text['message-upgrade_schema']['ar-eg'] = "تم التحقق من المخطط";
 $text['message-upgrade_schema']['de-at'] = "Schema verifiziert";
@@ -352,6 +365,7 @@ $text['message-upgrade_schema']['ja-jp'] = "スキーマ検証済み";
 $text['message-upgrade_schema']['ko-kr'] = "스키마가 확인되었습니다";
 
 $text['message-upgrade_menu']['en-us'] = "Menu Defaults Restored";
+$text['message-upgrade_menu']['vi-vn'] = "Đã khôi phục mặc định menu";
 $text['message-upgrade_menu']['en-gb'] = "Menu Defaults Restored";
 $text['message-upgrade_menu']['ar-eg'] = "القائمة الافتراضية المستعادة";
 $text['message-upgrade_menu']['de-at'] = "Menü-Standardeinstellungen wiederhergestellt";
@@ -379,6 +393,7 @@ $text['message-upgrade_menu']['ja-jp'] = "メニューのデフォルトが復�
 $text['message-upgrade_menu']['ko-kr'] = "메뉴 기본값이 복원되었습니다";
 
 $text['message-upgrade_apps']['en-us'] = "App Defaults Executed";
+$text['message-upgrade_apps']['vi-vn'] = "Đã chạy mặc định ứng dụng";
 $text['message-upgrade_apps']['en-gb'] = "App Defaults Executed";
 $text['message-upgrade_apps']['ar-eg'] = "التخلف عن التنفيذ";
 $text['message-upgrade_apps']['de-at'] = "Applikationen zurückgesetzt";
@@ -406,6 +421,7 @@ $text['message-upgrade_apps']['ja-jp'] = "アプリのデフォルトが実行�
 $text['message-upgrade_apps']['ko-kr'] = "앱 기본값이 실행됨";
 
 $text['message-upgrade']['en-us'] = "Upgrade Completed";
+$text['message-upgrade']['vi-vn'] = "Nâng cấp hoàn tất";
 $text['message-upgrade']['en-gb'] = "Upgrade Completed";
 $text['message-upgrade']['ar-eg'] = "اكتملت الترقية";
 $text['message-upgrade']['de-at'] = "Aktualisierung durchgeführt.";
@@ -433,6 +449,7 @@ $text['message-upgrade']['ja-jp'] = "アップグレードが完了しました"
 $text['message-upgrade']['ko-kr'] = "업그레이드가 완료되었습니다";
 
 $text['message-optional_apps_upgrade_source_failed']['en-us'] = "Optional Apps Source Files Update Failed";
+$text['message-optional_apps_upgrade_source_failed']['vi-vn'] = "Cập nhật file nguồn ứng dụng tùy chọn thất bại";
 $text['message-optional_apps_upgrade_source_failed']['en-gb'] = "Optional Apps Source Files Update Failed";
 $text['message-optional_apps_upgrade_source_failed']['ar-eg'] = "فشل تحديث الملفات المصدرية للتطبيقات الاختيارية";
 $text['message-optional_apps_upgrade_source_failed']['de-at'] = "Das Update der optionalen Apps-Quelldateien ist fehlgeschlagen";
@@ -460,6 +477,7 @@ $text['message-optional_apps_upgrade_source_failed']['ja-jp'] = "オプション
 $text['message-optional_apps_upgrade_source_failed']['ko-kr'] = "선택적 앱 소스 파일 업데이트 실패";
 
 $text['message-optional_apps_upgrade_source_failed_cli']['en-us'] = "Failed";
+$text['message-optional_apps_upgrade_source_failed_cli']['vi-vn'] = "Thất bại";
 $text['message-optional_apps_upgrade_source_failed_cli']['en-gb'] = "Failed";
 $text['message-optional_apps_upgrade_source_failed_cli']['ar-eg'] = "فشل التحديث";
 $text['message-optional_apps_upgrade_source_failed_cli']['de-at'] = "Update fehlgeschlagen";
@@ -487,6 +505,7 @@ $text['message-optional_apps_upgrade_source_failed_cli']['ja-jp'] = "アップ�
 $text['message-optional_apps_upgrade_source_failed_cli']['ko-kr'] = "업데이트가 실패";
 
 $text['login-message_text']['en-us'] = "Keep up with the FusionPBX project by configuring your preferences in the newly added <a href=''/core/notifications/notification_edit.php''>Notifications</a> section, under the System menu!";
+$text['login-message_text']['vi-vn'] = "Theo dõi dự án FusionPBX bằng cách cấu hình tùy chọn của bạn trong mục <a href=''/core/notifications/notification_edit.php''>Thông báo</a> mới được thêm dưới menu Hệ thống!";
 $text['login-message_text']['en-gb'] = "Keep up with the FusionPBX project by configuring your preferences in the newly added <a href=''/core/notifications/notification_edit.php''>Notifications</a> section, under the System menu!";
 $text['login-message_text']['ar-eg'] = "حافظ على مشروع (فيوس بي إكس) من خلال تشكيل أفضلياتك في القسم المضاف حديثاً";
 $text['login-message_text']['de-at'] = "Halten Sie sich über FusionPBX auf dem Laufenden indem Sie die Benachrichtigungseinstellungen im System Menü setzen.";
@@ -514,6 +533,7 @@ $text['login-message_text']['ja-jp'] = '新しく追加された <a href=""/core
 $text['login-message_text']['ko-kr'] = "시스템 메뉴에서 새로 추가 된 <a href=''/core/notifications/notification_edit.php'''php'' '> 알림 </a>에서 선호도를 구성하여 Fusionpbx 프로젝트를 유지하십시오!";
 
 $text['label-upgrade_source']['en-us'] = "Source Code";
+$text['label-upgrade_source']['vi-vn'] = "Mã nguồn";
 $text['label-upgrade_source']['en-gb'] = "Source Code";
 $text['label-upgrade_source']['ar-eg'] = "مصدر الرمز";
 $text['label-upgrade_source']['de-at'] = "Quellcode";
@@ -541,6 +561,7 @@ $text['label-upgrade_source']['ja-jp'] = "ソースコード";
 $text['label-upgrade_source']['ko-kr'] = "소스 코드";
 
 $text['label-optional_apps']['en-us'] = "Optional Apps";
+$text['label-optional_apps']['vi-vn'] = "Ứng dụng tùy chọn";
 $text['label-optional_apps']['en-gb'] = "Optional Apps";
 $text['label-optional_apps']['ar-eg'] = "التطبيقات الاختيارية";
 $text['label-optional_apps']['de-at'] = "Optionale Anwendungen";
@@ -568,6 +589,7 @@ $text['label-optional_apps']['ja-jp'] = "オプションのアプリ";
 $text['label-optional_apps']['ko-kr'] = "선택적 앱";
 
 $text['label-upgrade_schema']['en-us'] = "Database Schema";
+$text['label-upgrade_schema']['vi-vn'] = "Schema cơ sở dữ liệu";
 $text['label-upgrade_schema']['en-gb'] = "Database Schema";
 $text['label-upgrade_schema']['ar-eg'] = "مخطط قاعدة البيانات";
 $text['label-upgrade_schema']['de-at'] = "Datenbankschema";
@@ -595,6 +617,7 @@ $text['label-upgrade_schema']['ja-jp'] = "データベーススキーマ";
 $text['label-upgrade_schema']['ko-kr'] = "데이터베이스 스키마";
 
 $text['label-upgrade_permissions']['en-us'] = "Group Permissions";
+$text['label-upgrade_permissions']['vi-vn'] = "Quyền nhóm";
 $text['label-upgrade_permissions']['en-gb'] = "Group Permissions";
 $text['label-upgrade_permissions']['ar-eg'] = "صلاحيات المجموعة";
 $text['label-upgrade_permissions']['de-at'] = "Gruppenberechtigungen";
@@ -622,6 +645,7 @@ $text['label-upgrade_permissions']['ja-jp'] = "グループ権限";
 $text['label-upgrade_permissions']['ko-kr'] = "그룹 권한";
 
 $text['label-update_file_permissions']['en-us'] = "File Permissions";
+$text['label-update_file_permissions']['vi-vn'] = "Quyền file";
 $text['label-update_file_permissions']['en-gb'] = "File Permissions";
 $text['label-update_file_permissions']['ar-eg'] = "أذونات الملف";
 $text['label-update_file_permissions']['de-at'] = "Dateiberechtigungen";
@@ -649,6 +673,7 @@ $text['label-update_file_permissions']['ja-jp'] = "ファイル権限";
 $text['label-update_file_permissions']['ko-kr'] = "파일 권한";
 
 $text['message-updated_autoloader']['en-us'] = 'Updated autoloader';
+$text['message-updated_autoloader']['vi-vn'] = "Đã cập nhật autoloader";
 $text['message-updated_autoloader']['en-gb'] = 'Updated autoloader';
 $text['message-updated_autoloader']['ar-eg'] = 'تم تحديث أداة التحميل التلقائي';
 $text['message-updated_autoloader']['de-at'] = 'Aktualisierter Autoloader';
@@ -676,6 +701,7 @@ $text['message-updated_autoloader']['ja-jp'] = 'オートローダーの更新';
 $text['message-updated_autoloader']['ko-kr'] = '업데이트된 자동 로더';
 
 $text['label-upgrade_menu']['en-us'] = "Menu Defaults";
+$text['label-upgrade_menu']['vi-vn'] = "Mặc định menu";
 $text['label-upgrade_menu']['en-gb'] = "Menu Defaults";
 $text['label-upgrade_menu']['ar-eg'] = "افتراضيات القائمة";
 $text['label-upgrade_menu']['de-at'] = "Menüvorgaben";
@@ -703,6 +729,7 @@ $text['label-upgrade_menu']['ja-jp'] = "メニューのデフォルト";
 $text['label-upgrade_menu']['ko-kr'] = "메뉴 기본값";
 
 $text['label-upgrade_data_types']['en-us'] = "Data Types";
+$text['label-upgrade_data_types']['vi-vn'] = "Kiểu dữ liệu";
 $text['label-upgrade_data_types']['en-gb'] = "Data Types";
 $text['label-upgrade_data_types']['ar-eg'] = "أنواع البيانات";
 $text['label-upgrade_data_types']['de-at'] = "Daten Typen";
@@ -730,6 +757,7 @@ $text['label-upgrade_data_types']['ja-jp'] = "データ型";
 $text['label-upgrade_data_types']['ko-kr'] = "데이터 유형";
 
 $text['label-upgrade_apps']['en-us'] = "Application Defaults";
+$text['label-upgrade_apps']['vi-vn'] = "Mặc định ứng dụng";
 $text['label-upgrade_apps']['en-gb'] = "Application Defaults";
 $text['label-upgrade_apps']['ar-eg'] = "افتراضيات التطبيق";
 $text['label-upgrade_apps']['de-at'] = "App-Standardeinstellungen";
@@ -757,6 +785,7 @@ $text['label-upgrade_apps']['ja-jp'] = "アプリのデフォルト";
 $text['label-upgrade_apps']['ko-kr'] = "앱 기본값";
 
 $text['label-upgrade_switch']['en-us'] = "Switch Upgrade";
+$text['label-upgrade_switch']['vi-vn'] = "Nâng cấp Switch";
 $text['label-upgrade_switch']['en-gb'] = "Switch Upgrade";
 $text['label-upgrade_switch']['ar-eg'] = "ترقية التبديل";
 $text['label-upgrade_switch']['de-at'] = "Switch aktualisieren";
@@ -784,6 +813,7 @@ $text['label-upgrade_switch']['ja-jp'] = "スイッチアップグレード";
 $text['label-upgrade_switch']['ko-kr'] = "스위치 업그레이드";
 
 $text['label-upgrade']['en-us'] = "Upgrade";
+$text['label-upgrade']['vi-vn'] = "Nâng cấp";
 $text['label-upgrade']['en-gb'] = "Upgrade";
 $text['label-upgrade']['ar-eg'] = "يرقي";
 $text['label-upgrade']['de-at'] = "Aktualisierung";
@@ -811,6 +841,7 @@ $text['label-upgrade']['ja-jp'] = "アップグレード";
 $text['label-upgrade']['ko-kr'] = "업그레이드";
 
 $text['label-type']['en-us'] = "Type";
+$text['label-type']['vi-vn'] = "Loại";
 $text['label-type']['en-gb'] = "Type";
 $text['label-type']['ar-eg'] = "النوع";
 $text['label-type']['de-at'] = "Typ";
@@ -838,6 +869,7 @@ $text['label-type']['ja-jp'] = "タイプ";
 $text['label-type']['ko-kr'] = "유형";
 
 $text['label-table']['en-us'] = "Table";
+$text['label-table']['vi-vn'] = "Bảng";
 $text['label-table']['en-gb'] = "Table";
 $text['label-table']['ar-eg'] = "طاولة";
 $text['label-table']['de-at'] = "Tabelle";
@@ -865,6 +897,7 @@ $text['label-table']['ja-jp'] = "テーブル";
 $text['label-table']['ko-kr'] = "테이블";
 
 $text['label-sql_changes']['en-us'] = "SQL Changes";
+$text['label-sql_changes']['vi-vn'] = "Thay đổi SQL";
 $text['label-sql_changes']['en-gb'] = "SQL Changes";
 $text['label-sql_changes']['ar-eg'] = "تغييرات SQL";
 $text['label-sql_changes']['de-at'] = "SQL Änderungen";
@@ -892,6 +925,7 @@ $text['label-sql_changes']['ja-jp'] = "SQLの変更";
 $text['label-sql_changes']['ko-kr'] = "SQL 변경";
 
 $text['label-schema']['en-us'] = "Schema";
+$text['label-schema']['vi-vn'] = "Schema";
 $text['label-schema']['en-gb'] = "Schema";
 $text['label-schema']['ar-eg'] = "مخطط";
 $text['label-schema']['de-at'] = "Schema";
@@ -919,6 +953,7 @@ $text['label-schema']['ja-jp'] = "スキーマ";
 $text['label-schema']['ko-kr'] = "개요";
 
 $text['label-no_change']['en-us'] = "No Change";
+$text['label-no_change']['vi-vn'] = "Không thay đổi";
 $text['label-no_change']['en-gb'] = "No Change";
 $text['label-no_change']['ar-eg'] = "لا تغيير";
 $text['label-no_change']['de-at'] = "Keine Änderungen";
@@ -946,6 +981,7 @@ $text['label-no_change']['ja-jp'] = "変化なし";
 $text['label-no_change']['ko-kr'] = "변경 없음";
 
 $text['label-name']['en-us'] = "Name";
+$text['label-name']['vi-vn'] = "Tên";
 $text['label-name']['en-gb'] = "Name";
 $text['label-name']['ar-eg'] = "اسم";
 $text['label-name']['de-at'] = "Name";
@@ -973,6 +1009,7 @@ $text['label-name']['ja-jp'] = "名前";
 $text['label-name']['ko-kr'] = "이름";
 
 $text['label-exists']['en-us'] = "Exists";
+$text['label-exists']['vi-vn'] = "Tồn tại";
 $text['label-exists']['en-gb'] = "Exists";
 $text['label-exists']['ar-eg'] = "موجود";
 $text['label-exists']['de-at'] = "Existiert";
@@ -1000,6 +1037,7 @@ $text['label-exists']['ja-jp'] = "存在します";
 $text['label-exists']['ko-kr'] = "존재합니다";
 
 $text['label-details']['en-us'] = "Details";
+$text['label-details']['vi-vn'] = "Chi tiết";
 $text['label-details']['en-gb'] = "Details";
 $text['label-details']['ar-eg'] = "التفاصيل";
 $text['label-details']['de-at'] = "Details";
@@ -1027,6 +1065,7 @@ $text['label-details']['ja-jp'] = "詳細";
 $text['label-details']['ko-kr'] = "세부";
 
 $text['label-database']['en-us'] = "Database";
+$text['label-database']['vi-vn'] = "Cơ sở dữ liệu";
 $text['label-database']['en-gb'] = "Database";
 $text['label-database']['ar-eg'] = "قاعدة البيانات";
 $text['label-database']['de-at'] = "Datenbank";
@@ -1054,6 +1093,7 @@ $text['label-database']['ja-jp'] = "データベース";
 $text['label-database']['ko-kr'] = "데이터 베이스";
 
 $text['label-results']['en-us'] = "Results";
+$text['label-results']['vi-vn'] = "Kết quả";
 $text['label-results']['en-gb'] = "Results";
 $text['label-results']['ar-eg'] = "النتائج";
 $text['label-results']['de-at'] = "Ergebnisse";
@@ -1081,6 +1121,7 @@ $text['label-results']['ja-jp'] = "結果";
 $text['label-results']['ko-kr'] = "결과";
 
 $text['header-upgrade']['en-us'] = "Upgrade";
+$text['header-upgrade']['vi-vn'] = "Nâng cấp";
 $text['header-upgrade']['en-gb'] = "Upgrade";
 $text['header-upgrade']['ar-eg'] = "يرقي";
 $text['header-upgrade']['de-at'] = "Aktualisieren";
@@ -1108,6 +1149,7 @@ $text['header-upgrade']['ja-jp'] = "アップグレード";
 $text['header-upgrade']['ko-kr'] = "업그레이드";
 
 $text['header-database_type']['en-us'] = "Database Type";
+$text['header-database_type']['vi-vn'] = "Loại cơ sở dữ liệu";
 $text['header-database_type']['en-gb'] = "Database Type";
 $text['header-database_type']['ar-eg'] = "نوع قاعدة البيانات";
 $text['header-database_type']['de-at'] = "Datenbank Typ";
@@ -1135,6 +1177,7 @@ $text['header-database_type']['ja-jp'] = "データベースタイプ";
 $text['header-database_type']['ko-kr'] = "데이터베이스 유형";
 
 $text['header-source_code_upgrade_preview']['en-us'] = "Source Code Upgrade Preview";
+$text['header-source_code_upgrade_preview']['vi-vn'] = "Xem trước nâng cấp mã nguồn";
 $text['header-source_code_upgrade_preview']['en-gb'] = "Source Code Upgrade Preview";
 $text['header-source_code_upgrade_preview']['ar-eg'] = "معاينة ترقية كود المصدر";
 $text['header-source_code_upgrade_preview']['de-at'] = "Vorschau des Quellcode-Upgrades";
@@ -1162,6 +1205,7 @@ $text['header-source_code_upgrade_preview']['ja-jp'] = "ソースコードのア
 $text['header-source_code_upgrade_preview']['ko-kr'] = "소스 코드 업그레이드 미리보기";
 
 $text['description-source_code_changes_found']['en-us'] = "The following APP_NAME source code files have been changed since you last upgraded...";
+$text['description-source_code_changes_found']['vi-vn'] = "Các file mã nguồn APP_NAME sau đã thay đổi kể từ lần nâng cấp gần nhất...";
 $text['description-source_code_changes_found']['en-gb'] = "The following APP_NAME source code files have been changed since you last upgraded...";
 $text['description-source_code_changes_found']['ar-eg'] = "تم تغيير ملفات كود مصدر APP_NAME التالية منذ آخر ترقية...";
 $text['description-source_code_changes_found']['de-at'] = "Die folgenden APP_NAME-Quellcodedateien wurden seit Ihrem letzten Upgrade geändert ...";
@@ -1189,6 +1233,7 @@ $text['description-source_code_changes_found']['ja-jp'] = "次の APP_NAME ソ�
 $text['description-source_code_changes_found']['ko-kr'] = "마지막 업그레이드 이후 다음 APP_NAME 소스 코드 파일이 변경되었습니다.";
 
 $text['description-source_code_no_changes_found']['en-us'] = "No APP_NAME source code changes were detected.";
+$text['description-source_code_no_changes_found']['vi-vn'] = "Không phát hiện thay đổi mã nguồn APP_NAME.";
 $text['description-source_code_no_changes_found']['en-gb'] = "No APP_NAME source code changes were detected.";
 $text['description-source_code_no_changes_found']['ar-eg'] = "لم يتم اكتشاف أي تغييرات في كود مصدر APP_NAME.";
 $text['description-source_code_no_changes_found']['de-at'] = "Es wurden keine Änderungen am APP_NAME-Quellcode festgestellt.";
@@ -1216,6 +1261,7 @@ $text['description-source_code_no_changes_found']['ja-jp'] = "APP_NAME ソース
 $text['description-source_code_no_changes_found']['ko-kr'] = "APP_NAME 소스 코드 변경사항이 감지되지 않았습니다.";
 
 $text['description-upgrade_source']['en-us'] = "Updates FusionPBX source files from the repository.";
+$text['description-upgrade_source']['vi-vn'] = "Cập nhật file nguồn FusionPBX từ repository.";
 $text['description-upgrade_source']['en-gb'] = "Updates FusionPBX source files from the repository.";
 $text['description-upgrade_source']['ar-eg'] = "يقوم بتحديث ملفات مصدر FusionPBX من المستودع.";
 $text['description-upgrade_source']['de-at'] = "Aktualisiert den FusionPBX Quellcode aus dem Repository";
@@ -1243,6 +1289,7 @@ $text['description-upgrade_source']['ja-jp'] = "FusionPBXソースファイル�
 $text['description-upgrade_source']['ko-kr'] = "저장소에서 Fusionpbx 소스 파일을 업데이트합니다.";
 
 $text['description-update_all_source_files']['en-us'] = "Update all source files.";
+$text['description-update_all_source_files']['vi-vn'] = "Cập nhật tất cả file nguồn.";
 $text['description-update_all_source_files']['en-gb'] = "Update all source files.";
 $text['description-update_all_source_files']['ar-eg'] = "تحديث كافة الملفات المصدر.";
 $text['description-update_all_source_files']['de-at'] = "Aktualisieren Sie alle Quelldateien.";
@@ -1270,6 +1317,7 @@ $text['description-update_all_source_files']['ja-jp'] = "すべてのソース�
 $text['description-update_all_source_files']['ko-kr'] = "모든 소스 파일을 업데이트합니다.";
 
 $text['description-upgrade_schema']['en-us'] = "Update the tables, columns, and data types.";
+$text['description-upgrade_schema']['vi-vn'] = "Cập nhật bảng, cột và kiểu dữ liệu.";
 $text['description-upgrade_schema']['en-gb'] = "Update the tables, columns, and data types.";
 $text['description-upgrade_schema']['ar-eg'] = "تحديث الجداول والأعمدة وأنواع البيانات.";
 $text['description-upgrade_schema']['de-at'] = "Aktualisieren Sie die Tabellen, Spalten und Datentypen.";
@@ -1297,6 +1345,7 @@ $text['description-upgrade_schema']['ja-jp'] = "テーブル、カラム、お�
 $text['description-upgrade_schema']['ko-kr'] = "테이블, 열 및 데이터 유형을 업데이트하세요.";
 
 $text['description-upgrade_permissions']['en-us'] = "Restore default group permissions.";
+$text['description-upgrade_permissions']['vi-vn'] = "Khôi phục quyền nhóm mặc định.";
 $text['description-upgrade_permissions']['en-gb'] = "Restore default group permissions.";
 $text['description-upgrade_permissions']['ar-eg'] = "يستعيد أذونات المجموعة الافتراضية.";
 $text['description-upgrade_permissions']['de-at'] = "Setzt die Standard Gruppen Berechtigungen zurück.";
@@ -1324,6 +1373,7 @@ $text['description-upgrade_permissions']['ja-jp'] = "デフォルトのグルー
 $text['description-upgrade_permissions']['ko-kr'] = "기본 그룹 권한을 복원합니다.";
 
 $text['description-update_file_permissions']['en-us'] = "Update the file permissions.";
+$text['description-update_file_permissions']['vi-vn'] = "Cập nhật quyền file.";
 $text['description-update_file_permissions']['en-gb'] = "Update the file permissions.";
 $text['description-update_file_permissions']['ar-eg'] = "تحديث أذونات الملف.";
 $text['description-update_file_permissions']['de-at'] = "Dateiberechtigungen aktualisieren.";
@@ -1351,6 +1401,7 @@ $text['description-update_file_permissions']['ja-jp'] = "ファイルのアク�
 $text['description-update_file_permissions']['ko-kr'] = "파일 권한 업데이트.";
 
 $text['label-header1']['en-us'] = 'Root account or sudo account must be used for this option';
+$text['label-header1']['vi-vn'] = "Phải dùng tài khoản root hoặc tài khoản sudo cho tùy chọn này";
 $text['label-header1']['en-gb'] = 'Root account or sudo account must be used for this option';
 $text['label-header1']['ar-eg'] = 'يجب استخدام حساب الجذر أو حساب sudo لهذا الخيار';
 $text['label-header1']['de-at'] = 'Für diese Option muss ein Root-Konto oder ein Sudo-Konto verwendet werden.';
@@ -1378,6 +1429,7 @@ $text['label-header1']['ja-jp'] = 'このオプションにはルートアカウ
 $text['label-header1']['ko-kr'] = '이 옵션에는 루트 계정 또는 sudo 계정을 사용해야 합니다.';
 
 $text['label-header2']['en-us'] = 'This option is used for resetting the permissions on the file system after executing commands using the root user account';
+$text['label-header2']['vi-vn'] = "Tùy chọn này dùng để đặt lại quyền trên hệ thống file sau khi thực thi lệnh bằng tài khoản root";
 $text['label-header2']['en-gb'] = 'This option is used for resetting the permissions on the file system after executing commands using the root user account';
 $text['label-header2']['ar-eg'] = 'يستخدم هذا الخيار لإعادة تعيين الأذونات على نظام الملفات بعد تنفيذ الأوامر باستخدام حساب المستخدم الجذر';
 $text['label-header2']['de-at'] = 'Diese Option wird zum Zurücksetzen der Berechtigungen für das Dateisystem verwendet, nachdem Befehle mit dem Root-Benutzerkonto ausgeführt wurden.';
@@ -1405,6 +1457,7 @@ $text['label-header2']['ja-jp'] = 'このオプションは、ルートユーザ
 $text['label-header2']['ko-kr'] = '이 옵션은 root 사용자 계정을 사용하여 명령을 실행한 후 파일 시스템의 권한을 재설정하는 데 사용됩니다.';
 
 $text['description-upgrade_menu']['en-us'] = "Restores the default items in the menu.";
+$text['description-upgrade_menu']['vi-vn'] = "Khôi phục các mục mặc định trong menu.";
 $text['description-upgrade_menu']['en-gb'] = "Restores the default items in the menu.";
 $text['description-upgrade_menu']['ar-eg'] = "استعادة العناصر الافتراضية في القائمة.";
 $text['description-upgrade_menu']['de-at'] = "Setzt die Menüpunkte im ausgewählten Menü auf den Standard zurück.";
@@ -1432,6 +1485,7 @@ $text['description-upgrade_menu']['ja-jp'] = "選択したメニューのデフ�
 $text['description-upgrade_menu']['ko-kr'] = "선택한 메뉴에서 기본 항목을 복원합니다.";
 
 $text['description-upgrade_data_types']['en-us'] = "Detects and updates incorrect field data types.";
+$text['description-upgrade_data_types']['vi-vn'] = "Phát hiện và cập nhật các kiểu dữ liệu trường không đúng.";
 $text['description-upgrade_data_types']['en-gb'] = "Detects and updates incorrect field data types.";
 $text['description-upgrade_data_types']['ar-eg'] = "الكشف عن أنواع البيانات الميدانية غير الصحيحة وتحديثها.";
 $text['description-upgrade_data_types']['de-at'] = "Ermittelt fehlerhafte Datentypen und korrigiert diese.";
@@ -1459,6 +1513,7 @@ $text['description-upgrade_data_types']['ja-jp'] = "誤ったフィールドデ�
 $text['description-upgrade_data_types']['ko-kr'] = "잘못된 필드 데이터 유형을 감지하고 업데이트합니다.";
 
 $text['description-upgrade_apps']['en-us'] = "Restore the application defaults.";
+$text['description-upgrade_apps']['vi-vn'] = "Khôi phục mặc định ứng dụng.";
 $text['description-upgrade_apps']['en-gb'] = "Restore the application defaults.";
 $text['description-upgrade_apps']['ar-eg'] = "استعادة إعدادات التطبيق الافتراضية.";
 $text['description-upgrade_apps']['de-at'] = "Die Anwendungseinstellungen auf die Standardwerte zurücksetzen.";
@@ -1486,6 +1541,7 @@ $text['description-upgrade_apps']['ja-jp'] = "アプリケーションのデフ�
 $text['description-upgrade_apps']['ko-kr'] = "응용 프로그램의 기본 설정을 복원합니다.";
 
 $text['description-upgrade_switch']['en-us'] = "Runs the upgrade switch routine.";
+$text['description-upgrade_switch']['vi-vn'] = "Chạy quy trình nâng cấp switch.";
 $text['description-upgrade_switch']['en-gb'] = "Runs the upgrade switch routine.";
 $text['description-upgrade_switch']['ar-eg'] = "يقوم بتشغيل روتين تبديل الترقية.";
 $text['description-upgrade_switch']['de-at'] = "Führt die Switch-Update Routine aus";
@@ -1513,6 +1569,7 @@ $text['description-upgrade_switch']['ja-jp'] = "アップグレードスイッ�
 $text['description-upgrade_switch']['ko-kr'] = "업그레이드 스위치 루틴을 실행합니다.";
 
 $text['description-upgrade']['en-us'] = "Select the actions below you wish to perform.";
+$text['description-upgrade']['vi-vn'] = "Chọn các thao tác bạn muốn thực hiện bên dưới.";
 $text['description-upgrade']['en-gb'] = "Select the actions below you wish to perform.";
 $text['description-upgrade']['ar-eg'] = "حدد الإجراءات أدناه التي ترغب في تنفيذها.";
 $text['description-upgrade']['de-at'] = "Wählen Sie die die gewünschten Aktionen unten aus.";
@@ -1540,6 +1597,7 @@ $text['description-upgrade']['ja-jp'] = "実行する以下のアクションを
 $text['description-upgrade']['ko-kr'] = "수행하려는 아래의 작업을 선택하십시오.";
 
 $text['button-upgrade_execute']['en-us'] = "Execute";
+$text['button-upgrade_execute']['vi-vn'] = "Thực thi";
 $text['button-upgrade_execute']['en-gb'] = "Execute";
 $text['button-upgrade_execute']['ar-eg'] = "اعدام";
 $text['button-upgrade_execute']['de-at'] = "Ausführen";
@@ -1567,6 +1625,7 @@ $text['button-upgrade_execute']['ja-jp'] = "実行する";
 $text['button-upgrade_execute']['ko-kr'] = "실행하다";
 
 $text['label-upgrade_services']['en-us'] = "Service Defaults";
+$text['label-upgrade_services']['vi-vn'] = "Mặc định dịch vụ";
 $text['label-upgrade_services']['en-gb'] = "Service Defaults";
 $text['label-upgrade_services']['ar-eg'] = "الخدمات الافتراضية";
 $text['label-upgrade_services']['de-at'] = "Dienststandards";
@@ -1594,6 +1653,7 @@ $text['label-upgrade_services']['ja-jp'] = "サービスの既定値";
 $text['label-upgrade_services']['ko-kr'] = "서비스 기본 설정";
 
 $text['description-upgrade_services']['en-us'] = 'Update all default services.';
+$text['description-upgrade_services']['vi-vn'] = "Cập nhật tất cả dịch vụ mặc định.";
 $text['description-upgrade_services']['en-gb'] = 'Update all default services.';
 $text['description-upgrade_services']['ar-eg'] = "قم بتحديث جميع الخدمات الافتراضية.";
 $text['description-upgrade_services']['de-at'] = "Alle Standard-Dienste aktualisieren.";
@@ -1621,6 +1681,7 @@ $text['description-upgrade_services']['ja-jp'] = "すべての既定サービス
 $text['description-upgrade_services']['ko-kr'] = "모든 기본 서비스를 업데이트합니다.";
 
 $text['label-restart_services']['en-us'] = "Restart Services";
+$text['label-restart_services']['vi-vn'] = "Khởi động lại dịch vụ";
 $text['label-restart_services']['en-gb'] = "Restart Services";
 $text['label-restart_services']['ar-eg'] = "إعادة تشغيل الخدمات";
 $text['label-restart_services']['de-at'] = "Dienste neu starten";
@@ -1648,6 +1709,7 @@ $text['label-restart_services']['ja-jp'] = "サービスを再起動";
 $text['label-restart_services']['ko-kr'] = "서비스 다시 시작";
 
 $text['description-restart_services']['en-us'] = 'Restart all services.';
+$text['description-restart_services']['vi-vn'] = "Khởi động lại tất cả dịch vụ.";
 $text['description-restart_services']['en-gb'] = 'Restart all services.';
 $text['description-restart_services']['ar-eg'] = 'إعادة تشغيل جميع الخدمات.';
 $text['description-restart_services']['de-at'] = 'Starten Sie alle Dienste neu.';
@@ -1675,6 +1737,7 @@ $text['description-restart_services']['ja-jp'] = 'すべてのサービスを再
 $text['description-restart_services']['ko-kr'] = '모든 서비스를 재시작합니다.';
 
 $text['label-all_of_the_above']['en-us'] = "All of the Above";
+$text['label-all_of_the_above']['vi-vn'] = "Tất cả các mục trên";
 $text['label-all_of_the_above']['en-gb'] = "All of the Above";
 $text['label-all_of_the_above']['ar-eg'] = "كل ما ورداعلاه";
 $text['label-all_of_the_above']['de-at'] = "Alle oben genannten";
@@ -1702,6 +1765,7 @@ $text['label-all_of_the_above']['ja-jp'] = "上記のすべて";
 $text['label-all_of_the_above']['ko-kr'] = "무엇보다도";
 
 $text['description-all_of_the_above']['en-us'] = 'Performs all upgrade steps in sequence.';
+$text['description-all_of_the_above']['vi-vn'] = "Thực hiện tuần tự tất cả bước nâng cấp.";
 $text['description-all_of_the_above']['en-gb'] = 'Performs all upgrade steps in sequence.';
 $text['description-all_of_the_above']['ar-eg'] = 'يقوم بتنفيذ جميع خطوات التحديث بالتوالي.';
 $text['description-all_of_the_above']['de-at'] = 'Führt alle Upgrade-Schritte nacheinander aus.';
@@ -1729,6 +1793,7 @@ $text['description-all_of_the_above']['ja-jp'] = 'すべてのアップグレー
 $text['description-all_of_the_above']['ko-kr'] = '모든 업그레이드 단계를 순서대로 실행합니다.';
 
 $text['label-main_software']['en-us'] = "Main Software";
+$text['label-main_software']['vi-vn'] = "Phần mềm chính";
 $text['label-main_software']['en-gb'] = "Main Software";
 $text['label-main_software']['ar-eg'] = "البرنامج الرئيسي";
 $text['label-main_software']['de-at'] = "Hauptsoftware";
@@ -1756,6 +1821,7 @@ $text['label-main_software']['ja-jp'] = "メインソフトウェア";
 $text['label-main_software']['ko-kr'] = "주요 소프트웨어";
 
 $text['description-main_software']['en-us'] = "Updates all external repositories.";
+$text['description-main_software']['vi-vn'] = "Cập nhật tất cả repository bên ngoài.";
 $text['description-main_software']['en-gb'] = "Updates all external repositories.";
 $text['description-main_software']['ar-eg'] = "يقوم بتحديث جميع مستودعات خارجية.";
 $text['description-main_software']['de-at'] = "Aktualisiert alle externen Repositorys.";
@@ -1783,6 +1849,7 @@ $text['description-main_software']['ja-jp'] = "すべての外部リポジトリ
 $text['description-main_software']['ko-kr'] = "모든 외부 저장소를 업데이트합니다.";
 
 $text['label-optional_applications']['en-us'] = "Optional Applications";
+$text['label-optional_applications']['vi-vn'] = "Ứng dụng tùy chọn";
 $text['label-optional_applications']['en-gb'] = "Optional Applications";
 $text['label-optional_applications']['ar-eg'] = "تطبيقات اختيارية";
 $text['label-optional_applications']['de-at'] = "Optionale Anwendungen";
@@ -1810,6 +1877,7 @@ $text['label-optional_applications']['ja-jp'] = "オプションアプリケー�
 $text['label-optional_applications']['ko-kr'] = "선택적 애플리케이션";
 
 $text['description-optional_applications']['en-us'] = "Updates all external repositories.";
+$text['description-optional_applications']['vi-vn'] = "Cập nhật tất cả repository bên ngoài.";
 $text['description-optional_applications']['en-gb'] = "Updates all external repositories.";
 $text['description-optional_applications']['ar-eg'] = "يقوم بتحديث جميع المستودعات الخارجية الموجودة في مجلد التطبيقات/.";
 $text['description-optional_applications']['de-at'] = "Aktualisiert alle externen Repositorys im Ordner „apps/“.";
@@ -1837,6 +1905,7 @@ $text['description-optional_applications']['ja-jp'] = "apps/ フォルダー内�
 $text['description-optional_applications']['ko-kr'] = "apps/ 폴더에 있는 모든 외부 저장소를 업데이트합니다.";
 
 $text['button-preview']['en-us'] = "Preview";
+$text['button-preview']['vi-vn'] = "Xem trước";
 $text['button-preview']['en-gb'] = "Preview";
 $text['button-preview']['ar-eg'] = "معاينة";
 $text['button-preview']['de-at'] = "Vorschau";
@@ -1864,6 +1933,7 @@ $text['button-preview']['ja-jp'] = "プレビュー";
 $text['button-preview']['ko-kr'] = "시사";
 
 $text['label-update_auto_loader']['en-us'] = 'Update Auto Loader Cache';
+$text['label-update_auto_loader']['vi-vn'] = "Cập nhật cache Auto Loader";
 $text['label-update_auto_loader']['en-gb'] = 'Update Auto Loader Cache';
 $text['label-update_auto_loader']['ar-eg'] = 'تحديث ذاكرة التخزين المؤقتة للتحميل التلقائي';
 $text['label-update_auto_loader']['de-at'] = 'AutoLoader-Cache aktualisieren';
@@ -1891,6 +1961,7 @@ $text['label-update_auto_loader']['ja-jp'] = 'オートローダーキャッシ�
 $text['label-update_auto_loader']['ko-kr'] = '자동 로더 캐시 업데이트';
 
 $text['description-update_auto_loader']['en-us'] = 'Updates the auto_loader cache file to include any new classes added to the project';
+$text['description-update_auto_loader']['vi-vn'] = "Cập nhật file cache auto_loader để bao gồm các class mới được thêm vào dự án";
 $text['description-update_auto_loader']['en-gb'] = 'Updates the auto_loader cache file to include any new classes added to the project';
 $text['description-update_auto_loader']['ar-eg'] = 'يقوم بتحديث ملف ذاكرة التخزين المؤقت لـ auto_loader ليشمل أي فئات جديدة تمت إضافتها إلى المشروع';
 $text['description-update_auto_loader']['de-at'] = 'Aktualisiert die Auto_Loader-Cachedatei, um alle neuen Klassen einzuschließen, die dem Projekt hinzugefügt werden';
@@ -1918,6 +1989,7 @@ $text['description-update_auto_loader']['ja-jp'] = 'プロジェクトに追加�
 $text['description-update_auto_loader']['ko-kr'] = '프로젝트에 추가된 모든 새 클래스를 포함하도록 auto_loader 캐시 파일을 업데이트합니다.';
 
 $text['label-reloaded_classes']['en-us'] = 'Reloaded classes';
+$text['label-reloaded_classes']['vi-vn'] = "Đã tải lại class";
 $text['label-reloaded_classes']['en-gb'] = 'Reloaded classes';
 $text['label-reloaded_classes']['ar-eg'] = 'الفصول المعاد تحميلها';
 $text['label-reloaded_classes']['de-at'] = 'Neu geladene Klassen';
@@ -1945,6 +2017,7 @@ $text['label-reloaded_classes']['ja-jp'] = 'リロードされたクラス';
 $text['label-reloaded_classes']['ko-kr'] = '다시 로드된 클래스';
 
 $text['label-updated_cache']['en-us'] = 'Updated cache';
+$text['label-updated_cache']['vi-vn'] = "Đã cập nhật cache";
 $text['label-updated_cache']['en-gb'] = 'Updated cache';
 $text['label-updated_cache']['ar-eg'] = 'تم تحديث ذاكرة التخزين المؤقت';
 $text['label-updated_cache']['de-at'] = 'Cache aktualisiert';
@@ -1972,6 +2045,7 @@ $text['label-updated_cache']['ja-jp'] = 'キャッシュを更新しました';
 $text['label-updated_cache']['ko-kr'] = '캐시 업데이트됨';
 
 $text['label-not_running_as_root']['en-us'] = 'Not root user - operation skipped';
+$text['label-not_running_as_root']['vi-vn'] = "Không phải người dùng root - đã bỏ qua thao tác";
 $text['label-not_running_as_root']['en-gb'] = 'Not root user - operation skipped';
 $text['label-not_running_as_root']['ar-eg'] = 'ليس مستخدمًا جذريًا - تم تخطي العملية';
 $text['label-not_running_as_root']['de-at'] = 'Kein Root-Benutzer – Vorgang übersprungen';

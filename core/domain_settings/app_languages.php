@@ -1,6 +1,7 @@
 <?php
 
 $text['title-domains']['en-us'] = "Domains";
+$text['title-domains']['vi-vn'] = "Tên miền";
 $text['title-domains']['en-gb'] = "Domains";
 $text['title-domains']['ar-eg'] = "المجالات";
 $text['title-domains']['de-at'] = "Domänen";
@@ -28,6 +29,7 @@ $text['title-domains']['ja-jp'] = "ドメイン";
 $text['title-domains']['ko-kr'] = "도메인";
 
 $text['title-domain_settings']['en-us'] = "Domain Setting";
+$text['title-domain_settings']['vi-vn'] = "Cài đặt tên miền";
 $text['title-domain_settings']['en-gb'] = "Domain Setting";
 $text['title-domain_settings']['ar-eg'] = "إعداد المجال";
 $text['title-domain_settings']['de-at'] = "Domain Einstellungen";
@@ -55,6 +57,7 @@ $text['title-domain_settings']['ja-jp'] = "ドメイン設定";
 $text['title-domain_settings']['ko-kr'] = "도메인 설정";
 
 $text['title-domain_setting-edit']['en-us'] = "Domain Setting";
+$text['title-domain_setting-edit']['vi-vn'] = "Cài đặt tên miền";
 $text['title-domain_setting-edit']['en-gb'] = "Domain Setting";
 $text['title-domain_setting-edit']['ar-eg'] = "إعداد المجال";
 $text['title-domain_setting-edit']['de-at'] = "Domain Einstellungen";
@@ -82,6 +85,7 @@ $text['title-domain_setting-edit']['ja-jp'] = "ドメイン設定";
 $text['title-domain_setting-edit']['ko-kr'] = "도메인 설정";
 
 $text['title-domain_setting-add']['en-us'] = "Domain Setting Add";
+$text['title-domain_setting-add']['vi-vn'] = "Thêm cài đặt tên miền";
 $text['title-domain_setting-add']['en-gb'] = "Domain Setting Add";
 $text['title-domain_setting-add']['ar-eg'] = "إضافة إعداد المجال";
 $text['title-domain_setting-add']['de-at'] = "Domain Einstellungen hinzufügen";
@@ -109,6 +113,7 @@ $text['title-domain_setting-add']['ja-jp'] = "ドメイン設定の追加";
 $text['title-domain_setting-add']['ko-kr'] = "도메인 설정 추가";
 
 $text['title-domain-edit']['en-us'] = "Domain";
+$text['title-domain-edit']['vi-vn'] = "Tên miền";
 $text['title-domain-edit']['en-gb'] = "Domain";
 $text['title-domain-edit']['ar-eg'] = "اِختِصاص";
 $text['title-domain-edit']['de-at'] = "Domain";
@@ -136,6 +141,7 @@ $text['title-domain-edit']['ja-jp'] = "ドメイン";
 $text['title-domain-edit']['ko-kr'] = "도메인";
 
 $text['title-domain-add']['en-us'] = "Domain Add";
+$text['title-domain-add']['vi-vn'] = "Thêm tên miền";
 $text['title-domain-add']['en-gb'] = "Domain Add";
 $text['title-domain-add']['ar-eg'] = "إضافة المجال";
 $text['title-domain-add']['de-at'] = "Domain hinzufügen";
@@ -163,6 +169,7 @@ $text['title-domain-add']['ja-jp'] = "ドメインの追加";
 $text['title-domain-add']['ko-kr'] = "도메인 추가";
 
 $text['header_description-domain_settings']['en-us'] = "Settings for this domain override those defined in Default Settings.";
+$text['header_description-domain_settings']['vi-vn'] = "Các cài đặt cho tên miền này sẽ ghi đè những cài đặt đã định nghĩa trong Cài đặt mặc định.";
 $text['header_description-domain_settings']['en-gb'] = "Settings for this domain override those defined in Default Settings.";
 $text['header_description-domain_settings']['ar-eg'] = "تتجاوز الإعدادات الخاصة بهذا المجال الإعدادات المحددة في الإعدادات الافتراضية.";
 $text['header_description-domain_settings']['de-at'] = "Die Einstellungen für diese Domäne überschreiben die in den Standardeinstellungen definierten.";
@@ -190,6 +197,7 @@ $text['header_description-domain_settings']['ja-jp'] = "このドメインの設
 $text['header_description-domain_settings']['ko-kr'] = "이 도메인에 대한 설정은 기본 설정에 정의된 설정보다 우선합니다.";
 
 $text['message-delete_failed']['en-us'] = "No Settings Checked";
+$text['message-delete_failed']['vi-vn'] = "Chưa chọn cài đặt nào";
 $text['message-delete_failed']['en-gb'] = "No Settings Checked";
 $text['message-delete_failed']['ar-eg'] = "لم يتم التحقق من الإعدادات";
 $text['message-delete_failed']['de-at'] = "Keine Einstellungen ausgewählt";
@@ -217,6 +225,7 @@ $text['message-delete_failed']['ja-jp'] = "設定はチェックされていま�
 $text['message-delete_failed']['ko-kr'] = "선택한 설정 없음";
 
 $text['option-select_box']['en-us'] = "Select Box";
+$text['option-select_box']['vi-vn'] = "Hộp chọn";
 $text['option-select_box']['en-gb'] = "Select Box";
 $text['option-select_box']['ar-eg'] = "حدد المربع";
 $text['option-select_box']['de-at'] = "Auswahlfeld";
@@ -244,6 +253,7 @@ $text['option-select_box']['ja-jp'] = "選択ボックス";
 $text['option-select_box']['ko-kr'] = "선택 상자";
 
 $text['option-switch_round']['en-us'] = "Round Switch";
+$text['option-switch_round']['vi-vn'] = "Công tắc bo tròn";
 $text['option-switch_round']['en-gb'] = "Round Switch";
 $text['option-switch_round']['ar-eg'] = "مفتاح دائري";
 $text['option-switch_round']['de-at'] = "Runder Schalter";
@@ -271,6 +281,7 @@ $text['option-switch_round']['ja-jp'] = "丸型スイッチ";
 $text['option-switch_round']['ko-kr'] = "라운드 스위치";
 
 $text['option-switch_square']['en-us'] = "Square Switch";
+$text['option-switch_square']['vi-vn'] = "Công tắc vuông";
 $text['option-switch_square']['en-gb'] = "Square Switch";
 $text['option-switch_square']['ar-eg'] = "تبديل مربع";
 $text['option-switch_square']['de-at'] = "Quadratischer Schalter";
@@ -298,6 +309,7 @@ $text['option-switch_square']['ja-jp'] = "角型スイッチ";
 $text['option-switch_square']['ko-kr'] = "사각 스위치";
 
 $text['label-web_fonts']['en-us'] = "Web Fonts";
+$text['label-web_fonts']['vi-vn'] = "Font web";
 $text['label-web_fonts']['en-gb'] = "Web Fonts";
 $text['label-web_fonts']['ar-eg'] = "خطوط الويب";
 $text['label-web_fonts']['de-at'] = "Web -Schriftarten";
@@ -325,6 +337,7 @@ $text['label-web_fonts']['ja-jp'] = "ウェブフォント";
 $text['label-web_fonts']['ko-kr'] = "웹폰트";
 
 $text['label-top']['en-us'] = "Top";
+$text['label-top']['vi-vn'] = "Trên";
 $text['label-top']['en-gb'] = "Top";
 $text['label-top']['ar-eg'] = "قمة";
 $text['label-top']['de-at'] = "Oben";
@@ -352,6 +365,7 @@ $text['label-top']['ja-jp'] = "上";
 $text['label-top']['ko-kr'] = "맨 위";
 
 $text['label-tools']['en-us'] = "Tools";
+$text['label-tools']['vi-vn'] = "Công cụ";
 $text['label-tools']['en-gb'] = "Tools";
 $text['label-tools']['ar-eg'] = "أدوات";
 $text['label-tools']['de-at'] = "Werkzeuge";
@@ -379,6 +393,7 @@ $text['label-tools']['ja-jp'] = "ツール";
 $text['label-tools']['ko-kr'] = "도구";
 
 $text['label-text']['en-us'] = "Text";
+$text['label-text']['vi-vn'] = "Văn bản";
 $text['label-text']['en-gb'] = "Text";
 $text['label-text']['ar-eg'] = "نص";
 $text['label-text']['de-at'] = "Text";
@@ -406,6 +421,7 @@ $text['label-text']['ja-jp'] = "テキスト";
 $text['label-text']['ko-kr'] = "텍스트";
 
 $text['label-static']['en-us'] = "Static";
+$text['label-static']['vi-vn'] = "Tĩnh";
 $text['label-static']['en-gb'] = "Static";
 $text['label-static']['ar-eg'] = "ثابتة";
 $text['label-static']['de-at'] = "Statisch";
@@ -433,6 +449,7 @@ $text['label-static']['ja-jp'] = "スタティック";
 $text['label-static']['ko-kr'] = "공전";
 
 $text['label-right']['en-us'] = "Right";
+$text['label-right']['vi-vn'] = "Phải";
 $text['label-right']['en-gb'] = "Right";
 $text['label-right']['ar-eg'] = "يمين";
 $text['label-right']['de-at'] = "Rechts";
@@ -460,6 +477,7 @@ $text['label-right']['ja-jp'] = "右";
 $text['label-right']['ko-kr'] = "오른쪽";
 
 $text['label-reference']['en-us'] = "See";
+$text['label-reference']['vi-vn'] = "Xem";
 $text['label-reference']['en-gb'] = "See";
 $text['label-reference']['ar-eg'] = "يرى";
 $text['label-reference']['de-at'] = "Referenz";
@@ -487,6 +505,7 @@ $text['label-reference']['ja-jp'] = "見る";
 $text['label-reference']['ko-kr'] = "보다";
 
 $text['label-parent_domain']['en-us'] = "Parent Domain";
+$text['label-parent_domain']['vi-vn'] = "Tên miền cha";
 $text['label-parent_domain']['en-gb'] = "Parent Domain";
 $text['label-parent_domain']['ar-eg'] = "المجال الأصلي";
 $text['label-parent_domain']['de-at'] = "Übergeordnete Domain";
@@ -514,6 +533,7 @@ $text['label-parent_domain']['ja-jp'] = "親ドメイン";
 $text['label-parent_domain']['ko-kr'] = "상위 도메인";
 
 $text['label-other']['en-us'] = "Other";
+$text['label-other']['vi-vn'] = "Khác";
 $text['label-other']['en-gb'] = "Other";
 $text['label-other']['ar-eg'] = "آخر";
 $text['label-other']['de-at'] = "Andere";
@@ -541,6 +561,7 @@ $text['label-other']['ja-jp'] = "他の";
 $text['label-other']['ko-kr'] = "다른";
 
 $text['label-none']['en-us'] = "None";
+$text['label-none']['vi-vn'] = "Không có";
 $text['label-none']['en-gb'] = "None";
 $text['label-none']['ar-eg'] = "لا أحد";
 $text['label-none']['de-at'] = "Keiner";
@@ -568,6 +589,7 @@ $text['label-none']['ja-jp'] = "なし";
 $text['label-none']['ko-kr'] = "없음";
 
 $text['label-manage']['en-us'] = "Manage";
+$text['label-manage']['vi-vn'] = "Quản lý";
 $text['label-manage']['en-gb'] = "Manage";
 $text['label-manage']['ar-eg'] = "يدير";
 $text['label-manage']['de-at'] = "Verwalten";
@@ -595,6 +617,7 @@ $text['label-manage']['ja-jp'] = "管理";
 $text['label-manage']['ko-kr'] = "관리하다";
 
 $text['label-left']['en-us'] = "Left";
+$text['label-left']['vi-vn'] = "Trái";
 $text['label-left']['en-gb'] = "Left";
 $text['label-left']['ar-eg'] = "غادر";
 $text['label-left']['de-at'] = "Links";
@@ -622,6 +645,7 @@ $text['label-left']['ja-jp'] = "左";
 $text['label-left']['ko-kr'] = "왼쪽";
 
 $text['label-inline']['en-us'] = "Inline";
+$text['label-inline']['vi-vn'] = "Nội tuyến";
 $text['label-inline']['en-gb'] = "Inline";
 $text['label-inline']['ar-eg'] = "في النسق";
 $text['label-inline']['de-at'] = "Im Einklang";
@@ -649,6 +673,7 @@ $text['label-inline']['ja-jp'] = "列をなして";
 $text['label-inline']['ko-kr'] = "인라인";
 
 $text['label-image']['en-us'] = "Image";
+$text['label-image']['vi-vn'] = "Hình ảnh";
 $text['label-image']['en-gb'] = "Image";
 $text['label-image']['ar-eg'] = "صورة";
 $text['label-image']['de-at'] = "Bild";
@@ -676,6 +701,7 @@ $text['label-image']['ja-jp'] = "画像";
 $text['label-image']['ko-kr'] = "영상";
 
 $text['label-fixed']['en-us'] = "Fixed";
+$text['label-fixed']['vi-vn'] = "Cố định";
 $text['label-fixed']['en-gb'] = "Fixed";
 $text['label-fixed']['ar-eg'] = "مُثَبَّت";
 $text['label-fixed']['de-at'] = "Fest";
@@ -703,6 +729,7 @@ $text['label-fixed']['ja-jp'] = "修理済み";
 $text['label-fixed']['ko-kr'] = "결정된";
 
 $text['label-side']['en-us'] = "Side";
+$text['label-side']['vi-vn'] = "Bên cạnh";
 $text['label-side']['en-gb'] = "Side";
 $text['label-side']['ar-eg'] = "جانب";
 $text['label-side']['de-at'] = "Seite";
@@ -730,6 +757,7 @@ $text['label-side']['ja-jp'] = "側";
 $text['label-side']['ko-kr'] = "옆";
 
 $text['label-domain']['en-us'] = "Domain";
+$text['label-domain']['vi-vn'] = "Tên miền";
 $text['label-domain']['en-gb'] = "Domain";
 $text['label-domain']['ar-eg'] = "اِختِصاص";
 $text['label-domain']['de-at'] = "Domain";
@@ -757,6 +785,7 @@ $text['label-domain']['ja-jp'] = "ドメイン";
 $text['label-domain']['ko-kr'] = "도메인";
 
 $text['label-center']['en-us'] = "Center";
+$text['label-center']['vi-vn'] = "Giữa";
 $text['label-center']['en-gb'] = "Center";
 $text['label-center']['ar-eg'] = "مركز";
 $text['label-center']['de-at'] = "Mitte";
@@ -784,6 +813,7 @@ $text['label-center']['ja-jp'] = "センター";
 $text['label-center']['ko-kr'] = "센터";
 
 $text['label-bottom']['en-us'] = "Bottom";
+$text['label-bottom']['vi-vn'] = "Dưới";
 $text['label-bottom']['en-gb'] = "Bottom";
 $text['label-bottom']['ar-eg'] = "أسفل";
 $text['label-bottom']['de-at'] = "Unten";
@@ -811,6 +841,7 @@ $text['label-bottom']['ja-jp'] = "ボトム";
 $text['label-bottom']['ko-kr'] = "제품정보";
 
 $text['label-24-hour']['en-us'] = "24-Hour";
+$text['label-24-hour']['vi-vn'] = "24 giờ";
 $text['label-24-hour']['en-gb'] = "24-Hour";
 $text['label-24-hour']['ar-eg'] = "24 ساعة";
 $text['label-24-hour']['de-at'] = "24 Stunden";
@@ -838,6 +869,7 @@ $text['label-24-hour']['ja-jp'] = "24時間";
 $text['label-24-hour']['ko-kr'] = "24시간";
 
 $text['label-12-hour']['en-us'] = "12-Hour";
+$text['label-12-hour']['vi-vn'] = "12 giờ";
 $text['label-12-hour']['en-gb'] = "12-Hour";
 $text['label-12-hour']['ar-eg'] = "12 ساعة";
 $text['label-12-hour']['de-at'] = "12 Stunden";
@@ -865,6 +897,7 @@ $text['label-12-hour']['ja-jp'] = "12時間";
 $text['label-12-hour']['ko-kr'] = "12시간";
 
 $text['label-dynamic']['en-us'] = "Dynamic";
+$text['label-dynamic']['vi-vn'] = "Động";
 $text['label-dynamic']['en-gb'] = "Dynamic";
 $text['label-dynamic']['ar-eg'] = "متحرك";
 $text['label-dynamic']['de-at'] = "Dynamisch";
@@ -892,6 +925,7 @@ $text['label-dynamic']['ja-jp'] = "ダイナミック";
 $text['label-dynamic']['ko-kr'] = "동적";
 
 $text['label-single']['en-us'] = "Single";
+$text['label-single']['vi-vn'] = "Đơn";
 $text['label-single']['en-gb'] = "Single";
 $text['label-single']['ar-eg'] = "أعزب";
 $text['label-single']['de-at'] = "Einzel";
@@ -919,6 +953,7 @@ $text['label-single']['ja-jp'] = "独身";
 $text['label-single']['ko-kr'] = "하나의";
 
 $text['label-multiple']['en-us'] = "Multiple";
+$text['label-multiple']['vi-vn'] = "Nhiều";
 $text['label-multiple']['en-gb'] = "Multiple";
 $text['label-multiple']['ar-eg'] = "عديد";
 $text['label-multiple']['de-at'] = "Mehrere";
@@ -946,6 +981,7 @@ $text['label-multiple']['ja-jp'] = "多数";
 $text['label-multiple']['ko-kr'] = "다수의";
 
 $text['label-default_settings']['en-us'] = "Default Settings";
+$text['label-default_settings']['vi-vn'] = "Cài đặt mặc định";
 $text['label-default_settings']['en-gb'] = "Default Settings";
 $text['label-default_settings']['ar-eg'] = "الإعدادات الافتراضية";
 $text['label-default_settings']['de-at'] = "Standardeinstellungen";
@@ -973,6 +1009,7 @@ $text['label-default_settings']['ja-jp'] = "デフォルトの設定";
 $text['label-default_settings']['ko-kr'] = "기본 설정";
 
 $text['select-global']['en-us'] = "Global";
+$text['select-global']['vi-vn'] = "Toàn cục";
 $text['select-global']['en-gb'] = "Global";
 $text['select-global']['ar-eg'] = "عالمي";
 $text['select-global']['de-at'] = "Global";
@@ -1000,6 +1037,7 @@ $text['select-global']['ja-jp'] = "グローバル";
 $text['select-global']['ko-kr'] = "글로벌";
 
 $text['header-settings']['en-us'] = "Settings";
+$text['header-settings']['vi-vn'] = "Cài đặt";
 $text['header-settings']['en-gb'] = "Settings";
 $text['header-settings']['ar-eg'] = "إعدادات";
 $text['header-settings']['de-at'] = "Einstellungen";
@@ -1027,6 +1065,7 @@ $text['header-settings']['ja-jp'] = "設定";
 $text['header-settings']['ko-kr'] = "설정";
 
 $text['header-domains']['en-us'] = "Domains";
+$text['header-domains']['vi-vn'] = "Tên miền";
 $text['header-domains']['en-gb'] = "Domains";
 $text['header-domains']['ar-eg'] = "المجالات";
 $text['header-domains']['de-at'] = "Domänen";
@@ -1054,6 +1093,7 @@ $text['header-domains']['ja-jp'] = "ドメイン";
 $text['header-domains']['ko-kr'] = "도메인";
 
 $text['header-domain_setting-edit']['en-us'] = "Domain Setting";
+$text['header-domain_setting-edit']['vi-vn'] = "Cài đặt tên miền";
 $text['header-domain_setting-edit']['en-gb'] = "Domain Setting";
 $text['header-domain_setting-edit']['ar-eg'] = "إعداد المجال";
 $text['header-domain_setting-edit']['de-at'] = "Domain Einstellungen";
@@ -1081,6 +1121,7 @@ $text['header-domain_setting-edit']['ja-jp'] = "ドメイン設定";
 $text['header-domain_setting-edit']['ko-kr'] = "도메인 설정";
 
 $text['header-domain_setting-add']['en-us'] = "Domain Setting Add";
+$text['header-domain_setting-add']['vi-vn'] = "Thêm cài đặt tên miền";
 $text['header-domain_setting-add']['en-gb'] = "Domain Setting Add";
 $text['header-domain_setting-add']['ar-eg'] = "إضافة إعداد المجال";
 $text['header-domain_setting-add']['de-at'] = "Domain Einstellungen hinzufügen";
@@ -1108,6 +1149,7 @@ $text['header-domain_setting-add']['ja-jp'] = "ドメイン設定の追加";
 $text['header-domain_setting-add']['ko-kr'] = "도메인 설정 추가";
 
 $text['description-setting_enabled']['en-us'] = "Set the status of this default setting.";
+$text['description-setting_enabled']['vi-vn'] = "Thiết lập trạng thái của cài đặt mặc định này.";
 $text['description-setting_enabled']['en-gb'] = "Set the status of this default setting.";
 $text['description-setting_enabled']['ar-eg'] = "قم بتعيين حالة هذا الإعداد الافتراضي.";
 $text['description-setting_enabled']['de-at'] = "Setzen Sie den Status dieser Standardeinstellung.";
@@ -1135,6 +1177,7 @@ $text['description-setting_enabled']['ja-jp'] = "このデフォルト設定の�
 $text['description-setting_enabled']['ko-kr'] = "이 기본 설정의 상태를 설정합니다.";
 
 $text['description-parent_domain']['en-us'] = "Set the parent domain.";
+$text['description-parent_domain']['vi-vn'] = "Thiết lập tên miền cha.";
 $text['description-parent_domain']['en-gb'] = "Set the parent domain.";
 $text['description-parent_domain']['ar-eg'] = "قم بتعيين المجال الأصل.";
 $text['description-parent_domain']['de-at'] = "Setzen Sie die übergeordnete Domain.";
@@ -1162,6 +1205,7 @@ $text['description-parent_domain']['ja-jp'] = "親ドメインを設定します
 $text['description-parent_domain']['ko-kr'] = "상위 도메인을 설정합니다.";
 
 $text['description-order']['en-us'] = "Set the order for this array element.";
+$text['description-order']['vi-vn'] = "Thiết lập thứ tự cho phần tử mảng này.";
 $text['description-order']['en-gb'] = "Set the order for this array element.";
 $text['description-order']['ar-eg'] = "قم بتعيين ترتيب عنصر المصفوفة هذا.";
 $text['description-order']['de-at'] = "Wählen Sie die Reihenfolge des Array Elements.";
@@ -1189,6 +1233,7 @@ $text['description-order']['ja-jp'] = "この配列要素の順序を設定し�
 $text['description-order']['ko-kr'] = "이 배열 요소의 순서를 설정합니다.";
 
 $text['description-name']['en-us'] = "Enter the name of the domain.";
+$text['description-name']['vi-vn'] = "Nhập tên miền.";
 $text['description-name']['en-gb'] = "Enter the name of the domain.";
 $text['description-name']['ar-eg'] = "أدخل اسم المجال.";
 $text['description-name']['de-at'] = "Geben Sie den Namen dieser Domain an";
@@ -1216,6 +1261,7 @@ $text['description-name']['ja-jp'] = "ドメインの名前を入力します。
 $text['description-name']['ko-kr'] = "도메인 이름을 입력합니다.";
 
 $text['description-domains']['en-us'] = "Control the list of domains to manage.";
+$text['description-domains']['vi-vn'] = "Quản lý danh sách tên miền.";
 $text['description-domains']['en-gb'] = "Control the list of domains to manage.";
 $text['description-domains']['ar-eg'] = "السيطرة على قائمة المجالات لإدارتها.";
 $text['description-domains']['de-at'] = "Eine Liste aller Domains.";
@@ -1243,6 +1289,7 @@ $text['description-domains']['ja-jp'] = "管理するドメインのリストを
 $text['description-domains']['ko-kr'] = "관리할 도메인 목록을 제어합니다.";
 
 $text['description-domain_setting-edit']['en-us'] = "Edit a setting for this domain.";
+$text['description-domain_setting-edit']['vi-vn'] = "Sửa một cài đặt cho tên miền này.";
 $text['description-domain_setting-edit']['en-gb'] = "Edit a setting for this domain.";
 $text['description-domain_setting-edit']['ar-eg'] = "تحرير إعداد لهذا المجال.";
 $text['description-domain_setting-edit']['de-at'] = "Eine Einstellung für diese Domain ändern.";
@@ -1270,6 +1317,7 @@ $text['description-domain_setting-edit']['ja-jp'] = "このドメインの設定
 $text['description-domain_setting-edit']['ko-kr'] = "이 도메인에 대한 설정을 편집합니다.";
 
 $text['description-domain_setting-add']['en-us'] = "Add a setting for this domain.";
+$text['description-domain_setting-add']['vi-vn'] = "Thêm một cài đặt cho tên miền này.";
 $text['description-domain_setting-add']['en-gb'] = "Add a setting for this domain.";
 $text['description-domain_setting-add']['ar-eg'] = "أضف إعدادًا لهذا المجال.";
 $text['description-domain_setting-add']['de-at'] = "Eine Einstellung für diese Domain hinzufügen.";
@@ -1297,6 +1345,7 @@ $text['description-domain_setting-add']['ja-jp'] = "このドメインの設定�
 $text['description-domain_setting-add']['ko-kr'] = "이 도메인에 대한 설정을 추가합니다.";
 
 $text['description-domain_enabled']['en-us'] = "Set the status of the domain.";
+$text['description-domain_enabled']['vi-vn'] = "Thiết lập trạng thái của tên miền.";
 $text['description-domain_enabled']['en-gb'] = "Set the status of the domain.";
 $text['description-domain_enabled']['ar-eg'] = "تعيين حالة المجال.";
 $text['description-domain_enabled']['de-at'] = "Den Status der Domain setzen.";
@@ -1324,6 +1373,7 @@ $text['description-domain_enabled']['ja-jp'] = "ドメインのステータス�
 $text['description-domain_enabled']['ko-kr'] = "도메인 상태를 설정합니다.";
 
 $text['description-domain-edit']['en-us'] = "Edit the details of this domain.";
+$text['description-domain-edit']['vi-vn'] = "Sửa chi tiết của tên miền này.";
 $text['description-domain-edit']['en-gb'] = "Edit the details of this domain.";
 $text['description-domain-edit']['ar-eg'] = "تحرير تفاصيل هذا المجال.";
 $text['description-domain-edit']['de-at'] = "Die Details dieser Domain ändern.";
@@ -1351,6 +1401,7 @@ $text['description-domain-edit']['ja-jp'] = "このドメインの詳細を編�
 $text['description-domain-edit']['ko-kr'] = "이 도메인의 세부 정보를 편집합니다.";
 
 $text['description-domain-add']['en-us'] = "Enter the domain details below.";
+$text['description-domain-add']['vi-vn'] = "Nhập chi tiết tên miền bên dưới.";
 $text['description-domain-add']['en-gb'] = "Enter the domain details below.";
 $text['description-domain-add']['ar-eg'] = "أدخل تفاصيل المجال أدناه.";
 $text['description-domain-add']['de-at'] = "Geben Sie die Domain Details unten an.";

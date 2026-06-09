@@ -1,6 +1,7 @@
 <?php
 
 $text['title-active_conferences']['en-us'] = "Active Conferences";
+$text['title-active_conferences']['vi-vn'] = 'Hội nghị đang hoạt động';
 $text['title-active_conferences']['en-gb'] = "Active Conferences";
 $text['title-active_conferences']['ar-eg'] = "المؤتمرات النشطة";
 $text['title-active_conferences']['de-at'] = "Aktive Konferenzen";
@@ -28,6 +29,7 @@ $text['title-active_conferences']['ja-jp'] = "アクティブな会議";
 $text['title-active_conferences']['ko-kr'] = "활성 회의";
 
 $text['message-denied']['en-us'] = "access denied";
+$text['message-denied']['vi-vn'] = 'truy cập bị từ chối';
 $text['message-denied']['en-gb'] = "access denied";
 $text['message-denied']['ar-eg'] = "تم الرفض";
 $text['message-denied']['de-at'] = "Zugang verweigert";
@@ -55,6 +57,7 @@ $text['message-denied']['ja-jp'] = "アクセス拒否";
 $text['message-denied']['ko-kr'] = "접근 불가";
 
 $text['message-connection']['en-us'] = "Connection to Event Socket failed.";
+$text['message-connection']['vi-vn'] = 'Kết nối đến Event Socket thất bại.';
 $text['message-connection']['en-gb'] = "Connection to Event Socket failed.";
 $text['message-connection']['ar-eg'] = "فشل الاتصال بمقبس الحدث.";
 $text['message-connection']['de-at'] = "Verbindung zum Event Socket fehlgeschlagen.";
@@ -82,6 +85,7 @@ $text['message-connection']['ja-jp'] = "イベントソケットへの接続に�
 $text['message-connection']['ko-kr'] = "이벤트 소켓에 연결하지 못했습니다.";
 
 $text['message-click_to_unmute']['en-us'] = "Click to Unmute Member";
+$text['message-click_to_unmute']['vi-vn'] = 'Bấm để bật tiếng thành viên';
 $text['message-click_to_unmute']['en-gb'] = "Click to Unmute Member";
 $text['message-click_to_unmute']['ar-eg'] = "انقر لإلغاء كتم صوت العضو";
 $text['message-click_to_unmute']['de-at'] = "Klicken Sie hier um die Stummschaltung zu deaktivieren";
@@ -109,6 +113,7 @@ $text['message-click_to_unmute']['ja-jp'] = "クリックしてメンバーの�
 $text['message-click_to_unmute']['ko-kr'] = "회원을 음소거 해제하려면 클릭하세요.";
 
 $text['message-click_to_mute']['en-us'] = "Click to mute Member";
+$text['message-click_to_mute']['vi-vn'] = 'Bấm để tắt tiếng thành viên';
 $text['message-click_to_mute']['en-gb'] = "Click to mute Member";
 $text['message-click_to_mute']['ar-eg'] = "انقر لكتم صوت العضو";
 $text['message-click_to_mute']['de-at'] = "Klicken Sie hier um den Teilnehmer stumm zu schalten";
@@ -136,6 +141,7 @@ $text['message-click_to_mute']['ja-jp'] = "クリックしてメンバーをミ�
 $text['message-click_to_mute']['ko-kr'] = "회원을 음소거하려면 클릭하세요.";
 
 $text['label-conference_center_room']['en-us'] = "Conference Center Room";
+$text['label-conference_center_room']['vi-vn'] = 'Phòng Conference Center';
 $text['label-conference_center_room']['en-gb'] = "Conference Center Room";
 $text['label-conference_center_room']['ar-eg'] = "غرفة مركز المؤتمرات";
 $text['label-conference_center_room']['de-at'] = "Konferenz Zentrale";
@@ -163,6 +169,7 @@ $text['label-conference_center_room']['ja-jp'] = "カンファレンスセンタ
 $text['label-conference_center_room']['ko-kr'] = "컨퍼런스 센터룸";
 
 $text['label-yes']['en-us'] = "Yes";
+$text['label-yes']['vi-vn'] = 'Có';
 $text['label-yes']['en-gb'] = "Yes";
 $text['label-yes']['ar-eg'] = "نعم";
 $text['label-yes']['de-at'] = "Ja";
@@ -190,6 +197,7 @@ $text['label-yes']['ja-jp'] = "はい";
 $text['label-yes']['ko-kr'] = "예";
 
 $text['label-volume']['en-us'] = "Volume";
+$text['label-volume']['vi-vn'] = 'Âm lượng';
 $text['label-volume']['en-gb'] = "Volume";
 $text['label-volume']['ar-eg'] = "مقدار";
 $text['label-volume']['de-at'] = "Lautstärke";
@@ -217,6 +225,7 @@ $text['label-volume']['ja-jp'] = "音量";
 $text['label-volume']['ko-kr'] = "용량";
 
 $text['label-video']['en-us'] = "Video";
+$text['label-video']['vi-vn'] = 'Video';
 $text['label-video']['en-gb'] = "Video";
 $text['label-video']['ar-eg'] = "فيديو";
 $text['label-video']['de-at'] = "Video";
@@ -244,6 +253,7 @@ $text['label-video']['ja-jp'] = "ビデオ";
 $text['label-video']['ko-kr'] = "동영상";
 
 $text['label-unmute-all']['en-us'] = "Unmute All";
+$text['label-unmute-all']['vi-vn'] = 'Bật tiếng tất cả';
 $text['label-unmute-all']['en-gb'] = "Unmute All";
 $text['label-unmute-all']['ar-eg'] = "إعادة صوت الكل";
 $text['label-unmute-all']['de-at'] = "Stummschaltung deaktivieren, alle";
@@ -271,6 +281,7 @@ $text['label-unmute-all']['ja-jp'] = "すべてミュート解除";
 $text['label-unmute-all']['ko-kr'] = "모두 음소거 해제";
 
 $text['label-unmute']['en-us'] = "Unmute";
+$text['label-unmute']['vi-vn'] = 'Bật tiếng';
 $text['label-unmute']['en-gb'] = "Unmute";
 $text['label-unmute']['ar-eg'] = "سحاب";
 $text['label-unmute']['de-at'] = "Stummschaltung deaktivieren";
@@ -298,6 +309,7 @@ $text['label-unmute']['ja-jp'] = "雲霧て";
 $text['label-unmute']['ko-kr'] = "구름 안개";
 
 $text['label-unlock']['en-us'] = "Unlock";
+$text['label-unlock']['vi-vn'] = 'Mở khóa';
 $text['label-unlock']['en-gb'] = "Unlock";
 $text['label-unlock']['ar-eg'] = "الغاء القفل";
 $text['label-unlock']['de-at'] = "Entsperren";
@@ -325,6 +337,7 @@ $text['label-unlock']['ja-jp'] = "ロック解除";
 $text['label-unlock']['ko-kr'] = "터놓다";
 
 $text['label-undeaf']['en-us'] = "Undeaf";
+$text['label-undeaf']['vi-vn'] = 'Bật nghe lại';
 $text['label-undeaf']['en-gb'] = "Undeaf";
 $text['label-undeaf']['ar-eg'] = "غير مصمّم";
 $text['label-undeaf']['de-at'] = "Hörbarkeit";
@@ -352,6 +365,7 @@ $text['label-undeaf']['ja-jp'] = "耳が聞こえない";
 $text['label-undeaf']['ko-kr'] = "귀머거리";
 
 $text['label-tools']['en-us'] = "Tools";
+$text['label-tools']['vi-vn'] = 'Công cụ';
 $text['label-tools']['en-gb'] = "Tools";
 $text['label-tools']['ar-eg'] = "أدوات";
 $text['label-tools']['de-at'] = "Werkzeuge";
@@ -379,6 +393,7 @@ $text['label-tools']['ja-jp'] = "ツール";
 $text['label-tools']['ko-kr'] = "도구";
 
 $text['label-tool']['en-us'] = "Tools";
+$text['label-tool']['vi-vn'] = 'Công cụ';
 $text['label-tool']['en-gb'] = "Tools";
 $text['label-tool']['ar-eg'] = "أدوات";
 $text['label-tool']['de-at'] = "Werkzeug";
@@ -406,6 +421,7 @@ $text['label-tool']['ja-jp'] = "ツール";
 $text['label-tool']['ko-kr'] = "도구";
 
 $text['label-talking']['en-us'] = "Talking";
+$text['label-talking']['vi-vn'] = 'Đang nói';
 $text['label-talking']['en-gb'] = "Talking";
 $text['label-talking']['ar-eg'] = "تتحدث";
 $text['label-talking']['de-at'] = "spricht";
@@ -433,6 +449,7 @@ $text['label-talking']['ja-jp'] = "おしゃべり";
 $text['label-talking']['ko-kr'] = "말하는";
 
 $text['label-speak']['en-us'] = "Speak";
+$text['label-speak']['vi-vn'] = 'Nói';
 $text['label-speak']['en-gb'] = "Speak";
 $text['label-speak']['ar-eg'] = "يتكلم";
 $text['label-speak']['de-at'] = "sprechen";
@@ -460,6 +477,7 @@ $text['label-speak']['ja-jp'] = "話す";
 $text['label-speak']['ko-kr'] = "말하다";
 
 $text['label-recording']['en-us'] = "Recording";
+$text['label-recording']['vi-vn'] = 'Bản ghi âm';
 $text['label-recording']['en-gb'] = "Recording";
 $text['label-recording']['ar-eg'] = "تسجيل";
 $text['label-recording']['de-at'] = "Aufnahme";
@@ -487,6 +505,7 @@ $text['label-recording']['ja-jp'] = "録音";
 $text['label-recording']['ko-kr'] = "녹음";
 
 $text['label-quiet']['en-us'] = "Quiet";
+$text['label-quiet']['vi-vn'] = 'Yên lặng';
 $text['label-quiet']['en-gb'] = "Quiet";
 $text['label-quiet']['ar-eg'] = "هادئ";
 $text['label-quiet']['de-at'] = "Leise";
@@ -514,6 +533,7 @@ $text['label-quiet']['ja-jp'] = "静かな";
 $text['label-quiet']['ko-kr'] = "조용한";
 
 $text['label-participant-pin']['en-us'] = "Participant PIN";
+$text['label-participant-pin']['vi-vn'] = 'PIN người tham gia';
 $text['label-participant-pin']['en-gb'] = "Participant PIN";
 $text['label-participant-pin']['ar-eg'] = "رقم التعريف الشخصي للمشترك";
 $text['label-participant-pin']['de-at'] = "Teilnehmer PIN";
@@ -541,6 +561,7 @@ $text['label-participant-pin']['ja-jp'] = "参加者暗証番号";
 $text['label-participant-pin']['ko-kr'] = "참가자 PIN";
 
 $text['label-participant']['en-us'] = "Participant";
+$text['label-participant']['vi-vn'] = 'Người tham gia';
 $text['label-participant']['en-gb'] = "Participant";
 $text['label-participant']['ar-eg'] = "مشارك";
 $text['label-participant']['de-at'] = "Teilnehmer";
@@ -568,6 +589,7 @@ $text['label-participant']['ja-jp'] = "参加者";
 $text['label-participant']['ko-kr'] = "참가자";
 
 $text['label-not-recording']['en-us'] = "Not Recording";
+$text['label-not-recording']['vi-vn'] = 'Không ghi âm';
 $text['label-not-recording']['en-gb'] = "Not Recording";
 $text['label-not-recording']['ar-eg'] = "لا تسجل";
 $text['label-not-recording']['de-at'] = "Nicht Aufnehmen";
@@ -595,6 +617,7 @@ $text['label-not-recording']['ja-jp'] = "記録しない";
 $text['label-not-recording']['ko-kr'] = "녹음하지 않음";
 
 $text['label-no']['en-us'] = "No";
+$text['label-no']['vi-vn'] = 'Không';
 $text['label-no']['en-gb'] = "No";
 $text['label-no']['ar-eg'] = "لا";
 $text['label-no']['de-at'] = "Nein";
@@ -622,6 +645,7 @@ $text['label-no']['ja-jp'] = "いいえ";
 $text['label-no']['ko-kr'] = "아니요";
 
 $text['label-mute-all-alt']['en-us'] = "Mute all Participants.";
+$text['label-mute-all-alt']['vi-vn'] = 'Tắt tiếng tất cả người tham gia.';
 $text['label-mute-all-alt']['en-gb'] = "Mute all Participants.";
 $text['label-mute-all-alt']['ar-eg'] = "كتم صوت جميع المشاركين.";
 $text['label-mute-all-alt']['de-at'] = "Alle Teilnehmer stumm schalten.";
@@ -649,6 +673,7 @@ $text['label-mute-all-alt']['ja-jp'] = "すべての参加者をミュートし�
 $text['label-mute-all-alt']['ko-kr'] = "모든 참가자를 음소거합니다.";
 
 $text['label-mute-all']['en-us'] = "Mute All";
+$text['label-mute-all']['vi-vn'] = 'Tắt tiếng tất cả';
 $text['label-mute-all']['en-gb'] = "Mute All";
 $text['label-mute-all']['ar-eg'] = "كتم الكل";
 $text['label-mute-all']['de-at'] = "Alle stummschalten";
@@ -676,6 +701,7 @@ $text['label-mute-all']['ja-jp'] = "すべてミュート";
 $text['label-mute-all']['ko-kr'] = "모두 음소거";
 
 $text['label-mute']['en-us'] = "Mute";
+$text['label-mute']['vi-vn'] = 'Tắt tiếng';
 $text['label-mute']['en-gb'] = "Mute";
 $text['label-mute']['ar-eg'] = "صامت";
 $text['label-mute']['de-at'] = "Stummschalten";
@@ -703,6 +729,7 @@ $text['label-mute']['ja-jp'] = "無音";
 $text['label-mute']['ko-kr'] = "무음";
 
 $text['label-hand_raised']['en-us'] = "Hand Raised";
+$text['label-hand_raised']['vi-vn'] = 'Giơ tay';
 $text['label-hand_raised']['en-gb'] = "Hand Raised";
 $text['label-hand_raised']['ar-eg'] = "اليد مرفوعة";
 $text['label-hand_raised']['de-at'] = "Hand erhoben";
@@ -730,6 +757,7 @@ $text['label-hand_raised']['ja-jp'] = "挙手";
 $text['label-hand_raised']['ko-kr'] = "제기 손";
 
 $text['label-moderator']['en-us'] = "Moderator";
+$text['label-moderator']['vi-vn'] = 'Moderator';
 $text['label-moderator']['en-gb'] = "Moderator";
 $text['label-moderator']['ar-eg'] = "الوسيط";
 $text['label-moderator']['de-at'] = "Moderator";
@@ -757,6 +785,7 @@ $text['label-moderator']['ja-jp'] = "モデレータ";
 $text['label-moderator']['ko-kr'] = "중재자";
 
 $text['label-message']['en-us'] = "Message";
+$text['label-message']['vi-vn'] = 'Thông báo';
 $text['label-message']['en-gb'] = "Message";
 $text['label-message']['ar-eg'] = "رسالة";
 $text['label-message']['de-at'] = "Nachricht";
@@ -784,6 +813,7 @@ $text['label-message']['ja-jp'] = "メッセージ";
 $text['label-message']['ko-kr'] = "메시지";
 
 $text['label-members']['en-us'] = "Members";
+$text['label-members']['vi-vn'] = 'Thành viên';
 $text['label-members']['en-gb'] = "Members";
 $text['label-members']['ar-eg'] = "أعضاء";
 $text['label-members']['de-at'] = "Teilnehmer";
@@ -811,6 +841,7 @@ $text['label-members']['ja-jp'] = "メンバー";
 $text['label-members']['ko-kr'] = "회원";
 
 $text['label-member-count']['en-us'] = "Member Count";
+$text['label-member-count']['vi-vn'] = 'Số thành viên';
 $text['label-member-count']['en-gb'] = "Member Count";
 $text['label-member-count']['ar-eg'] = "عدد الأعضاء";
 $text['label-member-count']['de-at'] = "Anzahl Teilnehmer";
@@ -838,6 +869,7 @@ $text['label-member-count']['ja-jp'] = "メンバー数";
 $text['label-member-count']['ko-kr'] = "회원 수";
 
 $text['label-lock']['en-us'] = "Lock";
+$text['label-lock']['vi-vn'] = 'Khóa';
 $text['label-lock']['en-gb'] = "Lock";
 $text['label-lock']['ar-eg'] = "قفل";
 $text['label-lock']['de-at'] = "Sperren";
@@ -865,6 +897,7 @@ $text['label-lock']['ja-jp'] = "ロック";
 $text['label-lock']['ko-kr'] = "잠그다";
 
 $text['label-kick']['en-us'] = "Kick";
+$text['label-kick']['vi-vn'] = 'Loại khỏi phòng';
 $text['label-kick']['en-gb'] = "Kick";
 $text['label-kick']['ar-eg'] = "ركلة";
 $text['label-kick']['de-at'] = "Rauswerfen";
@@ -892,6 +925,7 @@ $text['label-kick']['ja-jp'] = "キック";
 $text['label-kick']['ko-kr'] = "발 차기";
 
 $text['label-joined']['en-us'] = "Joined";
+$text['label-joined']['vi-vn'] = 'Đã tham gia';
 $text['label-joined']['en-gb'] = "Joined";
 $text['label-joined']['ar-eg'] = "انضم";
 $text['label-joined']['de-at'] = "Verbunden";
@@ -919,6 +953,7 @@ $text['label-joined']['ja-jp'] = "参加しました";
 $text['label-joined']['ko-kr'] = "가입";
 
 $text['label-interactive']['en-us'] = "Interactive Conference";
+$text['label-interactive']['vi-vn'] = 'Hội nghị tương tác';
 $text['label-interactive']['en-gb'] = "Interactive Conference";
 $text['label-interactive']['ar-eg'] = "مؤتمر تفاعلي";
 $text['label-interactive']['de-at'] = "Inaktive Konferenz";
@@ -946,6 +981,7 @@ $text['label-interactive']['ja-jp'] = "インタラクティブな会議";
 $text['label-interactive']['ko-kr'] = "인터랙티브 컨퍼런스";
 
 $text['label-id']['en-us'] = "ID";
+$text['label-id']['vi-vn'] = 'ID';
 $text['label-id']['en-gb'] = "ID";
 $text['label-id']['ar-eg'] = "ID";
 $text['label-id']['de-at'] = "ID";
@@ -973,6 +1009,7 @@ $text['label-id']['ja-jp'] = "ID";
 $text['label-id']['ko-kr'] = "ID";
 
 $text['label-hear']['en-us'] = "Hear";
+$text['label-hear']['vi-vn'] = 'Nghe';
 $text['label-hear']['en-gb'] = "Hear";
 $text['label-hear']['ar-eg'] = "يسمع";
 $text['label-hear']['de-at'] = "hören";
@@ -1000,6 +1037,7 @@ $text['label-hear']['ja-jp'] = "聞く";
 $text['label-hear']['ko-kr'] = "듣다";
 
 $text['label-gain']['en-us'] = "Gain";
+$text['label-gain']['vi-vn'] = 'Gain';
 $text['label-gain']['en-gb'] = "Gain";
 $text['label-gain']['ar-eg'] = "يكسب";
 $text['label-gain']['de-at'] = "Verstärkung";
@@ -1027,6 +1065,7 @@ $text['label-gain']['ja-jp'] = "得";
 $text['label-gain']['ko-kr'] = "얻다";
 
 $text['label-floor']['en-us'] = "Has Floor";
+$text['label-floor']['vi-vn'] = 'Đang giữ quyền nói';
 $text['label-floor']['en-gb'] = "Has Floor";
 $text['label-floor']['ar-eg'] = "لها طابق";
 $text['label-floor']['de-at'] = "Hat das Wort";
@@ -1054,6 +1093,7 @@ $text['label-floor']['ja-jp'] = "床あり";
 $text['label-floor']['ko-kr'] = "바닥 있음";
 
 $text['label-energy']['en-us'] = "Energy";
+$text['label-energy']['vi-vn'] = 'Năng lượng';
 $text['label-energy']['en-gb'] = "Energy";
 $text['label-energy']['ar-eg'] = "طاقة";
 $text['label-energy']['de-at'] = "Energie";
@@ -1081,6 +1121,7 @@ $text['label-energy']['ja-jp'] = "エネルギー";
 $text['label-energy']['ko-kr'] = "에너지";
 
 $text['label-end-conference']['en-us'] = "End Conference";
+$text['label-end-conference']['vi-vn'] = 'Kết thúc hội nghị';
 $text['label-end-conference']['en-gb'] = "End Conference";
 $text['label-end-conference']['ar-eg'] = "نهاية المؤتمر";
 $text['label-end-conference']['de-at'] = "Konferenz beenden";
@@ -1108,6 +1149,7 @@ $text['label-end-conference']['ja-jp'] = "会議終了";
 $text['label-end-conference']['ko-kr'] = "컨퍼런스 종료";
 
 $text['label-deaf']['en-us'] = "Deaf";
+$text['label-deaf']['vi-vn'] = 'Tắt nghe';
 $text['label-deaf']['en-gb'] = "Deaf";
 $text['label-deaf']['ar-eg'] = "أصم";
 $text['label-deaf']['de-at'] = "Taub";
@@ -1135,6 +1177,7 @@ $text['label-deaf']['ja-jp'] = "聴覚障がい";
 $text['label-deaf']['ko-kr'] = "청각 장애인";
 
 $text['label-cid-num']['en-us'] = "CID Number";
+$text['label-cid-num']['vi-vn'] = 'Số CID';
 $text['label-cid-num']['en-gb'] = "CID Number";
 $text['label-cid-num']['ar-eg'] = "رقم CID";
 $text['label-cid-num']['de-at'] = "Anrufer Nummer";
@@ -1162,6 +1205,7 @@ $text['label-cid-num']['ja-jp'] = "CID 番号";
 $text['label-cid-num']['ko-kr'] = "CID 번호";
 
 $text['label-cid-name']['en-us'] = "CID Name";
+$text['label-cid-name']['vi-vn'] = 'Tên CID';
 $text['label-cid-name']['en-gb'] = "CID Name";
 $text['label-cid-name']['ar-eg'] = "اسم CID";
 $text['label-cid-name']['de-at'] = "Anrufer Name";
@@ -1189,6 +1233,7 @@ $text['label-cid-name']['ja-jp'] = "CID名";
 $text['label-cid-name']['ko-kr'] = "CID 이름";
 
 $text['label-capabilities']['en-us'] = "Capabilities";
+$text['label-capabilities']['vi-vn'] = 'Khả năng';
 $text['label-capabilities']['en-gb'] = "Capabilities";
 $text['label-capabilities']['ar-eg'] = "قدرات";
 $text['label-capabilities']['de-at'] = "Möglichkeiten";
@@ -1216,6 +1261,7 @@ $text['label-capabilities']['ja-jp'] = "機能";
 $text['label-capabilities']['ko-kr'] = "기능";
 
 $text['description-interactive']['en-us'] = "Use this to monitor and interact with the members of the conference.";
+$text['description-interactive']['vi-vn'] = 'Dùng phần này để giám sát và tương tác với các thành viên trong hội nghị.';
 $text['description-interactive']['en-gb'] = "Use this to monitor and interact with the members of the conference.";
 $text['description-interactive']['ar-eg'] = "استخدم هذا لمراقبة أعضاء المؤتمر والتفاعل معهم.";
 $text['description-interactive']['de-at'] = "Teilnehmer der Konferenz überwachen und aktiv eingreifen.";
@@ -1243,6 +1289,7 @@ $text['description-interactive']['ja-jp'] = "これを使用して、会議の�
 $text['description-interactive']['ko-kr'] = "이를 사용하여 회의 구성원을 모니터링하고 상호 작용합니다.";
 
 $text['description-active']['en-us'] = "List all the conferences that are currently active with one or more members.";
+$text['description-active']['vi-vn'] = 'Liệt kê tất cả hội nghị hiện đang hoạt động với một hoặc nhiều thành viên.';
 $text['description-active']['en-gb'] = "List all the conferences that are currently active with one or more members.";
 $text['description-active']['ar-eg'] = "قم بإدراج كافة المؤتمرات النشطة حاليًا مع عضو واحد أو أكثر.";
 $text['description-active']['de-at'] = "Liste alle aktiven Konferenzen mit einem oder mehreren Teilnehmern.";
@@ -1270,6 +1317,7 @@ $text['description-active']['ja-jp'] = "1 人以上のメンバーと現在ア�
 $text['description-active']['ko-kr'] = "현재 한 명 이상의 구성원과 함께 활성화된 모든 회의를 나열합니다.";
 
 $text['button-stop-rec']['en-us'] = "Stop Record";
+$text['button-stop-rec']['vi-vn'] = 'Dừng ghi âm';
 $text['button-stop-rec']['en-gb'] = "Stop Record";
 $text['button-stop-rec']['ar-eg'] = "إيقاف التسجيل";
 $text['button-stop-rec']['de-at'] = "Aufnahme beenden";
@@ -1297,6 +1345,7 @@ $text['button-stop-rec']['ja-jp'] = "記録の停止";
 $text['button-stop-rec']['ko-kr'] = "기록 중지";
 
 $text['button-start-rec']['en-us'] = "Start Record";
+$text['button-start-rec']['vi-vn'] = 'Bắt đầu ghi âm';
 $text['button-start-rec']['en-gb'] = "Start Record";
 $text['button-start-rec']['ar-eg'] = "بدء التسجيل";
 $text['button-start-rec']['de-at'] = "Aufnahme starten";
@@ -1324,6 +1373,7 @@ $text['button-start-rec']['ja-jp'] = "記録開始";
 $text['button-start-rec']['ko-kr'] = "기록 시작";
 
 $text['status-connected']['en-us'] = "Connected";
+$text['status-connected']['vi-vn'] = 'Đã kết nối';
 $text['status-connected']['en-gb'] = "Connected";
 $text['status-connected']['ar-eg'] = "متصل";
 $text['status-connected']['de-at'] = "Verbunden";
@@ -1351,6 +1401,7 @@ $text['status-connected']['ja-jp'] = "接続済み";
 $text['status-connected']['ko-kr'] = "연결됨";
 
 $text['status-warning']['en-us'] = "Checking Connection";
+$text['status-warning']['vi-vn'] = 'Đang kiểm tra kết nối';
 $text['status-warning']['en-gb'] = "Checking Connection";
 $text['status-warning']['ar-eg'] = "فحص الاتصال";
 $text['status-warning']['de-at'] = "Verbindung prüfen";
@@ -1378,6 +1429,7 @@ $text['status-warning']['ja-jp'] = "接続を確認中";
 $text['status-warning']['ko-kr'] = "연결 확인 중";
 
 $text['status-disconnected']['en-us'] = "Disconnected";
+$text['status-disconnected']['vi-vn'] = 'Đã ngắt kết nối';
 $text['status-disconnected']['en-gb'] = "Disconnected";
 $text['status-disconnected']['ar-eg'] = "غير متصل";
 $text['status-disconnected']['de-at'] = "Getrennt";
@@ -1405,6 +1457,7 @@ $text['status-disconnected']['ja-jp'] = "切断";
 $text['status-disconnected']['ko-kr'] = "연결 끊김";
 
 $text['status-connecting']['en-us'] = "Connecting";
+$text['status-connecting']['vi-vn'] = 'Đang kết nối';
 $text['status-connecting']['en-gb'] = "Connecting";
 $text['status-connecting']['ar-eg'] = "جارٍ الاتصال";
 $text['status-connecting']['de-at'] = "Verbinden";

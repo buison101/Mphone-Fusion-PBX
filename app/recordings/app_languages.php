@@ -1,6 +1,7 @@
 <?php
 
 $text['title-edit']['en-us'] = "Recording";
+$text['title-edit']['vi-vn'] = "Bản ghi âm";
 $text['title-edit']['en-gb'] = "Recording";
 $text['title-edit']['ar-eg'] = "التسجيل";
 $text['title-edit']['de-at'] = "Aufnahmen";
@@ -28,6 +29,7 @@ $text['title-edit']['ja-jp'] = "録音";
 $text['title-edit']['ko-kr'] = "녹음";
 
 $text['title-add']['en-us'] = "Add Recording";
+$text['title-add']['vi-vn'] = "Thêm bản ghi âm";
 $text['title-add']['en-gb'] = "Add Recording";
 $text['title-add']['ar-eg'] = "يضاف التسجيل";
 $text['title-add']['de-at'] = "Aufnahme hinzufügen";
@@ -55,6 +57,7 @@ $text['title-add']['ja-jp'] = "録音の追加";
 $text['title-add']['ko-kr'] = "녹음 추가";
 
 $text['title-recordings']['en-us'] = "Recordings";
+$text['title-recordings']['vi-vn'] = "Bản ghi âm";
 $text['title-recordings']['en-gb'] = "Recordings";
 $text['title-recordings']['ar-eg'] = "السجلات";
 $text['title-recordings']['de-at'] = "Aufnahmen";
@@ -82,6 +85,7 @@ $text['title-recordings']['ja-jp'] = "録音";
 $text['title-recordings']['ko-kr'] = "녹음";
 
 $text['message-uploaded']['en-us'] = "File Uploaded";
+$text['message-uploaded']['vi-vn'] = "File đã tải lên";
 $text['message-uploaded']['en-gb'] = "File Uploaded";
 $text['message-uploaded']['ar-eg'] = "ملف محمول";
 $text['message-uploaded']['de-at'] = "Datei hochgeladen";
@@ -109,6 +113,7 @@ $text['message-uploaded']['ja-jp'] = "ファイルがアップロードされま
 $text['message-uploaded']['ko-kr'] = "업로드된 파일";
 
 $text['label-uploaded']['en-us'] = "Uploaded";
+$text['label-uploaded']['vi-vn'] = "Đã tải lên";
 $text['label-uploaded']['en-gb'] = "Uploaded";
 $text['label-uploaded']['ar-eg'] = "تحميل";
 $text['label-uploaded']['de-at'] = "Hochgeladen";
@@ -136,6 +141,7 @@ $text['label-uploaded']['ja-jp'] = "アップロードされました";
 $text['label-uploaded']['ko-kr'] = "업로드됨";
 
 $text['label-upload']['en-us'] = "File Path";
+$text['label-upload']['vi-vn'] = "Đường dẫn file";
 $text['label-upload']['en-gb'] = "File Path";
 $text['label-upload']['ar-eg'] = "طريق الملف";
 $text['label-upload']['de-at'] = "Dateipfad";
@@ -163,6 +169,7 @@ $text['label-upload']['ja-jp'] = "ファイルパス";
 $text['label-upload']['ko-kr'] = "파일 경로";
 
 $text['label-tools']['en-us'] = "Tools";
+$text['label-tools']['vi-vn'] = "Công cụ";
 $text['label-tools']['en-gb'] = "Tools";
 $text['label-tools']['ar-eg'] = "الأدوات";
 $text['label-tools']['de-at'] = "Funktionen";
@@ -190,6 +197,7 @@ $text['label-tools']['ja-jp'] = "ツール";
 $text['label-tools']['ko-kr'] = "도구";
 
 $text['label-recording_name']['en-us'] = "Recording Name";
+$text['label-recording_name']['vi-vn'] = "Tên bản ghi âm";
 $text['label-recording_name']['en-gb'] = "Recording Name";
 $text['label-recording_name']['ar-eg'] = "الاسم المسجل";
 $text['label-recording_name']['de-at'] = "Name der Aufnahme";
@@ -217,6 +225,7 @@ $text['label-recording_name']['ja-jp'] = "録音名";
 $text['label-recording_name']['ko-kr'] = "녹음 이름";
 
 $text['label-play']['en-us'] = "Play";
+$text['label-play']['vi-vn'] = "Phát";
 $text['label-play']['en-gb'] = "Play";
 $text['label-play']['ar-eg'] = "اللعب";
 $text['label-play']['de-at'] = "Abspielen";
@@ -244,6 +253,7 @@ $text['label-play']['ja-jp'] = "遊ぶ";
 $text['label-play']['ko-kr'] = "놀다";
 
 $text['label-pause']['en-us'] = "Pause";
+$text['label-pause']['vi-vn'] = "Tạm dừng";
 $text['label-pause']['en-gb'] = "Pause";
 $text['label-pause']['ar-eg'] = "وقف";
 $text['label-pause']['de-at'] = "Pause";
@@ -271,6 +281,7 @@ $text['label-pause']['ja-jp'] = "一時停止";
 $text['label-pause']['ko-kr'] = "정지시키다";
 
 $text['label-preview']['en-us'] = "Preview";
+$text['label-preview']['vi-vn'] = "Xem trước";
 $text['label-preview']['en-gb'] = "Preview";
 $text['label-preview']['ar-eg'] = "معاينة";
 $text['label-preview']['de-at'] = "Vorschau";
@@ -298,6 +309,7 @@ $text['label-preview']['ja-jp'] = "プレビュー";
 $text['label-preview']['ko-kr'] = "시사";
 
 $text['label-file_name']['en-us'] = "File Name";
+$text['label-file_name']['vi-vn'] = "Tên file";
 $text['label-file_name']['en-gb'] = "File Name";
 $text['label-file_name']['ar-eg'] = "اسم الملف";
 $text['label-file_name']['de-at'] = "Dateiname";
@@ -325,6 +337,7 @@ $text['label-file_name']['ja-jp'] = "ファイル名";
 $text['label-file_name']['ko-kr'] = "파일 이름";
 
 $text['description-file_name']['en-us'] = "Enter the file name.";
+$text['description-file_name']['vi-vn'] = "Nhập tên file.";
 $text['description-file_name']['en-gb'] = "Enter the file name.";
 $text['description-file_name']['ar-eg'] = "أدخل اسم الملف.";
 $text['description-file_name']['de-at'] = "Geben Sie den Dateinamen ein.";
@@ -352,6 +365,7 @@ $text['description-file_name']['ja-jp'] = "ファイル名を入力します。"
 $text['description-file_name']['ko-kr'] = "파일 이름을 입력하세요.";
 
 $text['label-file_size']['en-us'] = "File Size";
+$text['label-file_size']['vi-vn'] = "Kích thước file";
 $text['label-file_size']['en-gb'] = "File Size";
 $text['label-file_size']['ar-eg'] = "حجم الملفات";
 $text['label-file_size']['de-at'] = "Dateigröße";
@@ -379,6 +393,7 @@ $text['label-file_size']['ja-jp'] = "ファイルサイズ";
 $text['label-file_size']['ko-kr'] = "파일 크기";
 
 $text['label-size']['en-us'] = "Size";
+$text['label-size']['vi-vn'] = "Kích thước";
 $text['label-size']['en-gb'] = "Size";
 $text['label-size']['ar-eg'] = "الحجم";
 $text['label-size']['de-at'] = "Dateigröße";
@@ -406,6 +421,7 @@ $text['label-size']['ja-jp'] = "サイズ";
 $text['label-size']['ko-kr'] = "크기";
 
 $text['label-file']['en-us'] = "Filename (Download)";
+$text['label-file']['vi-vn'] = "Tên file (tải xuống)";
 $text['label-file']['en-gb'] = "Filename (Download)";
 $text['label-file']['ar-eg'] = "اسم مستعار (حمولة)";
 $text['label-file']['de-at'] = "Dateiname (Download)";
@@ -433,6 +449,7 @@ $text['label-file']['ja-jp'] = "ファイル名（ダウンロード）";
 $text['label-file']['ko-kr'] = "파일명(다운로드)";
 
 $text['label-edit_recording']['en-us'] = "Please provide: Recording Name (play)";
+$text['label-edit_recording']['vi-vn'] = "Vui lòng cung cấp: Tên bản ghi âm (phát)";
 $text['label-edit_recording']['en-gb'] = "Please provide: Recording Name (play)";
 $text['label-edit_recording']['ar-eg'] = "يرجى تقديم ما يلي: الاسم المسجل (اللعب)";
 $text['label-edit_recording']['de-at'] = "Bitte geben Sie folgendes an: Name der Aufnahme (Abspielen)";
@@ -460,6 +477,7 @@ $text['label-edit_recording']['ja-jp'] = "入力してください: 録音名 (�
 $text['label-edit_recording']['ko-kr'] = "입력하세요: 녹음 이름(재생)";
 
 $text['label-edit_file']['en-us'] = "Please provide: Filename (download)";
+$text['label-edit_file']['vi-vn'] = "Vui lòng cung cấp: Tên file (tải xuống)";
 $text['label-edit_file']['en-gb'] = "Please provide: Filename (download)";
 $text['label-edit_file']['ar-eg'] = "يُرجى تقديم: اسم مستعار (الحمولة المخفضة)";
 $text['label-edit_file']['de-at'] = "Bitte geben Sie folgendes an: Dateiname (Herunterladen)";
@@ -487,6 +505,7 @@ $text['label-edit_file']['ja-jp'] = "ファイル名 (ダウンロード) を入
 $text['label-edit_file']['ko-kr'] = "제공하십시오: 파일 이름(다운로드)";
 
 $text['label-download']['en-us'] = "Download";
+$text['label-download']['vi-vn'] = "Tải xuống";
 $text['label-download']['en-gb'] = "Download";
 $text['label-download']['ar-eg'] = "تحميل";
 $text['label-download']['de-at'] = "Herunterladen";
@@ -514,6 +533,7 @@ $text['label-download']['ja-jp'] = "ダウンロード";
 $text['label-download']['ko-kr'] = "다운로드";
 
 $text['header']['en-us'] = "Upload Recording";
+$text['header']['vi-vn'] = "Tải bản ghi âm lên";
 $text['header']['en-gb'] = "Upload Recording";
 $text['header']['ar-eg'] = "تحميل التسجيل";
 $text['header']['de-at'] = "Aufnahme hochladen";
@@ -541,6 +561,7 @@ $text['header']['ja-jp'] = "録音をアップロードする";
 $text['header']['ko-kr'] = "녹음 업로드";
 
 $text['label-model']['en-us'] = "Model";
+$text['label-model']['vi-vn'] = "Mô hình";
 $text['label-model']['en-gb'] = "Model";
 $text['label-model']['ar-eg'] = "نموذج";
 $text['label-model']['de-at'] = "Modell";
@@ -568,6 +589,7 @@ $text['label-model']['ja-jp'] = "モデル";
 $text['label-model']['ko-kr'] = "모델";
 
 $text['description-model']['en-us'] = "Select the model that is used to make the recording.";
+$text['description-model']['vi-vn'] = "Chọn mô hình dùng để tạo bản ghi âm.";
 $text['description-model']['en-gb'] = "Select the model that is used to make the recording.";
 $text['description-model']['ar-eg'] = "حدد النموذج المستخدم لإجراء التسجيل.";
 $text['description-model']['de-at'] = "Wählen Sie das Modell aus, das für die Aufnahme verwendet wird.";
@@ -595,6 +617,7 @@ $text['description-model']['ja-jp'] = "録音に使用したモデルを選択�
 $text['description-model']['ko-kr'] = "녹음에 사용되는 모델을 선택합니다.";
 
 $text['label-voice']['en-us'] = "Voice";
+$text['label-voice']['vi-vn'] = "Thoại";
 $text['label-voice']['en-gb'] = "Voice";
 $text['label-voice']['ar-eg'] = "صوت";
 $text['label-voice']['de-at'] = "Stimme";
@@ -622,6 +645,7 @@ $text['label-voice']['ja-jp'] = "声";
 $text['label-voice']['ko-kr'] = "목소리";
 
 $text['description-voice']['en-us'] = "Select the voice that is used to make the recording.";
+$text['description-voice']['vi-vn'] = "Chọn giọng dùng để tạo bản ghi âm.";
 $text['description-voice']['en-gb'] = "Select the voice that is used to make the recording.";
 $text['description-voice']['ar-eg'] = "حدد الصوت المستخدم في التسجيل.";
 $text['description-voice']['de-at'] = "Wählen Sie die Stimme aus, die für die Aufnahme verwendet wird.";
@@ -649,6 +673,7 @@ $text['description-voice']['ja-jp'] = "録音に使用する音声を選択し�
 $text['description-voice']['ko-kr'] = "녹음에 사용되는 음성을 선택합니다.";
 
 $text['label-message']['en-us'] = "Message";
+$text['label-message']['vi-vn'] = "Thông báo";
 $text['label-message']['en-gb'] = "Message";
 $text['label-message']['ar-eg'] = "رسالة";
 $text['label-message']['de-at'] = "Nachricht";
@@ -676,6 +701,7 @@ $text['label-message']['ja-jp'] = "メッセージ";
 $text['label-message']['ko-kr'] = "메시지";
 
 $text['description-message']['en-us'] = "The recording message.";
+$text['description-message']['vi-vn'] = "Nội dung ghi âm.";
 $text['description-message']['en-gb'] = "The recording message.";
 $text['description-message']['ar-eg'] = "رسالة التسجيل.";
 $text['description-message']['de-at'] = "Die Aufnahmenachricht.";
@@ -703,6 +729,7 @@ $text['description-message']['ja-jp'] = "録音メッセージ。";
 $text['description-message']['ko-kr'] = "녹음 메시지입니다.";
 
 $text['label-create_recording']['en-us'] = "Update";
+$text['label-create_recording']['vi-vn'] = "Cập nhật";
 $text['label-create_recording']['en-gb'] = "Update";
 $text['label-create_recording']['ar-eg'] = "تحديث";
 $text['label-create_recording']['de-at'] = "Aktualisieren";
@@ -730,6 +757,7 @@ $text['label-create_recording']['ja-jp'] = "アップデート";
 $text['label-create_recording']['ko-kr'] = "업데이트";
 
 $text['description-create_recording']['en-us'] = "When enabled a recording will be created to replace the previous one.";
+$text['description-create_recording']['vi-vn'] = "Khi bật, một bản ghi âm sẽ được tạo để thay thế bản trước đó.";
 $text['description-create_recording']['en-gb'] = "When enabled a recording will be created to replace the previous one.";
 $text['description-create_recording']['ar-eg'] = "عند تمكين هذا الخيار، سيتم إنشاء تسجيل ليحل محل التسجيل السابق.";
 $text['description-create_recording']['de-at'] = "Wenn aktiviert, wird eine Aufnahme erstellt, die die vorherige ersetzt.";
@@ -757,6 +785,7 @@ $text['description-create_recording']['ja-jp'] = "有効にすると、以前の
 $text['description-create_recording']['ko-kr'] = "이 기능을 활성화하면, 이전 녹음을 대체하는 녹음이 생성됩니다.";
 
 $text['description-recording']['en-us'] = "A name for the recording.";
+$text['description-recording']['vi-vn'] = "Tên cho bản ghi âm.";
 $text['description-recording']['en-gb'] = "A name for the recording.";
 $text['description-recording']['ar-eg'] = "اسم للتسجيل (لم يتم تحليله).";
 $text['description-recording']['de-at'] = "Ein Name für die Aufnahme.";
@@ -784,6 +813,7 @@ $text['description-recording']['ja-jp'] = "録音の名前。";
 $text['description-recording']['ko-kr'] = "녹음의 이름.";
 
 $text['description-file']['en-us'] = "Name of the file. example.wav";
+$text['description-file']['vi-vn'] = "Tên file. ví dụ: example.wav";
 $text['description-file']['en-gb'] = "Name of the file. example.wav";
 $text['description-file']['ar-eg'] = "اسم الملف على سبيل المثال";
 $text['description-file']['de-at'] = "Dateiname (z.B.: example.wav)";
@@ -811,6 +841,7 @@ $text['description-file']['ja-jp'] = "ファイルの名前。 たとえば .wav
 $text['description-file']['ko-kr'] = "파일의 이름입니다. example.wav";
 
 $text['description']['en-us'] = "Dial *732 to create a recording, or (for best results) upload a 16bit 8khz/16khz mono WAV file.";
+$text['description']['vi-vn'] = "Quay *732 để tạo bản ghi âm, hoặc để có kết quả tốt nhất, tải lên file WAV mono 16bit 8khz/16khz.";
 $text['description']['en-gb'] = "Dial *732 to create a recording, or (for best results) upload a 16bit 8khz/16khz mono WAV file.";
 $text['description']['ar-eg'] = "الهاتف *732 لخلق تسجيل، أو (لأفضل النتائج) تحميل 16بتة 8khz/16khz Un wav ملف.";
 $text['description']['de-at'] = "Wählen Sie *732 um eine Aufnahme direkt vom Telefon zu starten oder laden Sie eine 16bit 8/16kHz mono WAV-Datei hoch.";
@@ -838,6 +869,7 @@ $text['description']['ja-jp'] = "*732 にダイヤルして録音を作成する
 $text['description']['ko-kr'] = "*732를 눌러 녹음을 만들거나 (최상의 결과를 위해) 16비트 8khz/16khz 모노 WAV 파일을 업로드하십시오.";
 
 $text['description-with_password']['en-us'] = "Dial *732 and enter the password ||RECORDING_PASSWORD||, followed by a number for the recording to create. Or, for best results, upload a 16bit 8khz/16khz mono WAV file.";
+$text['description-with_password']['vi-vn'] = "Quay *732 và nhập mật khẩu ||RECORDING_PASSWORD||, sau đó nhập số cho bản ghi âm cần tạo. Hoặc để có kết quả tốt nhất, tải lên file WAV mono 16bit 8khz/16khz.";
 $text['description-with_password']['en-gb'] = "Dial *732 and enter the password ||RECORDING_PASSWORD||, followed by a number for the recording to create. Or, for best results, upload a 16bit 8khz/16khz mono WAV file.";
 $text['description-with_password']['ar-eg'] = "اطلب * 732 وأدخل كلمة المرور || RECORDING_PASSWORD || متبوعًا برقم للتسجيل لإنشائه. أو ، للحصول على أفضل النتائج ، قم بتحميل ملف WAV أحادي 16 بت 8 كيلو هرتز / 16 كيلو هرتز.";
 $text['description-with_password']['de-at'] = "Wählen Sie *732 um eine Aufnahme direkt vom Telefon zu starten oder laden Sie eine 16bit 8/16kHz mono WAV-Datei hoch.";

@@ -1,6 +1,7 @@
 <?php
 
 $text['title-call_block']['en-us'] = "Call Block";
+$text['title-call_block']['vi-vn'] = 'Chặn cuộc gọi';
 $text['title-call_block']['en-gb'] = "Call Block";
 $text['title-call_block']['ar-eg'] = "حظر المكالمات";
 $text['title-call_block']['de-at'] = "Sperrlisten";
@@ -28,6 +29,7 @@ $text['title-call_block']['ja-jp'] = "コールブロック";
 $text['title-call_block']['ko-kr'] = "통화 차단";
 
 $text['heading-recent_calls']['en-us'] = "Recent Calls";
+$text['heading-recent_calls']['vi-vn'] = 'Cuộc gọi gần đây';
 $text['heading-recent_calls']['en-gb'] = "Recent Calls";
 $text['heading-recent_calls']['ar-eg'] = "المكالمات الأخيرة";
 $text['heading-recent_calls']['de-at'] = "Kürzliche Anrufe";
@@ -55,6 +57,7 @@ $text['heading-recent_calls']['ja-jp'] = "最近の通話";
 $text['heading-recent_calls']['ko-kr'] = "최근 통화";
 
 $text['heading-block_recent_calls']['en-us'] = "Block Recent Calls";
+$text['heading-block_recent_calls']['vi-vn'] = 'Chặn cuộc gọi gần đây';
 $text['heading-block_recent_calls']['en-gb'] = "Block Recent Calls";
 $text['heading-block_recent_calls']['ar-eg'] = "حظر المكالمات الأخيرة";
 $text['heading-block_recent_calls']['de-at'] = "Kürzliche Anrufe Blockieren";
@@ -82,6 +85,7 @@ $text['heading-block_recent_calls']['ja-jp'] = "最近の通話をブロック�
 $text['heading-block_recent_calls']['ko-kr'] = "최근 통화 차단";
 
 $text['label-update-complete']['en-us'] = "Update Complete";
+$text['label-update-complete']['vi-vn'] = 'Cập nhật hoàn tất';
 $text['label-update-complete']['en-gb'] = "Update Complete";
 $text['label-update-complete']['ar-eg'] = "اكتمال التحديث";
 $text['label-update-complete']['de-at'] = "Aktualisierung abgeschlossen";
@@ -109,6 +113,7 @@ $text['label-update-complete']['ja-jp'] = "アップデート完了";
 $text['label-update-complete']['ko-kr'] = "업데이트 완료";
 
 $text['label-reject']['en-us'] = "Reject";
+$text['label-reject']['vi-vn'] = 'Từ chối';
 $text['label-reject']['en-gb'] = "Reject";
 $text['label-reject']['ar-eg'] = "رفض";
 $text['label-reject']['de-at'] = "Zurückweisen";
@@ -136,6 +141,7 @@ $text['label-reject']['ja-jp'] = "拒絶";
 $text['label-reject']['ko-kr'] = "거부하다";
 
 $text['label-provide-number']['en-us'] = "Please provide: Number";
+$text['label-provide-number']['vi-vn'] = 'Vui lòng cung cấp: Số';
 $text['label-provide-number']['en-gb'] = "Please provide: Number";
 $text['label-provide-number']['ar-eg'] = "من فضلك أدخل: الرقم";
 $text['label-provide-number']['de-at'] = "Bitte geben Sie die Nummer an";
@@ -163,6 +169,7 @@ $text['label-provide-number']['ja-jp'] = "入力してください: 番号";
 $text['label-provide-number']['ko-kr'] = "제공하십시오: 번호";
 
 $text['label-provide-name']['en-us'] = "Please provide: Name";
+$text['label-provide-name']['vi-vn'] = 'Vui lòng cung cấp: Tên';
 $text['label-provide-name']['en-gb'] = "Please provide: Name";
 $text['label-provide-name']['ar-eg'] = "من فضلك أدخل: الأسم";
 $text['label-provide-name']['de-at'] = "Bitte geben Sie den Namen an";
@@ -190,6 +197,7 @@ $text['label-provide-name']['ja-jp'] = "入力してください: 名前";
 $text['label-provide-name']['ko-kr'] = "제공하십시오: 이름";
 
 $text['label-provide-enabled']['en-us'] = "Please provide: Enabled";
+$text['label-provide-enabled']['vi-vn'] = 'Vui lòng cung cấp: Đã bật';
 $text['label-provide-enabled']['en-gb'] = "Please provide: Enabled";
 $text['label-provide-enabled']['ar-eg'] = "يرجى تقديم: ممكّن";
 $text['label-provide-enabled']['de-at'] = "Bitte geben Sie folgendes an: Aktiv";
@@ -217,6 +225,7 @@ $text['label-provide-enabled']['ja-jp'] = "提供してください: 有効";
 $text['label-provide-enabled']['ko-kr'] = "제공하십시오: 활성화됨";
 
 $text['label-country_code']['en-us'] = "Country Code";
+$text['label-country_code']['vi-vn'] = 'Mã quốc gia';
 $text['label-country_code']['en-gb'] = "Country Code";
 $text['label-country_code']['ar-eg'] = "الرقم الدولي";
 $text['label-country_code']['de-at'] = "Landesvorwahl";
@@ -243,6 +252,7 @@ $text['label-country_code']['ja-jp'] = "国コード";
 $text['label-country_code']['ko-kr'] = "국가 코드";
 
 $text['label-number']['en-us'] = "Number";
+$text['label-number']['vi-vn'] = 'Số';
 $text['label-number']['en-gb'] = "Number";
 $text['label-number']['ar-eg'] = "رقم";
 $text['label-number']['de-at'] = "Nummer";
@@ -270,6 +280,7 @@ $text['label-number']['ja-jp'] = "番号";
 $text['label-number']['ko-kr'] = "숫자";
 
 $text['label-message']['en-us'] = "Message";
+$text['label-message']['vi-vn'] = 'Thông báo';
 $text['label-message']['en-gb'] = "Message";
 $text['label-message']['ar-eg'] = "رسالة";
 $text['label-message']['de-at'] = "Nachricht";
@@ -297,6 +308,7 @@ $text['label-message']['ja-jp'] = "メッセージ";
 $text['label-message']['ko-kr'] = "메시지";
 
 $text['label-ivr_menus']['en-us'] = "IVR Menus";
+$text['label-ivr_menus']['vi-vn'] = 'Menu IVR';
 $text['label-ivr_menus']['en-gb'] = "IVR Menus";
 $text['label-ivr_menus']['ar-eg'] = "قوائم IVR";
 $text['label-ivr_menus']['de-at'] = "Automatische Vermittlungen";
@@ -323,6 +335,7 @@ $text['label-ivr_menus']['ja-jp'] = "IVR メニュー";
 $text['label-ivr_menus']['ko-kr'] = "IVR 메뉴";
 
 $text['label-ivr']['en-us'] = "IVR";
+$text['label-ivr']['vi-vn'] = 'IVR';
 $text['label-ivr']['en-gb'] = "IVR";
 $text['label-ivr']['ar-eg'] = "IVR";
 $text['label-ivr']['de-at'] = "IVR";
@@ -349,6 +362,7 @@ $text['label-ivr']['ja-jp'] = "IVR";
 $text['label-ivr']['ko-kr'] = "IVR";
 
 $text['label-ring_groups']['en-us'] = "Ring Groups";
+$text['label-ring_groups']['vi-vn'] = 'Nhóm đổ chuông';
 $text['label-ring_groups']['en-gb'] = "Ring Groups";
 $text['label-ring_groups']['ar-eg'] = "مجموعات الرنين";
 $text['label-ring_groups']['de-at'] = "Ringgruppen";
@@ -375,6 +389,7 @@ $text['label-ring_groups']['ja-jp'] = "着信グループ";
 $text['label-ring_groups']['ko-kr'] = "전화 수신 그룹";
 
 $text['label-ring_group']['en-us'] = "Ring Group";
+$text['label-ring_group']['vi-vn'] = 'Nhóm đổ chuông';
 $text['label-ring_group']['en-gb'] = "Ring Group";
 $text['label-ring_group']['ar-eg'] = "مجموعة الطوق";
 $text['label-ring_group']['de-at'] = "Rufgruppe";
@@ -401,6 +416,7 @@ $text['label-ring_group']['ja-jp'] = "リンググループ";
 $text['label-ring_group']['ko-kr'] = "링 그룹";
 
 $text['label-local']['en-us'] = "Local";
+$text['label-local']['vi-vn'] = 'Cục bộ';
 $text['label-local']['en-gb'] = "Local";
 $text['label-local']['ar-eg'] = "محلي";
 $text['label-local']['de-at'] = "Lokal";
@@ -428,6 +444,7 @@ $text['label-local']['ja-jp'] = "地元";
 $text['label-local']['ko-kr'] = "-현지의";
 
 $text['label-inbound']['en-us'] = "Inbound";
+$text['label-inbound']['vi-vn'] = 'Gọi vào';
 $text['label-inbound']['en-gb'] = "Inbound";
 $text['label-inbound']['ar-eg'] = "واردة";
 $text['label-inbound']['de-at'] = "Eingehend";
@@ -455,6 +472,7 @@ $text['label-inbound']['ja-jp'] = "インバウンド";
 $text['label-inbound']['ko-kr'] = "인바운드";
 
 $text['label-outbound']['en-us'] = "Outbound";
+$text['label-outbound']['vi-vn'] = 'Gọi ra';
 $text['label-outbound']['en-gb'] = "Outbound";
 $text['label-outbound']['ar-eg'] = "الصادرة";
 $text['label-outbound']['de-at'] = "Ausgehend";
@@ -481,6 +499,7 @@ $text['label-outbound']['ja-jp'] = "アウトバウンド";
 $text['label-outbound']['ko-kr'] = "배 밖으로";
 
 $text['label-destination']['en-us'] = "Destination";
+$text['label-destination']['vi-vn'] = 'Đích';
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "وجهة";
 $text['label-destination']['de-at'] = "Ziel";
@@ -507,6 +526,7 @@ $text['label-destination']['ja-jp'] = "行き先";
 $text['label-destination']['ko-kr'] = "목적지";
 
 $text['label-edit-note']['en-us'] = "Block calls from a number. Edit the name and enable/disable below.";
+$text['label-edit-note']['vi-vn'] = 'Chặn cuộc gọi từ một số. Sửa tên và bật/tắt bên dưới.';
 $text['label-edit-note']['en-gb'] = "Block calls from a number. Edit the name and enable/disable below.";
 $text['label-edit-note']['ar-eg'] = "حظر المكالمات من رقم. قم بتحرير الاسم وتمكين / تعطيل أدناه.";
 $text['label-edit-note']['de-at'] = "Anrufe von einer Rufnummer sperren. Bearbeiten Sie den Namen und aktivieren/deaktivieren Sie diesen unten.";
@@ -534,6 +554,7 @@ $text['label-edit-note']['ja-jp'] = "番号からの通話をブロックしま�
 $text['label-edit-note']['ko-kr'] = "번호에서 오는 전화를 차단합니다. 이름을 수정하고 아래에서 활성화/비활성화합니다.";
 
 $text['label-edit-edit']['en-us'] = "Call Block";
+$text['label-edit-edit']['vi-vn'] = 'Chặn cuộc gọi';
 $text['label-edit-edit']['en-gb'] = "Call Block";
 $text['label-edit-edit']['ar-eg'] = "حظر المكالمات";
 $text['label-edit-edit']['de-at'] = "Sperrlisten";
@@ -561,6 +582,7 @@ $text['label-edit-edit']['ja-jp'] = "コール ブロック";
 $text['label-edit-edit']['ko-kr'] = "통화 차단";
 
 $text['label-edit-add']['en-us'] = "Call Block";
+$text['label-edit-add']['vi-vn'] = 'Chặn cuộc gọi';
 $text['label-edit-add']['en-gb'] = "Call Block";
 $text['label-edit-add']['ar-eg'] = "حظر المكالمات";
 $text['label-edit-add']['de-at'] = "Sperrlisten";
@@ -588,6 +610,7 @@ $text['label-edit-add']['ja-jp'] = "コール ブロック";
 $text['label-edit-add']['ko-kr'] = "통화 차단";
 
 $text['label-duration']['en-us'] = "Duration";
+$text['label-duration']['vi-vn'] = 'Thời lượng';
 $text['label-duration']['en-gb'] = "Duration";
 $text['label-duration']['ar-eg'] = "المدة";
 $text['label-duration']['de-at'] = "Dauer";
@@ -615,6 +638,7 @@ $text['label-duration']['ja-jp'] = "間隔";
 $text['label-duration']['ko-kr'] = "지속";
 
 $text['label-delete-complete']['en-us'] = "Delete Complete";
+$text['label-delete-complete']['vi-vn'] = 'Xóa hoàn tất';
 $text['label-delete-complete']['en-gb'] = "Delete Complete";
 $text['label-delete-complete']['ar-eg'] = "اكتمال المسح";
 $text['label-delete-complete']['de-at'] = "Erfolgreich gelöscht";
@@ -642,6 +666,7 @@ $text['label-delete-complete']['ja-jp'] = "削除完了";
 $text['label-delete-complete']['ko-kr'] = "삭제완료";
 
 $text['label-date-added']['en-us'] = "Date Added";
+$text['label-date-added']['vi-vn'] = 'Ngày thêm';
 $text['label-date-added']['en-gb'] = "Date Added";
 $text['label-date-added']['ar-eg'] = "تم اضافة التاريخ";
 $text['label-date-added']['de-at'] = "Datum hinzugefügt";
@@ -669,6 +694,7 @@ $text['label-date-added']['ja-jp'] = "追加日";
 $text['label-date-added']['ko-kr'] = "추가된 날짜";
 
 $text['label-count']['en-us'] = "Count";
+$text['label-count']['vi-vn'] = 'Số lượng';
 $text['label-count']['en-gb'] = "Count";
 $text['label-count']['ar-eg'] = "عدد";
 $text['label-count']['de-at'] = "Zähler";
@@ -696,6 +722,7 @@ $text['label-count']['ja-jp'] = "カウント";
 $text['label-count']['ko-kr'] = "세다";
 
 $text['label-called']['en-us'] = "Called";
+$text['label-called']['vi-vn'] = 'Đã gọi';
 $text['label-called']['en-gb'] = "Called";
 $text['label-called']['ar-eg'] = "تم الأتصال علي";
 $text['label-called']['de-at'] = "Anruf";
@@ -723,6 +750,7 @@ $text['label-called']['ja-jp'] = "呼ばれた";
 $text['label-called']['ko-kr'] = "라고 불리는";
 
 $text['label-busy']['en-us'] = "Busy";
+$text['label-busy']['vi-vn'] = 'Bận';
 $text['label-busy']['en-gb'] = "Busy";
 $text['label-busy']['ar-eg'] = "مشغول";
 $text['label-busy']['de-at'] = "Besetzt";
@@ -750,6 +778,7 @@ $text['label-busy']['ja-jp'] = "忙しい";
 $text['label-busy']['ko-kr'] = "바쁘다";
 
 $text['label-hold']['en-us'] = "Hold";
+$text['label-hold']['vi-vn'] = 'Giữ máy';
 $text['label-hold']['en-gb'] = "Hold";
 $text['label-hold']['ar-eg'] = "يمسك";
 $text['label-hold']['de-at'] = "Halten";
@@ -777,6 +806,7 @@ $text['label-hold']['ja-jp'] = "所有";
 $text['label-hold']['ko-kr'] = "잡고 있다";
 
 $text['label-missed']['en-us'] = "Missed";
+$text['label-missed']['vi-vn'] = 'Nhỡ';
 $text['label-missed']['en-gb'] = "Missed";
 $text['label-missed']['ar-eg'] = "مٌفتَقد";
 $text['label-missed']['de-at'] = "Verpasst";
@@ -803,6 +833,7 @@ $text['label-missed']['ja-jp'] = "逃した";
 $text['label-missed']['ko-kr'] = "놓친";
 
 $text['label-voicemail']['en-us'] = "Voicemail";
+$text['label-voicemail']['vi-vn'] = 'Thư thoại';
 $text['label-voicemail']['en-gb'] = "Voicemail";
 $text['label-voicemail']['ar-eg'] = "البريد الصوتي";
 $text['label-voicemail']['de-at'] = "Mailbox";
@@ -830,6 +861,7 @@ $text['label-voicemail']['ja-jp'] = "ボイスメール";
 $text['label-voicemail']['ko-kr'] = "음성사서함";
 
 $text['label-add-note']['en-us'] = "Block calls from a number. Either select a number from the list above or enter the number, name and enable below.";
+$text['label-add-note']['vi-vn'] = 'Chặn cuộc gọi từ một số. Chọn một số từ danh sách bên trên hoặc nhập số, tên và bật/tắt bên dưới.';
 $text['label-add-note']['en-gb'] = "Block calls from a number. Either select a number from the list above or enter the number, name and enable below.";
 $text['label-add-note']['ar-eg'] = "حظر المكالمات من رقم. حدد رقمًا من القائمة أعلاه أو أدخل الرقم والاسم وقم بتمكينه أدناه.";
 $text['label-add-note']['de-at'] = "Anrufe einer Rufnummer sperren. Wählen Sie eine Nummer von der Liste oder geben Sie eine Nummer und einen Name ein. Aktivieren Sie die Sperrliste unten.";
@@ -857,6 +889,7 @@ $text['label-add-note']['ja-jp'] = "番号からの通話をブロックしま�
 $text['label-add-note']['ko-kr'] = "번호에서 오는 전화를 차단합니다. 위 목록에서 번호를 선택하거나 번호, 이름을 입력하고 아래에 활성화하십시오.";
 
 $text['label-add-complete']['en-us'] = "Add Complete";
+$text['label-add-complete']['vi-vn'] = 'Thêm hoàn tất';
 $text['label-add-complete']['en-gb'] = "Add Complete";
 $text['label-add-complete']['ar-eg'] = "تمت الأضافة";
 $text['label-add-complete']['de-at'] = "Erfolgreich hinzugefügt";
@@ -884,6 +917,7 @@ $text['label-add-complete']['ja-jp'] = "追加完了";
 $text['label-add-complete']['ko-kr'] = "추가완료";
 
 $text['label-action']['en-us'] = "Action";
+$text['label-action']['vi-vn'] = 'Thao tác';
 $text['label-action']['en-gb'] = "Action";
 $text['label-action']['ar-eg'] = "فعل";
 $text['label-action']['de-at'] = "Aktion";
@@ -911,6 +945,7 @@ $text['label-action']['ja-jp'] = "アクション";
 $text['label-action']['ko-kr'] = "행동";
 
 $text['label-direction']['en-us'] = "Direction";
+$text['label-direction']['vi-vn'] = 'Hướng';
 $text['label-direction']['en-gb'] = "Direction";
 $text['label-direction']['ar-eg'] = "اتجاه";
 $text['label-direction']['de-at'] = "Richtung";
@@ -937,6 +972,7 @@ $text['label-direction']['ja-jp'] = "方向";
 $text['label-direction']['ko-kr'] = "방향";
 
 $text['description-direction']['en-us'] = "Select the direction of the calls to block.";
+$text['description-direction']['vi-vn'] = 'Chọn hướng cuộc gọi cần chặn.';
 $text['description-direction']['en-gb'] = "Select the direction of the calls to block.";
 $text['description-direction']['ar-eg'] = "حدد اتجاه المكالمات المراد حظرها.";
 $text['description-direction']['de-at'] = "Wählen Sie die Richtung der zu blockierenden Anrufe aus.";
@@ -964,6 +1000,7 @@ $text['description-direction']['ja-jp'] = "ブロックする通話の方向を�
 $text['description-direction']['ko-kr'] = "차단할 호출의 방향을 선택합니다.";
 
 $text['description-call_block_name']['en-us'] = "Enter the Caller ID Name to block.";
+$text['description-call_block_name']['vi-vn'] = 'Nhập tên Caller ID cần chặn.';
 $text['description-call_block_name']['en-gb'] = "Enter the Caller ID Name to block.";
 $text['description-call_block_name']['ar-eg'] = "أدخل اسم معرف المتصل لحظره.";
 $text['description-call_block_name']['de-at'] = "Geben Sie den zu blockierenden Anrufer-ID-Namen ein.";
@@ -991,6 +1028,7 @@ $text['description-call_block_name']['ja-jp'] = "ブロックする発信者 ID 
 $text['description-call_block_name']['ko-kr'] = "차단할 발신자 ID 이름을 입력하세요.";
 
 $text['description-country_code']['en-us'] = "Enter the Country Code prefix.";
+$text['description-country_code']['vi-vn'] = 'Nhập tiền tố mã quốc gia.';
 $text['description-country_code']['en-gb'] = "Enter the Country Code prefix.";
 $text['description-country_code']['ar-eg'] = "أدخل بادئة رمز البلد.";
 $text['description-country_code']['de-at'] = "Geben Sie das Ländercode-Präfix ein.";
@@ -1017,6 +1055,7 @@ $text['description-country_code']['ja-jp'] = "国コードのプレフィック�
 $text['description-country_code']['ko-kr'] = "국가 코드 프리픽스를 입력합니다.";
 
 $text['description-call_block_number']['en-us'] = "Enter the Country Code and Caller ID Number to block.";
+$text['description-call_block_number']['vi-vn'] = 'Nhập mã quốc gia và số Caller ID cần chặn.';
 $text['description-call_block_number']['en-gb'] = "Enter the Country Code and Caller ID Number to block.";
 $text['description-call_block_number']['ar-eg'] = "أدخل رمز البلد ورقم معرف المتصل لحظره.";
 $text['description-call_block_number']['de-at'] = "Geben Sie den zu blockierenden Ländercode und die Anrufer-ID-Nummer ein.";
@@ -1044,6 +1083,7 @@ $text['description-call_block_number']['ja-jp'] = "ブロックする国コー�
 $text['description-call_block_number']['ko-kr'] = "차단할 국가 코드와 발신자 ID 번호를 입력하세요.";
 
 $text['description-extension']['en-us'] = "Select the extension to be affected.";
+$text['description-extension']['vi-vn'] = 'Chọn máy nhánh bị ảnh hưởng.';
 $text['description-extension']['en-gb'] = "Select the extension to be affected.";
 $text['description-extension']['ar-eg'] = "حدد الامتداد المراد تأثره.";
 $text['description-extension']['de-at'] = "Wählen Sie die betroffene Nebenstelle aus.";
@@ -1071,6 +1111,7 @@ $text['description-extension']['ja-jp'] = "影響を受ける拡張子を選択�
 $text['description-extension']['ko-kr'] = "영향을 받을 확장자를 선택합니다.";
 
 $text['description-enable']['en-us'] = "Set to true to enable call blocking for this number.";
+$text['description-enable']['vi-vn'] = 'Đặt thành true để bật chặn cuộc gọi cho số này.';
 $text['description-enable']['en-gb'] = "Set to true to enable call blocking for this number.";
 $text['description-enable']['ar-eg'] = "اضبط على صواب لتمكين حظر المكالمات لهذا الرقم.";
 $text['description-enable']['de-at'] = "Setzen Sie auf An, um die Sperrung für diese Nummer zu aktivieren.";
@@ -1098,6 +1139,7 @@ $text['description-enable']['ja-jp'] = "この番号のコール ブロッキン
 $text['description-enable']['ko-kr'] = "이 번호에 대한 통화 차단을 활성화하려면 true로 설정하십시오.";
 
 $text['description-call-block']['en-us'] = "A list of numbers from which to block calls.";
+$text['description-call-block']['vi-vn'] = 'Danh sách số cần chặn cuộc gọi.';
 $text['description-call-block']['en-gb'] = "A list of numbers from which to block calls.";
 $text['description-call-block']['ar-eg'] = "قائمة بالأرقام التي يمكن من خلالها حظر المكالمات.";
 $text['description-call-block']['de-at'] = "Eine Liste von Nummern die gesperrt werden sollen.";
@@ -1125,6 +1167,7 @@ $text['description-call-block']['ja-jp'] = "通話をブロックする番号の
 $text['description-call-block']['ko-kr'] = "통화를 차단할 번호 목록입니다.";
 
 $text['description-action']['en-us'] = "Set an action for calls from this number.";
+$text['description-action']['vi-vn'] = 'Đặt hành động cho cuộc gọi từ số này.';
 $text['description-action']['en-gb'] = "Set an action for calls from this number.";
 $text['description-action']['ar-eg'] = "تعيين إجراء للمكالمات من هذا الرقم.";
 $text['description-action']['de-at'] = "Wählen Sie eine Aktion für Anrufe von dieser Nummer.";
@@ -1152,6 +1195,7 @@ $text['description-action']['ja-jp'] = "この番号からの通話に対する�
 $text['description-action']['ko-kr'] = "이 번호에서 걸려오는 전화에 대한 작업을 설정합니다.";
 
 $text['confirm-block']['en-us'] = "Do you really want to block this?";
+$text['confirm-block']['vi-vn'] = 'Bạn có thật sự muốn chặn mục này không?';
 $text['confirm-block']['en-gb'] = "Do you really want to block this?";
 $text['confirm-block']['ar-eg'] = "هل تريد حقًا منع هذا؟";
 $text['confirm-block']['de-at'] = "Willst du das wirklich blockieren?";
@@ -1180,6 +1224,7 @@ $text['confirm-block']['ja-jp'] = "本当にこれをブロックしますか?";
 $text['confirm-block']['ko-kr'] = "정말 차단하시겠습니까?";
 
 $text['button-block']['en-us'] = "Block";
+$text['button-block']['vi-vn'] = 'Chặn';
 $text['button-block']['en-gb'] = "Block";
 $text['button-block']['ar-eg'] = "حاجز";
 $text['button-block']['de-at'] = "Block";

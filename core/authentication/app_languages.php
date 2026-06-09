@@ -1,6 +1,7 @@
 <?php
 
 $text['label-authentication_code']['en-us'] = "Authentication Code";
+$text['label-authentication_code']['vi-vn'] = "Mã xác thực";
 $text['label-authentication_code']['en-gb'] = "Authentication Code";
 $text['label-authentication_code']['ar-eg'] = "رمز الدخول";
 $text['label-authentication_code']['de-at'] = "Authentication Code";
@@ -28,6 +29,7 @@ $text['label-authentication_code']['ja-jp'] = "認証コード";
 $text['label-authentication_code']['ko-kr'] = "인증 코드";
 
 $text['label-verify']['en-us'] = "Verify";
+$text['label-verify']['vi-vn'] = "Xác minh";
 $text['label-verify']['en-gb'] = "Verify";
 $text['label-verify']['ar-eg'] = "يؤكد";
 $text['label-verify']['de-at'] = "Verifizieren";
@@ -55,6 +57,7 @@ $text['label-verify']['ja-jp'] = "確認";
 $text['label-verify']['ko-kr'] = "확인하다";
 
 $text['label-email_description']['en-us'] = "Check your email for the verification code.";
+$text['label-email_description']['vi-vn'] = "Kiểm tra email của bạn để lấy mã xác minh.";
 $text['label-email_description']['en-gb'] = "Check your email for the verification code.";
 $text['label-email_description']['ar-eg'] = "تحقق من بريدك الإلكتروني للحصول على رمز التحقق.";
 $text['label-email_description']['de-at'] = "Überprüfen Sie Ihre E-Mail auf den Bestätigungscode.";
@@ -82,6 +85,7 @@ $text['label-email_description']['ja-jp'] = "メールで確認コードを確�
 $text['label-email_description']['ko-kr'] = "이메일에서 확인 코드를 확인하세요.";
 
 $text['label-totp_description']['en-us'] = "Enter your Authenticator code.";
+$text['label-totp_description']['vi-vn'] = "Nhập mã Authenticator của bạn.";
 $text['label-totp_description']['en-gb'] = "Enter your Authenticator code.";
 $text['label-totp_description']['ar-eg'] = "أدخل رمز التحقق الخاص بك.";
 $text['label-totp_description']['de-at'] = "Geben Sie Ihren Bestätigungs-Code ein.";
@@ -109,6 +113,7 @@ $text['label-totp_description']['ja-jp'] = "確認コードを入力してくだ
 $text['label-totp_description']['ko-kr'] = "인증 코드를 입력하세요.";
 
 $text['label-password_description']['en-us'] = "Enter your password.";
+$text['label-password_description']['vi-vn'] = "Nhập mật khẩu của bạn.";
 $text['label-password_description']['en-gb'] = "Enter your password.";
 $text['label-password_description']['ar-eg'] = "ادخل رقمك السري.";
 $text['label-password_description']['de-at'] = "Geben Sie Ihr Passwort ein.";
@@ -136,6 +141,7 @@ $text['label-password_description']['ja-jp'] = "パスワードを入力して�
 $text['label-password_description']['ko-kr'] = "비밀번호를 입력하세요.";
 
 $text['description-totp']['en-us'] = "Scan the code with an authentication application or password manager. Then use it to generate the token for the login.";
+$text['description-totp']['vi-vn'] = "Quét mã bằng ứng dụng xác thực hoặc trình quản lý mật khẩu. Sau đó dùng mã đó để tạo token đăng nhập.";
 $text['description-totp']['en-gb'] = "Scan the code with an authentication application or password manager. Then use it to generate the token for the login.";
 $text['description-totp']['ar-eg'] = "امسح الرمز ضوئيًا باستخدام تطبيق المصادقة أو مدير كلمات المرور. ثم استخدمه لإنشاء الرمز المميز لتسجيل الدخول.";
 $text['description-totp']['de-at'] = "Scannen Sie den Code mit einer Authentifizierungs-Anwendung oder einem Passwort-Manager. Dann verwenden Sie es, um das Token für den Login zu generieren.";
@@ -163,6 +169,7 @@ $text['description-totp']['ja-jp'] = "認証アプリケーションまたはパ
 $text['description-totp']['ko-kr'] = "인증 신청서 또는 비밀번호 관리자로 코드를 스캔합니다. 그런 다음 로그인 토큰을 생성합니다.";
 
 $text['button-forgot_password']['en-us'] = "Forgot Password?";
+$text['button-forgot_password']['vi-vn'] = "Quên mật khẩu?";
 $text['button-forgot_password']['en-gb'] = "Forgot Password?";
 $text['button-forgot_password']['ar-eg'] = "هل نسيت كلمة المرور؟";
 $text['button-forgot_password']['de-at'] = "Passwort vergessen?";

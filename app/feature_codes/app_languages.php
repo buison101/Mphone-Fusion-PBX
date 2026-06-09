@@ -1,6 +1,7 @@
 <?php
 
 $text['title-feature_codes']['en-us'] = "Feature Codes";
+$text['title-feature_codes']['vi-vn'] = 'Mã tính năng';
 $text['title-feature_codes']['en-gb'] = "Feature Codes";
 $text['title-feature_codes']['ar-eg'] = "تقرير رموز الميزات";
 $text['title-feature_codes']['de-at'] = "Funktionscodes Bericht";
@@ -27,6 +28,7 @@ $text['title-feature_codes']['ja-jp'] = "機能コードレポート";
 $text['title-feature_codes']['ko-kr'] = "기능 코드 보고서";
 
 $text['description-feature_codes']['en-us'] = "List of feature codes (star codes) available for dialing.";
+$text['description-feature_codes']['vi-vn'] = 'Danh sách mã tính năng (mã sao) có thể quay.';
 $text['description-feature_codes']['en-gb'] = "List of feature codes (star codes) available for dialing.";
 $text['description-feature_codes']['ar-eg'] = "قائمة رموز الميزات (رموز النجمة) المتاحة للاتصال.";
 $text['description-feature_codes']['de-at'] = "Liste der verfügbaren Funktionscodes (Sterncodes) zum Wählen.";
@@ -53,6 +55,7 @@ $text['description-feature_codes']['ja-jp'] = "ダイヤル可能な機能コー
 $text['description-feature_codes']['ko-kr'] = "전화 걸기에 사용할 수 있는 기능 코드(별표 코드) 목록.";
 
 $text['label-feature_code']['en-us'] = "Feature Code";
+$text['label-feature_code']['vi-vn'] = 'Mã tính năng';
 $text['label-feature_code']['en-gb'] = "Feature Code";
 $text['label-feature_code']['ar-eg'] = "رمز الميزة";
 $text['label-feature_code']['de-at'] = "Funktionscode";
@@ -79,6 +82,7 @@ $text['label-feature_code']['ja-jp'] = "機能コード";
 $text['label-feature_code']['ko-kr'] = "기능 코드";
 
 $text['label-feature_name']['en-us'] = "Name";
+$text['label-feature_name']['vi-vn'] = 'Tên';
 $text['label-feature_name']['en-gb'] = "Name";
 $text['label-feature_name']['ar-eg'] = "الاسم";
 $text['label-feature_name']['de-at'] = "Name";
@@ -105,6 +109,7 @@ $text['label-feature_name']['ja-jp'] = "名前";
 $text['label-feature_name']['ko-kr'] = "이름";
 
 $text['label-description']['en-us'] = "Description";
+$text['label-description']['vi-vn'] = 'Mô tả';
 $text['label-description']['en-gb'] = "Description";
 $text['label-description']['ar-eg'] = "الوصف";
 $text['label-description']['de-at'] = "Beschreibung";
@@ -131,6 +136,7 @@ $text['label-description']['ja-jp'] = "説明";
 $text['label-description']['ko-kr'] = "설명";
 
 $text['label-raw_dialplan']['en-us'] = "Raw Dialplan";
+$text['label-raw_dialplan']['vi-vn'] = 'Dialplan thô';
 $text['label-raw_dialplan']['en-gb'] = "Raw Dialplan";
 $text['label-raw_dialplan']['ar-eg'] = "خطة الاتصال الخام";
 $text['label-raw_dialplan']['de-at'] = "Roher Wählplan";
@@ -157,6 +163,7 @@ $text['label-raw_dialplan']['ja-jp'] = "生のダイヤルプラン";
 $text['label-raw_dialplan']['ko-kr'] = "원시 다이얼플랜";
 
 $text['label-format']['en-us'] = "Format";
+$text['label-format']['vi-vn'] = 'Định dạng';
 $text['label-format']['en-gb'] = "Format";
 $text['label-format']['ar-eg'] = "الصيغة";
 $text['label-format']['de-at'] = "Format";
@@ -183,6 +190,7 @@ $text['label-format']['ja-jp'] = "フォーマット";
 $text['label-format']['ko-kr'] = "형식";
 
 $text['button-export']['en-us'] = "Export";
+$text['button-export']['vi-vn'] = 'Xuất';
 $text['button-export']['en-gb'] = "Export";
 $text['button-export']['ar-eg'] = "تصدير";
 $text['button-export']['de-at'] = "Exportieren";
@@ -209,6 +217,7 @@ $text['button-export']['ja-jp'] = "エクスポート";
 $text['button-export']['ko-kr'] = "내보내기";
 
 $text['label-no_features']['en-us'] = "No feature codes found.";
+$text['label-no_features']['vi-vn'] = 'Không tìm thấy mã tính năng.';
 $text['label-no_features']['en-gb'] = "No feature codes found.";
 $text['label-no_features']['ar-eg'] = "لم يتم العثور على رموز الميزات.";
 $text['label-no_features']['de-at'] = "Keine Funktionscodes gefunden.";

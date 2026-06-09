@@ -1,6 +1,7 @@
 <?php
 
 $text['language-name']['en-us'] = "English - United States";
+$text['language-name']['vi-vn'] = "Tiếng Việt - Việt Nam";
 $text['language-name']['en-gb'] = "English - Great Britain";
 $text['language-name']['ar-eg'] = "العربية - مصر";
 $text['language-name']['de-at'] = "Deutsch - Österreich";
@@ -28,6 +29,7 @@ $text['language-name']['ko-kr'] = "한국 - 한국";
 $text['language-name']['ka-ge'] = "ქართული - საქართველო";
 
 $text['modal_title-confirmation']['en-us'] = "Confirmation";
+$text['modal_title-confirmation']['vi-vn'] = "Xác nhận";
 $text['modal_title-confirmation']['en-gb'] = "Confirmation";
 $text['modal_title-confirmation']['ar-eg'] = "التأكيد";
 $text['modal_title-confirmation']['de-at'] = "Bestätigung";
@@ -55,6 +57,7 @@ $text['modal_title-confirmation']['ko-kr'] = "확인";
 $text['modal_title-confirmation']['ka-ge'] = "დადასტურება";
 
 $text['message-update']['en-us'] = "Update Completed";
+$text['message-update']['vi-vn'] = "Cập nhật hoàn tất";
 $text['message-update']['en-gb'] = "Update Completed";
 $text['message-update']['ar-eg'] = "تحديث مكتمل";
 $text['message-update']['de-at'] = "Aktualisierung durchgeführt";
@@ -82,6 +85,7 @@ $text['message-update']['ko-kr'] = "업데이트 완료";
 $text['message-update']['ka-ge'] = "განახლება დასრულდა";
 
 $text['message-required']['en-us'] = "Required Fields: ";
+$text['message-required']['vi-vn'] = "Các trường bắt buộc: ";
 $text['message-required']['en-gb'] = "Required Fields: ";
 $text['message-required']['ar-eg'] = "يرجى تقديم: ";
 $text['message-required']['de-at'] = "Bitte geben Sie folgendes an: ";
@@ -109,6 +113,7 @@ $text['message-required']['ko-kr'] = "필수 입력 사항:";
 $text['message-required']['ka-ge'] = "სავალდებულო ველები: ";
 
 $text['message-delete']['en-us'] = "Delete Completed";
+$text['message-delete']['vi-vn'] = "Xóa hoàn tất";
 $text['message-delete']['en-gb'] = "Delete Completed";
 $text['message-delete']['ar-eg'] = "تم المسح";
 $text['message-delete']['de-at'] = "Erfolgreich gelöscht";
@@ -136,6 +141,7 @@ $text['message-delete']['ko-kr'] = "삭제 완료";
 $text['message-delete']['ka-ge'] = "წაშლა დასრულდა";
 
 $text['message-delete_failed']['en-us'] = "Delete Failed";
+$text['message-delete_failed']['vi-vn'] = "Xóa thất bại";
 $text['message-delete_failed']['en-gb'] = "Delete Failed";
 $text['message-delete_failed']['ar-eg'] = "فشل الحذف";
 $text['message-delete_failed']['de-at'] = "Löschen fehlgeschlagen";
@@ -163,6 +169,7 @@ $text['message-delete_failed']['ko-kr'] = "삭제 실패";
 $text['message-delete_failed']['ka-ge'] = "წაშლა ჩავარდა";
 
 $text['message-delete_selection']['en-us'] = "What do you wish to delete?";
+$text['message-delete_selection']['vi-vn'] = "Bạn muốn xóa mục nào?";
 $text['message-delete_selection']['en-gb'] = "what do you wish to delete?";
 $text['message-delete_selection']['ar-eg'] = "ماذا تريد أن تحذف؟";
 $text['message-delete_selection']['de-at'] = "Was möchten Sie löschen?";
@@ -190,6 +197,7 @@ $text['message-delete_selection']['ko-kr'] = "무엇을 삭제하시겠습니까
 $text['message-delete_selection']['ka-ge'] = "რისი წაშლა გსურთ?";
 
 $text['message-add']['en-us'] = "Add Completed";
+$text['message-add']['vi-vn'] = "Thêm hoàn tất";
 $text['message-add']['en-gb'] = "Add Completed";
 $text['message-add']['ar-eg'] = "تمت الأضافة";
 $text['message-add']['de-at'] = "Erfolgreich hinzugefügt";
@@ -217,6 +225,7 @@ $text['message-add']['ko-kr'] = "추가완료";
 $text['message-add']['ka-ge'] = "დამატება შესრულდა";
 
 $text['message-failed']['en-us'] = "Update Failed - Contact Support";
+$text['message-failed']['vi-vn'] = "Cập nhật thất bại - Liên hệ hỗ trợ";
 $text['message-failed']['en-gb'] = "Update Failed - Contact Support";
 $text['message-failed']['ar-eg'] = "فشل التحديث - اتصل بالدعم";
 $text['message-failed']['de-at'] = "Aktualisierung fehlgeschlagen - Kontaktieren Sie den Support";
@@ -244,6 +253,7 @@ $text['message-failed']['ko-kr'] = "업데이트 실패 - 지원팀에 문의";
 $text['message-failed']['ka-ge'] = "განახლება ჩავარდა - გთხოვთ, მიმართოთ მხარდაჭერის ჯგუფს";
 
 $text['message-copy']['en-us'] = "Copy Completed";
+$text['message-copy']['vi-vn'] = "Sao chép hoàn tất";
 $text['message-copy']['en-gb'] = "Copy Completed";
 $text['message-copy']['ar-eg'] = "اكتمل النسخ";
 $text['message-copy']['de-at'] = "Erfolgreich kopiert";
@@ -271,6 +281,7 @@ $text['message-copy']['ko-kr'] = "복사 완료";
 $text['message-copy']['ka-ge'] = "დაკოპირდა";
 
 $text['message-copied_to_clipboard']['en-us'] = "Copied to Clipboard";
+$text['message-copied_to_clipboard']['vi-vn'] = "Đã sao chép vào bảng nhớ tạm";
 $text['message-copied_to_clipboard']['en-gb'] = "Copied to Clipboard";
 $text['message-copied_to_clipboard']['ar-eg'] = "نسخ إلى الحافظة";
 $text['message-copied_to_clipboard']['de-at'] = "In die Zwischenablage kopiert";
@@ -298,6 +309,7 @@ $text['message-copied_to_clipboard']['ko-kr'] = "클립보드에 복사됨";
 $text['message-copied_to_clipboard']['ka-ge'] = "დაკოპირდა ბუფერულ მეხსიერებაში";
 
 $text['message-toggle']['en-us'] = "Toggle Completed";
+$text['message-toggle']['vi-vn'] = "Chuyển trạng thái hoàn tất";
 $text['message-toggle']['en-gb'] = "Toggle Completed";
 $text['message-toggle']['ar-eg'] = "الانتهاء من تبديل";
 $text['message-toggle']['de-at'] = "Toggle abgeschlossen";
@@ -325,6 +337,7 @@ $text['message-toggle']['ko-kr'] = "토글 완료됨";
 $text['message-toggle']['ka-ge'] = "გადართვა დასრულდა";
 
 $text['message-authentication_failed']['en-us'] = "Authentication Failed";
+$text['message-authentication_failed']['vi-vn'] = "Xác thực thất bại";
 $text['message-authentication_failed']['en-gb'] = "Authentication Failed";
 $text['message-authentication_failed']['ar-eg'] = "Authentication Failed";
 $text['message-authentication_failed']['de-at'] = "Authentication Failed";
@@ -352,6 +365,7 @@ $text['message-authentication_failed']['ko-kr'] = "Authentication Failed";
 $text['message-authentication_failed']['ka-ge'] = "აუტენტიფიკაცია ჩავარდა";
 
 $text['message-invalid_token']['en-us'] = "Invalid Token";
+$text['message-invalid_token']['vi-vn'] = "Token không hợp lệ";
 $text['message-invalid_token']['en-gb'] = "Invalid Token";
 $text['message-invalid_token']['ar-eg'] = "غير صحيح";
 $text['message-invalid_token']['de-at'] = "Invalid token";
@@ -379,6 +393,7 @@ $text['message-invalid_token']['ko-kr'] = "잘못된 토큰";
 $text['message-invalid_token']['ka-ge'] = "არასწორი ტოკენი";
 
 $text['message-message']['en-us'] = "Message";
+$text['message-message']['vi-vn'] = "Thông báo";
 $text['message-message']['en-gb'] = "Message";
 $text['message-message']['ar-eg'] = "رسالة";
 $text['message-message']['de-at'] = "Nachricht";
@@ -406,6 +421,7 @@ $text['message-message']['ko-kr'] = "메시지";
 $text['message-message']['ka-ge'] = "შეტყობინება";
 
 $text['message-restore']['en-us'] = "Restore Completed";
+$text['message-restore']['vi-vn'] = "Khôi phục hoàn tất";
 $text['message-restore']['en-gb'] = "Restore Completed";
 $text['message-restore']['ar-eg'] = "اكتملت الاستعادة";
 $text['message-restore']['de-at'] = "Wiederherstellung durchgeführt";
@@ -433,6 +449,7 @@ $text['message-restore']['ko-kr'] = "복원 완료";
 $text['message-restore']['ka-ge'] = "აღდგენა დასრულდა";
 
 $text['message-duplicate']['en-us'] = "Duplicate Detected";
+$text['message-duplicate']['vi-vn'] = "Phát hiện trùng lặp";
 $text['message-duplicate']['en-gb'] = "Duplicate Detected";
 $text['message-duplicate']['ar-eg'] = "تم الكشف عن تكرار";
 $text['message-duplicate']['de-at'] = "Bereits vorhanden";
@@ -460,6 +477,7 @@ $text['message-duplicate']['ko-kr'] = "중복 감지됨";
 $text['message-duplicate']['ka-ge'] = "აღმოჩენილია დუბლიკატი";
 
 $text['message-unsupported_file_type']['en-us'] = "Unsupported File Type";
+$text['message-unsupported_file_type']['vi-vn'] = "Loại file không được hỗ trợ";
 $text['message-unsupported_file_type']['en-gb'] = "Unsupported File Type";
 $text['message-unsupported_file_type']['ar-eg'] = "نوع ملف غير مدعوم";
 $text['message-unsupported_file_type']['de-at'] = "Dateityp nicht unterstützt";
@@ -487,6 +505,7 @@ $text['message-unsupported_file_type']['ko-kr'] = "지원되지 않는 파일 �
 $text['message-unsupported_file_type']['ka-ge'] = "მხარდაუჭერელი ფაილის ტიპი";
 
 $text['message-username_format_invalid']['en-us'] = "Invalid Username Format";
+$text['message-username_format_invalid']['vi-vn'] = "Định dạng tên đăng nhập không hợp lệ";
 $text['message-username_format_invalid']['en-gb'] = "Invalid Username Format";
 $text['message-username_format_invalid']['ar-eg'] = "تنسيق اسم المستخدم غير صالح";
 $text['message-username_format_invalid']['de-at'] = "Ungültiger Benutzername";
@@ -514,6 +533,7 @@ $text['message-username_format_invalid']['ko-kr'] = "잘못된 사용자 이름 
 $text['message-username_format_invalid']['ka-ge'] = "არასწორი მომხმარებლის სახელის ფორმატი";
 
 $text['option-username_format_any']['en-us'] = "Any";
+$text['option-username_format_any']['vi-vn'] = "Bất kỳ";
 $text['option-username_format_any']['en-gb'] = "Any";
 $text['option-username_format_any']['ar-eg'] = "أي";
 $text['option-username_format_any']['de-at'] = "Beliebig";
@@ -541,6 +561,7 @@ $text['option-username_format_any']['ko-kr'] = "어느";
 $text['option-username_format_any']['ka-ge'] = "ნებისმიერი";
 
 $text['option-username_format_email']['en-us'] = "Email Address";
+$text['option-username_format_email']['vi-vn'] = "Địa chỉ email";
 $text['option-username_format_email']['en-gb'] = "Email Address";
 $text['option-username_format_email']['ar-eg'] = "عنوان البريد الإلكتروني";
 $text['option-username_format_email']['de-at'] = "E-Mail-Addresse";
@@ -568,6 +589,7 @@ $text['option-username_format_email']['ko-kr'] = "이메일 주소";
 $text['option-username_format_email']['ka-ge'] = "ელფოსტის მისამართი";
 
 $text['option-username_format_no_email']['en-us'] = "Not Email Address";
+$text['option-username_format_no_email']['vi-vn'] = "Không phải địa chỉ email";
 $text['option-username_format_no_email']['en-gb'] = "Not Email Address";
 $text['option-username_format_no_email']['ar-eg'] = "ليس عنوان بريد إلكتروني";
 $text['option-username_format_no_email']['de-at'] = "Keine E-Mail-Adresse";
@@ -595,6 +617,7 @@ $text['option-username_format_no_email']['ko-kr'] = "이메일 주소 아님";
 $text['option-username_format_no_email']['ka-ge'] = "ელფოსტის მისამართი არაა";
 
 $text['confirm-delete']['en-us'] = "Do you really want to DELETE this?";
+$text['confirm-delete']['vi-vn'] = "Bạn có chắc muốn XÓA mục này không?";
 $text['confirm-delete']['en-gb'] = "Do you really want to DELETE this?";
 $text['confirm-delete']['ar-eg'] = "هل تريد حقا أن تحذف هذا؟";
 $text['confirm-delete']['de-at'] = "Wollen Sie das wirklich löschen?";
@@ -622,6 +645,7 @@ $text['confirm-delete']['ko-kr'] = "정말 삭제하시겠습니까?";
 $text['confirm-delete']['ka-ge'] = "ნამდვილად გსურთ წაშლა";
 
 $text['confirm-copy']['en-us'] = "Do you really want to COPY this?";
+$text['confirm-copy']['vi-vn'] = "Bạn có chắc muốn SAO CHÉP mục này không?";
 $text['confirm-copy']['en-gb'] = "Do you really want to COPY this?";
 $text['confirm-copy']['ar-eg'] = "هل تريد حقًا نسخ هذا؟";
 $text['confirm-copy']['de-at'] = "Wollen Sie das wirklich kopieren?";
@@ -649,6 +673,7 @@ $text['confirm-copy']['ko-kr'] = "이것을 복사하시겠습니까?";
 $text['confirm-copy']['ka-ge'] = "ნამდვილად გსურთ დაკოპირება?";
 
 $text['confirm-toggle']['en-us'] = "Do you really want to TOGGLE this?";
+$text['confirm-toggle']['vi-vn'] = "Bạn có chắc muốn CHUYỂN trạng thái mục này không?";
 $text['confirm-toggle']['en-gb'] = "Do you really want to TOGGLE this?";
 $text['confirm-toggle']['ar-eg'] = "هل تريد حقًا نسخ هذا؟";
 $text['confirm-toggle']['de-at'] = "Wollen Sie das wirklich KOPIEREN?";
@@ -676,6 +701,7 @@ $text['confirm-toggle']['ko-kr'] = "정말 토글하시겠습니까?";
 $text['confirm-toggle']['ka-ge'] = "ნამდვილად გსურთ გადართვა?";
 
 $text['confirm-unassign']['en-us'] = "Do you really want to UNASSIGN this?";
+$text['confirm-unassign']['vi-vn'] = "Bạn có chắc muốn BỎ GÁN mục này không?";
 $text['confirm-unassign']['en-gb'] = "Do you really want to UNASSIGN this?";
 $text['confirm-unassign']['ar-eg'] = "هل تريد حقا أن تفصل هذا؟";
 $text['confirm-unassign']['de-at'] = "Wollen Sie das wirklich abmelden?";
@@ -702,6 +728,7 @@ $text['confirm-unassign']['ja-jp'] = "本当にこれを解除しますか?";
 $text['confirm-unassign']['ko-kr'] = "정말로 이 할당을 해제하시겠습니까?";
 
 $text['button-apply']['en-us'] = "Apply";
+$text['button-apply']['vi-vn'] = "Áp dụng";
 $text['button-apply']['en-gb'] = "Apply";
 $text['button-apply']['ar-eg'] = "يتقدم";
 $text['button-apply']['de-at'] = "Anwenden";
@@ -729,6 +756,7 @@ $text['button-apply']['ko-kr'] = "적용하다";
 $text['button-apply']['ka-ge'] = "გადატარება(Apply)";
 
 $text['button-provision']['en-us'] = "Provision";
+$text['button-provision']['vi-vn'] = "Cấp phát";
 $text['button-provision']['en-gb'] = "Provision";
 $text['button-provision']['ar-eg'] = "رزق";
 $text['button-provision']['de-at'] = "Bereitstellen";
@@ -756,6 +784,7 @@ $text['button-provision']['ko-kr'] = "공급";
 $text['button-provision']['ka-ge'] = "სამუშაოდ მომზადება";
 
 $text['button-applied']['en-us'] = "Applied";
+$text['button-applied']['vi-vn'] = "Đã áp dụng";
 $text['button-applied']['ka-ge'] = "";
 $text['button-applied']['en-gb'] = "Applied";
 $text['button-applied']['ar-eg'] = "مُطبَّق";
@@ -784,6 +813,7 @@ $text['button-applied']['ko-kr'] = "적용된";
 $text['button-applied']['ka-ge'] = "გადატარებულია";
 
 $text['button-xml']['en-us'] = "XML";
+$text['button-xml']['vi-vn'] = "XML";
 $text['button-xml']['en-gb'] = "XML";
 $text['button-xml']['ar-eg'] = "XML";
 $text['button-xml']['de-at'] = "XML";
@@ -811,6 +841,7 @@ $text['button-xml']['ko-kr'] = "XML";
 $text['button-xml']['ka-ge'] = "XML";
 
 $text['button-clear']['en-us'] = "Clear";
+$text['button-clear']['vi-vn'] = "Xóa";
 $text['button-clear']['en-gb'] = "Clear";
 $text['button-clear']['ar-eg'] = "واضح";
 $text['button-clear']['de-at'] = "Zurücksetzen";
@@ -838,6 +869,7 @@ $text['button-clear']['ko-kr'] = "분명한";
 $text['button-clear']['ka-ge'] = "გასუფთავება";
 
 $text['button-close']['en-us'] = "Close";
+$text['button-close']['vi-vn'] = "Đóng";
 $text['button-close']['en-gb'] = "Close";
 $text['button-close']['ar-eg'] = "يغلق";
 $text['button-close']['de-at'] = "Schließen";
@@ -865,6 +897,7 @@ $text['button-close']['ko-kr'] = "닫다";
 $text['button-close']['ka-ge'] = "დახურვა";
 
 $text['button-save']['en-us'] = "Save";
+$text['button-save']['vi-vn'] = "Lưu";
 $text['button-save']['en-gb'] = "Save";
 $text['button-save']['ar-eg'] = "حفظ";
 $text['button-save']['de-at'] = "Speichern";
@@ -892,6 +925,7 @@ $text['button-save']['ko-kr'] = "구하다";
 $text['button-save']['ka-ge'] = "შენახვა";
 
 $text['button-send']['en-us'] = "Send";
+$text['button-send']['vi-vn'] = "Gửi";
 $text['button-send']['en-gb'] = "Send";
 $text['button-send']['ar-eg'] = "يرسل";
 $text['button-send']['de-at'] = "Schicken";
@@ -919,6 +953,7 @@ $text['button-send']['ko-kr'] = "보내다";
 $text['button-send']['ka-ge'] = "გაგზავნა";
 
 $text['button-search']['en-us'] = "Search";
+$text['button-search']['vi-vn'] = "Tìm kiếm";
 $text['button-search']['en-gb'] = "Search";
 $text['button-search']['ar-eg'] = "يبحث";
 $text['button-search']['de-at'] = "Suchen";
@@ -946,6 +981,7 @@ $text['button-search']['ko-kr'] = "찾다";
 $text['button-search']['ka-ge'] = "ძებნა";
 
 $text['button-show_all']['en-us'] = "Show All";
+$text['button-show_all']['vi-vn'] = "Hiển thị tất cả";
 $text['button-show_all']['ka-ge'] = "ყველაფრის ჩვენება";
 $text['button-show_all']['en-gb'] = "Show All";
 $text['button-show_all']['ar-eg'] = "أظهر الكل";
@@ -973,6 +1009,7 @@ $text['button-show_all']['ja-jp'] = "すべて表示";
 $text['button-show_all']['ko-kr'] = "모두 보이기";
 
 $text['button-show_local']['en-us'] = "Show Local";
+$text['button-show_local']['vi-vn'] = "Hiển thị cục bộ";
 $text['button-show_local']['ka-ge'] = "ლოკალურის ჩვენება";
 $text['button-show_local']['en-gb'] = "Show Local";
 $text['button-show_local']['ar-eg'] = "عرض محلي";
@@ -1000,6 +1037,7 @@ $text['button-show_local']['ja-jp'] = "ローカルを表示";
 $text['button-show_local']['ko-kr'] = "로컬 표시";
 
 $text['button-restore']['en-us'] = "Restore Default";
+$text['button-restore']['vi-vn'] = "Khôi phục mặc định";
 $text['button-restore']['ka-ge'] = "ნაგულისხმევის აღდგენა";
 $text['button-restore']['en-gb'] = "Restore Default";
 $text['button-restore']['ar-eg'] = "استعادة الافتراضي";
@@ -1027,6 +1065,7 @@ $text['button-restore']['ja-jp'] = "デフォルトを復元する";
 $text['button-restore']['ko-kr'] = "기본값 복원";
 
 $text['button-reset']['en-us'] = "Reset";
+$text['button-reset']['vi-vn'] = "Đặt lại";
 $text['button-reset']['ka-ge'] = "ჩამოყრა";
 $text['button-reset']['en-gb'] = "Reset";
 $text['button-reset']['ar-eg'] = "إعادة تعيين";
@@ -1054,6 +1093,7 @@ $text['button-reset']['ja-jp'] = "リセット";
 $text['button-reset']['ko-kr'] = "초기화";
 
 $text['button-copy']['en-us'] = "Copy";
+$text['button-copy']['vi-vn'] = "Sao chép";
 $text['button-copy']['ka-ge'] = "კოპირება";
 $text['button-copy']['en-gb'] = "Copy";
 $text['button-copy']['ar-eg'] = "ينسخ";
@@ -1081,6 +1121,7 @@ $text['button-copy']['ja-jp'] = "コピー";
 $text['button-copy']['ko-kr'] = "복사";
 
 $text['button-login']['en-us'] = "Login";
+$text['button-login']['vi-vn'] = "Đăng nhập";
 $text['button-login']['ka-ge'] = "შესვლა";
 $text['button-login']['en-gb'] = "Login";
 $text['button-login']['ar-eg'] = "دخول";
@@ -1108,6 +1149,7 @@ $text['button-login']['ja-jp'] = "ログイン";
 $text['button-login']['ko-kr'] = "로그인";
 
 $text['button-next']['en-us'] = "Next";
+$text['button-next']['vi-vn'] = "Tiếp";
 $text['button-next']['ka-ge'] = "შემდეგი";
 $text['button-next']['en-gb'] = "Next";
 $text['button-next']['ar-eg'] = "التالي";
@@ -1135,6 +1177,7 @@ $text['button-next']['ja-jp'] = "次";
 $text['button-next']['ko-kr'] = "다음";
 
 $text['button-back']['en-us'] = "Back";
+$text['button-back']['vi-vn'] = "Quay lại";
 $text['button-back']['ka-ge'] = "უკან";
 $text['button-back']['en-gb'] = "Back";
 $text['button-back']['ar-eg'] = "رجوع";
@@ -1162,6 +1205,7 @@ $text['button-back']['ja-jp'] = "戻る";
 $text['button-back']['ko-kr'] = "뒤쪽에";
 
 $text['button-undo']['en-us'] = "Undo";
+$text['button-undo']['vi-vn'] = "Hoàn tác";
 $text['button-undo']['ka-ge'] = "გაუქმება";
 $text['button-undo']['en-gb'] = "Undo";
 $text['button-undo']['ar-eg'] = "تراجع";
@@ -1189,6 +1233,7 @@ $text['button-undo']['ja-jp'] = "元に戻す";
 $text['button-undo']['ko-kr'] = "실행 취소";
 
 $text['button-edit']['en-us'] = "Edit";
+$text['button-edit']['vi-vn'] = "Sửa";
 $text['button-edit']['ka-ge'] = "ჩასწორება";
 $text['button-edit']['en-gb'] = "Edit";
 $text['button-edit']['ar-eg'] = "تعديل";
@@ -1216,6 +1261,7 @@ $text['button-edit']['ja-jp'] = "編集";
 $text['button-edit']['ko-kr'] = "편집하다";
 
 $text['button-delete']['en-us'] = "Delete";
+$text['button-delete']['vi-vn'] = "Xóa";
 $text['button-delete']['ka-ge'] = "წაშლა";
 $text['button-delete']['en-gb'] = "Delete";
 $text['button-delete']['ar-eg'] = "مسح";
@@ -1243,6 +1289,7 @@ $text['button-delete']['ja-jp'] = "消去";
 $text['button-delete']['ko-kr'] = "삭제";
 
 $text['button-add']['en-us'] = "Add";
+$text['button-add']['vi-vn'] = "Thêm";
 $text['button-add']['ka-ge'] = "დამატება";
 $text['button-add']['en-gb'] = "Add";
 $text['button-add']['ar-eg'] = "اضافة";
@@ -1270,6 +1317,7 @@ $text['button-add']['ja-jp'] = "追加";
 $text['button-add']['ko-kr'] = "추가하다";
 
 $text['button-reload']['en-us'] = "Reload";
+$text['button-reload']['vi-vn'] = "Tải lại";
 $text['button-reload']['ka-ge'] = "გადატვირთვა";
 $text['button-reload']['en-gb'] = "Reload";
 $text['button-reload']['ar-eg'] = "إعادة تحميل";
@@ -1297,6 +1345,7 @@ $text['button-reload']['ja-jp'] = "リロード";
 $text['button-reload']['ko-kr'] = "새로고침";
 
 $text['button-paste']['en-us'] = "Paste";
+$text['button-paste']['vi-vn'] = "Dán";
 $text['button-paste']['ka-ge'] = "ჩასმა";
 $text['button-paste']['en-gb'] = "Paste";
 $text['button-paste']['ar-eg'] = "معجون";
@@ -1324,6 +1373,7 @@ $text['button-paste']['ja-jp'] = "ペースト";
 $text['button-paste']['ko-kr'] = "반죽";
 
 $text['button-export']['en-us'] = "Export";
+$text['button-export']['vi-vn'] = "Xuất";
 $text['button-export']['ka-ge'] = "ექსპორტი";
 $text['button-export']['en-gb'] = "Export";
 $text['button-export']['ar-eg'] = "يصدّر";
@@ -1352,6 +1402,7 @@ $text['button-export']['ja-jp'] = "輸出";
 $text['button-export']['ko-kr'] = "내보내다";
 
 $text['button-execute']['en-us'] = "Execute";
+$text['button-execute']['vi-vn'] = "Thực thi";
 $text['button-execute']['ka-ge'] = "შესრულება";
 $text['button-execute']['en-gb'] = "Execute";
 $text['button-execute']['ar-eg'] = "ينفذ";
@@ -1379,6 +1430,7 @@ $text['button-execute']['ja-jp'] = "実行する";
 $text['button-execute']['ko-kr'] = "실행하다";
 
 $text['button-view']['en-us'] = "View";
+$text['button-view']['vi-vn'] = "Xem";
 $text['button-view']['ka-ge'] = "ხედი";
 $text['button-view']['en-gb'] = "View";
 $text['button-view']['ar-eg'] = "عرض";
@@ -1406,6 +1458,7 @@ $text['button-view']['ja-jp'] = "意見";
 $text['button-view']['ko-kr'] = "보다";
 
 $text['button-upload']['en-us'] = "Upload";
+$text['button-upload']['vi-vn'] = "Tải lên";
 $text['button-upload']['ka-ge'] = "ატვირთვა";
 $text['button-upload']['en-gb'] = "Upload";
 $text['button-upload']['ar-eg'] = "رفع";
@@ -1433,6 +1486,7 @@ $text['button-upload']['ja-jp'] = "アップロード";
 $text['button-upload']['ko-kr'] = "업로드";
 
 $text['button-download']['en-us'] = "Download";
+$text['button-download']['vi-vn'] = "Tải xuống";
 $text['button-download']['ka-ge'] = "ჩამოტვირთვა";
 $text['button-download']['en-gb'] = "Download";
 $text['button-download']['ar-eg'] = "تحميل";
@@ -1460,6 +1514,7 @@ $text['button-download']['ja-jp'] = "ダウンロード";
 $text['button-download']['ko-kr'] = "다운로드";
 
 $text['button-downloads']['en-us'] = "Downloads";
+$text['button-downloads']['vi-vn'] = "Tải xuống";
 $text['button-downloads']['ka-ge'] = "ჩამოტვირთვები";
 $text['button-downloads']['en-gb'] = "Downloads";
 $text['button-downloads']['ar-eg'] = "التحميلات";
@@ -1487,6 +1542,7 @@ $text['button-downloads']['ja-jp'] = "ダウンロード";
 $text['button-downloads']['ko-kr'] = "다운로드";
 
 $text['button-restart']['en-us'] = "Restart";
+$text['button-restart']['vi-vn'] = "Khởi động lại";
 $text['button-restart']['ka-ge'] = "გადატვირთვა";
 $text['button-restart']['en-gb'] = "Restart";
 $text['button-restart']['ar-eg'] = "إعادة تشغيل";
@@ -1514,6 +1570,7 @@ $text['button-restart']['ja-jp'] = "再起動";
 $text['button-restart']['ko-kr'] = "재시작";
 
 $text['button-refresh']['en-us'] = "Refresh";
+$text['button-refresh']['vi-vn'] = "Làm mới";
 $text['button-refresh']['ka-ge'] = "განახლება";
 $text['button-refresh']['en-gb'] = "Refresh";
 $text['button-refresh']['ar-eg'] = "ينعش";
@@ -1541,6 +1598,7 @@ $text['button-refresh']['ja-jp'] = "リフレッシュ";
 $text['button-refresh']['ko-kr'] = "새로 고치다";
 
 $text['button-advanced']['en-us'] = "Advanced";
+$text['button-advanced']['vi-vn'] = "Nâng cao";
 $text['button-advanced']['ka-ge'] = "დამატებით";
 $text['button-advanced']['en-gb'] = "Advanced";
 $text['button-advanced']['ar-eg'] = "متقدم";
@@ -1568,6 +1626,7 @@ $text['button-advanced']['ja-jp'] = "高度";
 $text['button-advanced']['ko-kr'] = "고급의";
 
 $text['button-basic']['en-us'] = "Basic";
+$text['button-basic']['vi-vn'] = "Cơ bản";
 $text['button-basic']['ka-ge'] = "ძირითადი";
 $text['button-basic']['en-gb'] = "Basic";
 $text['button-basic']['ar-eg'] = "أساسي";
@@ -1595,6 +1654,7 @@ $text['button-basic']['ja-jp'] = "基本";
 $text['button-basic']['ko-kr'] = "기초적인";
 
 $text['button-stop']['en-us'] = "Stop";
+$text['button-stop']['vi-vn'] = "Dừng";
 $text['button-stop']['ka-ge'] = "სდექ";
 $text['button-stop']['en-gb'] = "Stop";
 $text['button-stop']['ar-eg'] = "أساسي";
@@ -1622,6 +1682,7 @@ $text['button-stop']['ja-jp'] = "ストップ";
 $text['button-stop']['ko-kr'] = "멈추다";
 
 $text['button-status']['en-us'] = "Status";
+$text['button-status']['vi-vn'] = "Trạng thái";
 $text['button-status']['ka-ge'] = "სტატუსი";
 $text['button-status']['en-gb'] = "Status";
 $text['button-status']['ar-eg'] = "حالة";
@@ -1649,6 +1710,7 @@ $text['button-status']['ja-jp'] = "スターテス";
 $text['button-status']['ko-kr'] = "상태";
 
 $text['button-start']['en-us'] = "Start";
+$text['button-start']['vi-vn'] = "Bắt đầu";
 $text['button-start']['ka-ge'] = "სტარტი";
 $text['button-start']['en-gb'] = "Start";
 $text['button-start']['ar-eg'] = "يبدأ";
@@ -1676,6 +1738,7 @@ $text['button-start']['ja-jp'] = "始める";
 $text['button-start']['ko-kr'] = "시작";
 
 $text['button-overview']['en-us'] = "Overview";
+$text['button-overview']['vi-vn'] = "Tổng quan";
 $text['button-overview']['ka-ge'] = "მიმოხილვა";
 $text['button-overview']['en-gb'] = "Overview";
 $text['button-overview']['ar-eg'] = "ملخص";
@@ -1703,6 +1766,7 @@ $text['button-overview']['ja-jp'] = "概要";
 $text['button-overview']['ko-kr'] = "개요";
 
 $text['button-summary']['en-us'] = "Summary";
+$text['button-summary']['vi-vn'] = "Tóm tắt";
 $text['button-summary']['ka-ge'] = "შეჯამება";
 $text['button-summary']['en-gb'] = "Summary";
 $text['button-summary']['ar-eg'] = "ملخص";
@@ -1730,6 +1794,7 @@ $text['button-summary']['ja-jp'] = "まとめ";
 $text['button-summary']['ko-kr'] = "요약";
 
 $text['button-update']['en-us'] = "Update";
+$text['button-update']['vi-vn'] = "Cập nhật";
 $text['button-update']['ka-ge'] = "განახლება";
 $text['button-update']['en-gb'] = "Update";
 $text['button-update']['ar-eg'] = "تحديث";
@@ -1757,6 +1822,7 @@ $text['button-update']['ja-jp'] = "アップデート";
 $text['button-update']['ko-kr'] = "업데이트";
 
 $text['button-download_csv']['en-us'] = "Download CSV";
+$text['button-download_csv']['vi-vn'] = "Tải CSV xuống";
 $text['button-download_csv']['ka-ge'] = "CSV-ის ჩამოტვირთვა";
 $text['button-download_csv']['en-gb'] = "Download CSV";
 $text['button-download_csv']['ar-eg'] = "تنزيل ملف CSV";
@@ -1784,6 +1850,7 @@ $text['button-download_csv']['ja-jp'] = "CSVをダウンロード";
 $text['button-download_csv']['ko-kr'] = "CSV 다운로드";
 
 $text['button-import']['en-us'] = "Import";
+$text['button-import']['vi-vn'] = "Nhập";
 $text['button-import']['ka-ge'] = "იმპორტი";
 $text['button-import']['en-gb'] = "Import";
 $text['button-import']['ar-eg'] = "يستورد";
@@ -1811,6 +1878,7 @@ $text['button-import']['ja-jp'] = "輸入";
 $text['button-import']['ko-kr'] = "수입";
 
 $text['button-qr_code']['en-us'] = "QR Code";
+$text['button-qr_code']['vi-vn'] = "Mã QR";
 $text['button-qr_code']['ka-ge'] = "QR კოდი";
 $text['button-qr_code']['en-gb'] = "QR Code";
 $text['button-qr_code']['ar-eg'] = "رمز الاستجابة السريعة";
@@ -1838,6 +1906,7 @@ $text['button-qr_code']['ja-jp'] = "QRコード";
 $text['button-qr_code']['ko-kr'] = "QR 코드";
 
 $text['button-toggle']['en-us'] = "Toggle";
+$text['button-toggle']['vi-vn'] = "Chuyển trạng thái";
 $text['button-toggle']['ka-ge'] = "გადართვა";
 $text['button-toggle']['en-gb'] = "Toggle";
 $text['button-toggle']['ar-eg'] = "تبديل";
@@ -1865,6 +1934,7 @@ $text['button-toggle']['ja-jp'] = "トグル";
 $text['button-toggle']['ko-kr'] = "비녀장";
 
 $text['button-check_all']['en-us'] = "Check All";
+$text['button-check_all']['vi-vn'] = "Chọn tất cả";
 $text['button-check_all']['ka-ge'] = "ყველას ჩართვა";
 $text['button-check_all']['en-gb'] = "Check All";
 $text['button-check_all']['ar-eg'] = "تحقق من الكل";
@@ -1892,6 +1962,7 @@ $text['button-check_all']['ja-jp'] = "すべてチェック";
 $text['button-check_all']['ko-kr'] = "모두 확인";
 
 $text['button-check_none']['en-us'] = "Check None";
+$text['button-check_none']['vi-vn'] = "Bỏ chọn tất cả";
 $text['button-check_none']['ka-ge'] = "ყველას გამორთვა";
 $text['button-check_none']['en-gb'] = "Check None";
 $text['button-check_none']['ar-eg'] = "حدد لا شيء";
@@ -1919,6 +1990,7 @@ $text['button-check_none']['ja-jp'] = "チェックなし";
 $text['button-check_none']['ko-kr'] = "없음 선택";
 
 $text['button-install']['en-us'] = "Install";
+$text['button-install']['vi-vn'] = "Cài đặt";
 $text['button-install']['ka-ge'] = "დაყენება";
 $text['button-install']['en-gb'] = "Install";
 $text['button-install']['ar-eg'] = "ثَبَّتَ";
@@ -1946,6 +2018,7 @@ $text['button-install']['ja-jp'] = "インストール";
 $text['button-install']['ko-kr'] = "설치하다";
 
 $text['button-upgrade']['en-us'] = "Upgrade";
+$text['button-upgrade']['vi-vn'] = "Nâng cấp";
 $text['button-upgrade']['ka-ge'] = "ვერსიის აწევა";
 $text['button-upgrade']['en-gb'] = "Upgrade";
 $text['button-upgrade']['ar-eg'] = "يرقي";
@@ -1973,6 +2046,7 @@ $text['button-upgrade']['ja-jp'] = "アップグレード";
 $text['button-upgrade']['ko-kr'] = "업그레이드";
 
 $text['button-remove']['en-us'] = "Remove";
+$text['button-remove']['vi-vn'] = "Gỡ bỏ";
 $text['button-remove']['ka-ge'] = "წაშლა";
 $text['button-remove']['en-gb'] = "Remove";
 $text['button-remove']['ar-eg'] = "يزيل";
@@ -2000,6 +2074,7 @@ $text['button-remove']['ja-jp'] = "削除";
 $text['button-remove']['ko-kr'] = "제거하다";
 
 $text['button-continue']['en-us'] = "Continue";
+$text['button-continue']['vi-vn'] = "Tiếp tục";
 $text['button-continue']['ka-ge'] = "გაგრძელება";
 $text['button-continue']['en-gb'] = "Continue";
 $text['button-continue']['ar-eg'] = "يكمل";
@@ -2027,6 +2102,7 @@ $text['button-continue']['ja-jp'] = "続く";
 $text['button-continue']['ko-kr'] = "계속하다";
 
 $text['button-cancel']['en-us'] = "Cancel";
+$text['button-cancel']['vi-vn'] = "Hủy";
 $text['button-cancel']['ka-ge'] = "გაუქმება";
 $text['button-cancel']['en-gb'] = "Cancel";
 $text['button-cancel']['ar-eg'] = "الغاء";
@@ -2054,6 +2130,7 @@ $text['button-cancel']['ja-jp'] = "キャンセル";
 $text['button-cancel']['ko-kr'] = "취소";
 
 $text['button-play']['en-us'] = "Play";
+$text['button-play']['vi-vn'] = "Phát";
 $text['button-play']['ka-ge'] = "დაკვრა";
 $text['button-play']['en-gb'] = "Play";
 $text['button-play']['ar-eg'] = "يلعب";
@@ -2081,6 +2158,7 @@ $text['button-play']['ja-jp'] = "遊ぶ";
 $text['button-play']['ko-kr'] = "놀다";
 
 $text['label-application']['en-us'] = "Application";
+$text['label-application']['vi-vn'] = "Ứng dụng";
 $text['label-application']['ka-ge'] = "აპლიკაცია";
 $text['label-application']['en-gb'] = "Application";
 $text['label-application']['ar-eg'] = "التطبيق";
@@ -2106,6 +2184,7 @@ $text['label-application']['ja-jp'] = "応用";
 $text['label-application']['ko-kr'] = "애플리케이션";
 
 $text['label-applications']['en-us'] = "Applications";
+$text['label-applications']['vi-vn'] = "Ứng dụng";
 $text['label-applications']['ka-ge'] = "აპლიკაციები";
 $text['label-applications']['en-gb'] = "Applications";
 $text['label-applications']['ar-eg'] = "التطبيقات";
@@ -2131,6 +2210,7 @@ $text['label-applications']['ja-jp'] = "アプリケーション";
 $text['label-applications']['ko-kr'] = "애플리케이션";
 
 $text['label-status']['en-us'] = "Status";
+$text['label-status']['vi-vn'] = "Trạng thái";
 $text['label-status']['ka-ge'] = "სტატუსი";
 $text['label-status']['en-gb'] = "Status";
 $text['label-status']['ar-eg'] = "حالة";
@@ -2158,6 +2238,7 @@ $text['label-status']['ja-jp'] = "スターテス";
 $text['label-status']['ko-kr'] = "상태";
 
 $text['label-installed']['en-us'] = "Installed";
+$text['label-installed']['vi-vn'] = "Đã cài đặt";
 $text['label-installed']['ka-ge'] = "დაყენებული";
 $text['label-installed']['en-gb'] = "Installed";
 $text['label-installed']['ar-eg'] = "المثبتة";
@@ -2185,6 +2266,7 @@ $text['label-installed']['ja-jp'] = "インストール済み";
 $text['label-installed']['ko-kr'] = "설치됨";
 
 $text['label-total']['en-us'] = "Total";
+$text['label-total']['vi-vn'] = "Tổng";
 $text['label-total']['ka-ge'] = "ჯამში";
 $text['label-total']['en-gb'] = "Total";
 $text['label-total']['ar-eg'] = "المجموع";
@@ -2212,6 +2294,7 @@ $text['label-total']['ja-jp'] = "合計";
 $text['label-total']['ko-kr'] = "총";
 
 $text['label-overview']['en-us'] = "Overview";
+$text['label-overview']['vi-vn'] = "Tổng quan";
 $text['label-overview']['ka-ge'] = "მიმოხილვა";
 $text['label-overview']['en-gb'] = "Overview";
 $text['label-overview']['ar-eg'] = "ملخص";
@@ -2239,6 +2322,7 @@ $text['label-overview']['ja-jp'] = "概要";
 $text['label-overview']['ko-kr'] = "개요";
 
 $text['label-summary']['en-us'] = "Summary";
+$text['label-summary']['vi-vn'] = "Tóm tắt";
 $text['label-summary']['ka-ge'] = "შეჯამება";
 $text['label-summary']['en-gb'] = "Summary";
 $text['label-summary']['ar-eg'] = "ملخص";
@@ -2266,6 +2350,7 @@ $text['label-summary']['ja-jp'] = "まとめ";
 $text['label-summary']['ko-kr'] = "요약";
 
 $text['label-import']['en-us'] = "Import";
+$text['label-import']['vi-vn'] = "Nhập";
 $text['label-import']['ka-ge'] = "იმპორტი";
 $text['label-import']['en-gb'] = "Import";
 $text['label-import']['ar-eg'] = "يستورد";
@@ -2293,6 +2378,7 @@ $text['label-import']['ja-jp'] = "輸入";
 $text['label-import']['ko-kr'] = "수입";
 
 $text['description-import']['en-us'] = "Upload delimited data to add multiple records.";
+$text['description-import']['vi-vn'] = "Tải dữ liệu có dấu phân tách lên để thêm nhiều bản ghi.";
 $text['description-import']['ka-ge'] = "ატვირთეთ მონაცემები გამყოფით ერთზე მეტი ჩანაწერის დასამატებლად";
 $text['description-import']['en-gb'] = "Upload delimited data to add multiple records.";
 $text['description-import']['ar-eg'] = "تحميل البيانات المحددة لإضافة سجلات متعددة.";
@@ -2320,6 +2406,7 @@ $text['description-import']['ja-jp'] = "複数のレコードを追加するに�
 $text['description-import']['ko-kr'] = "구분된 데이터를 업로드하여 여러 레코드를 추가합니다.";
 
 $text['label-import_data']['en-us'] = "Data";
+$text['label-import_data']['vi-vn'] = "Dữ liệu";
 $text['label-import_data']['ka-ge'] = "მონაცემები";
 $text['label-import_data']['en-gb'] = "Data";
 $text['label-import_data']['ar-eg'] = "بيانات";
@@ -2347,6 +2434,7 @@ $text['label-import_data']['ja-jp'] = "データ";
 $text['label-import_data']['ko-kr'] = "데이터";
 
 $text['label-import_delimiter']['en-us'] = "Delimiter";
+$text['label-import_delimiter']['vi-vn'] = "Dấu phân tách";
 $text['label-import_delimiter']['ka-ge'] = "გამყოფი";
 $text['label-import_delimiter']['en-gb'] = "Delimiter";
 $text['label-import_delimiter']['ar-eg'] = "محدد";
@@ -2374,6 +2462,7 @@ $text['label-import_delimiter']['ja-jp'] = "デリミタ";
 $text['label-import_delimiter']['ko-kr'] = "구분자";
 
 $text['label-import_enclosure']['en-us'] = "Enclosure";
+$text['label-import_enclosure']['vi-vn'] = "Ký tự bao";
 $text['label-import_enclosure']['ka-ge'] = "გარსაცმი";
 $text['label-import_enclosure']['en-gb'] = "Enclosure";
 $text['label-import_enclosure']['ar-eg'] = "نسيج";
@@ -2401,6 +2490,7 @@ $text['label-import_enclosure']['ja-jp'] = "囲い";
 $text['label-import_enclosure']['ko-kr'] = "울로 둘러싼 땅";
 
 $text['label-import_file_upload']['en-us'] = "File to Upload";
+$text['label-import_file_upload']['vi-vn'] = "File tải lên";
 $text['label-import_file_upload']['ka-ge'] = "ასატვირთი ფაილი";
 $text['label-import_file_upload']['en-gb'] = "File to Upload";
 $text['label-import_file_upload']['ar-eg'] = "ملف للتحميل";
@@ -2428,6 +2518,7 @@ $text['label-import_file_upload']['ja-jp'] = "アップロードするファイ�
 $text['label-import_file_upload']['ko-kr'] = "업로드할 파일";
 
 $text['label-from_row']['en-us'] = "From Row";
+$text['label-from_row']['vi-vn'] = "Từ dòng";
 $text['label-from_row']['en-gb'] = "From Row";
 $text['label-from_row']['ar-eg'] = "من صف";
 $text['label-from_row']['de-at'] = "Von Reihe";
@@ -2455,6 +2546,7 @@ $text['label-from_row']['ja-jp'] = "行から";
 $text['label-from_row']['ko-kr'] = "행에서";
 
 $text['description-from_row']['en-us'] = "Start importing the data from this row.";
+$text['description-from_row']['vi-vn'] = "Bắt đầu nhập dữ liệu từ dòng này.";
 $text['description-from_row']['en-gb'] = "Start importing the data from this row.";
 $text['description-from_row']['ar-eg'] = "ابدأ في استيراد البيانات من هذا الصف.";
 $text['description-from_row']['de-at'] = "Starten Sie den Import der Daten aus dieser Zeile.";
@@ -2482,6 +2574,7 @@ $text['description-from_row']['ja-jp'] = "この行からデータのインポ�
 $text['description-from_row']['ko-kr'] = "이 행에서 데이터 가져오기를 시작합니다.";
 
 $text['label-toggle_line_numbers']['en-us'] = "Toggle Line Numbers";
+$text['label-toggle_line_numbers']['vi-vn'] = "Bật/tắt số dòng";
 $text['label-toggle_line_numbers']['en-gb'] = "Toggle Line Numbers";
 $text['label-toggle_line_numbers']['ar-eg'] = "تبديل أرقام الخط";
 $text['label-toggle_line_numbers']['de-at'] = "Schalten Sie die Zeilennummern um";
@@ -2509,6 +2602,7 @@ $text['label-toggle_line_numbers']['ja-jp'] = "行番号を切り替える";
 $text['label-toggle_line_numbers']['ko-kr'] = "줄 번호 전환";
 
 $text['label-toggle_invisibles']['en-us'] = "Toggle Invisibles";
+$text['label-toggle_invisibles']['vi-vn'] = "Bật/tắt ký tự ẩn";
 $text['label-toggle_invisibles']['en-gb'] = "Toggle Invisibles";
 $text['label-toggle_invisibles']['ar-eg'] = "تبديل الأحرف غير المرئية";
 $text['label-toggle_invisibles']['de-at'] = "Unsichtbare Zeichen umschalten";
@@ -2536,6 +2630,7 @@ $text['label-toggle_invisibles']['ja-jp'] = "非表示文字の切り替え";
 $text['label-toggle_invisibles']['ko-kr'] = "보이지 않는 문자 전환";
 
 $text['label-toggle_indent_guides']['en-us'] = "Toggle Indent Guides";
+$text['label-toggle_indent_guides']['vi-vn'] = "Bật/tắt đường căn lề";
 $text['label-toggle_indent_guides']['en-gb'] = "Toggle Indent Guides";
 $text['label-toggle_indent_guides']['ar-eg'] = "تبديل أدلة المسافة البادئة";
 $text['label-toggle_indent_guides']['de-at'] = "Schalten Sie die Einzugshilfen um";
@@ -2563,6 +2658,7 @@ $text['label-toggle_indent_guides']['ja-jp'] = "インデントガイドの切�
 $text['label-toggle_indent_guides']['ko-kr'] = "들여쓰기 안내선 전환";
 
 $text['label-find_replace']['en-us'] = "Find/Replace [Ctrl+H]";
+$text['label-find_replace']['vi-vn'] = "Tìm/Thay thế [Ctrl+H]";
 $text['label-find_replace']['en-gb'] = "Find/Replace [Ctrl+H]";
 $text['label-find_replace']['ar-eg'] = "بحث / استبدال";
 $text['label-find_replace']['de-at'] = "Ersatz finden";
@@ -2590,6 +2686,7 @@ $text['label-find_replace']['ja-jp'] = "検索/置換";
 $text['label-find_replace']['ko-kr'] = "찾기 / 바꾸기";
 
 $text['label-go_to_line']['en-us'] = "Go To Line";
+$text['label-go_to_line']['vi-vn'] = "Đi đến dòng";
 $text['label-go_to_line']['en-gb'] = "Go To Line";
 $text['label-go_to_line']['ar-eg'] = "انتقل إلى الخط";
 $text['label-go_to_line']['de-at'] = "Gehe zur Zeile";
@@ -2618,6 +2715,7 @@ $text['label-go_to_line']['ko-kr'] = "라인으로 이동";
 
 
 $text['description-import_data']['en-us'] = "Copy and paste the comma delimitted data into the text area to begin the import.";
+$text['description-import_data']['vi-vn'] = "Sao chép và dán dữ liệu được phân tách bằng dấu phẩy vào vùng văn bản để bắt đầu nhập.";
 $text['description-import_data']['ka-ge'] = "იმპორტის დასაწყებად დააკოპირეთ და ჩასვით მძიმით გამოყოფილი მონაცემები ტექსტურ ალაგში.";
 $text['description-import_data']['en-gb'] = "Copy and paste the comma delimitted data into the text area to begin the import.";
 $text['description-import_data']['ar-eg'] = "انسخ والصق البيانات المحددة بفاصلة في منطقة النص لبدء الاستيراد.";
@@ -2645,6 +2743,7 @@ $text['description-import_data']['ja-jp'] = "カンマ区切りのデータを�
 $text['description-import_data']['ko-kr'] = "쉼표로 구분된 데이터를 복사하여 텍스트 영역에 붙여넣어 가져오기를 시작합니다.";
 
 $text['description-import_delimiter']['en-us'] = "Select the delimiter (comma or pipe).";
+$text['description-import_delimiter']['vi-vn'] = "Chọn dấu phân tách (dấu phẩy hoặc dấu gạch đứng).";
 $text['description-import_delimiter']['ka-ge'] = "აირჩიე გამყოფი (მძიმე, ან სწორი ხაზი(pipe))";
 $text['description-import_delimiter']['en-gb'] = "Select the delimiter (comma or pipe).";
 $text['description-import_delimiter']['ar-eg'] = "حدد المحدد (فاصلة أو أنبوب).";
@@ -2672,6 +2771,7 @@ $text['description-import_delimiter']['ja-jp'] = "区切り文字(カンマま�
 $text['description-import_delimiter']['ko-kr'] = "구분 기호(쉼표 또는 파이프)를 선택합니다.";
 
 $text['description-import_enclosure']['en-us'] = "Select the enclosure of text (double-quotes or nothing).";
+$text['description-import_enclosure']['vi-vn'] = "Chọn ký tự bao văn bản (dấu ngoặc kép hoặc không dùng).";
 $text['description-import_enclosure']['ka-ge'] = "აირჩიეთ ტექსტის გარსაცმი (ორმაგი ბრჭყალი, ან არაფერი)";
 $text['description-import_enclosure']['en-gb'] = "Select the enclosure of text (double-quotes or nothing).";
 $text['description-import_enclosure']['ar-eg'] = "حدد إحاطة النص (علامات الاقتباس المزدوجة أو لا شيء).";
@@ -2699,6 +2799,7 @@ $text['description-import_enclosure']['ja-jp'] = "テキストの囲み（二重
 $text['description-import_enclosure']['ko-kr'] = "텍스트 둘러싸기를 선택합니다(큰따옴표 또는 없음).";
 
 $text['header-export']['en-us'] = "Export";
+$text['header-export']['vi-vn'] = "Xuất";
 $text['header-export']['ka-ge'] = "ექსპორტი";
 $text['header-export']['en-gb'] = "Export";
 $text['header-export']['ar-eg'] = "يصدّر";
@@ -2726,6 +2827,7 @@ $text['header-export']['ja-jp'] = "輸出";
 $text['header-export']['ko-kr'] = "내보내다";
 
 $text['option-last_hour']['en-us'] = "Last Hour";
+$text['option-last_hour']['vi-vn'] = "Giờ trước";
 $text['option-last_hour']['ka-ge'] = "ბოლო საათში";
 $text['option-last_hour']['en-gb'] = "Last Hour";
 $text['option-last_hour']['ar-eg'] = "الساعة الأخيرة";
@@ -2753,6 +2855,7 @@ $text['option-last_hour']['ja-jp'] = "最後の時間";
 $text['option-last_hour']['ko-kr'] = "지난 시간";
 
 $text['option-today']['en-us'] = "Today";
+$text['option-today']['vi-vn'] = "Hôm nay";
 $text['option-today']['ka-ge'] = "დღეს";
 $text['option-today']['en-gb'] = "Today";
 $text['option-today']['ar-eg'] = "اليوم";
@@ -2780,6 +2883,7 @@ $text['option-today']['ja-jp'] = "今日";
 $text['option-today']['ko-kr'] = "오늘";
 
 $text['option-yesterday']['en-us'] = "Yesterday";
+$text['option-yesterday']['vi-vn'] = "Hôm qua";
 $text['option-yesterday']['ka-ge'] = "გუშინ";
 $text['option-yesterday']['en-gb'] = "Yesterday";
 $text['option-yesterday']['ar-eg'] = "أمس";
@@ -2807,6 +2911,7 @@ $text['option-yesterday']['ja-jp'] = "昨日";
 $text['option-yesterday']['ko-kr'] = "어제";
 
 $text['option-this_week']['en-us'] = "This Week";
+$text['option-this_week']['vi-vn'] = "Tuần này";
 $text['option-this_week']['ka-ge'] = "ამ კვირაში";
 $text['option-this_week']['en-gb'] = "This Week";
 $text['option-this_week']['ar-eg'] = "هذا الاسبوع";
@@ -2834,6 +2939,7 @@ $text['option-this_week']['ja-jp'] = "今週";
 $text['option-this_week']['ko-kr'] = "이번 주";
 
 $text['option-last_seven_days']['en-us'] = "Last 7 Days";
+$text['option-last_seven_days']['vi-vn'] = "7 ngày qua";
 $text['option-last_seven_days']['ka-ge'] = "ბოლო შვიდ დღეში";
 $text['option-last_seven_days']['en-gb'] = "Last 7 Days";
 $text['option-last_seven_days']['ar-eg'] = "اخر 7 ايام";
@@ -2861,6 +2967,7 @@ $text['option-last_seven_days']['ja-jp'] = "過去 7 日間";
 $text['option-last_seven_days']['ko-kr'] = "지난 7일";
 
 $text['option-this_month']['en-us'] = "This Month";
+$text['option-this_month']['vi-vn'] = "Tháng này";
 $text['option-this_month']['ka-ge'] = "ამ თვეში";
 $text['option-this_month']['en-gb'] = "This Month";
 $text['option-this_month']['ar-eg'] = "هذا الشهر";
@@ -2888,6 +2995,7 @@ $text['option-this_month']['ja-jp'] = "今月";
 $text['option-this_month']['ko-kr'] = "이번 달";
 
 $text['option-this_year']['en-us'] = "This Year";
+$text['option-this_year']['vi-vn'] = "Năm nay";
 $text['option-this_year']['ka-ge'] = "წელს";
 $text['option-this_year']['en-gb'] = "This Year";
 $text['option-this_year']['ar-eg'] = "هذا العام";
@@ -2915,6 +3023,7 @@ $text['option-this_year']['ja-jp'] = "ことし";
 $text['option-this_year']['ko-kr'] = "올해";
 
 $text['option-hour']['en-us'] = "Hour";
+$text['option-hour']['vi-vn'] = "Giờ";
 $text['option-hour']['ka-ge'] = "საათი";
 $text['option-hour']['en-gb'] = "Hour";
 $text['option-hour']['ar-eg'] = "ساعة";
@@ -2942,6 +3051,7 @@ $text['option-hour']['ja-jp'] = "時間";
 $text['option-hour']['ko-kr'] = "시간";
 
 $text['option-day']['en-us'] = "Day";
+$text['option-day']['vi-vn'] = "Ngày";
 $text['option-day']['ka-ge'] = "დღე";
 $text['option-day']['en-gb'] = "Day";
 $text['option-day']['ar-eg'] = "يوم";
@@ -2969,6 +3079,7 @@ $text['option-day']['ja-jp'] = "日";
 $text['option-day']['ko-kr'] = "낮";
 
 $text['option-week']['en-us'] = "Week";
+$text['option-week']['vi-vn'] = "Tuần";
 $text['option-week']['ka-ge'] = "კვირა";
 $text['option-week']['en-gb'] = "Week";
 $text['option-week']['ar-eg'] = "أسبوع";
@@ -2996,6 +3107,7 @@ $text['option-week']['ja-jp'] = "週";
 $text['option-week']['ko-kr'] = "주";
 
 $text['option-month']['en-us'] = "Month";
+$text['option-month']['vi-vn'] = "Tháng";
 $text['option-month']['ka-ge'] = "თვე";
 $text['option-month']['en-gb'] = "Month";
 $text['option-month']['ar-eg'] = "شهر";
@@ -3023,6 +3135,7 @@ $text['option-month']['ja-jp'] = "月";
 $text['option-month']['ko-kr'] = "월";
 
 $text['option-year']['en-us'] = "Year";
+$text['option-year']['vi-vn'] = "Năm";
 $text['option-year']['ka-ge'] = "წელი";
 $text['option-year']['en-gb'] = "Year";
 $text['option-year']['ar-eg'] = "سنة";
@@ -3050,6 +3163,7 @@ $text['option-year']['ja-jp'] = "年";
 $text['option-year']['ko-kr'] = "년도";
 
 $text['option-default']['en-us'] = "Default";
+$text['option-default']['vi-vn'] = "Mặc định";
 $text['option-default']['ka-ge'] = "ნაგულისხმევი";
 $text['option-default']['en-gb'] = "Default";
 $text['option-default']['ar-eg'] = "تقصير";
@@ -3077,6 +3191,7 @@ $text['option-default']['ja-jp'] = "デフォルト";
 $text['option-default']['ko-kr'] = "기본";
 
 $text['label-preset']['en-us'] = "Quick Select";
+$text['label-preset']['vi-vn'] = "Chọn nhanh";
 $text['label-preset']['ka-ge'] = "სწრაფი არჩევა";
 $text['label-preset']['en-gb'] = "Quick Select";
 $text['label-preset']['ar-eg'] = "حدد مسرعا";
@@ -3104,6 +3219,7 @@ $text['label-preset']['ja-jp'] = "クイック選択";
 $text['label-preset']['ko-kr'] = "빠른 선택";
 
 $text['label-start_date_time']['en-us'] = "Start Date/Time";
+$text['label-start_date_time']['vi-vn'] = "Ngày/giờ bắt đầu";
 $text['label-start_date_time']['ka-ge'] = "დაწყების თარიღი/დრო";
 $text['label-start_date_time']['en-gb'] = "Start Date/Time";
 $text['label-start_date_time']['ar-eg'] = "تاريخ / وقت البدء";
@@ -3131,6 +3247,7 @@ $text['label-start_date_time']['ja-jp'] = "開始日時";
 $text['label-start_date_time']['ko-kr'] = "시작 날짜/시간";
 
 $text['label-start']['en-us'] = "Start";
+$text['label-start']['vi-vn'] = "Bắt đầu";
 $text['label-start']['ka-ge'] = "დაწყება";
 $text['label-start']['en-gb'] = "Start";
 $text['label-start']['ar-eg'] = "يبدأ";
@@ -3158,6 +3275,7 @@ $text['label-start']['ja-jp'] = "始める";
 $text['label-start']['ko-kr'] = "시작";
 
 $text['label-extension']['en-us'] = "Extension";
+$text['label-extension']['vi-vn'] = "Máy nhánh";
 $text['label-extension']['ka-ge'] = "გაფართოება";
 $text['label-extension']['en-gb'] = "Extension";
 $text['label-extension']['ar-eg'] = "امتداد";
@@ -3185,6 +3303,7 @@ $text['label-extension']['ja-jp'] = "拡大";
 $text['label-extension']['ko-kr'] = "확대";
 
 $text['label-end_stamp']['en-us'] = "End";
+$text['label-end_stamp']['vi-vn'] = "Kết thúc";
 $text['label-end_stamp']['ka-ge'] = "დასასრული";
 $text['label-end_stamp']['en-gb'] = "End";
 $text['label-end_stamp']['ar-eg'] = "نهاية";
@@ -3212,6 +3331,7 @@ $text['label-end_stamp']['ja-jp'] = "終わり";
 $text['label-end_stamp']['ko-kr'] = "끝";
 
 $text['label-end_range']['en-us'] = "End Range";
+$text['label-end_range']['vi-vn'] = "Cuối khoảng";
 $text['label-end_range']['ka-ge'] = "შუალედის ბოლო";
 $text['label-end_range']['en-gb'] = "End Range";
 $text['label-end_range']['ar-eg'] = "نطاق النهاية";
@@ -3239,6 +3359,7 @@ $text['label-end_range']['ja-jp'] = "終了範囲";
 $text['label-end_range']['ko-kr'] = "종료 범위";
 
 $text['label-end_date_time']['en-us'] = "End Date/Time";
+$text['label-end_date_time']['vi-vn'] = "Ngày/giờ kết thúc";
 $text['label-end_date_time']['ka-ge'] = "დასრულების თარიღი/დრო";
 $text['label-end_date_time']['en-gb'] = "End Date/Time";
 $text['label-end_date_time']['ar-eg'] = "تاريخ / وقت الانتهاء";
@@ -3266,6 +3387,7 @@ $text['label-end_date_time']['ja-jp'] = "終了日時";
 $text['label-end_date_time']['ko-kr'] = "종료 날짜/시간";
 
 $text['label-date']['en-us'] = "Date";
+$text['label-date']['vi-vn'] = "Ngày";
 $text['label-date']['ka-ge'] = "თარიღი";
 $text['label-date']['en-gb'] = "Date";
 $text['label-date']['ar-eg'] = "وقت";
@@ -3293,6 +3415,7 @@ $text['label-date']['ja-jp'] = "日にち";
 $text['label-date']['ko-kr'] = "날짜";
 
 $text['label-time']['en-us'] = "Time";
+$text['label-time']['vi-vn'] = "Thời gian";
 $text['label-time']['ka-ge'] = "დრო";
 $text['label-time']['en-gb'] = "Time";
 $text['label-time']['ar-eg'] = "وقت";
@@ -3320,6 +3443,7 @@ $text['label-time']['ja-jp'] = "時間";
 $text['label-time']['ko-kr'] = "시간";
 
 $text['label-name']['en-us'] = "Name";
+$text['label-name']['vi-vn'] = "Tên";
 $text['label-name']['ka-ge'] = "სახელი";
 $text['label-name']['en-gb'] = "Name";
 $text['label-name']['ar-eg'] = "اسم";
@@ -3347,6 +3471,7 @@ $text['label-name']['ja-jp'] = "名前";
 $text['label-name']['ko-kr'] = "이름";
 
 $text['label-username']['en-us'] = "Username";
+$text['label-username']['vi-vn'] = "Tên đăng nhập";
 $text['label-username']['ka-ge'] = "მომხმარებლის სახელი";
 $text['label-username']['en-gb'] = "Username";
 $text['label-username']['ar-eg'] = "اسم المستخدم";
@@ -3374,6 +3499,7 @@ $text['label-username']['ja-jp'] = "ユーザー名";
 $text['label-username']['ko-kr'] = "사용자 이름";
 
 $text['label-description']['en-us'] = "Description";
+$text['label-description']['vi-vn'] = "Mô tả";
 $text['label-description']['ka-ge'] = "აღწერა";
 $text['label-description']['en-gb'] = "Description";
 $text['label-description']['ar-eg'] = "وصف";
@@ -3401,6 +3527,7 @@ $text['label-description']['ja-jp'] = "説明";
 $text['label-description']['ko-kr'] = "설명";
 
 $text['label-value']['en-us'] = "Value";
+$text['label-value']['vi-vn'] = "Giá trị";
 $text['label-value']['ka-ge'] = "მნიშვნელობა";
 $text['label-value']['en-gb'] = "Value";
 $text['label-value']['ar-eg'] = "قيمة";
@@ -3428,6 +3555,7 @@ $text['label-value']['ja-jp'] = "価値";
 $text['label-value']['ko-kr'] = "값";
 
 $text['label-password']['en-us'] = "Password";
+$text['label-password']['vi-vn'] = "Mật khẩu";
 $text['label-password']['ka-ge'] = "პაროლი";
 $text['label-password']['en-gb'] = "Password";
 $text['label-password']['ar-eg'] = "كلمة السر";
@@ -3455,6 +3583,7 @@ $text['label-password']['ja-jp'] = "パスワード";
 $text['label-password']['ko-kr'] = "비밀번호";
 
 $text['label-type']['en-us'] = "Type";
+$text['label-type']['vi-vn'] = "Loại";
 $text['label-type']['ka-ge'] = "ტიპი";
 $text['label-type']['en-gb'] = "Type";
 $text['label-type']['ar-eg'] = "يكتب";
@@ -3482,6 +3611,7 @@ $text['label-type']['ja-jp'] = "タイプ";
 $text['label-type']['ko-kr'] = "유형";
 
 $text['label-subtype']['en-us'] = "Subtype";
+$text['label-subtype']['vi-vn'] = "Loại phụ";
 $text['label-subtype']['ka-ge'] = "ქვეტიპი";
 $text['label-subtype']['en-gb'] = "Subtype";
 $text['label-subtype']['ar-eg'] = "النوع الفرعي";
@@ -3509,6 +3639,7 @@ $text['label-subtype']['ja-jp'] = "サブタイプ";
 $text['label-subtype']['ko-kr'] = "하위 유형";
 
 $text['label-remaining']['en-us'] = "Remaining";
+$text['label-remaining']['vi-vn'] = "Còn lại";
 $text['label-remaining']['ka-ge'] = "დარჩენილი";
 $text['label-remaining']['en-gb'] = "Remaining";
 $text['label-remaining']['ar-eg'] = "متبقي";
@@ -3536,6 +3667,7 @@ $text['label-remaining']['ja-jp'] = "残り";
 $text['label-remaining']['ko-kr'] = "남은";
 
 $text['label-category']['en-us'] = "Category";
+$text['label-category']['vi-vn'] = "Danh mục";
 $text['label-category']['ka-ge'] = "კატეგორია";
 $text['label-category']['en-gb'] = "Category";
 $text['label-category']['ar-eg'] = "فئة";
@@ -3563,6 +3695,7 @@ $text['label-category']['ja-jp'] = "カテゴリー";
 $text['label-category']['ko-kr'] = "범주";
 
 $text['label-subcategory']['en-us'] = "Subcategory";
+$text['label-subcategory']['vi-vn'] = "Danh mục con";
 $text['label-subcategory']['ka-ge'] = "ქვეკატეგორია";
 $text['label-subcategory']['en-gb'] = "Subcategory";
 $text['label-subcategory']['ar-eg'] = "تصنيف فرعي";
@@ -3590,6 +3723,7 @@ $text['label-subcategory']['ja-jp'] = "サブカテゴリ";
 $text['label-subcategory']['ko-kr'] = "하위 카테고리";
 
 $text['label-true']['en-us'] = "True";
+$text['label-true']['vi-vn'] = "Đúng";
 $text['label-true']['ka-ge'] = "ჭეშმარიტი";
 $text['label-true']['en-gb'] = "True";
 $text['label-true']['ar-eg'] = "صحيح";
@@ -3617,6 +3751,7 @@ $text['label-true']['ja-jp'] = "真実";
 $text['label-true']['ko-kr'] = "진실";
 
 $text['label-false']['en-us'] = "False";
+$text['label-false']['vi-vn'] = "Sai";
 $text['label-false']['ka-ge'] = "ცრუ";
 $text['label-false']['en-gb'] = "False";
 $text['label-false']['ar-eg'] = "خاطئة";
@@ -3644,6 +3779,7 @@ $text['label-false']['ja-jp'] = "間違い";
 $text['label-false']['ko-kr'] = "거짓";
 
 $text['label-before']['en-us'] = "Before";
+$text['label-before']['vi-vn'] = "Trước";
 $text['label-before']['ka-ge'] = "სანამდე";
 $text['label-before']['en-gb'] = "Before";
 $text['label-before']['ar-eg'] = "قبل";
@@ -3671,6 +3807,7 @@ $text['label-before']['ja-jp'] = "前";
 $text['label-before']['ko-kr'] = "전에";
 
 $text['label-after']['en-us'] = "After";
+$text['label-after']['vi-vn'] = "Sau";
 $text['label-after']['ka-ge'] = "შემდეგ";
 $text['label-after']['en-gb'] = "After";
 $text['label-after']['ar-eg'] = "بعد، بعدما";
@@ -3698,6 +3835,7 @@ $text['label-after']['ja-jp'] = "後";
 $text['label-after']['ko-kr'] = "후에";
 
 $text['label-enable']['en-us'] = "Enable";
+$text['label-enable']['vi-vn'] = "Bật";
 $text['label-enable']['ka-ge'] = "ჩართვა";
 $text['label-enable']['en-gb'] = "Enable";
 $text['label-enable']['ar-eg'] = "يُمكَِن";
@@ -3725,6 +3863,7 @@ $text['label-enable']['ja-jp'] = "有効";
 $text['label-enable']['ko-kr'] = "할 수 있게 하다";
 
 $text['label-enabled']['en-us'] = "Enabled";
+$text['label-enabled']['vi-vn'] = "Đã bật";
 $text['label-enabled']['ka-ge'] = "ჩართულია";
 $text['label-enabled']['en-gb'] = "Enabled";
 $text['label-enabled']['ar-eg'] = "ممكن";
@@ -3752,6 +3891,7 @@ $text['label-enabled']['ja-jp'] = "有効";
 $text['label-enabled']['ko-kr'] = "사용";
 
 $text['label-disable']['en-us'] = "Disable";
+$text['label-disable']['vi-vn'] = "Tắt";
 $text['label-disable']['ka-ge'] = "გამორთვა";
 $text['label-disable']['en-gb'] = "Disable";
 $text['label-disable']['ar-eg'] = "إبطال";
@@ -3779,6 +3919,7 @@ $text['label-disable']['ja-jp'] = "無効にする";
 $text['label-disable']['ko-kr'] = "장애를 입히다";
 
 $text['label-disabled']['en-us'] = "Disabled";
+$text['label-disabled']['vi-vn'] = "Đã tắt";
 $text['label-disabled']['ka-ge'] = "გამორთულია";
 $text['label-disabled']['en-gb'] = "Disabled";
 $text['label-disabled']['ar-eg'] = "عاجز";
@@ -3806,6 +3947,7 @@ $text['label-disabled']['ja-jp'] = "無効";
 $text['label-disabled']['ko-kr'] = "장애가 있는";
 
 $text['label-domain']['en-us'] = "Domain";
+$text['label-domain']['vi-vn'] = "Tên miền";
 $text['label-domain']['ka-ge'] = "დომენი";
 $text['label-domain']['en-gb'] = "Domain";
 $text['label-domain']['ar-eg'] = "النطاق";
@@ -3833,6 +3975,7 @@ $text['label-domain']['ja-jp'] = "ドメイン";
 $text['label-domain']['ko-kr'] = "도메인";
 
 $text['label-domain_uuid']['en-us'] = "Domain";
+$text['label-domain_uuid']['vi-vn'] = "Tên miền";
 $text['label-domain_uuid']['ka-ge'] = "დომენი";
 $text['label-domain_uuid']['en-gb'] = "Domain";
 $text['label-domain_uuid']['ar-eg'] = "النطاق";
@@ -3860,6 +4003,7 @@ $text['label-domain_uuid']['ja-jp'] = "ドメイン";
 $text['label-domain_uuid']['ko-kr'] = "도메인";
 
 $text['label-global']['en-us'] = "Global";
+$text['label-global']['vi-vn'] = "Toàn cục";
 $text['label-global']['ka-ge'] = "გლობალური";
 $text['label-global']['en-gb'] = "Global";
 $text['label-global']['ar-eg'] = "عالمي";
@@ -3887,6 +4031,7 @@ $text['label-global']['ja-jp'] = "グローバル";
 $text['label-global']['ko-kr'] = "글로벌";
 
 $text['label-settings']['en-us'] = "Settings";
+$text['label-settings']['vi-vn'] = "Cài đặt";
 $text['label-settings']['ka-ge'] = "მორგება";
 $text['label-settings']['en-gb'] = "Settings";
 $text['label-settings']['ar-eg'] = "إعدادات";
@@ -3914,6 +4059,7 @@ $text['label-settings']['ja-jp'] = "設定";
 $text['label-settings']['ko-kr'] = "설정";
 
 $text['label-none']['en-us'] = "None";
+$text['label-none']['vi-vn'] = "Không có";
 $text['label-none']['ka-ge'] = "არცერთი";
 $text['label-none']['en-gb'] = "None";
 $text['label-none']['ar-eg'] = "لا أحد";
@@ -3941,6 +4087,7 @@ $text['label-none']['ja-jp'] = "なし";
 $text['label-none']['ko-kr'] = "없음";
 
 $text['label-select']['en-us'] = "Select";
+$text['label-select']['vi-vn'] = "Chọn";
 $text['label-select']['ka-ge'] = "არჩევა";
 $text['label-select']['en-gb'] = "Select";
 $text['label-select']['ar-eg'] = "يختار";
@@ -3968,6 +4115,7 @@ $text['label-select']['ja-jp'] = "選択する";
 $text['label-select']['ko-kr'] = "선택하다";
 
 $text['label-search']['en-us'] = "Search...";
+$text['label-search']['vi-vn'] = "Tìm kiếm...";
 $text['label-search']['ka-ge'] = "ძიება...";
 $text['label-search']['en-gb'] = "Search...";
 $text['label-search']['ar-eg'] = "يبحث...";
@@ -3995,6 +4143,7 @@ $text['label-search']['ja-jp'] = "検索...";
 $text['label-search']['ko-kr'] = "찾다...";
 
 $text['label-order']['en-us'] = "Order";
+$text['label-order']['vi-vn'] = "Thứ tự";
 $text['label-order']['ka-ge'] = "მიმდევრობა";
 $text['label-order']['en-gb'] = "Order";
 $text['label-order']['ar-eg'] = "طلب";
@@ -4022,6 +4171,7 @@ $text['label-order']['ja-jp'] = "注文";
 $text['label-order']['ko-kr'] = "주문하다";
 
 $text['label-level']['en-us'] = "Level";
+$text['label-level']['vi-vn'] = "Cấp";
 $text['label-level']['ka-ge'] = "დონე";
 $text['label-level']['en-gb'] = "Level";
 $text['label-level']['ar-eg'] = "مستوى";
@@ -4049,6 +4199,7 @@ $text['label-level']['ja-jp'] = "レベル";
 $text['label-level']['ko-kr'] = "수준";
 
 $text['label-add']['en-us'] = "Add";
+$text['label-add']['vi-vn'] = "Thêm";
 $text['label-add']['ka-ge'] = "დამატება";
 $text['label-add']['en-gb'] = "Add";
 $text['label-add']['ar-eg'] = "اضافة";
@@ -4076,6 +4227,7 @@ $text['label-add']['ja-jp'] = "追加";
 $text['label-add']['ko-kr'] = "추가하다";
 
 $text['label-update']['en-us'] = "Update";
+$text['label-update']['vi-vn'] = "Cập nhật";
 $text['label-update']['ka-ge'] = "განახლება";
 $text['label-update']['en-gb'] = "Update";
 $text['label-update']['ar-eg'] = "تحديث";
@@ -4103,6 +4255,7 @@ $text['label-update']['ja-jp'] = "アップデート";
 $text['label-update']['ko-kr'] = "업데이트";
 
 $text['label-delete']['en-us'] = "Delete";
+$text['label-delete']['vi-vn'] = "Xóa";
 $text['label-delete']['ka-ge'] = "წაშლა";
 $text['label-delete']['en-gb'] = "Delete";
 $text['label-delete']['ar-eg'] = "يمسح";
@@ -4130,6 +4283,7 @@ $text['label-delete']['ja-jp'] = "消去";
 $text['label-delete']['ko-kr'] = "삭제";
 
 $text['label-actions']['en-us'] = "Actions";
+$text['label-actions']['vi-vn'] = "Thao tác";
 $text['label-actions']['ka-ge'] = "ქმედებები";
 $text['label-actions']['en-gb'] = "Actions";
 $text['label-actions']['ar-eg'] = "الأفعال";
@@ -4157,6 +4311,7 @@ $text['label-actions']['ja-jp'] = "行動";
 $text['label-actions']['ko-kr'] = "행위";
 
 $text['label-action']['en-us'] = "Action";
+$text['label-action']['vi-vn'] = "Thao tác";
 $text['label-action']['ka-ge'] = "ქმედება";
 $text['label-action']['en-gb'] = "Action";
 $text['label-action']['ar-eg'] = "الأفعال";
@@ -4184,6 +4339,7 @@ $text['label-action']['ja-jp'] = "アクション";
 $text['label-action']['ko-kr'] = "행동";
 
 $text['label-context']['en-us'] = "Context";
+$text['label-context']['vi-vn'] = "Ngữ cảnh";
 $text['label-context']['ka-ge'] = "კონტექსტი";
 $text['label-context']['en-gb'] = "Context";
 $text['label-context']['ar-eg'] = "سياق";
@@ -4211,6 +4367,7 @@ $text['label-context']['ja-jp'] = "コンテクスト";
 $text['label-context']['ko-kr'] = "문맥";
 
 $text['label-copy']['en-us'] = "Copy";
+$text['label-copy']['vi-vn'] = "Sao chép";
 $text['label-copy']['ka-ge'] = "კოპირება";
 $text['label-copy']['en-gb'] = "Copy";
 $text['label-copy']['ar-eg'] = "ينسخ";
@@ -4238,6 +4395,7 @@ $text['label-copy']['ja-jp'] = "コピー";
 $text['label-copy']['ko-kr'] = "복사";
 
 $text['label-duplicate']['en-us'] = "Duplicate";
+$text['label-duplicate']['vi-vn'] = "Trùng lặp";
 $text['label-duplicate']['ka-ge'] = "დუბლიკატი";
 $text['label-duplicate']['en-gb'] = "Duplicate";
 $text['label-duplicate']['ar-eg'] = "ينسخ";
@@ -4265,6 +4423,7 @@ $text['label-duplicate']['ja-jp'] = "複製";
 $text['label-duplicate']['ko-kr'] = "복제하다";
 
 $text['label-all']['en-us'] = "All";
+$text['label-all']['vi-vn'] = "Tất cả";
 $text['label-all']['ka-ge'] = "ყველა";
 $text['label-all']['en-gb'] = "All";
 $text['label-all']['ar-eg'] = "الكل";
@@ -4292,6 +4451,7 @@ $text['label-all']['ja-jp'] = "全て";
 $text['label-all']['ko-kr'] = "모두";
 
 $text['label-music_on_hold']['en-us'] = "Music on Hold";
+$text['label-music_on_hold']['vi-vn'] = "Nhạc chờ";
 $text['label-music_on_hold']['ka-ge'] = "დაყოვნების მუსიკა";
 $text['label-music_on_hold']['en-gb'] = "Music on Hold";
 $text['label-music_on_hold']['ar-eg'] = "موسيقى المؤجلة";
@@ -4319,6 +4479,7 @@ $text['label-music_on_hold']['ja-jp'] = "保留音";
 $text['label-music_on_hold']['ko-kr'] = "음악 보류";
 
 $text['label-recordings']['en-us'] = "Recordings";
+$text['label-recordings']['vi-vn'] = "Bản ghi âm";
 $text['label-recordings']['ka-ge'] = "ჩანაწერები";
 $text['label-recordings']['en-gb'] = "Recordings";
 $text['label-recordings']['ar-eg'] = "التسجيلات";
@@ -4346,6 +4507,7 @@ $text['label-recordings']['ja-jp'] = "録音";
 $text['label-recordings']['ko-kr'] = "녹음";
 
 $text['label-ringtones']['en-us'] = "Ringtones";
+$text['label-ringtones']['vi-vn'] = "Nhạc chuông";
 $text['label-ringtones']['ka-ge'] = "ზარის მელოდიები";
 $text['label-ringtones']['en-gb'] = "Ringtones";
 $text['label-ringtones']['ar-eg'] = "نغمات";
@@ -4373,6 +4535,7 @@ $text['label-ringtones']['ja-jp'] = "着信音";
 $text['label-ringtones']['ko-kr'] = "벨소리";
 
 $text['label-streams']['en-us'] = "Streams";
+$text['label-streams']['vi-vn'] = "Luồng";
 $text['label-streams']['ka-ge'] = "ნაკადები";
 $text['label-streams']['en-gb'] = "Streams";
 $text['label-streams']['ar-eg'] = "تيارات";
@@ -4400,6 +4563,7 @@ $text['label-streams']['ja-jp'] = "ストリーム";
 $text['label-streams']['ko-kr'] = "스트림";
 
 $text['label-tones']['en-us'] = "Tones";
+$text['label-tones']['vi-vn'] = "Âm báo";
 $text['label-tones']['ka-ge'] = "ტონები";
 $text['label-tones']['en-gb'] = "Tones";
 $text['label-tones']['ar-eg'] = "النغمات";
@@ -4427,6 +4591,7 @@ $text['label-tones']['ja-jp'] = "トーン";
 $text['label-tones']['ko-kr'] = "톤";
 
 $text['label-default']['en-us'] = "Default";
+$text['label-default']['vi-vn'] = "Mặc định";
 $text['label-default']['ka-ge'] = "ნაგულისხმევი";
 $text['label-default']['en-gb'] = "Default";
 $text['label-default']['ar-eg'] = "בְּרִירַת מֶחדָל";
@@ -4454,6 +4619,7 @@ $text['label-default']['ja-jp'] = "デフォルト";
 $text['label-default']['ko-kr'] = "기본";
 
 $text['label-virtual']['en-us'] = "Virtual";
+$text['label-virtual']['vi-vn'] = "Ảo";
 $text['label-virtual']['ka-ge'] = "ვირტუალური";
 $text['label-virtual']['en-gb'] = "Virtual";
 $text['label-virtual']['ar-eg'] = "افتراضي";
@@ -4481,6 +4647,7 @@ $text['label-virtual']['ja-jp'] = "バーチャル";
 $text['label-virtual']['ko-kr'] = "가상";
 
 $text['label-git_branch']['en-us'] = "Branch:";
+$text['label-git_branch']['vi-vn'] = "Nhánh:";
 $text['label-git_branch']['ka-ge'] = "ფილიალი:";
 $text['label-git_branch']['en-gb'] = "Branch:";
 $text['label-git_branch']['ar-eg'] = "فرع";
@@ -4508,6 +4675,7 @@ $text['label-git_branch']['ja-jp'] = "ブランチ：";
 $text['label-git_branch']['ko-kr'] = "나뭇가지:";
 
 $text['label-git_commit']['en-us'] = "Commit:";
+$text['label-git_commit']['vi-vn'] = "Commit:";
 $text['label-git_commit']['ka-ge'] = "გადაცემა:";
 $text['label-git_commit']['en-gb'] = "Commit:";
 $text['label-git_commit']['ar-eg'] = "يقترف";
@@ -4535,6 +4703,7 @@ $text['label-git_commit']['ja-jp'] = "専念：";
 $text['label-git_commit']['ko-kr'] = "저지르다:";
 
 $text['label-us-ring']['en-us'] = "us-ring";
+$text['label-us-ring']['vi-vn'] = "us-ring";
 $text['label-us-ring']['ka-ge'] = "us-ring";
 $text['label-us-ring']['en-gb'] = "us-ring";
 $text['label-us-ring']['ar-eg'] = "حلقة us";
@@ -4562,6 +4731,7 @@ $text['label-us-ring']['ja-jp'] = "私たちのリング";
 $text['label-us-ring']['ko-kr'] = "우리 반지";
 
 $text['label-uk-ring']['en-us'] = "uk-ring";
+$text['label-uk-ring']['vi-vn'] = "uk-ring";
 $text['label-uk-ring']['ka-ge'] = "uk-ring";
 $text['label-uk-ring']['en-gb'] = "uk-ring";
 $text['label-uk-ring']['ar-eg'] = "حلقة uk";
@@ -4589,6 +4759,7 @@ $text['label-uk-ring']['ja-jp'] = "英国リング";
 $text['label-uk-ring']['ko-kr'] = "UK 링";
 
 $text['label-pt-ring']['en-us'] = "pt-ring";
+$text['label-pt-ring']['vi-vn'] = "pt-ring";
 $text['label-pt-ring']['ka-ge'] = "pt-ring";
 $text['label-pt-ring']['en-gb'] = "pt-ring";
 $text['label-pt-ring']['ar-eg'] = "حلقة pt";
@@ -4616,6 +4787,7 @@ $text['label-pt-ring']['ja-jp'] = "ptリング";
 $text['label-pt-ring']['ko-kr'] = "pt-링";
 
 $text['label-ru-ring']['en-us'] = "ru-ring";
+$text['label-ru-ring']['vi-vn'] = "ru-ring";
 $text['label-ru-ring']['ka-ge'] = "ru-ring";
 $text['label-ru-ring']['en-gb'] = "ru-ring";
 $text['label-ru-ring']['ar-eg'] = "رو الدائري";
@@ -4643,6 +4815,7 @@ $text['label-ru-ring']['ja-jp'] = "るーリング";
 $text['label-ru-ring']['ko-kr'] = "루링";
 
 $text['label-it-ring']['en-us'] = "it-ring";
+$text['label-it-ring']['vi-vn'] = "it-ring";
 $text['label-it-ring']['ka-ge'] = "it-ring";
 $text['label-it-ring']['en-gb'] = "it-ring";
 $text['label-it-ring']['ar-eg'] = "انها خاتم";
@@ -4670,6 +4843,7 @@ $text['label-it-ring']['ja-jp'] = "それリング";
 $text['label-it-ring']['ko-kr'] = "잇링";
 
 $text['label-fr-ring']['en-us'] = "fr-ring";
+$text['label-fr-ring']['vi-vn'] = "fr-ring";
 $text['label-fr-ring']['ka-ge'] = "fr-ring";
 $text['label-fr-ring']['en-gb'] = "fr-ring";
 $text['label-fr-ring']['ar-eg'] = "حلقة الاب";
@@ -4696,6 +4870,7 @@ $text['label-fr-ring']['ja-jp'] = "FRリング";
 $text['label-fr-ring']['ko-kr'] = "프 링";
 
 $text['option-true']['en-us'] = "True";
+$text['option-true']['vi-vn'] = "Đúng";
 $text['option-true']['ka-ge'] = "ჭეშმარიტი";
 $text['option-true']['en-gb'] = "True";
 $text['option-true']['ar-eg'] = "حقيقي";
@@ -4723,6 +4898,7 @@ $text['option-true']['ja-jp'] = "真実";
 $text['option-true']['ko-kr'] = "진실";
 
 $text['option-false']['en-us'] = "False";
+$text['option-false']['vi-vn'] = "Sai";
 $text['option-false']['ka-ge'] = "ცრუ";
 $text['option-false']['en-gb'] = "False";
 $text['option-false']['ar-eg'] = "خطأ شنيع";
@@ -4750,6 +4926,7 @@ $text['option-false']['ja-jp'] = "間違い";
 $text['option-false']['ko-kr'] = "거짓";
 
 $text['label-label']['en-us'] = "Label";
+$text['label-label']['vi-vn'] = "Nhãn";
 $text['label-label']['ka-ge'] = "ჭდე";
 $text['label-label']['en-gb'] = "Label";
 $text['label-label']['ar-eg'] = "ملصق";
@@ -4777,6 +4954,7 @@ $text['label-label']['ja-jp'] = "ラベル";
 $text['label-label']['ko-kr'] = "상표";
 
 $text['label-groups']['en-us'] = "Groups";
+$text['label-groups']['vi-vn'] = "Nhóm";
 $text['label-groups']['ka-ge'] = "ჯგუფები";
 $text['label-groups']['en-gb'] = "Groups";
 $text['label-groups']['ar-eg'] = "مجموعات";
@@ -4804,6 +4982,7 @@ $text['label-groups']['ja-jp'] = "グループ";
 $text['label-groups']['ko-kr'] = "여러 떼";
 
 $text['label-group']['en-us'] = "Group";
+$text['label-group']['vi-vn'] = "Nhóm";
 $text['label-group']['ka-ge'] = "ჯგუფი";
 $text['label-group']['en-gb'] = "Group";
 $text['label-group']['ar-eg'] = "مجموعة";
@@ -4831,6 +5010,7 @@ $text['label-group']['ja-jp'] = "グループ";
 $text['label-group']['ko-kr'] = "그룹";
 
 $text['label-recording']['en-us'] = "Recording";
+$text['label-recording']['vi-vn'] = "Bản ghi âm";
 $text['label-recording']['ka-ge'] = "ჩაწერა";
 $text['label-recording']['en-gb'] = "Recording";
 $text['label-recording']['ar-eg'] = "تسجيل";
@@ -4858,6 +5038,7 @@ $text['label-recording']['ja-jp'] = "録音 録音";
 $text['label-recording']['ko-kr'] = "녹음 녹음";
 
 $text['label-download']['en-us'] = "Download";
+$text['label-download']['vi-vn'] = "Tải xuống";
 $text['label-download']['ka-ge'] = "ჩამოტვირთვა";
 $text['label-download']['en-gb'] = "Download";
 $text['label-download']['ar-eg'] = "تحميل";
@@ -4885,6 +5066,7 @@ $text['label-download']['ja-jp'] = "ダウンロード";
 $text['label-download']['ko-kr'] = "다운로드";
 
 $text['label-miscellaneous']['en-us'] = "Miscellaneous";
+$text['label-miscellaneous']['vi-vn'] = "Khác";
 $text['label-miscellaneous']['ka-ge'] = "სხვადასხვა";
 $text['label-miscellaneous']['en-gb'] = "Miscellaneous";
 $text['label-miscellaneous']['ar-eg'] = "متنوع";
@@ -4912,6 +5094,7 @@ $text['label-miscellaneous']['ja-jp'] = "その他";
 $text['label-miscellaneous']['ko-kr'] = "여러 가지 잡다한";
 
 $text['label-phrases']['en-us'] = "Phrases";
+$text['label-phrases']['vi-vn'] = "Cụm từ";
 $text['label-phrases']['ka-ge'] = "ფრაზები";
 $text['label-phrases']['en-gb'] = "Phrases";
 $text['label-phrases']['ar-eg'] = "عبارات";
@@ -4939,6 +5122,7 @@ $text['label-phrases']['ja-jp'] = "フレーズ";
 $text['label-phrases']['ko-kr'] = "실없는 말";
 
 $text['label-sounds']['en-us'] = "Sounds";
+$text['label-sounds']['vi-vn'] = "Âm thanh";
 $text['label-sounds']['ka-ge'] = "ხმები";
 $text['label-sounds']['en-gb'] = "Sounds";
 $text['label-sounds']['ar-eg'] = "اصوات";
@@ -4966,6 +5150,7 @@ $text['label-sounds']['ja-jp'] = "音";
 $text['label-sounds']['ko-kr'] = "소리";
 
 $text['label-greeting']['en-us'] = "Greeting";
+$text['label-greeting']['vi-vn'] = "Lời chào";
 $text['label-greeting']['ka-ge'] = "მისალმება";
 $text['label-greeting']['en-gb'] = "Greeting";
 $text['label-greeting']['ar-eg'] = "تحية";
@@ -4993,6 +5178,7 @@ $text['label-greeting']['ja-jp'] = "挨拶";
 $text['label-greeting']['ko-kr'] = "인사";
 
 $text['label-play']['en-us'] = "Play";
+$text['label-play']['vi-vn'] = "Phát";
 $text['label-play']['ka-ge'] = "დაკვრა";
 $text['label-play']['en-gb'] = "Play";
 $text['label-play']['ar-eg'] = "يلعب";
@@ -5020,6 +5206,7 @@ $text['label-play']['ja-jp'] = "遊ぶ";
 $text['label-play']['ko-kr'] = "놀다";
 
 $text['label-pause']['en-us'] = "Pause";
+$text['label-pause']['vi-vn'] = "Tạm dừng";
 $text['label-pause']['ka-ge'] = "პაუზა";
 $text['label-pause']['en-gb'] = "Pause";
 $text['label-pause']['ar-eg'] = "يوقف";
@@ -5047,6 +5234,7 @@ $text['label-pause']['ja-jp'] = "一時停止";
 $text['label-pause']['ko-kr'] = "정지시키다";
 
 $text['label-caller_id_number']['en-us'] = "Caller ID Number";
+$text['label-caller_id_number']['vi-vn'] = "Số Caller ID";
 $text['label-caller_id_number']['ka-ge'] = "CID ნომერი";
 $text['label-caller_id_number']['en-gb'] = "Caller ID Number";
 $text['label-caller_id_number']['ar-eg'] = "رقم هوية المتصل";
@@ -5074,6 +5262,7 @@ $text['label-caller_id_number']['ja-jp'] = "発信者番号";
 $text['label-caller_id_number']['ko-kr'] = "발신자 ID 번호";
 
 $text['label-caller_id_name']['en-us'] = "Caller ID Name";
+$text['label-caller_id_name']['vi-vn'] = "Tên Caller ID";
 $text['label-caller_id_name']['ka-ge'] = "CID სახელი";
 $text['label-caller_id_name']['en-gb'] = "Caller ID Name";
 $text['label-caller_id_name']['ar-eg'] = "اسم معرف المتصل";
@@ -5101,6 +5290,7 @@ $text['label-caller_id_name']['ja-jp'] = "発信者ID名";
 $text['label-caller_id_name']['ko-kr'] = "발신자 ID 이름";
 
 $text['label-characters']['en-us'] = "Characters";
+$text['label-characters']['vi-vn'] = "Ký tự";
 $text['label-characters']['ka-ge'] = "სიმბოლოები";
 $text['label-characters']['en-gb'] = "Characters";
 $text['label-characters']['ar-eg'] = "الشخصيات";
@@ -5128,6 +5318,7 @@ $text['label-characters']['ja-jp'] = "発信者ID名";
 $text['label-characters']['ko-kr'] = "발신자 ID 이름";
 
 $text['label-number']['en-us'] = "Number";
+$text['label-number']['vi-vn'] = "Số";
 $text['label-number']['en-gb'] = "Number";
 $text['label-number']['ar-eg'] = "رقم";
 $text['label-number']['de-at'] = "Nummer";
@@ -5155,6 +5346,7 @@ $text['label-number']['ja-jp'] = "番号";
 $text['label-number']['ko-kr'] = "숫자";
 
 $text['label-numbers']['en-us'] = "Numbers";
+$text['label-numbers']['vi-vn'] = "Số";
 $text['label-numbers']['ka-ge'] = "ნომრები";
 $text['label-numbers']['en-gb'] = "Numbers";
 $text['label-numbers']['ar-eg'] = "أرقام";
@@ -5182,6 +5374,7 @@ $text['label-numbers']['ja-jp'] = "数字";
 $text['label-numbers']['ko-kr'] = "숫자";
 
 $text['label-lowercase_letters']['en-us'] = "Lowercase Letters";
+$text['label-lowercase_letters']['vi-vn'] = "Chữ thường";
 $text['label-lowercase_letters']['ka-ge'] = "პატარა ასოები";
 $text['label-lowercase_letters']['en-gb'] = "Lowercase Letters";
 $text['label-lowercase_letters']['ar-eg'] = "أحرف صغيرة";
@@ -5209,6 +5402,7 @@ $text['label-lowercase_letters']['ja-jp'] = "小文字";
 $text['label-lowercase_letters']['ko-kr'] = "소문자";
 
 $text['label-uppercase_letters']['en-us'] = "Uppercase Letters";
+$text['label-uppercase_letters']['vi-vn'] = "Chữ hoa";
 $text['label-uppercase_letters']['ka-ge'] = "დიდი ასოები";
 $text['label-uppercase_letters']['en-gb'] = "Uppercase Letters";
 $text['label-uppercase_letters']['ar-eg'] = "الأحرف الكبيرة";
@@ -5236,6 +5430,7 @@ $text['label-uppercase_letters']['ja-jp'] = "大文字";
 $text['label-uppercase_letters']['ko-kr'] = "대문자";
 
 $text['label-special_characters']['en-us'] = "Special Characters";
+$text['label-special_characters']['vi-vn'] = "Ký tự đặc biệt";
 $text['label-special_characters']['ka-ge'] = "სპეციალური სიმბოლოები";
 $text['label-special_characters']['en-gb'] = "Special Characters";
 $text['label-special_characters']['ar-eg'] = "أحرف خاصة";
@@ -5263,6 +5458,7 @@ $text['label-special_characters']['ja-jp'] = "特殊文字";
 $text['label-special_characters']['ko-kr'] = "특수 문자";
 
 $text['label-bridges']['en-us'] = "Bridges";
+$text['label-bridges']['vi-vn'] = "Cầu nối";
 $text['label-bridges']['ka-ge'] = "ხიდები";
 $text['label-bridges']['en-gb'] = "Bridges";
 $text['label-bridges']['ar-eg'] = "الجسور";
@@ -5290,6 +5486,7 @@ $text['label-bridges']['ja-jp'] = "橋";
 $text['label-bridges']['ko-kr'] = "교량";
 
 $text['label-interval']['en-us'] = "Interval";
+$text['label-interval']['vi-vn'] = "Khoảng thời gian";
 $text['label-interval']['ka-ge'] = "ინტერვალი";
 $text['label-interval']['en-gb'] = "Interval";
 $text['label-interval']['ar-eg'] = "فاصلة";
@@ -5317,6 +5514,7 @@ $text['label-interval']['ja-jp'] = "間隔";
 $text['label-interval']['ko-kr'] = "간격";
 
 $text['label-peak']['en-us'] = "Peak";
+$text['label-peak']['vi-vn'] = "Đỉnh";
 $text['label-peak']['ka-ge'] = "პიკი";
 $text['label-peak']['en-gb'] = "Peak";
 $text['label-peak']['ar-eg'] = "قمة";
@@ -5344,6 +5542,7 @@ $text['label-peak']['ja-jp'] = "ピーク";
 $text['label-peak']['ko-kr'] = "정점";
 
 $text['label-tools']['en-us'] = "Tools";
+$text['label-tools']['vi-vn'] = "Công cụ";
 $text['label-tools']['ka-ge'] = "ხელსაწყოები";
 $text['label-tools']['en-gb'] = "Tools";
 $text['label-tools']['ar-eg'] = "الادوات";
@@ -5371,6 +5570,7 @@ $text['label-tools']['ja-jp'] = "ツール";
 $text['label-tools']['ko-kr'] = "도구";
 
 $text['label-tickets']['en-us'] = "Tickets";
+$text['label-tickets']['vi-vn'] = "Phiếu hỗ trợ";
 $text['label-tickets']['ka-ge'] = "ბილეთები";
 $text['label-tickets']['en-gb'] = "Tickets";
 $text['label-tickets']['ar-eg'] = "تذاكر";
@@ -5398,6 +5598,7 @@ $text['label-tickets']['ja-jp'] = "切符売場";
 $text['label-tickets']['ko-kr'] = "티켓";
 
 $text['label-page']['en-us'] = "Page";
+$text['label-page']['vi-vn'] = "Trang";
 $text['label-page']['ka-ge'] = "გვერდი";
 $text['label-page']['en-gb'] = "Page";
 $text['label-page']['ar-eg'] = "صفحة";
@@ -5425,6 +5626,7 @@ $text['label-page']['ja-jp'] = "ページ";
 $text['label-page']['ko-kr'] = "페이지";
 
 $text['label-ascending']['en-us'] = "Ascending";
+$text['label-ascending']['vi-vn'] = "Tăng dần";
 $text['label-ascending']['ka-ge'] = "აღმავალი";
 $text['label-ascending']['en-gb'] = "Ascending";
 $text['label-ascending']['ar-eg'] = "تصاعدي";
@@ -5452,6 +5654,7 @@ $text['label-ascending']['ja-jp'] = "上昇";
 $text['label-ascending']['ko-kr'] = "오름차순";
 
 $text['label-descending']['en-us'] = "Descending";
+$text['label-descending']['vi-vn'] = "Giảm dần";
 $text['label-descending']['ka-ge'] = "დაღმავალი";
 $text['label-descending']['en-gb'] = "Descending";
 $text['label-descending']['ar-eg'] = "تنازلي";
@@ -5479,6 +5682,7 @@ $text['label-descending']['ja-jp'] = "降順";
 $text['label-descending']['ko-kr'] = "내림차순";
 
 $text['label-uploaded']['en-us'] = "Uploaded";
+$text['label-uploaded']['vi-vn'] = "Đã tải lên";
 $text['label-uploaded']['ka-ge'] = "ატვირთულია";
 $text['label-uploaded']['en-gb'] = "Uploaded";
 $text['label-uploaded']['ar-eg'] = "تم الرفع";
@@ -5506,6 +5710,7 @@ $text['label-uploaded']['ja-jp'] = "アップロードされました";
 $text['label-uploaded']['ko-kr'] = "업로드됨";
 
 $text['label-hostname']['en-us'] = "Hostname";
+$text['label-hostname']['vi-vn'] = "Hostname";
 $text['label-hostname']['ka-ge'] = "ჰოსტის სახელი";
 $text['label-hostname']['en-gb'] = "Hostname";
 $text['label-hostname']['ar-eg'] = "اسم المضيف";
@@ -5533,6 +5738,7 @@ $text['label-hostname']['ja-jp'] = "ホスト名";
 $text['label-hostname']['ko-kr'] = "호스트 이름";
 
 $text['label-provider']['en-us'] = "Provider";
+$text['label-provider']['vi-vn'] = "Nhà cung cấp";
 $text['label-provider']['ka-ge'] = "მომწოდებელი";
 $text['label-provider']['en-gb'] = "Provider";
 $text['label-provider']['ar-eg'] = "مزود";
@@ -5560,6 +5766,7 @@ $text['label-provider']['ja-jp'] = "プロバイダー";
 $text['label-provider']['ko-kr'] = "공급자";
 
 $text['label-users']['en-us'] = "Users";
+$text['label-users']['vi-vn'] = "Người dùng";
 $text['label-users']['ka-ge'] = "მომხმარებლები";
 $text['label-users']['en-gb'] = "Users";
 $text['label-users']['ar-eg'] = "المستخدمون";
@@ -5587,6 +5794,7 @@ $text['label-users']['ja-jp'] = "ユーザー";
 $text['label-users']['ko-kr'] = "사용자";
 
 $text['label-user']['en-us'] = "User";
+$text['label-user']['vi-vn'] = "Người dùng";
 $text['label-user']['ka-ge'] = "მომხმარებელი";
 $text['label-user']['en-gb'] = "User";
 $text['label-user']['ar-eg'] = "مستخدم";
@@ -5614,6 +5822,7 @@ $text['label-user']['ja-jp'] = "ユーザー";
 $text['label-user']['ko-kr'] = "사용자";
 
 $text['label-cdr']['en-us'] = "CDR";
+$text['label-cdr']['vi-vn'] = "CDR";
 $text['label-cdr']['ka-ge'] = "CDR";
 $text['label-cdr']['en-gb'] = "CDR";
 $text['label-cdr']['ar-eg'] = "مجلس الإنماء والإعمار";
@@ -5641,6 +5850,7 @@ $text['label-cdr']['ja-jp'] = "通話詳細記録";
 $text['label-cdr']['ko-kr'] = "통화 내역 기록";
 
 $text['label-version']['en-us'] = "Version";
+$text['label-version']['vi-vn'] = "Phiên bản";
 $text['label-version']['ka-ge'] = "ვერსია";
 $text['label-version']['en-gb'] = "Version";
 $text['label-version']['ar-eg'] = "إصدار";
@@ -5668,6 +5878,7 @@ $text['label-version']['ja-jp'] = "バージョン";
 $text['label-version']['ko-kr'] = "버전";
 
 $text['label-size']['en-us'] = "Size";
+$text['label-size']['vi-vn'] = "Kích thước";
 $text['label-size']['ka-ge'] = "ზომა";
 $text['label-size']['en-gb'] = "Size";
 $text['label-size']['ar-eg'] = "مقاس";
@@ -5695,6 +5906,7 @@ $text['label-size']['ja-jp'] = "サイズ";
 $text['label-size']['ko-kr'] = "크기";
 
 $text['label-path']['en-us'] = "Project Path";
+$text['label-path']['vi-vn'] = "Đường dẫn dự án";
 $text['label-path']['ka-ge'] = "პროექტის ბილიკი";
 $text['label-path']['en-gb'] = "Project Path";
 $text['label-path']['ar-eg'] = "مسار المشروع";
@@ -5725,6 +5937,7 @@ $text['label-path']['ko-kr'] = "프로젝트 경로";
 
 
 $text['label-link']['en-us'] = "Link";
+$text['label-link']['vi-vn'] = "Liên kết";
 $text['label-link']['en-gb'] = "Link";
 $text['label-link']['ar-eg'] = "وصلة";
 $text['label-link']['de-at'] = "Link";
@@ -5751,6 +5964,7 @@ $text['label-link']['ja-jp'] = "リンク";
 $text['label-link']['ko-kr'] = "링크";
 
 $text['label-target']['en-us'] = "Target";
+$text['label-target']['vi-vn'] = "Đích";
 $text['label-target']['en-gb'] = "Target";
 $text['label-target']['ar-eg'] = "هدف";
 $text['label-target']['de-at'] = "Ziel";
@@ -5777,6 +5991,7 @@ $text['label-target']['ja-jp'] = "目標";
 $text['label-target']['ko-kr'] = "표적";
 
 $text['label-width']['en-us'] = "Width";
+$text['label-width']['vi-vn'] = "Chiều rộng";
 $text['label-width']['en-gb'] = "Width";
 $text['label-width']['ar-eg'] = "عرض";
 $text['label-width']['de-at'] = "Breite";
@@ -5803,6 +6018,7 @@ $text['label-width']['ja-jp'] = "幅";
 $text['label-width']['ko-kr'] = "너비";
 
 $text['label-height']['en-us'] = "Height";
+$text['label-height']['vi-vn'] = "Chiều cao";
 $text['label-height']['en-gb'] = "Height";
 $text['label-height']['ar-eg'] = "ارتفاع";
 $text['label-height']['de-at'] = "Höhe";
@@ -5829,6 +6045,7 @@ $text['label-height']['ja-jp'] = "身長";
 $text['label-height']['ko-kr'] = "키";
 
 $text['label-current_window']['en-us'] = "Current Window";
+$text['label-current_window']['vi-vn'] = "Cửa sổ hiện tại";
 $text['label-current_window']['en-gb'] = "Current Window";
 $text['label-current_window']['ar-eg'] = "النافذة الحالية";
 $text['label-current_window']['de-at'] = "Aktuelles Fenster";
@@ -5856,6 +6073,7 @@ $text['label-current_window']['ja-jp'] = "現在のウィンドウ";
 $text['label-current_window']['ko-kr'] = "현재 창";
 
 $text['label-new_window']['en-us'] = "New Window";
+$text['label-new_window']['vi-vn'] = "Cửa sổ mới";
 $text['label-new_window']['en-gb'] = "New Window";
 $text['label-new_window']['ar-eg'] = "نافذة جديدة";
 $text['label-new_window']['de-at'] = "Neues Fenster";
@@ -5883,6 +6101,7 @@ $text['label-new_window']['ja-jp'] = "新しい窓";
 $text['label-new_window']['ko-kr'] = "새창";
 
 $text['label-icon']['en-us'] = "Icon";
+$text['label-icon']['vi-vn'] = "Biểu tượng";
 $text['label-icon']['en-gb'] = "Icon";
 $text['label-icon']['ar-eg'] = "أيقونة";
 $text['label-icon']['de-at'] = "Symbol";
@@ -5909,6 +6128,7 @@ $text['label-icon']['ja-jp'] = "アイコン";
 $text['label-icon']['ko-kr'] = "아이콘";
 
 $text['label-others']['en-us'] = "Others";
+$text['label-others']['vi-vn'] = "Khác";
 $text['label-others']['ka-ge'] = "სხვები";
 $text['label-others']['en-gb'] = "Others";
 $text['label-others']['ar-eg'] = "آخرون";
@@ -5936,6 +6156,7 @@ $text['label-others']['ja-jp'] = "其他的";
 $text['label-others']['ko-kr'] = "其他的";
 
 $text['button-tickets']['en-us'] = "Tickets";
+$text['button-tickets']['vi-vn'] = "Phiếu hỗ trợ";
 $text['button-tickets']['ka-ge'] = "ბილეთები";
 $text['button-tickets']['en-gb'] = "Tickets";
 $text['button-tickets']['ar-eg'] = "تذاكر";
@@ -5963,6 +6184,7 @@ $text['button-tickets']['ja-jp'] = "切符売場";
 $text['button-tickets']['ko-kr'] = "티켓";
 
 $text['button-cdr']['en-us'] = "CDR";
+$text['button-cdr']['vi-vn'] = "CDR";
 $text['button-cdr']['ka-ge'] = "CDR";
 $text['button-cdr']['en-gb'] = "CDR";
 $text['button-cdr']['ar-eg'] = "مجلس الإنماء والإعمار";
@@ -5990,6 +6212,7 @@ $text['button-cdr']['ja-jp'] = "通話詳細記録";
 $text['button-cdr']['ko-kr'] = "통화 내역 기록";
 
 $text['button-settings']['en-us'] = "Settings";
+$text['button-settings']['vi-vn'] = "Cài đặt";
 $text['button-settings']['ka-ge'] = "პარამეტრები";
 $text['button-settings']['en-gb'] = "Settings";
 $text['button-settings']['ar-eg'] = "Global";
@@ -6017,6 +6240,7 @@ $text['button-settings']['ja-jp'] = "設定";
 $text['button-settings']['ko-kr'] = "설정";
 
 $text['description-greeting']['en-us'] = "Select the desired Greeting.";
+$text['description-greeting']['vi-vn'] = "Chọn lời chào mong muốn.";
 $text['description-greeting']['ka-ge'] = "აირჩიეთ სასურველი მისალმება.";
 $text['description-greeting']['en-gb'] = "Select the desired Greeting.";
 $text['description-greeting']['ar-eg'] = "حدد التحية المطلوبة.";
@@ -6044,6 +6268,7 @@ $text['description-greeting']['ja-jp'] = "目的の挨拶を選択します。";
 $text['description-greeting']['ko-kr'] = "원하는 인사말을 선택하세요.";
 
 $text['description-name']['en-us'] = "Enter the name.";
+$text['description-name']['vi-vn'] = "Nhập tên.";
 $text['description-name']['ka-ge'] = "შეიყვანეთ სახელი.";
 $text['description-name']['en-gb'] = "Enter the name.";
 $text['description-name']['ar-eg'] = "أدخل الاسم.";
@@ -6071,6 +6296,7 @@ $text['description-name']['ja-jp'] = "名前を入力します。";
 $text['description-name']['ko-kr'] = "이름을 입력하세요.";
 
 $text['description-value']['en-us'] = "Enter the value.";
+$text['description-value']['vi-vn'] = "Nhập giá trị.";
 $text['description-value']['ka-ge'] = "შეიყვანეთ მნიშვნელობა.";
 $text['description-value']['en-gb'] = "Enter the value.";
 $text['description-value']['ar-eg'] = "أدخل القيمة.";
@@ -6098,6 +6324,7 @@ $text['description-value']['ja-jp'] = "値を入力します。";
 $text['description-value']['ko-kr'] = "값을 입력합니다.";
 
 $text['description-type']['en-us'] = "Select the data type.";
+$text['description-type']['vi-vn'] = "Chọn kiểu dữ liệu.";
 $text['description-type']['ka-ge'] = "აირჩიეთ მონაცემის ტიპი.";
 $text['description-type']['en-gb'] = "Select the data type.";
 $text['description-type']['ar-eg'] = "حدد نوع البيانات.";
@@ -6125,6 +6352,7 @@ $text['description-type']['ja-jp'] = "データの種類を選択します。";
 $text['description-type']['ko-kr'] = "데이터 유형을 선택합니다.";
 
 $text['description-category']['en-us'] = "Enter the category.";
+$text['description-category']['vi-vn'] = "Nhập danh mục.";
 $text['description-category']['ka-ge'] = "შეიყვანეთ კატეგორია.";
 $text['description-category']['en-gb'] = "Enter the category.";
 $text['description-category']['ar-eg'] = "أدخل الفئة.";
@@ -6152,6 +6380,7 @@ $text['description-category']['ja-jp'] = "カテゴリを入力してくださ�
 $text['description-category']['ko-kr'] = "카테고리를 입력하세요.";
 
 $text['description-subcategory']['en-us'] = "Enter the subcategory.";
+$text['description-subcategory']['vi-vn'] = "Nhập danh mục con.";
 $text['description-subcategory']['ka-ge'] = "შეიყვანეთ ქვეკატეგორია.";
 $text['description-subcategory']['en-gb'] = "Enter the subcategory.";
 $text['description-subcategory']['ar-eg'] = "أدخل الفئة الفرعية.";
@@ -6179,6 +6408,7 @@ $text['description-subcategory']['ja-jp'] = "サブカテゴリを入力しま�
 $text['description-subcategory']['ko-kr'] = "하위 범주를 입력합니다.";
 
 $text['description-description']['en-us'] = "Enter the description.";
+$text['description-description']['vi-vn'] = "Nhập mô tả.";
 $text['description-description']['ka-ge'] = "შეიყვანეთ აღწერა.";
 $text['description-description']['en-gb'] = "Enter the description.";
 $text['description-description']['ar-eg'] = "Введіть опис.";
@@ -6206,6 +6436,7 @@ $text['description-description']['ja-jp'] = "説明を入力します。";
 $text['description-description']['ko-kr'] = "설명을 입력합니다.";
 
 $text['description-enabled']['en-us'] = "Select the current state.";
+$text['description-enabled']['vi-vn'] = "Chọn trạng thái hiện tại.";
 $text['description-enabled']['ka-ge'] = "აირჩიეთ მიმდინარე სტატუსი.";
 $text['description-enabled']['en-gb'] = "Select the current state.";
 $text['description-enabled']['ar-eg'] = "حدد الحالة الحالية.";
@@ -6233,6 +6464,7 @@ $text['description-enabled']['ja-jp'] = "現在の状態を選択します。";
 $text['description-enabled']['ko-kr'] = "현재 상태를 선택합니다.";
 
 $text['description-enter-context']['en-us'] = "Enter the context.";
+$text['description-enter-context']['vi-vn'] = "Nhập ngữ cảnh.";
 $text['description-enter-context']['ka-ge'] = "შეიყვანეთ კონტექსტი.";
 $text['description-enter-context']['en-gb'] = "Enter the context.";
 $text['description-enter-context']['ar-eg'] = "أدخل السياق.";
@@ -6260,6 +6492,7 @@ $text['description-enter-context']['ja-jp'] = "コンテキストを入力しま
 $text['description-enter-context']['ko-kr'] = "컨텍스트를 입력합니다.";
 
 $text['description-domain_name']['en-us'] = "Select the Domain";
+$text['description-domain_name']['vi-vn'] = "Chọn tên miền";
 $text['description-domain_name']['ka-ge'] = "აირჩიეთ დომენი";
 $text['description-domain_name']['en-gb'] = "Select the Domain";
 $text['description-domain_name']['ar-eg'] = "حدد المجال";
@@ -6287,6 +6520,7 @@ $text['description-domain_name']['ja-jp'] = "ドメインを選択してくだ�
 $text['description-domain_name']['ko-kr'] = "도메인 선택";
 
 $text['title-login']['en-us'] = "Login";
+$text['title-login']['vi-vn'] = "Đăng nhập";
 $text['title-login']['ka-ge'] = "შესვლა";
 $text['title-login']['en-gb'] = "Login";
 $text['title-login']['ar-eg'] = "دخول";
@@ -6314,6 +6548,7 @@ $text['title-login']['ja-jp'] = "ログイン";
 $text['title-login']['ko-kr'] = "로그인";
 
 $text['title-logout']['en-us'] = "Logout";
+$text['title-logout']['vi-vn'] = "Đăng xuất";
 $text['title-logout']['en-gb'] = "Logout";
 $text['title-logout']['ar-eg'] = "ﺖﺴﺠﻴﻟ ﺥﺭﻮﺟ";
 $text['title-logout']['de-at'] = "Abmelden";
@@ -6339,6 +6574,7 @@ $text['title-logout']['ja-jp'] = "ログアウト";
 $text['title-logout']['ko-kr'] = "로그아웃";
 
 $text['title-user_profile']['en-us'] = "User Profile";
+$text['title-user_profile']['vi-vn'] = "Hồ sơ người dùng";
 $text['title-user_profile']['en-gb'] = "User Profile";
 $text['title-user_profile']['ar-eg'] = "ملف المستخدم";
 $text['title-user_profile']['de-at'] = "Benutzerprofil";
@@ -6366,6 +6602,7 @@ $text['title-user_profile']['ja-jp'] = "ユーザープロフィール";
 $text['title-user_profile']['ko-kr'] = "사용자 프로필";
 
 $text['option-expanded']['en-us'] = "Expanded";
+$text['option-expanded']['vi-vn'] = "Mở rộng";
 $text['option-expanded']['ka-ge'] = "გაფართოებული";
 $text['option-expanded']['en-gb'] = "Expanded";
 $text['option-expanded']['ar-eg'] = "تسجيل الدخول";
@@ -6393,6 +6630,7 @@ $text['option-expanded']['ja-jp'] = "拡張された";
 $text['option-expanded']['ko-kr'] = "퍼지는";
 
 $text['option-contracted']['en-us'] = "Contracted";
+$text['option-contracted']['vi-vn'] = "Thu gọn";
 $text['option-contracted']['ka-ge'] = "კონტრაქტით გათვალისწინებული";
 $text['option-contracted']['en-gb'] = "Contracted";
 $text['option-contracted']['ar-eg'] = "تعاقدت";
@@ -6420,6 +6658,7 @@ $text['option-contracted']['ja-jp'] = "契約済み";
 $text['option-contracted']['ko-kr'] = "옹졸한";
 
 $text['option-hidden']['en-us'] = "Hidden";
+$text['option-hidden']['vi-vn'] = "Ẩn";
 $text['option-hidden']['ka-ge'] = "დამალული";
 $text['option-hidden']['en-gb'] = "Hidden";
 $text['option-hidden']['ar-eg'] = "مختفي";
@@ -6447,6 +6686,7 @@ $text['option-hidden']['ja-jp'] = "隠れた";
 $text['option-hidden']['ko-kr'] = "숨겨진";
 
 $text['option-hover']['en-us'] = "Hover";
+$text['option-hover']['vi-vn'] = "Di chuột";
 $text['option-hover']['ka-ge'] = "ფერის შეცვლა თაგუნას კურსორის მიტანისას";
 $text['option-hover']['en-gb'] = "Hover";
 $text['option-hover']['ar-eg'] = "يحوم";
@@ -6474,6 +6714,7 @@ $text['option-hover']['ja-jp'] = "ホバー";
 $text['option-hover']['ko-kr'] = "호버";
 
 $text['option-click']['en-us'] = "Click";
+$text['option-click']['vi-vn'] = "Nhấp";
 $text['option-click']['ka-ge'] = "დაწკაპუნება";
 $text['option-click']['en-gb'] = "Click";
 $text['option-click']['ar-eg'] = "انقر";
@@ -6501,6 +6742,7 @@ $text['option-click']['ja-jp'] = "クリック";
 $text['option-click']['ko-kr'] = "딸깍 하는 소리";
 
 $text['option-shrink']['en-us'] = "Shrink";
+$text['option-shrink']['vi-vn'] = "Thu nhỏ";
 $text['option-shrink']['ka-ge'] = "შეკუმშვა";
 $text['option-shrink']['en-gb'] = "Shrink";
 $text['option-shrink']['ar-eg'] = "إنكمش";
@@ -6528,6 +6770,7 @@ $text['option-shrink']['ja-jp'] = "縮む";
 $text['option-shrink']['ko-kr'] = "수축";
 
 $text['option-fixed']['en-us'] = "Fixed";
+$text['option-fixed']['vi-vn'] = "Cố định";
 $text['option-fixed']['ka-ge'] = "ფიქსირებული";
 $text['option-fixed']['en-gb'] = "Fixed";
 $text['option-fixed']['ar-eg'] = "مُثَبَّت";
@@ -6555,6 +6798,7 @@ $text['option-fixed']['ja-jp'] = "修理済み";
 $text['option-fixed']['ko-kr'] = "결정된";
 
 $text['option-automatic']['en-us'] = "Automatic";
+$text['option-automatic']['vi-vn'] = "Tự động";
 $text['option-automatic']['ka-ge'] = "ავტომატური";
 $text['option-automatic']['en-gb'] = "Automatic";
 $text['option-automatic']['ar-eg'] = "تلقائي";
@@ -6582,6 +6826,7 @@ $text['option-automatic']['ja-jp'] = "自動";
 $text['option-automatic']['ko-kr'] = "자동적 인";
 
 $text['option-manual']['en-us'] = "Manual";
+$text['option-manual']['vi-vn'] = "Thủ công";
 $text['option-manual']['ka-ge'] = "სახელმძღვანელო";
 $text['option-manual']['en-gb'] = "Manual";
 $text['option-manual']['ar-eg'] = "يدوي";
@@ -6609,6 +6854,7 @@ $text['option-manual']['ja-jp'] = "マニュアル";
 $text['option-manual']['ko-kr'] = "수동";
 
 $text['title-languages']['en-us'] = "Languages";
+$text['title-languages']['vi-vn'] = "Ngôn ngữ";
 $text['title-languages']['ka-ge'] = "ენები";
 $text['title-languages']['en-gb'] = "Languages";
 $text['title-languages']['ar-eg'] = "اللغات";
@@ -6636,6 +6882,7 @@ $text['title-languages']['ja-jp'] = "言語";
 $text['title-languages']['ko-kr'] = "언어";
 
 $text['label-language']['en-us'] = "Language";
+$text['label-language']['vi-vn'] = "Ngôn ngữ";
 $text['label-language']['en-gb'] = "Language";
 $text['label-language']['ar-eg'] = "اللغة";
 $text['label-language']['de-at'] = "Sprache";
@@ -6661,6 +6908,7 @@ $text['label-language']['ja-jp'] = "言語";
 $text['label-language']['ko-kr'] = "언어";
 
 $text['description-language']['en-us'] = "Select the language, voice and dialect.";
+$text['description-language']['vi-vn'] = "Chọn ngôn ngữ, giọng đọc và phương ngữ.";
 $text['description-language']['en-gb'] = "Select the language, voice and dialect.";
 $text['description-language']['ar-eg'] = "حدد اللغة والصوت واللهجة.";
 $text['description-language']['de-at'] = "Wählen Sie Sprache, Stimme und Dialekt aus.";
@@ -6686,6 +6934,7 @@ $text['description-language']['ja-jp'] = "言語、音声、方言を選択し�
 $text['description-language']['ko-kr'] = "언어, 음성 및 방언을 선택합니다.";
 
 $text['label-translate']['en-us'] = "Translate";
+$text['label-translate']['vi-vn'] = "Dịch";
 $text['label-translate']['en-gb'] = "Translate";
 $text['label-translate']['ar-eg'] = "يترجم";
 $text['label-translate']['de-at'] = "Übersetzen";
@@ -6711,6 +6960,7 @@ $text['label-translate']['ja-jp'] = "翻訳する";
 $text['label-translate']['ko-kr'] = "번역하다";
 
 $text['button-transcribe']['en-us'] = "Transcribe";
+$text['button-transcribe']['vi-vn'] = "Chép lời";
 $text['button-transcribe']['en-gb'] = "Transcribe";
 $text['button-transcribe']['ar-eg'] = "نسخ";
 $text['button-transcribe']['de-at'] = "transkribieren";
@@ -6738,6 +6988,7 @@ $text['button-transcribe']['ja-jp'] = "転写する";
 $text['button-transcribe']['ko-kr'] = "고쳐 쓰다";
 
 $text['label-transcription']['en-us'] = "Transcription";
+$text['label-transcription']['vi-vn'] = "Bản chép lời";
 $text['label-transcription']['en-gb'] = "Transcription";
 $text['label-transcription']['ar-eg'] = "النسخ";
 $text['label-transcription']['de-at'] = "Transkription";
@@ -6765,6 +7016,7 @@ $text['label-transcription']['ja-jp'] = "転写";
 $text['label-transcription']['ko-kr'] = "전사";
 
 $text['message-audio_transcribed']['en-us'] = "Audio Transcribed";
+$text['message-audio_transcribed']['vi-vn'] = "Đã chép lời âm thanh";
 $text['message-audio_transcribed']['en-gb'] = "Audio Transcribed";
 $text['message-audio_transcribed']['ar-eg'] = "الصوت مكتوب";
 $text['message-audio_transcribed']['de-at'] = "Audio transkribiert";
@@ -6792,6 +7044,7 @@ $text['message-audio_transcribed']['ja-jp'] = "文字起こしされた音声";
 $text['message-audio_transcribed']['ko-kr'] = "오디오가 전사됨";
 
 $text['message-added_to_queue']['en-us'] = "Added to queue";
+$text['message-added_to_queue']['vi-vn'] = "Đã thêm vào hàng đợi";
 $text['message-added_to_queue']['en-gb'] = "Added to queue";
 $text['message-added_to_queue']['ar-eg'] = "أضيف إلى الطابور";
 $text['message-added_to_queue']['de-at'] = "Zur Warteschlange hinzugefügt";
@@ -6819,6 +7072,7 @@ $text['message-added_to_queue']['ja-jp'] = "キューに追加されました";
 $text['message-added_to_queue']['ko-kr'] = "큐에 추가되었습니다";
 
 $text['button-setup']['en-us'] = "Setup";
+$text['button-setup']['vi-vn'] = "Thiết lập";
 $text['button-setup']['ka-ge'] = "მორგება";
 $text['button-setup']['en-gb'] = "Setup";
 $text['button-setup']['ar-eg'] = "يثبت";
@@ -6846,6 +7100,7 @@ $text['button-setup']['ja-jp'] = "設定";
 $text['button-setup']['ko-kr'] = "설정";
 
 $text['button-disable']['en-us'] = "Disable";
+$text['button-disable']['vi-vn'] = "Tắt";
 $text['button-disable']['ka-ge'] = "გათიშვა";
 $text['button-disable']['en-gb'] = "Disable";
 $text['button-disable']['ar-eg'] = "إبطال";
@@ -6873,6 +7128,7 @@ $text['button-disable']['ja-jp'] = "無効にする";
 $text['button-disable']['ko-kr'] = "장애를 입히다";
 
 $text['button-hide']['en-us'] = "Hide";
+$text['button-hide']['vi-vn'] = "Ẩn";
 $text['button-hide']['ka-ge'] = "დამალვა";
 $text['button-hide']['en-gb'] = "Hide";
 $text['button-hide']['ar-eg'] = "يخفي";
@@ -6900,6 +7156,7 @@ $text['button-hide']['ja-jp'] = "隠れる";
 $text['button-hide']['ko-kr'] = "숨다";
 
 $text['label-content']['en-us'] = 'Content';
+$text['label-content']['vi-vn'] = "Nội dung";
 $text['label-content']['en-gb'] = 'Content';
 $text['label-content']['ar-eg'] = 'محتوى';
 $text['label-content']['de-at'] = 'Inhalt';
@@ -6927,6 +7184,7 @@ $text['label-content']['ja-jp'] = 'コンテンツ';
 $text['label-content']['ko-kr'] = '콘텐츠';
 
 $text['label-details']['en-us'] = "Details";
+$text['label-details']['vi-vn'] = "Chi tiết";
 $text['label-details']['en-gb'] = "Details";
 $text['label-details']['ar-eg'] = "تفاصيل";
 $text['label-details']['de-at'] = "Details";
@@ -6953,6 +7211,7 @@ $text['label-details']['ja-jp'] = "インフォメーション";
 $text['label-details']['ko-kr'] = "제품 정보";
 
 $text['label-left']['en-us'] = "Left";
+$text['label-left']['vi-vn'] = "Trái";
 $text['label-left']['en-gb'] = "Left";
 $text['label-left']['ar-eg'] = "غادر";
 $text['label-left']['de-at'] = "Links";
@@ -6979,6 +7238,7 @@ $text['label-left']['ja-jp'] = "左";
 $text['label-left']['ko-kr'] = "왼쪽";
 
 $text['label-right']['en-us'] = "Right";
+$text['label-right']['vi-vn'] = "Phải";
 $text['label-right']['en-gb'] = "Right";
 $text['label-right']['ar-eg'] = "يمين";
 $text['label-right']['de-at'] = "Rechts";
@@ -7005,6 +7265,7 @@ $text['label-right']['ja-jp'] = "右";
 $text['label-right']['ko-kr'] = "오른쪽";
 
 $text['label-center']['en-us'] = "Center";
+$text['label-center']['vi-vn'] = "Giữa";
 $text['label-center']['en-gb'] = "Center";
 $text['label-center']['ar-eg'] = "مركز";
 $text['label-center']['de-at'] = "Center";
@@ -7031,6 +7292,7 @@ $text['label-center']['ja-jp'] = "中心";
 $text['label-center']['ko-kr'] = "센터";
 
 $text['label-icons']['en-us'] = "Icons";
+$text['label-icons']['vi-vn'] = "Biểu tượng";
 $text['label-icons']['en-gb'] = "Icons";
 $text['label-icons']['ar-eg'] = "أيقونات";
 $text['label-icons']['de-at'] = "Symbole";
@@ -7058,6 +7320,7 @@ $text['label-icons']['ja-jp'] = "アイコン";
 $text['label-icons']['ko-kr'] = "아이콘";
 
 $text['label-icon']['en-us'] = "Icon";
+$text['label-icon']['vi-vn'] = "Biểu tượng";
 $text['label-icon']['en-gb'] = "Icon";
 $text['label-icon']['ar-eg'] = "أيقونة";
 $text['label-icon']['de-at'] = "Symbol";
@@ -7085,6 +7348,7 @@ $text['label-icon']['ja-jp'] = "アイコン";
 $text['label-icon']['ko-kr'] = "아이콘";
 
 $text['label-speaker']['en-us'] = "Speaker";
+$text['label-speaker']['vi-vn'] = "Người nói";
 $text['label-speaker']['en-gb'] = "Speaker";
 $text['label-speaker']['ar-eg'] = "المتحدث";
 $text['label-speaker']['de-at'] = "Sprecher";
@@ -7112,6 +7376,7 @@ $text['label-speaker']['ja-jp'] = "スピーカー";
 $text['label-speaker']['ko-kr'] = "스피커";
 
 $text['label-primary-contact-attachment-image']['en-us'] = "Primary Assigned Contact Attachment Image";
+$text['label-primary-contact-attachment-image']['vi-vn'] = "Ảnh đính kèm của liên hệ chính được gán";
 $text['label-primary-contact-attachment-image']['en-gb'] = "Primary Assigned Contact Attachment Image";
 $text['label-primary-contact-attachment-image']['ar-eg'] = "صورة مرفقة لجهة الاتصال الأساسية المعينة";
 $text['label-primary-contact-attachment-image']['de-at'] = "Primär zugewiesenes Kontakt-Anhangsbild";
@@ -7139,6 +7404,7 @@ $text['label-primary-contact-attachment-image']['ja-jp'] = "主な連絡先の�
 $text['label-primary-contact-attachment-image']['ko-kr'] = "기본 할당된 연락처 첨부 이미지";
 
 $text['label-english']['en-us'] = "English";
+$text['label-english']['vi-vn'] = "Tiếng Anh";
 $text['label-english']['en-gb'] = "English";
 $text['label-english']['ar-eg'] = "الإنجليزية";
 $text['label-english']['de-at'] = "Englisch";
@@ -7166,6 +7432,7 @@ $text['label-english']['ja-jp'] = "英語";
 $text['label-english']['ko-kr'] = "영어";
 
 $text['label-en']['en-us'] = "English";
+$text['label-en']['vi-vn'] = "Tiếng Anh";
 $text['label-en']['en-gb'] = "English";
 $text['label-en']['ar-eg'] = "الإنجليزية";
 $text['label-en']['de-at'] = "Englisch";
@@ -7193,6 +7460,7 @@ $text['label-en']['ja-jp'] = "英語";
 $text['label-en']['ko-kr'] = "영어";
 
 $text['label-spanish']['en-us'] = "Spanish";
+$text['label-spanish']['vi-vn'] = "Tiếng Tây Ban Nha";
 $text['label-spanish']['en-gb'] = "Spanish";
 $text['label-spanish']['ar-eg'] = "الإسبانية";
 $text['label-spanish']['de-at'] = "Spanisch";
@@ -7220,6 +7488,7 @@ $text['label-spanish']['ja-jp'] = "スペイン語";
 $text['label-spanish']['ko-kr'] = "스페인어";
 
 $text['label-es']['en-us'] = "Spanish";
+$text['label-es']['vi-vn'] = "Tiếng Tây Ban Nha";
 $text['label-es']['en-gb'] = "Spanish";
 $text['label-es']['ar-eg'] = "الإسبانية";
 $text['label-es']['de-at'] = "Spanisch";
@@ -7247,6 +7516,7 @@ $text['label-es']['ja-jp'] = "スペイン語";
 $text['label-es']['ko-kr'] = "스페인어";
 
 $text['label-french']['en-us'] = "French";
+$text['label-french']['vi-vn'] = "Tiếng Pháp";
 $text['label-french']['en-gb'] = "French";
 $text['label-french']['ar-eg'] = "الفرنسية";
 $text['label-french']['de-at'] = "Französisch";
@@ -7274,6 +7544,7 @@ $text['label-french']['ja-jp'] = "フランス語";
 $text['label-french']['ko-kr'] = "프랑스어";
 
 $text['label-fr']['en-us'] = "French";
+$text['label-fr']['vi-vn'] = "Tiếng Pháp";
 $text['label-fr']['en-gb'] = "French";
 $text['label-fr']['ar-eg'] = "الفرنسية";
 $text['label-fr']['de-at'] = "Französisch";
@@ -7301,6 +7572,7 @@ $text['label-fr']['ja-jp'] = "フランス語";
 $text['label-fr']['ko-kr'] = "프랑스어";
 
 $text['label-german']['en-us'] = "German";
+$text['label-german']['vi-vn'] = "Tiếng Đức";
 $text['label-german']['en-gb'] = "German";
 $text['label-german']['ar-eg'] = "الألمانية";
 $text['label-german']['de-at'] = "Deutsch";
@@ -7328,6 +7600,7 @@ $text['label-german']['ja-jp'] = "ドイツ語";
 $text['label-german']['ko-kr'] = "독일어";
 
 $text['label-de']['en-us'] = "German";
+$text['label-de']['vi-vn'] = "Tiếng Đức";
 $text['label-de']['en-gb'] = "German";
 $text['label-de']['ar-eg'] = "الألمانية";
 $text['label-de']['de-at'] = "Deutsch";
@@ -7355,6 +7628,7 @@ $text['label-de']['ja-jp'] = "ドイツ語";
 $text['label-de']['ko-kr'] = "독일어";
 
 $text['label-italian']['en-us'] = "Italian";
+$text['label-italian']['vi-vn'] = "Tiếng Ý";
 $text['label-italian']['en-gb'] = "Italian";
 $text['label-italian']['ar-eg'] = "الإيطالية";
 $text['label-italian']['de-at'] = "Italienisch";
@@ -7382,6 +7656,7 @@ $text['label-italian']['ja-jp'] = "イタリア語";
 $text['label-italian']['ko-kr'] = "이탈리아어";
 
 $text['label-it']['en-us'] = "Italian";
+$text['label-it']['vi-vn'] = "Tiếng Ý";
 $text['label-it']['en-gb'] = "Italian";
 $text['label-it']['ar-eg'] = "الإيطالية";
 $text['label-it']['de-at'] = "Italienisch";
@@ -7409,6 +7684,7 @@ $text['label-it']['ja-jp'] = "イタリア語";
 $text['label-it']['ko-kr'] = "이탈리아어";
 
 $text['label-portuguese']['en-us'] = "Portuguese";
+$text['label-portuguese']['vi-vn'] = "Tiếng Bồ Đào Nha";
 $text['label-portuguese']['en-gb'] = "Portuguese";
 $text['label-portuguese']['ar-eg'] = "البرتغالية";
 $text['label-portuguese']['de-at'] = "Portugiesisch";
@@ -7436,6 +7712,7 @@ $text['label-portuguese']['ja-jp'] = "ポルトガル語";
 $text['label-portuguese']['ko-kr'] = "포르ту갈어";
 
 $text['label-pt']['en-us'] = "Portuguese";
+$text['label-pt']['vi-vn'] = "Tiếng Bồ Đào Nha";
 $text['label-pt']['en-gb'] = "Portuguese";
 $text['label-pt']['ar-eg'] = "البرتغالية";
 $text['label-pt']['de-at'] = "Portugiesisch";
@@ -7463,6 +7740,7 @@ $text['label-pt']['ja-jp'] = "ポルトガル語";
 $text['label-pt']['ko-kr'] = "포르ту갈어";
 
 $text['label-polish']['en-us'] = "Polish";
+$text['label-polish']['vi-vn'] = "Tiếng Ba Lan";
 $text['label-polish']['en-gb'] = "Polish";
 $text['label-polish']['ar-eg'] = "البولندية";
 $text['label-polish']['de-at'] = "Polnisch";
@@ -7490,6 +7768,7 @@ $text['label-polish']['ja-jp'] = "ポーランド語";
 $text['label-polish']['ko-kr'] = "폴란드어";
 
 $text['label-pl']['en-us'] = "Polish";
+$text['label-pl']['vi-vn'] = "Tiếng Ba Lan";
 $text['label-pl']['en-gb'] = "Polish";
 $text['label-pl']['ar-eg'] = "البولندية";
 $text['label-pl']['de-at'] = "Polnisch";
@@ -7517,6 +7796,7 @@ $text['label-pl']['ja-jp'] = "ポーランド語";
 $text['label-pl']['ko-kr'] = "폴란드어";
 
 $text['label-chinese']['en-us'] = "Chinese";
+$text['label-chinese']['vi-vn'] = "Tiếng Trung";
 $text['label-chinese']['en-gb'] = "Chinese";
 $text['label-chinese']['ar-eg'] = "الصينية";
 $text['label-chinese']['de-at'] = "Chinesisch";
@@ -7544,6 +7824,7 @@ $text['label-chinese']['ja-jp'] = "中国語";
 $text['label-chinese']['ko-kr'] = "중국어";
 
 $text['label-zh']['en-us'] = "Chinese";
+$text['label-zh']['vi-vn'] = "Tiếng Trung";
 $text['label-zh']['en-gb'] = "Chinese";
 $text['label-zh']['ar-eg'] = "الصينية";
 $text['label-zh']['de-at'] = "Chinesisch";
@@ -7571,6 +7852,7 @@ $text['label-zh']['ja-jp'] = "中国語";
 $text['label-zh']['ko-kr'] = "중국어";
 
 $text['label-japanese']['en-us'] = "Japanese";
+$text['label-japanese']['vi-vn'] = "Tiếng Nhật";
 $text['label-japanese']['en-gb'] = "Japanese";
 $text['label-japanese']['ar-eg'] = "اليابانية";
 $text['label-japanese']['de-at'] = "Japanisch";
@@ -7598,6 +7880,7 @@ $text['label-japanese']['ja-jp'] = "日本語";
 $text['label-japanese']['ko-kr'] = "일본어";
 
 $text['label-ja']['en-us'] = "Japanese";
+$text['label-ja']['vi-vn'] = "Tiếng Nhật";
 $text['label-ja']['en-gb'] = "Japanese";
 $text['label-ja']['ar-eg'] = "اليابانية";
 $text['label-ja']['de-at'] = "Japanisch";
@@ -7625,6 +7908,7 @@ $text['label-ja']['ja-jp'] = "日本語";
 $text['label-ja']['ko-kr'] = "일본어";
 
 $text['label-korean']['en-us'] = "Korean";
+$text['label-korean']['vi-vn'] = "Tiếng Hàn";
 $text['label-korean']['en-gb'] = "Korean";
 $text['label-korean']['ar-eg'] = "الكورية";
 $text['label-korean']['de-at'] = "Koreanisch";
@@ -7652,6 +7936,7 @@ $text['label-korean']['ja-jp'] = "韓国語";
 $text['label-korean']['ko-kr'] = "한국어";
 
 $text['label-ko']['en-us'] = "Korean";
+$text['label-ko']['vi-vn'] = "Tiếng Hàn";
 $text['label-ko']['en-gb'] = "Korean";
 $text['label-ko']['ar-eg'] = "الكورية";
 $text['label-ko']['de-at'] = "Koreanisch";
@@ -7679,6 +7964,7 @@ $text['label-ko']['ja-jp'] = "韓国語";
 $text['label-ko']['ko-kr'] = "한국어";
 
 $text['label-dutch']['en-us'] = "Dutch";
+$text['label-dutch']['vi-vn'] = "Tiếng Hà Lan";
 $text['label-dutch']['en-gb'] = "Dutch";
 $text['label-dutch']['ar-eg'] = "الهولندية";
 $text['label-dutch']['de-at'] = "Niederländisch";
@@ -7706,6 +7992,7 @@ $text['label-dutch']['ja-jp'] = "オランダ語";
 $text['label-dutch']['ko-kr'] = "네덜란드어";
 
 $text['label-nl']['en-us'] = "Dutch";
+$text['label-nl']['vi-vn'] = "Tiếng Hà Lan";
 $text['label-nl']['en-gb'] = "Dutch";
 $text['label-nl']['ar-eg'] = "الهولندية";
 $text['label-nl']['de-at'] = "Niederländisch";
@@ -7733,6 +8020,7 @@ $text['label-nl']['ja-jp'] = "オランダ語";
 $text['label-nl']['ko-kr'] = "네덜란드어";
 
 $text['label-russian']['en-us'] = "Russian";
+$text['label-russian']['vi-vn'] = "Tiếng Nga";
 $text['label-russian']['en-gb'] = "Russian";
 $text['label-russian']['ar-eg'] = "الروسية";
 $text['label-russian']['de-at'] = "Russisch";
@@ -7760,6 +8048,7 @@ $text['label-russian']['ja-jp'] = "ロシア語";
 $text['label-russian']['ko-kr'] = "러시아어";
 
 $text['label-ru']['en-us'] = "Russian";
+$text['label-ru']['vi-vn'] = "Tiếng Nga";
 $text['label-ru']['en-gb'] = "Russian";
 $text['label-ru']['ar-eg'] = "الروسية";
 $text['label-ru']['de-at'] = "Russisch";
@@ -7787,6 +8076,7 @@ $text['label-ru']['ja-jp'] = "ロシア語";
 $text['label-ru']['ko-kr'] = "러시아어";
 
 $text['label-hindi']['en-us'] = "Hindi";
+$text['label-hindi']['vi-vn'] = "Tiếng Hindi";
 $text['label-hindi']['en-gb'] = "Hindi";
 $text['label-hindi']['ar-eg'] = "الهندي";
 $text['label-hindi']['de-at'] = "Hindi";
@@ -7814,6 +8104,7 @@ $text['label-hindi']['ja-jp'] = "ヒンディー語";
 $text['label-hindi']['ko-kr'] = "힌디어";
 
 $text['label-hi']['en-us'] = "Hindi";
+$text['label-hi']['vi-vn'] = "Tiếng Hindi";
 $text['label-hi']['en-gb'] = "Hindi";
 $text['label-hi']['ar-eg'] = "الهندي";
 $text['label-hi']['de-at'] = "Hindi";
@@ -7841,6 +8132,7 @@ $text['label-hi']['ja-jp'] = "ヒンディー語";
 $text['label-hi']['ko-kr'] = "힌디어";
 
 $text['label-hebrew']['en-us'] = "Hebrew";
+$text['label-hebrew']['vi-vn'] = "Tiếng Hebrew";
 $text['label-hebrew']['en-gb'] = "Hebrew";
 $text['label-hebrew']['ar-eg'] = "العبرية";
 $text['label-hebrew']['de-at'] = "Hebräisch";
@@ -7868,6 +8160,7 @@ $text['label-hebrew']['ja-jp'] = "ヘブライ語";
 $text['label-hebrew']['ko-kr'] = "히브리어";
 
 $text['label-he']['en-us'] = "Hebrew";
+$text['label-he']['vi-vn'] = "Tiếng Hebrew";
 $text['label-he']['en-gb'] = "Hebrew";
 $text['label-he']['ar-eg'] = "العبرية";
 $text['label-he']['de-at'] = "Hebräisch";
@@ -7895,6 +8188,7 @@ $text['label-he']['ja-jp'] = "ヘブライ語";
 $text['label-he']['ko-kr'] = "히브리어";
 
 $text['label-arabic']['en-us'] = "Arabic";
+$text['label-arabic']['vi-vn'] = "Tiếng Ả Rập";
 $text['label-arabic']['en-gb'] = "Arabic";
 $text['label-arabic']['ar-eg'] = "العربية";
 $text['label-arabic']['de-at'] = "Arabisch";
@@ -7922,6 +8216,7 @@ $text['label-arabic']['ja-jp'] = "アラビア語";
 $text['label-arabic']['ko-kr'] = "아랍어";
 
 $text['label-ar']['en-us'] = "Arabic";
+$text['label-ar']['vi-vn'] = "Tiếng Ả Rập";
 $text['label-ar']['en-gb'] = "Arabic";
 $text['label-ar']['ar-eg'] = "العربية";
 $text['label-ar']['de-at'] = "Arabisch";

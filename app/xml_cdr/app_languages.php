@@ -1,6 +1,7 @@
 <?php
 
 $text['title2']['en-us'] = "Call Details";
+$text['title2']['vi-vn'] = 'Chi tiết cuộc gọi';
 $text['title2']['en-gb'] = "Call Details";
 $text['title2']['ar-eg'] = "تفاصيل المكالمة";
 $text['title2']['de-at'] = "Anruf Details";
@@ -28,6 +29,7 @@ $text['title2']['ja-jp'] = "拡張機能の概要";
 $text['title2']['ko-kr'] = "확장 요약";
 
 $text['title-extension_summary']['en-us'] = "Extension Summary";
+$text['title-extension_summary']['vi-vn'] = 'Tóm tắt máy nhánh';
 $text['title-extension_summary']['en-gb'] = "Extension Summary";
 $text['title-extension_summary']['ar-eg'] = "ملخص التمديد";
 $text['title-extension_summary']['de-at'] = "Nebenstellen Statistik";
@@ -55,6 +57,7 @@ $text['title-extension_summary']['ja-jp'] = "拡張機能の概要";
 $text['title-extension_summary']['ko-kr'] = "확장 요약";
 
 $text['title']['en-us'] = "Call Detail Records";
+$text['title']['vi-vn'] = 'Bản ghi chi tiết cuộc gọi';
 $text['title']['en-gb'] = "Call Detail Records";
 $text['title']['ar-eg'] = "سجلات تفاصيل المكالمات";
 $text['title']['de-at'] = "Meine Gespräche";
@@ -82,6 +85,7 @@ $text['title']['ja-jp'] = "通話詳細記録";
 $text['title']['ko-kr'] = "통화 내역 기록";
 
 $text['title-call_detail_records']['en-us'] = "Call Detail Records";
+$text['title-call_detail_records']['vi-vn'] = 'Bản ghi chi tiết cuộc gọi';
 $text['title-call_detail_records']['en-gb'] = "Call Detail Records";
 $text['title-call_detail_records']['ar-eg'] = "سجلات تفاصيل المكالمات";
 $text['title-call_detail_records']['de-at'] = "Meine Gespräche";
@@ -109,6 +113,7 @@ $text['title-call_detail_records']['ja-jp'] = "通話詳細記録";
 $text['title-call_detail_records']['ko-kr'] = "통화 내역 기록";
 
 $text['title-call-statistics']['en-us'] = "Call Detail Record Statistics";
+$text['title-call-statistics']['vi-vn'] = 'Thống kê bản ghi chi tiết cuộc gọi';
 $text['title-call-statistics']['en-gb'] = "Call Detail Record Statistics";
 $text['title-call-statistics']['ar-eg'] = "إحصائيات سجل تفاصيل المكالمة";
 $text['title-call-statistics']['de-at'] = "Anruf Statistiken";
@@ -136,6 +141,7 @@ $text['title-call-statistics']['ja-jp'] = "通話詳細記録の統計";
 $text['title-call-statistics']['ko-kr'] = "통화 세부 기록 통계";
 
 $text['title-call_detail_records_archive']['en-us'] = "Call Detail Records Archive";
+$text['title-call_detail_records_archive']['vi-vn'] = 'Lưu trữ bản ghi chi tiết cuộc gọi';
 $text['title-call_detail_records_archive']['en-gb'] = "Call Detail Records Archive";
 $text['title-call_detail_records_archive']['ar-eg'] = "Arhiva de înregistrări cu detalii apel";
 $text['title-call_detail_records_archive']['de-at'] = "Meine Gespräche Archiv";
@@ -163,6 +169,7 @@ $text['title-call_detail_records_archive']['ja-jp'] = "通話詳細記録のア�
 $text['title-call_detail_records_archive']['ko-kr'] = "통화 세부 기록 아카이브";
 
 $text['title-advanced_search']['en-us'] = "Advanced Search";
+$text['title-advanced_search']['vi-vn'] = 'Tìm kiếm nâng cao';
 $text['title-advanced_search']['en-gb'] = "Advanced Search";
 $text['title-advanced_search']['ar-eg'] = "البحث المتقدم";
 $text['title-advanced_search']['de-at'] = "Erweiterte";
@@ -190,6 +197,7 @@ $text['title-advanced_search']['ja-jp'] = "高度な検索";
 $text['title-advanced_search']['ko-kr'] = "고급 검색";
 
 $text['label-time']['en-us'] = "Time";
+$text['label-time']['vi-vn'] = 'Thời gian';
 $text['label-time']['en-gb'] = "Time";
 $text['label-time']['ar-eg'] = "وقت";
 $text['label-time']['de-at'] = "Zeit";
@@ -217,6 +225,7 @@ $text['label-time']['ja-jp'] = "時間";
 $text['label-time']['ko-kr'] = "시간";
 
 $text['label-name']['en-us'] = "Name";
+$text['label-name']['vi-vn'] = 'Tên';
 $text['label-name']['en-gb'] = "Name";
 $text['label-name']['ar-eg'] = "اسم";
 $text['label-name']['de-at'] = "Name";
@@ -244,6 +253,7 @@ $text['label-name']['ja-jp'] = "名前";
 $text['label-name']['ko-kr'] = "이름";
 
 $text['label-volume']['en-us'] = "Volume";
+$text['label-volume']['vi-vn'] = 'Âm lượng';
 $text['label-volume']['en-gb'] = "Volume";
 $text['label-volume']['ar-eg'] = "الحجم";
 $text['label-volume']['de-at'] = "Volumen";
@@ -270,6 +280,7 @@ $text['label-volume']['ja-jp'] = "ボリューム";
 $text['label-volume']['ko-kr'] = "용량";
 
 $text['label-minutes']['en-us'] = "Minutes";
+$text['label-minutes']['vi-vn'] = 'Phút';
 $text['label-minutes']['en-gb'] = "Minutes";
 $text['label-minutes']['ar-eg'] = "دقائق";
 $text['label-minutes']['de-at'] = "Minuten";
@@ -297,6 +308,7 @@ $text['label-minutes']['ja-jp'] = "分";
 $text['label-minutes']['ko-kr'] = "분";
 
 $text['label-hours']['en-us'] = "Hours";
+$text['label-hours']['vi-vn'] = 'Giờ';
 $text['label-hours']['en-gb'] = "Hours";
 $text['label-hours']['ar-eg'] = "ساعات";
 $text['label-hours']['de-at'] = "Stunden";
@@ -324,6 +336,7 @@ $text['label-hours']['ja-jp'] = "時間";
 $text['label-hours']['ko-kr'] = "시간";
 
 $text['label-end']['en-us'] = "End";
+$text['label-end']['vi-vn'] = 'Kết thúc';
 $text['label-end']['en-gb'] = "End";
 $text['label-end']['ar-eg'] = "نهاية";
 $text['label-end']['de-at'] = "Ende";
@@ -351,6 +364,7 @@ $text['label-end']['ja-jp'] = "終わり";
 $text['label-end']['ko-kr'] = "끝";
 
 $text['label-download']['en-us'] = "Number";
+$text['label-download']['vi-vn'] = 'Tải xuống';
 $text['label-download']['en-gb'] = "Number";
 $text['label-download']['ar-eg'] = "رقم";
 $text['label-download']['de-at'] = "Nummer";
@@ -378,6 +392,7 @@ $text['label-download']['ja-jp'] = "番号";
 $text['label-download']['ko-kr'] = "숫자";
 
 $text['label-direction']['en-us'] = "Direction";
+$text['label-direction']['vi-vn'] = 'Hướng';
 $text['label-direction']['en-gb'] = "Direction";
 $text['label-direction']['ar-eg'] = "اتجاه";
 $text['label-direction']['de-at'] = "Richtung";
@@ -405,6 +420,7 @@ $text['label-direction']['ja-jp'] = "方向";
 $text['label-direction']['ko-kr'] = "방향";
 
 $text['label-days']['en-us'] = "Days";
+$text['label-days']['vi-vn'] = 'Ngày';
 $text['label-days']['en-gb'] = "Days";
 $text['label-days']['ar-eg'] = "أيام";
 $text['label-days']['de-at'] = "Tage";
@@ -432,6 +448,7 @@ $text['label-days']['ja-jp'] = "日々";
 $text['label-days']['ko-kr'] = "날";
 
 $text['label-date']['en-us'] = "Date";
+$text['label-date']['vi-vn'] = 'Ngày';
 $text['label-date']['en-gb'] = "Date";
 $text['label-date']['ar-eg'] = "تاريخ";
 $text['label-date']['de-at'] = "Datum";
@@ -459,6 +476,7 @@ $text['label-date']['ja-jp'] = "日にち";
 $text['label-date']['ko-kr'] = "날짜";
 
 $text['label-calls-per-minute']['en-us'] = "Calls Per Min";
+$text['label-calls-per-minute']['vi-vn'] = 'Cuộc gọi mỗi phút';
 $text['label-calls-per-minute']['en-gb'] = "Calls Per Min";
 $text['label-calls-per-minute']['ar-eg'] = "المكالمات في الدقيقة";
 $text['label-calls-per-minute']['de-at'] = "Anrufe pro Min";
@@ -486,6 +504,7 @@ $text['label-calls-per-minute']['ja-jp'] = "1分あたりの通話数";
 $text['label-calls-per-minute']['ko-kr'] = "분당 통화";
 
 $text['option-yesterday']['en-us'] = "Yesterday";
+$text['option-yesterday']['vi-vn'] = 'Hôm qua';
 $text['option-yesterday']['en-gb'] = "Yesterday";
 $text['option-yesterday']['ar-eg'] = "أمس";
 $text['option-yesterday']['de-at'] = "Gestern";
@@ -513,6 +532,7 @@ $text['option-yesterday']['ja-jp'] = "昨日";
 $text['option-yesterday']['ko-kr'] = "어제";
 
 $text['option-today']['en-us'] = "Today";
+$text['option-today']['vi-vn'] = 'Hôm nay';
 $text['option-today']['en-gb'] = "Today";
 $text['option-today']['ar-eg'] = "اليوم";
 $text['option-today']['de-at'] = "Heute";
@@ -540,6 +560,7 @@ $text['option-today']['ja-jp'] = "今日";
 $text['option-today']['ko-kr'] = "오늘";
 
 $text['option-this_year']['en-us'] = "This Year";
+$text['option-this_year']['vi-vn'] = 'Năm nay';
 $text['option-this_year']['en-gb'] = "This Year";
 $text['option-this_year']['ar-eg'] = "هذا العام";
 $text['option-this_year']['de-at'] = "Dieses Jahr";
@@ -567,6 +588,7 @@ $text['option-this_year']['ja-jp'] = "ことし";
 $text['option-this_year']['ko-kr'] = "올해";
 
 $text['option-this_week']['en-us'] = "This Week";
+$text['option-this_week']['vi-vn'] = 'Tuần này';
 $text['option-this_week']['en-gb'] = "This Week";
 $text['option-this_week']['ar-eg'] = "هذا الاسبوع";
 $text['option-this_week']['de-at'] = "Diese Woche";
@@ -594,6 +616,7 @@ $text['option-this_week']['ja-jp'] = "今週";
 $text['option-this_week']['ko-kr'] = "이번 주";
 
 $text['option-this_month']['en-us'] = "This Month";
+$text['option-this_month']['vi-vn'] = 'Tháng này';
 $text['option-this_month']['en-gb'] = "This Month";
 $text['option-this_month']['ar-eg'] = "هذا الشهر";
 $text['option-this_month']['de-at'] = "Diesen Monat";
@@ -621,6 +644,7 @@ $text['option-this_month']['ja-jp'] = "今月";
 $text['option-this_month']['ko-kr'] = "이번 달";
 
 $text['option-last_seven_days']['en-us'] = "Last 7 Days";
+$text['option-last_seven_days']['vi-vn'] = '7 ngày qua';
 $text['option-last_seven_days']['en-gb'] = "Last 7 Days";
 $text['option-last_seven_days']['ar-eg'] = "الأيام السبعة الماضية";
 $text['option-last_seven_days']['de-at'] = "Letzte 7 Tage";
@@ -648,6 +672,7 @@ $text['option-last_seven_days']['ja-jp'] = "過去 7 日間";
 $text['option-last_seven_days']['ko-kr'] = "지난 7일";
 
 $text['option-last_hour']['en-us'] = "Last Hour";
+$text['option-last_hour']['vi-vn'] = 'Giờ trước';
 $text['option-last_hour']['en-gb'] = "Last Hour";
 $text['option-last_hour']['ar-eg'] = "الساعة الأخيرة";
 $text['option-last_hour']['de-at'] = "Letzte Stunde";
@@ -675,6 +700,7 @@ $text['option-last_hour']['ja-jp'] = "最後の時間";
 $text['option-last_hour']['ko-kr'] = "지난 시간";
 
 $text['option-default']['en-us'] = "Default";
+$text['option-default']['vi-vn'] = 'Mặc định';
 $text['option-default']['en-gb'] = "Default";
 $text['option-default']['ar-eg'] = "تقصير";
 $text['option-default']['de-at'] = "Vorgabe";
@@ -702,6 +728,7 @@ $text['option-default']['ja-jp'] = "デフォルト";
 $text['option-default']['ko-kr'] = "기본";
 
 $text['message-preparing_download']['en-us'] = "Preparing file for download, please wait...";
+$text['message-preparing_download']['vi-vn'] = 'Đang chuẩn bị tệp để tải xuống, vui lòng chờ...';
 $text['message-preparing_download']['en-gb'] = "Preparing file for download, please wait...";
 $text['message-preparing_download']['ar-eg'] = "جاري تحضير الملف للتحميل ، الرجاء الانتظار ...";
 $text['message-preparing_download']['de-at'] = "Bereite Datei für den Download vor, bitte warten...";
@@ -729,6 +756,7 @@ $text['message-preparing_download']['ja-jp'] = "ファイルのダウンロー�
 $text['message-preparing_download']['ko-kr'] = "다운로드할 파일을 준비 중입니다. 잠시만 기다려 주십시오...";
 
 $text['label-write_codec']['en-us'] = "Write Codec";
+$text['label-write_codec']['vi-vn'] = 'Codec ghi';
 $text['label-write_codec']['en-gb'] = "Write Codec";
 $text['label-write_codec']['ar-eg'] = "اكتب الترميز";
 $text['label-write_codec']['de-at'] = "Schreib Codec";
@@ -756,6 +784,7 @@ $text['label-write_codec']['ja-jp'] = "書き込みコーデック";
 $text['label-write_codec']['ko-kr'] = "코덱 쓰기";
 
 $text['label-variables']['en-us'] = "Variables";
+$text['label-variables']['vi-vn'] = 'Biến';
 $text['label-variables']['en-gb'] = "Variables";
 $text['label-variables']['ar-eg'] = "المتغيرات";
 $text['label-variables']['de-at'] = "Variablen";
@@ -783,6 +812,7 @@ $text['label-variables']['ja-jp'] = "変数";
 $text['label-variables']['ko-kr'] = "변수";
 
 $text['label-call-stats']['en-us'] = "Call Stats: Audio";
+$text['label-call-stats']['vi-vn'] = 'Thống kê cuộc gọi: âm thanh';
 $text['label-call-stats']['en-gb'] = "Call Stats: Audio";
 $text['label-call-stats']['ar-eg'] = "إحصائيات المكالمات: الصوت";
 $text['label-call-stats']['de-at'] = "Anrufstatistik: Audio";
@@ -810,6 +840,7 @@ $text['label-call-stats']['ja-jp'] = "通話統計: オーディオ";
 $text['label-call-stats']['ko-kr'] = "통화 통계: 오디오";
 
 $text['label-uuid']['en-us'] = "UUID";
+$text['label-uuid']['vi-vn'] = 'UUID';
 $text['label-uuid']['en-gb'] = "UUID";
 $text['label-uuid']['ar-eg'] = "UUID";
 $text['label-uuid']['de-at'] = "UUID";
@@ -837,6 +868,7 @@ $text['label-uuid']['ja-jp'] = "UUID";
 $text['label-uuid']['ko-kr'] = "UUID";
 
 $text['label-username']['en-us'] = "Username";
+$text['label-username']['vi-vn'] = 'Tên đăng nhập';
 $text['label-username']['en-gb'] = "Username";
 $text['label-username']['ar-eg'] = "اسم المستخدم";
 $text['label-username']['de-at'] = "Benutzername";
@@ -864,6 +896,7 @@ $text['label-username']['ja-jp'] = "ユーザー名";
 $text['label-username']['ko-kr'] = "사용자 이름";
 
 $text['label-tta']['en-us'] = "TTA";
+$text['label-tta']['vi-vn'] = 'TTA';
 $text['label-tta']['en-gb'] = "TTA";
 $text['label-tta']['ar-eg'] = "وقت الرد";
 $text['label-tta']['de-at'] = "ZZB";
@@ -891,6 +924,7 @@ $text['label-tta']['ja-jp'] = "TTA";
 $text['label-tta']['ko-kr'] = "TTA";
 
 $text['label-pdd']['en-us'] = "PDD";
+$text['label-pdd']['vi-vn'] = 'PDD';
 $text['label-pdd']['en-gb'] = "PDD";
 $text['label-pdd']['ar-eg'] = "تأخير بعد الطلب";
 $text['label-pdd']['de-at'] = "PDD";
@@ -918,6 +952,7 @@ $text['label-pdd']['ja-jp'] = "PDD";
 $text['label-pdd']['ko-kr'] = "PDD";
 
 $text['label-mos']['en-us'] = "MOS";
+$text['label-mos']['vi-vn'] = 'MOS';
 $text['label-mos']['en-gb'] = "MOS";
 $text['label-mos']['ar-eg'] = "يعني النتيجة الرأي";
 $text['label-mos']['de-at'] = "MM";
@@ -945,6 +980,7 @@ $text['label-mos']['ja-jp'] = "MOS";
 $text['label-mos']['ko-kr'] = "MOS";
 
 $text['label-total']['en-us'] = "Total";
+$text['label-total']['vi-vn'] = 'Tổng';
 $text['label-total']['en-gb'] = "Total";
 $text['label-total']['ar-eg'] = "المجموع";
 $text['label-total']['de-at'] = "Summe";
@@ -972,6 +1008,7 @@ $text['label-total']['ja-jp'] = "合計";
 $text['label-total']['ko-kr'] = "총";
 
 $text['label-tools']['en-us'] = "Tools";
+$text['label-tools']['vi-vn'] = 'Công cụ';
 $text['label-tools']['en-gb'] = "Tools";
 $text['label-tools']['ar-eg'] = "أدوات";
 $text['label-tools']['de-at'] = "Funktionen";
@@ -999,6 +1036,7 @@ $text['label-tools']['ja-jp'] = "ツール";
 $text['label-tools']['ko-kr'] = "도구";
 
 $text['label-to']['en-us'] = "To";
+$text['label-to']['vi-vn'] = 'Đến';
 $text['label-to']['en-gb'] = "To";
 $text['label-to']['ar-eg'] = "ل";
 $text['label-to']['de-at'] = "Bis";
@@ -1026,6 +1064,7 @@ $text['label-to']['ja-jp'] = "に";
 $text['label-to']['ko-kr'] = "에게";
 
 $text['label-summary']['en-us'] = "Summary";
+$text['label-summary']['vi-vn'] = 'Tóm tắt';
 $text['label-summary']['en-gb'] = "Summary";
 $text['label-summary']['ar-eg'] = "ملخص";
 $text['label-summary']['de-at'] = "Zusammenfassung";
@@ -1053,6 +1092,7 @@ $text['label-summary']['ja-jp'] = "まとめ";
 $text['label-summary']['ko-kr'] = "요약";
 
 $text['label-call_flow_summary']['en-us'] = "Call Flow Summary";
+$text['label-call_flow_summary']['vi-vn'] = 'Tóm tắt luồng cuộc gọi';
 $text['label-call_flow_summary']['en-gb'] = "Call Flow Summary";
 $text['label-call_flow_summary']['ar-eg'] = "ملخص تدفق المكالمات";
 $text['label-call_flow_summary']['de-at'] = "Zusammenfassung des Anrufverlaufs";
@@ -1080,6 +1120,7 @@ $text['label-call_flow_summary']['ja-jp'] = "コールフローの概要";
 $text['label-call_flow_summary']['ko-kr'] = "통화 흐름 요약";
 
 $text['label-status']['en-us'] = "Status";
+$text['label-status']['vi-vn'] = 'Trạng thái';
 $text['label-status']['en-gb'] = "Status";
 $text['label-status']['ar-eg'] = "حالة";
 $text['label-status']['de-at'] = "Status";
@@ -1107,6 +1148,7 @@ $text['label-status']['ja-jp'] = "スターテス";
 $text['label-status']['ko-kr'] = "상태";
 
 $text['label-call_disposition']['en-us'] = "Call Disposition";
+$text['label-call_disposition']['vi-vn'] = 'Kết quả cuộc gọi';
 $text['label-call_disposition']['en-gb'] = "Call Disposition";
 $text['label-call_disposition']['ar-eg'] = "تحديد مكالمة";
 $text['label-call_disposition']['de-at'] = "Anrufverlauf";
@@ -1134,6 +1176,7 @@ $text['label-call_disposition']['ja-jp'] = "通話処理";
 $text['label-call_disposition']['ko-kr'] = "통화 처리";
 
 $text['label-start_range']['en-us'] = "Start Range";
+$text['label-start_range']['vi-vn'] = 'Khoảng bắt đầu';
 $text['label-start_range']['en-gb'] = "Start Range";
 $text['label-start_range']['ar-eg'] = "نطاق البداية";
 $text['label-start_range']['de-at'] = "Start Bereich";
@@ -1161,6 +1204,7 @@ $text['label-start_range']['ja-jp'] = "開始範囲";
 $text['label-start_range']['ko-kr'] = "시작 범위";
 
 $text['label-start_date_time']['en-us'] = "Start Date/Time";
+$text['label-start_date_time']['vi-vn'] = 'Ngày/giờ bắt đầu';
 $text['label-start_date_time']['en-gb'] = "Start Date/Time";
 $text['label-start_date_time']['ar-eg'] = "تاريخ / وقت البدء";
 $text['label-start_date_time']['de-at'] = "Start Datum/Zeit";
@@ -1188,6 +1232,7 @@ $text['label-start_date_time']['ja-jp'] = "開始日時";
 $text['label-start_date_time']['ko-kr'] = "시작 날짜/시간";
 
 $text['label-start']['en-us'] = "Start";
+$text['label-start']['vi-vn'] = 'Bắt đầu';
 $text['label-start']['en-gb'] = "Start";
 $text['label-start']['ar-eg'] = "يبدأ";
 $text['label-start']['de-at'] = "Start";
@@ -1215,6 +1260,7 @@ $text['label-start']['ja-jp'] = "始める";
 $text['label-start']['ko-kr'] = "시작";
 
 $text['label-source']['en-us'] = "Source";
+$text['label-source']['vi-vn'] = 'Nguồn';
 $text['label-source']['en-gb'] = "Source";
 $text['label-source']['ar-eg'] = "مصدر";
 $text['label-source']['de-at'] = "Quelle";
@@ -1242,6 +1288,7 @@ $text['label-source']['ja-jp'] = "ソース";
 $text['label-source']['ko-kr'] = "원천";
 
 $text['label-result']['en-us'] = "Result";
+$text['label-result']['vi-vn'] = 'Kết quả';
 $text['label-result']['en-gb'] = "Result";
 $text['label-result']['ar-eg'] = "نتيجة";
 $text['label-result']['de-at'] = "Ergebnis";
@@ -1269,6 +1316,7 @@ $text['label-result']['ja-jp'] = "結果";
 $text['label-result']['ko-kr'] = "결과";
 
 $text['label-remote_media_ip']['en-us'] = "Remote Media IP";
+$text['label-remote_media_ip']['vi-vn'] = 'IP media remote';
 $text['label-remote_media_ip']['en-gb'] = "Remote Media IP";
 $text['label-remote_media_ip']['ar-eg'] = "IP للوسائط البعيدة";
 $text['label-remote_media_ip']['de-at'] = "Remote Media IP";
@@ -1296,6 +1344,7 @@ $text['label-remote_media_ip']['ja-jp'] = "リモートメディアIP";
 $text['label-remote_media_ip']['ko-kr'] = "원격 미디어 IP";
 
 $text['label-recording']['en-us'] = "Recording";
+$text['label-recording']['vi-vn'] = 'Bản ghi âm';
 $text['label-recording']['en-gb'] = "Recording";
 $text['label-recording']['ar-eg'] = "تسجيل";
 $text['label-recording']['de-at'] = "Aufnahme";
@@ -1323,6 +1372,7 @@ $text['label-recording']['ja-jp'] = "録音";
 $text['label-recording']['ko-kr'] = "녹음";
 
 $text['label-read_codec']['en-us'] = "Read Codec";
+$text['label-read_codec']['vi-vn'] = 'Codec đọc';
 $text['label-read_codec']['en-gb'] = "Read Codec";
 $text['label-read_codec']['ar-eg'] = "قراءة الترميز";
 $text['label-read_codec']['de-at'] = "Lese Codec";
@@ -1350,6 +1400,7 @@ $text['label-read_codec']['ja-jp'] = "コーデックの読み取り";
 $text['label-read_codec']['ko-kr'] = "코덱 읽기";
 
 $text['label-price']['en-us'] = "Price";
+$text['label-price']['vi-vn'] = 'Giá';
 $text['label-price']['en-gb'] = "Price";
 $text['label-price']['ar-eg'] = "سعر";
 $text['label-price']['de-at'] = "Preis";
@@ -1377,6 +1428,7 @@ $text['label-price']['ja-jp'] = "価格";
 $text['label-price']['ko-kr'] = "가격";
 
 $text['label-preset']['en-us'] = "Quick Select";
+$text['label-preset']['vi-vn'] = 'Chọn nhanh';
 $text['label-preset']['en-gb'] = "Quick Select";
 $text['label-preset']['ar-eg'] = "حدد مسرعا";
 $text['label-preset']['de-at'] = "Schnellauswahl";
@@ -1404,6 +1456,7 @@ $text['label-preset']['ja-jp'] = "クイック選択";
 $text['label-preset']['ko-kr'] = "빠른 선택";
 
 $text['label-play']['en-us'] = "Play";
+$text['label-play']['vi-vn'] = 'Phát';
 $text['label-play']['en-gb'] = "Play";
 $text['label-play']['ar-eg'] = "يلعب";
 $text['label-play']['de-at'] = "Abspielen";
@@ -1431,6 +1484,7 @@ $text['label-play']['ja-jp'] = "遊ぶ";
 $text['label-play']['ko-kr'] = "놀다";
 
 $text['label-phoneip']['en-us'] = "Phone IP";
+$text['label-phoneip']['vi-vn'] = 'IP điện thoại';
 $text['label-phoneip']['en-gb'] = "Phone IP";
 $text['label-phoneip']['ar-eg'] = "IP الهاتف";
 $text['label-phoneip']['de-at'] = "Geräte IP";
@@ -1458,6 +1512,7 @@ $text['label-phoneip']['ja-jp'] = "電話のIP";
 $text['label-phoneip']['ko-kr'] = "전화 IP";
 
 $text['label-pause']['en-us'] = "Pause";
+$text['label-pause']['vi-vn'] = 'Tạm dừng';
 $text['label-pause']['en-gb'] = "Pause";
 $text['label-pause']['ar-eg'] = "يوقف";
 $text['label-pause']['de-at'] = "Pause";
@@ -1485,6 +1540,7 @@ $text['label-pause']['ja-jp'] = "一時停止";
 $text['label-pause']['ko-kr'] = "정지시키다";
 
 $text['label-outbound_duration']['en-us'] = "Outbound Duration";
+$text['label-outbound_duration']['vi-vn'] = 'Thời lượng gọi ra';
 $text['label-outbound_duration']['en-gb'] = "Outbound Duration";
 $text['label-outbound_duration']['ar-eg'] = "مدة الذهاب";
 $text['label-outbound_duration']['de-at'] = "Ausgehend Dauer";
@@ -1512,6 +1568,7 @@ $text['label-outbound_duration']['ja-jp'] = "アウトバウンド期間";
 $text['label-outbound_duration']['ko-kr'] = "아웃바운드 기간";
 
 $text['label-outbound_calls']['en-us'] = "Outbound Calls";
+$text['label-outbound_calls']['vi-vn'] = 'Cuộc gọi ra';
 $text['label-outbound_calls']['en-gb'] = "Outbound Calls";
 $text['label-outbound_calls']['ar-eg'] = "المكالمات الصادرة";
 $text['label-outbound_calls']['de-at'] = "Ausgehende Anrufe";
@@ -1539,6 +1596,7 @@ $text['label-outbound_calls']['ja-jp'] = "アウトバウンドコール";
 $text['label-outbound_calls']['ko-kr'] = "발신 전화";
 
 $text['label-outbound']['en-us'] = "Outbound";
+$text['label-outbound']['vi-vn'] = 'Gọi ra';
 $text['label-outbound']['en-gb'] = "Outbound";
 $text['label-outbound']['ar-eg'] = "الصادرة";
 $text['label-outbound']['de-at'] = "Ausgehend";
@@ -1566,6 +1624,7 @@ $text['label-outbound']['ja-jp'] = "アウトバウンド";
 $text['label-outbound']['ko-kr'] = "배 밖으로";
 
 $text['label-number_alias']['en-us'] = "Number Alias";
+$text['label-number_alias']['vi-vn'] = 'Number Alias';
 $text['label-number_alias']['en-gb'] = "Number Alias";
 $text['label-number_alias']['ar-eg'] = "رقم الاسم المستعار";
 $text['label-number_alias']['de-at'] = "Alternative Nummer";
@@ -1593,6 +1652,7 @@ $text['label-number_alias']['ja-jp'] = "番号エイリアス";
 $text['label-number_alias']['ko-kr'] = "번호 별칭";
 
 $text['label-number']['en-us'] = "Number";
+$text['label-number']['vi-vn'] = 'Số';
 $text['label-number']['en-gb'] = "Number";
 $text['label-number']['ar-eg'] = "رقم";
 $text['label-number']['de-at'] = "Nummer";
@@ -1620,6 +1680,7 @@ $text['label-number']['ja-jp'] = "番号";
 $text['label-number']['ko-kr'] = "숫자";
 
 $text['label-network_addr']['en-us'] = "Network Address";
+$text['label-network_addr']['vi-vn'] = 'Địa chỉ mạng';
 $text['label-network_addr']['en-gb'] = "Network Address";
 $text['label-network_addr']['ar-eg'] = "عنوان الشبكة";
 $text['label-network_addr']['de-at'] = "Netzwerk Adresse";
@@ -1647,6 +1708,7 @@ $text['label-network_addr']['ja-jp'] = "ネットワークアドレス";
 $text['label-network_addr']['ko-kr'] = "네트워크 주소";
 
 $text['label-mos_score']['en-us'] = "MOS Score";
+$text['label-mos_score']['vi-vn'] = 'Điểm MOS';
 $text['label-mos_score']['en-gb'] = "MOS Score";
 $text['label-mos_score']['ar-eg'] = "يعني النتيجة الرأي";
 $text['label-mos_score']['de-at'] = "MOS Score";
@@ -1674,6 +1736,7 @@ $text['label-mos_score']['ja-jp'] = "MOSスコア";
 $text['label-mos_score']['ko-kr'] = "MOS 점수";
 
 $text['label-mos_score-1']['en-us'] = "Bad";
+$text['label-mos_score-1']['vi-vn'] = 'Kém';
 $text['label-mos_score-1']['en-gb'] = "Bad";
 $text['label-mos_score-1']['ar-eg'] = "سيئة";
 $text['label-mos_score-1']['de-at'] = "Schlecht";
@@ -1701,6 +1764,7 @@ $text['label-mos_score-1']['ja-jp'] = "悪い";
 $text['label-mos_score-1']['ko-kr'] = "나쁜";
 
 $text['label-mos_score-2']['en-us'] = "Poor";
+$text['label-mos_score-2']['vi-vn'] = 'Yếu';
 $text['label-mos_score-2']['en-gb'] = "Poor";
 $text['label-mos_score-2']['ar-eg'] = "فقير";
 $text['label-mos_score-2']['de-at'] = "Arm";
@@ -1728,6 +1792,7 @@ $text['label-mos_score-2']['ja-jp'] = "貧しい";
 $text['label-mos_score-2']['ko-kr'] = "가난한";
 
 $text['label-mos_score-3']['en-us'] = "Fair";
+$text['label-mos_score-3']['vi-vn'] = 'Trung bình';
 $text['label-mos_score-3']['en-gb'] = "Fair";
 $text['label-mos_score-3']['ar-eg'] = "معرض";
 $text['label-mos_score-3']['de-at'] = "Gerecht";
@@ -1755,6 +1820,7 @@ $text['label-mos_score-3']['ja-jp'] = "公平";
 $text['label-mos_score-3']['ko-kr'] = "공정한";
 
 $text['label-mos_score-4']['en-us'] = "Good";
+$text['label-mos_score-4']['vi-vn'] = 'Tốt';
 $text['label-mos_score-4']['en-gb'] = "Good";
 $text['label-mos_score-4']['ar-eg'] = "جيد";
 $text['label-mos_score-4']['de-at'] = "Gut";
@@ -1782,6 +1848,7 @@ $text['label-mos_score-4']['ja-jp'] = "良い";
 $text['label-mos_score-4']['ko-kr'] = "좋은";
 
 $text['label-mos_score-5']['en-us'] = "Excellent";
+$text['label-mos_score-5']['vi-vn'] = 'Xuất sắc';
 $text['label-mos_score-5']['en-gb'] = "Excellent";
 $text['label-mos_score-5']['ar-eg'] = "ممتاز";
 $text['label-mos_score-5']['de-at'] = "Ausgezeichnet";
@@ -1836,6 +1903,7 @@ $text['label-name']['ja-jp'] = "名前";
 $text['label-name']['ko-kr'] = "이름";
 
 $text['label-missed']['en-us'] = "Missed";
+$text['label-missed']['vi-vn'] = 'Nhỡ';
 $text['label-missed']['en-gb'] = "Missed";
 $text['label-missed']['ar-eg'] = "مٌفتَقد";
 $text['label-missed']['de-at'] = "Verpasst";
@@ -1863,6 +1931,7 @@ $text['label-missed']['ja-jp'] = "逃した";
 $text['label-missed']['ko-kr'] = "놓친";
 
 $text['label-local']['en-us'] = "Local";
+$text['label-local']['vi-vn'] = 'Cục bộ';
 $text['label-local']['en-gb'] = "Local";
 $text['label-local']['ar-eg'] = "محلي";
 $text['label-local']['de-at'] = "Lokal";
@@ -1890,6 +1959,7 @@ $text['label-local']['ja-jp'] = "地元";
 $text['label-local']['ko-kr'] = "현지의";
 
 $text['label-include_internal']['en-us'] = "Include Internal";
+$text['label-include_internal']['vi-vn'] = 'Bao gồm nội bộ';
 $text['label-include_internal']['en-gb'] = "Include Internal";
 $text['label-include_internal']['ar-eg'] = "تضمين الداخلية";
 $text['label-include_internal']['de-at'] = "Intern hinzufügen";
@@ -1917,6 +1987,7 @@ $text['label-include_internal']['ja-jp'] = "内部を含む";
 $text['label-include_internal']['ko-kr'] = "내부 포함";
 
 $text['label-inbound_duration']['en-us'] = "Inbound Duration";
+$text['label-inbound_duration']['vi-vn'] = 'Thời lượng gọi vào';
 $text['label-inbound_duration']['en-gb'] = "Inbound Duration";
 $text['label-inbound_duration']['ar-eg'] = "مدة الواردة";
 $text['label-inbound_duration']['de-at'] = "Eingehend Dauer";
@@ -1944,6 +2015,7 @@ $text['label-inbound_duration']['ja-jp'] = "インバウンド期間";
 $text['label-inbound_duration']['ko-kr'] = "인바운드 기간";
 
 $text['label-inbound_calls']['en-us'] = "Inbound Calls";
+$text['label-inbound_calls']['vi-vn'] = 'Cuộc gọi vào';
 $text['label-inbound_calls']['en-gb'] = "Inbound Calls";
 $text['label-inbound_calls']['ar-eg'] = "المكالمات الواردة";
 $text['label-inbound_calls']['de-at'] = "Eingehende Anrufe";
@@ -1971,6 +2043,7 @@ $text['label-inbound_calls']['ja-jp'] = "着信通話";
 $text['label-inbound_calls']['ko-kr'] = "인바운드 통화";
 
 $text['label-inbound']['en-us'] = "Inbound";
+$text['label-inbound']['vi-vn'] = 'Gọi vào';
 $text['label-inbound']['en-gb'] = "Inbound";
 $text['label-inbound']['ar-eg'] = "واردة";
 $text['label-inbound']['de-at'] = "Eingehend";
@@ -1998,6 +2071,7 @@ $text['label-inbound']['ja-jp'] = "インバウンド";
 $text['label-inbound']['ko-kr'] = "인바운드";
 
 $text['label-hangup_cause']['en-us'] = "Hangup Cause";
+$text['label-hangup_cause']['vi-vn'] = 'Nguyên nhân ngắt cuộc gọi';
 $text['label-hangup_cause']['en-gb'] = "Hangup Cause";
 $text['label-hangup_cause']['ar-eg'] = "سبب انقطاع الاتصال";
 $text['label-hangup_cause']['de-at'] = "Hangup Ursache";
@@ -2025,6 +2099,7 @@ $text['label-hangup_cause']['ja-jp'] = "ハングアップの原因";
 $text['label-hangup_cause']['ko-kr'] = "전화 끊기 원인";
 
 $text['label-from']['en-us'] = "From";
+$text['label-from']['vi-vn'] = 'Từ';
 $text['label-from']['en-gb'] = "From";
 $text['label-from']['ar-eg'] = "من";
 $text['label-from']['de-at'] = "Von";
@@ -2052,6 +2127,7 @@ $text['label-from']['ja-jp'] = "から";
 $text['label-from']['ko-kr'] = "에서";
 
 $text['label-failed']['en-us'] = "Failed";
+$text['label-failed']['vi-vn'] = 'Thất bại';
 $text['label-failed']['en-gb'] = "Failed";
 $text['label-failed']['ar-eg'] = "فشل";
 $text['label-failed']['de-at'] = "Fehlgeschlagen";
@@ -2079,6 +2155,7 @@ $text['label-failed']['ja-jp'] = "失敗した";
 $text['label-failed']['ko-kr'] = "실패한";
 
 $text['label-extension']['en-us'] = "Extension";
+$text['label-extension']['vi-vn'] = 'Máy nhánh';
 $text['label-extension']['en-gb'] = "Extension";
 $text['label-extension']['ar-eg'] = "امتداد";
 $text['label-extension']['de-at'] = "Durchwahl";
@@ -2106,6 +2183,7 @@ $text['label-extension']['ja-jp'] = "拡大";
 $text['label-extension']['ko-kr'] = "확대";
 
 $text['label-ext']['en-us'] = "Ext.";
+$text['label-ext']['vi-vn'] = 'Máy nhánh';
 $text['label-ext']['en-gb'] = "Ext.";
 $text['label-ext']['ar-eg'] = "امتداد";
 $text['label-ext']['de-at'] = "Dur";
@@ -2133,6 +2211,7 @@ $text['label-ext']['ja-jp'] = "内線";
 $text['label-ext']['ko-kr'] = "내선";
 
 $text['label-end_stamp']['en-us'] = "End";
+$text['label-end_stamp']['vi-vn'] = 'Kết thúc';
 $text['label-end_stamp']['en-gb'] = "End";
 $text['label-end_stamp']['ar-eg'] = "نهاية";
 $text['label-end_stamp']['de-at'] = "Ende";
@@ -2160,6 +2239,7 @@ $text['label-end_stamp']['ja-jp'] = "終わり";
 $text['label-end_stamp']['ko-kr'] = "끝";
 
 $text['label-end_range']['en-us'] = "End Range";
+$text['label-end_range']['vi-vn'] = 'Cuối khoảng';
 $text['label-end_range']['en-gb'] = "End Range";
 $text['label-end_range']['ar-eg'] = "نطاق النهاية";
 $text['label-end_range']['de-at'] = "Ende Bereich";
@@ -2187,6 +2267,7 @@ $text['label-end_range']['ja-jp'] = "終了範囲";
 $text['label-end_range']['ko-kr'] = "종료 범위";
 
 $text['label-end_date_time']['en-us'] = "End Date/Time";
+$text['label-end_date_time']['vi-vn'] = 'Ngày/giờ kết thúc';
 $text['label-end_date_time']['en-gb'] = "End Date/Time";
 $text['label-end_date_time']['ar-eg'] = "تاريخ / وقت الانتهاء";
 $text['label-end_date_time']['de-at'] = "Ende Datum/Zeit";
@@ -2214,6 +2295,7 @@ $text['label-end_date_time']['ja-jp'] = "終了日時";
 $text['label-end_date_time']['ko-kr'] = "종료 날짜/시간";
 
 $text['label-duration']['en-us'] = "Duration";
+$text['label-duration']['vi-vn'] = 'Thời lượng';
 $text['label-duration']['en-gb'] = "Duration";
 $text['label-duration']['ar-eg'] = "مدة";
 $text['label-duration']['de-at'] = "Dauer";
@@ -2268,6 +2350,7 @@ $text['label-download']['ja-jp'] = "ダウンロード";
 $text['label-download']['ko-kr'] = "다운로드";
 
 $text['label-domain-name']['en-us'] = "Domain Name";
+$text['label-domain-name']['vi-vn'] = 'Tên miền';
 $text['label-domain-name']['en-gb'] = "Domain Name";
 $text['label-domain-name']['ar-eg'] = "اسم النطاق";
 $text['label-domain-name']['de-at'] = "Domain Name";
@@ -2295,6 +2378,7 @@ $text['label-domain-name']['ja-jp'] = "ドメイン名";
 $text['label-domain-name']['ko-kr'] = "도메인 이름";
 
 $text['label-domain']['en-us'] = "Domain";
+$text['label-domain']['vi-vn'] = 'Tên miền';
 $text['label-domain']['en-gb'] = "Domain";
 $text['label-domain']['ar-eg'] = "اِختِصاص";
 $text['label-domain']['de-at'] = "Domain";
@@ -2349,6 +2433,7 @@ $text['label-direction']['ja-jp'] = "方向";
 $text['label-direction']['ko-kr'] = "방향";
 
 $text['label-destination']['en-us'] = "Destination";
+$text['label-destination']['vi-vn'] = 'Đích';
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "وجهة";
 $text['label-destination']['de-at'] = "Ziel";
@@ -2376,6 +2461,7 @@ $text['label-destination']['ja-jp'] = "行き先";
 $text['label-destination']['ko-kr'] = "목적지";
 
 $text['label-data']['en-us'] = "Data";
+$text['label-data']['vi-vn'] = 'Dữ liệu';
 $text['label-data']['en-gb'] = "Data";
 $text['label-data']['ar-eg'] = "بيانات";
 $text['label-data']['de-at'] = "Daten";
@@ -2403,6 +2489,7 @@ $text['label-data']['ja-jp'] = "データ";
 $text['label-data']['ko-kr'] = "데이터";
 
 $text['label-context']['en-us'] = "Context";
+$text['label-context']['vi-vn'] = 'Ngữ cảnh';
 $text['label-context']['en-gb'] = "Context";
 $text['label-context']['ar-eg'] = "سياق";
 $text['label-context']['de-at'] = "Kontext";
@@ -2430,6 +2517,7 @@ $text['label-context']['ja-jp'] = "コンテクスト";
 $text['label-context']['ko-kr'] = "문맥";
 
 $text['label-channel']['en-us'] = "Channel Data";
+$text['label-channel']['vi-vn'] = 'Dữ liệu kênh';
 $text['label-channel']['en-gb'] = "Channel Data";
 $text['label-channel']['ar-eg'] = "بيانات القناة";
 $text['label-channel']['de-at'] = "Kanal Daten";
@@ -2457,6 +2545,7 @@ $text['label-channel']['ja-jp'] = "チャンネルデータ";
 $text['label-channel']['ko-kr'] = "채널 데이터";
 
 $text['label-cancelled']['en-us'] = "Cancelled";
+$text['label-cancelled']['vi-vn'] = 'Đã hủy';
 $text['label-cancelled']['en-gb'] = "Cancelled";
 $text['label-cancelled']['ar-eg'] = "ألغيت";
 $text['label-cancelled']['de-at'] = "Abgebrochen";
@@ -2484,6 +2573,7 @@ $text['label-cancelled']['ja-jp'] = "キャンセル";
 $text['label-cancelled']['ko-kr'] = "취소 된";
 
 $text['label-caller_id']['en-us'] = "Caller ID";
+$text['label-caller_id']['vi-vn'] = 'Caller ID';
 $text['label-caller_id']['en-gb'] = "Caller ID";
 $text['label-caller_id']['ar-eg'] = "تحديد هوية المتصل";
 $text['label-caller_id']['de-at'] = "Anruferidentifikation";
@@ -2511,6 +2601,7 @@ $text['label-caller_id']['ja-jp'] = "発信者ID";
 $text['label-caller_id']['ko-kr'] = "거는 사람 확인";
 
 $text['label-caller_id_name']['en-us'] = "Caller Name";
+$text['label-caller_id_name']['vi-vn'] = 'Tên người gọi';
 $text['label-caller_id_name']['en-gb'] = "Caller Name";
 $text['label-caller_id_name']['ar-eg'] = "اسم المتصل";
 $text['label-caller_id_name']['de-at'] = "Anrufer Name";
@@ -2538,6 +2629,7 @@ $text['label-caller_id_name']['ja-jp'] = "発信者名";
 $text['label-caller_id_name']['ko-kr'] = "발신자 이름";
 
 $text['label-caller_id_number']['en-us'] = "Caller Number";
+$text['label-caller_id_number']['vi-vn'] = 'Số người gọi';
 $text['label-caller_id_number']['en-gb'] = "Caller Number";
 $text['label-caller_id_number']['ar-eg'] = "رقم المتصل";
 $text['label-caller_id_number']['de-at'] = "Anrufer Nummer";
@@ -2565,6 +2657,7 @@ $text['label-caller_id_number']['ja-jp'] = "発信者番号";
 $text['label-caller_id_number']['ko-kr'] = "발신자 번호";
 
 $text['label-outbound_caller_id_number']['en-us'] = "Outbound Caller ID Number";
+$text['label-outbound_caller_id_number']['vi-vn'] = 'Số Caller ID gọi ra';
 $text['label-outbound_caller_id_number']['en-gb'] = "Outbound Caller ID Number";
 $text['label-outbound_caller_id_number']['ar-eg'] = "رقم هوية المتصل";
 $text['label-outbound_caller_id_number']['de-at'] = "Ausgehende Anruferkennung (Nummer)";
@@ -2592,6 +2685,7 @@ $text['label-outbound_caller_id_number']['ja-jp'] = "発信者ID番号";
 $text['label-outbound_caller_id_number']['ko-kr'] = "아웃바운드 발신자 ID 번호";
 
 $text['label-outbound_caller_id_name']['en-us'] = "Outbound Caller ID Name";
+$text['label-outbound_caller_id_name']['vi-vn'] = 'Tên Caller ID gọi ra';
 $text['label-outbound_caller_id_name']['en-gb'] = "Outbound Caller ID Name";
 $text['label-outbound_caller_id_name']['ar-eg'] = "اسم معرف المتصل الصادر";
 $text['label-outbound_caller_id_name']['de-at'] = "Ausgehende Anruferkennung (Name)";
@@ -2619,6 +2713,7 @@ $text['label-outbound_caller_id_name']['ja-jp'] = "発信者ID名";
 $text['label-outbound_caller_id_name']['ko-kr'] = "아웃바운드 발신자 ID 이름";
 
 $text['label-caller_destination']['en-us'] = "Caller Destination";
+$text['label-caller_destination']['vi-vn'] = 'Đích người gọi';
 $text['label-caller_destination']['en-gb'] = "Caller Destination";
 $text['label-caller_destination']['ar-eg'] = "وجهة المتصل";
 $text['label-caller_destination']['de-at'] = "Rufziel";
@@ -2646,6 +2741,7 @@ $text['label-caller_destination']['ja-jp'] = "発信者の宛先";
 $text['label-caller_destination']['ko-kr'] = "발신자 대상";
 
 $text['label-call-statistics-description']['en-us'] = "Call Detail Records Statics summarize the call information.";
+$text['label-call-statistics-description']['vi-vn'] = 'Thống kê bản ghi chi tiết cuộc gọi tóm tắt thông tin cuộc gọi.';
 $text['label-call-statistics-description']['en-gb'] = "Call Detail Records Statics summarize the call information.";
 $text['label-call-statistics-description']['ar-eg'] = "سجلات تفاصيل المكالمة الإحصائية تلخص معلومات المكالمة.";
 $text['label-call-statistics-description']['de-at'] = "Anruf Statistiken fassen alle Anrufinformationen zusammen.";
@@ -2673,6 +2769,7 @@ $text['label-call-statistics-description']['ja-jp'] = "通話詳細レコード 
 $text['label-call-statistics-description']['ko-kr'] = "Call Detail Records 정적은 통화 정보를 요약합니다.";
 
 $text['label-call-flow-5']['en-us'] = "Call Flow: Times";
+$text['label-call-flow-5']['vi-vn'] = 'Luồng cuộc gọi: thời gian';
 $text['label-call-flow-5']['en-gb'] = "Call Flow: Times";
 $text['label-call-flow-5']['ar-eg'] = "تدفق المكالمات: مرات";
 $text['label-call-flow-5']['de-at'] = "Anruf Steuerung: Zeiten";
@@ -2700,6 +2797,7 @@ $text['label-call-flow-5']['ja-jp'] = "コールフロー: 回";
 $text['label-call-flow-5']['ko-kr'] = "통화 흐름: 시간";
 
 $text['label-call-flow-4']['en-us'] = "Call Flow: Caller Profile";
+$text['label-call-flow-4']['vi-vn'] = 'Luồng cuộc gọi: profile người gọi';
 $text['label-call-flow-4']['en-gb'] = "Call Flow: Caller Profile";
 $text['label-call-flow-4']['ar-eg'] = "تدفق الاتصال: ملف تعريف المتصل";
 $text['label-call-flow-4']['de-at'] = "Anruf Steuerung: Anrufer Profil";
@@ -2727,6 +2825,7 @@ $text['label-call-flow-4']['ja-jp'] = "通話フロー: 発信者プロファイ
 $text['label-call-flow-4']['ko-kr'] = "통화 흐름: 발신자 프로필";
 
 $text['label-call-flow-3']['en-us'] = "Call Flow: Extension: Application";
+$text['label-call-flow-3']['vi-vn'] = 'Luồng cuộc gọi: máy nhánh: ứng dụng';
 $text['label-call-flow-3']['en-gb'] = "Call Flow: Extension: Application";
 $text['label-call-flow-3']['ar-eg'] = "تدفق المكالمات: ملحق: تطبيق";
 $text['label-call-flow-3']['de-at'] = "Anruf Steuerung: Nebenstelle: Applikation";
@@ -2754,6 +2853,7 @@ $text['label-call-flow-3']['ja-jp'] = "コール フロー: 内線番号: アプ
 $text['label-call-flow-3']['ko-kr'] = "통화 흐름: 내선 번호: 애플리케이션";
 
 $text['label-call-flow-2']['en-us'] = "Call Flow: Extension: Attributes";
+$text['label-call-flow-2']['vi-vn'] = 'Luồng cuộc gọi: máy nhánh: thuộc tính';
 $text['label-call-flow-2']['en-gb'] = "Call Flow: Extension: Attributes";
 $text['label-call-flow-2']['ar-eg'] = "تدفق المكالمة: الامتداد: السمات";
 $text['label-call-flow-2']['de-at'] = "Anruf Steuerung: Nebenstelle: Attribute";
@@ -2781,6 +2881,7 @@ $text['label-call-flow-2']['ja-jp'] = "コールフロー: 拡張子: 属性";
 $text['label-call-flow-2']['ko-kr'] = "통화 흐름: 내선: 속성";
 
 $text['label-call-flow']['en-us'] = "Call Flow: Attributes";
+$text['label-call-flow']['vi-vn'] = 'Luồng cuộc gọi: thuộc tính';
 $text['label-call-flow']['en-gb'] = "Call Flow: Attributes";
 $text['label-call-flow']['ar-eg'] = "تدفق الاتصال: السمات";
 $text['label-call-flow']['de-at'] = "Anruf Steuerung: Attribute";
@@ -2808,6 +2909,7 @@ $text['label-call-flow']['ja-jp'] = "コールフロー: 属性";
 $text['label-call-flow']['ko-kr'] = "통화 흐름: 속성";
 
 $text['label-call_log']['en-us'] = "Call Log";
+$text['label-call_log']['vi-vn'] = 'Nhật ký cuộc gọi';
 $text['label-call_log']['en-gb'] = "Call Log";
 $text['label-call_log']['ar-eg'] = "سجل المكالمات";
 $text['label-call_log']['de-at'] = "Anrufliste";
@@ -2835,6 +2937,7 @@ $text['label-call_log']['ja-jp'] = "通話記録";
 $text['label-call_log']['ko-kr'] = "통화 기록";
 
 $text['button-call_log']['en-us'] = "Call Log";
+$text['button-call_log']['vi-vn'] = 'Nhật ký cuộc gọi';
 $text['button-call_log']['en-gb'] = "Call Log";
 $text['button-call_log']['ar-eg'] = "سجل المكالمات";
 $text['button-call_log']['de-at'] = "Anrufliste";
@@ -2862,6 +2965,7 @@ $text['button-call_log']['ja-jp'] = "通話記録";
 $text['button-call_log']['ko-kr'] = "통화 기록";
 
 $text['label-busy']['en-us'] = "Busy";
+$text['label-busy']['vi-vn'] = 'Bận';
 $text['label-busy']['en-gb'] = "Busy";
 $text['label-busy']['ar-eg'] = "مشغول";
 $text['label-busy']['de-at'] = "Besetzt";
@@ -2889,6 +2993,7 @@ $text['label-busy']['ja-jp'] = "忙しい";
 $text['label-busy']['ko-kr'] = "바쁘다";
 
 $text['label-bridge_uuid']['en-us'] = "Bridge UUID";
+$text['label-bridge_uuid']['vi-vn'] = 'UUID bridge';
 $text['label-bridge_uuid']['en-gb'] = "Bridge UUID";
 $text['label-bridge_uuid']['ar-eg'] = "UUID للجسر";
 $text['label-bridge_uuid']['de-at'] = "Bridge UUID";
@@ -2916,6 +3021,7 @@ $text['label-bridge_uuid']['ja-jp'] = "ブリッジUUID";
 $text['label-bridge_uuid']['ko-kr'] = "브리지 UUID";
 
 $text['label-billsec']['en-us'] = "Bill Seconds";
+$text['label-billsec']['vi-vn'] = 'Giây tính cước';
 $text['label-billsec']['en-gb'] = "Bill Seconds";
 $text['label-billsec']['ar-eg'] = "بيل ثانية";
 $text['label-billsec']['de-at'] = "Abrechnung Sekunden";
@@ -2943,6 +3049,7 @@ $text['label-billsec']['ja-jp'] = "ビルセコンド";
 $text['label-billsec']['ko-kr'] = "빌 초";
 
 $text['label-b-leg']['en-us'] = "B-leg";
+$text['label-b-leg']['vi-vn'] = 'B-leg';
 $text['label-b-leg']['en-gb'] = "B-leg";
 $text['label-b-leg']['ar-eg'] = "ب- الساق";
 $text['label-b-leg']['de-at'] = "B-Zweig";
@@ -2970,6 +3077,7 @@ $text['label-b-leg']['ja-jp'] = "B 脚";
 $text['label-b-leg']['ko-kr'] = "B-다리";
 
 $text['label-average']['en-us'] = "Average";
+$text['label-average']['vi-vn'] = 'Trung bình';
 $text['label-average']['en-gb'] = "Average";
 $text['label-average']['ar-eg'] = "متوسط";
 $text['label-average']['de-at'] = "Durchschnitt";
@@ -2997,6 +3105,7 @@ $text['label-average']['ja-jp'] = "平均";
 $text['label-average']['ko-kr'] = "평균";
 
 $text['label-application-log']['en-us'] = "Application Log";
+$text['label-application-log']['vi-vn'] = 'Log ứng dụng';
 $text['label-application-log']['en-gb'] = "Application Log";
 $text['label-application-log']['ar-eg'] = "سجل التطبيق";
 $text['label-application-log']['de-at'] = "Applikations Log";
@@ -3024,6 +3133,7 @@ $text['label-application-log']['ja-jp'] = "アプリケーションログ";
 $text['label-application-log']['ko-kr'] = "애플리케이션 로그";
 
 $text['label-answered']['en-us'] = "Answered";
+$text['label-answered']['vi-vn'] = 'Đã trả lời';
 $text['label-answered']['en-gb'] = "Answered";
 $text['label-answered']['ar-eg'] = "تم الرد";
 $text['label-answered']['de-at'] = "Angenommen";
@@ -3051,6 +3161,7 @@ $text['label-answered']['ja-jp'] = "答えた";
 $text['label-answered']['ko-kr'] = "대답했다";
 
 $text['label-answered_inbound']['en-us'] = "Inbound Answered";
+$text['label-answered_inbound']['vi-vn'] = 'Gọi vào đã trả lời';
 $text['label-answered_inbound']['en-gb'] = "Inbound Answered";
 $text['label-answered_inbound']['ar-eg'] = "تم الرد على المكالمات الواردة";
 $text['label-answered_inbound']['de-at'] = "Eingehend beantwortet";
@@ -3078,6 +3189,7 @@ $text['label-answered_inbound']['ja-jp'] = "着信応答";
 $text['label-answered_inbound']['ko-kr'] = "수신 응답";
 
 $text['label-answered_outbound']['en-us'] = "Outbound Answered";
+$text['label-answered_outbound']['vi-vn'] = 'Gọi ra đã trả lời';
 $text['label-answered_outbound']['en-gb'] = "Outbound Answered";
 $text['label-answered_outbound']['ar-eg'] = "تم الرد على المكالمات الصادرة";
 $text['label-answered_outbound']['de-at'] = "Ausgehend beantwortet";
@@ -3105,6 +3217,7 @@ $text['label-answered_outbound']['ja-jp'] = "発信応答";
 $text['label-answered_outbound']['ko-kr'] = "발신 응답";
 
 $text['label-no_answer']['en-us'] = "No Answer";
+$text['label-no_answer']['vi-vn'] = 'Không trả lời';
 $text['label-no_answer']['en-gb'] = "No Answer";
 $text['label-no_answer']['ar-eg'] = "لا اجابة";
 $text['label-no_answer']['de-at'] = "Keine Antwort";
@@ -3159,6 +3272,7 @@ $text['label-missed']['ja-jp'] = "逃した";
 $text['label-missed']['ko-kr'] = "놓친";
 
 $text['label-parked']['en-us'] = "Parked";
+$text['label-parked']['vi-vn'] = 'Đã park';
 $text['label-parked']['en-gb'] = "Parked";
 $text['label-parked']['ar-eg'] = "متوقفة";
 $text['label-parked']['de-at'] = "Geparkt";
@@ -3186,6 +3300,7 @@ $text['label-parked']['ja-jp'] = "駐車中";
 $text['label-parked']['ko-kr'] = "주차됨";
 
 $text['label-routed']['en-us'] = "Routed";
+$text['label-routed']['vi-vn'] = 'Đã định tuyến';
 $text['label-routed']['en-gb'] = "Routed";
 $text['label-routed']['ar-eg'] = "موجهة";
 $text['label-routed']['de-at'] = "Geroutet";
@@ -3213,6 +3328,7 @@ $text['label-routed']['ja-jp'] = "ルーティング済み";
 $text['label-routed']['ko-kr'] = "라우팅됨";
 
 $text['label-unparked']['en-us'] = "Unparked";
+$text['label-unparked']['vi-vn'] = 'Đã lấy khỏi park';
 $text['label-unparked']['en-gb'] = "Unparked";
 $text['label-unparked']['ar-eg'] = "غير متوقف";
 $text['label-unparked']['de-at'] = "Ungeparkt";
@@ -3240,6 +3356,7 @@ $text['label-unparked']['ja-jp'] = "駐車していない";
 $text['label-unparked']['ko-kr'] = "주차되지 않음";
 
 $text['label-wait']['en-us'] = "Wait";
+$text['label-wait']['vi-vn'] = 'Chờ';
 $text['label-wait']['en-gb'] = "Wait";
 $text['label-wait']['ar-eg'] = "انتظر";
 $text['label-wait']['de-at'] = "Warten";
@@ -3267,6 +3384,7 @@ $text['label-wait']['ja-jp'] = "待つ";
 $text['label-wait']['ko-kr'] = "기다리다";
 
 $text['label-waited']['en-us'] = "Waited";
+$text['label-waited']['vi-vn'] = 'Đã chờ';
 $text['label-waited']['en-gb'] = "Waited";
 $text['label-waited']['ar-eg'] = "انتظر";
 $text['label-waited']['de-at'] = "Gewartet";
@@ -3294,6 +3412,7 @@ $text['label-waited']['ja-jp'] = "待った";
 $text['label-waited']['ko-kr'] = "기다렸다";
 
 $text['label-voicemail']['en-us'] = "Voicemail";
+$text['label-voicemail']['vi-vn'] = 'Thư thoại';
 $text['label-voicemail']['en-gb'] = "Voicemail";
 $text['label-voicemail']['ar-eg'] = "البريد الصوتي";
 $text['label-voicemail']['de-at'] = "Voicemail";
@@ -3321,6 +3440,7 @@ $text['label-voicemail']['ja-jp'] = "ボイスメール";
 $text['label-voicemail']['ko-kr'] = "음성사서함";
 
 $text['label-answer_range']['en-us'] = "Answer Range";
+$text['label-answer_range']['vi-vn'] = 'Khoảng trả lời';
 $text['label-answer_range']['en-gb'] = "Answer Range";
 $text['label-answer_range']['ar-eg'] = "نطاق الإجابة";
 $text['label-answer_range']['de-at'] = "Antwort Bereich";
@@ -3348,6 +3468,7 @@ $text['label-answer_range']['ja-jp'] = "回答範囲";
 $text['label-answer_range']['ko-kr'] = "답변 범위";
 
 $text['label-answer']['en-us'] = "Answer";
+$text['label-answer']['vi-vn'] = 'Trả lời';
 $text['label-answer']['en-gb'] = "Answer";
 $text['label-answer']['ar-eg'] = "إجابة";
 $text['label-answer']['de-at'] = "Antwort";
@@ -3375,6 +3496,7 @@ $text['label-answer']['ja-jp'] = "答え";
 $text['label-answer']['ko-kr'] = "答え";
 
 $text['label-asr']['en-us'] = "ASR";
+$text['label-asr']['vi-vn'] = 'ASR';
 $text['label-asr']['en-gb'] = "ASR";
 $text['label-asr']['ar-eg'] = "ASR";
 $text['label-asr']['de-at'] = "ASR";
@@ -3401,6 +3523,7 @@ $text['label-asr']['ja-jp'] = "ASR";
 $text['label-asr']['ko-kr'] = "ASR";
 
 $text['label-aloc']['en-us'] = "ALOC";
+$text['label-aloc']['vi-vn'] = 'ALOC';
 $text['label-aloc']['en-gb'] = "ALOC";
 $text['label-aloc']['ar-eg'] = "ALOC";
 $text['label-aloc']['de-at'] = "ALOC";
@@ -3428,6 +3551,7 @@ $text['label-aloc']['ja-jp'] = "ALOC";
 $text['label-aloc']['ko-kr'] = "ALOC";
 
 $text['label-accountcode']['en-us'] = "Account Code";
+$text['label-accountcode']['vi-vn'] = 'Mã tài khoản';
 $text['label-accountcode']['en-gb'] = "Account Code";
 $text['label-accountcode']['ar-eg'] = "رمز الحساب";
 $text['label-accountcode']['de-at'] = "Account Code";
@@ -3455,6 +3579,7 @@ $text['label-accountcode']['ja-jp'] = "口座番号";
 $text['label-accountcode']['ko-kr'] = "계정 코드";
 
 $text['label-a-leg']['en-us'] = "A-leg";
+$text['label-a-leg']['vi-vn'] = 'A-leg';
 $text['label-a-leg']['en-gb'] = "A-leg";
 $text['label-a-leg']['ar-eg'] = "ساق";
 $text['label-a-leg']['de-at'] = "A-Zweig";
@@ -3482,6 +3607,7 @@ $text['label-a-leg']['ja-jp'] = "足";
 $text['label-a-leg']['ko-kr'] = "다리";
 
 $text['label-order']['en-us'] = "Order";
+$text['label-order']['vi-vn'] = 'Thứ tự';
 $text['label-order']['en-gb'] = "Order";
 $text['label-order']['ar-eg'] = "طلب";
 $text['label-order']['de-at'] = "Befehl";
@@ -3509,6 +3635,7 @@ $text['label-order']['ja-jp'] = "注文";
 $text['label-order']['ko-kr'] = "주문하다";
 
 $text['label-custom_cdr_fields']['en-us'] = "Custom";
+$text['label-custom_cdr_fields']['vi-vn'] = 'Tùy chỉnh';
 $text['label-custom_cdr_fields']['en-gb'] = "Custom";
 $text['label-custom_cdr_fields']['ar-eg'] = "مخصص";
 $text['label-custom_cdr_fields']['de-at'] = "Brauch";
@@ -3536,6 +3663,7 @@ $text['label-custom_cdr_fields']['ja-jp'] = "カスタム";
 $text['label-custom_cdr_fields']['ko-kr'] = "관습";
 
 $text['label-minimum']['en-us'] = "Minimum";
+$text['label-minimum']['vi-vn'] = 'Tối thiểu';
 $text['label-minimum']['en-gb'] = "Minimum";
 $text['label-minimum']['ar-eg'] = "الحد الأدنى";
 $text['label-minimum']['de-at'] = "Minimum";
@@ -3563,6 +3691,7 @@ $text['label-minimum']['ja-jp'] = "最小";
 $text['label-minimum']['ko-kr'] = "최저한의";
 
 $text['label-maximum']['en-us'] = "Maximum";
+$text['label-maximum']['vi-vn'] = 'Tối đa';
 $text['label-maximum']['en-gb'] = "Maximum";
 $text['label-maximum']['ar-eg'] = "أقصى";
 $text['label-maximum']['de-at'] = "Maximal";
@@ -3590,6 +3719,7 @@ $text['label-maximum']['ja-jp'] = "最大";
 $text['label-maximum']['ko-kr'] = "최고";
 
 $text['label-seconds']['en-us'] = "Sec";
+$text['label-seconds']['vi-vn'] = 'Giây';
 $text['label-seconds']['en-gb'] = "Sec";
 $text['label-seconds']['ar-eg'] = "ثواني";
 $text['label-seconds']['de-at'] = "Sek";
@@ -3617,6 +3747,7 @@ $text['label-seconds']['ja-jp'] = "秒";
 $text['label-seconds']['ko-kr'] = "비서";
 
 $text['label-format']['en-us'] = "Format";
+$text['label-format']['vi-vn'] = 'Định dạng';
 $text['label-format']['en-gb'] = "Format";
 $text['label-format']['ar-eg'] = "شكل";
 $text['label-format']['de-at'] = "Format";
@@ -3644,6 +3775,7 @@ $text['label-format']['ja-jp'] = "フォーマット";
 $text['label-format']['ko-kr'] = "체재";
 
 $text['label-call_center_queue']['en-us'] = "Call Center Queue";
+$text['label-call_center_queue']['vi-vn'] = 'Hàng đợi Call Center';
 $text['label-call_center_queue']['en-gb'] = "Call Centre Queue";
 $text['label-call_center_queue']['ar-eg'] = "قائمة انتظار مركز الاتصال";
 $text['label-call_center_queue']['de-at'] = "Callcenter-Warteschlange";
@@ -3671,6 +3803,7 @@ $text['label-call_center_queue']['ja-jp'] = "コールセンターのキュー";
 $text['label-call_center_queue']['ko-kr'] = "콜센터 대기열";
 
 $text['description_search']['en-us'] = "Destination and Caller ID (CID) Name fields support the use of an <i>asterisk</i> ('*') as a wildcard character.";
+$text['description_search']['vi-vn'] = 'Các trường Đích và Tên Caller ID (CID) hỗ trợ dùng <i>dấu sao</i> (\'*\') làm ký tự đại diện.';
 $text['description_search']['en-gb'] = "Destination and Caller ID (CID) Name fields support the use of an <i>asterisk</i> ('*') as a wildcard character.";
 $text['description_search']['ar-eg'] = "يدعم حقلا الوجهة واسم تعريف المتصل استخدام علامة النجمة كحرف بدل.";
 $text['description_search']['de-at'] = "Info: Ziel und Anruferkennung (CID) Namesfelder unterstützen die Verwendung von Stern ('*') als Wildcard Zeichen.";
@@ -3698,6 +3831,7 @@ $text['description_search']['ja-jp'] = "<u>注</u>: 宛先および発信者 ID 
 $text['description_search']['ko-kr'] = "<u>참고</u>: 목적지 및 발신자 ID(CID) 이름 필드는 <i>별표</i>('*')를 와일드카드 문자로 사용할 수 있도록 지원합니다.";
 
 $text['description-details']['en-us'] = "A detailed view of the call and all information regarding it. The information contains Caller ID Name and Number, channel data, call variables, call flow, timing information, and other useful call details.";
+$text['description-details']['vi-vn'] = 'Màn hình chi tiết của cuộc gọi và toàn bộ thông tin liên quan. Thông tin gồm tên và số Caller ID, dữ liệu kênh, biến cuộc gọi, luồng cuộc gọi, thông tin thời gian và các chi tiết hữu ích khác.';
 $text['description-details']['en-gb'] = "A detailed view of the call and all information regarding it. The information contains Caller ID Name and Number, channel data, call variables, call flow, timing information, and other useful call details.";
 $text['description-details']['ar-eg'] = "متغيرات الاتصال وتدفق المكالمة ومعلومات التوقيت وتفاصيل المكالمات المفيدة الأخرى";
 $text['description-details']['de-at'] = "Eine detaillierte Ansicht des Anrufes mit allen zugehörigen Informationen. Die Information beinhaltet Anruferkennung (Name, Nummer) und Kanal-Daten. Anruf Variablen, Ruf-Ablauf, Zeit Information und andere nützliche Anruf Details";
@@ -3725,6 +3859,7 @@ $text['description-details']['ja-jp'] = "通話とそれに関するすべての
 $text['description-details']['ko-kr'] = "통화에 대한 자세한 보기 및 통화와 관련된 모든 정보. 이 정보에는 발신자 ID 이름 및 번호, 채널 데이터, 통화 변수, 통화 흐름, 타이밍 정보 및 기타 유용한 통화 세부 정보가 포함됩니다.";
 
 $text['description']['en-us'] = "Call Detail Records (CDRs) are detailed information on the calls. The information contains source, destination, duration, and other useful call details. Use the fields to filter the information for the specific call records that are desired. Records in the call list can be saved locally using the Export button.";
+$text['description']['vi-vn'] = 'Bản ghi chi tiết cuộc gọi (CDR) là thông tin chi tiết về các cuộc gọi. Thông tin gồm nguồn, đích, thời lượng và các chi tiết hữu ích khác. Dùng các trường để lọc đúng bản ghi cuộc gọi cần xem. Có thể lưu cục bộ các bản ghi trong danh sách bằng nút Xuất.';
 $text['description']['en-gb'] = "Call Detail Records (CDRs) are detailed information on the calls. The information contains source, destination, duration, and other useful call details. Use the fields to filter the information for the specific call records that are desired. Records in the call list can be saved locally using the Export button.";
 $text['description']['ar-eg'] = "سجلات تفاصيل المكالمات هي معلومات مفصلة عن المكالمات. تحتوي المعلومات على المصدر والوجهة والمدة وتفاصيل أخرى مفيدة للمكالمات. استخدم الحقول لتصفية المعلومات الخاصة بسجلات المكالمات المحددة المطلوبة. يمكن حفظ السجلات في قائمة المكالمات محليًا باستخدام زر التصدير.";
 $text['description']['de-at'] = "Call Detail Records (CDRs) enthalten detaiilierte Informationen zu den Anrufen. Die Information beinhaltet Quelle, Ziel, Dauer und andere nützliche Details. Benutzen Sie die Felder um Informationen betreffend spezifischer Anrufe zu filtern. Datensätze in der Anruferliste können mittels der Export-Funktion lokal gespeichert werden.";
@@ -3752,6 +3887,7 @@ $text['description']['ja-jp'] = "通話詳細レコード (CDR) は、通話に�
 $text['description']['ko-kr'] = "CDR(Call Detail Record)은 통화에 대한 자세한 정보입니다. 이 정보에는 소스, 대상, 기간 및 기타 유용한 통화 세부 정보가 포함됩니다. 필드를 사용하여 원하는 특정 통화 기록에 대한 정보를 필터링합니다. 통화 목록의 기록은 내보내기 버튼을 사용하여 로컬로 저장할 수 있습니다.";
 
 $text['description-tta']['en-us'] = "Time to Answer";
+$text['description-tta']['vi-vn'] = 'Thời gian đến khi trả lời';
 $text['description-tta']['en-gb'] = "Time to Answer";
 $text['description-tta']['ar-eg'] = "الوقت للإجابة";
 $text['description-tta']['de-at'] = "Zeit zu beantworten";
@@ -3779,6 +3915,7 @@ $text['description-tta']['ja-jp'] = "答えるまでの時間";
 $text['description-tta']['ko-kr'] = "대답할 시간";
 
 $text['description-pdd']['en-us'] = "Post Dial Delay";
+$text['description-pdd']['vi-vn'] = 'Độ trễ sau khi quay số';
 $text['description-pdd']['en-gb'] = "Post Dial Delay";
 $text['description-pdd']['ar-eg'] = "تأخير الاتصال الهاتفي";
 $text['description-pdd']['de-at'] = "Pfostenwahlverzögerung";
@@ -3806,6 +3943,7 @@ $text['description-pdd']['ja-jp'] = "ダイヤル後の遅延";
 $text['description-pdd']['ko-kr'] = "다이얼 후 지연";
 
 $text['description-mos']['en-us'] = "Mean opinion score";
+$text['description-mos']['vi-vn'] = 'Điểm chất lượng trung bình theo cảm nhận';
 $text['description-mos']['en-gb'] = "Mean opinion score";
 $text['description-mos']['ar-eg'] = "يعني النتيجة الرأي";
 $text['description-mos']['de-at'] = "Mittlere Meinungsbewertung";
@@ -3833,6 +3971,7 @@ $text['description-mos']['ja-jp'] = "平均意見スコア";
 $text['description-mos']['ko-kr'] = "평균 의견 점수";
 
 $text['description-volume']['en-us'] = "Inbound, Outbound, and Local";
+$text['description-volume']['vi-vn'] = 'Gọi vào, gọi ra và nội bộ';
 $text['description-volume']['en-gb'] = "Inbound, Outbound, and Local";
 $text['description-volume']['ar-eg'] = "وارد، مُخرِج، ومحلي";
 $text['description-volume']['de-at'] = "Eingehend, Ausgehend und Lokal";
@@ -3859,6 +3998,7 @@ $text['description-volume']['ja-jp'] = "着信、発信およびローカル";
 $text['description-volume']['ko-kr'] = "들어오는 것, 나가는 것 및 로컬";
 
 $text['description-calls-per-minute']['en-us'] = "Average minutes / Calls per minute answered";
+$text['description-calls-per-minute']['vi-vn'] = 'Số phút trung bình / số cuộc gọi được trả lời mỗi phút';
 $text['description-calls-per-minute']['en-gb'] = "Average minutes / Calls per minute answered";
 $text['description-calls-per-minute']['ar-eg'] = "الدقائق المتوسطة / المكالمات المنقولة في الدقيقة";
 $text['description-calls-per-minute']['de-at'] = "Durchschnittliche Minuten / Anrufe pro Minute beantwortet";
@@ -3885,6 +4025,7 @@ $text['description-calls-per-minute']['ja-jp'] = "平均分 / 分 당応答し�
 $text['description-calls-per-minute']['ko-kr'] = "평균 분 / 분당 대답된 통화 수";
 
 $text['description-asr']['en-us'] = "Answer-Seizure Ratio (% of calls answered)";
+$text['description-asr']['vi-vn'] = 'Tỷ lệ trả lời ASR (% cuộc gọi được trả lời)';
 $text['description-asr']['en-gb'] = "Answer-Seizure Ratio (% of calls answered)";
 $text['description-asr']['ar-eg'] = "نسبة الاستجابة للمحاولات (%)";
 $text['description-asr']['de-at'] = "Abrufquote (Prozent der beantworteten Anrufe)";
@@ -3911,6 +4052,7 @@ $text['description-asr']['ja-jp'] = "回答試行率（応答した通話の割�
 $text['description-asr']['ko-kr'] = "응답률 (%의 통화가 응답됨)";
 
 $text['description-aloc']['en-us'] = "Average Length of Call";
+$text['description-aloc']['vi-vn'] = 'Thời lượng cuộc gọi trung bình';
 $text['description-aloc']['en-gb'] = "Average Length of Call";
 $text['description-aloc']['ar-eg'] = "متوسط طول المحادثة";
 $text['description-aloc']['de-at'] = "Durchschnittliche Gesprächsdauer";
@@ -3938,6 +4080,7 @@ $text['description-aloc']['ja-jp'] = "平均通話時間";
 $text['description-aloc']['ko-kr'] = "평균 통화 시간";
 
 $text['button-archive']['en-us'] = "Archive";
+$text['button-archive']['vi-vn'] = 'Lưu trữ';
 $text['button-archive']['en-gb'] = "Archive";
 $text['button-archive']['ar-eg'] = "أرشيف";
 $text['button-archive']['de-at'] = "Archiv";
@@ -3965,6 +4108,7 @@ $text['button-archive']['ja-jp'] = "アーカイブ";
 $text['button-archive']['ko-kr'] = "보관소";
 
 $text['button-update']['en-us'] = "Update";
+$text['button-update']['vi-vn'] = 'Cập nhật';
 $text['button-update']['en-gb'] = "Update";
 $text['button-update']['ar-eg'] = "تحديث";
 $text['button-update']['de-at'] = "Aktualisieren";
@@ -3992,6 +4136,7 @@ $text['button-update']['ja-jp'] = "アップデート";
 $text['button-update']['ko-kr'] = "업데이트";
 
 $text['button-statistics']['en-us'] = "Statistics";
+$text['button-statistics']['vi-vn'] = 'Thống kê';
 $text['button-statistics']['en-gb'] = "Statistics";
 $text['button-statistics']['ar-eg'] = "إحصائيات";
 $text['button-statistics']['de-at'] = "Statistik";
@@ -4019,6 +4164,7 @@ $text['button-statistics']['ja-jp'] = "統計";
 $text['button-statistics']['ko-kr'] = "통계";
 
 $text['button-missed']['en-us'] = "Missed Calls";
+$text['button-missed']['vi-vn'] = 'Cuộc gọi nhỡ';
 $text['button-missed']['en-gb'] = "Missed Calls";
 $text['button-missed']['ar-eg'] = "مكالمات فائتة";
 $text['button-missed']['de-at'] = "Verpasste Anrufe";
@@ -4046,6 +4192,7 @@ $text['button-missed']['ja-jp'] = "不在着信";
 $text['button-missed']['ko-kr'] = "부재중 전화";
 
 $text['button-extension_summary']['en-us'] = "Extension Summary";
+$text['button-extension_summary']['vi-vn'] = 'Tóm tắt máy nhánh';
 $text['button-extension_summary']['en-gb'] = "Extension Summary";
 $text['button-extension_summary']['ar-eg'] = "ملخص التمديد";
 $text['button-extension_summary']['de-at'] = "Nebenstellen Statistik";
@@ -4073,6 +4220,7 @@ $text['button-extension_summary']['ja-jp'] = "拡張機能の概要";
 $text['button-extension_summary']['ko-kr'] = "확장 요약";
 
 $text['button-download_csv']['en-us'] = "Download CSV";
+$text['button-download_csv']['vi-vn'] = 'Tải CSV xuống';
 $text['button-download_csv']['en-gb'] = "Download CSV";
 $text['button-download_csv']['ar-eg'] = "تنزيل ملف CSV";
 $text['button-download_csv']['de-at'] = "CSV Herunterladen";
@@ -4100,6 +4248,7 @@ $text['button-download_csv']['ja-jp'] = "CSVをダウンロード";
 $text['button-download_csv']['ko-kr'] = "CSV 다운로드";
 
 $text['button-advanced_search']['en-us'] = "Advanced";
+$text['button-advanced_search']['vi-vn'] = 'Nâng cao';
 $text['button-advanced_search']['en-gb'] = "Advanced";
 $text['button-advanced_search']['ar-eg'] = "متقدم";
 $text['button-advanced_search']['de-at'] = "Erweiterte";
@@ -4127,6 +4276,7 @@ $text['button-advanced_search']['ja-jp'] = "高度";
 $text['button-advanced_search']['ko-kr'] = "고급의";
 
 $text['label-codecs']['en-us'] = "Codecs";
+$text['label-codecs']['vi-vn'] = 'Codec';
 $text['label-codecs']['en-gb'] = "Codecs";
 $text['label-codecs']['ar-eg'] = "برامج الترميز";
 $text['label-codecs']['de-at'] = "Codecs";
@@ -4153,6 +4303,7 @@ $text['label-codecs']['ja-jp'] = "コーデック";
 $text['label-codecs']['ko-kr'] = "코덱";
 
 $text['label-codec_read']['en-us'] = "Read Codec";
+$text['label-codec_read']['vi-vn'] = 'Codec đọc';
 $text['label-codec_read']['en-gb'] = "Read Codec";
 $text['label-codec_read']['ar-eg'] = "قراءة الترميز";
 $text['label-codec_read']['de-at'] = "Codec lesen";
@@ -4179,6 +4330,7 @@ $text['label-codec_read']['ja-jp'] = "コーデックの読み取り";
 $text['label-codec_read']['ko-kr'] = "코덱 읽기";
 
 $text['label-codec_write']['en-us'] = "Write Codec";
+$text['label-codec_write']['vi-vn'] = 'Codec ghi';
 $text['label-codec_write']['en-gb'] = "Write Codec";
 $text['label-codec_write']['ar-eg'] = "اكتب الترميز";
 $text['label-codec_write']['de-at'] = "Codec schreiben";
@@ -4205,6 +4357,7 @@ $text['label-codec_write']['ja-jp'] = "コーデックの書き込み";
 $text['label-codec_write']['ko-kr'] = "코덱 쓰기";
 
 $text['label-text']['en-us'] = "Text";
+$text['label-text']['vi-vn'] = 'Văn bản';
 $text['label-text']['en-gb'] = "Text";
 $text['label-text']['ar-eg'] = "نص";
 $text['label-text']['de-at'] = "Text";
@@ -4231,6 +4384,7 @@ $text['label-text']['ja-jp'] = "文章";
 $text['label-text']['ko-kr'] = "텍스트";
 
 $text['label-ring_group']['en-us'] = "Ring Group";
+$text['label-ring_group']['vi-vn'] = 'Nhóm đổ chuông';
 $text['label-ring_group']['en-gb'] = "Ring Group";
 $text['label-ring_group']['ar-eg'] = "فريق الاعتماد";
 $text['label-ring_group']['de-at'] = "Rufgruppen";
@@ -4258,6 +4412,7 @@ $text['label-ring_group']['ja-jp'] = "リンググループ";
 $text['label-ring_group']['ko-kr'] = "링 그룹";
 
 $text['label-ivr_menu']['en-us'] = "IVR Menu";
+$text['label-ivr_menu']['vi-vn'] = 'Menu IVR';
 $text['label-ivr_menu']['en-gb'] = "IVR Menu";
 $text['label-ivr_menu']['ar-eg'] = "قائمة العاج";
 $text['label-ivr_menu']['de-at'] = "Automatische Vermittlung";
@@ -4285,6 +4440,7 @@ $text['label-ivr_menu']['ja-jp'] = "IVRメニュー";
 $text['label-ivr_menu']['ko-kr'] = "IVR 메뉴";
 
 $text['label-speaker']['en-us'] = "Speaker";
+$text['label-speaker']['vi-vn'] = 'Người nói';
 $text['label-speaker']['en-gb'] = "Speaker";
 $text['label-speaker']['ar-eg'] = "المتحدث";
 $text['label-speaker']['de-at'] = "Sprecher";

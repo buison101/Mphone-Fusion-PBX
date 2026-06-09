@@ -1,6 +1,7 @@
 <?php
 
 $text['title-time_conditions']['en-us'] = "Time Conditions";
+$text['title-time_conditions']['vi-vn'] = 'Điều kiện thời gian';
 $text['title-time_conditions']['en-gb'] = "Time Conditions";
 $text['title-time_conditions']['ar-eg'] = "شروط الوقت";
 $text['title-time_conditions']['de-at'] = "Zeitschaltung";
@@ -28,6 +29,7 @@ $text['title-time_conditions']['ja-jp'] = "時間条件";
 $text['title-time_conditions']['ko-kr'] = "시간 조건";
 
 $text['title-time_condition']['en-us'] = "Time Condition";
+$text['title-time_condition']['vi-vn'] = 'Điều kiện thời gian';
 $text['title-time_condition']['en-gb'] = "Time Condition";
 $text['title-time_condition']['ar-eg'] = "شرط الوقت";
 $text['title-time_condition']['de-at'] = "Zeitschaltung";
@@ -55,6 +57,7 @@ $text['title-time_condition']['ja-jp'] = "時間条件";
 $text['title-time_condition']['ko-kr'] = "시간 상태";
 
 $text['button-dialplan']['en-us'] = "Dialplan";
+$text['button-dialplan']['vi-vn'] = 'Dialplan';
 $text['button-dialplan']['en-gb'] = "Dialplan";
 $text['button-dialplan']['ar-eg'] = "الاتصال الهاتفي خطة";
 $text['button-dialplan']['de-at'] = "Wählplan";
@@ -82,6 +85,7 @@ $text['button-dialplan']['ja-jp'] = "ダイヤルプラン";
 $text['button-dialplan']['ko-kr'] = "다이얼플랜";
 
 $text['message-alternate_destination_required']['en-us'] = "Alternate Destination Required";
+$text['message-alternate_destination_required']['vi-vn'] = 'Cần có đích thay thế';
 $text['message-alternate_destination_required']['en-gb'] = "Alternate Destination Required";
 $text['message-alternate_destination_required']['ar-eg'] = "الوجهة البديلة مطلوبة";
 $text['message-alternate_destination_required']['de-at'] = "Alternatives Ziel benötigt";
@@ -109,6 +113,7 @@ $text['message-alternate_destination_required']['ja-jp'] = "代替の宛先が�
 $text['message-alternate_destination_required']['ko-kr'] = "대체 목적지 필요";
 
 $text['label-year']['en-us'] = "Year";
+$text['label-year']['vi-vn'] = 'Năm';
 $text['label-year']['en-gb'] = "Year";
 $text['label-year']['ar-eg'] = "سنة";
 $text['label-year']['de-at'] = "Jahr";
@@ -136,6 +141,7 @@ $text['label-year']['ja-jp'] = "年";
 $text['label-year']['ko-kr'] = "년도";
 
 $text['label-week-of-year']['en-us'] = "Week of Year";
+$text['label-week-of-year']['vi-vn'] = 'Tuần trong năm';
 $text['label-week-of-year']['en-gb'] = "Week of Year";
 $text['label-week-of-year']['ar-eg'] = "أسبوع من العام";
 $text['label-week-of-year']['de-at'] = "Woche des Jahres";
@@ -163,6 +169,7 @@ $text['label-week-of-year']['ja-jp'] = "年間の週";
 $text['label-week-of-year']['ko-kr'] = "올해의 주";
 
 $text['label-week-of-month']['en-us'] = "Week of Month";
+$text['label-week-of-month']['vi-vn'] = 'Tuần trong tháng';
 $text['label-week-of-month']['en-gb'] = "Week of Month";
 $text['label-week-of-month']['ar-eg'] = "أسبوع من الشهر";
 $text['label-week-of-month']['de-at'] = "Woche des Monats";
@@ -190,6 +197,7 @@ $text['label-week-of-month']['ja-jp'] = "月の週";
 $text['label-week-of-month']['ko-kr'] = "월의 주";
 
 $text['label-time-of-day_minute']['en-us'] = "Minute";
+$text['label-time-of-day_minute']['vi-vn'] = 'Phút';
 $text['label-time-of-day_minute']['en-gb'] = "Minute";
 $text['label-time-of-day_minute']['ar-eg'] = "دقيقة";
 $text['label-time-of-day_minute']['de-at'] = "Minute";
@@ -217,6 +225,7 @@ $text['label-time-of-day_minute']['ja-jp'] = "分";
 $text['label-time-of-day_minute']['ko-kr'] = "분";
 
 $text['label-time-of-day_hour']['en-us'] = "Hour";
+$text['label-time-of-day_hour']['vi-vn'] = 'Giờ';
 $text['label-time-of-day_hour']['en-gb'] = "Hour";
 $text['label-time-of-day_hour']['ar-eg'] = "ساعة";
 $text['label-time-of-day_hour']['de-at'] = "Stunde";
@@ -244,6 +253,7 @@ $text['label-time-of-day_hour']['ja-jp'] = "時間";
 $text['label-time-of-day_hour']['ko-kr'] = "시간";
 
 $text['label-time-of-day']['en-us'] = "Time of Day";
+$text['label-time-of-day']['vi-vn'] = 'Thời gian trong ngày';
 $text['label-time-of-day']['en-gb'] = "Time of Day";
 $text['label-time-of-day']['ar-eg'] = "وقت اليوم";
 $text['label-time-of-day']['de-at'] = "Tageszeit";
@@ -271,6 +281,7 @@ $text['label-time-of-day']['ja-jp'] = "時刻";
 $text['label-time-of-day']['ko-kr'] = "시간";
 
 $text['label-template']['en-us'] = "Template";
+$text['label-template']['vi-vn'] = 'Mẫu';
 $text['label-template']['en-gb'] = "Template";
 $text['label-template']['ar-eg'] = "نموذج";
 $text['label-template']['de-at'] = "Vorlage";
@@ -298,6 +309,7 @@ $text['label-template']['ja-jp'] = "レンプレート";
 $text['label-template']['ko-kr'] = "주형";
 
 $text['label-settings']['en-us'] = "Settings";
+$text['label-settings']['vi-vn'] = 'Cài đặt';
 $text['label-settings']['en-gb'] = "Settings";
 $text['label-settings']['ar-eg'] = "إعدادات";
 $text['label-settings']['de-at'] = "Einstellungen";
@@ -325,6 +337,7 @@ $text['label-settings']['ja-jp'] = "設定";
 $text['label-settings']['ko-kr'] = "설정";
 
 $text['label-select_destination']['en-us'] = "Select Destination";
+$text['label-select_destination']['vi-vn'] = 'Chọn đích';
 $text['label-select_destination']['en-gb'] = "Select Destination";
 $text['label-select_destination']['ar-eg'] = "حدد وجهتك";
 $text['label-select_destination']['de-at'] = "Wählen Sie ein Ziel";
@@ -352,6 +365,7 @@ $text['label-select_destination']['ja-jp'] = "目的地を選択してくださ�
 $text['label-select_destination']['ko-kr'] = "목적지 선택";
 
 $text['label-select_default_destination']['en-us'] = "Select Default Destination";
+$text['label-select_default_destination']['vi-vn'] = 'Chọn đích mặc định';
 $text['label-select_default_destination']['en-gb'] = "Select Default Destination";
 $text['label-select_default_destination']['ar-eg'] = "حدد الوجهة الافتراضية";
 $text['label-select_default_destination']['de-at'] = "Wählen Sie das Standard Ziel";
@@ -379,6 +393,7 @@ $text['label-select_default_destination']['ja-jp'] = "デフォルトの宛先�
 $text['label-select_default_destination']['ko-kr'] = "기본 목적지 선택";
 
 $text['label-required-dialplan_number']['en-us'] = "Please Provide: Extension Number";
+$text['label-required-dialplan_number']['vi-vn'] = 'Vui lòng cung cấp: Số máy nhánh';
 $text['label-required-dialplan_number']['en-gb'] = "Please Provide: Extension Number";
 $text['label-required-dialplan_number']['ar-eg'] = "يرجى تقديم: رقم التحويلة";
 $text['label-required-dialplan_number']['de-at'] = "Bitte geben Sie folgendes an: Nebenstellen Nummer";
@@ -406,6 +421,7 @@ $text['label-required-dialplan_number']['ja-jp'] = "提供してください: �
 $text['label-required-dialplan_number']['ko-kr'] = "제공하십시오: 내선 번호";
 
 $text['label-required-dialplan_name']['en-us'] = "Please Provide: Extension Name";
+$text['label-required-dialplan_name']['vi-vn'] = 'Vui lòng cung cấp: Tên máy nhánh';
 $text['label-required-dialplan_name']['en-gb'] = "Please Provide: Extension Name";
 $text['label-required-dialplan_name']['ar-eg'] = "يرجى تقديم: اسم الامتداد";
 $text['label-required-dialplan_name']['de-at'] = "Bitte geben Sie folgendes an: Nebenstellen Name";
@@ -433,6 +449,7 @@ $text['label-required-dialplan_name']['ja-jp'] = "入力してください: 拡�
 $text['label-required-dialplan_name']['ko-kr'] = "제공하십시오: 확장자 이름";
 
 $text['label-required-action']['en-us'] = "Please Provide: Destination";
+$text['label-required-action']['vi-vn'] = 'Vui lòng cung cấp: Đích';
 $text['label-required-action']['en-gb'] = "Please Provide: Destination";
 $text['label-required-action']['ar-eg'] = "يرجى تقديم: الوجهة";
 $text['label-required-action']['de-at'] = "Bitte geben Sie folgendes an: Ziel";
@@ -460,6 +477,7 @@ $text['label-required-action']['ja-jp'] = "入力してください: 目的地";
 $text['label-required-action']['ko-kr'] = "제공하십시오: 목적지";
 
 $text['label-presets']['en-us'] = "Presets";
+$text['label-presets']['vi-vn'] = 'Mẫu có sẵn';
 $text['label-presets']['en-gb'] = "Presets";
 $text['label-presets']['ar-eg'] = "الإعدادات المسبقة";
 $text['label-presets']['de-at'] = "Voreinstellungen";
@@ -487,6 +505,7 @@ $text['label-presets']['ja-jp'] = "プリセット";
 $text['label-presets']['ko-kr'] = "프리셋";
 
 $text['label-preset_veterans_day']['en-us'] = "Veteran's Day";
+$text['label-preset_veterans_day']['vi-vn'] = 'Ngày Cựu chiến binh';
 $text['label-preset_veterans_day']['en-gb'] = "Veteran's Day";
 $text['label-preset_veterans_day']['ar-eg'] = "يوم المحاربين القدامى";
 $text['label-preset_veterans_day']['de-at'] = "Veteran's Day";
@@ -514,6 +533,7 @@ $text['label-preset_veterans_day']['ja-jp'] = "退役軍人の日";
 $text['label-preset_veterans_day']['ko-kr'] = "재향 군인의 날";
 
 $text['label-preset_thanksgiving_day']['en-us'] = "Thanksgiving Day";
+$text['label-preset_thanksgiving_day']['vi-vn'] = 'Lễ Tạ ơn';
 $text['label-preset_thanksgiving_day']['en-gb'] = "Thanksgiving Day";
 $text['label-preset_thanksgiving_day']['ar-eg'] = "عيد الشكر";
 $text['label-preset_thanksgiving_day']['de-at'] = "Erntedankfest";
@@ -541,6 +561,7 @@ $text['label-preset_thanksgiving_day']['ja-jp'] = "感謝祭";
 $text['label-preset_thanksgiving_day']['ko-kr'] = "추수 감사절";
 
 $text['label-preset_presidents_day']['en-us'] = "Presidents Day";
+$text['label-preset_presidents_day']['vi-vn'] = 'Ngày Tổng thống';
 $text['label-preset_presidents_day']['en-gb'] = "Presidents Day";
 $text['label-preset_presidents_day']['ar-eg'] = "يوم الرؤساء";
 $text['label-preset_presidents_day']['de-at'] = "Präsidententag";
@@ -568,6 +589,7 @@ $text['label-preset_presidents_day']['ja-jp'] = "会長の日";
 $text['label-preset_presidents_day']['ko-kr'] = "대통령의 날";
 
 $text['label-preset_new_years_day']['en-us'] = "New Year's Day";
+$text['label-preset_new_years_day']['vi-vn'] = 'Ngày Năm mới';
 $text['label-preset_new_years_day']['en-gb'] = "New Year's Day";
 $text['label-preset_new_years_day']['ar-eg'] = "يوم السنة الجديدة";
 $text['label-preset_new_years_day']['de-at'] = "Neujahrstag";
@@ -595,6 +617,7 @@ $text['label-preset_new_years_day']['ja-jp'] = "元旦";
 $text['label-preset_new_years_day']['ko-kr'] = "설날";
 
 $text['label-preset_memorial_day']['en-us'] = "Memorial Day";
+$text['label-preset_memorial_day']['vi-vn'] = 'Ngày Tưởng niệm';
 $text['label-preset_memorial_day']['en-gb'] = "Memorial Day";
 $text['label-preset_memorial_day']['ar-eg'] = "يوم الذكرى";
 $text['label-preset_memorial_day']['de-at'] = "Heldengedenktag";
@@ -622,6 +645,7 @@ $text['label-preset_memorial_day']['ja-jp'] = "記念日";
 $text['label-preset_memorial_day']['ko-kr'] = "기념일";
 
 $text['label-preset_martin_luther_king_jr_day']['en-us'] = "Martin Luther King Jr. Day";
+$text['label-preset_martin_luther_king_jr_day']['vi-vn'] = 'Ngày Martin Luther King Jr.';
 $text['label-preset_martin_luther_king_jr_day']['en-gb'] = "Martin Luther King Jr. Day";
 $text['label-preset_martin_luther_king_jr_day']['ar-eg'] = "يوم مارتن لوثر كينغ جونيور";
 $text['label-preset_martin_luther_king_jr_day']['de-at'] = "Martin Luther King Jr. Tag";
@@ -649,6 +673,7 @@ $text['label-preset_martin_luther_king_jr_day']['ja-jp'] = "マーティン・�
 $text['label-preset_martin_luther_king_jr_day']['ko-kr'] = "마틴 루터 킹 주니어 기념일";
 
 $text['label-preset_labor_day']['en-us'] = "Labor Day";
+$text['label-preset_labor_day']['vi-vn'] = 'Ngày Lao động';
 $text['label-preset_labor_day']['en-gb'] = "Labor Day";
 $text['label-preset_labor_day']['ar-eg'] = "عيد العمال";
 $text['label-preset_labor_day']['de-at'] = "Tag der Arbeit";
@@ -676,6 +701,7 @@ $text['label-preset_labor_day']['ja-jp'] = "労働者の日";
 $text['label-preset_labor_day']['ko-kr'] = "노동절";
 
 $text['label-preset_independence_day']['en-us'] = "Independence Day";
+$text['label-preset_independence_day']['vi-vn'] = 'Ngày Độc lập';
 $text['label-preset_independence_day']['en-gb'] = "Independence Day";
 $text['label-preset_independence_day']['ar-eg'] = "يوم الاستقلال";
 $text['label-preset_independence_day']['de-at'] = "Unabhängigkeitstag";
@@ -703,6 +729,7 @@ $text['label-preset_independence_day']['ja-jp'] = "独立記念日";
 $text['label-preset_independence_day']['ko-kr'] = "독립 기념일";
 
 $text['label-preset_columbus_day']['en-us'] = "Columbus Day";
+$text['label-preset_columbus_day']['vi-vn'] = 'Ngày Columbus';
 $text['label-preset_columbus_day']['en-gb'] = "Columbus Day";
 $text['label-preset_columbus_day']['ar-eg'] = "يوم كولومبوس";
 $text['label-preset_columbus_day']['de-at'] = "Columbus Tag";
@@ -730,6 +757,7 @@ $text['label-preset_columbus_day']['ja-jp'] = "コロンブスの日";
 $text['label-preset_columbus_day']['ko-kr'] = "콜럼버스의 날";
 
 $text['label-preset_christmas_day']['en-us'] = "Christmas Day";
+$text['label-preset_christmas_day']['vi-vn'] = 'Ngày Giáng sinh';
 $text['label-preset_christmas_day']['en-gb'] = "Christmas Day";
 $text['label-preset_christmas_day']['ar-eg'] = "يوم عيد ميلاد المسيح";
 $text['label-preset_christmas_day']['de-at'] = "Erster Weihnachtsfeiertag";
@@ -757,6 +785,7 @@ $text['label-preset_christmas_day']['ja-jp'] = "クリスマス";
 $text['label-preset_christmas_day']['ko-kr'] = "크리스마스 날";
 
 $text['label-number']['en-us'] = "Number";
+$text['label-number']['vi-vn'] = 'Số';
 $text['label-number']['en-gb'] = "Number";
 $text['label-number']['ar-eg'] = "رقم";
 $text['label-number']['de-at'] = "Nummer";
@@ -784,6 +813,7 @@ $text['label-number']['ja-jp'] = "番号";
 $text['label-number']['ko-kr'] = "숫자";
 
 $text['label-month']['en-us'] = "Month";
+$text['label-month']['vi-vn'] = 'Tháng';
 $text['label-month']['en-gb'] = "Month";
 $text['label-month']['ar-eg'] = "شهر";
 $text['label-month']['de-at'] = "Monat";
@@ -811,6 +841,7 @@ $text['label-month']['ja-jp'] = "月";
 $text['label-month']['ko-kr'] = "월";
 
 $text['label-minute-of-hour']['en-us'] = "Minute of Hour";
+$text['label-minute-of-hour']['vi-vn'] = 'Phút trong giờ';
 $text['label-minute-of-hour']['en-gb'] = "Minute of Hour";
 $text['label-minute-of-hour']['ar-eg'] = "دقيقة من الساعة";
 $text['label-minute-of-hour']['de-at'] = "Minute der Stunde";
@@ -838,6 +869,7 @@ $text['label-minute-of-hour']['ja-jp'] = "時間分の分";
 $text['label-minute-of-hour']['ko-kr'] = "시간의 분";
 
 $text['label-minute-of-day']['en-us'] = "Minute of Day";
+$text['label-minute-of-day']['vi-vn'] = 'Phút trong ngày';
 $text['label-minute-of-day']['en-gb'] = "Minute of Day";
 $text['label-minute-of-day']['ar-eg'] = "دقيقة من اليوم";
 $text['label-minute-of-day']['de-at'] = "Minute des Tages";
@@ -865,6 +897,7 @@ $text['label-minute-of-day']['ja-jp'] = "一日の分";
 $text['label-minute-of-day']['ko-kr'] = "일의 분";
 
 $text['label-label']['en-us'] = "Label";
+$text['label-label']['vi-vn'] = 'Nhãn';
 $text['label-label']['en-gb'] = "Label";
 $text['label-label']['ar-eg'] = "ملصق";
 $text['label-label']['de-at'] = "Kennzeichnung";
@@ -892,6 +925,7 @@ $text['label-label']['ja-jp'] = "ラベル";
 $text['label-label']['ko-kr'] = "상표";
 
 $text['label-hour-of-day']['en-us'] = "Hour of Day";
+$text['label-hour-of-day']['vi-vn'] = 'Giờ trong ngày';
 $text['label-hour-of-day']['en-gb'] = "Hour of Day";
 $text['label-hour-of-day']['ar-eg'] = "ساعة من اليوم";
 $text['label-hour-of-day']['de-at'] = "Stunde des Tages";
@@ -919,6 +953,7 @@ $text['label-hour-of-day']['ja-jp'] = "昼の時間帯";
 $text['label-hour-of-day']['ko-kr'] = "일의 시간";
 
 $text['label-extension']['en-us'] = "Extension";
+$text['label-extension']['vi-vn'] = 'Máy nhánh';
 $text['label-extension']['en-gb'] = "Extension";
 $text['label-extension']['ar-eg'] = "امتداد";
 $text['label-extension']['de-at'] = "Nebenstelle";
@@ -946,6 +981,7 @@ $text['label-extension']['ja-jp'] = "拡大";
 $text['label-extension']['ko-kr'] = "확대";
 
 $text['label-day-of-year']['en-us'] = "Day of Year";
+$text['label-day-of-year']['vi-vn'] = 'Ngày trong năm';
 $text['label-day-of-year']['en-gb'] = "Day of Year";
 $text['label-day-of-year']['ar-eg'] = "يوم من السنة";
 $text['label-day-of-year']['de-at'] = "Tag des Jahres";
@@ -973,6 +1009,7 @@ $text['label-day-of-year']['ja-jp'] = "年間の日";
 $text['label-day-of-year']['ko-kr'] = "올해의 날";
 
 $text['label-day-of-week']['en-us'] = "Day of Week";
+$text['label-day-of-week']['vi-vn'] = 'Ngày trong tuần';
 $text['label-day-of-week']['en-gb'] = "Day of Week";
 $text['label-day-of-week']['ar-eg'] = "يوم من الأسبوع";
 $text['label-day-of-week']['de-at'] = "Tag der Woche";
@@ -1000,6 +1037,7 @@ $text['label-day-of-week']['ja-jp'] = "週の日";
 $text['label-day-of-week']['ko-kr'] = "주간의 날";
 
 $text['label-day-of-month']['en-us'] = "Day of Month";
+$text['label-day-of-month']['vi-vn'] = 'Ngày trong tháng';
 $text['label-day-of-month']['en-gb'] = "Day of Month";
 $text['label-day-of-month']['ar-eg'] = "يوم من الشهر";
 $text['label-day-of-month']['de-at'] = "Tag des Monats";
@@ -1027,6 +1065,7 @@ $text['label-day-of-month']['ja-jp'] = "月の日";
 $text['label-day-of-month']['ko-kr'] = "달의 날";
 
 $text['label-date-and-time']['en-us'] = "Date & Time";
+$text['label-date-and-time']['vi-vn'] = 'Ngày & giờ';
 $text['label-date-and-time']['en-gb'] = "Date & Time";
 $text['label-date-and-time']['ar-eg'] = "التاريخ والوقت";
 $text['label-date-and-time']['de-at'] = "Datum & Zeit";
@@ -1054,6 +1093,7 @@ $text['label-date-and-time']['ja-jp'] = "日付と時刻";
 $text['label-date-and-time']['ko-kr'] = "날짜 & 시간";
 
 $text['label-context']['en-us'] = "Context";
+$text['label-context']['vi-vn'] = 'Ngữ cảnh';
 $text['label-context']['en-gb'] = "Context";
 $text['label-context']['ar-eg'] = "سياق";
 $text['label-context']['de-at'] = "Kontext";
@@ -1081,6 +1121,7 @@ $text['label-context']['ja-jp'] = "コンテクスト";
 $text['label-context']['ko-kr'] = "문맥";
 
 $text['label-conditions']['en-us'] = "Conditions";
+$text['label-conditions']['vi-vn'] = 'Điều kiện';
 $text['label-conditions']['en-gb'] = "Conditions";
 $text['label-conditions']['ar-eg'] = "شروط";
 $text['label-conditions']['de-at'] = "Bedingungen";
@@ -1108,6 +1149,7 @@ $text['label-conditions']['ja-jp'] = "条件";
 $text['label-conditions']['ko-kr'] = "정황";
 
 $text['label-condition_value']['en-us'] = "Value";
+$text['label-condition_value']['vi-vn'] = 'Giá trị';
 $text['label-condition_value']['en-gb'] = "Value";
 $text['label-condition_value']['ar-eg'] = "قيمة";
 $text['label-condition_value']['de-at'] = "Wert";
@@ -1135,6 +1177,7 @@ $text['label-condition_value']['ja-jp'] = "価値";
 $text['label-condition_value']['ko-kr'] = "값";
 
 $text['label-condition_range']['en-us'] = "Range";
+$text['label-condition_range']['vi-vn'] = 'Phạm vi';
 $text['label-condition_range']['en-gb'] = "Range";
 $text['label-condition_range']['ar-eg'] = "يتراوح";
 $text['label-condition_range']['de-at'] = "Bereich";
@@ -1162,6 +1205,7 @@ $text['label-condition_range']['ja-jp'] = "範囲";
 $text['label-condition_range']['ko-kr'] = "범위";
 
 $text['label-condition_parameter']['en-us'] = "Parameter";
+$text['label-condition_parameter']['vi-vn'] = 'Tham số';
 $text['label-condition_parameter']['en-gb'] = "Parameter";
 $text['label-condition_parameter']['ar-eg'] = "معامل";
 $text['label-condition_parameter']['de-at'] = "Parameter";
@@ -1189,6 +1233,7 @@ $text['label-condition_parameter']['ja-jp'] = "パラメータ";
 $text['label-condition_parameter']['ko-kr'] = "모수";
 
 $text['label-condition']['en-us'] = "Condition";
+$text['label-condition']['vi-vn'] = 'Điều kiện';
 $text['label-condition']['en-gb'] = "Condition";
 $text['label-condition']['ar-eg'] = "Voorwaarde";
 $text['label-condition']['de-at'] = "Bedingung";
@@ -1216,6 +1261,7 @@ $text['label-condition']['ja-jp'] = "状態";
 $text['label-condition']['ko-kr'] = "상태";
 
 $text['label-alternate-destination']['en-us'] = "Alternate Destination";
+$text['label-alternate-destination']['vi-vn'] = 'Đích thay thế';
 $text['label-alternate-destination']['en-gb'] = "Alternate Destination";
 $text['label-alternate-destination']['ar-eg'] = "وجهة بديلة";
 $text['label-alternate-destination']['de-at'] = "Alternatives Ziel";
@@ -1243,6 +1289,7 @@ $text['label-alternate-destination']['ja-jp'] = "代替の目的地";
 $text['label-alternate-destination']['ko-kr'] = "대체 목적지";
 
 $text['label-group']['en-us'] = "Group";
+$text['label-group']['vi-vn'] = 'Nhóm';
 $text['label-group']['en-gb'] = "Group";
 $text['label-group']['ar-eg'] = "مجموعة";
 $text['label-group']['de-at'] = "Gruppe";
@@ -1270,6 +1317,7 @@ $text['label-group']['ja-jp'] = "グループ";
 $text['label-group']['ko-kr'] = "그룹";
 
 $text['header-time_conditions']['en-us'] = "Time Conditions";
+$text['header-time_conditions']['vi-vn'] = 'Điều kiện thời gian';
 $text['header-time_conditions']['en-gb'] = "Time Conditions";
 $text['header-time_conditions']['ar-eg'] = "شروط الوقت";
 $text['header-time_conditions']['de-at'] = "Zeitschaltung";
@@ -1297,6 +1345,7 @@ $text['header-time_conditions']['ja-jp'] = "時間条件";
 $text['header-time_conditions']['ko-kr'] = "시간 조건";
 
 $text['description-time_conditions']['en-us'] = "Dynamically route calls to an IVR menu, external numbers, scripts, or other destinations based on time conditions.";
+$text['description-time_conditions']['vi-vn'] = 'Định tuyến cuộc gọi linh hoạt đến menu IVR, số ngoài, script hoặc đích khác dựa trên điều kiện thời gian.';
 $text['description-time_conditions']['en-gb'] = "Dynamically route calls to an IVR menu, external numbers, scripts, or other destinations based on time conditions.";
 $text['description-time_conditions']['ar-eg'] = "قم بتوجيه المكالمات ديناميكيًا إلى قائمة IVR أو أرقام خارجية أو نصوص أو وجهات أخرى بناءً على ظروف الوقت.";
 $text['description-time_conditions']['de-at'] = "Dynamische weiterleitung von Anrufen an IVR Menüs, externe Rufnummern, Skripte, oder andere Ziele abhängig von zeitlichen Bedingungen.";
@@ -1324,6 +1373,7 @@ $text['description-time_conditions']['ja-jp'] = "時間条件に基づいて、�
 $text['description-time_conditions']['ko-kr'] = "시간 조건에 따라 IVR 메뉴, 외부 번호, 스크립트 또는 기타 대상으로 통화를 동적으로 라우팅합니다.";
 
 $text['description-template']['en-us'] = "The templates provides a list of preset time conditions.";
+$text['description-template']['vi-vn'] = 'Các mẫu cung cấp danh sách điều kiện thời gian có sẵn.';
 $text['description-template']['en-gb'] = "The templates provides a list of preset time conditions.";
 $text['description-template']['ar-eg'] = "توفر القوالب قائمة بشروط الوقت المحددة مسبقًا.";
 $text['description-template']['de-at'] = "Die Vorlagen bieten eine Liste von Voreingestellten Zeitschaltungen.";
@@ -1351,6 +1401,7 @@ $text['description-template']['ja-jp'] = "テンプレートには、事前に�
 $text['description-template']['ko-kr'] = "템플릿은 미리 설정된 시간 조건 목록을 제공합니다.";
 
 $text['description-settings']['en-us'] = "Define custom conditions necessary to execute the destination selected above.";
+$text['description-settings']['vi-vn'] = 'Định nghĩa các điều kiện tùy chỉnh cần thiết để thực thi đích đã chọn ở trên.';
 $text['description-settings']['en-gb'] = "Define custom conditions necessary to execute the destination selected above.";
 $text['description-settings']['ar-eg'] = "حدد الشروط المخصصة اللازمة لتنفيذ الوجهة المحددة أعلاه.";
 $text['description-settings']['de-at'] = "Definieren Sie benutzerdefinierte Bedingungen für das oben ausgewählte Ziel.";
@@ -1378,6 +1429,7 @@ $text['description-settings']['ja-jp'] = "上で選択した宛先を実行す�
 $text['description-settings']['ko-kr'] = "위에서 선택한 대상을 실행하는 데 필요한 사용자 지정 조건을 정의합니다.";
 
 $text['description-presets_advanced']['en-us'] = "Select a Default Destination above to be <i>applied</i> to each preset checked (without a destination already defined).";
+$text['description-presets_advanced']['vi-vn'] = 'Chọn Đích mặc định ở trên để <i>áp dụng</i> cho từng mẫu được chọn (nếu chưa có đích được định nghĩa).';
 $text['description-presets_advanced']['en-gb'] = "Select a Default Destination above to be <i>applied</i> to each preset checked (without a destination already defined).";
 $text['description-presets_advanced']['ar-eg'] = "حدد وجهة افتراضية أعلاه ليتم <i> تطبيقها </ i> على كل إعداد مسبق محدد (بدون وجهة محددة بالفعل).";
 $text['description-presets_advanced']['de-at'] = "Wählen Sie oben ein Standard Ziel , welches jeder ausgewählten Vorgabe zugewiesen wird.";
@@ -1405,6 +1457,7 @@ $text['description-presets_advanced']['ja-jp'] = "上記のデフォルト宛先
 $text['description-presets_advanced']['ko-kr'] = "위에서 선택한 각 사전 설정에 <i>적용</i>할 기본 대상을 선택합니다(대상이 이미 정의되지 않은 상태).";
 
 $text['description-presets']['en-us'] = "Select from available presets. Click a preset name to further customize the conditions and/or destination of each.";
+$text['description-presets']['vi-vn'] = 'Chọn từ các mẫu có sẵn. Bấm vào tên mẫu để tùy chỉnh thêm điều kiện và/hoặc đích của từng mẫu.';
 $text['description-presets']['en-gb'] = "Select from available presets. Click a preset name to further customize the conditions and/or destination of each.";
 $text['description-presets']['ar-eg'] = "اختر من الإعدادات المسبقة المتاحة. انقر فوق اسم الإعداد المسبق لتخصيص شروط و / أو وجهة كل منها بشكل أكبر.";
 $text['description-presets']['de-at'] = "Wählen Sie aus den vorhandenen Vorgaben. Klicken Sie den Namen der Voreinstellung um weitere persönliche Anpassungen vorzunehmen";
@@ -1432,6 +1485,7 @@ $text['description-presets']['ja-jp'] = "利用可能なプリセットから選
 $text['description-presets']['ko-kr'] = "사용 가능한 사전 설정에서 선택합니다. 사전 설정 이름을 클릭하여 각각의 조건 및/또는 대상을 추가로 사용자 지정합니다.";
 
 $text['description-name']['en-us'] = "Enter the name for the time condition.";
+$text['description-name']['vi-vn'] = 'Nhập tên cho điều kiện thời gian.';
 $text['description-name']['en-gb'] = "Enter the name for the time condition.";
 $text['description-name']['ar-eg'] = "أدخل اسم شرط الوقت.";
 $text['description-name']['de-at'] = "Geben Sie den Namen der Zeitschaltung ein.";
@@ -1459,6 +1513,7 @@ $text['description-name']['ja-jp'] = "時間条件の名前を入力します。
 $text['description-name']['ko-kr'] = "시간 조건의 이름을 입력합니다.";
 
 $text['description-extension']['en-us'] = "Enter the extension number.";
+$text['description-extension']['vi-vn'] = 'Nhập số máy nhánh.';
 $text['description-extension']['en-gb'] = "Enter the extension number.";
 $text['description-extension']['ar-eg'] = "أدخل الرقم الداخلي.";
 $text['description-extension']['de-at'] = "Geben Sie eine Nebenstelle an.";
@@ -1486,6 +1541,7 @@ $text['description-extension']['ja-jp'] = "内線番号を入力します。";
 $text['description-extension']['ko-kr'] = "내선번호를 입력하세요.";
 
 $text['january']['en-us'] = 'January';
+$text['january']['vi-vn'] = 'Tháng 1';
 $text['january']['en-gb'] = "January";
 $text['january']['ar-eg'] = "يناير";
 $text['january']['de-at'] = "Januar";
@@ -1511,6 +1567,7 @@ $text['january']['ja-jp'] = "1月";
 $text['january']['ko-kr'] = "1월";
 
 $text['february']['en-us'] = "February";
+$text['february']['vi-vn'] = 'Tháng 2';
 $text['february']['en-gb'] = "February";
 $text['february']['ar-eg'] = "شهر فبراير";
 $text['february']['de-at'] = "Februar";
@@ -1536,6 +1593,7 @@ $text['february']['ja-jp'] = "2月";
 $text['february']['ko-kr'] = "2월";
 
 $text['march']['en-us'] = "March";
+$text['march']['vi-vn'] = 'Tháng 3';
 $text['march']['en-gb'] = "March";
 $text['march']['ar-eg'] = "يمشي";
 $text['march']['de-at'] = "März";
@@ -1561,6 +1619,7 @@ $text['march']['ja-jp'] = "行進";
 $text['march']['ko-kr'] = "3월";
 
 $text['april']['en-us'] = "April";
+$text['april']['vi-vn'] = 'Tháng 4';
 $text['april']['en-gb'] = "April";
 $text['april']['ar-eg'] = "أبريل";
 $text['april']['de-at'] = "April";
@@ -1586,6 +1645,7 @@ $text['april']['ja-jp'] = "4月";
 $text['april']['ko-kr'] = "4월";
 
 $text['may']['en-us'] = "May";
+$text['may']['vi-vn'] = 'Tháng 5';
 $text['may']['en-gb'] = "May";
 $text['may']['ar-eg'] = "يمكن";
 $text['may']['de-at'] = "Mai";
@@ -1611,6 +1671,7 @@ $text['may']['ja-jp'] = "5月";
 $text['may']['ko-kr'] = "5월";
 
 $text['june']['en-us'] = "June";
+$text['june']['vi-vn'] = 'Tháng 6';
 $text['june']['en-gb'] = "June";
 $text['june']['ar-eg'] = "يونيو";
 $text['june']['de-at'] = "Juni";
@@ -1636,6 +1697,7 @@ $text['june']['ja-jp'] = "六月";
 $text['june']['ko-kr'] = "6월";
 
 $text['july']['en-us'] = "July";
+$text['july']['vi-vn'] = 'Tháng 7';
 $text['july']['en-gb'] = "July";
 $text['july']['ar-eg'] = "يوليو";
 $text['july']['de-at'] = "Juli";
@@ -1661,6 +1723,7 @@ $text['july']['ja-jp'] = "7月";
 $text['july']['ko-kr'] = "칠월";
 
 $text['august']['en-us'] = "August";
+$text['august']['vi-vn'] = 'Tháng 8';
 $text['august']['en-gb'] = "August";
 $text['august']['ar-eg'] = "أغسطس";
 $text['august']['de-at'] = "August";
@@ -1686,6 +1749,7 @@ $text['august']['ja-jp'] = "8月";
 $text['august']['ko-kr'] = "팔월";
 
 $text['september']['en-us'] = "September";
+$text['september']['vi-vn'] = 'Tháng 9';
 $text['september']['en-gb'] = "September";
 $text['september']['ar-eg'] = "سبتمبر";
 $text['september']['de-at'] = "September";
@@ -1711,6 +1775,7 @@ $text['september']['ja-jp'] = "9月";
 $text['september']['ko-kr'] = "구월";
 
 $text['october']['en-us'] = "October";
+$text['october']['vi-vn'] = 'Tháng 10';
 $text['october']['en-gb'] = "October";
 $text['october']['ar-eg'] = "اكتوبر";
 $text['october']['de-at'] = "Oktober";
@@ -1736,6 +1801,7 @@ $text['october']['ja-jp'] = "10月";
 $text['october']['ko-kr'] = "십월";
 
 $text['november']['en-us'] = "November";
+$text['november']['vi-vn'] = 'Tháng 11';
 $text['november']['en-gb'] = "November";
 $text['november']['ar-eg'] = "شهر نوفمبر";
 $text['november']['de-at'] = "November";
@@ -1761,6 +1827,7 @@ $text['november']['ja-jp'] = "11月";
 $text['november']['ko-kr'] = "십일월";
 
 $text['december']['en-us'] = "December";
+$text['december']['vi-vn'] = 'Tháng 12';
 $text['december']['en-gb'] = "December";
 $text['december']['ar-eg'] = "ديسمبر";
 $text['december']['de-at'] = "Dezember";
@@ -1786,6 +1853,7 @@ $text['december']['ja-jp'] = "12月";
 $text['december']['ko-kr'] = "12월";
 
 $text['monday']['en-us'] = "Monday";
+$text['monday']['vi-vn'] = 'Thứ Hai';
 $text['monday']['en-gb'] = "Monday";
 $text['monday']['ar-eg'] = "الاثنين";
 $text['monday']['de-at'] = "Montag";
@@ -1811,6 +1879,7 @@ $text['monday']['ja-jp'] = "月曜日";
 $text['monday']['ko-kr'] = "월요일";
 
 $text['tuesday']['en-us'] = "Tuesday";
+$text['tuesday']['vi-vn'] = 'Thứ Ba';
 $text['tuesday']['en-gb'] = "Tuesday";
 $text['tuesday']['ar-eg'] = "يوم الثلاثاء";
 $text['tuesday']['de-at'] = "Dienstag";
@@ -1836,6 +1905,7 @@ $text['tuesday']['ja-jp'] = "火曜日";
 $text['tuesday']['ko-kr'] = "화요일";
 
 $text['wednesday']['en-us'] = "Wednesday";
+$text['wednesday']['vi-vn'] = 'Thứ Tư';
 $text['wednesday']['en-gb'] = "Wednesday";
 $text['wednesday']['ar-eg'] = "الأربعاء";
 $text['wednesday']['de-at'] = "Mittwoch";
@@ -1861,6 +1931,7 @@ $text['wednesday']['ja-jp'] = "水曜日";
 $text['wednesday']['ko-kr'] = "수요일";
 
 $text['thursday']['en-us'] = "Thursday";
+$text['thursday']['vi-vn'] = 'Thứ Năm';
 $text['thursday']['en-gb'] = "Thursday";
 $text['thursday']['ar-eg'] = "يوم الخميس";
 $text['thursday']['de-at'] = "Donnerstag";
@@ -1886,6 +1957,7 @@ $text['thursday']['ja-jp'] = "木曜日";
 $text['thursday']['ko-kr'] = "목요일";
 
 $text['friday']['en-us'] = "Friday";
+$text['friday']['vi-vn'] = 'Thứ Sáu';
 $text['friday']['en-gb'] = "Friday";
 $text['friday']['ar-eg'] = "جمعة";
 $text['friday']['de-at'] = "Freitag";
@@ -1911,6 +1983,7 @@ $text['friday']['ja-jp'] = "金曜日";
 $text['friday']['ko-kr'] = "금요일";
 
 $text['saturday']['en-us'] = "Saturday";
+$text['saturday']['vi-vn'] = 'Thứ Bảy';
 $text['saturday']['en-gb'] = "Saturday";
 $text['saturday']['ar-eg'] = "السبت";
 $text['saturday']['de-at'] = "Samstag";
@@ -1936,6 +2009,7 @@ $text['saturday']['ja-jp'] = "土曜日";
 $text['saturday']['ko-kr'] = "토요일";
 
 $text['sunday']['en-us'] = "Sunday";
+$text['sunday']['vi-vn'] = 'Chủ Nhật';
 $text['sunday']['en-gb'] = "Sunday";
 $text['sunday']['ar-eg'] = "الأحد";
 $text['sunday']['de-at'] = "Sonntag";

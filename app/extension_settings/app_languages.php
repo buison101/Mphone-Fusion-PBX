@@ -1,6 +1,7 @@
 <?php
 
 $text['title-extension_settings']['en-us'] = "Extension Settings";
+$text['title-extension_settings']['vi-vn'] = 'Thiết lập máy nhánh';
 $text['title-extension_settings']['en-gb'] = "Extension Settings";
 $text['title-extension_settings']['ar-eg'] = "إعدادات تمديد";
 $text['title-extension_settings']['de-at'] = "Erweiterungseinstellungen";
@@ -28,6 +29,7 @@ $text['title-extension_settings']['ja-jp'] = "拡張機能の設定";
 $text['title-extension_settings']['ko-kr'] = "확장 설정";
 
 $text['title-extension_setting']['en-us'] = "Extension Setting";
+$text['title-extension_setting']['vi-vn'] = 'Thiết lập máy nhánh';
 $text['title-extension_setting']['en-gb'] = "Extension Setting";
 $text['title-extension_setting']['ar-eg'] = "إعداد التمديد";
 $text['title-extension_setting']['de-at'] = "Einstellung der Erweiterung";
@@ -55,6 +57,7 @@ $text['title-extension_setting']['ja-jp'] = "拡張子の設定";
 $text['title-extension_setting']['ko-kr'] = "확장자 설정";
 
 $text['title_description-extension_settings']['en-us'] = "Assign variables and parameters to this extension.";
+$text['title_description-extension_settings']['vi-vn'] = 'Gán biến và tham số cho máy nhánh này.';
 $text['title_description-extension_settings']['en-gb'] = "Assign variables and parameters to this extension.";
 $text['title_description-extension_settings']['ar-eg'] = "تحديد المتغيرات والبارامترات لهذا التمديد.";
 $text['title_description-extension_settings']['de-at'] = "dieser Erweiterung Variablen und Parameter zuordnen.";
@@ -82,6 +85,7 @@ $text['title_description-extension_settings']['ja-jp'] = "この拡張機能に�
 $text['title_description-extension_settings']['ko-kr'] = "이 확장에 변수 및 매개변수를 할당합니다.";
 
 $text['label-extension_setting_type']['en-us'] = "Type";
+$text['label-extension_setting_type']['vi-vn'] = 'Loại';
 $text['label-extension_setting_type']['en-gb'] = "Type";
 $text['label-extension_setting_type']['ar-eg'] = "النوع";
 $text['label-extension_setting_type']['de-at'] = "Art";
@@ -109,6 +113,7 @@ $text['label-extension_setting_type']['ja-jp'] = "タイプ";
 $text['label-extension_setting_type']['ko-kr'] = "유형";
 
 $text['description-extension_setting_type']['en-us'] = "Enter the extension subcategory.";
+$text['description-extension_setting_type']['vi-vn'] = 'Nhập phân loại con của máy nhánh.';
 $text['description-extension_setting_type']['en-gb'] = "Enter the extension subcategory.";
 $text['description-extension_setting_type']['ar-eg'] = "أدخلي الفئة الفرعية للتمديد";
 $text['description-extension_setting_type']['de-at'] = "Geben Sie die Unterkategorie Erweiterung ein.";
@@ -136,6 +141,7 @@ $text['description-extension_setting_type']['ja-jp'] = "拡張子のサブカテ
 $text['description-extension_setting_type']['ko-kr'] = "확장 하위 범주를 입력합니다.";
 
 $text['label-param']['en-us'] = "param";
+$text['label-param']['vi-vn'] = 'param';
 $text['label-param']['en-gb'] = "param";
 $text['label-param']['ar-eg'] = "الفقرة";
 $text['label-param']['de-at'] = "Param.";
@@ -162,6 +168,7 @@ $text['label-param']['ja-jp'] = "パラメータ";
 $text['label-param']['ko-kr'] = "매개변수";
 
 $text['label-variable']['en-us'] = "variable";
+$text['label-variable']['vi-vn'] = 'variable';
 $text['label-variable']['en-gb'] = "variable";
 $text['label-variable']['ar-eg'] = "متغير";
 $text['label-variable']['de-at'] = "Variable";
@@ -188,6 +195,7 @@ $text['label-variable']['ja-jp'] = "変数";
 $text['label-variable']['ko-kr'] = "변하기 쉬운";
 
 $text['label-extension_setting_name']['en-us'] = "Name";
+$text['label-extension_setting_name']['vi-vn'] = 'Tên';
 $text['label-extension_setting_name']['en-gb'] = "Name";
 $text['label-extension_setting_name']['ar-eg'] = "الاسم";
 $text['label-extension_setting_name']['de-at'] = "Name";
@@ -215,6 +223,7 @@ $text['label-extension_setting_name']['ja-jp'] = "名前";
 $text['label-extension_setting_name']['ko-kr'] = "이름";
 
 $text['description-extension_setting_name']['en-us'] = "Enter the extension name.";
+$text['description-extension_setting_name']['vi-vn'] = 'Nhập tên máy nhánh.';
 $text['description-extension_setting_name']['en-gb'] = "Enter the extension name.";
 $text['description-extension_setting_name']['ar-eg'] = "أدخل اسم التمديد";
 $text['description-extension_setting_name']['de-at'] = "Geben Sie den Erweiterungsnamen ein.";
@@ -242,6 +251,7 @@ $text['description-extension_setting_name']['ja-jp'] = "拡張機能名を入力
 $text['description-extension_setting_name']['ko-kr'] = "확장명을 입력합니다.";
 
 $text['label-extension_setting_value']['en-us'] = "Value";
+$text['label-extension_setting_value']['vi-vn'] = 'Giá trị';
 $text['label-extension_setting_value']['en-gb'] = "Value";
 $text['label-extension_setting_value']['ar-eg'] = "القيمة";
 $text['label-extension_setting_value']['de-at'] = "Wert";
@@ -269,6 +279,7 @@ $text['label-extension_setting_value']['ja-jp'] = "価値";
 $text['label-extension_setting_value']['ko-kr'] = "값";
 
 $text['description-extension_setting_value']['en-us'] = "Enter the extension value.";
+$text['description-extension_setting_value']['vi-vn'] = 'Nhập giá trị máy nhánh.';
 $text['description-extension_setting_value']['en-gb'] = "Enter the extension value.";
 $text['description-extension_setting_value']['ar-eg'] = "أدخل قيمة التمديد";
 $text['description-extension_setting_value']['de-at'] = "Geben Sie den Erweiterungswert ein.";
@@ -296,6 +307,7 @@ $text['description-extension_setting_value']['ja-jp'] = "拡張子の値を入�
 $text['description-extension_setting_value']['ko-kr'] = "확장 값을 입력합니다.";
 
 $text['label-extension_setting_enabled']['en-us'] = "Enabled";
+$text['label-extension_setting_enabled']['vi-vn'] = 'Đã bật';
 $text['label-extension_setting_enabled']['en-gb'] = "Enabled";
 $text['label-extension_setting_enabled']['ar-eg'] = "مُتاح";
 $text['label-extension_setting_enabled']['de-at'] = "Aktiviert";
@@ -323,6 +335,7 @@ $text['label-extension_setting_enabled']['ja-jp'] = "有効";
 $text['label-extension_setting_enabled']['ko-kr'] = "사용";
 
 $text['description-extension_setting_enabled']['en-us'] = "Enter the extension enabled.";
+$text['description-extension_setting_enabled']['vi-vn'] = 'Chọn trạng thái bật/tắt của máy nhánh.';
 $text['description-extension_setting_enabled']['en-gb'] = "Enter the extension enabled.";
 $text['description-extension_setting_enabled']['ar-eg'] = "أدخل التمديد تمكين.";
 $text['description-extension_setting_enabled']['de-at'] = "Geben Sie die Erweiterung ein.";
@@ -350,6 +363,7 @@ $text['description-extension_setting_enabled']['ja-jp'] = "有効な拡張子を
 $text['description-extension_setting_enabled']['ko-kr'] = "활성화된 확장을 입력합니다.";
 
 $text['label-extension_setting_description']['en-us'] = "Description";
+$text['label-extension_setting_description']['vi-vn'] = 'Mô tả';
 $text['label-extension_setting_description']['en-gb'] = "Description";
 $text['label-extension_setting_description']['ar-eg'] = "الوصف";
 $text['label-extension_setting_description']['de-at'] = "Beschreibung";
@@ -377,6 +391,7 @@ $text['label-extension_setting_description']['ja-jp'] = "説明";
 $text['label-extension_setting_description']['ko-kr'] = "설명";
 
 $text['description-extension_setting_description']['en-us'] = "Enter the extension description.";
+$text['description-extension_setting_description']['vi-vn'] = 'Nhập mô tả máy nhánh.';
 $text['description-extension_setting_description']['en-gb'] = "Enter the extension description.";
 $text['description-extension_setting_description']['ar-eg'] = "أدخل وصف التمديد";
 $text['description-extension_setting_description']['de-at'] = "Geben Sie die Erweiterungsbeschreibung ein.";

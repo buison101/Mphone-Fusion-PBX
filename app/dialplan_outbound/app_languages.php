@@ -1,6 +1,7 @@
 <?php
 
 $text['title-dialplan-outbound-add']['en-us'] = "Outbound Call Routing";
+$text['title-dialplan-outbound-add']['vi-vn'] = 'Định tuyến cuộc gọi ra';
 $text['title-dialplan-outbound-add']['en-gb'] = "Outbound Call Routing";
 $text['title-dialplan-outbound-add']['ar-eg'] = "توجيه المكالمات الصادرة";
 $text['title-dialplan-outbound-add']['de-at'] = "Routing ausgehender Anrufe";
@@ -28,6 +29,7 @@ $text['title-dialplan-outbound-add']['ja-jp'] = "アウトバウンドコール�
 $text['title-dialplan-outbound-add']['ko-kr'] = "발신 통화 라우팅";
 
 $text['message-provide']['en-us'] = "Please Provide";
+$text['message-provide']['vi-vn'] = 'Vui lòng cung cấp';
 $text['message-provide']['en-gb'] = "Please Provide";
 $text['message-provide']['ar-eg'] = "يرجى تقديم";
 $text['message-provide']['de-at'] = "Bitte angeben";
@@ -55,6 +57,7 @@ $text['message-provide']['ja-jp'] = "どうか提供してください";
 $text['message-provide']['ko-kr'] = "제공 부탁드립니다";
 
 $text['message-add-options2']['en-us'] = "Select another gateway as an alternative to use if the second one fails.";
+$text['message-add-options2']['vi-vn'] = 'Chọn gateway khác làm phương án thay thế nếu gateway thứ hai lỗi.';
 $text['message-add-options2']['en-gb'] = "Select another gateway as an alternative to use if the second one fails.";
 $text['message-add-options2']['ar-eg'] = "اختيار بوابة أخرى كبديل لاستخدامها إذا فشلت البوابة الثانية";
 $text['message-add-options2']['de-at'] = "Wählen Sie ein alternatives Gateway aus, falls das zweite Gateway fehlschlägt.";
@@ -82,6 +85,7 @@ $text['message-add-options2']['ja-jp'] = "2 番目のゲートウェイが失敗
 $text['message-add-options2']['ko-kr'] = "두 번째 게이트웨이가 실패할 경우 사용할 대안으로 다른 게이트웨이를 선택하십시오.";
 
 $text['message-add-options1']['en-us'] = "Select another gateway as an alternative to use if the first one fails.";
+$text['message-add-options1']['vi-vn'] = 'Chọn gateway khác làm phương án thay thế nếu gateway thứ nhất lỗi.';
 $text['message-add-options1']['en-gb'] = "Select another gateway as an alternative to use if the first one fails.";
 $text['message-add-options1']['ar-eg'] = "اختيار بوابة أخرى كبديل لاستخدامها إذا فشل الأول";
 $text['message-add-options1']['de-at'] = "Wählen Sie ein alternatives Gateway aus, falls das erste Gateway fehlschlägt.";
@@ -109,6 +113,7 @@ $text['message-add-options1']['ja-jp'] = "最初のゲートウェイが失敗�
 $text['message-add-options1']['ko-kr'] = "첫 번째 게이트웨이가 실패할 경우 사용할 대안으로 다른 게이트웨이를 선택하십시오.";
 
 $text['message-add-options']['en-us'] = "Select the gateway to use with this outbound route.";
+$text['message-add-options']['vi-vn'] = 'Chọn gateway dùng với tuyến gọi ra này.';
 $text['message-add-options']['en-gb'] = "Select the gateway to use with this outbound route.";
 $text['message-add-options']['ar-eg'] = "اختيار البوابة لاستخدامها مع هذا الطريق البعيد.";
 $text['message-add-options']['de-at'] = "Wählen Sie ein Gateway für die ausgehenden Anrufe aus";
@@ -136,6 +141,7 @@ $text['message-add-options']['ja-jp'] = "この送信ルートで使用するゲ
 $text['message-add-options']['ko-kr'] = "이 아웃바운드 경로에 사용할 게이트웨이를 선택하십시오.";
 
 $text['label-toll_allow']['en-us'] = "Toll allow";
+$text['label-toll_allow']['vi-vn'] = 'Toll Allow';
 $text['label-toll_allow']['en-gb'] = "Toll allow";
 $text['label-toll_allow']['ar-eg'] = "السماح";
 $text['label-toll_allow']['de-at'] = "Gebührenpflichtige Anrufe erlauben";
@@ -163,6 +169,7 @@ $text['label-toll_allow']['ja-jp'] = "有料通行許可";
 $text['label-toll_allow']['ko-kr'] = "통행료 허용";
 
 $text['label-pin_number']['en-us'] = "PIN Number";
+$text['label-pin_number']['vi-vn'] = 'Số PIN';
 $text['label-pin_number']['en-gb'] = "PIN Number";
 $text['label-pin_number']['ar-eg'] = "رقم الرمز السري";
 $text['label-pin_number']['de-at'] = "PIN-Code";
@@ -190,6 +197,7 @@ $text['label-pin_number']['ja-jp'] = "PIN番号";
 $text['label-pin_number']['ko-kr'] = "PIN 번호";
 
 $text['label-pin_database']['en-us'] = "PIN Database";
+$text['label-pin_database']['vi-vn'] = 'Cơ sở dữ liệu PIN';
 $text['label-pin_database']['en-gb'] = "PIN Database";
 $text['label-pin_database']['ar-eg'] = "قاعدة بيانات الرمز السري";
 $text['label-pin_database']['de-at'] = "PIN-Datenbank";
@@ -217,6 +225,7 @@ $text['label-pin_database']['ja-jp'] = "PINデータベース";
 $text['label-pin_database']['ko-kr'] = "PIN 데이터베이스";
 
 $text['label-sip-gateway']['en-us'] = "SIP Gateways";
+$text['label-sip-gateway']['vi-vn'] = 'SIP Gateways';
 $text['label-sip-gateway']['en-gb'] = "SIP Gateways";
 $text['label-sip-gateway']['ar-eg'] = "SIP البوابة";
 $text['label-sip-gateway']['de-at'] = "SIP Gateways";
@@ -244,6 +253,7 @@ $text['label-sip-gateway']['ja-jp'] = "SIPゲートウェイ";
 $text['label-sip-gateway']['ko-kr'] = "SIP 게이트웨이";
 
 $text['label-prefix']['en-us'] = "Prefix";
+$text['label-prefix']['vi-vn'] = 'Tiền tố';
 $text['label-prefix']['en-gb'] = "Prefix";
 $text['label-prefix']['ar-eg'] = "بادئة";
 $text['label-prefix']['de-at'] = "Präfix";
@@ -271,6 +281,7 @@ $text['label-prefix']['ja-jp'] = "プレフィックス";
 $text['label-prefix']['ko-kr'] = "접두사";
 
 $text['label-outbound-routes']['en-us'] = "Outbound Routes";
+$text['label-outbound-routes']['vi-vn'] = 'Tuyến gọi ra';
 $text['label-outbound-routes']['en-gb'] = "Outbound Routes";
 $text['label-outbound-routes']['ar-eg'] = "الطرق الخارجية";
 $text['label-outbound-routes']['de-at'] = "Ausgehende Routen";
@@ -298,6 +309,7 @@ $text['label-outbound-routes']['ja-jp'] = "往路";
 $text['label-outbound-routes']['ko-kr'] = "아웃바운드 경로";
 
 $text['label-north_america_intl']['en-us'] = "North America International";
+$text['label-north_america_intl']['vi-vn'] = 'Quốc tế Bắc Mỹ';
 $text['label-north_america_intl']['en-gb'] = "North America International";
 $text['label-north_america_intl']['ar-eg'] = "منظمة أمريكا الشمالية الدولية";
 $text['label-north_america_intl']['de-at'] = "Nordamerika International";
@@ -325,6 +337,7 @@ $text['label-north_america_intl']['ja-jp'] = "北米国際";
 $text['label-north_america_intl']['ko-kr'] = "북미 국제";
 
 $text['label-north_america']['en-us'] = "North America";
+$text['label-north_america']['vi-vn'] = 'Bắc Mỹ';
 $text['label-north_america']['en-gb'] = "North America";
 $text['label-north_america']['ar-eg'] = "أمريكا الشمالية";
 $text['label-north_america']['de-at'] = "Nordamerika";
@@ -352,6 +365,7 @@ $text['label-north_america']['ja-jp'] = "北米";
 $text['label-north_america']['ko-kr'] = "북아메리카";
 
 $text['label-north_america_islands']['en-us'] = "North America Islands";
+$text['label-north_america_islands']['vi-vn'] = 'Quần đảo Bắc Mỹ';
 $text['label-north_america_islands']['en-gb'] = "North America Islands";
 $text['label-north_america_islands']['ar-eg'] = "جزر أمريكا الشمالية";
 $text['label-north_america_islands']['de-at'] = "Nordamerika";
@@ -379,6 +393,7 @@ $text['label-north_america_islands']['ja-jp'] = "北アメリカ諸島";
 $text['label-north_america_islands']['ko-kr'] = "북미 제도";
 
 $text['label-limit']['en-us'] = "Limit";
+$text['label-limit']['vi-vn'] = 'Giới hạn';
 $text['label-limit']['en-gb'] = "Limit";
 $text['label-limit']['ar-eg'] = "حد";
 $text['label-limit']['de-at'] = "Obergrenze";
@@ -406,6 +421,7 @@ $text['label-limit']['ja-jp'] = "限界";
 $text['label-limit']['ko-kr'] = "한계";
 
 $text['label-intl']['en-us'] = "International";
+$text['label-intl']['vi-vn'] = 'Quốc tế';
 $text['label-intl']['en-gb'] = "International";
 $text['label-intl']['ar-eg'] = "الدولية";
 $text['label-intl']['de-at'] = "Internationales";
@@ -433,6 +449,7 @@ $text['label-intl']['ja-jp'] = "国際的";
 $text['label-intl']['ko-kr'] = "국제적인";
 
 $text['label-gateway-name']['en-us'] = "Gateway Name";
+$text['label-gateway-name']['vi-vn'] = 'Tên gateway';
 $text['label-gateway-name']['en-gb'] = "Gateway Name";
 $text['label-gateway-name']['ar-eg'] = "اسم البوابة";
 $text['label-gateway-name']['de-at'] = "Gateway Namen";
@@ -460,6 +477,7 @@ $text['label-gateway-name']['ja-jp'] = "ゲートウェイ名";
 $text['label-gateway-name']['ko-kr'] = "게이트웨이 이름";
 
 $text['label-gateway']['en-us'] = "Gateway";
+$text['label-gateway']['vi-vn'] = 'Gateway';
 $text['label-gateway']['en-gb'] = "Gateway";
 $text['label-gateway']['ar-eg'] = "البوابة";
 $text['label-gateway']['de-at'] = "Gateway";
@@ -487,6 +505,7 @@ $text['label-gateway']['ja-jp'] = "ゲートウェイ";
 $text['label-gateway']['ko-kr'] = "게이트웨이";
 
 $text['label-europe_intl']['en-us'] = "Europe International";
+$text['label-europe_intl']['vi-vn'] = 'Quốc tế Châu Âu';
 $text['label-europe_intl']['en-gb'] = "Europe International";
 $text['label-europe_intl']['ar-eg'] = "أوروبا الدولية";
 $text['label-europe_intl']['de-at'] = "Europa International";
@@ -514,6 +533,7 @@ $text['label-europe_intl']['ja-jp'] = "ヨーロッパ国際";
 $text['label-europe_intl']['ko-kr'] = "유럽 인터내셔널";
 
 $text['label-dialplan-expression']['en-us'] = "Dialplan Expression";
+$text['label-dialplan-expression']['vi-vn'] = 'Biểu thức Dialplan';
 $text['label-dialplan-expression']['en-gb'] = "Dialplan Expression";
 $text['label-dialplan-expression']['ar-eg'] = "التعبير عن الكلى";
 $text['label-dialplan-expression']['de-at'] = "Wählplan Ausdruck";
@@ -541,6 +561,7 @@ $text['label-dialplan-expression']['ja-jp'] = "ダイヤルプラン式";
 $text['label-dialplan-expression']['ko-kr'] = "다이얼플랜 표현식";
 
 $text['label-custom_outbound_prefix']['en-us'] = "Dial custom prefix, then Digits";
+$text['label-custom_outbound_prefix']['vi-vn'] = 'Quay tiền tố tùy chỉnh, sau đó là các chữ số';
 $text['label-custom_outbound_prefix']['en-gb'] = "Dial custom prefix, then Digits";
 $text['label-custom_outbound_prefix']['ar-eg'] = "تأريخ الوجبات، ثم ديجيت";
 $text['label-custom_outbound_prefix']['de-at'] = "Wähle benutzerdefinierten Präfix, dann Ziffern";
@@ -568,6 +589,7 @@ $text['label-custom_outbound_prefix']['ja-jp'] = "カスタム プレフィッ�
 $text['label-custom_outbound_prefix']['ko-kr'] = "사용자 지정 접두사를 누른 다음 Digits를 누릅니다.";
 
 $text['label-alt2']['en-us'] = "Alternate 2";
+$text['label-alt2']['vi-vn'] = 'Thay thế 2';
 $text['label-alt2']['en-gb'] = "Alternate 2";
 $text['label-alt2']['ar-eg'] = "المناوب 2";
 $text['label-alt2']['de-at'] = "Alternative 2";
@@ -595,6 +617,7 @@ $text['label-alt2']['ja-jp'] = "代替 2";
 $text['label-alt2']['ko-kr'] = "대체 2";
 
 $text['label-alt1']['en-us'] = "Alternate 1";
+$text['label-alt1']['vi-vn'] = 'Thay thế 1';
 $text['label-alt1']['en-gb'] = "Alternate 1";
 $text['label-alt1']['ar-eg'] = "المناوب 1";
 $text['label-alt1']['de-at'] = "Alternative 1";
@@ -622,6 +645,7 @@ $text['label-alt1']['ja-jp'] = "代替 1";
 $text['label-alt1']['ko-kr'] = "대체 1";
 
 $text['label-add-options']['en-us'] = "Additional Options";
+$text['label-add-options']['vi-vn'] = 'Tùy chọn bổ sung';
 $text['label-add-options']['en-gb'] = "Additional Options";
 $text['label-add-options']['ar-eg'] = "الخيارات الإضافية";
 $text['label-add-options']['de-at'] = "Weitere Optionen";
@@ -649,6 +673,7 @@ $text['label-add-options']['ja-jp'] = "追加オプション";
 $text['label-add-options']['ko-kr'] = "추가 옵션";
 
 $text['label-accountcode']['en-us'] = "Account Code";
+$text['label-accountcode']['vi-vn'] = 'Mã tài khoản';
 $text['label-accountcode']['en-gb'] = "Account Code";
 $text['label-accountcode']['ar-eg'] = "رمز الحساب";
 $text['label-accountcode']['de-at'] = "Kontoschlüssel";
@@ -676,6 +701,7 @@ $text['label-accountcode']['ja-jp'] = "口座番号";
 $text['label-accountcode']['ko-kr'] = "계정 코드";
 
 $text['label-9d9']['en-us'] = "Dial 9, then 9 Digits";
+$text['label-9d9']['vi-vn'] = 'Quay 9, sau đó 9 chữ số';
 $text['label-9d9']['en-gb'] = "Dial 9, then 9 Digits";
 $text['label-9d9']['ar-eg'] = "رقم 9، ثم 9 أرقام";
 $text['label-9d9']['de-at'] = "Wähle 9, dann 9 Ziffern";
@@ -703,6 +729,7 @@ $text['label-9d9']['ja-jp'] = "9 をダイヤルし、次に 9 桁をダイヤ�
 $text['label-9d9']['ko-kr'] = "9를 누른 다음 9자리를 누릅니다.";
 
 $text['label-9d8']['en-us'] = "Dial 9, then 8 Digits";
+$text['label-9d8']['vi-vn'] = 'Quay 9, sau đó 8 chữ số';
 $text['label-9d8']['en-gb'] = "Dial 9, then 8 Digits";
 $text['label-9d8']['ar-eg'] = "رقم 9، ثم 8 أرقام";
 $text['label-9d8']['de-at'] = "Wähle 9, dann 8 Ziffern";
@@ -730,6 +757,7 @@ $text['label-9d8']['ja-jp'] = "9 をダイヤルし、次に 8 桁をダイヤ�
 $text['label-9d8']['ko-kr'] = "9를 누른 다음 8자리를 누릅니다.";
 
 $text['label-9d7']['en-us'] = "Dial 9, then 7 Digits";
+$text['label-9d7']['vi-vn'] = 'Quay 9, sau đó 7 chữ số';
 $text['label-9d7']['en-gb'] = "Dial 9, then 7 Digits";
 $text['label-9d7']['ar-eg'] = "رقم 9، ثم 7 أرقام";
 $text['label-9d7']['de-at'] = "Wähle 9, dann 7 Ziffern";
@@ -757,6 +785,7 @@ $text['label-9d7']['ja-jp'] = "9 をダイヤルし、次に 7 桁をダイヤ�
 $text['label-9d7']['ko-kr'] = "9를 누른 다음 7자리를 누릅니다.";
 
 $text['label-9d6']['en-us'] = "Dial 9, then 6 Digits";
+$text['label-9d6']['vi-vn'] = 'Quay 9, sau đó 6 chữ số';
 $text['label-9d6']['en-gb'] = "Dial 9, then 6 Digits";
 $text['label-9d6']['ar-eg'] = "رقم 9، ثم 6 أرقام";
 $text['label-9d6']['de-at'] = "Wähle 9, dann 6 Ziffern";
@@ -784,6 +813,7 @@ $text['label-9d6']['ja-jp'] = "9 をダイヤルし、次に 6 桁をダイヤ�
 $text['label-9d6']['ko-kr'] = "9를 누른 다음 6자리를 누릅니다.";
 
 $text['label-9d5']['en-us'] = "Dial 9, then 5 Digits";
+$text['label-9d5']['vi-vn'] = 'Quay 9, sau đó 5 chữ số';
 $text['label-9d5']['en-gb'] = "Dial 9, then 5 Digits";
 $text['label-9d5']['ar-eg'] = "رقم 9، ثم 5 أرقام";
 $text['label-9d5']['de-at'] = "Wähle 9, dann 5 Ziffern";
@@ -811,6 +841,7 @@ $text['label-9d5']['ja-jp'] = "9 をダイヤルし、次に 5 桁をダイヤ�
 $text['label-9d5']['ko-kr'] = "9를 누른 다음 5자리를 누릅니다.";
 
 $text['label-9d4']['en-us'] = "Dial 9, then 4 Digits";
+$text['label-9d4']['vi-vn'] = 'Quay 9, sau đó 4 chữ số';
 $text['label-9d4']['en-gb'] = "Dial 9, then 4 Digits";
 $text['label-9d4']['ar-eg'] = "رقم 9، ثم 4 أرقام";
 $text['label-9d4']['de-at'] = "Wähle 9, dann 4 Ziffern";
@@ -838,6 +869,7 @@ $text['label-9d4']['ja-jp'] = "9 をダイヤルし、次に 4 桁をダイヤ�
 $text['label-9d4']['ko-kr'] = "9를 누른 다음 4자리를 누릅니다.";
 
 $text['label-9d3']['en-us'] = "Dial 9, then 3 Digits";
+$text['label-9d3']['vi-vn'] = 'Quay 9, sau đó 3 chữ số';
 $text['label-9d3']['en-gb'] = "Dial 9, then 3 Digits";
 $text['label-9d3']['ar-eg'] = "رقم 9، ثم 3 أرقام";
 $text['label-9d3']['de-at'] = "Wähle 9, dann 3 Ziffern";
@@ -865,6 +897,7 @@ $text['label-9d3']['ja-jp'] = "9 をダイヤルし、次に 3 桁をダイヤ�
 $text['label-9d3']['ko-kr'] = "9를 누른 다음 3자리를 누릅니다.";
 
 $text['label-9d2']['en-us'] = "Dial 9, then 2 Digits";
+$text['label-9d2']['vi-vn'] = 'Quay 9, sau đó 2 chữ số';
 $text['label-9d2']['en-gb'] = "Dial 9, then 2 Digits";
 $text['label-9d2']['ar-eg'] = "رقم 9، ثم رقمين";
 $text['label-9d2']['de-at'] = "Wähle 9, dann 2 Ziffern";
@@ -892,6 +925,7 @@ $text['label-9d2']['ja-jp'] = "9 をダイヤルし、次に 2 桁をダイヤ�
 $text['label-9d2']['ko-kr'] = "9를 누른 다음 2자리를 누릅니다.";
 
 $text['label-9d11']['en-us'] = "Dial 9, then 11 Digits";
+$text['label-9d11']['vi-vn'] = 'Quay 9, sau đó 11 chữ số';
 $text['label-9d11']['en-gb'] = "Dial 9, then 11 Digits";
 $text['label-9d11']['ar-eg'] = "رقم 9، ثم 11 رقم";
 $text['label-9d11']['de-at'] = "Wähle 9, dann 11 Ziffern";
@@ -919,6 +953,7 @@ $text['label-9d11']['ja-jp'] = "9 をダイヤルしてから 11 桁をダイヤ
 $text['label-9d11']['ko-kr'] = "9를 누른 다음 11자리를 누릅니다.";
 
 $text['label-9d10']['en-us'] = "Dial 9, then 10 Digits";
+$text['label-9d10']['vi-vn'] = 'Quay 9, sau đó 10 chữ số';
 $text['label-9d10']['en-gb'] = "Dial 9, then 10 Digits";
 $text['label-9d10']['ar-eg'] = "رقم 9، ثم 10 أرقام";
 $text['label-9d10']['de-at'] = "Wähle 9, dann 10 Ziffern";
@@ -946,6 +981,7 @@ $text['label-9d10']['ja-jp'] = "9 をダイヤルしてから 11 桁をダイヤ
 $text['label-9d10']['ko-kr'] = "9를 누른 다음 11자리를 누릅니다.";
 
 $text['label-9d.12-20']['en-us'] = "Dial 9, then International";
+$text['label-9d.12-20']['vi-vn'] = 'Quay 9, sau đó gọi quốc tế';
 $text['label-9d.12-20']['en-gb'] = "Dial 9, then International";
 $text['label-9d.12-20']['ar-eg'] = "رقم 9، ثم على الصعيد الدولي";
 $text['label-9d.12-20']['de-at'] = "Wähle 9, dann international";
@@ -973,6 +1009,7 @@ $text['label-9d.12-20']['ja-jp'] = "9 にダイヤルし、次に国際電話に
 $text['label-9d.12-20']['ko-kr'] = "9번을 누른 다음 국제선을 누릅니다.";
 
 $text['label-9d']['en-us'] = "9 Digits";
+$text['label-9d']['vi-vn'] = '9 chữ số';
 $text['label-9d']['en-gb'] = "9 Digits";
 $text['label-9d']['ar-eg'] = "9 أرقام";
 $text['label-9d']['de-at'] = "9 Ziffern";
@@ -1000,6 +1037,7 @@ $text['label-9d']['ja-jp'] = "9桁";
 $text['label-9d']['ko-kr'] = "9자리";
 
 $text['label-911']['en-us'] = "911 Emergency";
+$text['label-911']['vi-vn'] = '911 khẩn cấp';
 $text['label-911']['en-gb'] = "911 Emergency";
 $text['label-911']['ar-eg'] = "911 الطوارئ";
 $text['label-911']['de-at'] = "911 Notruf (USA)";
@@ -1027,6 +1065,7 @@ $text['label-911']['ja-jp'] = "911 緊急通報";
 $text['label-911']['ko-kr'] = "911 비상";
 
 $text['label-988']['en-us'] = "988 National Suicide Prevention Lifeline";
+$text['label-988']['vi-vn'] = '988 Đường dây phòng chống tự tử quốc gia';
 $text['label-988']['en-gb'] = "988 National Suicide Prevention Lifeline";
 $text['label-988']['ar-eg'] = "988 شريان الحياة الوطني لمنع الانتحار";
 $text['label-988']['de-at'] = "988 Nationale Rettungsleine für Suizidprävention (USA)";
@@ -1054,6 +1093,7 @@ $text['label-988']['ja-jp'] = "988 全国自殺予防ライフライン";
 $text['label-988']['ko-kr'] = "988 전국자살예방생명의전화";
 
 $text['label-8d']['en-us'] = "8 Digits";
+$text['label-8d']['vi-vn'] = '8 chữ số';
 $text['label-8d']['en-gb'] = "8 Digits";
 $text['label-8d']['ar-eg'] = "8 أرقام";
 $text['label-8d']['de-at'] = "8 Ziffern";
@@ -1081,6 +1121,7 @@ $text['label-8d']['ja-jp'] = "8桁";
 $text['label-8d']['ko-kr'] = "8자리";
 
 $text['label-800']['en-us'] = "Toll-Free";
+$text['label-800']['vi-vn'] = 'Miễn phí cước';
 $text['label-800']['en-gb'] = "Toll-Free";
 $text['label-800']['ar-eg'] = "خالية من الرصاص";
 $text['label-800']['de-at'] = "Gebührenfrei";
@@ -1108,6 +1149,7 @@ $text['label-800']['ja-jp'] = "無料通話";
 $text['label-800']['ko-kr'] = "수신자 부담";
 
 $text['label-inum']['en-us'] = "iNum 0118335100xxxxxxxx";
+$text['label-inum']['vi-vn'] = 'iNum 0118335100xxxxxxxx';
 $text['label-inum']['en-gb'] = "iNum 0118335100xxxxxxxx";
 $text['label-inum']['ar-eg'] = "iNum 0118335100xxxxxxxx";
 $text['label-inum']['de-at'] = "iNum 0118335100xxxxxxxx";
@@ -1135,6 +1177,7 @@ $text['label-inum']['ja-jp'] = "iNum 0118335100xxxxxxxx";
 $text['label-inum']['ko-kr'] = "iNum 0118335100xxxxxxxx";
 
 $text['label-711']['en-us'] = "711 TTY";
+$text['label-711']['vi-vn'] = '711 TTY';
 $text['label-711']['en-gb'] = "711 TTY";
 $text['label-711']['ar-eg'] = "711 TTY";
 $text['label-711']['de-at'] = "711 TTY";
@@ -1162,6 +1205,7 @@ $text['label-711']['ja-jp'] = "711 TTY";
 $text['label-711']['ko-kr'] = "711 TTY";
 
 $text['label-7d']['en-us'] = "7 Digits Local";
+$text['label-7d']['vi-vn'] = '7 chữ số nội hạt';
 $text['label-7d']['en-gb'] = "7 Digits Local";
 $text['label-7d']['ar-eg'] = "7 أرقام محلية";
 $text['label-7d']['de-at'] = "7 Ziffern (Ortsrufnummern)";
@@ -1189,6 +1233,7 @@ $text['label-7d']['ja-jp'] = "ローカル7桁";
 $text['label-7d']['ko-kr'] = "7자리 로컬";
 
 $text['label-6d']['en-us'] = "6 Digits";
+$text['label-6d']['vi-vn'] = '6 chữ số';
 $text['label-6d']['en-gb'] = "6 Digits";
 $text['label-6d']['ar-eg'] = "6 أرقام";
 $text['label-6d']['de-at'] = "6 Ziffern";
@@ -1216,6 +1261,7 @@ $text['label-6d']['ja-jp'] = "6桁";
 $text['label-6d']['ko-kr'] = "6자리";
 
 $text['label-5d']['en-us'] = "5 Digits";
+$text['label-5d']['vi-vn'] = '5 chữ số';
 $text['label-5d']['en-gb'] = "5 Digits";
 $text['label-5d']['ar-eg'] = "5 أرقام";
 $text['label-5d']['de-at'] = "5 Ziffern";
@@ -1243,6 +1289,7 @@ $text['label-5d']['ja-jp'] = "5桁";
 $text['label-5d']['ko-kr'] = "5자리";
 
 $text['label-4d']['en-us'] = "4 Digits";
+$text['label-4d']['vi-vn'] = '4 chữ số';
 $text['label-4d']['en-gb'] = "4 Digits";
 $text['label-4d']['ar-eg'] = "4 أرقام";
 $text['label-4d']['de-at'] = "4 Ziffern";
@@ -1270,6 +1317,7 @@ $text['label-4d']['ja-jp'] = "4桁";
 $text['label-4d']['ko-kr'] = "4자리";
 
 $text['label-411']['en-us'] = "411 Information";
+$text['label-411']['vi-vn'] = '411 thông tin';
 $text['label-411']['en-gb'] = "411 Information";
 $text['label-411']['ar-eg'] = "411 معلومات";
 $text['label-411']['de-at'] = "411 Auskunft";
@@ -1297,6 +1345,7 @@ $text['label-411']['ja-jp'] = "411情報";
 $text['label-411']['ko-kr'] = "411 정보";
 
 $text['label-3d']['en-us'] = "3 Digits";
+$text['label-3d']['vi-vn'] = '3 chữ số';
 $text['label-3d']['en-gb'] = "3 Digits";
 $text['label-3d']['ar-eg'] = "3 أرقام";
 $text['label-3d']['de-at'] = "3 Ziffern";
@@ -1324,6 +1373,7 @@ $text['label-3d']['ja-jp'] = "3桁";
 $text['label-3d']['ko-kr'] = "3자리";
 
 $text['label-311']['en-us'] = "311 Information";
+$text['label-311']['vi-vn'] = '311 thông tin';
 $text['label-311']['en-gb'] = "311 Information";
 $text['label-311']['ar-eg'] = "311 معلومات";
 $text['label-311']['de-at'] = "311 Auskunft";
@@ -1351,6 +1401,7 @@ $text['label-311']['ja-jp'] = "311情報";
 $text['label-311']['ko-kr'] = "311 정보";
 
 $text['label-2d']['en-us'] = "2 Digits";
+$text['label-2d']['vi-vn'] = '2 chữ số';
 $text['label-2d']['en-gb'] = "2 Digits";
 $text['label-2d']['ar-eg'] = "رقمان";
 $text['label-2d']['de-at'] = "2 Ziffern";
@@ -1378,6 +1429,7 @@ $text['label-2d']['ja-jp'] = "2桁";
 $text['label-2d']['ko-kr'] = "2자리";
 
 $text['label-11d']['en-us'] = "11 Digits Long Distance";
+$text['label-11d']['vi-vn'] = '11 chữ số đường dài';
 $text['label-11d']['en-gb'] = "11 Digits Long Distance";
 $text['label-11d']['ar-eg'] = "11 رقما بعيدا";
 $text['label-11d']['de-at'] = "11 Ziffern Ferngespräch";
@@ -1405,6 +1457,7 @@ $text['label-11d']['ja-jp'] = "11桁の長距離";
 $text['label-11d']['ko-kr'] = "11자리 장거리";
 
 $text['label-10d']['en-us'] = "10 Digits Long Distance";
+$text['label-10d']['vi-vn'] = '10 chữ số đường dài';
 $text['label-10d']['en-gb'] = "10 Digits Long Distance";
 $text['label-10d']['ar-eg'] = "مسافة 10 أرقام بعيدة";
 $text['label-10d']['de-at'] = "10 Ziffern Ferngespräch";
@@ -1432,6 +1485,7 @@ $text['label-10d']['ja-jp'] = "10桁の長距離";
 $text['label-10d']['ko-kr'] = "10자리 장거리";
 
 $text['description-shortcut']['en-us'] = "Shortcut to create the outbound dialplan entries for this Gateway.";
+$text['description-shortcut']['vi-vn'] = 'Lối tắt để tạo các mục outbound dialplan cho gateway này.';
 $text['description-shortcut']['en-gb'] = "Shortcut to create the outbound dialplan entries for this Gateway.";
 $text['description-shortcut']['ar-eg'] = "طريق مُختصر لخلق مُدخلات الهاتف الخارجية لهذه البوابة";
 $text['description-shortcut']['de-at'] = "Abkkürzung um ausgehende Wählpläne für dieses Gateway zu erstellen.";
@@ -1459,6 +1513,7 @@ $text['description-shortcut']['ja-jp'] = "このゲートウェイの発信ダ�
 $text['description-shortcut']['ko-kr'] = "이 게이트웨이에 대한 아웃바운드 다이얼플랜 항목을 만드는 바로 가기입니다.";
 
 $text['description-outbound-routes']['en-us'] = "Outbound dialplans have one or more conditions that are matched to attributes of a call.  When a call matches the conditions the call is then routed to the gateway.";
+$text['description-outbound-routes']['vi-vn'] = 'Outbound dialplan có một hoặc nhiều điều kiện được so khớp với thuộc tính của cuộc gọi. Khi cuộc gọi khớp điều kiện, cuộc gọi sẽ được định tuyến đến gateway.';
 $text['description-outbound-routes']['en-gb'] = "Outbound dialplans have one or more conditions that are matched to attributes of a call.  When a call matches the conditions the call is then routed to the gateway.";
 $text['description-outbound-routes']['ar-eg'] = "الطاولات الخارجية لها شروط أو أكثر تتطابق مع خصائص المكالمة عندما تتطابق مكالمة مع الظروف يتم توجيه المكالمة إلى البوابة";
 $text['description-outbound-routes']['de-at'] = "Ausgehende Wählpläne haben eine oder mehrere Bedingungen, die gegen den Eigenschaften des Anrufes geprüft werden. Sofern der Anruf die Bedingungen erfüllt, wir er über dieses Gateway geroutet.";
@@ -1486,6 +1541,7 @@ $text['description-outbound-routes']['ja-jp'] = "発信ダイヤルプランに�
 $text['description-outbound-routes']['ko-kr'] = "아웃바운드 다이얼플랜에는 통화 속성과 일치하는 조건이 하나 이상 있습니다. 통화가 조건과 일치하면 통화가 게이트웨이로 라우팅됩니다.";
 
 $text['description-order']['en-us'] = "Select the order number. The order number determines the order of the outbound routes when there is more than one.";
+$text['description-order']['vi-vn'] = 'Chọn số thứ tự. Số thứ tự xác định thứ tự của các tuyến gọi ra khi có nhiều hơn một tuyến.';
 $text['description-order']['en-gb'] = "Select the order number. The order number determines the order of the outbound routes when there is more than one.";
 $text['description-order']['ar-eg'] = "إختار رقم الطلب ويحدد رقم الطلب ترتيب الطرق الخارجية عندما يكون هناك أكثر من طريق واحد.";
 $text['description-order']['de-at'] = "Wahlen Sie die Nummer für die Reihenfolge. Hierdurch wird die Reihenfolge bei mehreren ausgehenden Routen festgelegt.";
@@ -1513,6 +1569,7 @@ $text['description-order']['ja-jp'] = "注文番号を選択してください�
 $text['description-order']['ko-kr'] = "주문번호를 선택하세요. 순서 번호는 아웃바운드 경로가 둘 이상인 경우 순서를 결정합니다.";
 
 $text['description-limit']['en-us'] = "Enter limit to restrict the number of outbound calls.";
+$text['description-limit']['vi-vn'] = 'Nhập giới hạn để hạn chế số cuộc gọi ra.';
 $text['description-limit']['en-gb'] = "Enter limit to restrict the number of outbound calls.";
 $text['description-limit']['ar-eg'] = "الدخول للحد من عدد المكالمات الخارجية";
 $text['description-limit']['de-at'] = "Geben Sie eine Obergrenze ein, um die Anzahl ausgehender Anrufe zu begrenzen.";
@@ -1540,6 +1597,7 @@ $text['description-limit']['ja-jp'] = "発信通話の数を制限するには�
 $text['description-limit']['ko-kr'] = "아웃바운드 통화 수를 제한하려면 한도를 입력합니다.";
 
 $text['description-enter-prefix']['en-us'] = "Enter a prefix number to add to the beginning of the destination number.";
+$text['description-enter-prefix']['vi-vn'] = 'Nhập số tiền tố để thêm vào đầu số đích.';
 $text['description-enter-prefix']['en-gb'] = "Enter a prefix number to add to the beginning of the destination number.";
 $text['description-enter-prefix']['ar-eg'] = "أدخل رقماً مسبقاً ليضيف إلى بداية رقم المقصد";
 $text['description-enter-prefix']['de-at'] = "Geben Sie eine präfix Nummer an, die am Anfang der Zielrufnummer hinzugefügt wird.";
@@ -1567,6 +1625,7 @@ $text['description-enter-prefix']['ja-jp'] = "宛先番号の先頭に追加す�
 $text['description-enter-prefix']['ko-kr'] = "대상 번호의 시작 부분에 추가할 접두사 번호를 입력합니다.";
 
 $text['description-enter-custom_outbound_prefix']['en-us'] = "Enter custom outbound prefix";
+$text['description-enter-custom_outbound_prefix']['vi-vn'] = 'Nhập tiền tố gọi ra tùy chỉnh.';
 $text['description-enter-custom_outbound_prefix']['en-gb'] = "Enter custom outbound prefix";
 $text['description-enter-custom_outbound_prefix']['ar-eg'] = "الدخول إلى المسابقة خارج نطاق";
 $text['description-enter-custom_outbound_prefix']['de-at'] = "Geben Sie eine benutzerdefinierten ausgehenden Präfix an";
@@ -1594,6 +1653,7 @@ $text['description-enter-custom_outbound_prefix']['ja-jp'] = "カスタムの送
 $text['description-enter-custom_outbound_prefix']['ko-kr'] = "맞춤 아웃바운드 프리픽스를 입력하세요.";
 
 $text['description-enabled']['en-us'] = "Choose to enable or disable the outbound route.";
+$text['description-enabled']['vi-vn'] = 'Chọn bật hoặc tắt tuyến gọi ra.';
 $text['description-enabled']['en-gb'] = "Choose to enable or disable the outbound route.";
 $text['description-enabled']['ar-eg'] = "إخترْ للتَمكين أَو يَنْقصُ الطريقَ خارج.";
 $text['description-enabled']['de-at'] = "Wählen Sie, ob die ausgehende Route aktiviert oder deaktiviert werden soll.";
@@ -1621,6 +1681,7 @@ $text['description-enabled']['ja-jp'] = "アウトバウンドルートを有効
 $text['description-enabled']['ko-kr'] = "아웃바운드 경로를 활성화 또는 비활성화하도록 선택합니다.";
 
 $text['description-toll_allow']['en-us'] = "Set to the toll allow name.";
+$text['description-toll_allow']['vi-vn'] = 'Đặt theo tên Toll Allow.';
 $text['description-toll_allow']['en-gb'] = "Set to the toll allow name.";
 $text['description-toll_allow']['ar-eg'] = "إعداد اسم السماح بالرسوم.";
 $text['description-toll_allow']['de-at'] = "Hier den Namen für die Mautfreigabe eingeben.";
@@ -1648,6 +1709,7 @@ $text['description-toll_allow']['ja-jp'] = "通行料許可の名前を設定し
 $text['description-toll_allow']['ko-kr'] = "통행료 허용 이름을 설정하세요.";
 
 $text['description-pin_number']['en-us'] = "Require a PIN number.";
+$text['description-pin_number']['vi-vn'] = 'Yêu cầu số PIN.';
 $text['description-pin_number']['en-gb'] = "Require a PIN number.";
 $text['description-pin_number']['ar-eg'] = "يطلب رقم PIN.";
 $text['description-pin_number']['de-at'] = "PIN-Nummer erforderlich.";
@@ -1675,6 +1737,7 @@ $text['description-pin_number']['ja-jp'] = "PIN番号が必要です。";
 $text['description-pin_number']['ko-kr'] = "PIN 번호가 필요합니다.";
 
 $text['description-pin_database']['en-us'] = "Require a PIN Number from the database.";
+$text['description-pin_database']['vi-vn'] = 'Yêu cầu số PIN từ cơ sở dữ liệu.';
 $text['description-pin_database']['en-gb'] = "Require a PIN Number from the database.";
 $text['description-pin_database']['ar-eg'] = "تطلب رقم PIN من قاعدة البيانات.";
 $text['description-pin_database']['de-at'] = "PIN-Nummer aus der Datenbank anfordern.";
@@ -1702,6 +1765,7 @@ $text['description-pin_database']['ja-jp'] = "データベースからPIN番号�
 $text['description-pin_database']['ko-kr'] = "데이터베이스에서 PIN 번호를 요구합니다.";
 
 $text['description-accountcode']['en-us'] = "Enter the accountcode.";
+$text['description-accountcode']['vi-vn'] = 'Nhập accountcode.';
 $text['description-accountcode']['en-gb'] = "Enter the accountcode.";
 $text['description-accountcode']['ar-eg'] = "أدخل رمز الحساب";
 $text['description-accountcode']['de-at'] = "Geben Sie den Kontoschlüssel an.";

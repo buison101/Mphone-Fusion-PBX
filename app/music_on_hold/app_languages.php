@@ -1,6 +1,7 @@
 <?php
 
 $text['title-music_on_hold_settings']['en-us'] = "Music on Hold Settings";
+$text['title-music_on_hold_settings']['vi-vn'] = 'Thiết lập nhạc chờ';
 $text['title-music_on_hold_settings']['en-gb'] = "Music on Hold Settings";
 $text['title-music_on_hold_settings']['ar-eg'] = 'الموسيقى في "هولد ستينغز"';
 $text['title-music_on_hold_settings']['de-at'] = "Wartemusik Einstellungen";
@@ -28,6 +29,7 @@ $text['title-music_on_hold_settings']['ja-jp'] = "保留音の設定";
 $text['title-music_on_hold_settings']['ko-kr'] = "대기 중인 음악 설정";
 
 $text['title-music_on_hold']['en-us'] = "Music on Hold";
+$text['title-music_on_hold']['vi-vn'] = 'Nhạc chờ';
 $text['title-music_on_hold']['en-gb'] = "Music on Hold";
 $text['title-music_on_hold']['ar-eg'] = "الموسيقى متوقفة";
 $text['title-music_on_hold']['de-at'] = "Wartemusik";
@@ -55,6 +57,7 @@ $text['title-music_on_hold']['ja-jp'] = "保留音";
 $text['title-music_on_hold']['ko-kr'] = "음악 보류";
 
 $text['option-local']['en-us'] = "Local";
+$text['option-local']['vi-vn'] = 'Cục bộ';
 $text['option-local']['en-gb'] = "Local";
 $text['option-local']['ar-eg'] = "محلية";
 $text['option-local']['de-at'] = "lokal";
@@ -82,6 +85,7 @@ $text['option-local']['ja-jp'] = "地元";
 $text['option-local']['ko-kr'] = "현지의";
 
 $text['option-global']['en-us'] = "Global";
+$text['option-global']['vi-vn'] = 'Toàn cục';
 $text['option-global']['en-gb'] = "Global";
 $text['option-global']['ar-eg'] = "عالمي";
 $text['option-global']['de-at'] = "Global";
@@ -109,6 +113,7 @@ $text['option-global']['ja-jp'] = "グローバル";
 $text['option-global']['ko-kr'] = "글로벌";
 
 $text['option-default']['en-us'] = "Default";
+$text['option-default']['vi-vn'] = 'Mặc định';
 $text['option-default']['en-gb'] = "Default";
 $text['option-default']['ar-eg'] = "التقصير";
 $text['option-default']['de-at'] = "Standard";
@@ -136,6 +141,7 @@ $text['option-default']['ja-jp'] = "デフォルト";
 $text['option-default']['ko-kr'] = "기본";
 
 $text['message-upload_completed']['en-us'] = "Upload Completed";
+$text['message-upload_completed']['vi-vn'] = 'Tải lên hoàn tất';
 $text['message-upload_completed']['en-gb'] = "Upload Completed";
 $text['message-upload_completed']['ar-eg'] = "العدد المنجز";
 $text['message-upload_completed']['de-at'] = "Erfolgreich hochgeladen";
@@ -163,6 +169,7 @@ $text['message-upload_completed']['ja-jp'] = "アップロードが完了しま�
 $text['message-upload_completed']['ko-kr'] = "업로드 완료";
 
 $text['message-nofiles']['en-us'] = "No files found.";
+$text['message-nofiles']['vi-vn'] = 'Không tìm thấy tệp.';
 $text['message-nofiles']['en-gb'] = "No files found.";
 $text['message-nofiles']['ar-eg'] = "لا توجد ملفات";
 $text['message-nofiles']['de-at'] = "Es wurden keine Dateien gefunden.";
@@ -190,6 +197,7 @@ $text['message-nofiles']['ja-jp'] = "ファイルが見つかりません。";
 $text['message-nofiles']['ko-kr'] = "파일이 없습니다.";
 
 $text['message-missing_required_fields']['en-us'] = "Missing Required Fields";
+$text['message-missing_required_fields']['vi-vn'] = 'Thiếu trường bắt buộc';
 $text['message-missing_required_fields']['en-gb'] = "Missing Required Fields";
 $text['message-missing_required_fields']['ar-eg'] = "المناطق المفقودة";
 $text['message-missing_required_fields']['de-at'] = "Fehlende Pflichtangaben ";
@@ -217,6 +225,7 @@ $text['message-missing_required_fields']['ja-jp'] = "必須フィールドが欠
 $text['message-missing_required_fields']['ko-kr'] = "누락된 필수 필드";
 
 $text['message-event-socket']['en-us'] = "Connection to Event Socket failed.";
+$text['message-event-socket']['vi-vn'] = 'Kết nối đến Event Socket thất bại.';
 $text['message-event-socket']['en-gb'] = "Connection to Event Socket failed.";
 $text['message-event-socket']['ar-eg'] = "فشل الإتّصال بالحصان";
 $text['message-event-socket']['de-at'] = "Verbindung zum Event Socket unterbrochen.";
@@ -244,6 +253,7 @@ $text['message-event-socket']['ja-jp'] = "イベントソケットへの接続�
 $text['message-event-socket']['ko-kr'] = "이벤트 소켓에 연결 실패.";
 
 $text['message-click-select']['en-us'] = "Double-Click to Select an Existing Category";
+$text['message-click-select']['vi-vn'] = 'Nhấp đúp để chọn danh mục hiện có';
 $text['message-click-select']['en-gb'] = "Double-Click to Select an Existing Category";
 $text['message-click-select']['ar-eg'] = "مضاعف من نوع كليك لاختيار فئة موجودة";
 $text['message-click-select']['de-at'] = "Doppelklicken Sie um eine existierende Kategorie auszuwählen";
@@ -271,6 +281,7 @@ $text['message-click-select']['ja-jp'] = "ダブルクリックして既存の�
 $text['message-click-select']['ko-kr'] = "기존 범주를 선택하려면 두 번 클릭";
 
 $text['label-upload-music_on_hold']['en-us'] = "Upload Music";
+$text['label-upload-music_on_hold']['vi-vn'] = 'Tải nhạc lên';
 $text['label-upload-music_on_hold']['en-gb'] = "Upload Music";
 $text['label-upload-music_on_hold']['ar-eg'] = "تحميل الموسيقى";
 $text['label-upload-music_on_hold']['de-at'] = "Musik hochladen";
@@ -298,6 +309,7 @@ $text['label-upload-music_on_hold']['ja-jp'] = "音楽をアップロードす�
 $text['label-upload-music_on_hold']['ko-kr'] = "음악 업로드";
 
 $text['label-tools']['en-us'] = "Tools";
+$text['label-tools']['vi-vn'] = 'Công cụ';
 $text['label-tools']['en-gb'] = "Tools";
 $text['label-tools']['ar-eg'] = "الأدوات";
 $text['label-tools']['de-at'] = "Funktionen";
@@ -325,6 +337,7 @@ $text['label-tools']['ja-jp'] = "ツール";
 $text['label-tools']['ko-kr'] = "도구";
 
 $text['label-stop']['en-us'] = "Stop";
+$text['label-stop']['vi-vn'] = 'Dừng';
 $text['label-stop']['en-gb'] = "Stop";
 $text['label-stop']['ar-eg'] = "توقف";
 $text['label-stop']['de-at'] = "Halt";
@@ -352,6 +365,7 @@ $text['label-stop']['ja-jp'] = "ストップ";
 $text['label-stop']['ko-kr'] = "멈추다";
 
 $text['label-stereo']['en-us'] = "Stereo";
+$text['label-stereo']['vi-vn'] = 'Stereo';
 $text['label-stereo']['en-gb'] = "Stereo";
 $text['label-stereo']['ar-eg'] = "stereo";
 $text['label-stereo']['de-at'] = "Stereo";
@@ -379,6 +393,7 @@ $text['label-stereo']['ja-jp'] = "ステレオ";
 $text['label-stereo']['ko-kr'] = "스테레오";
 
 $text['description-music_on_hold_name']['en-us'] = "A unique music on hold category name.";
+$text['description-music_on_hold_name']['vi-vn'] = 'Tên danh mục nhạc chờ duy nhất.';
 $text['description-music_on_hold_name']['en-gb'] = "A unique music on hold category name.";
 $text['description-music_on_hold_name']['ar-eg'] = "اسم فئة الموسيقى على الخط الخاص بك مميز.";
 $text['description-music_on_hold_name']['de-at'] = "Einzigartiger Name für eine Musik auf Halt Kategorie.";
@@ -406,6 +421,7 @@ $text['description-music_on_hold_name']['ja-jp'] = "音楽保留カテゴリの�
 $text['description-music_on_hold_name']['ko-kr'] = "음악 대기 카테고리의 독특한 이름.";
 
 $text['label-shuffle']['en-us'] = "Shuffle";
+$text['label-shuffle']['vi-vn'] = 'Phát ngẫu nhiên';
 $text['label-shuffle']['en-gb'] = "Shuffle";
 $text['label-shuffle']['ar-eg'] = "حلق";
 $text['label-shuffle']['de-at'] = "Shuffle";
@@ -433,6 +449,7 @@ $text['label-shuffle']['ja-jp'] = "シャッフル";
 $text['label-shuffle']['ko-kr'] = "혼합";
 
 $text['description-music_on_hold_shuffle']['en-us'] = "When true is selected the audio files will play in random order.";
+$text['description-music_on_hold_shuffle']['vi-vn'] = 'Khi chọn true, các tệp âm thanh sẽ phát theo thứ tự ngẫu nhiên.';
 $text['description-music_on_hold_shuffle']['en-gb'] = "When true is selected the audio files will play in random order.";
 $text['description-music_on_hold_shuffle']['ar-eg'] = "عندما يتم اختيار القيمة صحيح، سيموت الأغاني الصوتية في ترتيب عشوائي.";
 $text['description-music_on_hold_shuffle']['de-at'] = "Wenn true ausgewählt sind, werden die Audiodateien in zufälliger Reihenfolge abgespielt.";
@@ -460,6 +477,7 @@ $text['description-music_on_hold_shuffle']['ja-jp'] = "true が選択された�
 $text['description-music_on_hold_shuffle']['ko-kr'] = "true가 선택되면 음성 파일은 무작위 순서로 재생됩니다.";
 
 $text['label-select_a_file']['en-us'] = "Select a file...";
+$text['label-select_a_file']['vi-vn'] = 'Chọn tệp...';
 $text['label-select_a_file']['en-gb'] = "Select a file...";
 $text['label-select_a_file']['ar-eg'] = "اختيار ملف...";
 $text['label-select_a_file']['de-at'] = "Wählen Sie eine Datei ...";
@@ -487,6 +505,7 @@ $text['label-select_a_file']['ja-jp'] = "ファイルを選択してください
 $text['label-select_a_file']['ko-kr'] = "파일 선택...";
 
 $text['label-rate']['en-us'] = "Sampling";
+$text['label-rate']['vi-vn'] = 'Tần số lấy mẫu';
 $text['label-rate']['en-gb'] = "Sampling";
 $text['label-rate']['ar-eg'] = "عينات";
 $text['label-rate']['de-at'] = "Abtastrate";
@@ -514,6 +533,7 @@ $text['label-rate']['ja-jp'] = "サンプリング";
 $text['label-rate']['ko-kr'] = "견본 추출";
 
 $text['description-music_on_hold_rate']['en-us'] = "Select the sample rate. Options 8000, 16000, 32000, 48000 and default.";
+$text['description-music_on_hold_rate']['vi-vn'] = 'Chọn tần số lấy mẫu. Các tùy chọn: 8000, 16000, 32000, 48000 và mặc định.';
 $text['description-music_on_hold_rate']['en-gb'] = "Select the sample rate. Options 8000, 16000, 32000, 48000 and default";
 $text['description-music_on_hold_rate']['ar-eg'] = "اختر معدل العينة. الخيارات 8000، 16000، 32000، 48000 و 기본값.";
 $text['description-music_on_hold_rate']['de-at'] = "Wählen Sie die Abtastrate aus. Optionen: 8000, 16000, 32000, 48000 und Standard.";
@@ -541,6 +561,7 @@ $text['description-music_on_hold_rate']['ja-jp'] = "サンプルレートを選�
 $text['description-music_on_hold_rate']['ko-kr'] = "샘플링 레이트를 선택하세요. 옵션: 8000, 16000, 32000, 48000 및 기본값.";
 
 $text['label-play']['en-us'] = "Play";
+$text['label-play']['vi-vn'] = 'Phát';
 $text['label-play']['en-gb'] = "Play";
 $text['label-play']['ar-eg'] = "اللعب";
 $text['label-play']['de-at'] = "Play";
@@ -568,6 +589,7 @@ $text['label-play']['ja-jp'] = "遊ぶ";
 $text['label-play']['ko-kr'] = "놀다";
 
 $text['label-path']['en-us'] = "Path";
+$text['label-path']['vi-vn'] = 'Đường dẫn';
 $text['label-path']['en-gb'] = "Path";
 $text['label-path']['ar-eg'] = "الطريق";
 $text['label-path']['de-at'] = "Pfad";
@@ -595,6 +617,7 @@ $text['label-path']['ja-jp'] = "道";
 $text['label-path']['ko-kr'] = "길";
 
 $text['label-pause']['en-us'] = "Pause";
+$text['label-pause']['vi-vn'] = 'Tạm dừng';
 $text['label-pause']['en-gb'] = "Pause";
 $text['label-pause']['ar-eg'] = "وقف";
 $text['label-pause']['de-at'] = "Pause";
@@ -622,6 +645,7 @@ $text['label-pause']['ja-jp'] = "一時停止";
 $text['label-pause']['ko-kr'] = "정지시키다";
 
 $text['label-mono']['en-us'] = "Mono";
+$text['label-mono']['vi-vn'] = 'Mono';
 $text['label-mono']['en-gb'] = "Mono";
 $text['label-mono']['ar-eg'] = "احتكار واحد";
 $text['label-mono']['de-at'] = "Mono";
@@ -649,6 +673,7 @@ $text['label-mono']['ja-jp'] = "単核症";
 $text['label-mono']['ko-kr'] = "단핵증";
 
 $text['label-music_on_hold']['en-us'] = "Music on Hold";
+$text['label-music_on_hold']['vi-vn'] = 'Nhạc chờ';
 $text['label-music_on_hold']['en-gb'] = "Music on Hold";
 $text['label-music_on_hold']['ar-eg'] = "الموسيقى متوقفة";
 $text['label-music_on_hold']['de-at'] = "Wartemusik";
@@ -676,6 +701,7 @@ $text['label-music_on_hold']['ja-jp'] = "保留音";
 $text['label-music_on_hold']['ko-kr'] = "음악 보류";
 
 $text['label-location']['en-us'] = "Location";
+$text['label-location']['vi-vn'] = 'Vị trí';
 $text['label-location']['en-gb'] = "Location";
 $text['label-location']['ar-eg'] = "الموقع";
 $text['label-location']['de-at'] = "Standort";
@@ -703,6 +729,7 @@ $text['label-location']['ja-jp'] = "位置";
 $text['label-location']['ko-kr'] = "위치";
 
 $text['label-interval']['en-us'] = "Interval";
+$text['label-interval']['vi-vn'] = 'Khoảng thời gian';
 $text['label-interval']['en-gb'] = "Interval";
 $text['label-interval']['ar-eg'] = "الفترات الفاصلة";
 $text['label-interval']['de-at'] = "Intervall";
@@ -730,6 +757,7 @@ $text['label-interval']['ja-jp'] = "間隔";
 $text['label-interval']['ko-kr'] = "간격";
 
 $text['description-music_on_hold_interval']['en-us'] = "Set the interval to the number milliseconds between the sound files.";
+$text['description-music_on_hold_interval']['vi-vn'] = 'Đặt khoảng cách giữa các tệp âm thanh, tính bằng mili giây.';
 $text['description-music_on_hold_interval']['en-gb'] = "Set the interval to the number milliseconds between the sound files.";
 $text['description-music_on_hold_interval']['ar-eg'] = "حدد الفاصل الزمني بالعدد من ملي ثواني بين ملفات الصوت.";
 $text['description-music_on_hold_interval']['de-at'] = "Setze den Intervallwert auf die Anzahl Millisekunden zwischen den Audiodateien.";
@@ -757,6 +785,7 @@ $text['description-music_on_hold_interval']['ja-jp'] = "音声ファイル間の
 $text['description-music_on_hold_interval']['ko-kr'] = "음성 파일 간의 밀리초 수를 설정합니다.";
 
 $text['label-timer_name']['en-us'] = "Timer Name";
+$text['label-timer_name']['vi-vn'] = 'Tên timer';
 $text['label-timer_name']['en-gb'] = "Timer Name";
 $text['label-timer_name']['ar-eg'] = "اسم الوقت";
 $text['label-timer_name']['de-at'] = "Timer Name";
@@ -784,6 +813,7 @@ $text['label-timer_name']['ja-jp'] = "タイマー名";
 $text['label-timer_name']['ko-kr'] = "타이머 이름";
 
 $text['description-music_on_hold_timer_name']['en-us'] = "Set the timer name. Default: soft";
+$text['description-music_on_hold_timer_name']['vi-vn'] = 'Đặt tên timer. Mặc định: soft';
 $text['description-music_on_hold_timer_name']['en-gb'] = "Set the timer name. Default: soft";
 $text['description-music_on_hold_timer_name']['ar-eg'] = "حدد اسم التimer. القيمة الافتراضية: soft";
 $text['description-music_on_hold_timer_name']['de-at'] = "Setze den Timername. Standard: soft";
@@ -811,6 +841,7 @@ $text['description-music_on_hold_timer_name']['ja-jp'] = "タイマーネーム�
 $text['description-music_on_hold_timer_name']['ko-kr'] = "타이머 이름을 설정하세요. 기본값: soft";
 
 $text['label-global']['en-us'] = "Global";
+$text['label-global']['vi-vn'] = 'Toàn cục';
 $text['label-global']['en-gb'] = "Global";
 $text['label-global']['ar-eg'] = "عالمي";
 $text['label-global']['de-at'] = "Global";
@@ -838,6 +869,7 @@ $text['label-global']['ja-jp'] = "グローバル";
 $text['label-global']['ko-kr'] = "글로벌";
 
 $text['label-file_name']['en-us'] = "File Name";
+$text['label-file_name']['vi-vn'] = 'Tên file';
 $text['label-file_name']['en-gb'] = "File Name";
 $text['label-file_name']['ar-eg'] = "اسم الملف";
 $text['label-file_name']['de-at'] = "Dateiname";
@@ -865,6 +897,7 @@ $text['label-file_name']['ja-jp'] = "ファイル名";
 $text['label-file_name']['ko-kr'] = "파일 이름";
 
 $text['label-file-size']['en-us'] = "File Size";
+$text['label-file-size']['vi-vn'] = 'Kích thước file';
 $text['label-file-size']['en-gb'] = "File Size";
 $text['label-file-size']['ar-eg'] = "حجم الملفات";
 $text['label-file-size']['de-at'] = "Dateigröße";
@@ -892,6 +925,7 @@ $text['label-file-size']['ja-jp'] = "ファイルサイズ";
 $text['label-file-size']['ko-kr'] = "파일 크기";
 
 $text['label-file-path']['en-us'] = "File Path";
+$text['label-file-path']['vi-vn'] = 'Đường dẫn file';
 $text['label-file-path']['en-gb'] = "File Path";
 $text['label-file-path']['ar-eg'] = "طريق الملف";
 $text['label-file-path']['de-at'] = "Dateipfad";
@@ -919,6 +953,7 @@ $text['label-file-path']['ja-jp'] = "ファイルパス";
 $text['label-file-path']['ko-kr'] = "파일 경로";
 
 $text['description-music_on_hold_path']['en-us'] = "Set the path to the hold music files.";
+$text['description-music_on_hold_path']['vi-vn'] = 'Đặt đường dẫn đến các tệp nhạc chờ.';
 $text['description-music_on_hold_path']['en-gb'] = "Set the path to the hold music files.";
 $text['description-music_on_hold_path']['ar-eg'] = "حدد مسار الملفات الموسيقية على المكالمة.";
 $text['description-music_on_hold_path']['de-at'] = "Setze den Pfad zu den Wartemusikdateien.";
@@ -946,6 +981,7 @@ $text['description-music_on_hold_path']['ja-jp'] = "待ち音楽ファイルの�
 $text['description-music_on_hold_path']['ko-kr'] = "대기 음악 파일 경로 설정.";
 
 $text['label-download']['en-us'] = "Download";
+$text['label-download']['vi-vn'] = 'Tải xuống';
 $text['label-download']['en-gb'] = "Download";
 $text['label-download']['ar-eg'] = "تحميل";
 $text['label-download']['de-at'] = "Herunterladen";
@@ -973,6 +1009,7 @@ $text['label-download']['ja-jp'] = "ダウンロード";
 $text['label-download']['ko-kr'] = "다운로드";
 
 $text['label-domain']['en-us'] = "Domain";
+$text['label-domain']['vi-vn'] = 'Tên miền';
 $text['label-domain']['en-gb'] = "Domain";
 $text['label-domain']['ar-eg'] = "النطاق";
 $text['label-domain']['de-at'] = "Domäne";
@@ -1000,6 +1037,7 @@ $text['label-domain']['ja-jp'] = "ドメイン";
 $text['label-domain']['ko-kr'] = "도메인";
 
 $text['label-delete-category']['en-us'] = "Delete Category";
+$text['label-delete-category']['vi-vn'] = 'Xóa danh mục';
 $text['label-delete-category']['en-gb'] = "Delete Category";
 $text['label-delete-category']['ar-eg'] = "تحذف الفئة";
 $text['label-delete-category']['de-at'] = "Kategorie löschen";
@@ -1027,6 +1065,7 @@ $text['label-delete-category']['ja-jp'] = "カテゴリの削除";
 $text['label-delete-category']['ko-kr'] = "카테고리 삭제";
 
 $text['label-default']['en-us'] = "Default";
+$text['label-default']['vi-vn'] = 'Mặc định';
 $text['label-default']['en-gb'] = "Default";
 $text['label-default']['ar-eg'] = "التقصير";
 $text['label-default']['de-at'] = "Standard";
@@ -1054,6 +1093,7 @@ $text['label-default']['ja-jp'] = "デフォルト";
 $text['label-default']['ko-kr'] = "기본";
 
 $text['label-chime_maximum']['en-us'] = "Chime Maximum";
+$text['label-chime_maximum']['vi-vn'] = 'Số lần âm báo tối đa';
 $text['label-chime_maximum']['en-gb'] = "Chime Maximum";
 $text['label-chime_maximum']['ar-eg'] = "الحد الأقصى الدقات";
 $text['label-chime_maximum']['de-at'] = "Maximale Chimes";
@@ -1081,6 +1121,7 @@ $text['label-chime_maximum']['ja-jp'] = "チャイム最大値";
 $text['label-chime_maximum']['ko-kr'] = "차임 최대";
 
 $text['description-music_on_hold_chime_max']['en-us'] = "Enter the maximum number of time to play time chime.";
+$text['description-music_on_hold_chime_max']['vi-vn'] = 'Nhập số lần tối đa để phát âm báo thời gian.';
 $text['description-music_on_hold_chime_max']['en-gb'] = "Enter the maximum number of time to play time chime.";
 $text['description-music_on_hold_chime_max']['ar-eg'] = "أدخل العدد الأقصى للمرة التي يتم تشغيل فيها الصوت.";
 $text['description-music_on_hold_chime_max']['de-at'] = "Geben Sie den maximalen Wert an, um wie oft die Zeitton abgespielt werden soll.";
@@ -1108,6 +1149,7 @@ $text['description-music_on_hold_chime_max']['ja-jp'] = "待ち音の再生回�
 $text['description-music_on_hold_chime_max']['ko-kr'] = "대기음 재생 횟수를 최대로 입력해 주세요.";
 
 $text['label-chime_list']['en-us'] = "Chime File";
+$text['label-chime_list']['vi-vn'] = 'Tệp âm báo';
 $text['label-chime_list']['en-gb'] = "Chime File";
 $text['label-chime_list']['ar-eg'] = "الملف تتناغم";
 $text['label-chime_list']['de-at'] = "Chime Datei";
@@ -1135,6 +1177,7 @@ $text['label-chime_list']['ja-jp'] = "チャイムファイル";
 $text['label-chime_list']['ko-kr'] = "차임 파일";
 
 $text['description-music_on_hold_chime_list']['en-us'] = "Select the audio file to play periodically.";
+$text['description-music_on_hold_chime_list']['vi-vn'] = 'Chọn tệp âm thanh để phát định kỳ.';
 $text['description-music_on_hold_chime_list']['en-gb'] = "Select the audio file to play periodically.";
 $text['description-music_on_hold_chime_list']['ar-eg'] = "اختر ملف الصوت الذي تريد تشغيله بشكل منتظم.";
 $text['description-music_on_hold_chime_list']['de-at'] = "Wählen Sie das Audio-Datei aus, die periodisch abgespielt werden soll.";
@@ -1162,6 +1205,7 @@ $text['description-music_on_hold_chime_list']['ja-jp'] = "定期的に再生す�
 $text['description-music_on_hold_chime_list']['ko-kr'] = "주기적으로 재생할 음성 파일을 선택하세요.";
 
 $text['label-chime_frequency']['en-us'] = "Chime Frequency";
+$text['label-chime_frequency']['vi-vn'] = 'Tần suất âm báo';
 $text['label-chime_frequency']['en-gb'] = "Chime Frequency";
 $text['label-chime_frequency']['ar-eg'] = "تردد الرنين";
 $text['label-chime_frequency']['de-at'] = "Chime Frequenz";
@@ -1189,6 +1233,7 @@ $text['label-chime_frequency']['ja-jp'] = "煙の頻度";
 $text['label-chime_frequency']['ko-kr'] = "차임 주파수";
 
 $text['description-music_on_hold_chime_freq']['en-us'] = "Enter the number of seconds to wait until playing the chime.";
+$text['description-music_on_hold_chime_freq']['vi-vn'] = 'Nhập số giây chờ trước khi phát âm báo.';
 $text['description-music_on_hold_chime_freq']['en-gb'] = "Enter the number of seconds to wait until playing the chime.";
 $text['description-music_on_hold_chime_freq']['ar-eg'] = "أدخل عدد الثواني التي ترغب في انتظارها حتى يتم تشغيل النغمة.";
 $text['description-music_on_hold_chime_freq']['de-at'] = "Geben Sie die Anzahl der Sekunden an, die Sie warten möchten, bis die Melodie abgespielt wird.";
@@ -1216,6 +1261,7 @@ $text['description-music_on_hold_chime_freq']['ja-jp'] = "音を再生するま�
 $text['description-music_on_hold_chime_freq']['ko-kr'] = "음이 재생될 때까지 기다리는 시간을 입력하세요.";
 
 $text['label-channels']['en-us'] = "Channels";
+$text['label-channels']['vi-vn'] = 'Kênh';
 $text['label-channels']['en-gb'] = "Channels";
 $text['label-channels']['ar-eg'] = "قنوات";
 $text['label-channels']['de-at'] = "Kanäle";
@@ -1243,6 +1289,7 @@ $text['label-channels']['ja-jp'] = "チャンネル";
 $text['label-channels']['ko-kr'] = "채널";
 
 $text['description-music_on_hold_channels']['en-us'] = "Select the number of channels in the audio. Options: Mono, Stereo";
+$text['description-music_on_hold_channels']['vi-vn'] = 'Chọn số kênh trong âm thanh. Tùy chọn: Mono, Stereo';
 $text['description-music_on_hold_channels']['en-gb'] = "Select the number of channels in the audio. Options: Mono, Stereo";
 $text['description-music_on_hold_channels']['ar-eg'] = "اختر عدد القنوات في الصوت. الخيارات: مono، Stereo";
 $text['description-music_on_hold_channels']['de-at'] = "Wählen Sie die Anzahl der Kanäle im Audio. Optionen: Mono, Stereo";
@@ -1270,6 +1317,7 @@ $text['description-music_on_hold_channels']['ja-jp'] = "オーディオのチャ
 $text['description-music_on_hold_channels']['ko-kr'] = "오디오의 채널 수를 선택하세요. 옵션: Mono, Stereo";
 
 $text['header-music_on_hold_settings']['en-us'] = "Music on Hold Settings";
+$text['header-music_on_hold_settings']['vi-vn'] = 'Thiết lập nhạc chờ';
 $text['header-music_on_hold_settings']['en-gb'] = "Music on Hold Settings";
 $text['header-music_on_hold_settings']['ar-eg'] = 'الموسيقى في "هولد ستينغز"';
 $text['header-music_on_hold_settings']['de-at'] = "Wartemusik Einstellungen";
@@ -1297,6 +1345,7 @@ $text['header-music_on_hold_settings']['ja-jp'] = "保留音の設定";
 $text['header-music_on_hold_settings']['ko-kr'] = "대기 중인 음악 설정";
 
 $text['title_description-music_on_hold']['en-us'] = "Music on hold can be in WAV or MP3 format. For best performance upload 16 bit, 8/16/32/48 kHz <i>mono</i> WAV files.";
+$text['title_description-music_on_hold']['vi-vn'] = 'Nhạc chờ có thể ở định dạng WAV hoặc MP3. Để có hiệu năng tốt nhất, hãy tải lên tệp WAV <i>mono</i> 16 bit, 8/16/32/48 kHz.';
 $text['title_description-music_on_hold']['en-gb'] = "Music on hold can be in WAV or MP3 format. For best performance upload 16 bit, 8/16/32/48 kHz <i>mono</i> WAV files.";
 $text['title_description-music_on_hold']['ar-eg'] = "الموسيقى متوقفة يمكن أن تكون في شكل WAV أو MP3. لأفضل أداء تحميل 16 قليلا، 8/16/32/48 كيلوهرتز ملفات WAV.";
 $text['title_description-music_on_hold']['de-at'] = "Haltemusik können Dateien im WAV oder MP3 Format sein. Für beste Funktionalität laden Sie 16bit, 8/16/32/48 kHz mono WAV Dateien hoch.";
@@ -1324,6 +1373,7 @@ $text['title_description-music_on_hold']['ja-jp'] = "保留音は WAV または 
 $text['title_description-music_on_hold']['ko-kr'] = "대기 중인 음악은 WAV 또는 MP3 형식일 수 있습니다. 최상의 성능을 위해 16비트, 8/16/32/48kHz <i>모노</i> WAV 파일을 업로드하십시오.";
 
 $text['button-upload']['en-us'] = "Upload";
+$text['button-upload']['vi-vn'] = 'Tải lên';
 $text['button-upload']['en-gb'] = "Upload";
 $text['button-upload']['ar-eg'] = "تحميل";
 $text['button-upload']['de-at'] = "Hochladen";
@@ -1351,6 +1401,7 @@ $text['button-upload']['ja-jp'] = "アップロード";
 $text['button-upload']['ko-kr'] = "업로드";
 
 $text['button-clear']['en-us'] = "Clear";
+$text['button-clear']['vi-vn'] = 'Xóa';
 $text['button-clear']['en-gb'] = "Clear";
 $text['button-clear']['ar-eg'] = "آمن";
 $text['button-clear']['de-at'] = "Zurücksetzen";

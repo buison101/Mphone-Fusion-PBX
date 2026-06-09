@@ -1,6 +1,7 @@
 <?php
 
 $text['title-fifos']['en-us'] = "Queues";
+$text['title-fifos']['vi-vn'] = 'Hàng đợi';
 $text['title-fifos']['en-gb'] = "Queues";
 $text['title-fifos']['ar-eg'] = "الاستفسارات";
 $text['title-fifos']['de-at'] = "Warteschlangen";
@@ -28,6 +29,7 @@ $text['title-fifos']['ja-jp'] = "テイルス";
 $text['title-fifos']['ko-kr'] = "꼬리";
 
 $text['title-fifo']['en-us'] = "Queue";
+$text['title-fifo']['vi-vn'] = 'Hàng đợi';
 $text['title-fifo']['en-gb'] = "Queue";
 $text['title-fifo']['ar-eg'] = "طابور";
 $text['title-fifo']['de-at'] = "Warteschlange";
@@ -55,6 +57,7 @@ $text['title-fifo']['ja-jp'] = "列";
 $text['title-fifo']['ko-kr'] = "대기줄";
 
 $text['title_description-fifo']['en-us'] = "FIFO is a queue where calls are by default handled in the order they are received.";
+$text['title_description-fifo']['vi-vn'] = 'FIFO là hàng đợi mà mặc định cuộc gọi được xử lý theo thứ tự nhận vào.';
 $text['title_description-fifo']['en-gb'] = "FIFO is a queue where calls are by default handled in the order they are received.";
 $text['title_description-fifo']['ar-eg'] = "قائمة انتظار يتم فيها التعامل مع المكالمات افتراضيًا بالترتيب الذي تم تلقيها به.";
 $text['title_description-fifo']['de-at'] = "Eine Warteschlange, in der Anrufe standardmäßig in der Reihenfolge bearbeitet werden, in der sie eingehen.";
@@ -82,6 +85,7 @@ $text['title_description-fifo']['ja-jp'] = "デフォルトでは、通話が受
 $text['title_description-fifo']['ko-kr'] = "기본적으로 통화가 수신된 순서대로 처리되는 대기열입니다.";
 
 $text['label-fifo_name']['en-us'] = "Name";
+$text['label-fifo_name']['vi-vn'] = 'Tên';
 $text['label-fifo_name']['en-gb'] = "Name";
 $text['label-fifo_name']['ar-eg'] = "اسم";
 $text['label-fifo_name']['de-at'] = "Name";
@@ -109,6 +113,7 @@ $text['label-fifo_name']['ja-jp'] = "名前";
 $text['label-fifo_name']['ko-kr'] = "이름";
 
 $text['description-fifo_name']['en-us'] = "The name the queue will be assigned.";
+$text['description-fifo_name']['vi-vn'] = 'Tên sẽ được gán cho hàng đợi.';
 $text['description-fifo_name']['en-gb'] = "The name the queue will be assigned.";
 $text['description-fifo_name']['ar-eg'] = "الاسم الذي سيتم تعيينه لقائمة الانتظار.";
 $text['description-fifo_name']['de-at'] = "Der Name, der der Warteschlange zugewiesen wird.";
@@ -136,6 +141,7 @@ $text['description-fifo_name']['ja-jp'] = "キューに割り当てられる名�
 $text['description-fifo_name']['ko-kr'] = "대기열에 할당될 이름입니다.";
 
 $text['label-fifo']['en-us'] = "Queues";
+$text['label-fifo']['vi-vn'] = 'Hàng đợi';
 $text['label-fifo']['en-gb'] = "Queues";
 $text['label-fifo']['ar-eg'] = "الاستفسارات";
 $text['label-fifo']['de-at'] = "Warteschlangen";
@@ -163,6 +169,7 @@ $text['label-fifo']['ja-jp'] = "テイルス";
 $text['label-fifo']['ko-kr'] = "꼬리";
 
 $text['label-fifo_extension']['en-us'] = "Extension";
+$text['label-fifo_extension']['vi-vn'] = 'Máy nhánh';
 $text['label-fifo_extension']['en-gb'] = "Extension";
 $text['label-fifo_extension']['ar-eg'] = "امتداد";
 $text['label-fifo_extension']['de-at'] = "Verlängerung";
@@ -190,6 +197,7 @@ $text['label-fifo_extension']['ja-jp'] = "拡大";
 $text['label-fifo_extension']['ko-kr'] = "확대";
 
 $text['description-fifo_extension']['en-us'] = "The number that will be assigned to the queue.";
+$text['description-fifo_extension']['vi-vn'] = 'Số sẽ được gán cho hàng đợi.';
 $text['description-fifo_extension']['en-gb'] = "The number that will be assigned to the queue.";
 $text['description-fifo_extension']['ar-eg'] = "الرقم الذي سيتم تخصيصه لقائمة الانتظار.";
 $text['description-fifo_extension']['de-at'] = "Die Nummer, die der Warteschlange zugewiesen wird.";
@@ -217,6 +225,7 @@ $text['description-fifo_extension']['ja-jp'] = "キューに割り当てられ�
 $text['description-fifo_extension']['ko-kr'] = "대기열에 할당될 번호입니다.";
 
 $text['label-fifo_agent_status']['en-us'] = "Agent Status";
+$text['label-fifo_agent_status']['vi-vn'] = 'Trạng thái agent';
 $text['label-fifo_agent_status']['en-gb'] = "Agent Status";
 $text['label-fifo_agent_status']['ar-eg'] = "حالة الوكيل";
 $text['label-fifo_agent_status']['de-at'] = "Agentenstatus";
@@ -244,6 +253,7 @@ $text['label-fifo_agent_status']['ja-jp'] = "エージェントステータス";
 $text['label-fifo_agent_status']['ko-kr'] = "에이전트 상태";
 
 $text['description-fifo_agent_status']['en-us'] = "A feature code for the agent to login or logout of the Queue.";
+$text['description-fifo_agent_status']['vi-vn'] = 'Mã tính năng để agent đăng nhập hoặc đăng xuất khỏi hàng đợi.';
 $text['description-fifo_agent_status']['en-gb'] = "A feature code for the agent to login or logout of the Queue.";
 $text['description-fifo_agent_status']['ar-eg'] = "رمز ميزة للوكيل لتسجيل الدخول أو الخروج من قائمة الانتظار.";
 $text['description-fifo_agent_status']['de-at'] = "Ein Funktionscode für den Agenten zum Anmelden oder Abmelden bei der Warteschlange.";
@@ -271,6 +281,7 @@ $text['description-fifo_agent_status']['ja-jp'] = "エージェントがキュ�
 $text['description-fifo_agent_status']['ko-kr'] = "상담원이 대기열에 로그인하거나 로그아웃하기 위한 기능 코드입니다.";
 
 $text['label-fifo_agent_queue']['en-us'] = "Agent Queue";
+$text['label-fifo_agent_queue']['vi-vn'] = 'Hàng đợi agent';
 $text['label-fifo_agent_queue']['en-gb'] = "Agent Queue";
 $text['label-fifo_agent_queue']['ar-eg'] = "قائمة انتظار الوكيل";
 $text['label-fifo_agent_queue']['de-at'] = "Agentenwarteschlange";
@@ -298,6 +309,7 @@ $text['label-fifo_agent_queue']['ja-jp'] = "エージェントキュー";
 $text['label-fifo_agent_queue']['ko-kr'] = "에이전트 대기열";
 
 $text['description-fifo_agent_queue']['en-us'] = "A queue for agents to wait for a caller, or pick up a call that is waiting in the queue.";
+$text['description-fifo_agent_queue']['vi-vn'] = 'Hàng đợi để agent chờ người gọi, hoặc nhận cuộc gọi đang chờ trong hàng đợi.';
 $text['description-fifo_agent_queue']['en-gb'] = "A queue for agents to wait for a caller, or pick up a call that is waiting in the queue.";
 $text['description-fifo_agent_queue']['ar-eg'] = "قائمة انتظار للوكلاء لانتظار المتصل، أو الرد على مكالمة تنتظر في قائمة الانتظار.";
 $text['description-fifo_agent_queue']['de-at'] = "Eine Warteschlange für Agenten, um auf einen Anrufer zu warten oder einen in der Warteschlange wartenden Anruf entgegenzunehmen.";
@@ -325,6 +337,7 @@ $text['description-fifo_agent_queue']['ja-jp'] = "エージェントが発信者
 $text['description-fifo_agent_queue']['ko-kr'] = "상담원이 발신자를 기다리거나 대기열에 대기 중인 전화를 받기 위한 대기열입니다.";
 
 $text['label-strategy']['en-us'] = "Strategy";
+$text['label-strategy']['vi-vn'] = 'Chiến lược';
 $text['label-strategy']['en-gb'] = "Strategy";
 $text['label-strategy']['ar-eg'] = "الاستراتيجية";
 $text['label-strategy']['de-at'] = "Strategie";
@@ -352,6 +365,7 @@ $text['label-strategy']['ja-jp'] = "ストラテジー";
 $text['label-strategy']['ko-kr'] = "전략";
 
 $text['description-strategy']['en-us'] = "Select the ring strategy.";
+$text['description-strategy']['vi-vn'] = 'Chọn chiến lược đổ chuông.';
 $text['description-strategy']['en-gb'] = "Select the ring strategy.";
 $text['description-strategy']['ar-eg'] = "اختيار استراتيجية الخاتم.";
 $text['description-strategy']['de-at'] = "Wählen Sie eine Strategie.";
@@ -379,6 +393,7 @@ $text['description-strategy']['ja-jp'] = "リング戦略を選択します。";
 $text['description-strategy']['ko-kr'] = "링 전략을 선택합니다.";
 
 $text['message-strategy']['en-us'] = "Please provide: Strategy";
+$text['message-strategy']['vi-vn'] = 'Vui lòng cung cấp: Chiến lược';
 $text['message-strategy']['en-gb'] = "Please provide: Strategy";
 $text['message-strategy']['ar-eg'] = "يرجى تقديم ما يلي: الاستراتيجية";
 $text['message-strategy']['de-at'] = "Bitte geben Sie folgendes an: Strategie";
@@ -406,6 +421,7 @@ $text['message-strategy']['ja-jp'] = "提供してください: 戦略";
 $text['message-strategy']['ko-kr'] = "제공하십시오: 전략";
 
 $text['label-fifo_members']['en-us'] = "Agents";
+$text['label-fifo_members']['vi-vn'] = 'Agent';
 $text['label-fifo_members']['en-gb'] = "Agents";
 $text['label-fifo_members']['ar-eg'] = "عملاء";
 $text['label-fifo_members']['de-at'] = "Agenten";
@@ -432,6 +448,7 @@ $text['label-fifo_members']['ja-jp'] = "エージェント";
 $text['label-fifo_members']['ko-kr'] = "자치령 대표";
 
 $text['description-fifo_members']['en-us'] = "Agents are members of a queue. Calls in the queue are distributed to available agents.";
+$text['description-fifo_members']['vi-vn'] = 'Agent là thành viên của hàng đợi. Cuộc gọi trong hàng đợi được phân phối đến các agent đang sẵn sàng.';
 $text['description-fifo_members']['en-gb'] = "Agents are members of a queue. Calls in the queue are distributed to available agents.";
 $text['description-fifo_members']['ar-eg'] = "الوكلاء هم أعضاء في قائمة انتظار. يتم توزيع المكالمات في قائمة الانتظار على الوكلاء المتاحين.";
 $text['description-fifo_members']['de-at'] = "Agenten sind Mitglieder einer Warteschlange. Anrufe in der Warteschlange werden an verfügbare Agenten verteilt.";
@@ -460,6 +477,7 @@ $text['description-fifo_members']['ko-kr'] = "에이전트는 대기열의 멤�
 
 
 $text['label-fifo_music']['en-us'] = "Music";
+$text['label-fifo_music']['vi-vn'] = 'Nhạc';
 $text['label-fifo_music']['en-gb'] = "Music";
 $text['label-fifo_music']['ar-eg'] = "موسيقى";
 $text['label-fifo_music']['de-at'] = "Musik";
@@ -487,6 +505,7 @@ $text['label-fifo_music']['ja-jp'] = "音楽";
 $text['label-fifo_music']['ko-kr'] = "음악";
 
 $text['description-fifo_music']['en-us'] = "Select the hold music for those to hear while waiting in the Queue.";
+$text['description-fifo_music']['vi-vn'] = 'Chọn nhạc chờ để người gọi nghe trong khi chờ trong hàng đợi.';
 $text['description-fifo_music']['en-gb'] = "Select the hold music for those to hear while waiting in the Queue.";
 $text['description-fifo_music']['ar-eg'] = "حدد الموسيقى المعلقة ليسمعها الأشخاص أثناء الانتظار في قائمة الانتظار.";
 $text['description-fifo_music']['de-at'] = "Wählen Sie die Wartemusik aus, die die Teilnehmer hören möchten, während sie in der Warteschlange warten.";
@@ -514,6 +533,7 @@ $text['description-fifo_music']['ja-jp'] = "キューで待機中に聞く保留
 $text['description-fifo_music']['ko-kr'] = "대기열에서 기다리는 동안 들을 수 있는 대기 음악을 선택하세요.";
 
 $text['label-fifo_timeout_seconds']['en-us'] = 'Timeout';
+$text['label-fifo_timeout_seconds']['vi-vn'] = 'Thời gian chờ';
 $text['label-fifo_timeout_seconds']['en-gb'] = 'Timeout';
 $text['label-fifo_timeout_seconds']['ar-eg'] = '';
 $text['label-fifo_timeout_seconds']['de-at'] = '';
@@ -540,6 +560,7 @@ $text['label-fifo_timeout_seconds']['ja-jp'] = '';
 $text['label-fifo_timeout_seconds']['ko-kr'] = '';
 
 $text['description-fifo_timeout_seconds']['en-us'] = 'Enter the queue timeout seconds. 0 means no queue timeout.';
+$text['description-fifo_timeout_seconds']['vi-vn'] = 'Nhập số giây timeout của hàng đợi. 0 nghĩa là không timeout.';
 $text['description-fifo_timeout_seconds']['en-gb'] = 'Enter the queue timeout seconds. 0 means no queue timeout.';
 $text['description-fifo_timeout_seconds']['ar-eg'] = '';
 $text['description-fifo_timeout_seconds']['de-at'] = '';
@@ -566,6 +587,7 @@ $text['description-fifo_timeout_seconds']['ja-jp'] = '';
 $text['description-fifo_timeout_seconds']['ko-kr'] = '';
 
 $text['label-fifo_exit_key']['en-us'] = 'Exit Key';
+$text['label-fifo_exit_key']['vi-vn'] = 'Phím thoát';
 $text['label-fifo_exit_key']['en-gb'] = 'Exit Key';
 $text['label-fifo_exit_key']['ar-eg'] = '';
 $text['label-fifo_exit_key']['de-at'] = '';
@@ -592,6 +614,7 @@ $text['label-fifo_exit_key']['ja-jp'] = '';
 $text['label-fifo_exit_key']['ko-kr'] = '';
 
 $text['description-fifo_exit_key']['en-us'] = 'Enter the number to exit the queue.';
+$text['description-fifo_exit_key']['vi-vn'] = 'Nhập số để thoát khỏi hàng đợi.';
 $text['description-fifo_exit_key']['en-gb'] = 'Enter the number to exit the queue.';
 $text['description-fifo_exit_key']['ar-eg'] = '';
 $text['description-fifo_exit_key']['de-at'] = '';
@@ -618,6 +641,7 @@ $text['description-fifo_exit_key']['ja-jp'] = '';
 $text['description-fifo_exit_key']['ko-kr'] = '';
 
 $text['label-fifo_exit_action']['en-us'] = 'Exit Action';
+$text['label-fifo_exit_action']['vi-vn'] = 'Hành động thoát';
 $text['label-fifo_exit_action']['en-gb'] = 'Exit Action';
 $text['label-fifo_exit_action']['ar-eg'] = '';
 $text['label-fifo_exit_action']['de-at'] = '';
@@ -644,6 +668,7 @@ $text['label-fifo_exit_action']['ja-jp'] = '';
 $text['label-fifo_exit_action']['ko-kr'] = '';
 
 $text['description-fifo_exit_action']['en-us'] = 'Select where to route the caller when exiting the queue.';
+$text['description-fifo_exit_action']['vi-vn'] = 'Chọn nơi định tuyến người gọi khi thoát khỏi hàng đợi.';
 $text['description-fifo_exit_action']['en-gb'] = 'Select where to route the caller when exiting the queue.';
 $text['description-fifo_exit_action']['ar-eg'] = '';
 $text['description-fifo_exit_action']['de-at'] = '';
@@ -670,6 +695,7 @@ $text['description-fifo_exit_action']['ja-jp'] = '';
 $text['description-fifo_exit_action']['ko-kr'] = '';
 
 $text['label-fifo_order']['en-us'] = "Order";
+$text['label-fifo_order']['vi-vn'] = 'Thứ tự';
 $text['label-fifo_order']['en-gb'] = "Order";
 $text['label-fifo_order']['ar-eg'] = "طلب";
 $text['label-fifo_order']['de-at'] = "Befehl";
@@ -697,6 +723,7 @@ $text['label-fifo_order']['ja-jp'] = "注文";
 $text['label-fifo_order']['ko-kr'] = "주문하다";
 
 $text['description-fifo_order']['en-us'] = "Select the order.";
+$text['description-fifo_order']['vi-vn'] = 'Chọn thứ tự.';
 $text['description-fifo_order']['en-gb'] = "Select the order.";
 $text['description-fifo_order']['ar-eg'] = "حدد الطلب.";
 $text['description-fifo_order']['de-at'] = "Wählen Sie die Bestellung aus.";
@@ -724,6 +751,7 @@ $text['description-fifo_order']['ja-jp'] = "注文を選択してください。
 $text['description-fifo_order']['ko-kr'] = "주문을 선택하세요.";
 
 $text['label-fifo_enabled']['en-us'] = "Enabled";
+$text['label-fifo_enabled']['vi-vn'] = 'Đã bật';
 $text['label-fifo_enabled']['en-gb'] = "Enabled";
 $text['label-fifo_enabled']['ar-eg'] = "ممكّن";
 $text['label-fifo_enabled']['de-at'] = "Ermöglicht";
@@ -751,6 +779,7 @@ $text['label-fifo_enabled']['ja-jp'] = "有効";
 $text['label-fifo_enabled']['ko-kr'] = "활성화됨";
 
 $text['description-fifo_enabled']['en-us'] = "Enable or disable this FIFO queue.";
+$text['description-fifo_enabled']['vi-vn'] = 'Bật hoặc tắt hàng đợi FIFO này.';
 $text['description-fifo_enabled']['en-gb'] = "Enable or disable this FIFO queue.";
 $text['description-fifo_enabled']['ar-eg'] = "تمكين أو تعطيل قائمة الانتظار هذه.";
 $text['description-fifo_enabled']['de-at'] = "Aktivieren oder deaktivieren Sie diese Warteschlange.";
@@ -778,6 +807,7 @@ $text['description-fifo_enabled']['ja-jp'] = "このキューを有効または�
 $text['description-fifo_enabled']['ko-kr'] = "이 대기열을 활성화하거나 비활성화합니다.";
 
 $text['label-fifo_description']['en-us'] = "Description";
+$text['label-fifo_description']['vi-vn'] = 'Mô tả';
 $text['label-fifo_description']['en-gb'] = "Description";
 $text['label-fifo_description']['ar-eg'] = "وصف";
 $text['label-fifo_description']['de-at'] = "Beschreibung";
@@ -805,6 +835,7 @@ $text['label-fifo_description']['ja-jp'] = "説明";
 $text['label-fifo_description']['ko-kr'] = "설명";
 
 $text['description-fifo_description']['en-us'] = "Enter the fifo description.";
+$text['description-fifo_description']['vi-vn'] = 'Nhập mô tả FIFO.';
 $text['description-fifo_description']['en-gb'] = "Enter the fifo description.";
 $text['description-fifo_description']['ar-eg'] = "أدخل وصف قائمة الانتظار.";
 $text['description-fifo_description']['de-at'] = "Geben Sie die Warteschlangenbeschreibung ein.";
@@ -832,6 +863,7 @@ $text['description-fifo_description']['ja-jp'] = "キューの説明を入力し
 $text['description-fifo_description']['ko-kr'] = "대기열 설명을 입력합니다.";
 
 $text['label-member_contact']['en-us'] = "Contact";
+$text['label-member_contact']['vi-vn'] = 'Liên hệ';
 $text['label-member_contact']['en-gb'] = "Contact";
 $text['label-member_contact']['ar-eg'] = "اتصال";
 $text['label-member_contact']['de-at'] = "Kontakt";
@@ -859,6 +891,7 @@ $text['label-member_contact']['ja-jp'] = "接触";
 $text['label-member_contact']['ko-kr'] = "연락하다";
 
 $text['description-member_contact']['en-us'] = "Enter the member contact.";
+$text['description-member_contact']['vi-vn'] = 'Nhập liên hệ của thành viên.';
 $text['description-member_contact']['en-gb'] = "Enter the member contact.";
 $text['description-member_contact']['ar-eg'] = "أدخل جهة اتصال العضو.";
 $text['description-member_contact']['de-at'] = "Geben Sie den Mitgliedskontakt ein.";
@@ -886,6 +919,7 @@ $text['description-member_contact']['ja-jp'] = "メンバーの連絡先を入�
 $text['description-member_contact']['ko-kr'] = "회원연락처를 입력하세요.";
 
 $text['label-member_call_timeout']['en-us'] = "Call Timeout";
+$text['label-member_call_timeout']['vi-vn'] = 'Thời gian chờ cuộc gọi';
 $text['label-member_call_timeout']['en-gb'] = "Call Timeout";
 $text['label-member_call_timeout']['ar-eg'] = "مهلة المكالمة";
 $text['label-member_call_timeout']['de-at'] = "Anruf-Timeout";
@@ -913,6 +947,7 @@ $text['label-member_call_timeout']['ja-jp'] = "通話タイムアウト";
 $text['label-member_call_timeout']['ko-kr'] = "통화 시간 초과";
 
 $text['description-member_call_timeout']['en-us'] = "Enter the member call timeout.";
+$text['description-member_call_timeout']['vi-vn'] = 'Nhập timeout cuộc gọi của thành viên.';
 $text['description-member_call_timeout']['en-gb'] = "Enter the member call timeout.";
 $text['description-member_call_timeout']['ar-eg'] = "أدخل مهلة مكالمة العضو.";
 $text['description-member_call_timeout']['de-at'] = "Geben Sie das Timeout für Mitgliedsanrufe ein.";
@@ -940,6 +975,7 @@ $text['description-member_call_timeout']['ja-jp'] = "メンバー呼び出しの
 $text['description-member_call_timeout']['ko-kr'] = "회원 통화 시간 초과를 입력하세요.";
 
 $text['label-member_simultaneous']['en-us'] = "Simultaneous";
+$text['label-member_simultaneous']['vi-vn'] = 'Đồng thời';
 $text['label-member_simultaneous']['en-gb'] = "Simultaneous";
 $text['label-member_simultaneous']['ar-eg'] = "متزامنة";
 $text['label-member_simultaneous']['de-at'] = "Gleichzeitig";
@@ -967,6 +1003,7 @@ $text['label-member_simultaneous']['ja-jp'] = "同時";
 $text['label-member_simultaneous']['ko-kr'] = "동시";
 
 $text['description-member_simultaneous']['en-us'] = "Enter the member simultaneous.";
+$text['description-member_simultaneous']['vi-vn'] = 'Nhập số đồng thời của thành viên.';
 $text['description-member_simultaneous']['en-gb'] = "Enter the member simultaneous.";
 $text['description-member_simultaneous']['ar-eg'] = "أدخل العضو في وقت واحد.";
 $text['description-member_simultaneous']['de-at'] = "Geben Sie das Mitglied gleichzeitig ein.";
@@ -994,6 +1031,7 @@ $text['description-member_simultaneous']['ja-jp'] = "メンバー同時入力。
 $text['description-member_simultaneous']['ko-kr'] = "회원을 동시 입력하세요.";
 
 $text['option-longest_idle_agent']['en-us'] = "Longest Idle Agent";
+$text['option-longest_idle_agent']['vi-vn'] = 'Agent rảnh lâu nhất';
 $text['option-longest_idle_agent']['en-gb'] = "Longest Idle Agent";
 $text['option-longest_idle_agent']['ar-eg'] = "أطول عامل خامل";
 $text['option-longest_idle_agent']['de-at'] = "Agent mit der höchsten Wartezeit";
@@ -1020,6 +1058,7 @@ $text['option-longest_idle_agent']['ja-jp'] = "最長アイドル エージェ�
 $text['option-longest_idle_agent']['ko-kr'] = "가장 긴 유휴 에이전트";
 
 $text['option-simultaneous']['en-us'] = "Simultaneous";
+$text['option-simultaneous']['vi-vn'] = 'Đồng thời';
 $text['option-simultaneous']['en-gb'] = "Simultaneous";
 $text['option-simultaneous']['ar-eg'] = "بسيطة";
 $text['option-simultaneous']['de-at'] = "gleichzeitig";
@@ -1047,6 +1086,7 @@ $text['option-simultaneous']['ja-jp'] = "同時に";
 $text['option-simultaneous']['ko-kr'] = "동시";
 
 $text['label-member_wrap_up_time']['en-us'] = "Wrap Up Time";
+$text['label-member_wrap_up_time']['vi-vn'] = 'Thời gian xử lý sau cuộc gọi';
 $text['label-member_wrap_up_time']['en-gb'] = "Wrap Up Time";
 $text['label-member_wrap_up_time']['ar-eg'] = "وقت الختام";
 $text['label-member_wrap_up_time']['de-at'] = "Abschlusszeit";
@@ -1074,6 +1114,7 @@ $text['label-member_wrap_up_time']['ja-jp'] = "まとめの時間";
 $text['label-member_wrap_up_time']['ko-kr'] = "마무리 시간";
 
 $text['description-member_wrap_up_time']['en-us'] = "Enter the member wrap up time.";
+$text['description-member_wrap_up_time']['vi-vn'] = 'Nhập thời gian xử lý sau cuộc gọi của thành viên.';
 $text['description-member_wrap_up_time']['en-gb'] = "Enter the member wrap up time.";
 $text['description-member_wrap_up_time']['ar-eg'] = "أدخل وقت اختتام العضو.";
 $text['description-member_wrap_up_time']['de-at'] = "Geben Sie die Abschlusszeit des Mitglieds ein.";
@@ -1101,6 +1142,7 @@ $text['description-member_wrap_up_time']['ja-jp'] = "メンバーの終了時間
 $text['description-member_wrap_up_time']['ko-kr'] = "회원의 마무리 시간을 입력하세요.";
 
 $text['label-member_enabled']['en-us'] = "Enabled";
+$text['label-member_enabled']['vi-vn'] = 'Đã bật';
 $text['label-member_enabled']['en-gb'] = "Enabled";
 $text['label-member_enabled']['ar-eg'] = "ممكّن";
 $text['label-member_enabled']['de-at'] = "Ermöglicht";
@@ -1128,6 +1170,7 @@ $text['label-member_enabled']['ja-jp'] = "有効";
 $text['label-member_enabled']['ko-kr'] = "활성화됨";
 
 $text['description-agents']['en-us'] = "Select the agent, set the call timeout, wrap up time, and enabled.";
+$text['description-agents']['vi-vn'] = 'Chọn agent, đặt timeout cuộc gọi, thời gian xử lý sau cuộc gọi và trạng thái bật/tắt.';
 $text['description-agents']['en-gb'] = "Select the agent, set the call timeout, wrap up time, and enabled.";
 $text['description-agents']['ar-eg'] = "حدد وكيل التحول، و 설정 الدخول، و الزمن المحدد، و التفعيل.";
 $text['description-agents']['de-at'] = "Wählen Sie den Agenten, stellen Sie die Anruferwartungszeit, die Abschlusszeit und den Status ein.";

@@ -1,6 +1,7 @@
 <?php
 
 $text['title-conference_centers']['en-us'] = "Conference Centers";
+$text['title-conference_centers']['vi-vn'] = 'Conference Center';
 $text['title-conference_centers']['en-gb'] = "Conference Centers";
 $text['title-conference_centers']['ar-eg'] = "مراكز المؤتمرات";
 $text['title-conference_centers']['de-at'] = "Konferenz Zentralen";
@@ -27,6 +28,7 @@ $text['title-conference_centers']['ja-jp'] = "会議センター";
 $text['title-conference_centers']['ko-kr'] = "컨퍼런스 센터";
 
 $text['title-conference_center']['en-us'] = "Conference Center";
+$text['title-conference_center']['vi-vn'] = 'Conference Center';
 $text['title-conference_center']['en-gb'] = "Conference Center";
 $text['title-conference_center']['ar-eg'] = "مركز المؤتمرات";
 $text['title-conference_center']['de-at'] = "Konferenz Zentrale";
@@ -53,6 +55,7 @@ $text['title-conference_center']['ja-jp'] = "会議センター";
 $text['title-conference_center']['ko-kr'] = "컨퍼런스 센터";
 
 $text['title_description-conference_centers']['en-us'] = "Conference Centers are a group of conference rooms. They can be organized by cost center, geographically, or other criteria.";
+$text['title_description-conference_centers']['vi-vn'] = 'Conference Center là nhóm các phòng hội nghị. Có thể tổ chức theo trung tâm chi phí, vị trí địa lý hoặc tiêu chí khác.';
 $text['title_description-conference_centers']['en-gb'] = "Conference Centers are a group of conference rooms. They can be organized by cost center, geographically, or other criteria.";
 $text['title_description-conference_centers']['ar-eg'] = "مراكز المؤتمرات هي مجموعة من غرف المؤتمرات. يمكن تنظيمها حسب مركز التكلفة أو جغرافيًا أو معايير أخرى.";
 $text['title_description-conference_centers']['de-at'] = "Konferenz-Zentralen sind Gruppen mehrerer Konferenzräume. Diese können anhand diverser Kriterien organisiert werden.";
@@ -79,6 +82,7 @@ $text['title_description-conference_centers']['ja-jp'] = "カンファレンス�
 $text['title_description-conference_centers']['ko-kr'] = "컨퍼런스 센터는 회의실의 그룹입니다. 해당 이용 후기에 달린 코멘트가 없습니다.";
 
 $text['title_description-conference_rooms']['en-us'] = "Conference Rooms are individual meeting places within a Conference Center.";
+$text['title_description-conference_rooms']['vi-vn'] = 'Phòng hội nghị là từng nơi họp riêng trong một Conference Center.';
 $text['title_description-conference_rooms']['en-gb'] = "Conference Rooms are individual meeting places within a Conference Center.";
 $text['title_description-conference_rooms']['ar-eg'] = "غرف المؤتمرات هي أماكن اجتماعات فردية داخل مركز المؤتمرات.";
 $text['title_description-conference_rooms']['de-at'] = "Konferenzräume sind individuelle Treffpunkte innerhalb eines Konferenzzentrums.";
@@ -105,6 +109,7 @@ $text['title_description-conference_rooms']['ja-jp'] = "カンファレンスル
 $text['title_description-conference_rooms']['ko-kr'] = "컨퍼런스룸은 회의장 내에서 개별 회의 장소입니다.";
 
 $text['label-conference_center_name']['en-us'] = "Name";
+$text['label-conference_center_name']['vi-vn'] = 'Tên';
 $text['label-conference_center_name']['en-gb'] = "Name";
 $text['label-conference_center_name']['ar-eg'] = "اسم";
 $text['label-conference_center_name']['de-at'] = "Name";
@@ -131,6 +136,7 @@ $text['label-conference_center_name']['ja-jp'] = "お名前";
 $text['label-conference_center_name']['ko-kr'] = "이름";
 
 $text['description-conference_center_name']['en-us'] = "Enter the conference center name.";
+$text['description-conference_center_name']['vi-vn'] = 'Nhập tên Conference Center.';
 $text['description-conference_center_name']['en-gb'] = "Enter the conference center name.";
 $text['description-conference_center_name']['ar-eg'] = "أدخل اسم مركز المؤتمرات.";
 $text['description-conference_center_name']['de-at'] = "Geben Sie den Namen der Konferenz-Zentrale an.";
@@ -157,6 +163,7 @@ $text['description-conference_center_name']['ja-jp'] = "会議センター名を
 $text['description-conference_center_name']['ko-kr'] = "회의 센터 이름을 입력하십시오.";
 
 $text['label-conference_center_extension']['en-us'] = "Extension";
+$text['label-conference_center_extension']['vi-vn'] = 'Máy nhánh';
 $text['label-conference_center_extension']['en-gb'] = "Extension";
 $text['label-conference_center_extension']['ar-eg'] = "امتداد";
 $text['label-conference_center_extension']['de-at'] = "Nebenstelle";
@@ -183,6 +190,7 @@ $text['label-conference_center_extension']['ja-jp'] = "エクステンション"
 $text['label-conference_center_extension']['ko-kr'] = "제품 정보";
 
 $text['description-conference_center_extension']['en-us'] = "Enter the conference center extension number.";
+$text['description-conference_center_extension']['vi-vn'] = 'Nhập số máy nhánh của Conference Center.';
 $text['description-conference_center_extension']['en-gb'] = "Enter the conference center extension number.";
 $text['description-conference_center_extension']['ar-eg'] = "أدخل الرقم الداخلي لمركز المؤتمرات.";
 $text['description-conference_center_extension']['de-at'] = "Geben Sie eine Nebenstelle für die Konferenz-Zentrale an.";
@@ -209,6 +217,7 @@ $text['description-conference_center_extension']['ja-jp'] = "会議センター�
 $text['description-conference_center_extension']['ko-kr'] = "회의 센터 확장 번호를 입력하십시오.";
 
 $text['label-conference_center_pin_length']['en-us'] = "PIN Length";
+$text['label-conference_center_pin_length']['vi-vn'] = 'Độ dài PIN';
 $text['label-conference_center_pin_length']['en-gb'] = "PIN Length";
 $text['label-conference_center_pin_length']['ar-eg'] = "طول PIN";
 $text['label-conference_center_pin_length']['de-at'] = "PIN länge";
@@ -235,6 +244,7 @@ $text['label-conference_center_pin_length']['ja-jp'] = "PINの長さ";
 $text['label-conference_center_pin_length']['ko-kr'] = "PIN 길이";
 
 $text['description-conference_center_pin_length']['en-us'] = "Enter the minimum PIN length.";
+$text['description-conference_center_pin_length']['vi-vn'] = 'Nhập độ dài PIN tối thiểu.';
 $text['description-conference_center_pin_length']['en-gb'] = "Enter the minimum PIN length.";
 $text['description-conference_center_pin_length']['ar-eg'] = "أدخل الحد الأدنى لطول PIN.";
 $text['description-conference_center_pin_length']['de-at'] = "Geben sie die minimale PIN länge an.";
@@ -261,6 +271,7 @@ $text['description-conference_center_pin_length']['ja-jp'] = "最小PIN番号を
 $text['description-conference_center_pin_length']['ko-kr'] = "최소 PIN 길이를 입력합니다.";
 
 $text['message-conference_center_required']['en-us'] = "Conference Center Required";
+$text['message-conference_center_required']['vi-vn'] = 'Cần có Conference Center';
 $text['message-conference_center_required']['en-gb'] = "Conference Center Required";
 $text['message-conference_center_required']['ar-eg'] = "مركز المؤتمرات مطلوب";
 $text['message-conference_center_required']['de-at'] = "Konferenzzentrum erforderlich";
@@ -287,6 +298,7 @@ $text['message-conference_center_required']['ja-jp'] = "会議センターが必
 $text['message-conference_center_required']['ko-kr'] = "회의 센터가 필요합니다";
 
 $text['label-email_address']['en-us'] = "Email Address";
+$text['label-email_address']['vi-vn'] = 'Địa chỉ email';
 $text['label-email_address']['en-gb'] = "Email Address";
 $text['label-email_address']['ar-eg'] = "البريد الإليكتروني";
 $text['label-email_address']['de-at'] = "E-Mail-Adresse";
@@ -313,6 +325,7 @@ $text['label-email_address']['ja-jp'] = "メールアドレス";
 $text['label-email_address']['ko-kr'] = "이메일 주소";
 
 $text['description-email_address']['en-us'] = "Optional conference email address.";
+$text['description-email_address']['vi-vn'] = 'Địa chỉ email hội nghị tùy chọn.';
 $text['description-email_address']['en-gb'] = "Optional conference email address.";
 $text['description-email_address']['ar-eg'] = "البريد عنوان البريد الإلكتروني الاختياري للمؤتمر.";
 $text['description-email_address']['de-at'] = "Optionale Konferenz-E-Mail-Adresse.";
@@ -339,6 +352,7 @@ $text['description-email_address']['ja-jp'] = "オプションの会議メール
 $text['description-email_address']['ko-kr'] = "선택 회의 이메일 주소.";
 
 $text['label-conference_center_greeting']['en-us'] = "Greeting";
+$text['label-conference_center_greeting']['vi-vn'] = 'Lời chào';
 $text['label-conference_center_greeting']['en-gb'] = "Greeting";
 $text['label-conference_center_greeting']['ar-eg'] = "تحية";
 $text['label-conference_center_greeting']['de-at'] = "Begrüßung";
@@ -365,6 +379,7 @@ $text['label-conference_center_greeting']['ja-jp'] = "お問い合わせ";
 $text['label-conference_center_greeting']['ko-kr'] = "주요연혁";
 
 $text['description-conference_center_greeting']['en-us'] = "Select the greeting that is played before joining the conference room. Note: No PIN prompt will be played.";
+$text['description-conference_center_greeting']['vi-vn'] = 'Chọn lời chào phát trước khi tham gia phòng hội nghị. Lưu ý: sẽ không phát lời nhắc nhập PIN.';
 $text['description-conference_center_greeting']['en-gb'] = "Select the greeting that is played before joining the conference room. Note: No PIN prompt will be played.";
 $text['description-conference_center_greeting']['ar-eg'] = "حدد التحية التي يتم تشغيلها قبل الانضمام إلى غرفة المؤتمرات. ملاحظة: لن يتم تشغيل مطالبة PIN.";
 $text['description-conference_center_greeting']['de-at'] = "Wählen Sie die Begrüßung für den Konferenzraum.";
@@ -391,6 +406,7 @@ $text['description-conference_center_greeting']['ja-jp'] = "会議室に参加�
 $text['description-conference_center_greeting']['ko-kr'] = "회의실에 가입하기 전에 재생되는 인사를 선택하십시오. 참고 : PIN 프롬프트가 재생되지 않습니다.";
 
 $text['label-account_code']['en-us'] = "Account Code";
+$text['label-account_code']['vi-vn'] = 'Mã tài khoản';
 $text['label-account_code']['en-gb'] = "Account Code";
 $text['label-account_code']['ar-eg'] = "رمز الحساب";
 $text['label-account_code']['de-at'] = "Kontoschlüssel";
@@ -417,6 +433,7 @@ $text['label-account_code']['ja-jp'] = "アカウントコード";
 $text['label-account_code']['ko-kr'] = "계정 코드";
 
 $text['description-account_code']['en-us'] = "Enter the account code here.";
+$text['description-account_code']['vi-vn'] = 'Nhập mã tài khoản tại đây.';
 $text['description-account_code']['en-gb'] = "Enter the account code here.";
 $text['description-account_code']['ar-eg'] = "أدخل رمز الحساب هنا.";
 $text['description-account_code']['de-at'] = "Geben Sie den Account Code hier an.";
@@ -443,6 +460,7 @@ $text['description-account_code']['ja-jp'] = "アカウントコードを入力�
 $text['description-account_code']['ko-kr'] = "계정 코드를 입력하세요.";
 
 $text['label-conference_center_enabled']['en-us'] = "Enabled";
+$text['label-conference_center_enabled']['vi-vn'] = 'Đã bật';
 $text['label-conference_center_enabled']['en-gb'] = "Enabled";
 $text['label-conference_center_enabled']['ar-eg'] = "ممكن";
 $text['label-conference_center_enabled']['de-at'] = "An";
@@ -469,6 +487,7 @@ $text['label-conference_center_enabled']['ja-jp'] = "有効化";
 $text['label-conference_center_enabled']['ko-kr'] = "이름";
 
 $text['description-conference_center_enabled']['en-us'] = "Select whether to enable or disable the conference center.";
+$text['description-conference_center_enabled']['vi-vn'] = 'Chọn bật hoặc tắt Conference Center.';
 $text['description-conference_center_enabled']['en-gb'] = "Select whether to enable or disable the conference center.";
 $text['description-conference_center_enabled']['ar-eg'] = "حدد ما إذا كنت تريد تمكين أو تعطيل مركز المؤتمرات.";
 $text['description-conference_center_enabled']['de-at'] = "Wählen Sie ob die Konferenz-Zentrale Ein- oder Ausgeschaltet werden soll.";
@@ -495,6 +514,7 @@ $text['description-conference_center_enabled']['ja-jp'] = "会議センターを
 $text['description-conference_center_enabled']['ko-kr'] = "회의 센터를 활성화하거나 비활성화 할 수 있는지 선택하십시오.";
 
 $text['label-conference_center_description']['en-us'] = "Description";
+$text['label-conference_center_description']['vi-vn'] = 'Mô tả';
 $text['label-conference_center_description']['en-gb'] = "Description";
 $text['label-conference_center_description']['ar-eg'] = "وصف";
 $text['label-conference_center_description']['de-at'] = "Beschreibung";
@@ -521,6 +541,7 @@ $text['label-conference_center_description']['ja-jp'] = "コンテンツ";
 $text['label-conference_center_description']['ko-kr'] = "제품 설명";
 
 $text['title-conference_sessions']['en-us'] = "Conference Sessions";
+$text['title-conference_sessions']['vi-vn'] = 'Phiên hội nghị';
 $text['title-conference_sessions']['en-gb'] = "Conference Sessions";
 $text['title-conference_sessions']['ar-eg'] = "Conference Sessions";
 $text['title-conference_sessions']['de-at'] = "Konferenz-Sitzungen";
@@ -547,6 +568,7 @@ $text['title-conference_sessions']['ja-jp'] = "会議セッション";
 $text['title-conference_sessions']['ko-kr'] = "컨퍼런스";
 
 $text['title-conference_session_details']['en-us'] = "Conference Session Details";
+$text['title-conference_session_details']['vi-vn'] = 'Chi tiết phiên hội nghị';
 $text['title-conference_session_details']['en-gb'] = "Conference Session Details";
 $text['title-conference_session_details']['ar-eg'] = "تفاصيل جلسة المؤتمر";
 $text['title-conference_session_details']['de-at'] = "Details der Konferenz-Sitzung";
@@ -573,6 +595,7 @@ $text['title-conference_session_details']['ja-jp'] = "会議セッション詳�
 $text['title-conference_session_details']['ko-kr'] = "컨퍼런스";
 
 $text['title-conference_rooms']['en-us'] = "Conference Rooms";
+$text['title-conference_rooms']['vi-vn'] = 'Phòng hội nghị';
 $text['title-conference_rooms']['en-gb'] = "Conference Rooms";
 $text['title-conference_rooms']['ar-eg'] = "غرف المؤتمرات";
 $text['title-conference_rooms']['de-at'] = "Konferenzräume";
@@ -599,6 +622,7 @@ $text['title-conference_rooms']['ja-jp'] = "会議室";
 $text['title-conference_rooms']['ko-kr'] = "회의실";
 
 $text['title-conference_room']['en-us'] = "Conference Room";
+$text['title-conference_room']['vi-vn'] = 'Phòng hội nghị';
 $text['title-conference_room']['en-gb'] = "Conference Room";
 $text['title-conference_room']['ar-eg'] = "غرفة المؤتمرات";
 $text['title-conference_room']['de-at'] = "Konferenzraum";
@@ -625,6 +649,7 @@ $text['title-conference_room']['ja-jp'] = "会議室";
 $text['title-conference_room']['ko-kr'] = "회의실";
 
 $text['message-unique_participant_pin']['en-us'] = "Please provide a unique Participant PIN number.";
+$text['message-unique_participant_pin']['vi-vn'] = 'Vui lòng cung cấp số PIN người tham gia không trùng lặp.';
 $text['message-unique_participant_pin']['en-gb'] = "Please provide a unique Participant PIN number.";
 $text['message-unique_participant_pin']['ar-eg'] = "يرجى تقديم رقم PIN فريد للمشارك.";
 $text['message-unique_participant_pin']['de-at'] = "Bitte geben Sie eine eindeutige PIN für die Teilnehmer an.";
@@ -651,6 +676,7 @@ $text['message-unique_participant_pin']['ja-jp'] = "個性的なPIN番号を入�
 $text['message-unique_participant_pin']['ko-kr'] = "독특한 참가자 PIN 번호를 제공하십시오.";
 
 $text['message-unique_moderator_pin']['en-us'] = "Please provide a unique Moderator PIN number.";
+$text['message-unique_moderator_pin']['vi-vn'] = 'Vui lòng cung cấp số PIN moderator không trùng lặp.';
 $text['message-unique_moderator_pin']['en-gb'] = "Please provide a unique Moderator PIN number.";
 $text['message-unique_moderator_pin']['ar-eg'] = "يرجى تقديم رقم تعريف شخصي فريد للمنسق.";
 $text['message-unique_moderator_pin']['de-at'] = "Bitte geben Sie eine eindeutige PIN für die Moderatoren an.";
@@ -677,6 +703,7 @@ $text['message-unique_moderator_pin']['ja-jp'] = "独自のモデレーターPIN
 $text['message-unique_moderator_pin']['ko-kr'] = "독특한 Moderator PIN 번호를 제공하십시오.";
 
 $text['message-non_unique_pin']['en-us'] = "Moderator and Participant PIN numbers must be unique.";
+$text['message-non_unique_pin']['vi-vn'] = 'PIN moderator và PIN người tham gia phải khác nhau.';
 $text['message-non_unique_pin']['en-gb'] = "Moderator and Participant PIN numbers must be unique.";
 $text['message-non_unique_pin']['ar-eg'] = "يجب أن يكون رقم التعريف الشخصي للمنسق والمشارك فريدًا.";
 $text['message-non_unique_pin']['de-at'] = "Moderator und Teilnehmer PIN Nummern müssen eindeutig sein.";
@@ -703,6 +730,7 @@ $text['message-non_unique_pin']['ja-jp'] = "モデレータと参加者PIN番号
 $text['message-non_unique_pin']['ko-kr'] = "모더레이터 및 참가자 PIN 번호는 고유해야합니다.";
 
 $text['message-minimum_pin_length']['en-us'] = "Minimum PIN length required:";
+$text['message-minimum_pin_length']['vi-vn'] = 'Độ dài PIN tối thiểu bắt buộc:';
 $text['message-minimum_pin_length']['en-gb'] = "Minimum PIN length required:";
 $text['message-minimum_pin_length']['ar-eg'] = "الحد الأدنى لطول PIN المطلوب:";
 $text['message-minimum_pin_length']['de-at'] = "Minimale PIN länge erforderlich:";
@@ -729,6 +757,7 @@ $text['message-minimum_pin_length']['ja-jp'] = "必要な最低PINの長さ:";
 $text['message-minimum_pin_length']['ko-kr'] = "요구되는 최소한도 PIN 길이:";
 
 $text['label-wait_moderator']['en-us'] = "Secure";
+$text['label-wait_moderator']['vi-vn'] = 'Bảo mật';
 $text['label-wait_moderator']['en-gb'] = "Secure";
 $text['label-wait_moderator']['ar-eg'] = "يؤمن";
 $text['label-wait_moderator']['de-at'] = "Geschützt";
@@ -755,6 +784,7 @@ $text['label-wait_moderator']['ja-jp'] = "セキュア";
 $text['label-wait_moderator']['ko-kr'] = "제품정보";
 
 $text['label-wait_for_moderator']['en-us'] = "Wait for Moderator";
+$text['label-wait_for_moderator']['vi-vn'] = 'Chờ moderator';
 $text['label-wait_for_moderator']['en-gb'] = "Wait for Moderator";
 $text['label-wait_for_moderator']['ar-eg'] = "انتظر المنسق";
 $text['label-wait_for_moderator']['de-at'] = "Warte auf Moderator";
@@ -781,6 +811,7 @@ $text['label-wait_for_moderator']['ja-jp'] = "モデレーター待ち";
 $text['label-wait_for_moderator']['ko-kr'] = "Moderator에 대한 기대";
 
 $text['label-moderator_endconf']['en-us'] = "Moderator endconf";
+$text['label-moderator_endconf']['vi-vn'] = 'Moderator kết thúc hội nghị';
 $text['label-moderator_endconf']['en-gb'] = "Moderator endconf";
 $text['label-moderator_endconf']['ar-eg'] = "وسيط endconf";
 $text['label-moderator_endconf']['de-at'] = "Moderator endconf";
@@ -807,6 +838,7 @@ $text['label-moderator_endconf']['ja-jp'] = "モデレータのendconf";
 $text['label-moderator_endconf']['ko-kr'] = "최종 설정";
 
 $text['label-view']['en-us'] = "View";
+$text['label-view']['vi-vn'] = 'Xem';
 $text['label-view']['en-gb'] = "View";
 $text['label-view']['ar-eg'] = "منظر";
 $text['label-view']['de-at'] = "Ansicht";
@@ -833,6 +865,7 @@ $text['label-view']['ja-jp'] = "ニュース";
 $text['label-view']['ko-kr'] = "연혁";
 
 $text['label-uuid']['en-us'] = "UUID";
+$text['label-uuid']['vi-vn'] = 'UUID';
 $text['label-uuid']['en-gb'] = "UUID";
 $text['label-uuid']['ar-eg'] = "UUID";
 $text['label-uuid']['de-at'] = "UUID";
@@ -859,6 +892,7 @@ $text['label-uuid']['ja-jp'] = "UUID";
 $text['label-uuid']['ko-kr'] = "UUID";
 
 $text['label-users']['en-us'] = "Users";
+$text['label-users']['vi-vn'] = 'Người dùng';
 $text['label-users']['en-gb'] = "Users";
 $text['label-users']['ar-eg'] = "المستخدمون";
 $text['label-users']['de-at'] = "Benutzer";
@@ -885,6 +919,7 @@ $text['label-users']['ja-jp'] = "ユーザ名";
 $text['label-users']['ko-kr'] = "이름";
 
 $text['label-username']['en-us'] = "Username";
+$text['label-username']['vi-vn'] = 'Tên đăng nhập';
 $text['label-username']['en-gb'] = "Username";
 $text['label-username']['ar-eg'] = "اسم المستخدم";
 $text['label-username']['de-at'] = "Benutzername";
@@ -911,6 +946,7 @@ $text['label-username']['ja-jp'] = "ユーザ名";
 $text['label-username']['ko-kr'] = "사용자 이름";
 
 $text['label-tools']['en-us'] = "Tools";
+$text['label-tools']['vi-vn'] = 'Công cụ';
 $text['label-tools']['en-gb'] = "Tools";
 $text['label-tools']['ar-eg'] = "أدوات";
 $text['label-tools']['de-at'] = "Werkzeuge";
@@ -937,6 +973,7 @@ $text['label-tools']['ja-jp'] = "ツール";
 $text['label-tools']['ko-kr'] = "제품정보";
 
 $text['label-to']['en-us'] = "To";
+$text['label-to']['vi-vn'] = 'Đến';
 $text['label-to']['en-gb'] = "To";
 $text['label-to']['ar-eg'] = "ل";
 $text['label-to']['de-at'] = "An";
@@ -963,6 +1000,7 @@ $text['label-to']['ja-jp'] = "お問い合わせ";
 $text['label-to']['ko-kr'] = "으로";
 
 $text['label-time']['en-us'] = "Time";
+$text['label-time']['vi-vn'] = 'Thời gian';
 $text['label-time']['en-gb'] = "Time";
 $text['label-time']['ar-eg'] = "وقت";
 $text['label-time']['de-at'] = "Zeitzone";
@@ -989,6 +1027,7 @@ $text['label-time']['ja-jp'] = "イベント";
 $text['label-time']['ko-kr'] = "(주)";
 
 $text['label-start']['en-us'] = "Start";
+$text['label-start']['vi-vn'] = 'Bắt đầu';
 $text['label-start']['en-gb'] = "Start";
 $text['label-start']['ar-eg'] = "يبدأ";
 $text['label-start']['de-at'] = "Start";
@@ -1015,6 +1054,7 @@ $text['label-start']['ja-jp'] = "スタート";
 $text['label-start']['ko-kr'] = "지원하다";
 
 $text['label-sounds']['en-us'] = "Sounds";
+$text['label-sounds']['vi-vn'] = 'Âm thanh';
 $text['label-sounds']['en-gb'] = "Sounds";
 $text['label-sounds']['ar-eg'] = "اصوات";
 $text['label-sounds']['de-at'] = "Töne";
@@ -1041,6 +1081,7 @@ $text['label-sounds']['ja-jp'] = "サウンド";
 $text['label-sounds']['ko-kr'] = "언어 선택";
 
 $text['label-sessions']['en-us'] = "Sessions";
+$text['label-sessions']['vi-vn'] = 'Phiên';
 $text['label-sessions']['en-gb'] = "Sessions";
 $text['label-sessions']['ar-eg'] = "الجلسات";
 $text['label-sessions']['de-at'] = "Sitzungen";
@@ -1067,6 +1108,7 @@ $text['label-sessions']['ja-jp'] = "セッション";
 $text['label-sessions']['ko-kr'] = "교육과정";
 
 $text['label-schedule']['en-us'] = "Schedule";
+$text['label-schedule']['vi-vn'] = 'Lịch';
 $text['label-schedule']['en-gb'] = "Schedule";
 $text['label-schedule']['ar-eg'] = "جدول";
 $text['label-schedule']['de-at'] = "Zeitplan";
@@ -1093,6 +1135,7 @@ $text['label-schedule']['ja-jp'] = "スケジュール";
 $text['label-schedule']['ko-kr'] = "연혁";
 
 $text['label-room-name']['en-us'] = "Room Name";
+$text['label-room-name']['vi-vn'] = 'Tên phòng';
 $text['label-room-name']['en-gb'] = "Room Name";
 $text['label-room-name']['ar-eg'] = "اسم الغرفة";
 $text['label-room-name']['de-at'] = "Raum Name";
@@ -1119,6 +1162,7 @@ $text['label-room-name']['ja-jp'] = "ルーム名";
 $text['label-room-name']['ko-kr'] = "객실 이름";
 
 $text['label-recording']['en-us'] = "Recording";
+$text['label-recording']['vi-vn'] = 'Bản ghi âm';
 $text['label-recording']['en-gb'] = "Recording";
 $text['label-recording']['ar-eg'] = "تسجيل";
 $text['label-recording']['de-at'] = "Aufnahme";
@@ -1145,6 +1189,7 @@ $text['label-recording']['ja-jp'] = "レコーディング";
 $text['label-recording']['ko-kr'] = "관련 기사";
 
 $text['label-record']['en-us'] = "Record";
+$text['label-record']['vi-vn'] = 'Ghi âm';
 $text['label-record']['en-gb'] = "Record";
 $text['label-record']['ar-eg'] = "سِجِلّ";
 $text['label-record']['de-at'] = "Aufnehmen";
@@ -1171,6 +1216,7 @@ $text['label-record']['ja-jp'] = "レコード";
 $text['label-record']['ko-kr'] = "이름";
 
 $text['label-profile']['en-us'] = "Profile";
+$text['label-profile']['vi-vn'] = 'Profile';
 $text['label-profile']['en-gb'] = "Profile";
 $text['label-profile']['ar-eg'] = "حساب تعريفي";
 $text['label-profile']['de-at'] = "Profil";
@@ -1197,6 +1243,7 @@ $text['label-profile']['ja-jp'] = "プロフィール";
 $text['label-profile']['ko-kr'] = "제품정보";
 
 $text['label-play']['en-us'] = "Play";
+$text['label-play']['vi-vn'] = 'Phát';
 $text['label-play']['en-gb'] = "Play";
 $text['label-play']['ar-eg'] = "يلعب";
 $text['label-play']['de-at'] = "Abspielen";
@@ -1223,6 +1270,7 @@ $text['label-play']['ja-jp'] = "プレイ";
 $text['label-play']['ko-kr'] = "뚱 베어";
 
 $text['label-participant-pin']['en-us'] = "Participant";
+$text['label-participant-pin']['vi-vn'] = 'Người tham gia';
 $text['label-participant-pin']['en-gb'] = "Participant";
 $text['label-participant-pin']['ar-eg'] = "مشارك";
 $text['label-participant-pin']['de-at'] = "Teilnehmer";
@@ -1249,6 +1297,7 @@ $text['label-participant-pin']['ja-jp'] = "参加資格";
 $text['label-participant-pin']['ko-kr'] = "회사 소개";
 
 $text['label-network-address']['en-us'] = "Network Address";
+$text['label-network-address']['vi-vn'] = 'Địa chỉ mạng';
 $text['label-network-address']['en-gb'] = "Network Address";
 $text['label-network-address']['ar-eg'] = "عنوان الشبكة";
 $text['label-network-address']['de-at'] = "Netzwerk Adresse";
@@ -1275,6 +1324,7 @@ $text['label-network-address']['ja-jp'] = "ネットワークアドレス";
 $text['label-network-address']['ko-kr'] = "네트워크 주소";
 
 $text['label-mute']['en-us'] = "Mute";
+$text['label-mute']['vi-vn'] = 'Tắt tiếng';
 $text['label-mute']['en-gb'] = "Mute";
 $text['label-mute']['ar-eg'] = "صامت";
 $text['label-mute']['de-at'] = "Stummschalten";
@@ -1301,6 +1351,7 @@ $text['label-mute']['ja-jp'] = "ミュート";
 $text['label-mute']['ko-kr'] = "이름";
 
 $text['label-moderator-pin']['en-us'] = "Moderator";
+$text['label-moderator-pin']['vi-vn'] = 'Moderator';
 $text['label-moderator-pin']['en-gb'] = "Moderator";
 $text['label-moderator-pin']['ar-eg'] = "الوسيط";
 $text['label-moderator-pin']['de-at'] = "Moderator";
@@ -1327,6 +1378,7 @@ $text['label-moderator-pin']['ja-jp'] = "モデレータ";
 $text['label-moderator-pin']['ko-kr'] = "모더레이터";
 
 $text['label-moderator']['en-us'] = "Moderator";
+$text['label-moderator']['vi-vn'] = 'Moderator';
 $text['label-moderator']['en-gb'] = "Moderator";
 $text['label-moderator']['ar-eg'] = "الوسيط";
 $text['label-moderator']['de-at'] = "Moderator";
@@ -1353,6 +1405,7 @@ $text['label-moderator']['ja-jp'] = "モデレータ";
 $text['label-moderator']['ko-kr'] = "모더레이터";
 
 $text['label-members']['en-us'] = "Count";
+$text['label-members']['vi-vn'] = 'Số lượng';
 $text['label-members']['en-gb'] = "Count";
 $text['label-members']['ar-eg'] = "عدد";
 $text['label-members']['de-at'] = "Zähler";
@@ -1379,6 +1432,7 @@ $text['label-members']['ja-jp'] = "カウント数";
 $text['label-members']['ko-kr'] = "제품정보";
 
 $text['label-member-type-participant']['en-us'] = "participant";
+$text['label-member-type-participant']['vi-vn'] = 'người tham gia';
 $text['label-member-type-participant']['en-gb'] = "participant";
 $text['label-member-type-participant']['ar-eg'] = "مشارك";
 $text['label-member-type-participant']['de-at'] = "Teilnehmer";
@@ -1405,6 +1459,7 @@ $text['label-member-type-participant']['ja-jp'] = "参加人数";
 $text['label-member-type-participant']['ko-kr'] = "이름";
 
 $text['label-member-type-moderator']['en-us'] = "moderator";
+$text['label-member-type-moderator']['vi-vn'] = 'moderator';
 $text['label-member-type-moderator']['en-gb'] = "moderator";
 $text['label-member-type-moderator']['ar-eg'] = "الوسيط";
 $text['label-member-type-moderator']['de-at'] = "Moderator";
@@ -1431,6 +1486,7 @@ $text['label-member-type-moderator']['ja-jp'] = "モデレータ";
 $text['label-member-type-moderator']['ko-kr'] = "모드";
 
 $text['label-member-pin']['en-us'] = "PIN Numbers";
+$text['label-member-pin']['vi-vn'] = 'Số PIN';
 $text['label-member-pin']['en-gb'] = "PIN Numbers";
 $text['label-member-pin']['ar-eg'] = "أرقام PIN";
 $text['label-member-pin']['de-at'] = "PIN Nummern";
@@ -1457,6 +1513,7 @@ $text['label-member-pin']['ja-jp'] = "PIN番号";
 $text['label-member-pin']['ko-kr'] = "PIN 번호";
 
 $text['label-max-members']['en-us'] = "Max Members";
+$text['label-max-members']['vi-vn'] = 'Số thành viên tối đa';
 $text['label-max-members']['en-gb'] = "Max Members";
 $text['label-max-members']['ar-eg'] = "ماكس أعضاء";
 $text['label-max-members']['de-at'] = "Maximale Anzahl an Teilnehmer";
@@ -1483,6 +1540,7 @@ $text['label-max-members']['ja-jp'] = "マックスメンバー";
 $text['label-max-members']['ko-kr'] = "최대 회원";
 
 $text['label-from']['en-us'] = "From";
+$text['label-from']['vi-vn'] = 'Từ';
 $text['label-from']['en-gb'] = "From";
 $text['label-from']['ar-eg'] = "من";
 $text['label-from']['de-at'] = "Von";
@@ -1509,6 +1567,7 @@ $text['label-from']['ja-jp'] = "から";
 $text['label-from']['ko-kr'] = "에서";
 
 $text['label-exit-sound']['en-us'] = "Exit Sound";
+$text['label-exit-sound']['vi-vn'] = 'Âm khi thoát';
 $text['label-exit-sound']['en-gb'] = "Exit Sound";
 $text['label-exit-sound']['ar-eg'] = "خروج الصوت";
 $text['label-exit-sound']['de-at'] = "Ton beim Verlassen";
@@ -1535,6 +1594,7 @@ $text['label-exit-sound']['ja-jp'] = "出口の音";
 $text['label-exit-sound']['ko-kr'] = "출구 소리";
 
 $text['label-enter-sound']['en-us'] = "Enter Sound";
+$text['label-enter-sound']['vi-vn'] = 'Âm khi vào';
 $text['label-enter-sound']['en-gb'] = "Enter Sound";
 $text['label-enter-sound']['ar-eg'] = "أدخل الصوت";
 $text['label-enter-sound']['de-at'] = "Ton beim Eintreten";
@@ -1561,6 +1621,7 @@ $text['label-enter-sound']['ja-jp'] = "サウンドを入力";
 $text['label-enter-sound']['ko-kr'] = "사운드 입력";
 
 $text['label-end']['en-us'] = "End";
+$text['label-end']['vi-vn'] = 'Kết thúc';
 $text['label-end']['en-gb'] = "End";
 $text['label-end']['ar-eg'] = "نهاية";
 $text['label-end']['de-at'] = "Ende";
@@ -1587,6 +1648,7 @@ $text['label-end']['ja-jp'] = "終わり";
 $text['label-end']['ko-kr'] = "끝";
 
 $text['label-edit']['en-us'] = "Edit";
+$text['label-edit']['vi-vn'] = 'Sửa';
 $text['label-edit']['en-gb'] = "Edit";
 $text['label-edit']['ar-eg'] = "يحرر";
 $text['label-edit']['de-at'] = "Bearbeiten";
@@ -1613,6 +1675,7 @@ $text['label-edit']['ja-jp'] = "編集";
 $text['label-edit']['ko-kr'] = "제품정보";
 
 $text['label-download']['en-us'] = "Download";
+$text['label-download']['vi-vn'] = 'Tải xuống';
 $text['label-download']['en-gb'] = "Download";
 $text['label-download']['ar-eg'] = "تحميل";
 $text['label-download']['de-at'] = "Herunterladen";
@@ -1639,6 +1702,7 @@ $text['label-download']['ja-jp'] = "ダウンロード";
 $text['label-download']['ko-kr'] = "다운로드";
 
 $text['label-details']['en-us'] = "Details";
+$text['label-details']['vi-vn'] = 'Chi tiết';
 $text['label-details']['en-gb'] = "Details";
 $text['label-details']['ar-eg'] = "تفاصيل";
 $text['label-details']['de-at'] = "Details";
@@ -1665,6 +1729,7 @@ $text['label-details']['ja-jp'] = "インフォメーション";
 $text['label-details']['ko-kr'] = "제품 정보";
 
 $text['label-conference_name']['en-us'] = "Conference Name";
+$text['label-conference_name']['vi-vn'] = 'Tên hội nghị';
 $text['label-conference_name']['en-gb'] = "Conference Name";
 $text['label-conference_name']['ar-eg'] = "اسم المؤتمر";
 $text['label-conference_name']['de-at'] = "Konferenz Name";
@@ -1691,6 +1756,7 @@ $text['label-conference_name']['ja-jp'] = "会議名";
 $text['label-conference_name']['ko-kr'] = "회의 이름";
 
 $text['label-cdr']['en-us'] = "CDR";
+$text['label-cdr']['vi-vn'] = 'CDR';
 $text['label-cdr']['en-gb'] = "CDR";
 $text['label-cdr']['ar-eg'] = "مجلس سجلات تفاصيل المكالمات";
 $text['label-cdr']['de-at'] = "CDR";
@@ -1717,6 +1783,7 @@ $text['label-cdr']['ja-jp'] = "CDR";
 $text['label-cdr']['ko-kr'] = "CDR";
 
 $text['label-caller-id-number']['en-us'] = "Caller ID Number";
+$text['label-caller-id-number']['vi-vn'] = 'Số Caller ID';
 $text['label-caller-id-number']['en-gb'] = "Caller ID Number";
 $text['label-caller-id-number']['ar-eg'] = "رقم هوية المتصل";
 $text['label-caller-id-number']['de-at'] = "Anruferkennung (Nummer)";
@@ -1743,6 +1810,7 @@ $text['label-caller-id-number']['ja-jp'] = "発信者ID番号";
 $text['label-caller-id-number']['ko-kr'] = "전화 번호";
 
 $text['label-caller-id-name']['en-us'] = "Caller ID Name";
+$text['label-caller-id-name']['vi-vn'] = 'Tên Caller ID';
 $text['label-caller-id-name']['en-gb'] = "Caller ID Name";
 $text['label-caller-id-name']['ar-eg'] = "اسم معرف المتصل";
 $text['label-caller-id-name']['de-at'] = "Anruferkennung (Name)";
@@ -1769,6 +1837,7 @@ $text['label-caller-id-name']['ja-jp'] = "呼び出し者 ID 名";
 $text['label-caller-id-name']['ko-kr'] = "ID 이름";
 
 $text['label-announce_name']['en-us'] = "Announce Name";
+$text['label-announce_name']['vi-vn'] = 'Thông báo tên';
 $text['label-announce_name']['en-gb'] = "Announce Name";
 $text['label-announce_name']['ar-eg'] = "أعلن الاسم";
 $text['label-announce_name']['de-at'] = "Ankündigen";
@@ -1795,6 +1864,7 @@ $text['label-announce_name']['ja-jp'] = "発表者名";
 $text['label-announce_name']['ko-kr'] = "이름";
 
 $text['label-announce_count']['en-us'] = "Announce Count";
+$text['label-announce_count']['vi-vn'] = 'Thông báo số lượng';
 $text['label-announce_count']['en-gb'] = "Announce Count";
 $text['label-announce_count']['ar-eg'] = "أعلن العد";
 $text['label-announce_count']['de-at'] = "Ankündigen";
@@ -1821,6 +1891,7 @@ $text['label-announce_count']['ja-jp'] = "カウントを発表";
 $text['label-announce_count']['ko-kr'] = "공지사항";
 
 $text['label-announce_recording']['en-us'] = "Announce Recording";
+$text['label-announce_recording']['vi-vn'] = 'Thông báo bản ghi âm';
 $text['label-announce_recording']['en-gb'] = "Announce Recording";
 $text['label-announce_recording']['ar-eg'] = "أعلن التسجيل";
 $text['label-announce_recording']['de-at'] = "Ankündigen";
@@ -1847,6 +1918,7 @@ $text['label-announce_recording']['ja-jp'] = "記録発表";
 $text['label-announce_recording']['ko-kr'] = "공지사항";
 
 $text['description-users']['en-us'] = "Assign additional users as administrators of this conference room.";
+$text['description-users']['vi-vn'] = 'Gán thêm người dùng làm quản trị viên của phòng hội nghị này.';
 $text['description-users']['en-gb'] = "Assign additional users as administrators of this conference room.";
 $text['description-users']['ar-eg'] = "قم بتعيين مستخدمين إضافيين كمسؤولين عن غرفة المؤتمرات هذه.";
 $text['description-users']['de-at'] = "Weisen Sie diesem Konferenzraum weitere Administratoren zu.";
@@ -1873,6 +1945,7 @@ $text['description-users']['ja-jp'] = "この会議室の管理者として追�
 $text['description-users']['ko-kr'] = "이 회의실의 관리자로 추가 사용자 할당.";
 
 $text['description-schedule']['en-us'] = "Set a start and stop date/time for this room.";
+$text['description-schedule']['vi-vn'] = 'Đặt ngày/giờ bắt đầu và kết thúc cho phòng này.';
 $text['description-schedule']['en-gb'] = "Set a start and stop date/time for this room.";
 $text['description-schedule']['ar-eg'] = "حدد تاريخ / وقت البدء والإيقاف لهذه الغرفة.";
 $text['description-schedule']['de-at'] = "Setzen Sie die Start und Stopp Datum/Zeit für diesen Raum";
@@ -1899,6 +1972,7 @@ $text['description-schedule']['ja-jp'] = "出発日と出発日/時刻を設定�
 $text['description-schedule']['ko-kr'] = "이 방의 시작 및 중지 날짜 / 시간 설정.";
 
 $text['description-room-name']['en-us'] = "Enter a name for the conference room.";
+$text['description-room-name']['vi-vn'] = 'Nhập tên cho phòng hội nghị.';
 $text['description-room-name']['en-gb'] = "Enter a name for the conference room.";
 $text['description-room-name']['ar-eg'] = "أدخل اسمًا لقاعة المؤتمرات.";
 $text['description-room-name']['de-at'] = "Geben Sie einen Namen für diesen Konferenzraum an.";
@@ -1925,6 +1999,7 @@ $text['description-room-name']['ja-jp'] = "会議室名を入力してくださ�
 $text['description-room-name']['ko-kr'] = "회의실의 이름을 입력하십시오.";
 
 $text['description-profile']['en-us'] = "Conference Profile is a collection of settings for the conference center.";
+$text['description-profile']['vi-vn'] = 'Conference Profile là tập hợp cấu hình cho Conference Center.';
 $text['description-profile']['en-gb'] = "Conference Profile is a collection of settings for the conference center.";
 $text['description-profile']['ar-eg'] = "ملف تعريف المؤتمر عبارة عن مجموعة من الإعدادات الخاصة بمركز المؤتمرات.";
 $text['description-profile']['de-at'] = "Das Konferenz-Profil ist eine Zusammenfassung von Einstellungen für die Konferenz Zentrale.";
@@ -1951,6 +2026,7 @@ $text['description-profile']['ja-jp'] = "カンファレンスプロファイル
 $text['description-profile']['ko-kr'] = "컨퍼런스 프로필은 회의 센터의 설정 모음입니다.";
 
 $text['description-participant-pin']['en-us'] = "Pin number for the participants.";
+$text['description-participant-pin']['vi-vn'] = 'Số PIN cho người tham gia.';
 $text['description-participant-pin']['en-gb'] = "Pin number for the participants.";
 $text['description-participant-pin']['ar-eg'] = "الرقم السري للمشاركين.";
 $text['description-participant-pin']['de-at'] = "PIN Nummer für Teilnehmer.";
@@ -1977,6 +2053,7 @@ $text['description-participant-pin']['ja-jp'] = "参加者のピン番号";
 $text['description-participant-pin']['ko-kr'] = "참가자의 핀 번호.";
 
 $text['description-moderator_pin']['en-us'] = "Pin number for the moderators.";
+$text['description-moderator_pin']['vi-vn'] = 'Số PIN cho moderator.';
 $text['description-moderator_pin']['en-gb'] = "Pin number for the moderators.";
 $text['description-moderator_pin']['ar-eg'] = "الرقم السري للمشرفين.";
 $text['description-moderator_pin']['de-at'] = "PIN Nummer für Moderatoren.";
@@ -2003,6 +2080,7 @@ $text['description-moderator_pin']['ja-jp'] = "モデレータのピン番号。
 $text['description-moderator_pin']['ko-kr'] = "모더레이터의 핀 번호.";
 
 $text['description-conference_sessions']['en-us'] = "Conference Sessions are log details about the conferences.";
+$text['description-conference_sessions']['vi-vn'] = 'Phiên hội nghị là thông tin log chi tiết về các hội nghị.';
 $text['description-conference_sessions']['en-gb'] = "Conference Sessions are log details about the conferences.";
 $text['description-conference_sessions']['ar-eg'] = "جلسات المؤتمر عبارة عن تفاصيل سجل حول المؤتمرات.";
 $text['description-conference_sessions']['de-at'] = "Konferenz Sitzungen sind Protokolle der letzten Konferenzen.";
@@ -2029,6 +2107,7 @@ $text['description-conference_sessions']['ja-jp'] = "会議セッションは、
 $text['description-conference_sessions']['ko-kr'] = "회의 세션은 회의에 대한 정보를 기록합니다.";
 
 $text['description-conference_session_details']['en-us'] = "Conference Sessions are log details of the conferences calls.";
+$text['description-conference_session_details']['vi-vn'] = 'Phiên hội nghị là thông tin log chi tiết của các cuộc gọi hội nghị.';
 $text['description-conference_session_details']['en-gb'] = "Conference Sessions are log details of the conferences calls.";
 $text['description-conference_session_details']['ar-eg'] = "جلسات المؤتمر هي تفاصيل سجل مكالمات المؤتمرات.";
 $text['description-conference_session_details']['de-at'] = "Konferenz Sitzungen sind Protokolle der letzten Konferenzenschaltungen.";
@@ -2055,6 +2134,7 @@ $text['description-conference_session_details']['ja-jp'] = "会議セッショ�
 $text['description-conference_session_details']['ko-kr'] = "회의 회의는 회의 통화의 로그 세부 사항입니다.";
 
 $text['description-conference_centers']['en-us'] = "Conference Centers are a group of conference rooms. They can be organized by cost center, geographically, or other criteria.";
+$text['description-conference_centers']['vi-vn'] = 'Conference Center là nhóm các phòng hội nghị. Có thể tổ chức theo trung tâm chi phí, vị trí địa lý hoặc tiêu chí khác.';
 $text['description-conference_centers']['en-gb'] = "Conference Centers are a group of conference rooms. They can be organized by cost center, geographically, or other criteria.";
 $text['description-conference_centers']['ar-eg'] = "مراكز المؤتمرات هي مجموعة من غرف المؤتمرات. يمكن تنظيمها حسب مركز التكلفة أو جغرافيًا أو معايير أخرى.";
 $text['description-conference_centers']['de-at'] = "Konferenz-Zentralen sind Gruppen mehrere Konferenzräume. Diese können anhand diverse Kriterien wie Kostenstelle, geographisher Ort oder sonstiges organisiert werden.";
@@ -2081,6 +2161,7 @@ $text['description-conference_centers']['ja-jp'] = "カンファレンスセン�
 $text['description-conference_centers']['ko-kr'] = "컨퍼런스 센터는 회의실의 그룹입니다. 해당 이용 후기에 달린 코멘트가 없습니다.";
 
 $text['description-conference_center']['en-us'] = "Conference Center is used to setup one or more conference rooms with a name, extension number, a required pin number length, and a description.";
+$text['description-conference_center']['vi-vn'] = 'Conference Center dùng để thiết lập một hoặc nhiều phòng hội nghị với tên, số máy nhánh, độ dài PIN bắt buộc và mô tả.';
 $text['description-conference_center']['en-gb'] = "Conference Center is used to setup one or more conference rooms with a name, extension number, a required pin number length, and a description.";
 $text['description-conference_center']['ar-eg'] = "يُستخدم مركز المؤتمرات لإعداد غرفة اجتماعات واحدة أو أكثر باستخدام اسم ورقم داخلي وطول رقم التعريف الشخصي المطلوب ووصف.";
 $text['description-conference_center']['de-at'] = "Konferenz Zentralen ermöglichen die Erstellung von einem oder mehrere Konferenzräume mit Namen, Nebenstelle, benötigte PIN Mindestlänge und eine Beschreibung.";
@@ -2107,6 +2188,7 @@ $text['description-conference_center']['ja-jp'] = "会議センターは、名�
 $text['description-conference_center']['ko-kr'] = "컨퍼런스 센터는 이름, 연장 번호, 필요한 핀 번호 길이 및 설명을 가진 1개 이상의 회의실을 설치하기 위하여 이용됩니다.";
 
 $text['button-sessions']['en-us'] = "Sessions";
+$text['button-sessions']['vi-vn'] = 'Phiên';
 $text['button-sessions']['en-gb'] = "Sessions";
 $text['button-sessions']['ar-eg'] = "الجلسات";
 $text['button-sessions']['de-at'] = "Sitzungen";
@@ -2133,6 +2215,7 @@ $text['button-sessions']['ja-jp'] = "セッション";
 $text['button-sessions']['ko-kr'] = "교육과정";
 
 $text['button-rooms']['en-us'] = "Rooms";
+$text['button-rooms']['vi-vn'] = 'Phòng';
 $text['button-rooms']['en-gb'] = "Rooms";
 $text['button-rooms']['ar-eg'] = "غرف";
 $text['button-rooms']['de-at'] = "Räume";
@@ -2159,6 +2242,7 @@ $text['button-rooms']['ja-jp'] = "ルーム";
 $text['button-rooms']['ko-kr'] = "객실 수";
 
 $text['button-view_active']['en-us'] = "View Active";
+$text['button-view_active']['vi-vn'] = 'Xem đang hoạt động';
 $text['button-view_active']['en-gb'] = "View Active";
 $text['button-view_active']['ar-eg'] = "مشاهدة ملف Active";
 $text['button-view_active']['de-at'] = "Aktive anzeigen";

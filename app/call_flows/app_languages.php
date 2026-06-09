@@ -1,6 +1,7 @@
 <?php
 
 $text['title-call_flows']['en-us'] = "Call Flows";
+$text['title-call_flows']['vi-vn'] = 'Luồng cuộc gọi';
 $text['title-call_flows']['en-gb'] = "Call Flows";
 $text['title-call_flows']['ar-eg'] = "تدفق المكالمات";
 $text['title-call_flows']['de-at'] = "Anruf Steuerung";
@@ -28,6 +29,7 @@ $text['title-call_flows']['ja-jp'] = "コール フロー";
 $text['title-call_flows']['ko-kr'] = "통화 흐름";
 
 $text['title-call_flow']['en-us'] = "Call Flow";
+$text['title-call_flow']['vi-vn'] = 'Luồng cuộc gọi';
 $text['title-call_flow']['en-gb'] = "Call Flow";
 $text['title-call_flow']['ar-eg'] = "تدفق الدعوة من";
 $text['title-call_flow']['de-at'] = "Anruf Steuerung";
@@ -55,6 +57,7 @@ $text['title-call_flow']['ja-jp'] = "通話の流れ";
 $text['title-call_flow']['ko-kr'] = "통화 흐름";
 
 $text['title-call_flow_extension']['en-us'] = "Call Flows - Extension";
+$text['title-call_flow_extension']['vi-vn'] = 'Luồng cuộc gọi - máy nhánh';
 $text['title-call_flow_extension']['en-gb'] = "Call Flows - Extension";
 $text['title-call_flow_extension']['ar-eg'] = "تدفقات المكالمات - التمديد";
 $text['title-call_flow_extension']['de-at'] = "Anruf Steuerung - Ziel";
@@ -82,6 +85,7 @@ $text['title-call_flow_extension']['ja-jp'] = "コール フロー - 内線番�
 $text['title-call_flow_extension']['ko-kr'] = "통화 흐름 - 내선";
 
 $text['title-call_flow_feature']['en-us'] = "Call Flows - Feature";
+$text['title-call_flow_feature']['vi-vn'] = 'Luồng cuộc gọi - tính năng';
 $text['title-call_flow_feature']['en-gb'] = "Call Flows - Feature";
 $text['title-call_flow_feature']['ar-eg'] = "تدفقات المكالمات - الميزة";
 $text['title-call_flow_feature']['de-at'] = "Anruf Steuerung - Funktions";
@@ -109,6 +113,7 @@ $text['title-call_flow_feature']['ja-jp'] = "コール フロー - 機能";
 $text['title-call_flow_feature']['ko-kr'] = "통화 흐름 - 기능";
 
 $text['label-call_flow_name']['en-us'] = "Name";
+$text['label-call_flow_name']['vi-vn'] = 'Tên';
 $text['label-call_flow_name']['en-gb'] = "Name";
 $text['label-call_flow_name']['ar-eg'] = "اسم";
 $text['label-call_flow_name']['de-at'] = "Name";
@@ -136,6 +141,7 @@ $text['label-call_flow_name']['ja-jp'] = "名前";
 $text['label-call_flow_name']['ko-kr'] = "이름";
 
 $text['label-call_flow_status']['en-us'] = "Status";
+$text['label-call_flow_status']['vi-vn'] = 'Trạng thái';
 $text['label-call_flow_status']['en-gb'] = "Status";
 $text['label-call_flow_status']['ar-eg'] = "اسم";
 $text['label-call_flow_status']['de-at'] = "Aktiviert";
@@ -163,6 +169,7 @@ $text['label-call_flow_status']['ja-jp'] = "スターテス";
 $text['label-call_flow_status']['ko-kr'] = "상태";
 
 $text['label-call_flow_pin_number']['en-us'] = "PIN Number";
+$text['label-call_flow_pin_number']['vi-vn'] = 'Số PIN';
 $text['label-call_flow_pin_number']['en-gb'] = "PIN Number";
 $text['label-call_flow_pin_number']['ar-eg'] = "الرقم السري";
 $text['label-call_flow_pin_number']['de-at'] = "PIN Nummer";
@@ -190,6 +197,7 @@ $text['label-call_flow_pin_number']['ja-jp'] = "暗証番号";
 $text['label-call_flow_pin_number']['ko-kr'] = "핀 번호";
 
 $text['label-call_flow_feature_code']['en-us'] = "Feature Code";
+$text['label-call_flow_feature_code']['vi-vn'] = 'Mã tính năng';
 $text['label-call_flow_feature_code']['en-gb'] = "Feature Code";
 $text['label-call_flow_feature_code']['ar-eg'] = "رمز الميزة";
 $text['label-call_flow_feature_code']['de-at'] = "Funktions-Code";
@@ -217,6 +225,7 @@ $text['label-call_flow_feature_code']['ja-jp'] = "機能コード";
 $text['label-call_flow_feature_code']['ko-kr'] = "기능 코드";
 
 $text['label-call_flow_extension']['en-us'] = "Extension";
+$text['label-call_flow_extension']['vi-vn'] = 'Máy nhánh';
 $text['label-call_flow_extension']['en-gb'] = "Extension";
 $text['label-call_flow_extension']['ar-eg'] = "امتداد";
 $text['label-call_flow_extension']['de-at'] = "Nebenstelle";
@@ -244,6 +253,7 @@ $text['label-call_flow_extension']['ja-jp'] = "拡大";
 $text['label-call_flow_extension']['ko-kr'] = "확대";
 
 $text['label-call_flow_label']['en-us'] = "Destination Label";
+$text['label-call_flow_label']['vi-vn'] = 'Nhãn đích';
 $text['label-call_flow_label']['en-gb'] = "Destination Label";
 $text['label-call_flow_label']['ar-eg'] = "تسمية الوجهة";
 $text['label-call_flow_label']['de-at'] = "Ziel Kennzeichnung";
@@ -271,6 +281,7 @@ $text['label-call_flow_label']['ja-jp'] = "宛先ラベル";
 $text['label-call_flow_label']['ko-kr'] = "목적지 라벨";
 
 $text['label-call_flow_destination']['en-us'] = "Destination";
+$text['label-call_flow_destination']['vi-vn'] = 'Đích';
 $text['label-call_flow_destination']['en-gb'] = "Destination";
 $text['label-call_flow_destination']['ar-eg'] = "وجهة";
 $text['label-call_flow_destination']['de-at'] = "Ziel";
@@ -298,6 +309,7 @@ $text['label-call_flow_destination']['ja-jp'] = "行き先";
 $text['label-call_flow_destination']['ko-kr'] = "목적지";
 
 $text['label-call_flow_context']['en-us'] = "Context";
+$text['label-call_flow_context']['vi-vn'] = 'Ngữ cảnh';
 $text['label-call_flow_context']['en-gb'] = "Context";
 $text['label-call_flow_context']['ar-eg'] = "سياق";
 $text['label-call_flow_context']['de-at'] = "Kontext";
@@ -325,6 +337,7 @@ $text['label-call_flow_context']['ja-jp'] = "コンテクスト";
 $text['label-call_flow_context']['ko-kr'] = "문맥";
 
 $text['label-call_flow_alternate_label']['en-us'] = "Alternate Label";
+$text['label-call_flow_alternate_label']['vi-vn'] = 'Nhãn thay thế';
 $text['label-call_flow_alternate_label']['en-gb'] = "Alternate Label";
 $text['label-call_flow_alternate_label']['ar-eg'] = "التسمية البديلة";
 $text['label-call_flow_alternate_label']['de-at'] = "Alternative Bezeichnung";
@@ -352,6 +365,7 @@ $text['label-call_flow_alternate_label']['ja-jp'] = "代替ラベル";
 $text['label-call_flow_alternate_label']['ko-kr'] = "대체 레이블";
 
 $text['label-call_flow_alternate_destination']['en-us'] = "Alternate Destination";
+$text['label-call_flow_alternate_destination']['vi-vn'] = 'Đích thay thế';
 $text['label-call_flow_alternate_destination']['en-gb'] = "Alternate Destination";
 $text['label-call_flow_alternate_destination']['ar-eg'] = "وجهة بديلة";
 $text['label-call_flow_alternate_destination']['de-at'] = "Alternatives Ziel";
@@ -379,6 +393,7 @@ $text['label-call_flow_alternate_destination']['ja-jp'] = "代替目的地";
 $text['label-call_flow_alternate_destination']['ko-kr'] = "대체 목적지";
 
 $text['label-call_flow_sound']['en-us'] = "Sound";
+$text['label-call_flow_sound']['vi-vn'] = 'Âm thanh';
 $text['label-call_flow_sound']['en-gb'] = "Sound";
 $text['label-call_flow_sound']['ar-eg'] = "صوت";
 $text['label-call_flow_sound']['de-at'] = "Rufton";
@@ -406,6 +421,7 @@ $text['label-call_flow_sound']['ja-jp'] = "音";
 $text['label-call_flow_sound']['ko-kr'] = "소리";
 
 $text['label-call_flow_alternate_sound']['en-us'] = "Alternate Sound";
+$text['label-call_flow_alternate_sound']['vi-vn'] = 'Âm thanh thay thế';
 $text['label-call_flow_alternate_sound']['en-gb'] = "Alternate Sound";
 $text['label-call_flow_alternate_sound']['ar-eg'] = "صوت بديل";
 $text['label-call_flow_alternate_sound']['de-at'] = "Alternativer Rufton";
@@ -433,6 +449,7 @@ $text['label-call_flow_alternate_sound']['ja-jp'] = "代替サウンド";
 $text['label-call_flow_alternate_sound']['ko-kr'] = "대체 사운드";
 
 $text['label-call_flow_description']['en-us'] = "Description";
+$text['label-call_flow_description']['vi-vn'] = 'Mô tả';
 $text['label-call_flow_description']['en-gb'] = "Description";
 $text['label-call_flow_description']['ar-eg'] = "وصف";
 $text['label-call_flow_description']['de-at'] = "Beschreibung";
@@ -460,6 +477,7 @@ $text['label-call_flow_description']['ja-jp'] = "説明";
 $text['label-call_flow_description']['ko-kr'] = "설명";
 
 $text['header-call_flows']['en-us'] = "Call Flows";
+$text['header-call_flows']['vi-vn'] = 'Luồng cuộc gọi';
 $text['header-call_flows']['en-gb'] = "Call Flows";
 $text['header-call_flows']['ar-eg'] = "تدفق المكالمات";
 $text['header-call_flows']['de-at'] = "Anruf Steuerung";
@@ -487,6 +505,7 @@ $text['header-call_flows']['ja-jp'] = "コール フロー";
 $text['header-call_flows']['ko-kr'] = "통화 흐름";
 
 $text['header-call_flow']['en-us'] = "Call Flow";
+$text['header-call_flow']['vi-vn'] = 'Luồng cuộc gọi';
 $text['header-call_flow']['en-gb'] = "Call Flow";
 $text['header-call_flow']['ar-eg'] = "تدفق الدعوة من";
 $text['header-call_flow']['de-at'] = "Anruf Steuerung";
@@ -514,6 +533,7 @@ $text['header-call_flow']['ja-jp'] = "通話の流れ";
 $text['header-call_flow']['ko-kr'] = "통화 흐름";
 
 $text['description-call_flow_status']['en-us'] = "Select the status.";
+$text['description-call_flow_status']['vi-vn'] = 'Chọn trạng thái.';
 $text['description-call_flow_status']['en-gb'] = "Select the status.";
 $text['description-call_flow_status']['ar-eg'] = "حدد الحالة.";
 $text['description-call_flow_status']['de-at'] = "Status festlegen.";
@@ -541,6 +561,7 @@ $text['description-call_flow_status']['ja-jp'] = "ステータスを選択しま
 $text['description-call_flow_status']['ko-kr'] = "상태를 선택합니다.";
 
 $text['description-call_flow_pin_number']['en-us'] = "Enter the pin number.";
+$text['description-call_flow_pin_number']['vi-vn'] = 'Nhập số PIN.';
 $text['description-call_flow_pin_number']['en-gb'] = "Enter the pin number.";
 $text['description-call_flow_pin_number']['ar-eg'] = "أدخل الرقم السري.";
 $text['description-call_flow_pin_number']['de-at'] = "Geben Sie eine PIN ein.";
@@ -568,6 +589,7 @@ $text['description-call_flow_pin_number']['ja-jp'] = "ピン番号を入力し�
 $text['description-call_flow_pin_number']['ko-kr'] = "핀번호를 입력하세요.";
 
 $text['description-call_flow_name']['en-us'] = "Enter the name.";
+$text['description-call_flow_name']['vi-vn'] = 'Nhập tên.';
 $text['description-call_flow_name']['en-gb'] = "Enter the name.";
 $text['description-call_flow_name']['ar-eg'] = "أدخل الاسم.";
 $text['description-call_flow_name']['de-at'] = "Geben Sie den Namen an";
@@ -595,6 +617,7 @@ $text['description-call_flow_name']['ja-jp'] = "名前を入力します。";
 $text['description-call_flow_name']['ko-kr'] = "이름을 입력하세요.";
 
 $text['description-call_flow_feature_code']['en-us'] = "Enter the feature code.";
+$text['description-call_flow_feature_code']['vi-vn'] = 'Nhập mã tính năng.';
 $text['description-call_flow_feature_code']['en-gb'] = "Enter the feature code.";
 $text['description-call_flow_feature_code']['ar-eg'] = "أدخل رمز الميزة.";
 $text['description-call_flow_feature_code']['de-at'] = "Geben Sie den Funktions-Code an.";
@@ -622,6 +645,7 @@ $text['description-call_flow_feature_code']['ja-jp'] = "機能コードを入力
 $text['description-call_flow_feature_code']['ko-kr'] = "기능 코드를 입력합니다.";
 
 $text['description-call_flow_extension']['en-us'] = "Enter the extension number.";
+$text['description-call_flow_extension']['vi-vn'] = 'Nhập số máy nhánh.';
 $text['description-call_flow_extension']['en-gb'] = "Enter the extension number.";
 $text['description-call_flow_extension']['ar-eg'] = "أدخل الرقم الداخلي.";
 $text['description-call_flow_extension']['de-at'] = "Weisen Sie die Nebenstelle aus.";
@@ -649,6 +673,7 @@ $text['description-call_flow_extension']['ja-jp'] = "内線番号を入力しま
 $text['description-call_flow_extension']['ko-kr'] = "내선번호를 입력하세요.";
 
 $text['description-call_flow_destination_label']['en-us'] = "Enter the destination label.";
+$text['description-call_flow_destination_label']['vi-vn'] = 'Nhập nhãn đích.';
 $text['description-call_flow_destination_label']['en-gb'] = "Enter the destination label.";
 $text['description-call_flow_destination_label']['ar-eg'] = "أدخل تسمية الوجهة.";
 $text['description-call_flow_destination_label']['de-at'] = "Geben Sie eine Beschreibung für das Ziel an.";
@@ -676,6 +701,7 @@ $text['description-call_flow_destination_label']['ja-jp'] = "宛先ラベルを�
 $text['description-call_flow_destination_label']['ko-kr'] = "대상 라벨을 입력합니다.";
 
 $text['description-call_flow_destination']['en-us'] = "Select the destination.";
+$text['description-call_flow_destination']['vi-vn'] = 'Chọn đích.';
 $text['description-call_flow_destination']['en-gb'] = "Select the destination.";
 $text['description-call_flow_destination']['ar-eg'] = "حدد الوجهة.";
 $text['description-call_flow_destination']['de-at'] = "Wählen Sie das Ziel.";
@@ -703,6 +729,7 @@ $text['description-call_flow_destination']['ja-jp'] = "宛先を選択します�
 $text['description-call_flow_destination']['ko-kr'] = "목적지를 선택합니다.";
 
 $text['description-call_flow_context']['en-us'] = "Enter the context.";
+$text['description-call_flow_context']['vi-vn'] = 'Nhập ngữ cảnh.';
 $text['description-call_flow_context']['en-gb'] = "Enter the context.";
 $text['description-call_flow_context']['ar-eg'] = "أدخل السياق.";
 $text['description-call_flow_context']['de-at'] = "Geben Sie den Kontext hier an.";
@@ -730,6 +757,7 @@ $text['description-call_flow_context']['ja-jp'] = "コンテキストを入力�
 $text['description-call_flow_context']['ko-kr'] = "컨텍스트를 입력하십시오.";
 
 $text['description-call_flows']['en-us'] = "Direct calls between two destinations by calling a feature code.";
+$text['description-call_flows']['vi-vn'] = 'Chuyển cuộc gọi giữa hai đích bằng cách gọi mã tính năng.';
 $text['description-call_flows']['en-gb'] = "Direct calls between two destinations by calling a feature code.";
 $text['description-call_flows']['ar-eg'] = "مكالمات مباشرة بين وجهتين عن طريق استدعاء رمز الميزة.";
 $text['description-call_flows']['de-at'] = "Leiten Sie Anrufe zwischen zwei Zielen um indem Sie einen Funktions-Code wählen.";
@@ -757,6 +785,7 @@ $text['description-call_flows']['ja-jp'] = "機能コードを呼び出して、
 $text['description-call_flows']['ko-kr'] = "기능 코드를 호출하여 두 대상 간에 직접 호출합니다.";
 
 $text['description-call_flow_alternate_label']['en-us'] = "Enter the alternate destination label.";
+$text['description-call_flow_alternate_label']['vi-vn'] = 'Nhập nhãn đích thay thế.';
 $text['description-call_flow_alternate_label']['en-gb'] = "Enter the alternate destination label.";
 $text['description-call_flow_alternate_label']['ar-eg'] = "أدخل تسمية الوجهة البديلة.";
 $text['description-call_flow_alternate_label']['de-at'] = "Geben Sie eine Beschreibung für das alternative Ziel ein.";
@@ -784,6 +813,7 @@ $text['description-call_flow_alternate_label']['ja-jp'] = "代替宛先ラベル
 $text['description-call_flow_alternate_label']['ko-kr'] = "대체 대상 레이블을 입력합니다.";
 
 $text['description-call_flow_alternate_destination']['en-us'] = "Select the alternate destination.";
+$text['description-call_flow_alternate_destination']['vi-vn'] = 'Chọn đích thay thế.';
 $text['description-call_flow_alternate_destination']['en-gb'] = "Select the alternate destination.";
 $text['description-call_flow_alternate_destination']['ar-eg'] = "حدد الوجهة البديلة.";
 $text['description-call_flow_alternate_destination']['de-at'] = "Wählen Sie ein alternatives Ziel.";
@@ -811,6 +841,7 @@ $text['description-call_flow_alternate_destination']['ja-jp'] = "代替宛先を
 $text['description-call_flow_alternate_destination']['ko-kr'] = "대체 대상을 선택합니다.";
 
 $text['description-call_flow_sound']['en-us'] = "Select the sound to play when the status is set to the destinations.";
+$text['description-call_flow_sound']['vi-vn'] = 'Chọn âm thanh phát khi trạng thái được đặt sang các đích.';
 $text['description-call_flow_sound']['en-gb'] = "Select the sound to play when the status is set to the destinations.";
 $text['description-call_flow_sound']['ar-eg'] = "حدد الصوت المراد تشغيله عند تعيين الحالة على الوجهات.";
 $text['description-call_flow_sound']['de-at'] = "Wählen Sie den zu spielenden Rufton aus, wenn das primäre Ziel ausgewählt ist.";
@@ -838,6 +869,7 @@ $text['description-call_flow_sound']['ja-jp'] = "ステータスが目的地に�
 $text['description-call_flow_sound']['ko-kr'] = "상태가 목적지로 설정되었을 때 재생할 사운드를 선택합니다.";
 
 $text['description-call_flow_alternate_sound']['en-us'] = "Select the sound to play when status is set to the alternate destination.";
+$text['description-call_flow_alternate_sound']['vi-vn'] = 'Chọn âm thanh phát khi trạng thái được đặt sang đích thay thế.';
 $text['description-call_flow_alternate_sound']['en-gb'] = "Select the sound to play when status is set to the alternate destination.";
 $text['description-call_flow_alternate_sound']['ar-eg'] = "حدد الصوت المراد تشغيله عند ضبط الحالة على الوجهة البديلة.";
 $text['description-call_flow_alternate_sound']['de-at'] = "Wählen Sie den zu spielenden Rufton aus, wenn das alternative Ziel ausgewählt ist.";
@@ -865,6 +897,7 @@ $text['description-call_flow_alternate_sound']['ja-jp'] = "ステータスが代
 $text['description-call_flow_alternate_sound']['ko-kr'] = "상태가 대체 대상으로 설정된 경우 재생할 사운드를 선택합니다.";
 
 $text['recordings']['en-us'] = "Recordings";
+$text['recordings']['vi-vn'] = 'Bản ghi âm';
 $text['recordings']['en-gb'] = "Recordings";
 $text['recordings']['ar-eg'] = "التسجيلات";
 $text['recordings']['de-at'] = "Aufnahmen";
@@ -892,6 +925,7 @@ $text['recordings']['ja-jp'] = "録音";
 $text['recordings']['ko-kr'] = "녹음";
 
 $text['miscellaneous']['en-us'] = "Miscellaneous";
+$text['miscellaneous']['vi-vn'] = 'Khác';
 $text['miscellaneous']['en-gb'] = "Miscellaneous";
 $text['miscellaneous']['ar-eg'] = "متنوع";
 $text['miscellaneous']['de-at'] = "Sonstiges";
@@ -919,6 +953,7 @@ $text['miscellaneous']['ja-jp'] = "その他";
 $text['miscellaneous']['ko-kr'] = "여러 가지 잡다한";
 
 $text['sounds']['en-us'] = "Sounds";
+$text['sounds']['vi-vn'] = 'Âm thanh';
 $text['sounds']['en-gb'] = "Sounds";
 $text['sounds']['ar-eg'] = "اصوات";
 $text['sounds']['de-at'] = "Ruftöne";

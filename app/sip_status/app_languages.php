@@ -1,6 +1,7 @@
 <?php
 
 $text['title-status']['en-us'] = "Status";
+$text['title-status']['vi-vn'] = "Trạng thái";
 $text['title-status']['en-gb'] = "Status";
 $text['title-status']['ar-eg'] = "الحالة";
 $text['title-status']['de-at'] = "Status";
@@ -28,6 +29,7 @@ $text['title-status']['ja-jp'] = "ステータス";
 $text['title-status']['ko-kr'] = "상태";
 
 $text['title-sofia-status-profile']['en-us'] = "sofia status profile";
+$text['title-sofia-status-profile']['vi-vn'] = "trạng thái sofia profile";
 $text['title-sofia-status-profile']['en-gb'] = "sofia status profile";
 $text['title-sofia-status-profile']['ar-eg'] = "حالة الصوفيا";
 $text['title-sofia-status-profile']['de-at'] = "sofia status profile";
@@ -55,6 +57,7 @@ $text['title-sofia-status-profile']['ja-jp'] = "ソフィアのステータス�
 $text['title-sofia-status-profile']['ko-kr'] = "소피아 상태 프로필";
 
 $text['title-sofia-status']['en-us'] = "sofia status";
+$text['title-sofia-status']['vi-vn'] = "trạng thái sofia";
 $text['title-sofia-status']['en-gb'] = "sofia status";
 $text['title-sofia-status']['ar-eg'] = "حالة صوفيا";
 $text['title-sofia-status']['de-at'] = "sofia status";
@@ -82,6 +85,7 @@ $text['title-sofia-status']['ja-jp'] = "ソフィアのステータス";
 $text['title-sofia-status']['ko-kr'] = "소피아 상태";
 
 $text['title-sip_status']['en-us'] = "SIP Status";
+$text['title-sip_status']['vi-vn'] = "Trạng thái SIP";
 $text['title-sip_status']['en-gb'] = "SIP Status";
 $text['title-sip_status']['ar-eg'] = "SIP الحالة";
 $text['title-sip_status']['de-at'] = "SIP Status";
@@ -109,6 +113,7 @@ $text['title-sip_status']['ja-jp'] = "SIPステータス";
 $text['title-sip_status']['ko-kr'] = "SIP 상태";
 
 $text['label-action']['en-us'] = "Action";
+$text['label-action']['vi-vn'] = "Thao tác";
 $text['label-action']['en-gb'] = "Action";
 $text['label-action']['ar-eg'] = "الإجراء";
 $text['label-action']['de-at'] = "Aktion";
@@ -136,6 +141,7 @@ $text['label-action']['ja-jp'] = "アクション";
 $text['label-action']['ko-kr'] = "행동";
 
 $text['label-state']['en-us'] = "State";
+$text['label-state']['vi-vn'] = "Trạng thái";
 $text['label-state']['en-gb'] = "State";
 $text['label-state']['ar-eg'] = "الدولة";
 $text['label-state']['de-at'] = "Status";
@@ -163,6 +169,7 @@ $text['label-state']['ja-jp'] = "州";
 $text['label-state']['ko-kr'] = "상태";
 
 $text['label-message']['en-us'] = "Message";
+$text['label-message']['vi-vn'] = "Thông báo";
 $text['label-message']['en-gb'] = "Message";
 $text['label-message']['ar-eg'] = "الرسالة";
 $text['label-message']['de-at'] = "Nachricht";
@@ -190,6 +197,7 @@ $text['label-message']['ja-jp'] = "メッセージ";
 $text['label-message']['ko-kr'] = "메시지";
 
 $text['label-data']['en-us'] = "Data";
+$text['label-data']['vi-vn'] = "Dữ liệu";
 $text['label-data']['en-gb'] = "Data";
 $text['label-data']['ar-eg'] = "البيانات";
 $text['label-data']['de-at'] = "Daten";
@@ -217,6 +225,7 @@ $text['label-data']['ja-jp'] = "データ";
 $text['label-data']['ko-kr'] = "데이터";
 
 $text['label-profile']['en-us'] = "Profile";
+$text['label-profile']['vi-vn'] = "Profile";
 $text['label-profile']['en-gb'] = "Profile";
 $text['label-profile']['ar-eg'] = "موجز";
 $text['label-profile']['de-at'] = "Profile";
@@ -244,6 +253,7 @@ $text['label-profile']['ja-jp'] = "プロフィール";
 $text['label-profile']['ko-kr'] = "프로필";
 
 $text['label-gateway']['en-us'] = "Gateway";
+$text['label-gateway']['vi-vn'] = "Gateway";
 $text['label-gateway']['en-gb'] = "Gateway";
 $text['label-gateway']['ar-eg'] = "البوابة";
 $text['label-gateway']['de-at'] = "Gateway";
@@ -271,6 +281,7 @@ $text['label-gateway']['ja-jp'] = "ゲートウェイ";
 $text['label-gateway']['ko-kr'] = "게이트웨이";
 
 $text['description-sip_status']['en-us'] = "View and manage the status of system profiles and gateways.";
+$text['description-sip_status']['vi-vn'] = "Xem và quản lý trạng thái của profile hệ thống và gateway.";
 $text['description-sip_status']['en-gb'] = "View and manage the status of system profiles and gateways.";
 $text['description-sip_status']['ar-eg'] = "عرض وإدارة حالة ملفات تعريف النظام والبوابات.";
 $text['description-sip_status']['de-at'] = "Anzeigen und Verwalten des Status von Systemprofilen und Gateways.";
@@ -298,6 +309,7 @@ $text['description-sip_status']['ja-jp'] = "システム プロファイルと�
 $text['description-sip_status']['ko-kr'] = "시스템 프로필 및 게이트웨이의 상태를 보고 관리합니다.";
 
 $text['error-event-socket']['en-us'] = "Connection to Event Socket failed.";
+$text['error-event-socket']['vi-vn'] = "Kết nối đến Event Socket thất bại.";
 $text['error-event-socket']['en-gb'] = "Connection to Event Socket failed.";
 $text['error-event-socket']['ar-eg'] = "فشل الاتصال بـ Event Socket.";
 $text['error-event-socket']['de-at'] = "Verbindung zum Event Socket fehlgeschlagen.";
@@ -325,6 +337,7 @@ $text['error-event-socket']['ja-jp'] = "イベントソケットへの接続に�
 $text['error-event-socket']['ko-kr'] = "이벤트 소켓에 연결하지 못했습니다.";
 
 $text['button-rescan']['en-us'] = "Rescan";
+$text['button-rescan']['vi-vn'] = "Quét lại";
 $text['button-rescan']['en-gb'] = "Rescan";
 $text['button-rescan']['ar-eg'] = "إعادة تفحص";
 $text['button-rescan']['de-at'] = "Neu scannen";
@@ -352,6 +365,7 @@ $text['button-rescan']['ja-jp'] = "再スキャン";
 $text['button-rescan']['ko-kr'] = "다시 스캔";
 
 $text['button-reload_xml']['en-us'] = "Reload XML";
+$text['button-reload_xml']['vi-vn'] = "Tải lại XML";
 $text['button-reload_xml']['en-gb'] = "Reload XML";
 $text['button-reload_xml']['ar-eg'] = "إعادة تحميل XML";
 $text['button-reload_xml']['de-at'] = "XML neu laden";
@@ -379,6 +393,7 @@ $text['button-reload_xml']['ja-jp'] = "XMLのリロード";
 $text['button-reload_xml']['ko-kr'] = "XML 다시 로드";
 
 $text['button-reload_acl']['en-us'] = "Reload ACL";
+$text['button-reload_acl']['vi-vn'] = "Tải lại ACL";
 $text['button-reload_acl']['en-gb'] = "Reload ACL";
 $text['button-reload_acl']['ar-eg'] = "إعادة تحميل ACL";
 $text['button-reload_acl']['de-at'] = "ACL neu laden";
@@ -406,6 +421,7 @@ $text['button-reload_acl']['ja-jp'] = "ACLのリロード";
 $text['button-reload_acl']['ko-kr'] = "ACL 다시 로드";
 
 $text['button-registrations']['en-us'] = "Registrations";
+$text['button-registrations']['vi-vn'] = "Đăng ký";
 $text['button-registrations']['en-gb'] = "Registrations";
 $text['button-registrations']['ar-eg'] = "التسجيلات";
 $text['button-registrations']['de-at'] = "Registrierungen";
@@ -433,6 +449,7 @@ $text['button-registrations']['ja-jp'] = "登録";
 $text['button-registrations']['ko-kr'] = "등록";
 
 $text['button-flush_registrations']['en-us'] = "Flush Registrations";
+$text['button-flush_registrations']['vi-vn'] = "Xóa đăng ký";
 $text['button-flush_registrations']['en-gb'] = "Flush Registrations";
 $text['button-flush_registrations']['ar-eg'] = "تسجيلات التدفق";
 $text['button-flush_registrations']['de-at'] = "Registrierungen verwerfen";
@@ -460,6 +477,7 @@ $text['button-flush_registrations']['ja-jp'] = "フラッシュ登録";
 $text['button-flush_registrations']['ko-kr'] = "플러시 등록";
 
 $text['button-flush_cache']['en-us'] = "Flush Cache";
+$text['button-flush_cache']['vi-vn'] = "Xóa cache";
 $text['button-flush_cache']['en-gb'] = "Flush Cache";
 $text['button-flush_cache']['ar-eg'] = "مقهى التدفق";
 $text['button-flush_cache']['de-at'] = "Cache leeren";

@@ -1,6 +1,7 @@
 <?php
 
 $text['title-fax_queue']['en-us'] = "FAX Queue";
+$text['title-fax_queue']['vi-vn'] = 'Hàng đợi fax';
 $text['title-fax_queue']['en-gb'] = "FAX Queue";
 $text['title-fax_queue']['ar-eg'] = "الفاكس";
 $text['title-fax_queue']['de-at'] = "FAX Warteschlange";
@@ -27,6 +28,7 @@ $text['title-fax_queue']['ja-jp'] = "FAXキュー";
 $text['title-fax_queue']['ko-kr'] = "팩스 대기열";
 
 $text['title_description-fax_queue']['en-us'] = "";
+$text['title_description-fax_queue']['vi-vn'] = '';
 $text['title_description-fax_queue']['en-gb'] = "";
 $text['title_description-fax_queue']['ar-eg'] = "";
 $text['title_description-fax_queue']['de-at'] = "";
@@ -53,6 +55,7 @@ $text['title_description-fax_queue']['ja-jp'] = "";
 $text['title_description-fax_queue']['ko-kr'] = "";
 
 $text['label-fax_uuid']['en-us'] = "FAX ID";
+$text['label-fax_uuid']['vi-vn'] = 'ID fax';
 $text['label-fax_uuid']['en-gb'] = "FAX ID";
 $text['label-fax_uuid']['ar-eg'] = "الفاكس id";
 $text['label-fax_uuid']['de-at'] = "FAX-ID";
@@ -79,6 +82,7 @@ $text['label-fax_uuid']['ja-jp'] = "ファックス識別";
 $text['label-fax_uuid']['ko-kr'] = "팩스 ID";
 
 $text['description-fax_uuid']['en-us'] = "";
+$text['description-fax_uuid']['vi-vn'] = '';
 $text['description-fax_uuid']['en-gb'] = "";
 $text['description-fax_uuid']['ar-eg'] = "";
 $text['description-fax_uuid']['de-at'] = "";
@@ -105,6 +109,7 @@ $text['description-fax_uuid']['ja-jp'] = "";
 $text['description-fax_uuid']['ko-kr'] = "";
 
 $text['label-fax_date']['en-us'] = "Date";
+$text['label-fax_date']['vi-vn'] = 'Ngày';
 $text['label-fax_date']['en-gb'] = "Date";
 $text['label-fax_date']['ar-eg'] = "التاريخ";
 $text['label-fax_date']['de-at'] = "Datum";
@@ -131,6 +136,7 @@ $text['label-fax_date']['ja-jp'] = "日にち";
 $text['label-fax_date']['ko-kr'] = "날짜";
 
 $text['description-fax_date']['en-us'] = "Date of the FAX entered the queue.";
+$text['description-fax_date']['vi-vn'] = 'Ngày fax được đưa vào hàng đợi.';
 $text['description-fax_date']['en-gb'] = "Date of the FAX entered the queue.";
 $text['description-fax_date']['ar-eg'] = "تاريخ الـ (إف إكس) دخل في الصف";
 $text['description-fax_date']['de-at'] = "Datum des FAX in die Warteschlange eingetragen.";
@@ -157,6 +163,7 @@ $text['description-fax_date']['ja-jp'] = "FAX がキューに入った日付。"
 $text['description-fax_date']['ko-kr'] = "팩스가 대기열에 들어간 날짜입니다.";
 
 $text['label-hostname']['en-us'] = "Hostname";
+$text['label-hostname']['vi-vn'] = 'Hostname';
 $text['label-hostname']['en-gb'] = "Hostname";
 $text['label-hostname']['ar-eg'] = "الاسم المضيف";
 $text['label-hostname']['de-at'] = "Hostname";
@@ -183,6 +190,7 @@ $text['label-hostname']['ja-jp'] = "ホスト名";
 $text['label-hostname']['ko-kr'] = "호스트 이름";
 
 $text['description-hostname']['en-us'] = "Hostname of the server.";
+$text['description-hostname']['vi-vn'] = 'Hostname của server.';
 $text['description-hostname']['en-gb'] = "Hostname of the server.";
 $text['description-hostname']['ar-eg'] = "اسم مضيف الخادم.";
 $text['description-hostname']['de-at'] = "Hostname des Servers.";
@@ -209,6 +217,7 @@ $text['description-hostname']['ja-jp'] = "サーバーのホスト名。";
 $text['description-hostname']['ko-kr'] = "서버의 호스트 이름입니다.";
 
 $text['label-fax_caller_id_name']['en-us'] = "Caller ID Name";
+$text['label-fax_caller_id_name']['vi-vn'] = 'Tên Caller ID';
 $text['label-fax_caller_id_name']['en-gb'] = "Caller ID Name";
 $text['label-fax_caller_id_name']['ar-eg'] = "اسم المتصل";
 $text['label-fax_caller_id_name']['de-at'] = "Name des Anrufers";
@@ -235,6 +244,7 @@ $text['label-fax_caller_id_name']['ja-jp'] = "発信者ID名";
 $text['label-fax_caller_id_name']['ko-kr'] = "발신자 ID 이름";
 
 $text['description-fax_caller_id_name']['en-us'] = "Enter the Caller ID name.";
+$text['description-fax_caller_id_name']['vi-vn'] = 'Nhập tên Caller ID.';
 $text['description-fax_caller_id_name']['en-gb'] = "Enter the Caller ID name.";
 $text['description-fax_caller_id_name']['ar-eg'] = "أدخل اسم (كالر)";
 $text['description-fax_caller_id_name']['de-at'] = "Geben Sie den Namen Caller ID ein.";
@@ -261,6 +271,7 @@ $text['description-fax_caller_id_name']['ja-jp'] = "発信者ID名を入力し�
 $text['description-fax_caller_id_name']['ko-kr'] = "발신자 ID 이름을 입력합니다.";
 
 $text['label-fax_caller_id_number']['en-us'] = "Caller ID Number";
+$text['label-fax_caller_id_number']['vi-vn'] = 'Số Caller ID';
 $text['label-fax_caller_id_number']['en-gb'] = "Caller ID Number";
 $text['label-fax_caller_id_number']['ar-eg'] = "رقم هوية المتصل";
 $text['label-fax_caller_id_number']['de-at'] = "Anrufer-ID-Nummer";
@@ -287,6 +298,7 @@ $text['label-fax_caller_id_number']['ja-jp'] = "発信者番号";
 $text['label-fax_caller_id_number']['ko-kr'] = "발신자 ID 번호";
 
 $text['description-fax_caller_id_number']['en-us'] = "Enter the Caller ID number.";
+$text['description-fax_caller_id_number']['vi-vn'] = 'Nhập số Caller ID.';
 $text['description-fax_caller_id_number']['en-gb'] = "Enter the Caller ID number.";
 $text['description-fax_caller_id_number']['ar-eg'] = "أدخل رقم هوية المتصل";
 $text['description-fax_caller_id_number']['de-at'] = "Geben Sie die Rufnummer ein.";
@@ -313,6 +325,7 @@ $text['description-fax_caller_id_number']['ja-jp'] = "発信者番号を入力�
 $text['description-fax_caller_id_number']['ko-kr'] = "발신자 ID 번호를 입력합니다.";
 
 $text['label-fax_number']['en-us'] = "Number";
+$text['label-fax_number']['vi-vn'] = 'Số';
 $text['label-fax_number']['en-gb'] = "Number";
 $text['label-fax_number']['ar-eg'] = "العدد";
 $text['label-fax_number']['de-at'] = "Anzahl";
@@ -339,6 +352,7 @@ $text['label-fax_number']['ja-jp'] = "番号";
 $text['label-fax_number']['ko-kr'] = "숫자";
 
 $text['description-fax_number']['en-us'] = "Enter the fax destination.";
+$text['description-fax_number']['vi-vn'] = 'Nhập đích fax.';
 $text['description-fax_number']['en-gb'] = "Enter the fax destination.";
 $text['description-fax_number']['ar-eg'] = "أدخل المقصد بالفاكس";
 $text['description-fax_number']['de-at'] = "Geben Sie das Fax-Ziel ein.";
@@ -365,6 +379,7 @@ $text['description-fax_number']['ja-jp'] = "ファクスの宛先を入力しま
 $text['description-fax_number']['ko-kr'] = "팩스 대상을 입력합니다.";
 
 $text['label-fax_prefix']['en-us'] = "Prefix";
+$text['label-fax_prefix']['vi-vn'] = 'Tiền tố';
 $text['label-fax_prefix']['en-gb'] = "Prefix";
 $text['label-fax_prefix']['ar-eg'] = "بادئة";
 $text['label-fax_prefix']['de-at'] = "Präfix";
@@ -391,6 +406,7 @@ $text['label-fax_prefix']['ja-jp'] = "プレフィックス";
 $text['label-fax_prefix']['ko-kr'] = "접두사";
 
 $text['description-fax_prefix']['en-us'] = "Enter the fax prefix.";
+$text['description-fax_prefix']['vi-vn'] = 'Nhập tiền tố fax.';
 $text['description-fax_prefix']['en-gb'] = "Enter the fax prefix.";
 $text['description-fax_prefix']['ar-eg'] = "إدخلْ فاكسَ prefix.";
 $text['description-fax_prefix']['de-at'] = "Geben Sie das Fax-Präfix ein.";
@@ -417,6 +433,7 @@ $text['description-fax_prefix']['ja-jp'] = "FAX プレフィックスを入力�
 $text['description-fax_prefix']['ko-kr'] = "팩스 접두사를 입력합니다.";
 
 $text['label-fax_email_address']['en-us'] = "Email Address";
+$text['label-fax_email_address']['vi-vn'] = 'Địa chỉ email';
 $text['label-fax_email_address']['en-gb'] = "Email Address";
 $text['label-fax_email_address']['ar-eg'] = "عنوان البريد الإلكتروني";
 $text['label-fax_email_address']['de-at'] = "Email Adresse";
@@ -443,6 +460,7 @@ $text['label-fax_email_address']['ja-jp'] = "電子メールアドレス";
 $text['label-fax_email_address']['ko-kr'] = "이메일 주소";
 
 $text['description-fax_email_address']['en-us'] = "Enter the fax email address.";
+$text['description-fax_email_address']['vi-vn'] = 'Nhập địa chỉ email fax.';
 $text['description-fax_email_address']['en-gb'] = "Enter the fax email address.";
 $text['description-fax_email_address']['ar-eg'] = "أدخل عنوان البريد الإلكتروني";
 $text['description-fax_email_address']['de-at'] = "Geben Sie die Fax-E-Mail-Adresse ein.";
@@ -469,6 +487,7 @@ $text['description-fax_email_address']['ja-jp'] = "FAXのメールアドレス�
 $text['description-fax_email_address']['ko-kr'] = "팩스 이메일 주소를 입력합니다.";
 
 $text['label-insert_user']['en-us'] = "User";
+$text['label-insert_user']['vi-vn'] = 'Người dùng';
 $text['label-insert_user']['en-gb'] = "User";
 $text['label-insert_user']['ar-eg'] = "مستخدم";
 $text['label-insert_user']['de-at'] = "Benutzer";
@@ -495,6 +514,7 @@ $text['label-insert_user']['ja-jp'] = "ユーザー";
 $text['label-insert_user']['ko-kr'] = "사용자";
 
 $text['label-fax_file']['en-us'] = "File";
+$text['label-fax_file']['vi-vn'] = 'File';
 $text['label-fax_file']['en-gb'] = "File";
 $text['label-fax_file']['ar-eg'] = "ملف";
 $text['label-fax_file']['de-at'] = "Datei";
@@ -521,6 +541,7 @@ $text['label-fax_file']['ja-jp'] = "ファイル";
 $text['label-fax_file']['ko-kr'] = "파일";
 
 $text['description-fax_file']['en-us'] = "Enter the fax file.";
+$text['description-fax_file']['vi-vn'] = 'Nhập tệp fax.';
 $text['description-fax_file']['en-gb'] = "Enter the fax file.";
 $text['description-fax_file']['ar-eg'] = "أدخل ملف الفاكس";
 $text['description-fax_file']['de-at'] = "Geben Sie die Faxdatei ein.";
@@ -547,6 +568,7 @@ $text['description-fax_file']['ja-jp'] = "FAX ファイルを入力します。"
 $text['description-fax_file']['ko-kr'] = "팩스 파일을 입력합니다.";
 
 $text['label-fax_status']['en-us'] = "Status";
+$text['label-fax_status']['vi-vn'] = 'Trạng thái';
 $text['label-fax_status']['en-gb'] = "Status";
 $text['label-fax_status']['ar-eg'] = "الحالة";
 $text['label-fax_status']['de-at'] = "Status";
@@ -573,6 +595,7 @@ $text['label-fax_status']['ja-jp'] = "スターテス";
 $text['label-fax_status']['ko-kr'] = "상태";
 
 $text['description-fax_status']['en-us'] = "Enter the fax status.";
+$text['description-fax_status']['vi-vn'] = 'Nhập trạng thái fax.';
 $text['description-fax_status']['en-gb'] = "Enter the fax status.";
 $text['description-fax_status']['ar-eg'] = "أدخلي حالة الفاكس";
 $text['description-fax_status']['de-at'] = "Geben Sie den Faxstatus ein.";
@@ -599,6 +622,7 @@ $text['description-fax_status']['ja-jp'] = "ファクスのステータスを入
 $text['description-fax_status']['ko-kr'] = "팩스 상태를 입력합니다.";
 
 $text['label-fax_retry_date']['en-us'] = "Retry Date";
+$text['label-fax_retry_date']['vi-vn'] = 'Ngày thử lại';
 $text['label-fax_retry_date']['en-gb'] = "Retry Date";
 $text['label-fax_retry_date']['ar-eg'] = "تاريخ الاسترجاع";
 $text['label-fax_retry_date']['de-at'] = "Wiederholungsdatum";
@@ -625,6 +649,7 @@ $text['label-fax_retry_date']['ja-jp'] = "再試行日";
 $text['label-fax_retry_date']['ko-kr'] = "재시도 날짜";
 
 $text['label-fax_notify_date']['en-us'] = "Notify Date";
+$text['label-fax_notify_date']['vi-vn'] = 'Ngày thông báo';
 $text['label-fax_notify_date']['en-gb'] = "Notify Date";
 $text['label-fax_notify_date']['ar-eg'] = "تاريخ الإخطار";
 $text['label-fax_notify_date']['de-at'] = "Benachrichtigungsdatum";
@@ -651,6 +676,7 @@ $text['label-fax_notify_date']['ja-jp'] = "通知日";
 $text['label-fax_notify_date']['ko-kr'] = "통지 날짜";
 
 $text['description-fax_retry_date']['en-us'] = "Date the fax was retried";
+$text['description-fax_retry_date']['vi-vn'] = 'Ngày fax được thử lại.';
 $text['description-fax_retry_date']['en-gb'] = "Date the fax was retried";
 $text['description-fax_retry_date']['ar-eg'] = "تاريخ استرجاع الفاكس";
 $text['description-fax_retry_date']['de-at'] = "Datum der Rückmeldung";
@@ -677,6 +703,7 @@ $text['description-fax_retry_date']['ja-jp'] = "ファックスが再試行さ�
 $text['description-fax_retry_date']['ko-kr'] = "팩스를 재시도한 날짜";
 
 $text['description-fax_notify_date']['en-us'] = "Date the fax was notified";
+$text['description-fax_notify_date']['vi-vn'] = 'Ngày fax được thông báo.';
 $text['description-fax_notify_date']['en-gb'] = "Date the fax was notified";
 $text['description-fax_notify_date']['ar-eg'] = "تاريخ الإخطار بالفاكس";
 $text['description-fax_notify_date']['de-at'] = "Datum der Mitteilung";
@@ -703,6 +730,7 @@ $text['description-fax_notify_date']['ja-jp'] = "FAXが通知された日";
 $text['description-fax_notify_date']['ko-kr'] = "팩스가 통지된 날짜";
 
 $text['label-fax_retry_count']['en-us'] = "Retry Count";
+$text['label-fax_retry_count']['vi-vn'] = 'Số lần thử lại';
 $text['label-fax_retry_count']['en-gb'] = "Retry Count";
 $text['label-fax_retry_count']['ar-eg'] = "إعادة المحاولة";
 $text['label-fax_retry_count']['de-at'] = "Wiederaufnahme";
@@ -729,6 +757,7 @@ $text['label-fax_retry_count']['ja-jp'] = "リトライ回数";
 $text['label-fax_retry_count']['ko-kr'] = "재시도 횟수";
 
 $text['description-fax_retry_count']['en-us'] = "Enter the fax retries.";
+$text['description-fax_retry_count']['vi-vn'] = 'Nhập số lần thử lại fax.';
 $text['description-fax_retry_count']['en-gb'] = "Enter the fax retries.";
 $text['description-fax_retry_count']['ar-eg'] = "أدخلوا غرف الفاكس";
 $text['description-fax_retry_count']['de-at'] = "Geben Sie die Fax-Retries ein.";
@@ -755,6 +784,7 @@ $text['description-fax_retry_count']['ja-jp'] = "FAX の再試行回数を入力
 $text['description-fax_retry_count']['ko-kr'] = "팩스 재시도를 입력합니다.";
 
 $text['label-fax_accountcode']['en-us'] = "Accountcode";
+$text['label-fax_accountcode']['vi-vn'] = 'Accountcode';
 $text['label-fax_accountcode']['en-gb'] = "Accountcode";
 $text['label-fax_accountcode']['ar-eg'] = "رمز الحساب";
 $text['label-fax_accountcode']['de-at'] = "Kontocode";
@@ -781,6 +811,7 @@ $text['label-fax_accountcode']['ja-jp'] = "口座番号";
 $text['label-fax_accountcode']['ko-kr'] = "계정 코드";
 
 $text['description-fax_accountcode']['en-us'] = "Enter the accountcode.";
+$text['description-fax_accountcode']['vi-vn'] = 'Nhập accountcode.';
 $text['description-fax_accountcode']['en-gb'] = "Enter the accountcode.";
 $text['description-fax_accountcode']['ar-eg'] = "أدخل رمز الحساب";
 $text['description-fax_accountcode']['de-at'] = "Geben Sie den Kontocode ein.";
@@ -807,6 +838,7 @@ $text['description-fax_accountcode']['ja-jp'] = "アカウントコードを入�
 $text['description-fax_accountcode']['ko-kr'] = "계정코드를 입력하세요.";
 
 $text['label-fax_command']['en-us'] = "Command";
+$text['label-fax_command']['vi-vn'] = 'Lệnh';
 $text['label-fax_command']['en-gb'] = "Command";
 $text['label-fax_command']['ar-eg'] = "القيادة";
 $text['label-fax_command']['de-at'] = "Befehl";
@@ -833,6 +865,7 @@ $text['label-fax_command']['ja-jp'] = "指図";
 $text['label-fax_command']['ko-kr'] = "명령";
 
 $text['description-fax_command']['en-us'] = "Command used to send the fax.";
+$text['description-fax_command']['vi-vn'] = 'Lệnh dùng để gửi fax.';
 $text['description-fax_command']['en-gb'] = "Command used to send the fax.";
 $text['description-fax_command']['ar-eg'] = "الأمر المستخدم لإرسال الفاكس.";
 $text['description-fax_command']['de-at'] = "Befehl zum Versenden des Faxes.";
@@ -859,6 +892,7 @@ $text['description-fax_command']['ja-jp'] = "FAX を送信するために使用�
 $text['description-fax_command']['ko-kr'] = "팩스를 보내는 데 사용되는 명령입니다.";
 
 $text['label-fax_response']['en-us'] = "Response";
+$text['label-fax_response']['vi-vn'] = 'Phản hồi';
 $text['label-fax_response']['en-gb'] = "Response";
 $text['label-fax_response']['ar-eg'] = "إجابة";
 $text['label-fax_response']['de-at'] = "Antwort";
@@ -885,6 +919,7 @@ $text['label-fax_response']['ja-jp'] = "応答";
 $text['label-fax_response']['ko-kr'] = "응답";
 
 $text['description-fax_response']['en-us'] = "Response recieved from sending the fax.";
+$text['description-fax_response']['vi-vn'] = 'Phản hồi nhận được khi gửi fax.';
 $text['description-fax_response']['en-gb'] = "Response recieved from sending the fax.";
 $text['description-fax_response']['ar-eg'] = "تم تلقي الرد من إرسال الفاكس.";
 $text['description-fax_response']['de-at'] = "Vom Senden des Faxes erhaltene Antwort.";
@@ -911,6 +946,7 @@ $text['description-fax_response']['ja-jp'] = "FAX送信からの応答を受信�
 $text['description-fax_response']['ko-kr'] = "팩스 전송에서 응답을 받았습니다.";
 
 $text['label-waiting']['en-us'] = "waiting";
+$text['label-waiting']['vi-vn'] = 'đang chờ';
 $text['label-waiting']['en-gb'] = "waiting";
 $text['label-waiting']['ar-eg'] = "الانتظار";
 $text['label-waiting']['de-at'] = "warten";
@@ -937,6 +973,7 @@ $text['label-waiting']['ja-jp'] = "待っている";
 $text['label-waiting']['ko-kr'] = "대기 중";
 
 $text['label-failed']['en-us'] = "failed";
+$text['label-failed']['vi-vn'] = 'thất bại';
 $text['label-failed']['en-gb'] = "failed";
 $text['label-failed']['ar-eg'] = "فشل";
 $text['label-failed']['de-at'] = "gescheitert";
@@ -963,6 +1000,7 @@ $text['label-failed']['ja-jp'] = "失敗した";
 $text['label-failed']['ko-kr'] = "실패한";
 
 $text['label-sent']['en-us'] = "sent";
+$text['label-sent']['vi-vn'] = 'đã gửi';
 $text['label-sent']['en-gb'] = "sent";
 $text['label-sent']['ar-eg'] = "أرسلت";
 $text['label-sent']['de-at'] = "gesendet";
@@ -989,6 +1027,7 @@ $text['label-sent']['ja-jp'] = "送信済";
 $text['label-sent']['ko-kr'] = "전송된";
 
 $text['label-trying']['en-us'] = "trying";
+$text['label-trying']['vi-vn'] = 'đang thử';
 $text['label-trying']['en-gb'] = "trying";
 $text['label-trying']['ar-eg'] = "محاولة";
 $text['label-trying']['de-at'] = "versuchen";
@@ -1015,6 +1054,7 @@ $text['label-trying']['ja-jp'] = "試しています";
 $text['label-trying']['ko-kr'] = "견딜 수 없는";
 
 $text['label-sending']['en-us'] = "sending";
+$text['label-sending']['vi-vn'] = 'đang gửi';
 $text['label-sending']['en-gb'] = "sending";
 $text['label-sending']['ar-eg'] = "إرسال";
 $text['label-sending']['de-at'] = "senden";
@@ -1041,6 +1081,7 @@ $text['label-sending']['ja-jp'] = "送信";
 $text['label-sending']['ko-kr'] = "배상";
 
 $text['label-busy']['en-us'] = "busy";
+$text['label-busy']['vi-vn'] = 'bận';
 $text['label-busy']['en-gb'] = "busy";
 $text['label-busy']['ar-eg'] = "مشغول";
 $text['label-busy']['de-at'] = "beschäftigt";
@@ -1067,6 +1108,7 @@ $text['label-busy']['ja-jp'] = "忙しい";
 $text['label-busy']['ko-kr'] = "바쁘다";
 
 $text['button-resend']['en-us'] = "Resend";
+$text['button-resend']['vi-vn'] = 'Gửi lại';
 $text['button-resend']['en-gb'] = "Resend";
 $text['button-resend']['ar-eg'] = "إعادة إرسال";
 $text['button-resend']['de-at'] = "Erneut senden";
@@ -1094,6 +1136,7 @@ $text['button-resend']['ja-jp'] = "再送信";
 $text['button-resend']['ko-kr'] = "재전송";
 
 $text['modal_title-resend']['en-us'] = "Resend Faxes";
+$text['modal_title-resend']['vi-vn'] = 'Gửi lại fax';
 $text['modal_title-resend']['en-gb'] = "Resend Faxes";
 $text['modal_title-resend']['ar-eg'] = "إعادة إرسال الفاكسات";
 $text['modal_title-resend']['de-at'] = "Faxe erneut senden";
@@ -1121,6 +1164,7 @@ $text['modal_title-resend']['ja-jp'] = "FAXの再送信";
 $text['modal_title-resend']['ko-kr'] = "팩스 재전송";
 
 $text['modal_message-resend']['en-us'] = "You are about to resend the selected faxes in the fax queue.";
+$text['modal_message-resend']['vi-vn'] = 'Bạn sắp gửi lại các fax đã chọn trong hàng đợi fax.';
 $text['modal_message-resend']['en-gb'] = "You are about to resend the selected faxes in the fax queue.";
 $text['modal_message-resend']['ar-eg'] = "أنت على وشك إعادة إرسال الفاكسات المحددة في قائمة انتظار الفاكسات.";
 $text['modal_message-resend']['de-at'] = "Sie sind dabei, die ausgewählten Faxe in der Faxwarteschlange erneut zu senden.";
@@ -1148,6 +1192,7 @@ $text['modal_message-resend']['ja-jp'] = "ファックス キュー内の選択�
 $text['modal_message-resend']['ko-kr'] = "팩스 대기열에서 선택한 팩스를 다시 보내려고 합니다.";
 
 $text['message-resending_faxes']['en-us'] = "Resending Fax(es)";
+$text['message-resending_faxes']['vi-vn'] = 'Đang gửi lại fax';
 $text['message-resending_faxes']['en-gb'] = "Resending Fax(es)";
 $text['message-resending_faxes']['ar-eg'] = "إعادة إرسال الفاكسات";
 $text['message-resending_faxes']['de-at'] = "Erneutes Senden von Faxen";

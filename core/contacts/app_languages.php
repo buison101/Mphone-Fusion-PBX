@@ -1,6 +1,7 @@
 <?php
 
 $text['title-contacts_import_google']['en-us'] = "Import Google Contacts";
+$text['title-contacts_import_google']['vi-vn'] = "Nhập liên hệ Google";
 $text['title-contacts_import_google']['en-gb'] = "Import Google Contacts";
 $text['title-contacts_import_google']['ar-eg'] = "استيراد جهات اتصال جوجل";
 $text['title-contacts_import_google']['de-at'] = "Google Kontakte importieren";
@@ -27,6 +28,7 @@ $text['title-contacts_import_google']['ja-jp'] = "Google コンタクトのイ�
 $text['title-contacts_import_google']['ko-kr'] = "Google 주소록 가져오기";
 
 $text['title-contacts_import']['en-us'] = "Import Contacts";
+$text['title-contacts_import']['vi-vn'] = "Nhập liên hệ";
 $text['title-contacts_import']['en-gb'] = "Import Contacts";
 $text['title-contacts_import']['ar-eg'] = "استيراد جهات الاتصال";
 $text['title-contacts_import']['de-at'] = "Kontakte importieren";
@@ -53,6 +55,7 @@ $text['title-contacts_import']['ja-jp'] = "連絡先のインポート";
 $text['title-contacts_import']['ko-kr'] = "연락처 가져오기";
 
 $text['title-contacts']['en-us'] = "Contacts";
+$text['title-contacts']['vi-vn'] = "Liên hệ";
 $text['title-contacts']['en-gb'] = "Contacts";
 $text['title-contacts']['ar-eg'] = "جهات الاتصال";
 $text['title-contacts']['de-at'] = "Kontakte";
@@ -79,6 +82,7 @@ $text['title-contacts']['ja-jp'] = "連絡先";
 $text['title-contacts']['ko-kr'] = "콘택트 렌즈";
 
 $text['title-contact_properties']['en-us'] = "Contact Properties";
+$text['title-contact_properties']['vi-vn'] = "Thuộc tính liên hệ";
 $text['title-contact_properties']['en-gb'] = "Contact Properties";
 $text['title-contact_properties']['ar-eg'] = "خصائص الاتصال";
 $text['title-contact_properties']['de-at'] = "Kontakt Eigenschaften";
@@ -105,6 +109,7 @@ $text['title-contact_properties']['ja-jp'] = "連絡先のプロパティ";
 $text['title-contact_properties']['ko-kr'] = "연락처 속성";
 
 $text['title-contact_email-edit']['en-us'] = "Contact Email Edit";
+$text['title-contact_email-edit']['vi-vn'] = "Sửa email liên hệ";
 $text['title-contact_email-edit']['en-gb'] = "Contact Email Edit";
 $text['title-contact_email-edit']['ar-eg'] = "تحرير البريد الإلكتروني لجهة الاتصال";
 $text['title-contact_email-edit']['de-at'] = "Email des Kontakts bearbeiten";
@@ -131,6 +136,7 @@ $text['title-contact_email-edit']['ja-jp'] = "連絡先メール編集";
 $text['title-contact_email-edit']['ko-kr'] = "연락처 이메일 편집";
 
 $text['title-contact_email-add']['en-us'] = "Contact Email Add";
+$text['title-contact_email-add']['vi-vn'] = "Thêm email liên hệ";
 $text['title-contact_email-add']['en-gb'] = "Contact Email Add";
 $text['title-contact_email-add']['ar-eg'] = "إضافة البريد الإلكتروني لجهة الاتصال";
 $text['title-contact_email-add']['de-at'] = "Email zum Kontakt hinzufügen";
@@ -157,6 +163,7 @@ $text['title-contact_email-add']['ja-jp'] = "連絡先メールアドレス追�
 $text['title-contact_email-add']['ko-kr'] = "연락처 이메일 추가";
 
 $text['title-contact_url-edit']['en-us'] = "Contact URL Edit";
+$text['title-contact_url-edit']['vi-vn'] = "Sửa URL liên hệ";
 $text['title-contact_url-edit']['en-gb'] = "Contact URL Edit";
 $text['title-contact_url-edit']['ar-eg'] = "تحرير عنوان URL لجهة الاتصال";
 $text['title-contact_url-edit']['de-at'] = "URL bearbeiten";
@@ -183,6 +190,7 @@ $text['title-contact_url-edit']['ja-jp'] = "連絡先 URL 編集";
 $text['title-contact_url-edit']['ko-kr'] = "연락처 URL 편집";
 
 $text['title-contact_url-add']['en-us'] = "Contact URL Add";
+$text['title-contact_url-add']['vi-vn'] = "Thêm URL liên hệ";
 $text['title-contact_url-add']['en-gb'] = "Contact URL Add";
 $text['title-contact_url-add']['ar-eg'] = "إضافة عنوان URL لجهة الاتصال";
 $text['title-contact_url-add']['de-at'] = "URL hinzufügen";
@@ -209,6 +217,7 @@ $text['title-contact_url-add']['ja-jp'] = "連絡先 URL 追加";
 $text['title-contact_url-add']['ko-kr'] = "연락처 URL 추가";
 
 $text['title-contact_time_edit']['en-us'] = "Time Edit";
+$text['title-contact_time_edit']['vi-vn'] = "Sửa thời gian";
 $text['title-contact_time_edit']['en-gb'] = "Time Edit";
 $text['title-contact_time_edit']['ar-eg'] = "تحرير الوقت";
 $text['title-contact_time_edit']['de-at'] = "Zeit bearbeiten";
@@ -235,6 +244,7 @@ $text['title-contact_time_edit']['ja-jp'] = "時間編集";
 $text['title-contact_time_edit']['ko-kr'] = "시간 편집";
 
 $text['title-contact_time_add']['en-us'] = "Time Add";
+$text['title-contact_time_add']['vi-vn'] = "Thêm thời gian";
 $text['title-contact_time_add']['en-gb'] = "Time Add";
 $text['title-contact_time_add']['ar-eg'] = "تحرير الوقت";
 $text['title-contact_time_add']['de-at'] = "Zeit hinzufügen";
@@ -261,6 +271,7 @@ $text['title-contact_time_add']['ja-jp'] = "時間追加";
 $text['title-contact_time_add']['ko-kr'] = "시간 추가";
 
 $text['title-contact_setting_edit']['en-us'] = "Contact Setting Edit";
+$text['title-contact_setting_edit']['vi-vn'] = "Sửa cài đặt liên hệ";
 $text['title-contact_setting_edit']['en-gb'] = "Contact Setting Edit";
 $text['title-contact_setting_edit']['ar-eg'] = "تحرير إعداد الاتصال";
 $text['title-contact_setting_edit']['de-at'] = "Einstellungen bearbeiten";
@@ -287,6 +298,7 @@ $text['title-contact_setting_edit']['ja-jp'] = "連絡先設定編集";
 $text['title-contact_setting_edit']['ko-kr'] = "연락처 설정 편집";
 
 $text['title-contact_setting_add']['en-us'] = "Contact Setting Add";
+$text['title-contact_setting_add']['vi-vn'] = "Thêm cài đặt liên hệ";
 $text['title-contact_setting_add']['en-gb'] = "Contact Setting Add";
 $text['title-contact_setting_add']['ar-eg'] = "إضافة إعداد الاتصال";
 $text['title-contact_setting_add']['de-at'] = "Einstellungen hinzufügen";
@@ -313,6 +325,7 @@ $text['title-contact_setting_add']['ja-jp'] = "連絡先設定追加";
 $text['title-contact_setting_add']['ko-kr'] = "연락처 설정 추가";
 
 $text['title-contact_relation']['en-us'] = "Contact Relation";
+$text['title-contact_relation']['vi-vn'] = "Quan hệ liên hệ";
 $text['title-contact_relation']['en-gb'] = "Contact Relation";
 $text['title-contact_relation']['ar-eg'] = "علاقات الاتصال";
 $text['title-contact_relation']['de-at'] = "Beziehung";
@@ -339,6 +352,7 @@ $text['title-contact_relation']['ja-jp'] = "連絡先";
 $text['title-contact_relation']['ko-kr'] = "연락처 관계";
 
 $text['title-contact_phones-edit']['en-us'] = "Contact Number Edit";
+$text['title-contact_phones-edit']['vi-vn'] = "Sửa số liên hệ";
 $text['title-contact_phones-edit']['en-gb'] = "Contact Number Edit";
 $text['title-contact_phones-edit']['ar-eg'] = "تحرير رقم الاتصال";
 $text['title-contact_phones-edit']['de-at'] = "Nummer bearbeiten";
@@ -365,6 +379,7 @@ $text['title-contact_phones-edit']['ja-jp'] = "連絡先番号の編集";
 $text['title-contact_phones-edit']['ko-kr'] = "연락처 편집";
 
 $text['title-contact_phones-add']['en-us'] = "Contact Number Add";
+$text['title-contact_phones-add']['vi-vn'] = "Thêm số liên hệ";
 $text['title-contact_phones-add']['en-gb'] = "Contact Number Add";
 $text['title-contact_phones-add']['ar-eg'] = "إضافة رقم الاتصال";
 $text['title-contact_phones-add']['de-at'] = "Nummer hinzufügen";
@@ -391,6 +406,7 @@ $text['title-contact_phones-add']['ja-jp'] = "連絡先番号の追加";
 $text['title-contact_phones-add']['ko-kr'] = "연락처 추가";
 
 $text['title-contact_notes-edit']['en-us'] = "Contact Note Edit";
+$text['title-contact_notes-edit']['vi-vn'] = "Sửa ghi chú liên hệ";
 $text['title-contact_notes-edit']['en-gb'] = "Contact Note Edit";
 $text['title-contact_notes-edit']['ar-eg'] = "تحرير ملاحظة جهة الاتصال";
 $text['title-contact_notes-edit']['de-at'] = "Notiz bearbeiten";
@@ -417,6 +433,7 @@ $text['title-contact_notes-edit']['ja-jp'] = "連絡先メモの編集";
 $text['title-contact_notes-edit']['ko-kr'] = "연락처 메모 편집";
 
 $text['title-contact_notes-add']['en-us'] = "Contact Note Add";
+$text['title-contact_notes-add']['vi-vn'] = "Thêm ghi chú liên hệ";
 $text['title-contact_notes-add']['en-gb'] = "Contact Note Add";
 $text['title-contact_notes-add']['ar-eg'] = "إضافة ملاحظة جهة الاتصال";
 $text['title-contact_notes-add']['de-at'] = "Notiz hinzufügen";
@@ -443,6 +460,7 @@ $text['title-contact_notes-add']['ja-jp'] = "連絡先メモの追加";
 $text['title-contact_notes-add']['ko-kr'] = "연락처 메모 추가";
 
 $text['title-contact_addresses-edit']['en-us'] = "Contact Address Edit";
+$text['title-contact_addresses-edit']['vi-vn'] = "Sửa địa chỉ liên hệ";
 $text['title-contact_addresses-edit']['en-gb'] = "Contact Address Edit";
 $text['title-contact_addresses-edit']['ar-eg'] = "تحرير عنوان جهة الاتصال";
 $text['title-contact_addresses-edit']['de-at'] = "Adresse bearbeiten";
@@ -469,6 +487,7 @@ $text['title-contact_addresses-edit']['ja-jp'] = "連絡先住所編集";
 $text['title-contact_addresses-edit']['ko-kr'] = "연락처 주소 편집";
 
 $text['title-contact_addresses-add']['en-us'] = "Contact Address Add";
+$text['title-contact_addresses-add']['vi-vn'] = "Thêm địa chỉ liên hệ";
 $text['title-contact_addresses-add']['en-gb'] = "Contact Address Add";
 $text['title-contact_addresses-add']['ar-eg'] = "إضافة عنوان الاتصال";
 $text['title-contact_addresses-add']['de-at'] = "Adresse hinzufügen";
@@ -495,6 +514,7 @@ $text['title-contact_addresses-add']['ja-jp'] = "連絡先追加";
 $text['title-contact_addresses-add']['ko-kr'] = "연락처 주소 추가";
 
 $text['title-contact_attachment-edit']['en-us'] = "Contact Attachment Edit";
+$text['title-contact_attachment-edit']['vi-vn'] = "Sửa tệp đính kèm liên hệ";
 $text['title-contact_attachment-edit']['en-gb'] = "Contact Attachment Edit";
 $text['title-contact_attachment-edit']['ar-eg'] = "تحرير مرفق جهة الاتصال";
 $text['title-contact_attachment-edit']['de-at'] = "Kontaktanhang bearbeiten";
@@ -521,6 +541,7 @@ $text['title-contact_attachment-edit']['ja-jp'] = "連絡先の添付ファイ�
 $text['title-contact_attachment-edit']['ko-kr'] = "연락처 편집";
 
 $text['title-contact_attachment-add']['en-us'] = "Contact Attachment Add";
+$text['title-contact_attachment-add']['vi-vn'] = "Thêm tệp đính kèm liên hệ";
 $text['title-contact_attachment-add']['en-gb'] = "Contact Attachment Add";
 $text['title-contact_attachment-add']['ar-eg'] = "إضافة مرفق الاتصال";
 $text['title-contact_attachment-add']['de-at'] = "Kontaktanhang hinzufügen";
@@ -547,6 +568,7 @@ $text['title-contact_attachment-add']['ja-jp'] = "連絡先添付追加";
 $text['title-contact_attachment-add']['ko-kr'] = "연락처 첨부 추가";
 
 $text['title-contact-edit']['en-us'] = "Contact";
+$text['title-contact-edit']['vi-vn'] = "Liên hệ";
 $text['title-contact-edit']['en-gb'] = "Contact";
 $text['title-contact-edit']['ar-eg'] = "اتصال";
 $text['title-contact-edit']['de-at'] = "Kontakt";
@@ -573,6 +595,7 @@ $text['title-contact-edit']['ja-jp'] = "コンタクト";
 $text['title-contact-edit']['ko-kr'] = "연락하다";
 
 $text['title-contact-add']['en-us'] = "Contact Add";
+$text['title-contact-add']['vi-vn'] = "Thêm liên hệ";
 $text['title-contact-add']['en-gb'] = "Contact Add";
 $text['title-contact-add']['ar-eg'] = "إضافة جهة اتصال";
 $text['title-contact-add']['de-at'] = "Kontakt hinzufügen";
@@ -599,6 +622,7 @@ $text['title-contact-add']['ja-jp'] = "連絡先の追加";
 $text['title-contact-add']['ko-kr'] = "연락처 추가";
 
 $text['option-work']['en-us'] = "Work";
+$text['option-work']['vi-vn'] = "Công việc";
 $text['option-work']['en-gb'] = "Work";
 $text['option-work']['ar-eg'] = "عمل";
 $text['option-work']['de-at'] = "Arbeit";
@@ -625,6 +649,7 @@ $text['option-work']['ja-jp'] = "仕事";
 $text['option-work']['ko-kr'] = "일하다";
 
 $text['option-voicemail']['en-us'] = "Voicemail";
+$text['option-voicemail']['vi-vn'] = "Thư thoại";
 $text['option-voicemail']['en-gb'] = "Voicemail";
 $text['option-voicemail']['ar-eg'] = "البريد الصوتي";
 $text['option-voicemail']['de-at'] = "Mailbox";
@@ -651,6 +676,7 @@ $text['option-voicemail']['ja-jp'] = "ボイスメール";
 $text['option-voicemail']['ko-kr'] = "음성사서함";
 
 $text['option-true']['en-us'] = "True";
+$text['option-true']['vi-vn'] = "Đúng";
 $text['option-true']['en-gb'] = "True";
 $text['option-true']['ar-eg'] = "صحيح";
 $text['option-true']['de-at'] = "Ein";
@@ -677,6 +703,7 @@ $text['option-true']['ja-jp'] = "真実";
 $text['option-true']['ko-kr'] = "진실";
 
 $text['option-text']['en-us'] = "Text";
+$text['option-text']['vi-vn'] = "Văn bản";
 $text['option-text']['en-gb'] = "Text";
 $text['option-text']['ar-eg'] = "نص";
 $text['option-text']['de-at'] = "Text";
@@ -703,6 +730,7 @@ $text['option-text']['ja-jp'] = "文章";
 $text['option-text']['ko-kr'] = "텍스트";
 
 $text['option-shipping']['en-us'] = "Shipping";
+$text['option-shipping']['vi-vn'] = "Giao hàng";
 $text['option-shipping']['en-gb'] = "Shipping";
 $text['option-shipping']['ar-eg'] = "شحن";
 $text['option-shipping']['de-at'] = "Versand";
@@ -729,6 +757,7 @@ $text['option-shipping']['ja-jp'] = "運送";
 $text['option-shipping']['ko-kr'] = "배송";
 
 $text['option-pref']['en-us'] = "Preferred";
+$text['option-pref']['vi-vn'] = "Ưu tiên";
 $text['option-pref']['en-gb'] = "Preferred";
 $text['option-pref']['ar-eg'] = "يفضل";
 $text['option-pref']['de-at'] = "Bevorzugt";
@@ -755,6 +784,7 @@ $text['option-pref']['ja-jp'] = "優先";
 $text['option-pref']['ko-kr'] = "우선의";
 
 $text['option-postal']['en-us'] = "Postal";
+$text['option-postal']['vi-vn'] = "Bưu chính";
 $text['option-postal']['en-gb'] = "Postal";
 $text['option-postal']['ar-eg'] = "بريدي";
 $text['option-postal']['de-at'] = "Postalisch";
@@ -781,6 +811,7 @@ $text['option-postal']['ja-jp'] = "郵便";
 $text['option-postal']['ko-kr'] = "우편 엽서";
 
 $text['option-physical']['en-us'] = "Physical";
+$text['option-physical']['vi-vn'] = "Vật lý";
 $text['option-physical']['en-gb'] = "Physical";
 $text['option-physical']['ar-eg'] = "بدني";
 $text['option-physical']['de-at'] = "Physikalisch";
@@ -807,6 +838,7 @@ $text['option-physical']['ja-jp'] = "物理的";
 $text['option-physical']['ko-kr'] = "물리적";
 
 $text['option-personal']['en-us'] = "Personal";
+$text['option-personal']['vi-vn'] = "Cá nhân";
 $text['option-personal']['en-gb'] = "Personal";
 $text['option-personal']['ar-eg'] = "شخصي";
 $text['option-personal']['de-at'] = "Privat";
@@ -833,6 +865,7 @@ $text['option-personal']['ja-jp'] = "個人的";
 $text['option-personal']['ko-kr'] = "개인의";
 
 $text['option-parcel']['en-us'] = "Parcel";
+$text['option-parcel']['vi-vn'] = "Bưu kiện";
 $text['option-parcel']['en-gb'] = "Parcel";
 $text['option-parcel']['ar-eg'] = "قطعة";
 $text['option-parcel']['de-at'] = "Paket";
@@ -859,6 +892,7 @@ $text['option-parcel']['ja-jp'] = "小包";
 $text['option-parcel']['ko-kr'] = "소포";
 
 $text['option-pager']['en-us'] = "Pager";
+$text['option-pager']['vi-vn'] = "Máy nhắn tin";
 $text['option-pager']['en-gb'] = "Pager";
 $text['option-pager']['ar-eg'] = "بيجر";
 $text['option-pager']['de-at'] = "Pager";
@@ -885,6 +919,7 @@ $text['option-pager']['ja-jp'] = "ページャ";
 $text['option-pager']['ko-kr'] = "휴대용 소형 무선 호출기";
 
 $text['option-other']['en-us'] = "Other";
+$text['option-other']['vi-vn'] = "Khác";
 $text['option-other']['en-gb'] = "Other";
 $text['option-other']['ar-eg'] = "آخر";
 $text['option-other']['de-at'] = "Andere";
@@ -911,6 +946,7 @@ $text['option-other']['ja-jp'] = "他の";
 $text['option-other']['ko-kr'] = "다른";
 
 $text['option-mobile']['en-us'] = "Mobile";
+$text['option-mobile']['vi-vn'] = "Di động";
 $text['option-mobile']['en-gb'] = "Mobile";
 $text['option-mobile']['ar-eg'] = "متحرك";
 $text['option-mobile']['de-at'] = "Mobil";
@@ -937,6 +973,7 @@ $text['option-mobile']['ja-jp'] = "モバイル";
 $text['option-mobile']['ko-kr'] = "이동하는";
 
 $text['option-main']['en-us'] = "Main";
+$text['option-main']['vi-vn'] = "Chính";
 $text['option-main']['en-gb'] = "Main";
 $text['option-main']['ar-eg'] = "رئيسي";
 $text['option-main']['de-at'] = "Vorrangig";
@@ -963,6 +1000,7 @@ $text['option-main']['ja-jp'] = "主要";
 $text['option-main']['ko-kr'] = "기본";
 
 $text['option-mailing']['en-us'] = "Mailing";
+$text['option-mailing']['vi-vn'] = "Gửi thư";
 $text['option-mailing']['en-gb'] = "Mailing";
 $text['option-mailing']['ar-eg'] = "المراسلات";
 $text['option-mailing']['de-at'] = "Postalisch";
@@ -989,6 +1027,7 @@ $text['option-mailing']['ja-jp'] = "郵送";
 $text['option-mailing']['ko-kr'] = "메일링";
 
 $text['option-intl']['en-us'] = "International";
+$text['option-intl']['vi-vn'] = "Quốc tế";
 $text['option-intl']['en-gb'] = "International";
 $text['option-intl']['ar-eg'] = "دولي";
 $text['option-intl']['de-at'] = "International";
@@ -1015,6 +1054,7 @@ $text['option-intl']['ja-jp'] = "国際的";
 $text['option-intl']['ko-kr'] = "국제적인";
 
 $text['option-import_duplicates_skip']['en-us'] = "Skip";
+$text['option-import_duplicates_skip']['vi-vn'] = "Bỏ qua";
 $text['option-import_duplicates_skip']['en-gb'] = "Skip";
 $text['option-import_duplicates_skip']['ar-eg'] = "يتخطى";
 $text['option-import_duplicates_skip']['de-at'] = "Überspringen";
@@ -1041,6 +1081,7 @@ $text['option-import_duplicates_skip']['ja-jp'] = "スキップ";
 $text['option-import_duplicates_skip']['ko-kr'] = "건너뛰다";
 
 $text['option-import_duplicates_replace']['en-us'] = "Replace";
+$text['option-import_duplicates_replace']['vi-vn'] = "Thay thế";
 $text['option-import_duplicates_replace']['en-gb'] = "Replace";
 $text['option-import_duplicates_replace']['ar-eg'] = "يستبدل";
 $text['option-import_duplicates_replace']['de-at'] = "Ersetzen";
@@ -1067,6 +1108,7 @@ $text['option-import_duplicates_replace']['ja-jp'] = "交換";
 $text['option-import_duplicates_replace']['ko-kr'] = "바꾸다";
 
 $text['option-home']['en-us'] = "Home";
+$text['option-home']['vi-vn'] = "Nhà riêng";
 $text['option-home']['en-gb'] = "Home";
 $text['option-home']['ar-eg'] = "بيت";
 $text['option-home']['de-at'] = "Privat";
@@ -1093,6 +1135,7 @@ $text['option-home']['ja-jp'] = "家";
 $text['option-home']['ko-kr'] = "집";
 
 $text['option-fax']['en-us'] = "Fax";
+$text['option-fax']['vi-vn'] = "Fax";
 $text['option-fax']['en-gb'] = "Fax";
 $text['option-fax']['ar-eg'] = "فاكس";
 $text['option-fax']['de-at'] = "Fax";
@@ -1119,6 +1162,7 @@ $text['option-fax']['ja-jp'] = "ファックス";
 $text['option-fax']['ko-kr'] = "팩스";
 
 $text['option-false']['en-us'] = "False";
+$text['option-false']['vi-vn'] = "Sai";
 $text['option-false']['en-gb'] = "False";
 $text['option-false']['ar-eg'] = "خطأ شنيع";
 $text['option-false']['de-at'] = "Aus";
@@ -1145,6 +1189,7 @@ $text['option-false']['ja-jp'] = "間違い";
 $text['option-false']['ko-kr'] = "거짓";
 
 $text['option-dom']['en-us'] = "Domestic";
+$text['option-dom']['vi-vn'] = "Trong nước";
 $text['option-dom']['en-gb'] = "Domestic";
 $text['option-dom']['ar-eg'] = "محلي";
 $text['option-dom']['de-at'] = "Lokal";
@@ -1171,6 +1216,7 @@ $text['option-dom']['ja-jp'] = "国内";
 $text['option-dom']['ko-kr'] = "국내의";
 
 $text['option-contact_type_volunteer']['en-us'] = "Volunteer";
+$text['option-contact_type_volunteer']['vi-vn'] = "Tình nguyện viên";
 $text['option-contact_type_volunteer']['en-gb'] = "Volunteer";
 $text['option-contact_type_volunteer']['ar-eg'] = "متطوع";
 $text['option-contact_type_volunteer']['de-at'] = "Freiwilliger Helfer";
@@ -1197,6 +1243,7 @@ $text['option-contact_type_volunteer']['ja-jp'] = "ボランティア";
 $text['option-contact_type_volunteer']['ko-kr'] = "자원 봉사자";
 
 $text['option-contact_type_user']['en-us'] = "User";
+$text['option-contact_type_user']['vi-vn'] = "Người dùng";
 $text['option-contact_type_user']['en-gb'] = "User";
 $text['option-contact_type_user']['ar-eg'] = "مستخدم";
 $text['option-contact_type_user']['de-at'] = "Benutzer";
@@ -1223,6 +1270,7 @@ $text['option-contact_type_user']['ja-jp'] = "ユーザー";
 $text['option-contact_type_user']['ko-kr'] = "사용자";
 
 $text['option-contact_type_supplier']['en-us'] = "Supplier";
+$text['option-contact_type_supplier']['vi-vn'] = "Nhà cung cấp";
 $text['option-contact_type_supplier']['en-gb'] = "Supplier";
 $text['option-contact_type_supplier']['ar-eg'] = "المورد";
 $text['option-contact_type_supplier']['de-at'] = "Lieferant";
@@ -1249,6 +1297,7 @@ $text['option-contact_type_supplier']['ja-jp'] = "サプライヤー";
 $text['option-contact_type_supplier']['ko-kr'] = "공급자";
 
 $text['option-contact_type_subscriber']['en-us'] = "Subscriber";
+$text['option-contact_type_subscriber']['vi-vn'] = "Thuê bao";
 $text['option-contact_type_subscriber']['en-gb'] = "Subscriber";
 $text['option-contact_type_subscriber']['ar-eg'] = "مشترك";
 $text['option-contact_type_subscriber']['de-at'] = "Teilnehmer";
@@ -1275,6 +1324,7 @@ $text['option-contact_type_subscriber']['ja-jp'] = "購読者";
 $text['option-contact_type_subscriber']['ko-kr'] = "구독자";
 
 $text['option-contact_type_provider']['en-us'] = "Provider";
+$text['option-contact_type_provider']['vi-vn'] = "Nhà cung cấp";
 $text['option-contact_type_provider']['en-gb'] = "Provider";
 $text['option-contact_type_provider']['ar-eg'] = "مزود";
 $text['option-contact_type_provider']['de-at'] = "Anbieter";
@@ -1301,6 +1351,7 @@ $text['option-contact_type_provider']['ja-jp'] = "プロバイダー";
 $text['option-contact_type_provider']['ko-kr'] = "공급자";
 
 $text['option-contact_type_member']['en-us'] = "Member";
+$text['option-contact_type_member']['vi-vn'] = "Thành viên";
 $text['option-contact_type_member']['en-gb'] = "Member";
 $text['option-contact_type_member']['ar-eg'] = "عضو";
 $text['option-contact_type_member']['de-at'] = "Teilnehmer";
@@ -1327,6 +1378,7 @@ $text['option-contact_type_member']['ja-jp'] = "メンバー";
 $text['option-contact_type_member']['ko-kr'] = "회원";
 
 $text['option-contact_type_lead']['en-us'] = "Lead";
+$text['option-contact_type_lead']['vi-vn'] = "Lead";
 $text['option-contact_type_lead']['en-gb'] = "Lead";
 $text['option-contact_type_lead']['ar-eg'] = "يقود";
 $text['option-contact_type_lead']['de-at'] = "Vorgesetzter";
@@ -1353,6 +1405,7 @@ $text['option-contact_type_lead']['ja-jp'] = "鉛";
 $text['option-contact_type_lead']['ko-kr'] = "선두";
 
 $text['option-contact_type_friend']['en-us'] = "Friend";
+$text['option-contact_type_friend']['vi-vn'] = "Bạn bè";
 $text['option-contact_type_friend']['en-gb'] = "Friend";
 $text['option-contact_type_friend']['ar-eg'] = "صديق";
 $text['option-contact_type_friend']['de-at'] = "Freund";
@@ -1379,6 +1432,7 @@ $text['option-contact_type_friend']['ja-jp'] = "友達";
 $text['option-contact_type_friend']['ko-kr'] = "친구";
 
 $text['option-contact_type_family']['en-us'] = "Family";
+$text['option-contact_type_family']['vi-vn'] = "Gia đình";
 $text['option-contact_type_family']['en-gb'] = "Family";
 $text['option-contact_type_family']['ar-eg'] = "عائلة";
 $text['option-contact_type_family']['de-at'] = "Familie";
@@ -1405,6 +1459,7 @@ $text['option-contact_type_family']['ja-jp'] = "家族";
 $text['option-contact_type_family']['ko-kr'] = "가족";
 
 $text['option-contact_type_customer']['en-us'] = "Customer";
+$text['option-contact_type_customer']['vi-vn'] = "Khách hàng";
 $text['option-contact_type_customer']['en-gb'] = "Customer";
 $text['option-contact_type_customer']['ar-eg'] = "عميل";
 $text['option-contact_type_customer']['de-at'] = "Kunde";
@@ -1431,6 +1486,7 @@ $text['option-contact_type_customer']['ja-jp'] = "お客様";
 $text['option-contact_type_customer']['ko-kr'] = "고객";
 
 $text['option-contact_type_contractor']['en-us'] = "Contractor";
+$text['option-contact_type_contractor']['vi-vn'] = "Nhà thầu";
 $text['option-contact_type_contractor']['en-gb'] = "Contractor";
 $text['option-contact_type_contractor']['ar-eg'] = "مقاول";
 $text['option-contact_type_contractor']['de-at'] = "Vertragspartner";
@@ -1457,6 +1513,7 @@ $text['option-contact_type_contractor']['ja-jp'] = "請負業者";
 $text['option-contact_type_contractor']['ko-kr'] = "계약자";
 
 $text['option-billing']['en-us'] = "Billing";
+$text['option-billing']['vi-vn'] = "Thanh toán";
 $text['option-billing']['en-gb'] = "Billing";
 $text['option-billing']['ar-eg'] = "الفواتير";
 $text['option-billing']['de-at'] = "Verrechnung";
@@ -1483,6 +1540,7 @@ $text['option-billing']['ja-jp'] = "請求する";
 $text['option-billing']['ko-kr'] = "결제";
 
 $text['message_contacts_imported_skipped']['en-us'] = "Skipped:";
+$text['message_contacts_imported_skipped']['vi-vn'] = "Đã bỏ qua:";
 $text['message_contacts_imported_skipped']['en-gb'] = "Skipped:";
 $text['message_contacts_imported_skipped']['ar-eg'] = "تم تخطيه:";
 $text['message_contacts_imported_skipped']['de-at'] = "Übersprungen:";
@@ -1509,6 +1567,7 @@ $text['message_contacts_imported_skipped']['ja-jp'] = "スキップ:";
 $text['message_contacts_imported_skipped']['ko-kr'] = "건너뛴:";
 
 $text['message_contacts_imported_replaced']['en-us'] = "Replaced:";
+$text['message_contacts_imported_replaced']['vi-vn'] = "Đã thay thế:";
 $text['message_contacts_imported_replaced']['en-gb'] = "Replaced:";
 $text['message_contacts_imported_replaced']['ar-eg'] = "تم استبداله:";
 $text['message_contacts_imported_replaced']['de-at'] = "Ersetzt:";
@@ -1535,6 +1594,7 @@ $text['message_contacts_imported_replaced']['ja-jp'] = "置換:";
 $text['message_contacts_imported_replaced']['ko-kr'] = "교체됨:";
 
 $text['message-update']['en-us'] = "Update Completed";
+$text['message-update']['vi-vn'] = "Cập nhật hoàn tất";
 $text['message-update']['en-gb'] = "Update Completed";
 $text['message-update']['ar-eg'] = "تحديث الانتهاء";
 $text['message-update']['de-at'] = "Aktualisierung durchgeführt";
@@ -1561,6 +1621,7 @@ $text['message-update']['ja-jp'] = "アップデート完了";
 $text['message-update']['ko-kr'] = "업데이트 완료";
 
 $text['message-results']['en-us'] = "The following contacts were successfully imported from the uploaded CSV file:";
+$text['message-results']['vi-vn'] = "Các liên hệ sau đã được nhập thành công từ file CSV đã tải lên:";
 $text['message-results']['en-gb'] = "The following contacts were successfully imported from the uploaded CSV file:";
 $text['message-results']['ar-eg'] = "تم استيراد جهات الاتصال التالية بنجاح من ملف CSV الذي تم تحميله:";
 $text['message-results']['de-at'] = "Die folgenden Kontakte wurden erfolgreich aus der hochgeladenen CSV Datei importiert:";
@@ -1587,6 +1648,7 @@ $text['message-results']['ja-jp'] = "次の連絡先は、アップロードさ�
 $text['message-results']['ko-kr'] = "업로드된 CSV 파일에서 다음 연락처를 성공적으로 가져왔습니다.";
 
 $text['message-required']['en-us'] = "Please provide: ";
+$text['message-required']['vi-vn'] = "Vui lòng cung cấp: ";
 $text['message-required']['en-gb'] = "Please provide: ";
 $text['message-required']['ar-eg'] = "يرجى تقديم: ";
 $text['message-required']['de-at'] = "Bitte geben Sie folgendes an:";
@@ -1613,6 +1675,7 @@ $text['message-required']['ja-jp'] = "どうか提供してください：";
 $text['message-required']['ko-kr'] = "제공 부탁드립니다:";
 
 $text['message-invalid_credentials']['en-us'] = "Invalid Credentials";
+$text['message-invalid_credentials']['vi-vn'] = "Thông tin xác thực không hợp lệ";
 $text['message-invalid_credentials']['en-gb'] = "Invalid Credentials";
 $text['message-invalid_credentials']['ar-eg'] = "بيانات الاعتماد غير صالحة";
 $text['message-invalid_credentials']['de-at'] = "Ungültibe Benutzerdaten";
@@ -1639,6 +1702,7 @@ $text['message-invalid_credentials']['ja-jp'] = "無効な資格情報";
 $text['message-invalid_credentials']['ko-kr'] = "잘못된 자격 증명";
 
 $text['message-google_signed_out']['en-us'] = "Google Account: Signed Out";
+$text['message-google_signed_out']['vi-vn'] = "Tài khoản Google: đã đăng xuất";
 $text['message-google_signed_out']['en-gb'] = "Google Account: Signed Out";
 $text['message-google_signed_out']['ar-eg'] = "حساب Google: تسجيل الخروج";
 $text['message-google_signed_out']['de-at'] = "Google Konto: Abgemeldet";
@@ -1665,6 +1729,7 @@ $text['message-google_signed_out']['ja-jp'] = "Google アカウント: ログア
 $text['message-google_signed_out']['ko-kr'] = "Google 계정: 로그아웃됨";
 
 $text['message-delete']['en-us'] = "Delete Completed";
+$text['message-delete']['vi-vn'] = "Xóa hoàn tất";
 $text['message-delete']['en-gb'] = "Delete Completed";
 $text['message-delete']['ar-eg'] = "اكتمل الحذف";
 $text['message-delete']['de-at'] = "Erfolgreich gelöscht";
@@ -1691,6 +1756,7 @@ $text['message-delete']['ja-jp'] = "削除完了";
 $text['message-delete']['ko-kr'] = "삭제 완료";
 
 $text['message-contacts_imported']['en-us'] = "Contacts Imported:";
+$text['message-contacts_imported']['vi-vn'] = "Liên hệ đã nhập:";
 $text['message-contacts_imported']['en-gb'] = "Contacts Imported:";
 $text['message-contacts_imported']['ar-eg'] = "جهات الاتصال المستوردة:";
 $text['message-contacts_imported']['de-at'] = "Kontakte importiert:";
@@ -1717,6 +1783,7 @@ $text['message-contacts_imported']['ja-jp'] = "インポートされた連絡先
 $text['message-contacts_imported']['ko-kr'] = "가져온 연락처:";
 
 $text['message-add']['en-us'] = "Add Completed";
+$text['message-add']['vi-vn'] = "Thêm hoàn tất";
 $text['message-add']['en-gb'] = "Add Completed";
 $text['message-add']['ar-eg'] = "اكتمل الإضافة";
 $text['message-add']['de-at'] = "Erfolgreich hinzugefügt";
@@ -1743,6 +1810,7 @@ $text['message-add']['ja-jp'] = "追加完了";
 $text['message-add']['ko-kr'] = "추가완료";
 
 $text['message-access_denied']['en-us'] = "Access Denied";
+$text['message-access_denied']['vi-vn'] = "Truy cập bị từ chối";
 $text['message-access_denied']['en-gb'] = "Access Denied";
 $text['message-access_denied']['ar-eg'] = "تم الرفض";
 $text['message-access_denied']['de-at'] = "Zugang verweigert";
@@ -1769,6 +1837,7 @@ $text['message-access_denied']['ja-jp'] = "アクセス拒否";
 $text['message-access_denied']['ko-kr'] = "접근 불가";
 
 $text['message-uploaded']['en-us'] = "File Uploaded";
+$text['message-uploaded']['vi-vn'] = "File đã tải lên";
 $text['message-uploaded']['en-gb'] = "File Uploaded";
 $text['message-uploaded']['ar-eg'] = "ملف محمول";
 $text['message-uploaded']['de-at'] = "Datei hochgeladen";
@@ -1794,6 +1863,7 @@ $text['message-uploaded']['ja-jp'] = "ファイルがアップロードされま
 $text['message-uploaded']['ko-kr'] = "업로드된 파일";
 
 $text['message-speed_dial_exists']['en-us'] = "Speed Dial Number Already Exists";
+$text['message-speed_dial_exists']['vi-vn'] = "Số quay nhanh đã tồn tại";
 $text['message-speed_dial_exists']['en-gb'] = "Speed Dial Number Already Exists";
 $text['message-speed_dial_exists']['ar-eg'] = "رقم الاتصال السريع موجود بالفعل";
 $text['message-speed_dial_exists']['de-at'] = "Kurzwahlnummer existiert bereits";
@@ -1819,6 +1889,7 @@ $text['message-speed_dial_exists']['ja-jp'] = "短縮ダイヤル番号は既に
 $text['message-speed_dial_exists']['ko-kr'] = "단축번호가 이미 존재합니다";
 
 $text['label-voice']['en-us'] = "Voice";
+$text['label-voice']['vi-vn'] = "Thoại";
 $text['label-voice']['en-gb'] = "Voice";
 $text['label-voice']['ar-eg'] = "صوت";
 $text['label-voice']['de-at'] = "Sprache";
@@ -1845,6 +1916,7 @@ $text['label-voice']['ja-jp'] = "声";
 $text['label-voice']['ko-kr'] = "목소리";
 
 $text['label-video']['en-us'] = "Video";
+$text['label-video']['vi-vn'] = "Video";
 $text['label-video']['en-gb'] = "Video";
 $text['label-video']['ar-eg'] = "فيديو";
 $text['label-video']['de-at'] = "Video";
@@ -1871,6 +1943,7 @@ $text['label-video']['ja-jp'] = "ビデオ";
 $text['label-video']['ko-kr'] = "동영상";
 
 $text['label-urls']['en-us'] = "URLs";
+$text['label-urls']['vi-vn'] = "URL";
 $text['label-urls']['en-gb'] = "URLs";
 $text['label-urls']['ar-eg'] = "عناوين URL";
 $text['label-urls']['de-at'] = "URLs";
@@ -1897,6 +1970,7 @@ $text['label-urls']['ja-jp'] = "URLs";
 $text['label-urls']['ko-kr'] = "URLs";
 
 $text['label-url_label']['en-us'] = "Label";
+$text['label-url_label']['vi-vn'] = "Nhãn";
 $text['label-url_label']['en-gb'] = "Label";
 $text['label-url_label']['ar-eg'] = "ملصق";
 $text['label-url_label']['de-at'] = "Kennzeichnung";
@@ -1923,6 +1997,7 @@ $text['label-url_label']['ja-jp'] = "ラベル";
 $text['label-url_label']['ko-kr'] = "상표";
 
 $text['label-url_description']['en-us'] = "Description";
+$text['label-url_description']['vi-vn'] = "Mô tả";
 $text['label-url_description']['en-gb'] = "Description";
 $text['label-url_description']['ar-eg'] = "وصف";
 $text['label-url_description']['de-at'] = "Beschreibung";
@@ -1949,6 +2024,7 @@ $text['label-url_description']['ja-jp'] = "説明";
 $text['label-url_description']['ko-kr'] = "설명";
 
 $text['label-url_address']['en-us'] = "Address";
+$text['label-url_address']['vi-vn'] = "Địa chỉ";
 $text['label-url_address']['en-gb'] = "Address";
 $text['label-url_address']['ar-eg'] = "عنوان";
 $text['label-url_address']['de-at'] = "Adresse";
@@ -1975,6 +2051,7 @@ $text['label-url_address']['ja-jp'] = "住所";
 $text['label-url_address']['ko-kr'] = "주소";
 
 $text['label-true']['en-us'] = "True";
+$text['label-true']['vi-vn'] = "Đúng";
 $text['label-true']['en-gb'] = "True";
 $text['label-true']['ar-eg'] = "حقيقي";
 $text['label-true']['de-at'] = "Ein";
@@ -2001,6 +2078,7 @@ $text['label-true']['ja-jp'] = "真実";
 $text['label-true']['ko-kr'] = "진실";
 
 $text['label-time_user']['en-us'] = "User";
+$text['label-time_user']['vi-vn'] = "Người dùng";
 $text['label-time_user']['en-gb'] = "User";
 $text['label-time_user']['ar-eg'] = "مستخدم";
 $text['label-time_user']['de-at'] = "Benutzer";
@@ -2027,6 +2105,7 @@ $text['label-time_user']['ja-jp'] = "ユーザー";
 $text['label-time_user']['ko-kr'] = "사용자";
 
 $text['label-time_timer']['en-us'] = "Timer";
+$text['label-time_timer']['vi-vn'] = "Bộ đếm thời gian";
 $text['label-time_timer']['en-gb'] = "Timer";
 $text['label-time_timer']['ar-eg'] = "الموقت";
 $text['label-time_timer']['de-at'] = "Timer";
@@ -2053,6 +2132,7 @@ $text['label-time_timer']['ja-jp'] = "タイマー";
 $text['label-time_timer']['ko-kr'] = "시간제 노동자";
 
 $text['label-time_time']['en-us'] = "Time";
+$text['label-time_time']['vi-vn'] = "Thời gian";
 $text['label-time_time']['en-gb'] = "Time";
 $text['label-time_time']['ar-eg'] = "وقت";
 $text['label-time_time']['de-at'] = "Zeit";
@@ -2079,6 +2159,7 @@ $text['label-time_time']['ja-jp'] = "時間";
 $text['label-time_time']['ko-kr'] = "시간";
 
 $text['label-time_stop']['en-us'] = "Stop";
+$text['label-time_stop']['vi-vn'] = "Dừng";
 $text['label-time_stop']['en-gb'] = "Stop";
 $text['label-time_stop']['ar-eg'] = "قف";
 $text['label-time_stop']['de-at'] = "Stopp";
@@ -2105,6 +2186,7 @@ $text['label-time_stop']['ja-jp'] = "ストップ";
 $text['label-time_stop']['ko-kr'] = "멈추다";
 
 $text['label-time_start']['en-us'] = "Start";
+$text['label-time_start']['vi-vn'] = "Bắt đầu";
 $text['label-time_start']['en-gb'] = "Start";
 $text['label-time_start']['ar-eg'] = "يبدأ";
 $text['label-time_start']['de-at'] = "Start";
@@ -2131,6 +2213,7 @@ $text['label-time_start']['ja-jp'] = "始める";
 $text['label-time_start']['ko-kr'] = "시작";
 
 $text['label-time_duration']['en-us'] = "Duration";
+$text['label-time_duration']['vi-vn'] = "Thời lượng";
 $text['label-time_duration']['en-gb'] = "Duration";
 $text['label-time_duration']['ar-eg'] = "مدة";
 $text['label-time_duration']['de-at'] = "Dauer";
@@ -2157,6 +2240,7 @@ $text['label-time_duration']['ja-jp'] = "間隔";
 $text['label-time_duration']['ko-kr'] = "지속";
 
 $text['label-time_description']['en-us'] = "Description";
+$text['label-time_description']['vi-vn'] = "Mô tả";
 $text['label-time_description']['en-gb'] = "Description";
 $text['label-time_description']['ar-eg'] = "وصف";
 $text['label-time_description']['de-at'] = "Beschreibung";
@@ -2183,6 +2267,7 @@ $text['label-time_description']['ja-jp'] = "説明";
 $text['label-time_description']['ko-kr'] = "설명";
 
 $text['label-text']['en-us'] = "Text";
+$text['label-text']['vi-vn'] = "Văn bản";
 $text['label-text']['en-gb'] = "Text";
 $text['label-text']['ar-eg'] = "نص";
 $text['label-text']['de-at'] = "Text";
@@ -2209,6 +2294,7 @@ $text['label-text']['ja-jp'] = "文章";
 $text['label-text']['ko-kr'] = "텍스트";
 
 $text['label-shared']['en-us'] = "Shared";
+$text['label-shared']['vi-vn'] = "Đã chia sẻ";
 $text['label-shared']['en-gb'] = "Shared";
 $text['label-shared']['ar-eg'] = "مشترك";
 $text['label-shared']['de-at'] = "Gemeinsame";
@@ -2235,6 +2321,7 @@ $text['label-shared']['ja-jp'] = "共有";
 $text['label-shared']['ko-kr'] = "공유";
 
 $text['label-phone_label']['en-us'] = "Label";
+$text['label-phone_label']['vi-vn'] = "Nhãn";
 $text['label-phone_label']['en-gb'] = "Label";
 $text['label-phone_label']['ar-eg'] = "ملصق";
 $text['label-phone_label']['de-at'] = "Kennzeichnung";
@@ -2261,6 +2348,7 @@ $text['label-phone_label']['ja-jp'] = "ラベル";
 $text['label-phone_label']['ko-kr'] = "상표";
 
 $text['label-phone_type']['en-us'] = "Type";
+$text['label-phone_type']['vi-vn'] = "Loại";
 $text['label-phone_type']['en-gb'] = "Type";
 $text['label-phone_type']['ar-eg'] = "يكتب";
 $text['label-phone_type']['de-at'] = "Art";
@@ -2287,6 +2375,7 @@ $text['label-phone_type']['ja-jp'] = "タイプ";
 $text['label-phone_type']['ko-kr'] = "유형";
 
 $text['label-phone_tools']['en-us'] = "Tools";
+$text['label-phone_tools']['vi-vn'] = "Công cụ";
 $text['label-phone_tools']['en-gb'] = "Tools";
 $text['label-phone_tools']['ar-eg'] = "أدوات";
 $text['label-phone_tools']['de-at'] = "Werkzeuge";
@@ -2313,6 +2402,7 @@ $text['label-phone_tools']['ja-jp'] = "ツール";
 $text['label-phone_tools']['ko-kr'] = "도구";
 
 $text['label-phone_speed_dial']['en-us'] = "Speed Dial";
+$text['label-phone_speed_dial']['vi-vn'] = "Quay số nhanh";
 $text['label-phone_speed_dial']['en-gb'] = "Speed Dial";
 $text['label-phone_speed_dial']['ar-eg'] = "اتصال سريع";
 $text['label-phone_speed_dial']['de-at'] = "Kurzwahl";
@@ -2339,6 +2429,7 @@ $text['label-phone_speed_dial']['ja-jp'] = "短縮ダイヤル";
 $text['label-phone_speed_dial']['ko-kr'] = "단축 다이얼";
 
 $text['label-phone_country_code']['en-us'] = "Country Code";
+$text['label-phone_country_code']['vi-vn'] = "Mã quốc gia";
 $text['label-phone_country_code']['en-gb'] = "Country Code";
 $text['label-phone_country_code']['ar-eg'] = "الرقم الدولي";
 $text['label-phone_country_code']['de-at'] = "Landesvorwahl";
@@ -2365,6 +2456,7 @@ $text['label-phone_country_code']['ja-jp'] = "国コード";
 $text['label-phone_country_code']['ko-kr'] = "국가 코드";
 
 $text['label-phone_numbers']['en-us'] = "Numbers";
+$text['label-phone_numbers']['vi-vn'] = "Số";
 $text['label-phone_numbers']['en-gb'] = "Numbers";
 $text['label-phone_numbers']['ar-eg'] = "أعداد";
 $text['label-phone_numbers']['de-at'] = "Nummern";
@@ -2391,6 +2483,7 @@ $text['label-phone_numbers']['ja-jp'] = "数字";
 $text['label-phone_numbers']['ko-kr'] = "숫자";
 
 $text['label-phone_number']['en-us'] = "Number";
+$text['label-phone_number']['vi-vn'] = "Số";
 $text['label-phone_number']['en-gb'] = "Number";
 $text['label-phone_number']['ar-eg'] = "رقم";
 $text['label-phone_number']['de-at'] = "Nummer";
@@ -2417,6 +2510,7 @@ $text['label-phone_number']['ja-jp'] = "番号";
 $text['label-phone_number']['ko-kr'] = "숫자";
 
 $text['label-phone_extension']['en-us'] = "Extension";
+$text['label-phone_extension']['vi-vn'] = "Máy nhánh";
 $text['label-phone_extension']['en-gb'] = "Extension";
 $text['label-phone_extension']['ar-eg'] = "امتداد";
 $text['label-phone_extension']['de-at'] = "Nebenstelle";
@@ -2443,6 +2537,7 @@ $text['label-phone_extension']['ja-jp'] = "拡大";
 $text['label-phone_extension']['ko-kr'] = "확대";
 
 $text['label-primary']['en-us'] = "Primary";
+$text['label-primary']['vi-vn'] = "Chính";
 $text['label-primary']['en-gb'] = "Primary";
 $text['label-primary']['ar-eg'] = "أساسي";
 $text['label-primary']['de-at'] = "Primär";
@@ -2469,6 +2564,7 @@ $text['label-primary']['ja-jp'] = "主要な";
 $text['label-primary']['ko-kr'] = "주요한";
 
 $text['label-phone_description']['en-us'] = "Description";
+$text['label-phone_description']['vi-vn'] = "Mô tả";
 $text['label-phone_description']['en-gb'] = "Description";
 $text['label-phone_description']['ar-eg'] = "وصف";
 $text['label-phone_description']['de-at'] = "Beschreibung";
@@ -2495,6 +2591,7 @@ $text['label-phone_description']['ja-jp'] = "説明";
 $text['label-phone_description']['ko-kr'] = "설명";
 
 $text['label-phone_call']['en-us'] = "Call";
+$text['label-phone_call']['vi-vn'] = "Gọi";
 $text['label-phone_call']['en-gb'] = "Call";
 $text['label-phone_call']['ar-eg'] = "يتصل";
 $text['label-phone_call']['de-at'] = "Anrufen";
@@ -2521,6 +2618,7 @@ $text['label-phone_call']['ja-jp'] = "電話";
 $text['label-phone_call']['ko-kr'] = "부르다";
 
 $text['label-order']['en-us'] = "Order";
+$text['label-order']['vi-vn'] = "Thứ tự";
 $text['label-order']['en-gb'] = "Order";
 $text['label-order']['ar-eg'] = "طلب";
 $text['label-order']['de-at'] = "Reihenfolge";
@@ -2547,6 +2645,7 @@ $text['label-order']['ja-jp'] = "注文";
 $text['label-order']['ko-kr'] = "주문하다";
 
 $text['label-note_user']['en-us'] = "User";
+$text['label-note_user']['vi-vn'] = "Người dùng";
 $text['label-note_user']['en-gb'] = "User";
 $text['label-note_user']['ar-eg'] = "مستخدم";
 $text['label-note_user']['de-at'] = "Benutzer";
@@ -2573,6 +2672,7 @@ $text['label-note_user']['ja-jp'] = "ユーザー";
 $text['label-note_user']['ko-kr'] = "사용자";
 
 $text['label-note_content']['en-us'] = "Content";
+$text['label-note_content']['vi-vn'] = "Nội dung";
 $text['label-note_content']['en-gb'] = "Content";
 $text['label-note_content']['ar-eg'] = "محتوى";
 $text['label-note_content']['de-at'] = "Inhalt";
@@ -2599,6 +2699,7 @@ $text['label-note_content']['ja-jp'] = "コンテンツ";
 $text['label-note_content']['ko-kr'] = "콘텐츠";
 
 $text['label-import_file_upload']['en-us'] = "File to Upload";
+$text['label-import_file_upload']['vi-vn'] = "File tải lên";
 $text['label-import_file_upload']['en-gb'] = "File to Upload";
 $text['label-import_file_upload']['ar-eg'] = "ملف للتحميل";
 $text['label-import_file_upload']['de-at'] = "Datei zum hochladen";
@@ -2625,6 +2726,7 @@ $text['label-import_file_upload']['ja-jp'] = "アップロードするファイ�
 $text['label-import_file_upload']['ko-kr'] = "업로드할 파일";
 
 $text['label-import_fields']['en-us'] = "Fields";
+$text['label-import_fields']['vi-vn'] = "Trường";
 $text['label-import_fields']['en-gb'] = "Fields";
 $text['label-import_fields']['ar-eg'] = "مجالات";
 $text['label-import_fields']['de-at'] = "Felder";
@@ -2651,6 +2753,7 @@ $text['label-import_fields']['ja-jp'] = "田畑";
 $text['label-import_fields']['ko-kr'] = "字段";
 
 $text['label-import_enclosure']['en-us'] = "Enclosure";
+$text['label-import_enclosure']['vi-vn'] = "Ký tự bao";
 $text['label-import_enclosure']['en-gb'] = "Enclosure";
 $text['label-import_enclosure']['ar-eg'] = "نسيج";
 $text['label-import_enclosure']['de-at'] = "Abgrenzung";
@@ -2677,6 +2780,7 @@ $text['label-import_enclosure']['ja-jp'] = "囲い";
 $text['label-import_enclosure']['ko-kr'] = "울로 둘러싼 땅";
 
 $text['label-import_duplicates']['en-us'] = "Duplicates";
+$text['label-import_duplicates']['vi-vn'] = "Trùng lặp";
 $text['label-import_duplicates']['en-gb'] = "Duplicates";
 $text['label-import_duplicates']['ar-eg'] = "مكرر";
 $text['label-import_duplicates']['de-at'] = "Duplikate";
@@ -2703,6 +2807,7 @@ $text['label-import_duplicates']['ja-jp'] = "重複";
 $text['label-import_duplicates']['ko-kr'] = "중복";
 
 $text['label-import_data']['en-us'] = "Data";
+$text['label-import_data']['vi-vn'] = "Dữ liệu";
 $text['label-import_data']['en-gb'] = "Data";
 $text['label-import_data']['ar-eg'] = "بيانات";
 $text['label-import_data']['de-at'] = "Daten";
@@ -2729,6 +2834,7 @@ $text['label-import_data']['ja-jp'] = "データ";
 $text['label-import_data']['ko-kr'] = "데이터";
 
 $text['label-import_delimiter']['en-us'] = "Delimiter";
+$text['label-import_delimiter']['vi-vn'] = "Dấu phân tách";
 $text['label-import_delimiter']['en-gb'] = "Delimiter";
 $text['label-import_delimiter']['ar-eg'] = "محدد";
 $text['label-import_delimiter']['de-at'] = "Trennzeichen";
@@ -2755,6 +2861,7 @@ $text['label-import_delimiter']['ja-jp'] = "デリミタ";
 $text['label-import_delimiter']['ko-kr'] = "구분자";
 
 $text['label-users']['en-us'] = "Users";
+$text['label-users']['vi-vn'] = "Người dùng";
 $text['label-users']['en-gb'] = "Users";
 $text['label-users']['ar-eg'] = "المستخدمون";
 $text['label-users']['de-at'] = "Benutzer";
@@ -2781,6 +2888,7 @@ $text['label-users']['ja-jp'] = "ユーザー";
 $text['label-users']['ko-kr'] = "사용자";
 
 $text['label-groups']['en-us'] = "Groups";
+$text['label-groups']['vi-vn'] = "Nhóm";
 $text['label-groups']['en-gb'] = "Groups";
 $text['label-groups']['ar-eg'] = "مجموعات";
 $text['label-groups']['de-at'] = "Gruppen";
@@ -2807,6 +2915,7 @@ $text['label-groups']['ja-jp'] = "グループ";
 $text['label-groups']['ko-kr'] = "여러 떼";
 
 $text['label-group']['en-us'] = "Group";
+$text['label-group']['vi-vn'] = "Nhóm";
 $text['label-group']['en-gb'] = "Group";
 $text['label-group']['ar-eg'] = "مجموعة";
 $text['label-group']['de-at'] = "Gruppe";
@@ -2833,6 +2942,7 @@ $text['label-group']['ja-jp'] = "グループ";
 $text['label-group']['ko-kr'] = "그룹";
 
 $text['label-google_map']['en-us'] = "Open with Google Maps";
+$text['label-google_map']['vi-vn'] = "Mở bằng Google Maps";
 $text['label-google_map']['en-gb'] = "Open with Google Maps";
 $text['label-google_map']['ar-eg'] = "افتح مع خرائط جوجل";
 $text['label-google_map']['de-at'] = "Mit Google Maps öffnen";
@@ -2859,6 +2969,7 @@ $text['label-google_map']['ja-jp'] = "Google マップで開く";
 $text['label-google_map']['ko-kr'] = "Google 지도로 열기";
 
 $text['label-fax']['en-us'] = "Fax";
+$text['label-fax']['vi-vn'] = "Fax";
 $text['label-fax']['en-gb'] = "Fax";
 $text['label-fax']['ar-eg'] = "فاكس";
 $text['label-fax']['de-at'] = "Fax";
@@ -2885,6 +2996,7 @@ $text['label-fax']['ja-jp'] = "ファックス";
 $text['label-fax']['ko-kr'] = "팩스";
 
 $text['label-false']['en-us'] = "False";
+$text['label-false']['vi-vn'] = "Sai";
 $text['label-false']['en-gb'] = "False";
 $text['label-false']['ar-eg'] = "خطأ شنيع";
 $text['label-false']['de-at'] = "Aus";
@@ -2911,6 +3023,7 @@ $text['label-false']['ja-jp'] = "間違い";
 $text['label-false']['ko-kr'] = "거짓";
 
 $text['label-extension']['en-us'] = "Extension";
+$text['label-extension']['vi-vn'] = "Máy nhánh";
 $text['label-extension']['en-gb'] = "Extension";
 $text['label-extension']['ar-eg'] = "امتداد";
 $text['label-extension']['de-at'] = "Durchwahl";
@@ -2937,6 +3050,7 @@ $text['label-extension']['ja-jp'] = "拡大";
 $text['label-extension']['ko-kr'] = "확대";
 
 $text['label-enabled']['en-us'] = "Enabled";
+$text['label-enabled']['vi-vn'] = "Đã bật";
 $text['label-enabled']['en-gb'] = "Enabled";
 $text['label-enabled']['ar-eg'] = "ممكن";
 $text['label-enabled']['de-at'] = "An";
@@ -2963,6 +3077,7 @@ $text['label-enabled']['ja-jp'] = "有効";
 $text['label-enabled']['ko-kr'] = "사용";
 
 $text['label-emails']['en-us'] = "Emails";
+$text['label-emails']['vi-vn'] = "Email";
 $text['label-emails']['en-gb'] = "Emails";
 $text['label-emails']['ar-eg'] = "رسائل البريد الإلكتروني";
 $text['label-emails']['de-at'] = "Emails";
@@ -2989,6 +3104,7 @@ $text['label-emails']['ja-jp'] = "メール";
 $text['label-emails']['ko-kr'] = "이메일";
 
 $text['label-email_label']['en-us'] = "Label";
+$text['label-email_label']['vi-vn'] = "Nhãn";
 $text['label-email_label']['en-gb'] = "Label";
 $text['label-email_label']['ar-eg'] = "ملصق";
 $text['label-email_label']['de-at'] = "Kennzeichnung";
@@ -3015,6 +3131,7 @@ $text['label-email_label']['ja-jp'] = "ラベル";
 $text['label-email_label']['ko-kr'] = "상표";
 
 $text['label-email_description']['en-us'] = "Description";
+$text['label-email_description']['vi-vn'] = "Mô tả";
 $text['label-email_description']['en-gb'] = "Description";
 $text['label-email_description']['ar-eg'] = "وصف";
 $text['label-email_description']['de-at'] = "Beschreibung";
@@ -3041,6 +3158,7 @@ $text['label-email_description']['ja-jp'] = "説明";
 $text['label-email_description']['ko-kr'] = "설명";
 
 $text['label-email_address']['en-us'] = "Address";
+$text['label-email_address']['vi-vn'] = "Địa chỉ";
 $text['label-email_address']['en-gb'] = "Address";
 $text['label-email_address']['ar-eg'] = "عنوان";
 $text['label-email_address']['de-at'] = "Email-Adresse";
@@ -3067,6 +3185,7 @@ $text['label-email_address']['ja-jp'] = "住所";
 $text['label-email_address']['ko-kr'] = "주소";
 
 $text['label-description']['en-us'] = "Description";
+$text['label-description']['vi-vn'] = "Mô tả";
 $text['label-description']['en-gb'] = "Description";
 $text['label-description']['ar-eg'] = "وصف";
 $text['label-description']['de-at'] = "Beschreibung";
@@ -3093,6 +3212,7 @@ $text['label-description']['ja-jp'] = "説明";
 $text['label-description']['ko-kr'] = "설명";
 
 $text['label-contacts_import_google_account']['en-us'] = "Account";
+$text['label-contacts_import_google_account']['vi-vn'] = "Tài khoản";
 $text['label-contacts_import_google_account']['en-gb'] = "Account";
 $text['label-contacts_import_google_account']['ar-eg'] = "حساب";
 $text['label-contacts_import_google_account']['de-at'] = "Konto";
@@ -3119,6 +3239,7 @@ $text['label-contacts_import_google_account']['ja-jp'] = "アカウント";
 $text['label-contacts_import_google_account']['ko-kr'] = "계정";
 
 $text['label-contact_url']['en-us'] = "URL";
+$text['label-contact_url']['vi-vn'] = "URL";
 $text['label-contact_url']['en-gb'] = "URL";
 $text['label-contact_url']['ar-eg'] = "URL";
 $text['label-contact_url']['de-at'] = "URL";
@@ -3145,6 +3266,7 @@ $text['label-contact_url']['ja-jp'] = "URL";
 $text['label-contact_url']['ko-kr'] = "URL";
 
 $text['label-contact_type']['en-us'] = "Type";
+$text['label-contact_type']['vi-vn'] = "Loại";
 $text['label-contact_type']['en-gb'] = "Type";
 $text['label-contact_type']['ar-eg'] = "يكتب";
 $text['label-contact_type']['de-at'] = "Art";
@@ -3171,6 +3293,7 @@ $text['label-contact_type']['ja-jp'] = "タイプ";
 $text['label-contact_type']['ko-kr'] = "유형";
 
 $text['label-contact_title']['en-us'] = "Title";
+$text['label-contact_title']['vi-vn'] = "Tiêu đề";
 $text['label-contact_title']['en-gb'] = "Title";
 $text['label-contact_title']['ar-eg'] = "عنوان";
 $text['label-contact_title']['de-at'] = "Titel";
@@ -3197,6 +3320,7 @@ $text['label-contact_title']['ja-jp'] = "タイトル";
 $text['label-contact_title']['ko-kr'] = "제목";
 
 $text['label-contact_time_zone']['en-us'] = "Time Zone";
+$text['label-contact_time_zone']['vi-vn'] = "Múi giờ";
 $text['label-contact_time_zone']['en-gb'] = "Time Zone";
 $text['label-contact_time_zone']['ar-eg'] = "وحدة زمنية";
 $text['label-contact_time_zone']['de-at'] = "Zeitzone";
@@ -3223,6 +3347,7 @@ $text['label-contact_time_zone']['ja-jp'] = "タイムゾーン";
 $text['label-contact_time_zone']['ko-kr'] = "시간대";
 
 $text['label-contact_settings']['en-us'] = "Settings";
+$text['label-contact_settings']['vi-vn'] = "Cài đặt";
 $text['label-contact_settings']['en-gb'] = "Settings";
 $text['label-contact_settings']['ar-eg'] = "إعدادات";
 $text['label-contact_settings']['de-at'] = "Einstellungen";
@@ -3249,6 +3374,7 @@ $text['label-contact_settings']['ja-jp'] = "設定";
 $text['label-contact_settings']['ko-kr'] = "설정";
 
 $text['label-contact_setting_value']['en-us'] = "Value";
+$text['label-contact_setting_value']['vi-vn'] = "Giá trị";
 $text['label-contact_setting_value']['en-gb'] = "Value";
 $text['label-contact_setting_value']['ar-eg'] = "قيمة";
 $text['label-contact_setting_value']['de-at'] = "Wert";
@@ -3275,6 +3401,7 @@ $text['label-contact_setting_value']['ja-jp'] = "価値";
 $text['label-contact_setting_value']['ko-kr'] = "값";
 
 $text['label-contact_setting_type']['en-us'] = "Type";
+$text['label-contact_setting_type']['vi-vn'] = "Loại";
 $text['label-contact_setting_type']['en-gb'] = "Type";
 $text['label-contact_setting_type']['ar-eg'] = "يكتب";
 $text['label-contact_setting_type']['de-at'] = "Art";
@@ -3301,6 +3428,7 @@ $text['label-contact_setting_type']['ja-jp'] = "タイプ";
 $text['label-contact_setting_type']['ko-kr'] = "유형";
 
 $text['label-contact_setting_subcategory']['en-us'] = "Subcategory";
+$text['label-contact_setting_subcategory']['vi-vn'] = "Danh mục con";
 $text['label-contact_setting_subcategory']['en-gb'] = "Subcategory";
 $text['label-contact_setting_subcategory']['ar-eg'] = "تصنيف فرعي";
 $text['label-contact_setting_subcategory']['de-at'] = "Unterkategorie";
@@ -3327,6 +3455,7 @@ $text['label-contact_setting_subcategory']['ja-jp'] = "サブカテゴリ";
 $text['label-contact_setting_subcategory']['ko-kr'] = "하위 카테고리";
 
 $text['label-contact_setting_category']['en-us'] = "Category";
+$text['label-contact_setting_category']['vi-vn'] = "Danh mục";
 $text['label-contact_setting_category']['en-gb'] = "Category";
 $text['label-contact_setting_category']['ar-eg'] = "فئة";
 $text['label-contact_setting_category']['de-at'] = "Kategorie";
@@ -3353,6 +3482,7 @@ $text['label-contact_setting_category']['ja-jp'] = "カテゴリー";
 $text['label-contact_setting_category']['ko-kr'] = "범주";
 
 $text['label-contact_role']['en-us'] = "Role";
+$text['label-contact_role']['vi-vn'] = "Vai trò";
 $text['label-contact_role']['en-gb'] = "Role";
 $text['label-contact_role']['ar-eg'] = "دور";
 $text['label-contact_role']['de-at'] = "Rolle";
@@ -3379,6 +3509,7 @@ $text['label-contact_role']['ja-jp'] = "役割";
 $text['label-contact_role']['ko-kr'] = "역할";
 
 $text['label-contact_relation_reciprocal_label']['en-us'] = "Reciprocal Relation";
+$text['label-contact_relation_reciprocal_label']['vi-vn'] = "Quan hệ đối ứng";
 $text['label-contact_relation_reciprocal_label']['en-gb'] = "Reciprocal Relation";
 $text['label-contact_relation_reciprocal_label']['ar-eg'] = "علاقة متبادلة";
 $text['label-contact_relation_reciprocal_label']['de-at'] = "Wechselseitige Beziehung";
@@ -3405,6 +3536,7 @@ $text['label-contact_relation_reciprocal_label']['ja-jp'] = "相互関係";
 $text['label-contact_relation_reciprocal_label']['ko-kr'] = "상호 관계";
 
 $text['label-contact_relation_reciprocal']['en-us'] = "Reciprocal";
+$text['label-contact_relation_reciprocal']['vi-vn'] = "Đối ứng";
 $text['label-contact_relation_reciprocal']['en-gb'] = "Reciprocal";
 $text['label-contact_relation_reciprocal']['ar-eg'] = "متبادل";
 $text['label-contact_relation_reciprocal']['de-at'] = "Wechselseitig";
@@ -3431,6 +3563,7 @@ $text['label-contact_relation_reciprocal']['ja-jp'] = "相互";
 $text['label-contact_relation_reciprocal']['ko-kr'] = "역수";
 
 $text['label-contact_relation_organization']['en-us'] = "Organization";
+$text['label-contact_relation_organization']['vi-vn'] = "Tổ chức";
 $text['label-contact_relation_organization']['en-gb'] = "Organization";
 $text['label-contact_relation_organization']['ar-eg'] = "منظمة";
 $text['label-contact_relation_organization']['de-at'] = "Organisation";
@@ -3457,6 +3590,7 @@ $text['label-contact_relation_organization']['ja-jp'] = "組織";
 $text['label-contact_relation_organization']['ko-kr'] = "조직";
 
 $text['label-contact_relation_option_parent']['en-us'] = "Parent";
+$text['label-contact_relation_option_parent']['vi-vn'] = "Cha";
 $text['label-contact_relation_option_parent']['en-gb'] = "Parent";
 $text['label-contact_relation_option_parent']['ar-eg'] = "الأبوين";
 $text['label-contact_relation_option_parent']['de-at'] = "Eltern";
@@ -3483,6 +3617,7 @@ $text['label-contact_relation_option_parent']['ja-jp'] = "親";
 $text['label-contact_relation_option_parent']['ko-kr'] = "부모의";
 
 $text['label-contact_relation_option_other']['en-us'] = "Other";
+$text['label-contact_relation_option_other']['vi-vn'] = "Khác";
 $text['label-contact_relation_option_other']['en-gb'] = "Other";
 $text['label-contact_relation_option_other']['ar-eg'] = "آخر";
 $text['label-contact_relation_option_other']['de-at'] = "Andere";
@@ -3509,6 +3644,7 @@ $text['label-contact_relation_option_other']['ja-jp'] = "他の";
 $text['label-contact_relation_option_other']['ko-kr'] = "다른";
 
 $text['label-contact_relation_option_member']['en-us'] = "Member";
+$text['label-contact_relation_option_member']['vi-vn'] = "Thành viên";
 $text['label-contact_relation_option_member']['en-gb'] = "Member";
 $text['label-contact_relation_option_member']['ar-eg'] = "عضو";
 $text['label-contact_relation_option_member']['de-at'] = "Mitglied";
@@ -3535,6 +3671,7 @@ $text['label-contact_relation_option_member']['ja-jp'] = "メンバー";
 $text['label-contact_relation_option_member']['ko-kr'] = "회원";
 
 $text['label-contact_relation_option_employee']['en-us'] = "Employee";
+$text['label-contact_relation_option_employee']['vi-vn'] = "Nhân viên";
 $text['label-contact_relation_option_employee']['en-gb'] = "Employee";
 $text['label-contact_relation_option_employee']['ar-eg'] = "موظف";
 $text['label-contact_relation_option_employee']['de-at'] = "Mitarbeiter";
@@ -3561,6 +3698,7 @@ $text['label-contact_relation_option_employee']['ja-jp'] = "職員";
 $text['label-contact_relation_option_employee']['ko-kr'] = "직원";
 
 $text['label-contact_relation_option_child']['en-us'] = "Child";
+$text['label-contact_relation_option_child']['vi-vn'] = "Con";
 $text['label-contact_relation_option_child']['en-gb'] = "Child";
 $text['label-contact_relation_option_child']['ar-eg'] = "طفل";
 $text['label-contact_relation_option_child']['de-at'] = "Kind";
@@ -3587,6 +3725,7 @@ $text['label-contact_relation_option_child']['ja-jp'] = "子供";
 $text['label-contact_relation_option_child']['ko-kr'] = "어린이";
 
 $text['label-contact_relation_option_associate']['en-us'] = "Associate";
+$text['label-contact_relation_option_associate']['vi-vn'] = "Liên kết";
 $text['label-contact_relation_option_associate']['en-gb'] = "Associate";
 $text['label-contact_relation_option_associate']['ar-eg'] = "شريك";
 $text['label-contact_relation_option_associate']['de-at'] = "Kollege";
@@ -3613,6 +3752,7 @@ $text['label-contact_relation_option_associate']['ja-jp'] = "仲間";
 $text['label-contact_relation_option_associate']['ko-kr'] = "연관짓다";
 
 $text['label-contact_relation_name']['en-us'] = "Name";
+$text['label-contact_relation_name']['vi-vn'] = "Tên";
 $text['label-contact_relation_name']['en-gb'] = "Name";
 $text['label-contact_relation_name']['ar-eg'] = "اسم";
 $text['label-contact_relation_name']['de-at'] = "Name";
@@ -3639,6 +3779,7 @@ $text['label-contact_relation_name']['ja-jp'] = "名前";
 $text['label-contact_relation_name']['ko-kr'] = "이름";
 
 $text['label-contact_relation_label']['en-us'] = "Relation";
+$text['label-contact_relation_label']['vi-vn'] = "Quan hệ";
 $text['label-contact_relation_label']['en-gb'] = "Relation";
 $text['label-contact_relation_label']['ar-eg'] = "علاقة";
 $text['label-contact_relation_label']['de-at'] = "Beziehung";
@@ -3665,6 +3806,7 @@ $text['label-contact_relation_label']['ja-jp'] = "関係";
 $text['label-contact_relation_label']['ko-kr'] = "관계";
 
 $text['label-contact_relation_contact']['en-us'] = "Contact";
+$text['label-contact_relation_contact']['vi-vn'] = "Liên hệ";
 $text['label-contact_relation_contact']['en-gb'] = "Contact";
 $text['label-contact_relation_contact']['ar-eg'] = "اتصال";
 $text['label-contact_relation_contact']['de-at'] = "Kontakt";
@@ -3691,6 +3833,7 @@ $text['label-contact_relation_contact']['ja-jp'] = "コンタクト";
 $text['label-contact_relation_contact']['ko-kr'] = "연락하다";
 
 $text['label-contact_organization']['en-us'] = "Organization";
+$text['label-contact_organization']['vi-vn'] = "Tổ chức";
 $text['label-contact_organization']['en-gb'] = "Organization";
 $text['label-contact_organization']['ar-eg'] = "منظمة";
 $text['label-contact_organization']['de-at'] = "Organisation";
@@ -3717,6 +3860,7 @@ $text['label-contact_organization']['ja-jp'] = "組織";
 $text['label-contact_organization']['ko-kr'] = "조직";
 
 $text['label-contact_notes']['en-us'] = "Notes";
+$text['label-contact_notes']['vi-vn'] = "Ghi chú";
 $text['label-contact_notes']['en-gb'] = "Notes";
 $text['label-contact_notes']['ar-eg'] = "ملحوظات";
 $text['label-contact_notes']['de-at'] = "Notizen";
@@ -3743,6 +3887,7 @@ $text['label-contact_notes']['ja-jp'] = "ノート";
 $text['label-contact_notes']['ko-kr'] = "노트";
 
 $text['label-contact_note']['en-us'] = "Note";
+$text['label-contact_note']['vi-vn'] = "Ghi chú";
 $text['label-contact_note']['en-gb'] = "Note";
 $text['label-contact_note']['ar-eg'] = "ملحوظة";
 $text['label-contact_note']['de-at'] = "Notiz";
@@ -3769,6 +3914,7 @@ $text['label-contact_note']['ja-jp'] = "ノート";
 $text['label-contact_note']['ko-kr'] = "메모";
 
 $text['label-contact_nickname']['en-us'] = "Nickname";
+$text['label-contact_nickname']['vi-vn'] = "Biệt danh";
 $text['label-contact_nickname']['en-gb'] = "Nickname";
 $text['label-contact_nickname']['ar-eg'] = "كنية";
 $text['label-contact_nickname']['de-at'] = "Spitzname";
@@ -3795,6 +3941,7 @@ $text['label-contact_nickname']['ja-jp'] = "ニックネーム";
 $text['label-contact_nickname']['ko-kr'] = "별명";
 
 $text['label-contact_name_suffix']['en-us'] = "Suffix";
+$text['label-contact_name_suffix']['vi-vn'] = "Hậu tố";
 $text['label-contact_name_suffix']['en-gb'] = "Suffix";
 $text['label-contact_name_suffix']['ar-eg'] = "لاحقة";
 $text['label-contact_name_suffix']['de-at'] = "Nachsilbe";
@@ -3821,6 +3968,7 @@ $text['label-contact_name_suffix']['ja-jp'] = "サフィックス";
 $text['label-contact_name_suffix']['ko-kr'] = "접미사";
 
 $text['label-contact_name_prefix']['en-us'] = "Prefix";
+$text['label-contact_name_prefix']['vi-vn'] = "Tiền tố";
 $text['label-contact_name_prefix']['en-gb'] = "Prefix";
 $text['label-contact_name_prefix']['ar-eg'] = "بادئة";
 $text['label-contact_name_prefix']['de-at'] = "Vorsilbe";
@@ -3847,6 +3995,7 @@ $text['label-contact_name_prefix']['ja-jp'] = "プレフィックス";
 $text['label-contact_name_prefix']['ko-kr'] = "접두사";
 
 $text['label-contact_name_middle']['en-us'] = "Middle";
+$text['label-contact_name_middle']['vi-vn'] = "Tên đệm";
 $text['label-contact_name_middle']['en-gb'] = "Middle";
 $text['label-contact_name_middle']['ar-eg'] = "وسط";
 $text['label-contact_name_middle']['de-at'] = "Mittel";
@@ -3873,6 +4022,7 @@ $text['label-contact_name_middle']['ja-jp'] = "真ん中";
 $text['label-contact_name_middle']['ko-kr'] = "가운데";
 
 $text['label-contact_name_given']['en-us'] = "First Name";
+$text['label-contact_name_given']['vi-vn'] = "Tên";
 $text['label-contact_name_given']['en-gb'] = "First Name";
 $text['label-contact_name_given']['ar-eg'] = "الاسم الأول";
 $text['label-contact_name_given']['de-at'] = "Vorname";
@@ -3899,6 +4049,7 @@ $text['label-contact_name_given']['ja-jp'] = "ファーストネーム";
 $text['label-contact_name_given']['ko-kr'] = "이름";
 
 $text['label-contact_name_family']['en-us'] = "Last Name";
+$text['label-contact_name_family']['vi-vn'] = "Họ";
 $text['label-contact_name_family']['en-gb'] = "Last Name";
 $text['label-contact_name_family']['ar-eg'] = "اسم العائلة";
 $text['label-contact_name_family']['de-at'] = "Nachname";
@@ -3925,6 +4076,7 @@ $text['label-contact_name_family']['ja-jp'] = "苗字";
 $text['label-contact_name_family']['ko-kr'] = "성";
 
 $text['label-contact_name']['en-us'] = "Name";
+$text['label-contact_name']['vi-vn'] = "Tên";
 $text['label-contact_name']['en-gb'] = "Name";
 $text['label-contact_name']['ar-eg'] = "اسم";
 $text['label-contact_name']['de-at'] = "Name";
@@ -3951,6 +4103,7 @@ $text['label-contact_name']['ja-jp'] = "名前";
 $text['label-contact_name']['ko-kr'] = "이름";
 
 $text['label-contact_google']['en-us'] = "Google Contact";
+$text['label-contact_google']['vi-vn'] = "Liên hệ Google";
 $text['label-contact_google']['en-gb'] = "Google Contact";
 $text['label-contact_google']['ar-eg'] = "جوجل الاتصال";
 $text['label-contact_google']['de-at'] = "Google Kontakt";
@@ -3977,6 +4130,7 @@ $text['label-contact_google']['ja-jp'] = "Google コンタクト";
 $text['label-contact_google']['ko-kr'] = "구글 연락처";
 
 $text['label-contact_extensions']['en-us'] = "Extensions";
+$text['label-contact_extensions']['vi-vn'] = "Máy nhánh";
 $text['label-contact_extensions']['en-gb'] = "Extensions";
 $text['label-contact_extensions']['ar-eg'] = "ملحقات";
 $text['label-contact_extensions']['de-at'] = "Nebenstelle";
@@ -4003,6 +4157,7 @@ $text['label-contact_extensions']['ja-jp'] = "拡張機能";
 $text['label-contact_extensions']['ko-kr'] = "확장 프로그램";
 
 $text['label-contact_email']['en-us'] = "Email";
+$text['label-contact_email']['vi-vn'] = "Email";
 $text['label-contact_email']['en-gb'] = "Email";
 $text['label-contact_email']['ar-eg'] = "بريد إلكتروني";
 $text['label-contact_email']['de-at'] = "Email";
@@ -4029,6 +4184,7 @@ $text['label-contact_email']['ja-jp'] = "Eメール";
 $text['label-contact_email']['ko-kr'] = "이메일";
 
 $text['label-contact_category']['en-us'] = "Category";
+$text['label-contact_category']['vi-vn'] = "Danh mục";
 $text['label-contact_category']['en-gb'] = "Category";
 $text['label-contact_category']['ar-eg'] = "فئة";
 $text['label-contact_category']['de-at'] = "Kategorie";
@@ -4055,6 +4211,7 @@ $text['label-contact_category']['ja-jp'] = "カテゴリー";
 $text['label-contact_category']['ko-kr'] = "범주";
 
 $text['label-addresses']['en-us'] = "Addresses";
+$text['label-addresses']['vi-vn'] = "Địa chỉ";
 $text['label-addresses']['en-gb'] = "Addresses";
 $text['label-addresses']['ar-eg'] = "عناوين";
 $text['label-addresses']['de-at'] = "Adresse";
@@ -4081,6 +4238,7 @@ $text['label-addresses']['ja-jp'] = "住所";
 $text['label-addresses']['ko-kr'] = "구애";
 
 $text['label-address_type']['en-us'] = "Type";
+$text['label-address_type']['vi-vn'] = "Loại";
 $text['label-address_type']['en-gb'] = "Type";
 $text['label-address_type']['ar-eg'] = "يكتب";
 $text['label-address_type']['de-at'] = "Art";
@@ -4107,6 +4265,7 @@ $text['label-address_type']['ja-jp'] = "タイプ";
 $text['label-address_type']['ko-kr'] = "유형";
 
 $text['label-address_tools']['en-us'] = "Tools";
+$text['label-address_tools']['vi-vn'] = "Công cụ";
 $text['label-address_tools']['en-gb'] = "Tools";
 $text['label-address_tools']['ar-eg'] = "أدوات";
 $text['label-address_tools']['de-at'] = "Werkzeuge";
@@ -4133,6 +4292,7 @@ $text['label-address_tools']['ja-jp'] = "ツール";
 $text['label-address_tools']['ko-kr'] = "도구";
 
 $text['label-address_region']['en-us'] = "Region";
+$text['label-address_region']['vi-vn'] = "Khu vực";
 $text['label-address_region']['en-gb'] = "Region";
 $text['label-address_region']['ar-eg'] = "منطقة";
 $text['label-address_region']['de-at'] = "Region";
@@ -4159,6 +4319,7 @@ $text['label-address_region']['ja-jp'] = "領域";
 $text['label-address_region']['ko-kr'] = "지역";
 
 $text['label-address_postal_code']['en-us'] = "Postal Code";
+$text['label-address_postal_code']['vi-vn'] = "Mã bưu chính";
 $text['label-address_postal_code']['en-gb'] = "Postal Code";
 $text['label-address_postal_code']['ar-eg'] = "رمز بريدي";
 $text['label-address_postal_code']['de-at'] = "PLZ";
@@ -4185,6 +4346,7 @@ $text['label-address_postal_code']['ja-jp'] = "郵便番号";
 $text['label-address_postal_code']['ko-kr'] = "우편 번호";
 
 $text['label-address_longitude']['en-us'] = "Longitude";
+$text['label-address_longitude']['vi-vn'] = "Kinh độ";
 $text['label-address_longitude']['en-gb'] = "Longitude";
 $text['label-address_longitude']['ar-eg'] = "خط الطول";
 $text['label-address_longitude']['de-at'] = "Längengrad";
@@ -4211,6 +4373,7 @@ $text['label-address_longitude']['ja-jp'] = "経度";
 $text['label-address_longitude']['ko-kr'] = "경도";
 
 $text['label-address_locality']['en-us'] = "City";
+$text['label-address_locality']['vi-vn'] = "Thành phố";
 $text['label-address_locality']['en-gb'] = "City";
 $text['label-address_locality']['ar-eg'] = "مدينة";
 $text['label-address_locality']['de-at'] = "Stadt";
@@ -4237,6 +4400,7 @@ $text['label-address_locality']['ja-jp'] = "街";
 $text['label-address_locality']['ko-kr'] = "도시";
 
 $text['label-address_latitude']['en-us'] = "Latitude";
+$text['label-address_latitude']['vi-vn'] = "Vĩ độ";
 $text['label-address_latitude']['en-gb'] = "Latitude";
 $text['label-address_latitude']['ar-eg'] = "خط العرض";
 $text['label-address_latitude']['de-at'] = "Breitengrad";
@@ -4263,6 +4427,7 @@ $text['label-address_latitude']['ja-jp'] = "緯度";
 $text['label-address_latitude']['ko-kr'] = "위도";
 
 $text['label-address_label']['en-us'] = "Label";
+$text['label-address_label']['vi-vn'] = "Nhãn";
 $text['label-address_label']['en-gb'] = "Label";
 $text['label-address_label']['ar-eg'] = "ملصق";
 $text['label-address_label']['de-at'] = "Kennzeichnung";
@@ -4289,6 +4454,7 @@ $text['label-address_label']['ja-jp'] = "ラベル";
 $text['label-address_label']['ko-kr'] = "상표";
 
 $text['label-address_description']['en-us'] = "Description";
+$text['label-address_description']['vi-vn'] = "Mô tả";
 $text['label-address_description']['en-gb'] = "Description";
 $text['label-address_description']['ar-eg'] = "وصف";
 $text['label-address_description']['de-at'] = "Beschreibung";
@@ -4315,6 +4481,7 @@ $text['label-address_description']['ja-jp'] = "説明";
 $text['label-address_description']['ko-kr'] = "설명";
 
 $text['label-address_country']['en-us'] = "Country";
+$text['label-address_country']['vi-vn'] = "Quốc gia";
 $text['label-address_country']['en-gb'] = "Country";
 $text['label-address_country']['ar-eg'] = "دولة";
 $text['label-address_country']['de-at'] = "Land";
@@ -4341,6 +4508,7 @@ $text['label-address_country']['ja-jp'] = "国";
 $text['label-address_country']['ko-kr'] = "국가";
 
 $text['label-address_community']['en-us'] = "Community";
+$text['label-address_community']['vi-vn'] = "Cộng đồng";
 $text['label-address_community']['en-gb'] = "Community";
 $text['label-address_community']['ar-eg'] = "مجتمع";
 $text['label-address_community']['de-at'] = "Gemeinde";
@@ -4367,6 +4535,7 @@ $text['label-address_community']['ja-jp'] = "コミュニティ";
 $text['label-address_community']['ko-kr'] = "지역 사회";
 
 $text['label-address_address']['en-us'] = "Address";
+$text['label-address_address']['vi-vn'] = "Địa chỉ";
 $text['label-address_address']['en-gb'] = "Address";
 $text['label-address_address']['ar-eg'] = "عنوان";
 $text['label-address_address']['de-at'] = "Adresse";
@@ -4393,6 +4562,7 @@ $text['label-address_address']['ja-jp'] = "住所";
 $text['label-address_address']['ko-kr'] = "주소";
 
 $text['label-attachments']['en-us'] = "Attachments";
+$text['label-attachments']['vi-vn'] = "Tệp đính kèm";
 $text['label-attachments']['en-gb'] = "Attachments";
 $text['label-attachments']['ar-eg'] = "المرفقات";
 $text['label-attachments']['de-at'] = "Anhänge";
@@ -4419,6 +4589,7 @@ $text['label-attachments']['ja-jp'] = "付属品";
 $text['label-attachments']['ko-kr'] = "첨부파일";
 
 $text['label-attachment_filename']['en-us'] = "Filename";
+$text['label-attachment_filename']['vi-vn'] = "Tên file";
 $text['label-attachment_filename']['en-gb'] = "Filename";
 $text['label-attachment_filename']['ar-eg'] = "اسم الملف";
 $text['label-attachment_filename']['de-at'] = "Dateinamen";
@@ -4445,6 +4616,7 @@ $text['label-attachment_filename']['ja-jp'] = "ファイル名";
 $text['label-attachment_filename']['ko-kr'] = "파일 이름";
 
 $text['label-attachment']['en-us'] = "Attachment";
+$text['label-attachment']['vi-vn'] = "Tệp đính kèm";
 $text['label-attachment']['en-gb'] = "Attachment";
 $text['label-attachment']['ar-eg'] = "مرفق";
 $text['label-attachment']['de-at'] = "Anhang";
@@ -4471,6 +4643,7 @@ $text['label-attachment']['ja-jp'] = "付属品";
 $text['label-attachment']['ko-kr'] = "부착";
 
 $text['label-attachment_size']['en-us'] = "Size";
+$text['label-attachment_size']['vi-vn'] = "Kích thước";
 $text['label-attachment_size']['en-gb'] = "Size";
 $text['label-attachment_size']['ar-eg'] = "مقاس";
 $text['label-attachment_size']['de-at'] = "Größe";
@@ -4497,6 +4670,7 @@ $text['label-attachment_size']['ja-jp'] = "サイズ";
 $text['label-attachment_size']['ko-kr'] = "크기";
 
 $text['label-attachment_description']['en-us'] = "Description";
+$text['label-attachment_description']['vi-vn'] = "Mô tả";
 $text['label-attachment_description']['en-gb'] = "Description";
 $text['label-attachment_description']['ar-eg'] = "وصف";
 $text['label-attachment_description']['de-at'] = "Beschreibung";
@@ -4523,6 +4697,7 @@ $text['label-attachment_description']['ja-jp'] = "説明";
 $text['label-attachment_description']['ko-kr'] = "설명";
 
 $text['header_contact_times']['en-us'] = "Times";
+$text['header_contact_times']['vi-vn'] = "Thời gian";
 $text['header_contact_times']['en-gb'] = "Times";
 $text['header_contact_times']['ar-eg'] = "مرات";
 $text['header_contact_times']['de-at'] = "Zeiten";
@@ -4549,6 +4724,7 @@ $text['header_contact_times']['ja-jp'] = "タイムズ";
 $text['header_contact_times']['ko-kr'] = "타임스";
 
 $text['header-contacts_import_google']['en-us'] = "Import Google Contacts";
+$text['header-contacts_import_google']['vi-vn'] = "Nhập liên hệ Google";
 $text['header-contacts_import_google']['en-gb'] = "Import Google Contacts";
 $text['header-contacts_import_google']['ar-eg'] = "استيراد جهات اتصال جوجل";
 $text['header-contacts_import_google']['de-at'] = "Google Kontakte importieren";
@@ -4575,6 +4751,7 @@ $text['header-contacts_import_google']['ja-jp'] = "Google コンタクトのイ�
 $text['header-contacts_import_google']['ko-kr'] = "Google 주소록 가져오기";
 
 $text['header-contacts_import']['en-us'] = "Import Contacts";
+$text['header-contacts_import']['vi-vn'] = "Nhập liên hệ";
 $text['header-contacts_import']['en-gb'] = "Import Contacts";
 $text['header-contacts_import']['ar-eg'] = "استيراد جهات الاتصال";
 $text['header-contacts_import']['de-at'] = "Kontakte importieren";
@@ -4601,6 +4778,7 @@ $text['header-contacts_import']['ja-jp'] = "連絡先のインポート";
 $text['header-contacts_import']['ko-kr'] = "연락처 가져오기";
 
 $text['header-contacts']['en-us'] = "Contacts";
+$text['header-contacts']['vi-vn'] = "Liên hệ";
 $text['header-contacts']['en-gb'] = "Contacts";
 $text['header-contacts']['ar-eg'] = "جهات الاتصال";
 $text['header-contacts']['de-at'] = "Kontakte";
@@ -4627,6 +4805,7 @@ $text['header-contacts']['ja-jp'] = "連絡先";
 $text['header-contacts']['ko-kr'] = "콘택트 렌즈";
 
 $text['header-contact_url-edit']['en-us'] = "Contact URL Edit";
+$text['header-contact_url-edit']['vi-vn'] = "Sửa URL liên hệ";
 $text['header-contact_url-edit']['en-gb'] = "Contact URL Edit";
 $text['header-contact_url-edit']['ar-eg'] = "تحرير عنوان URL لجهة الاتصال";
 $text['header-contact_url-edit']['de-at'] = "URL bearbeiten";
@@ -4653,6 +4832,7 @@ $text['header-contact_url-edit']['ja-jp'] = "連絡先 URL 編集";
 $text['header-contact_url-edit']['ko-kr'] = "연락처 URL 편집";
 
 $text['header-contact_url-add']['en-us'] = "Contact URL Add";
+$text['header-contact_url-add']['vi-vn'] = "Thêm URL liên hệ";
 $text['header-contact_url-add']['en-gb'] = "Contact URL Add";
 $text['header-contact_url-add']['ar-eg'] = "إضافة عنوان URL لجهة الاتصال";
 $text['header-contact_url-add']['de-at'] = "URL hinzufügen";
@@ -4679,6 +4859,7 @@ $text['header-contact_url-add']['ja-jp'] = "連絡先 URL 追加";
 $text['header-contact_url-add']['ko-kr'] = "연락처 URL 추가";
 
 $text['header-contact_time_edit']['en-us'] = "Time Edit";
+$text['header-contact_time_edit']['vi-vn'] = "Sửa thời gian";
 $text['header-contact_time_edit']['en-gb'] = "Time Edit";
 $text['header-contact_time_edit']['ar-eg'] = "تحرير الوقت";
 $text['header-contact_time_edit']['de-at'] = "Zeit bearbeiten";
@@ -4705,6 +4886,7 @@ $text['header-contact_time_edit']['ja-jp'] = "時間編集";
 $text['header-contact_time_edit']['ko-kr'] = "시간 편집";
 
 $text['header-contact_time_add']['en-us'] = "Time Add";
+$text['header-contact_time_add']['vi-vn'] = "Thêm thời gian";
 $text['header-contact_time_add']['en-gb'] = "Time Add";
 $text['header-contact_time_add']['ar-eg'] = "إضافة الوقت";
 $text['header-contact_time_add']['de-at'] = "Zeit hinzufügen";
@@ -4731,6 +4913,7 @@ $text['header-contact_time_add']['ja-jp'] = "時間追加";
 $text['header-contact_time_add']['ko-kr'] = "시간 추가";
 
 $text['header-contact_setting_edit']['en-us'] = "Contact Setting Edit";
+$text['header-contact_setting_edit']['vi-vn'] = "Sửa cài đặt liên hệ";
 $text['header-contact_setting_edit']['en-gb'] = "Contact Setting Edit";
 $text['header-contact_setting_edit']['ar-eg'] = "تحرير إعداد الاتصال";
 $text['header-contact_setting_edit']['de-at'] = "Einstellung bearbeiten";
@@ -4757,6 +4940,7 @@ $text['header-contact_setting_edit']['ja-jp'] = "連絡先設定編集";
 $text['header-contact_setting_edit']['ko-kr'] = "연락처 설정 편집";
 
 $text['header-contact_setting_add']['en-us'] = "Contact Setting Add";
+$text['header-contact_setting_add']['vi-vn'] = "Thêm cài đặt liên hệ";
 $text['header-contact_setting_add']['en-gb'] = "Contact Setting Add";
 $text['header-contact_setting_add']['ar-eg'] = "إضافة إعداد الاتصال";
 $text['header-contact_setting_add']['de-at'] = "Einstellung für Kontakt hinzufügen";
@@ -4783,6 +4967,7 @@ $text['header-contact_setting_add']['ja-jp'] = "連絡先設定追加";
 $text['header-contact_setting_add']['ko-kr'] = "연락처 설정 추가";
 
 $text['header-contact_relations']['en-us'] = "Relations";
+$text['header-contact_relations']['vi-vn'] = "Quan hệ";
 $text['header-contact_relations']['en-gb'] = "Relations";
 $text['header-contact_relations']['ar-eg'] = "علاقات";
 $text['header-contact_relations']['de-at'] = "Beziehungen";
@@ -4809,6 +4994,7 @@ $text['header-contact_relations']['ja-jp'] = "関係";
 $text['header-contact_relations']['ko-kr'] = "처지";
 
 $text['header-contact_relation']['en-us'] = "Contact Relation";
+$text['header-contact_relation']['vi-vn'] = "Quan hệ liên hệ";
 $text['header-contact_relation']['en-gb'] = "Contact Relation";
 $text['header-contact_relation']['ar-eg'] = "علاقات الاتصال";
 $text['header-contact_relation']['de-at'] = "Kontakt Beziehungen";
@@ -4835,6 +5021,7 @@ $text['header-contact_relation']['ja-jp'] = "連絡先";
 $text['header-contact_relation']['ko-kr'] = "연락처 관계";
 
 $text['header-contact_phones-edit']['en-us'] = "Contact Number Edit";
+$text['header-contact_phones-edit']['vi-vn'] = "Sửa số liên hệ";
 $text['header-contact_phones-edit']['en-gb'] = "Contact Number Edit";
 $text['header-contact_phones-edit']['ar-eg'] = "تحرير رقم الاتصال";
 $text['header-contact_phones-edit']['de-at'] = "Nummer des Kontakts bearbeiten";
@@ -4861,6 +5048,7 @@ $text['header-contact_phones-edit']['ja-jp'] = "連絡先番号の編集";
 $text['header-contact_phones-edit']['ko-kr'] = "연락처 편집";
 
 $text['header-contact_phones-add']['en-us'] = "Contact Number Add";
+$text['header-contact_phones-add']['vi-vn'] = "Thêm số liên hệ";
 $text['header-contact_phones-add']['en-gb'] = "Contact Number Add";
 $text['header-contact_phones-add']['ar-eg'] = "إضافة رقم الاتصال";
 $text['header-contact_phones-add']['de-at'] = "Nummer zum Kontakt hinzufügen";
@@ -4887,6 +5075,7 @@ $text['header-contact_phones-add']['ja-jp'] = "連絡先番号の追加";
 $text['header-contact_phones-add']['ko-kr'] = "연락처 추가";
 
 $text['header-contact_notes-edit']['en-us'] = "Contact Note Edit";
+$text['header-contact_notes-edit']['vi-vn'] = "Sửa ghi chú liên hệ";
 $text['header-contact_notes-edit']['en-gb'] = "Contact Note Edit";
 $text['header-contact_notes-edit']['ar-eg'] = "تحرير ملاحظة جهة الاتصال";
 $text['header-contact_notes-edit']['de-at'] = "Notiz für Kontakt bearbeiten";
@@ -4913,6 +5102,7 @@ $text['header-contact_notes-edit']['ja-jp'] = "連絡先メモの編集";
 $text['header-contact_notes-edit']['ko-kr'] = "연락처 메모 편집";
 
 $text['header-contact_notes-add']['en-us'] = "Contact Note Add";
+$text['header-contact_notes-add']['vi-vn'] = "Thêm ghi chú liên hệ";
 $text['header-contact_notes-add']['en-gb'] = "Contact Note Add";
 $text['header-contact_notes-add']['ar-eg'] = "إضافة ملاحظة جهة الاتصال";
 $text['header-contact_notes-add']['de-at'] = "Notiz zum Kontakt hinzufügen";
@@ -4939,6 +5129,7 @@ $text['header-contact_notes-add']['ja-jp'] = "連絡先メモの追加";
 $text['header-contact_notes-add']['ko-kr'] = "연락처 메모 추가";
 
 $text['header-contact_email-edit']['en-us'] = "Contact Email Edit";
+$text['header-contact_email-edit']['vi-vn'] = "Sửa email liên hệ";
 $text['header-contact_email-edit']['en-gb'] = "Contact Email Edit";
 $text['header-contact_email-edit']['ar-eg'] = "تحرير البريد الإلكتروني لجهة الاتصال";
 $text['header-contact_email-edit']['de-at'] = "Email des Kontakts bearbeiten";
@@ -4965,6 +5156,7 @@ $text['header-contact_email-edit']['ja-jp'] = "連絡先メール編集";
 $text['header-contact_email-edit']['ko-kr'] = "연락처 이메일 편집";
 
 $text['header-contact_email-add']['en-us'] = "Contact Email Add";
+$text['header-contact_email-add']['vi-vn'] = "Thêm email liên hệ";
 $text['header-contact_email-add']['en-gb'] = "Contact Email Add";
 $text['header-contact_email-add']['ar-eg'] = "إضافة البريد الإلكتروني لجهة الاتصال";
 $text['header-contact_email-add']['de-at'] = "Email zum Kontakt hinzufügen";
@@ -4991,6 +5183,7 @@ $text['header-contact_email-add']['ja-jp'] = "連絡先メールアドレス追�
 $text['header-contact_email-add']['ko-kr'] = "연락처 이메일 추가";
 
 $text['header-contact_addresses-edit']['en-us'] = "Contact Address Edit";
+$text['header-contact_addresses-edit']['vi-vn'] = "Sửa địa chỉ liên hệ";
 $text['header-contact_addresses-edit']['en-gb'] = "Contact Address Edit";
 $text['header-contact_addresses-edit']['ar-eg'] = "تحرير عنوان جهة الاتصال";
 $text['header-contact_addresses-edit']['de-at'] = "Adresse des Kontakts bearbeiten";
@@ -5017,6 +5210,7 @@ $text['header-contact_addresses-edit']['ja-jp'] = "連絡先住所編集";
 $text['header-contact_addresses-edit']['ko-kr'] = "연락처 주소 편집";
 
 $text['header-contact_addresses-add']['en-us'] = "Contact Address Add";
+$text['header-contact_addresses-add']['vi-vn'] = "Thêm địa chỉ liên hệ";
 $text['header-contact_addresses-add']['en-gb'] = "Contact Address Add";
 $text['header-contact_addresses-add']['ar-eg'] = "إضافة عنوان الاتصال";
 $text['header-contact_addresses-add']['de-at'] = "Adresse zum Kontakt hinzufügen";
@@ -5043,6 +5237,7 @@ $text['header-contact_addresses-add']['ja-jp'] = "連絡先追加";
 $text['header-contact_addresses-add']['ko-kr'] = "연락처 주소 추가";
 
 $text['header-contact_attachment-edit']['en-us'] = "Contact Attachment Edit";
+$text['header-contact_attachment-edit']['vi-vn'] = "Sửa tệp đính kèm liên hệ";
 $text['header-contact_attachment-edit']['en-gb'] = "Contact Attachment Edit";
 $text['header-contact_attachment-edit']['ar-eg'] = "تحرير مرفق جهة الاتصال";
 $text['header-contact_attachment-edit']['de-at'] = "Kontaktanhang bearbeiten";
@@ -5069,6 +5264,7 @@ $text['header-contact_attachment-edit']['ja-jp'] = "連絡先の添付ファイ�
 $text['header-contact_attachment-edit']['ko-kr'] = "연락처 편집";
 
 $text['header-contact_attachment-add']['en-us'] = "Contact Attachment Add";
+$text['header-contact_attachment-add']['vi-vn'] = "Thêm tệp đính kèm liên hệ";
 $text['header-contact_attachment-add']['en-gb'] = "Contact Attachment Add";
 $text['header-contact_attachment-add']['ar-eg'] = "إضافة مرفق الاتصال";
 $text['header-contact_attachment-add']['de-at'] = "Kontaktanhang hinzufügen";
@@ -5095,6 +5291,7 @@ $text['header-contact_attachment-add']['ja-jp'] = "連絡先添付追加";
 $text['header-contact_attachment-add']['ko-kr'] = "연락처 첨부 추가";
 
 $text['header-contact-edit']['en-us'] = "Contact";
+$text['header-contact-edit']['vi-vn'] = "Liên hệ";
 $text['header-contact-edit']['en-gb'] = "Contact";
 $text['header-contact-edit']['ar-eg'] = "اتصال";
 $text['header-contact-edit']['de-at'] = "Kontakt";
@@ -5121,6 +5318,7 @@ $text['header-contact-edit']['ja-jp'] = "コンタクト";
 $text['header-contact-edit']['ko-kr'] = "연락하다";
 
 $text['header-contact-add']['en-us'] = "Contact Add";
+$text['header-contact-add']['vi-vn'] = "Thêm liên hệ";
 $text['header-contact-add']['en-gb'] = "Contact Add";
 $text['header-contact-add']['ar-eg'] = "إضافة جهة اتصال";
 $text['header-contact-add']['de-at'] = "Kontakt hinzufügen";
@@ -5147,6 +5345,7 @@ $text['header-contact-add']['ja-jp'] = "連絡先の追加";
 $text['header-contact-add']['ko-kr'] = "연락처 추가";
 
 $text['description_timer']['en-us'] = "Stop the Timer before closing the window, if desired.";
+$text['description_timer']['vi-vn'] = "Dừng bộ đếm thời gian trước khi đóng cửa sổ nếu muốn.";
 $text['description_timer']['en-gb'] = "Stop the Timer before closing the window, if desired.";
 $text['description_timer']['ar-eg'] = "قم بإيقاف المؤقت قبل إغلاق النافذة ، إذا رغبت في ذلك.";
 $text['description_timer']['de-at'] = "Den Timer stoppen bevor Sie das Fenster schließen.";
@@ -5173,6 +5372,7 @@ $text['description_timer']['ja-jp'] = "必要に応じて、ウィンドウを�
 $text['description_timer']['ko-kr'] = "원하는 경우 창을 닫기 전에 타이머를 중지하십시오.";
 
 $text['description-url_primary']['en-us'] = "Set as the primary URL for this contact.";
+$text['description-url_primary']['vi-vn'] = "Đặt làm URL chính cho liên hệ này.";
 $text['description-url_primary']['en-gb'] = "Set as the primary URL for this contact.";
 $text['description-url_primary']['ar-eg'] = "تعيين كعنوان URL الأساسي لجهة الاتصال هذه.";
 $text['description-url_primary']['de-at'] = "Als primäre URL für diesen Kontakt setzen.";
@@ -5199,6 +5399,7 @@ $text['description-url_primary']['ja-jp'] = "この連絡先のプライマリ U
 $text['description-url_primary']['ko-kr'] = "이 연락처의 기본 URL로 설정합니다.";
 
 $text['description-shared_import']['en-us'] = "Share contacts with other users on the domain.";
+$text['description-shared_import']['vi-vn'] = "Chia sẻ liên hệ với người dùng khác trong tên miền.";
 $text['description-shared_import']['en-gb'] = "Share contacts with other users on the domain.";
 $text['description-shared_import']['ar-eg'] = "مشاركة جهات الاتصال مع مستخدمين آخرين في المجال.";
 $text['description-shared_import']['de-at'] = "Kontakte mit anderen Benutzern in dieser Domain teilen.";
@@ -5225,6 +5426,7 @@ $text['description-shared_import']['ja-jp'] = "ドメイン上の他のユーザ
 $text['description-shared_import']['ko-kr'] = "도메인의 다른 사용자와 연락처를 공유합니다.";
 
 $text['description-shared']['en-us'] = "Share this contact with other users on the domain.";
+$text['description-shared']['vi-vn'] = "Chia sẻ liên hệ này với người dùng khác trong tên miền.";
 $text['description-shared']['en-gb'] = "Share this contact with other users on the domain.";
 $text['description-shared']['ar-eg'] = "شارك جهة الاتصال هذه مع مستخدمين آخرين في المجال.";
 $text['description-shared']['de-at'] = "Diesen Kontakt mit anderen Benutzern in dieser Domain teilen.";
@@ -5251,6 +5453,7 @@ $text['description-shared']['ja-jp'] = "この連絡先をドメインの他の�
 $text['description-shared']['ko-kr'] = "이 연락처를 도메인의 다른 사용자와 공유하세요.";
 
 $text['description-phone_label']['en-us'] = "Select or enter a custom label.";
+$text['description-phone_label']['vi-vn'] = "Chọn hoặc nhập nhãn tùy chỉnh.";
 $text['description-phone_label']['en-gb'] = "Select or enter a custom label.";
 $text['description-phone_label']['ar-eg'] = "حدد أو أدخل تسمية مخصصة.";
 $text['description-phone_label']['de-at'] = "Wählen Sie eine beliebige Kennzeichnung.";
@@ -5277,6 +5480,7 @@ $text['description-phone_label']['ja-jp'] = "カスタム ラベルを選択ま�
 $text['description-phone_label']['ko-kr'] = "사용자 지정 레이블을 선택하거나 입력합니다.";
 
 $text['description-phone_type']['en-us'] = "Define the number type or purpose.";
+$text['description-phone_type']['vi-vn'] = "Xác định loại hoặc mục đích của số.";
 $text['description-phone_type']['en-gb'] = "Define the number type or purpose.";
 $text['description-phone_type']['ar-eg'] = "حدد نوع الرقم أو الغرض منه.";
 $text['description-phone_type']['de-at'] = "Definieren Sie die Art oder den Zweck dieser Nummer.";
@@ -5303,6 +5507,7 @@ $text['description-phone_type']['ja-jp'] = "番号のタイプまたは目的を
 $text['description-phone_type']['ko-kr'] = "번호 유형 또는 목적을 정의합니다.";
 
 $text['description-phone_speed_dial']['en-us'] = "Enter the speed dial number.";
+$text['description-phone_speed_dial']['vi-vn'] = "Nhập số quay nhanh.";
 $text['description-phone_speed_dial']['en-gb'] = "Enter the speed dial number.";
 $text['description-phone_speed_dial']['ar-eg'] = "أدخل رقم الاتصال السريع.";
 $text['description-phone_speed_dial']['de-at'] = "Kurzwahlnummer eingeben";
@@ -5329,6 +5534,7 @@ $text['description-phone_speed_dial']['ja-jp'] = "短縮ダイヤル番号を入
 $text['description-phone_speed_dial']['ko-kr'] = "단축번호를 입력하세요.";
 
 $text['description-phone_country_code']['en-us'] = "Enter the country code.";
+$text['description-phone_country_code']['vi-vn'] = "Nhập mã quốc gia.";
 $text['description-phone_country_code']['en-gb'] = "Enter the country code.";
 $text['description-phone_country_code']['ar-eg'] = "أدخل رمز الدولة.";
 $text['description-phone_country_code']['de-at'] = "Geben Sie den Ländercode ein.";
@@ -5355,6 +5561,7 @@ $text['description-phone_country_code']['ja-jp'] = "国コードを入力しま�
 $text['description-phone_country_code']['ko-kr'] = "국가 코드를 입력합니다.";
 
 $text['description-phone_number']['en-us'] = "Enter the phone number.";
+$text['description-phone_number']['vi-vn'] = "Nhập số điện thoại.";
 $text['description-phone_number']['en-gb'] = "Enter the phone number.";
 $text['description-phone_number']['ar-eg'] = "أدخل رقم الهاتف.";
 $text['description-phone_number']['de-at'] = "Geben Sie die Telefonnummer an.";
@@ -5381,6 +5588,7 @@ $text['description-phone_number']['ja-jp'] = "電話番号を入力します。"
 $text['description-phone_number']['ko-kr'] = "전화번호를 입력하세요.";
 
 $text['description-phone_extension']['en-us'] = "Enter the extension.";
+$text['description-phone_extension']['vi-vn'] = "Nhập máy nhánh.";
 $text['description-phone_extension']['en-gb'] = "Enter the extension.";
 $text['description-phone_extension']['ar-eg'] = "أدخل الامتداد.";
 $text['description-phone_extension']['de-at'] = "Geben Sie die Nebenstelle an.";
@@ -5407,6 +5615,7 @@ $text['description-phone_extension']['ja-jp'] = "拡張子を入力します。"
 $text['description-phone_extension']['ko-kr'] = "확장자를 입력합니다.";
 
 $text['description-phone_primary']['en-us'] = "Set as the primary Number for this contact.";
+$text['description-phone_primary']['vi-vn'] = "Đặt làm số chính cho liên hệ này.";
 $text['description-phone_primary']['en-gb'] = "Set as the primary Number for this contact.";
 $text['description-phone_primary']['ar-eg'] = "تعيين كرقم أساسي لجهة الاتصال هذه.";
 $text['description-phone_primary']['de-at'] = "Als primäre Nummer für diesen Kontakt setzen.";
@@ -5433,6 +5642,7 @@ $text['description-phone_primary']['ja-jp'] = "この連絡先のプライマリ
 $text['description-phone_primary']['ko-kr'] = "이 연락처의 기본 번호로 설정합니다.";
 
 $text['description-phone_description']['en-us'] = "Enter the description.";
+$text['description-phone_description']['vi-vn'] = "Nhập mô tả.";
 $text['description-phone_description']['en-gb'] = "Enter the description.";
 $text['description-phone_description']['ar-eg'] = "أدخل الوصف.";
 $text['description-phone_description']['de-at'] = "Geben Sie eine Beschreibung an.";
@@ -5459,6 +5669,7 @@ $text['description-phone_description']['ja-jp'] = "説明を入力します。";
 $text['description-phone_description']['ko-kr'] = "설명을 입력합니다.";
 
 $text['description-order']['en-us'] = "Set the order (index) for this array element.";
+$text['description-order']['vi-vn'] = "Thiết lập thứ tự (chỉ mục) cho phần tử mảng này.";
 $text['description-order']['en-gb'] = "Set the order (index) for this array element.";
 $text['description-order']['ar-eg'] = "قم بتعيين الترتيب (الفهرس) لعنصر المصفوفة هذا.";
 $text['description-order']['de-at'] = "Setzen Sie die Reihenfolge für dieses Array Element.";
@@ -5485,6 +5696,7 @@ $text['description-order']['ja-jp'] = "この配列要素の順序 (インデッ
 $text['description-order']['ko-kr'] = "이 배열 요소의 순서(색인)를 설정합니다.";
 
 $text['description-import_fields']['en-us'] = "Select contact data fields to import.";
+$text['description-import_fields']['vi-vn'] = "Chọn các trường dữ liệu liên hệ cần nhập.";
 $text['description-import_fields']['en-gb'] = "Select contact data fields to import.";
 $text['description-import_fields']['ar-eg'] = "حدد حقول بيانات الاتصال لاستيرادها.";
 $text['description-import_fields']['de-at'] = "Wählen Sie die Datenfelder für den Import.";
@@ -5511,6 +5723,7 @@ $text['description-import_fields']['ja-jp'] = "インポートする連絡先デ
 $text['description-import_fields']['ko-kr'] = "가져올 연락처 데이터 필드를 선택하십시오.";
 
 $text['description-import_enclosure']['en-us'] = "Select the enclosure of text (double-quotes or nothing).";
+$text['description-import_enclosure']['vi-vn'] = "Chọn ký tự bao văn bản (dấu ngoặc kép hoặc không dùng).";
 $text['description-import_enclosure']['en-gb'] = "Select the enclosure of text (double-quotes or nothing).";
 $text['description-import_enclosure']['ar-eg'] = "حدد إحاطة النص (علامات الاقتباس المزدوجة أو لا شيء).";
 $text['description-import_enclosure']['de-at'] = "Wählen Sie die Abgrenzung für den Text (Doppelte Anführungszeichen oder nichts).";
@@ -5537,6 +5750,7 @@ $text['description-import_enclosure']['ja-jp'] = "テキストの囲みを選択
 $text['description-import_enclosure']['ko-kr'] = "텍스트 둘러싸기를 선택합니다(큰따옴표 또는 없음).";
 
 $text['description-import_duplicates']['en-us'] = "Select how to treat contacts previously imported.";
+$text['description-import_duplicates']['vi-vn'] = "Chọn cách xử lý các liên hệ đã nhập trước đó.";
 $text['description-import_duplicates']['en-gb'] = "Select how to treat contacts previously imported.";
 $text['description-import_duplicates']['ar-eg'] = "حدد كيفية التعامل مع جهات الاتصال التي تم استيرادها مسبقًا.";
 $text['description-import_duplicates']['de-at'] = "Wählen Sie aus, wie mit vorhandenen Kontakten verfahren werden soll.";
@@ -5563,6 +5777,7 @@ $text['description-import_duplicates']['ja-jp'] = "以前にインポートし�
 $text['description-import_duplicates']['ko-kr'] = "이전에 가져온 연락처를 처리하는 방법을 선택합니다.";
 
 $text['description-import_data']['en-us'] = "Copy and paste the comma delimitted data into the text area to begin the import.";
+$text['description-import_data']['vi-vn'] = "Sao chép và dán dữ liệu được phân tách bằng dấu phẩy vào vùng văn bản để bắt đầu nhập.";
 $text['description-import_data']['en-gb'] = "Copy and paste the comma delimitted data into the text area to begin the import.";
 $text['description-import_data']['ar-eg'] = "انسخ والصق البيانات المحددة بفاصلة في منطقة النص لبدء الاستيراد.";
 $text['description-import_data']['de-at'] = "Kopieren Sie die komma-getrennten Daten in den Textbereich um den Import zu starten.";
@@ -5589,6 +5804,7 @@ $text['description-import_data']['ja-jp'] = "カンマ区切りのデータを�
 $text['description-import_data']['ko-kr'] = "쉼표로 구분된 데이터를 복사하여 텍스트 영역에 붙여넣어 가져오기를 시작합니다.";
 
 $text['description-import_delimiter']['en-us'] = "Select the delimiter (comma or pipe).";
+$text['description-import_delimiter']['vi-vn'] = "Chọn dấu phân tách (dấu phẩy hoặc dấu gạch đứng).";
 $text['description-import_delimiter']['en-gb'] = "Select the delimiter (comma or pipe).";
 $text['description-import_delimiter']['ar-eg'] = "حدد المحدد (فاصلة أو أنبوب).";
 $text['description-import_delimiter']['de-at'] = "Wählen Sie das Trennzeichen (Beistrich oder Wagrechter Strich)";
@@ -5615,6 +5831,7 @@ $text['description-import_delimiter']['ja-jp'] = "区切り文字 (カンマま�
 $text['description-import_delimiter']['ko-kr'] = "구분 기호(쉼표 또는 파이프)를 선택합니다.";
 
 $text['description-users']['en-us'] = "Users allowed to view this contact.";
+$text['description-users']['vi-vn'] = "Người dùng được phép xem liên hệ này.";
 $text['description-users']['en-gb'] = "Users allowed to view this contact.";
 $text['description-users']['ar-eg'] = "يسمح للمستخدمين بمشاهدة جهة الاتصال هذه.";
 $text['description-users']['de-at'] = "Legen Sie die Benutzer fest, für die dieser Kontakt sichtbar ist.";
@@ -5641,6 +5858,7 @@ $text['description-users']['ja-jp'] = "ユーザーはこの連絡先を表示�
 $text['description-users']['ko-kr'] = "이 연락처를 볼 수 있는 사용자입니다.";
 
 $text['description-groups']['en-us'] = "Groups allowed to view this contact.";
+$text['description-groups']['vi-vn'] = "Nhóm được phép xem liên hệ này.";
 $text['description-groups']['en-gb'] = "Groups allowed to view this contact.";
 $text['description-groups']['ar-eg'] = "المجموعات المسموح لها بمشاهدة جهة الاتصال هذه.";
 $text['description-groups']['de-at'] = "Legen Sie die Gruppen fest, für die dieser Kontakt sichtbar ist.";
@@ -5667,6 +5885,7 @@ $text['description-groups']['ja-jp'] = "この連絡先を表示できるグル�
 $text['description-groups']['ko-kr'] = "이 연락처를 볼 수 있는 그룹입니다.";
 
 $text['description-email_primary']['en-us'] = "Set as the primary Email for this contact.";
+$text['description-email_primary']['vi-vn'] = "Đặt làm email chính cho liên hệ này.";
 $text['description-email_primary']['en-gb'] = "Set as the primary Email for this contact.";
 $text['description-email_primary']['ar-eg'] = "تعيين كبريد إلكتروني أساسي لجهة الاتصال هذه.";
 $text['description-email_primary']['de-at'] = "Als primäre Email-Adresse für diesen Kontakt setzen.";
@@ -5693,6 +5912,7 @@ $text['description-email_primary']['ja-jp'] = "この連絡先のプライマリ
 $text['description-email_primary']['ko-kr'] = "이 연락처의 기본 이메일로 설정합니다.";
 
 $text['description-contacts_import_google']['en-us'] = "Select the desired contacts to import.";
+$text['description-contacts_import_google']['vi-vn'] = "Chọn các liên hệ muốn nhập.";
 $text['description-contacts_import_google']['en-gb'] = "Select the desired contacts to import.";
 $text['description-contacts_import_google']['ar-eg'] = "حدد جهات الاتصال المطلوبة لاستيرادها.";
 $text['description-contacts_import_google']['de-at'] = "Wählen Sie die Kontakte, die importiert werden sollen.";
@@ -5719,6 +5939,7 @@ $text['description-contacts_import_google']['ja-jp'] = "インポートする連
 $text['description-contacts_import_google']['ko-kr'] = "가져올 연락처를 선택합니다.";
 
 $text['description-contacts_import']['en-us'] = "Submit or upload delimited data to add multiple records.";
+$text['description-contacts_import']['vi-vn'] = "Gửi hoặc tải dữ liệu có dấu phân tách lên để thêm nhiều bản ghi.";
 $text['description-contacts_import']['en-gb'] = "Submit or upload delimited data to add multiple records.";
 $text['description-contacts_import']['ar-eg'] = "إرسال أو تحميل البيانات المحددة لإضافة سجلات متعددة.";
 $text['description-contacts_import']['de-at'] = "Exportieren Sie Ihre Kontakte aus Outlook in eine CSV Datei und benützen Sie diese Funktion um Ihre Kontakte zu importieren.";
@@ -5745,6 +5966,7 @@ $text['description-contacts_import']['ja-jp'] = "区切りデータを送信ま�
 $text['description-contacts_import']['ko-kr'] = "구분된 데이터를 제출하거나 업로드하여 여러 레코드를 추가합니다.";
 
 $text['description-contacts']['en-us'] = "The contact is a list of individuals and organizations.";
+$text['description-contacts']['vi-vn'] = "Liên hệ là danh sách các cá nhân và tổ chức.";
 $text['description-contacts']['en-gb'] = "The contact is a list of individuals and organizations.";
 $text['description-contacts']['ar-eg'] = "جهة الاتصال هي قائمة الأفراد والمنظمات.";
 $text['description-contacts']['de-at'] = "Kontakte sind Benutzer, externe Personen oder Unternehmen.";
@@ -5771,6 +5993,7 @@ $text['description-contacts']['ja-jp'] = "連絡先は個人および組織の�
 $text['description-contacts']['ko-kr'] = "연락처는 개인 및 조직의 목록입니다.";
 
 $text['description-contact_url-edit']['en-us'] = "Contact url address information.";
+$text['description-contact_url-edit']['vi-vn'] = "Thông tin địa chỉ URL của liên hệ.";
 $text['description-contact_url-edit']['en-gb'] = "Contact url address information.";
 $text['description-contact_url-edit']['ar-eg'] = "معلومات عنوان URL للاتصال.";
 $text['description-contact_url-edit']['de-at'] = "URL mit Adressinformationen des Kontakts.";
@@ -5797,6 +6020,7 @@ $text['description-contact_url-edit']['ja-jp'] = "連絡先URLアドレス情報
 $text['description-contact_url-edit']['ko-kr'] = "URL 주소 정보에 문의하십시오.";
 
 $text['description-contact_url-add']['en-us'] = "Contact url address information.";
+$text['description-contact_url-add']['vi-vn'] = "Thông tin địa chỉ URL của liên hệ.";
 $text['description-contact_url-add']['en-gb'] = "Contact url address information.";
 $text['description-contact_url-add']['ar-eg'] = "معلومات عنوان URL للاتصال.";
 $text['description-contact_url-add']['de-at'] = "URL mit Adressinformationen des Kontakts.";
@@ -5823,6 +6047,7 @@ $text['description-contact_url-add']['ja-jp'] = "連絡先URLアドレス情報�
 $text['description-contact_url-add']['ko-kr'] = "URL 주소 정보에 문의하십시오.";
 
 $text['description-contact_url']['en-us'] = "Enter the website address.";
+$text['description-contact_url']['vi-vn'] = "Nhập địa chỉ website.";
 $text['description-contact_url']['en-gb'] = "Enter the website address.";
 $text['description-contact_url']['ar-eg'] = "أدخل عنوان الموقع.";
 $text['description-contact_url']['de-at'] = "Geben Sie die Webseite an.";
@@ -5849,6 +6074,7 @@ $text['description-contact_url']['ja-jp'] = "Web サイトのアドレスを入�
 $text['description-contact_url']['ko-kr'] = "웹사이트 주소를 입력하세요.";
 
 $text['description-contact_type_import']['en-us'] = "Set a type for the contacts.";
+$text['description-contact_type_import']['vi-vn'] = "Thiết lập loại cho các liên hệ.";
 $text['description-contact_type_import']['en-gb'] = "Set a type for the contacts.";
 $text['description-contact_type_import']['ar-eg'] = "حدد نوع جهات الاتصال.";
 $text['description-contact_type_import']['de-at'] = "Setzen Sie die Art des Kontakts.";
@@ -5875,6 +6101,7 @@ $text['description-contact_type_import']['ja-jp'] = "連絡先のタイプを設
 $text['description-contact_type_import']['ko-kr'] = "연락처 유형을 설정합니다.";
 
 $text['description-contact_type']['en-us'] = "Set the contact type.";
+$text['description-contact_type']['vi-vn'] = "Thiết lập loại liên hệ.";
 $text['description-contact_type']['en-gb'] = "Set the contact type.";
 $text['description-contact_type']['ar-eg'] = "حدد نوع جهة الاتصال.";
 $text['description-contact_type']['de-at'] = "Setzen Sie die Art des Kontakts";
@@ -5901,6 +6128,7 @@ $text['description-contact_type']['ja-jp'] = "接触タイプを設定します�
 $text['description-contact_type']['ko-kr'] = "연락처 유형을 설정합니다.";
 
 $text['description-contact_title']['en-us'] = "Enter the title.";
+$text['description-contact_title']['vi-vn'] = "Nhập tiêu đề.";
 $text['description-contact_title']['en-gb'] = "Enter the title.";
 $text['description-contact_title']['ar-eg'] = "أدخل العنوان.";
 $text['description-contact_title']['de-at'] = "Geben Sie einen Titel an.";
@@ -5927,6 +6155,7 @@ $text['description-contact_title']['ja-jp'] = "タイトルを入力します。
 $text['description-contact_title']['ko-kr'] = "제목을 입력하세요.";
 
 $text['description-contact_time_zone']['en-us'] = "Enter the time zone.";
+$text['description-contact_time_zone']['vi-vn'] = "Nhập múi giờ.";
 $text['description-contact_time_zone']['en-gb'] = "Enter the time zone.";
 $text['description-contact_time_zone']['ar-eg'] = "أدخل المنطقة الزمنية.";
 $text['description-contact_time_zone']['de-at'] = "Geben Sie eine Zeitzone an.";
@@ -5953,6 +6182,7 @@ $text['description-contact_time_zone']['ja-jp'] = "タイムゾーンを入力�
 $text['description-contact_time_zone']['ko-kr'] = "시간대를 입력합니다.";
 
 $text['description-contact_setting_value']['en-us'] = "Enter the value of this setting.";
+$text['description-contact_setting_value']['vi-vn'] = "Nhập giá trị của cài đặt này.";
 $text['description-contact_setting_value']['en-gb'] = "Enter the value of this setting.";
 $text['description-contact_setting_value']['ar-eg'] = "أدخل قيمة هذا الإعداد.";
 $text['description-contact_setting_value']['de-at'] = "Geben Sie den Wert für diese Einstellung an.";
@@ -5979,6 +6209,7 @@ $text['description-contact_setting_value']['ja-jp'] = "この設定の値を入�
 $text['description-contact_setting_value']['ko-kr'] = "이 설정의 값을 입력하십시오.";
 
 $text['description-contact_setting_type']['en-us'] = "Enter the type.";
+$text['description-contact_setting_type']['vi-vn'] = "Nhập loại.";
 $text['description-contact_setting_type']['en-gb'] = "Enter the type.";
 $text['description-contact_setting_type']['ar-eg'] = "أدخل النوع.";
 $text['description-contact_setting_type']['de-at'] = "Geben Sie die Art an.";
@@ -6005,6 +6236,7 @@ $text['description-contact_setting_type']['ja-jp'] = "タイプを入力しま�
 $text['description-contact_setting_type']['ko-kr'] = "유형을 입력합니다.";
 
 $text['description-contact_setting_subcategory']['en-us'] = "Enter the subcategory.";
+$text['description-contact_setting_subcategory']['vi-vn'] = "Nhập danh mục con.";
 $text['description-contact_setting_subcategory']['en-gb'] = "Enter the subcategory.";
 $text['description-contact_setting_subcategory']['ar-eg'] = "أدخل الفئة الفرعية.";
 $text['description-contact_setting_subcategory']['de-at'] = "Geben Sie eine Unterkategorie an.";
@@ -6031,6 +6263,7 @@ $text['description-contact_setting_subcategory']['ja-jp'] = "サブカテゴリ�
 $text['description-contact_setting_subcategory']['ko-kr'] = "하위 범주를 입력합니다.";
 
 $text['description-contact_setting_edit']['en-us'] = "Edit a setting for this contact.";
+$text['description-contact_setting_edit']['vi-vn'] = "Sửa một cài đặt cho liên hệ này.";
 $text['description-contact_setting_edit']['en-gb'] = "Edit a setting for this contact.";
 $text['description-contact_setting_edit']['ar-eg'] = "قم بتحرير إعداد لجهة الاتصال هذه.";
 $text['description-contact_setting_edit']['de-at'] = "Geben Sie eine Einstellung für diesen Kontakt an.";
@@ -6057,6 +6290,7 @@ $text['description-contact_setting_edit']['ja-jp'] = "この連絡先の設定�
 $text['description-contact_setting_edit']['ko-kr'] = "이 연락처에 대한 설정을 편집합니다.";
 
 $text['description-contact_setting_category']['en-us'] = "Enter the category.";
+$text['description-contact_setting_category']['vi-vn'] = "Nhập danh mục.";
 $text['description-contact_setting_category']['en-gb'] = "Enter the category.";
 $text['description-contact_setting_category']['ar-eg'] = "أدخل الفئة.";
 $text['description-contact_setting_category']['de-at'] = "Geben Sie eine Kategorie an.";
@@ -6083,6 +6317,7 @@ $text['description-contact_setting_category']['ja-jp'] = "カテゴリを入力�
 $text['description-contact_setting_category']['ko-kr'] = "카테고리를 입력하세요.";
 
 $text['description-contact_setting_add']['en-us'] = "Add a setting for this contact.";
+$text['description-contact_setting_add']['vi-vn'] = "Thêm một cài đặt cho liên hệ này.";
 $text['description-contact_setting_add']['en-gb'] = "Add a setting for this contact.";
 $text['description-contact_setting_add']['ar-eg'] = "أضف إعدادًا لجهة الاتصال هذه.";
 $text['description-contact_setting_add']['de-at'] = "Fügen Sie eine Einstellung für diesen Kontakt hinzu.";
@@ -6109,6 +6344,7 @@ $text['description-contact_setting_add']['ja-jp'] = "この連絡先の設定を
 $text['description-contact_setting_add']['ko-kr'] = "이 연락처에 대한 설정을 추가하십시오.";
 
 $text['description-contact_role']['en-us'] = "Enter the role.";
+$text['description-contact_role']['vi-vn'] = "Nhập vai trò.";
 $text['description-contact_role']['en-gb'] = "Enter the role.";
 $text['description-contact_role']['ar-eg'] = "أدخل الدور.";
 $text['description-contact_role']['de-at'] = "Geben Sie die Rolle an.";
@@ -6135,6 +6371,7 @@ $text['description-contact_role']['ja-jp'] = "ロールを入力します。";
 $text['description-contact_role']['ko-kr'] = "역할을 입력합니다.";
 
 $text['description-contact_relation_reciprocal_label']['en-us'] = "Define the relationship of this contact to the contact selected above.";
+$text['description-contact_relation_reciprocal_label']['vi-vn'] = "Xác định quan hệ của liên hệ này với liên hệ đã chọn ở trên.";
 $text['description-contact_relation_reciprocal_label']['en-gb'] = "Define the relationship of this contact to the contact selected above.";
 $text['description-contact_relation_reciprocal_label']['ar-eg'] = "حدد علاقة جهة الاتصال هذه بجهة الاتصال المحددة أعلاه.";
 $text['description-contact_relation_reciprocal_label']['de-at'] = "Definieren Sie die Beziehung dieses Kontakts zu dem Kontakt aus, den Sie oben ausgewählt haben.";
@@ -6161,6 +6398,7 @@ $text['description-contact_relation_reciprocal_label']['ja-jp'] = "この連絡�
 $text['description-contact_relation_reciprocal_label']['ko-kr'] = "위에서 선택한 연락처에 대한 이 연락처의 관계를 정의합니다.";
 
 $text['description-contact_relation_reciprocal']['en-us'] = "Select whether to also create a reciprocal relationship for the contact selected above.";
+$text['description-contact_relation_reciprocal']['vi-vn'] = "Chọn có tạo thêm quan hệ đối ứng cho liên hệ đã chọn ở trên hay không.";
 $text['description-contact_relation_reciprocal']['en-gb'] = "Select whether to also create a reciprocal relationship for the contact selected above.";
 $text['description-contact_relation_reciprocal']['ar-eg'] = "Wybierz, czy chcesz również utworzyć relację wzajemną dla kontaktu wybranego powyżej.";
 $text['description-contact_relation_reciprocal']['de-at'] = "Wählen Sie, ob die Beziehung Wechselseitig eingetragen werden soll.";
@@ -6187,6 +6425,7 @@ $text['description-contact_relation_reciprocal']['ja-jp'] = "上記で選択し�
 $text['description-contact_relation_reciprocal']['ko-kr'] = "위에서 선택한 연락처에 대한 상호 관계도 생성할지 여부를 선택합니다.";
 
 $text['description-contact_organization']['en-us'] = "Enter the organization.";
+$text['description-contact_organization']['vi-vn'] = "Nhập tổ chức.";
 $text['description-contact_organization']['en-gb'] = "Enter the organization.";
 $text['description-contact_organization']['ar-eg'] = "أدخل المنظمة.";
 $text['description-contact_organization']['de-at'] = "Geben Sie das Unternehmen an.";
@@ -6213,6 +6452,7 @@ $text['description-contact_organization']['ja-jp'] = "組織を入力します�
 $text['description-contact_organization']['ko-kr'] = "조직을 입력합니다.";
 
 $text['description-contact_notes-edit']['en-us'] = "Enter the desired note below.";
+$text['description-contact_notes-edit']['vi-vn'] = "Nhập ghi chú mong muốn bên dưới.";
 $text['description-contact_notes-edit']['en-gb'] = "Enter the desired note below.";
 $text['description-contact_notes-edit']['ar-eg'] = "أدخل الملاحظة المطلوبة أدناه.";
 $text['description-contact_notes-edit']['de-at'] = "Geben Sie die gewünschte Notiz unten ein.";
@@ -6239,6 +6479,7 @@ $text['description-contact_notes-edit']['ja-jp'] = "以下にご希望のメモ�
 $text['description-contact_notes-edit']['ko-kr'] = "在下面输入所需的注释。";
 
 $text['description-contact_notes-add']['en-us'] = "Enter the desired note below.";
+$text['description-contact_notes-add']['vi-vn'] = "Nhập ghi chú mong muốn bên dưới.";
 $text['description-contact_notes-add']['en-gb'] = "Enter the desired note below.";
 $text['description-contact_notes-add']['ar-eg'] = "أدخل الملاحظة المطلوبة أدناه.";
 $text['description-contact_notes-add']['de-at'] = "Geben Sie die gewünschte Notiz unten ein.";
@@ -6265,6 +6506,7 @@ $text['description-contact_notes-add']['ja-jp'] = "以下にご希望のメモ�
 $text['description-contact_notes-add']['ko-kr'] = "아래에 원하는 메모를 입력하십시오.";
 
 $text['description-contact_note']['en-us'] = "Enter a note for this contact.";
+$text['description-contact_note']['vi-vn'] = "Nhập ghi chú cho liên hệ này.";
 $text['description-contact_note']['en-gb'] = "Enter a note for this contact.";
 $text['description-contact_note']['ar-eg'] = "أدخل ملاحظة لجهة الاتصال هذه.";
 $text['description-contact_note']['de-at'] = "Geben Sie eine Notiz für diesen Kontakt ein.";
@@ -6291,6 +6533,7 @@ $text['description-contact_note']['ja-jp'] = "この連絡先のメモを入力�
 $text['description-contact_note']['ko-kr'] = "이 연락처에 대한 메모를 입력하십시오.";
 
 $text['description-contact_name_suffix']['en-us'] = "Enter the name suffix.";
+$text['description-contact_name_suffix']['vi-vn'] = "Nhập hậu tố tên.";
 $text['description-contact_name_suffix']['en-gb'] = "Enter the name suffix.";
 $text['description-contact_name_suffix']['ar-eg'] = "أدخل لاحقة الاسم.";
 $text['description-contact_name_suffix']['de-at'] = "Geben Sie die Vorsilbe ein.";
@@ -6317,6 +6560,7 @@ $text['description-contact_name_suffix']['ja-jp'] = "名前のサフィックス
 $text['description-contact_name_suffix']['ko-kr'] = "이름 접미사를 입력합니다.";
 
 $text['description-contact_name_prefix']['en-us'] = "Enter the name prefix.";
+$text['description-contact_name_prefix']['vi-vn'] = "Nhập tiền tố tên.";
 $text['description-contact_name_prefix']['en-gb'] = "Enter the name prefix.";
 $text['description-contact_name_prefix']['ar-eg'] = "أدخل بادئة الاسم.";
 $text['description-contact_name_prefix']['de-at'] = "Geben Sie die Nachsilbe ein.";
@@ -6343,6 +6587,7 @@ $text['description-contact_name_prefix']['ja-jp'] = "名前のプレフィック
 $text['description-contact_name_prefix']['ko-kr'] = "이름 접두사를 입력합니다.";
 
 $text['description-contact_name_middle']['en-us'] = "Enter the middle name.";
+$text['description-contact_name_middle']['vi-vn'] = "Nhập tên đệm.";
 $text['description-contact_name_middle']['en-gb'] = "Enter the middle name.";
 $text['description-contact_name_middle']['ar-eg'] = "أدخل الاسم الأوسط.";
 $text['description-contact_name_middle']['de-at'] = "Geben Sie den Mittelnamen ein.";
@@ -6369,6 +6614,7 @@ $text['description-contact_name_middle']['ja-jp'] = "ミドルネームを入力
 $text['description-contact_name_middle']['ko-kr'] = "중간 이름을 입력합니다.";
 
 $text['description-contact_name_given']['en-us'] = "Enter the given name.";
+$text['description-contact_name_given']['vi-vn'] = "Nhập tên.";
 $text['description-contact_name_given']['en-gb'] = "Enter the given name.";
 $text['description-contact_name_given']['ar-eg'] = "أدخل الاسم الأول.";
 $text['description-contact_name_given']['de-at'] = "Geben Sie den Vornamen ein.";
@@ -6395,6 +6641,7 @@ $text['description-contact_name_given']['ja-jp'] = "名を入力します。";
 $text['description-contact_name_given']['ko-kr'] = "주어진 이름을 입력하십시오.";
 
 $text['description-contact_name_family']['en-us'] = "Enter the family name.";
+$text['description-contact_name_family']['vi-vn'] = "Nhập họ.";
 $text['description-contact_name_family']['en-gb'] = "Enter the family name.";
 $text['description-contact_name_family']['ar-eg'] = "أدخل اسم العائلة.";
 $text['description-contact_name_family']['de-at'] = "Geben Sie den Nachnamen ein.";
@@ -6421,6 +6668,7 @@ $text['description-contact_name_family']['ja-jp'] = "姓を入力します。";
 $text['description-contact_name_family']['ko-kr'] = "성을 입력하세요.";
 
 $text['description-contact_email-edit']['en-us'] = "Contact email address information.";
+$text['description-contact_email-edit']['vi-vn'] = "Thông tin địa chỉ email liên hệ.";
 $text['description-contact_email-edit']['en-gb'] = "Contact email address information.";
 $text['description-contact_email-edit']['ar-eg'] = "معلومات عنوان البريد الإلكتروني للاتصال.";
 $text['description-contact_email-edit']['de-at'] = "Email-Address Informationen.";
@@ -6447,6 +6695,7 @@ $text['description-contact_email-edit']['ja-jp'] = "連絡先メールアドレ�
 $text['description-contact_email-edit']['ko-kr'] = "연락처 이메일 주소 정보.";
 
 $text['description-contact_email-add']['en-us'] = "Contact email address information.";
+$text['description-contact_email-add']['vi-vn'] = "Thông tin địa chỉ email liên hệ.";
 $text['description-contact_email-add']['en-gb'] = "Contact email address information.";
 $text['description-contact_email-add']['ar-eg'] = "معلومات عنوان البريد الإلكتروني للاتصال.";
 $text['description-contact_email-add']['de-at'] = "Email-Address Informationen.";
@@ -6473,6 +6722,7 @@ $text['description-contact_email-add']['ja-jp'] = "連絡先メールアドレ�
 $text['description-contact_email-add']['ko-kr'] = "연락처 이메일 주소 정보.";
 
 $text['description-contact_email']['en-us'] = "Enter the email address.";
+$text['description-contact_email']['vi-vn'] = "Nhập địa chỉ email.";
 $text['description-contact_email']['en-gb'] = "Enter the email address.";
 $text['description-contact_email']['ar-eg'] = "أدخل عنوان البريد الإلكتروني.";
 $text['description-contact_email']['de-at'] = "Geben Sie die Email Addresse ein.";
@@ -6499,6 +6749,7 @@ $text['description-contact_email']['ja-jp'] = "メールアドレスを入力し
 $text['description-contact_email']['ko-kr'] = "이메일 주소를 입력하세요.";
 
 $text['description-contact_category_import']['en-us'] = "Set a category for the contacts.";
+$text['description-contact_category_import']['vi-vn'] = "Thiết lập danh mục cho các liên hệ.";
 $text['description-contact_category_import']['en-gb'] = "Set a category for the contacts.";
 $text['description-contact_category_import']['ar-eg'] = "قم بتعيين فئة جهات الاتصال.";
 $text['description-contact_category_import']['de-at'] = "Wählen Sie eine Kategorie für diese Kontakte";
@@ -6525,6 +6776,7 @@ $text['description-contact_category_import']['ja-jp'] = "連絡先のカテゴ�
 $text['description-contact_category_import']['ko-kr'] = "연락처에 대한 범주를 설정합니다.";
 
 $text['description-contact_category']['en-us'] = "Set the contact category.";
+$text['description-contact_category']['vi-vn'] = "Thiết lập danh mục liên hệ.";
 $text['description-contact_category']['en-gb'] = "Set the contact category.";
 $text['description-contact_category']['ar-eg'] = "قم بتعيين فئة الاتصال.";
 $text['description-contact_category']['de-at'] = "Setzen Sie die Kontakt Kategorie.";
@@ -6551,6 +6803,7 @@ $text['description-contact_category']['ja-jp'] = "連絡先のカテゴリを設
 $text['description-contact_category']['ko-kr'] = "연락처 카테고리를 설정합니다.";
 
 $text['description-contact_addresses-edit']['en-us'] = "Contact address information.";
+$text['description-contact_addresses-edit']['vi-vn'] = "Thông tin địa chỉ liên hệ.";
 $text['description-contact_addresses-edit']['en-gb'] = "Contact address information.";
 $text['description-contact_addresses-edit']['ar-eg'] = "معلومات عنوان الاتصال.";
 $text['description-contact_addresses-edit']['de-at'] = "Address Informationen des Kontakts.";
@@ -6577,6 +6830,7 @@ $text['description-contact_addresses-edit']['ja-jp'] = "連絡先情報。";
 $text['description-contact_addresses-edit']['ko-kr'] = "연락처 정보.";
 
 $text['description-contact_addresses-add']['en-us'] = "Contact address information.";
+$text['description-contact_addresses-add']['vi-vn'] = "Thông tin địa chỉ liên hệ.";
 $text['description-contact_addresses-add']['en-gb'] = "Contact address information.";
 $text['description-contact_addresses-add']['ar-eg'] = "معلومات عنوان الاتصال.";
 $text['description-contact_addresses-add']['de-at'] = "Address Informationen des Kontakts.";
@@ -6603,6 +6857,7 @@ $text['description-contact_addresses-add']['ja-jp'] = "連絡先情報。";
 $text['description-contact_addresses-add']['ko-kr'] = "연락처 정보.";
 
 $text['description-contact-edit']['en-us'] = "The contact is a list of individuals and organizations.";
+$text['description-contact-edit']['vi-vn'] = "Liên hệ là danh sách các cá nhân và tổ chức.";
 $text['description-contact-edit']['en-gb'] = "The contact is a list of individuals and organizations.";
 $text['description-contact-edit']['ar-eg'] = "جهة الاتصال هي قائمة الأفراد والمنظمات.";
 $text['description-contact-edit']['de-at'] = "Kontakte sind Benutzer, externe Personen oder Unternehmen.";
@@ -6629,6 +6884,7 @@ $text['description-contact-edit']['ja-jp'] = "連絡先は個人および組織�
 $text['description-contact-edit']['ko-kr'] = "연락처는 개인 및 조직의 목록입니다.";
 
 $text['description-contact-add']['en-us'] = "The contact is a list of individuals and organizations.";
+$text['description-contact-add']['vi-vn'] = "Liên hệ là danh sách các cá nhân và tổ chức.";
 $text['description-contact-add']['en-gb'] = "The contact is a list of individuals and organizations.";
 $text['description-contact-add']['ar-eg'] = "جهة الاتصال هي قائمة الأفراد والمنظمات.";
 $text['description-contact-add']['de-at'] = "Kontakte sind Benutzer, externe Personen oder Unternehmen.";
@@ -6655,6 +6911,7 @@ $text['description-contact-add']['ja-jp'] = "連絡先は個人および組織�
 $text['description-contact-add']['ko-kr'] = "연락처는 개인 및 조직의 목록입니다.";
 
 $text['description-address_type']['en-us'] = "Define the address type (used for vCard generation).";
+$text['description-address_type']['vi-vn'] = "Xác định loại địa chỉ (dùng để tạo vCard).";
 $text['description-address_type']['en-gb'] = "Define the address type (used for vCard generation).";
 $text['description-address_type']['ar-eg'] = "حدد نوع العنوان (المستخدم في إنشاء vCard).";
 $text['description-address_type']['de-at'] = "Geben Sie den Art der Addresse an (für vCard verwendet)";
@@ -6681,6 +6938,7 @@ $text['description-address_type']['ja-jp'] = "アドレス タイプを定義し
 $text['description-address_type']['ko-kr'] = "주소 유형을 정의합니다(vCard 생성에 사용됨).";
 
 $text['description-address_region']['en-us'] = "Enter the state or province.";
+$text['description-address_region']['vi-vn'] = "Nhập bang hoặc tỉnh/thành.";
 $text['description-address_region']['en-gb'] = "Enter the state or province.";
 $text['description-address_region']['ar-eg'] = "أدخل الولاية أو المقاطعة.";
 $text['description-address_region']['de-at'] = "Geben Sie das Bundesland an.";
@@ -6707,6 +6965,7 @@ $text['description-address_region']['ja-jp'] = "都道府県を入力します�
 $text['description-address_region']['ko-kr'] = "시/도를 입력합니다.";
 
 $text['description-address_primary']['en-us'] = "Set as the primary Address for this contact.";
+$text['description-address_primary']['vi-vn'] = "Đặt làm địa chỉ chính cho liên hệ này.";
 $text['description-address_primary']['en-gb'] = "Set as the primary Address for this contact.";
 $text['description-address_primary']['ar-eg'] = "تعيين كعنوان أساسي لجهة الاتصال هذه.";
 $text['description-address_primary']['de-at'] = "Als primäre Addresse für diesen Kontakt setzen.";
@@ -6733,6 +6992,7 @@ $text['description-address_primary']['ja-jp'] = "この連絡先のプライマ�
 $text['description-address_primary']['ko-kr'] = "이 연락처의 기본 주소로 설정합니다.";
 
 $text['description-address_postal_code']['en-us'] = "Enter the postal code.";
+$text['description-address_postal_code']['vi-vn'] = "Nhập mã bưu chính.";
 $text['description-address_postal_code']['en-gb'] = "Enter the postal code.";
 $text['description-address_postal_code']['ar-eg'] = "أدخل الرمز البريدي.";
 $text['description-address_postal_code']['de-at'] = "Geben Sie die Postleitzahl ein.";
@@ -6759,6 +7019,7 @@ $text['description-address_postal_code']['ja-jp'] = "郵便番号を入力して
 $text['description-address_postal_code']['ko-kr'] = "우편번호를 입력하세요.";
 
 $text['description-address_longitude']['en-us'] = "Enter the longitude.";
+$text['description-address_longitude']['vi-vn'] = "Nhập kinh độ.";
 $text['description-address_longitude']['en-gb'] = "Enter the longitude.";
 $text['description-address_longitude']['ar-eg'] = "أدخل خط الطول.";
 $text['description-address_longitude']['de-at'] = "Geben Sie den Längengrad ein.";
@@ -6785,6 +7046,7 @@ $text['description-address_longitude']['ja-jp'] = "経度を入力します。";
 $text['description-address_longitude']['ko-kr'] = "경도를 입력합니다.";
 
 $text['description-address_locality']['en-us'] = "Enter the city.";
+$text['description-address_locality']['vi-vn'] = "Nhập thành phố.";
 $text['description-address_locality']['en-gb'] = "Enter the city.";
 $text['description-address_locality']['ar-eg'] = "أدخل المدينة.";
 $text['description-address_locality']['de-at'] = "Geben Sie die Stadt ein.";
@@ -6811,6 +7073,7 @@ $text['description-address_locality']['ja-jp'] = "街に入ります。";
 $text['description-address_locality']['ko-kr'] = "도시를 입력하십시오.";
 
 $text['description-address_latitude']['en-us'] = "Enter the latitude.";
+$text['description-address_latitude']['vi-vn'] = "Nhập vĩ độ.";
 $text['description-address_latitude']['en-gb'] = "Enter the latitude.";
 $text['description-address_latitude']['ar-eg'] = "أدخل خط العرض.";
 $text['description-address_latitude']['de-at'] = "Geben Sie dden Breitengrad ein.";
@@ -6837,6 +7100,7 @@ $text['description-address_latitude']['ja-jp'] = "緯度を入力します。";
 $text['description-address_latitude']['ko-kr'] = "위도를 입력합니다.";
 
 $text['description-address_label']['en-us'] = "Select or enter a custom label.";
+$text['description-address_label']['vi-vn'] = "Chọn hoặc nhập nhãn tùy chỉnh.";
 $text['description-address_label']['en-gb'] = "Select or enter a custom label.";
 $text['description-address_label']['ar-eg'] = "حدد أو أدخل تسمية مخصصة.";
 $text['description-address_label']['de-at'] = "Wählen oder setzen Sie eine benutzerdefinierte Kennzeichnung.";
@@ -6863,6 +7127,7 @@ $text['description-address_label']['ja-jp'] = "カスタム ラベルを選択�
 $text['description-address_label']['ko-kr'] = "사용자 지정 레이블을 선택하거나 입력합니다.";
 
 $text['description-address_description']['en-us'] = "Enter a description.";
+$text['description-address_description']['vi-vn'] = "Nhập mô tả.";
 $text['description-address_description']['en-gb'] = "Enter a description.";
 $text['description-address_description']['ar-eg'] = "أدخل وصفًا.";
 $text['description-address_description']['de-at'] = "Geben Sie eine Beschreibung an.";
@@ -6889,6 +7154,7 @@ $text['description-address_description']['ja-jp'] = "説明を入力します。
 $text['description-address_description']['ko-kr'] = "설명을 입력합니다.";
 
 $text['description-address_country']['en-us'] = "Enter the country.";
+$text['description-address_country']['vi-vn'] = "Nhập quốc gia.";
 $text['description-address_country']['en-gb'] = "Enter the country.";
 $text['description-address_country']['ar-eg'] = "أدخل الدولة.";
 $text['description-address_country']['de-at'] = "Geben Sie das Land ein.";
@@ -6915,6 +7181,7 @@ $text['description-address_country']['ja-jp'] = "国に入ります。";
 $text['description-address_country']['ko-kr'] = "국가를 입력하십시오.";
 
 $text['description-address_community']['en-us'] = "Enter the community.";
+$text['description-address_community']['vi-vn'] = "Nhập cộng đồng.";
 $text['description-address_community']['en-gb'] = "Enter the community.";
 $text['description-address_community']['ar-eg'] = "أدخل المجتمع.";
 $text['description-address_community']['de-at'] = "Geben Sie eine Gemeinde an.";
@@ -6941,6 +7208,7 @@ $text['description-address_community']['ja-jp'] = "コミュニティに入り�
 $text['description-address_community']['ko-kr'] = "커뮤니티에 들어가십시오.";
 
 $text['description-address_address']['en-us'] = "Enter the address.";
+$text['description-address_address']['vi-vn'] = "Nhập địa chỉ.";
 $text['description-address_address']['en-gb'] = "Enter the address.";
 $text['description-address_address']['ar-eg'] = "أدخل العنوان.";
 $text['description-address_address']['de-at'] = "Geben Sie die Adresse ein.";
@@ -6967,6 +7235,7 @@ $text['description-address_address']['ja-jp'] = "住所を入力します。";
 $text['description-address_address']['ko-kr'] = "주소를 입력하세요.";
 
 $text['confirm-delete']['en-us'] = "Do you really want to delete this?";
+$text['confirm-delete']['vi-vn'] = "Bạn có chắc muốn xóa mục này không?";
 $text['confirm-delete']['en-gb'] = "Do you really want to delete this?";
 $text['confirm-delete']['ar-eg'] = "هل تريد حقًا حذف هذا؟";
 $text['confirm-delete']['de-at'] = "Wollen Sie das wirklich löschen?";
@@ -6993,6 +7262,7 @@ $text['confirm-delete']['ja-jp'] = "本当にこれを削除しますか?";
 $text['confirm-delete']['ko-kr'] = "정말 삭제하시겠습니까?";
 
 $text['button-vcard']['en-us'] = "vCard";
+$text['button-vcard']['vi-vn'] = "vCard";
 $text['button-vcard']['en-gb'] = "vCard";
 $text['button-vcard']['ar-eg'] = "vCard";
 $text['button-vcard']['de-at'] = "vCard";
@@ -7019,6 +7289,7 @@ $text['button-vcard']['ja-jp'] = "vCard";
 $text['button-vcard']['ko-kr'] = "vCard";
 
 $text['button-upload']['en-us'] = "Upload";
+$text['button-upload']['vi-vn'] = "Tải lên";
 $text['button-upload']['en-gb'] = "Upload";
 $text['button-upload']['ar-eg'] = "رفع";
 $text['button-upload']['de-at'] = "Hochladen";
@@ -7045,6 +7316,7 @@ $text['button-upload']['ja-jp'] = "アップロード";
 $text['button-upload']['ko-kr'] = "업로드";
 
 $text['button-timer']['en-us'] = "Timer";
+$text['button-timer']['vi-vn'] = "Bộ đếm thời gian";
 $text['button-timer']['en-gb'] = "Timer";
 $text['button-timer']['ar-eg'] = "الموقت";
 $text['button-timer']['de-at'] = "Timer";
@@ -7071,6 +7343,7 @@ $text['button-timer']['ja-jp'] = "タイマー";
 $text['button-timer']['ko-kr'] = "시간제 노동자";
 
 $text['button-time']['en-us'] = "Time";
+$text['button-time']['vi-vn'] = "Thời gian";
 $text['button-time']['en-gb'] = "Time";
 $text['button-time']['ar-eg'] = "وقت";
 $text['button-time']['de-at'] = "Zeit";
@@ -7097,6 +7370,7 @@ $text['button-time']['ja-jp'] = "時間";
 $text['button-time']['ko-kr'] = "시간";
 
 $text['button-stop']['en-us'] = "Stop";
+$text['button-stop']['vi-vn'] = "Dừng";
 $text['button-stop']['en-gb'] = "Stop";
 $text['button-stop']['ar-eg'] = "قف";
 $text['button-stop']['de-at'] = "Stopp";
@@ -7123,6 +7397,7 @@ $text['button-stop']['ja-jp'] = "ストップ";
 $text['button-stop']['ko-kr'] = "멈추다";
 
 $text['button-start']['en-us'] = "Start";
+$text['button-start']['vi-vn'] = "Bắt đầu";
 $text['button-start']['en-gb'] = "Start";
 $text['button-start']['ar-eg'] = "يبدأ";
 $text['button-start']['de-at'] = "Start";
@@ -7149,6 +7424,7 @@ $text['button-start']['ja-jp'] = "スタート";
 $text['button-start']['ko-kr'] = "시작";
 
 $text['button-sign_out']['en-us'] = "Sign Out";
+$text['button-sign_out']['vi-vn'] = "Đăng xuất";
 $text['button-sign_out']['en-gb'] = "Sign Out";
 $text['button-sign_out']['ar-eg'] = "خروج";
 $text['button-sign_out']['de-at'] = "Abmelden";
@@ -7175,6 +7451,7 @@ $text['button-sign_out']['ja-jp'] = "サインアウト";
 $text['button-sign_out']['ko-kr'] = "로그아웃";
 
 $text['button-search']['en-us'] = "Search";
+$text['button-search']['vi-vn'] = "Tìm kiếm";
 $text['button-search']['en-gb'] = "Search";
 $text['button-search']['ar-eg'] = "يبحث";
 $text['button-search']['de-at'] = "Suchen";
@@ -7201,6 +7478,7 @@ $text['button-search']['ja-jp'] = "検索";
 $text['button-search']['ko-kr'] = "찾다";
 
 $text['button-save']['en-us'] = "Save";
+$text['button-save']['vi-vn'] = "Lưu";
 $text['button-save']['en-gb'] = "Save";
 $text['button-save']['ar-eg'] = "يحفظ";
 $text['button-save']['de-at'] = "Speichern";
@@ -7227,6 +7505,7 @@ $text['button-save']['ja-jp'] = "保存";
 $text['button-save']['ko-kr'] = "구하다";
 
 $text['button-reload']['en-us'] = "Reload";
+$text['button-reload']['vi-vn'] = "Tải lại";
 $text['button-reload']['en-gb'] = "Reload";
 $text['button-reload']['ar-eg'] = "إعادة تحميل";
 $text['button-reload']['de-at'] = "Neu Laden";
@@ -7253,6 +7532,7 @@ $text['button-reload']['ja-jp'] = "リロード";
 $text['button-reload']['ko-kr'] = "새로고침";
 
 $text['button-qr_code']['en-us'] = "QR Code";
+$text['button-qr_code']['vi-vn'] = "Mã QR";
 $text['button-qr_code']['en-gb'] = "QR Code";
 $text['button-qr_code']['ar-eg'] = "رمز الاستجابة السريعة";
 $text['button-qr_code']['de-at'] = "QR Code";
@@ -7279,6 +7559,7 @@ $text['button-qr_code']['ja-jp'] = "QRコード";
 $text['button-qr_code']['ko-kr'] = "QR 코드";
 
 $text['button-invoices']['en-us'] = "Invoices";
+$text['button-invoices']['vi-vn'] = "Hóa đơn";
 $text['button-invoices']['en-gb'] = "Invoices";
 $text['button-invoices']['ar-eg'] = "الفواتير";
 $text['button-invoices']['de-at'] = "Rechnungen";
@@ -7305,6 +7586,7 @@ $text['button-invoices']['ja-jp'] = "請求書";
 $text['button-invoices']['ko-kr'] = "인보이스";
 
 $text['button-import']['en-us'] = "Import";
+$text['button-import']['vi-vn'] = "Nhập";
 $text['button-import']['en-gb'] = "Import";
 $text['button-import']['ar-eg'] = "يستورد";
 $text['button-import']['de-at'] = "Importieren";
@@ -7331,6 +7613,7 @@ $text['button-import']['ja-jp'] = "輸入";
 $text['button-import']['ko-kr'] = "수입";
 
 $text['button-edit']['en-us'] = "Edit";
+$text['button-edit']['vi-vn'] = "Sửa";
 $text['button-edit']['en-gb'] = "Edit";
 $text['button-edit']['ar-eg'] = "يحرر";
 $text['button-edit']['de-at'] = "Bearbeiten";
@@ -7357,6 +7640,7 @@ $text['button-edit']['ja-jp'] = "編集";
 $text['button-edit']['ko-kr'] = "편집하다";
 
 $text['button-delete']['en-us'] = "Delete";
+$text['button-delete']['vi-vn'] = "Xóa";
 $text['button-delete']['en-gb'] = "Delete";
 $text['button-delete']['ar-eg'] = "يمسح";
 $text['button-delete']['de-at'] = "Löschen";
@@ -7383,6 +7667,7 @@ $text['button-delete']['ja-jp'] = "消去";
 $text['button-delete']['ko-kr'] = "삭제";
 
 $text['button-certificate']['en-us'] = "Certificate";
+$text['button-certificate']['vi-vn'] = "Chứng chỉ";
 $text['button-certificate']['en-gb'] = "Certificate";
 $text['button-certificate']['ar-eg'] = "شهادة";
 $text['button-certificate']['de-at'] = "Zertifikate";
@@ -7409,6 +7694,7 @@ $text['button-certificate']['ja-jp'] = "証明書";
 $text['button-certificate']['ko-kr'] = "자격증";
 
 $text['button-back']['en-us'] = "Back";
+$text['button-back']['vi-vn'] = "Quay lại";
 $text['button-back']['en-gb'] = "Back";
 $text['button-back']['ar-eg'] = "خلف";
 $text['button-back']['de-at'] = "Zurück";
@@ -7435,6 +7721,7 @@ $text['button-back']['ja-jp'] = "戻る";
 $text['button-back']['ko-kr'] = "뒤쪽에";
 
 $text['button-add']['en-us'] = "Add";
+$text['button-add']['vi-vn'] = "Thêm";
 $text['button-add']['en-gb'] = "Add";
 $text['button-add']['ar-eg'] = "يضيف";
 $text['button-add']['de-at'] = "Hinzufügen";
@@ -7461,6 +7748,7 @@ $text['button-add']['ja-jp'] = "追加";
 $text['button-add']['ko-kr'] = "추가하다";
 
 $text['button-user']['en-us'] = "User";
+$text['button-user']['vi-vn'] = "Người dùng";
 $text['button-user']['en-gb'] = "User";
 $text['button-user']['ar-eg'] = "مستخدم";
 $text['button-user']['de-at'] = "Benutzer";
@@ -7487,6 +7775,7 @@ $text['button-user']['ja-jp'] = "ユーザー";
 $text['button-user']['ko-kr'] = "사용자";
 
 $text['label-click_to_call']['en-us'] = "Click to Call";
+$text['label-click_to_call']['vi-vn'] = "Nhấp để gọi";
 $text['label-click_to_call']['en-gb'] = "Click to Call";
 $text['label-click_to_call']['ar-eg'] = "اضغط للاتصال";
 $text['label-click_to_call']['de-at'] = "Click to Call";
@@ -7512,6 +7801,7 @@ $text['label-click_to_call']['ja-jp'] = "電話するにはクリック";
 $text['label-click_to_call']['ko-kr'] = "클릭 투 콜";
 
 $text['label-search']['en-us'] = "Search...";
+$text['label-search']['vi-vn'] = "Tìm kiếm...";
 $text['label-search']['en-gb'] = "Search...";
 $text['label-search']['ar-eg'] = "يبحث";
 $text['label-search']['de-at'] = "Suchen...";
@@ -7538,6 +7828,7 @@ $text['label-search']['ja-jp'] = "検索";
 $text['label-search']['ko-kr'] = "찾다";
 
 $text['label-setting']['en-us'] = "Setting";
+$text['label-setting']['vi-vn'] = "Cài đặt";
 $text['label-setting']['en-gb'] = "Setting";
 $text['label-setting']['ar-eg'] = "جلسة";
 $text['label-setting']['de-at'] = "Einstellungen";
@@ -7563,6 +7854,7 @@ $text['label-setting']['ja-jp'] = "設定";
 $text['label-setting']['ko-kr'] = "환경";
 
 $text['label-email']['en-us'] = "Email";
+$text['label-email']['vi-vn'] = "Email";
 $text['label-email']['en-gb'] = "Email";
 $text['label-email']['ar-eg'] = "البريد الإليكتروني";
 $text['label-email']['de-at'] = "Email";
@@ -7588,6 +7880,7 @@ $text['label-email']['ja-jp'] = "Eメール";
 $text['label-email']['ko-kr'] = "이메일";
 
 $text['label-url']['en-us'] = "URL";
+$text['label-url']['vi-vn'] = "URL";
 $text['label-url']['en-gb'] = "URL";
 $text['label-url']['ar-eg'] = "URL";
 $text['label-url']['de-at'] = "URL";
@@ -7613,6 +7906,7 @@ $text['label-url']['ja-jp'] = "URL";
 $text['label-url']['ko-kr'] = "URL";
 
 $text['label-image']['en-us'] = "Image";
+$text['label-image']['vi-vn'] = "Hình ảnh";
 $text['label-image']['en-gb'] = "Image";
 $text['label-image']['ar-eg'] = "صورة";
 $text['label-image']['de-at'] = "Bild";
@@ -7638,6 +7932,7 @@ $text['label-image']['ja-jp'] = "画像";
 $text['label-image']['ko-kr'] = "영상";
 
 $text['label-file']['en-us'] = "File";
+$text['label-file']['vi-vn'] = "File";
 $text['label-file']['en-gb'] = "File";
 $text['label-file']['ar-eg'] = "ملف";
 $text['label-file']['de-at'] = "Dateien";
@@ -7660,6 +7955,7 @@ $text['label-file']['ja-jp'] = "ファイル";
 $text['label-file']['ko-kr'] = "파일";
 
 $text['label-properties']['en-us'] = "Properties";
+$text['label-properties']['vi-vn'] = "Thuộc tính";
 $text['label-properties']['en-gb'] = "Properties";
 $text['label-properties']['ar-eg'] = "ملكيات";
 $text['label-properties']['de-at'] = "Eigenschaften";
@@ -7685,6 +7981,7 @@ $text['label-properties']['ja-jp'] = "プロパティ";
 $text['label-properties']['ko-kr'] = "속성";
 
 $text['label-contact']['en-us'] = "Contact";
+$text['label-contact']['vi-vn'] = "Liên hệ";
 $text['label-contact']['en-gb'] = "Contact";
 $text['label-contact']['ar-eg'] = "اتصال";
 $text['label-contact']['de-at'] = "Kontakt";
@@ -7711,6 +8008,7 @@ $text['label-contact']['ja-jp'] = "コンタクト";
 $text['label-contact']['ko-kr'] = "연락하다";
 
 $text['label-permissions']['en-us'] = "Permissions";
+$text['label-permissions']['vi-vn'] = "Quyền";
 $text['label-permissions']['en-gb'] = "Permissions";
 $text['label-permissions']['ar-eg'] = "أذونات";
 $text['label-permissions']['de-at'] = "Berechtigungen";

@@ -1,6 +1,7 @@
 <?php
 
 $text['title-variables_advanced']['en-us'] = "Switch Variables: Advanced";
+$text['title-variables_advanced']['vi-vn'] = 'Biến switch: nâng cao';
 $text['title-variables_advanced']['en-gb'] = "Switch Variables: Advanced";
 $text['title-variables_advanced']['ar-eg'] = "تبديل المتغيرات: متقدم";
 $text['title-variables_advanced']['de-at'] = "Switch Variablen: Erweitert";
@@ -28,6 +29,7 @@ $text['title-variables_advanced']['ja-jp'] = "スイッチ変数: 詳細設定";
 $text['title-variables_advanced']['ko-kr'] = "스위치 변수: 고급";
 
 $text['title-variables']['en-us'] = "Switch Variables";
+$text['title-variables']['vi-vn'] = 'Biến switch';
 $text['title-variables']['en-gb'] = "Switch Variables";
 $text['title-variables']['ar-eg'] = "تبديل المتغيرات";
 $text['title-variables']['de-at'] = "Switch Variablen";
@@ -55,6 +57,7 @@ $text['title-variables']['ja-jp'] = "スイッチ変数";
 $text['title-variables']['ko-kr'] = "변수 전환";
 
 $text['title-variable']['en-us'] = "Variable";
+$text['title-variable']['vi-vn'] = 'Biến';
 $text['title-variable']['en-gb'] = "Variable";
 $text['title-variable']['ar-eg'] = "عامل";
 $text['title-variable']['de-at'] = "Variable";
@@ -82,6 +85,7 @@ $text['title-variable']['ja-jp'] = "変数";
 $text['title-variable']['ko-kr'] = "변하기 쉬운";
 
 $text['label-command']['en-us'] = "Command";
+$text['label-command']['vi-vn'] = 'Lệnh';
 $text['label-command']['en-gb'] = "Command";
 $text['label-command']['ar-eg'] = "يأمر";
 $text['label-command']['de-at'] = "Befehl";
@@ -109,6 +113,7 @@ $text['label-command']['ja-jp'] = "指図";
 $text['label-command']['ko-kr'] = "명령";
 
 $text['option-set']['en-us'] = "Set";
+$text['option-set']['vi-vn'] = 'Đặt';
 $text['option-set']['en-gb'] = "Set";
 $text['option-set']['ar-eg'] = "تعيين";
 $text['option-set']['de-at'] = "Satz";
@@ -136,6 +141,7 @@ $text['option-set']['ja-jp'] = "セット";
 $text['option-set']['ko-kr'] = "세트";
 
 $text['option-exec-set']['en-us'] = "Execute & Set";
+$text['option-exec-set']['vi-vn'] = 'Thực thi & đặt';
 $text['option-exec-set']['en-gb'] = "Execute & Set";
 $text['option-exec-set']['ar-eg'] = "تنفيذ وتعيين";
 $text['option-exec-set']['de-at'] = "Ausführen und setzen";
@@ -163,6 +169,7 @@ $text['option-exec-set']['ja-jp'] = "実行＆設定";
 $text['option-exec-set']['ko-kr'] = "실행 및 설정";
 
 $text['label-hostname']['en-us'] = "Hostname";
+$text['label-hostname']['vi-vn'] = 'Hostname';
 $text['label-hostname']['en-gb'] = "Hostname";
 $text['label-hostname']['ar-eg'] = "اسم المضيف";
 $text['label-hostname']['de-at'] = "Hostname";
@@ -190,6 +197,7 @@ $text['label-hostname']['ja-jp'] = "ホスト名";
 $text['label-hostname']['ko-kr'] = "호스트 이름";
 
 $text['label-codec_information']['en-us'] = "Codec Information";
+$text['label-codec_information']['vi-vn'] = 'Thông tin Codec';
 $text['label-codec_information']['en-gb'] = "Codec Information";
 $text['label-codec_information']['ar-eg'] = "معلومات الترميز";
 $text['label-codec_information']['de-at'] = "Codec Information";
@@ -217,6 +225,7 @@ $text['label-codec_information']['ja-jp'] = "コーデック情報";
 $text['label-codec_information']['ko-kr'] = "코덱 정보";
 
 $text['label-other']['en-us'] = "Other...";
+$text['label-other']['vi-vn'] = 'Khác...';
 $text['label-other']['en-gb'] = "Other...";
 $text['label-other']['ar-eg'] = "أخرى";
 $text['label-other']['de-at'] = "Andere...";
@@ -244,6 +253,7 @@ $text['label-other']['ja-jp'] = "その他";
 $text['label-other']['ko-kr'] = "다른";
 
 $text['header-variables_advanced']['en-us'] = "Switch Variables: Advanced";
+$text['header-variables_advanced']['vi-vn'] = 'Biến switch: nâng cao';
 $text['header-variables_advanced']['en-gb'] = "Switch Variables: Advanced";
 $text['header-variables_advanced']['ar-eg'] = "تبديل المتغيرات: متقدم";
 $text['header-variables_advanced']['de-at'] = "Switch Variablen: Erweitert";
@@ -271,6 +281,7 @@ $text['header-variables_advanced']['ja-jp'] = "スイッチ変数: 詳細設定"
 $text['header-variables_advanced']['ko-kr'] = "스위치 변수: 고급";
 
 $text['header-variables']['en-us'] = "Switch Variables";
+$text['header-variables']['vi-vn'] = 'Biến switch';
 $text['header-variables']['en-gb'] = "Switch Variables";
 $text['header-variables']['ar-eg'] = "تبديل المتغيرات";
 $text['header-variables']['de-at'] = "Switch Variablen";
@@ -298,6 +309,7 @@ $text['header-variables']['ja-jp'] = "スイッチ変数";
 $text['header-variables']['ko-kr'] = "변수 전환";
 
 $text['header-variable']['en-us'] = "Variable";
+$text['header-variable']['vi-vn'] = 'Biến';
 $text['header-variable']['en-gb'] = "Variable";
 $text['header-variable']['ar-eg'] = "عامل";
 $text['header-variable']['de-at'] = "Variable";
@@ -325,6 +337,7 @@ $text['header-variable']['ja-jp'] = "変数";
 $text['header-variable']['ko-kr'] = "변하기 쉬운";
 
 $text['header-hostname']['en-us'] = "Hostname";
+$text['header-hostname']['vi-vn'] = 'Hostname';
 $text['header-hostname']['en-gb'] = "Hostname";
 $text['header-hostname']['ar-eg'] = "اسم المضيف";
 $text['header-hostname']['de-at'] = "Hostname";
@@ -352,6 +365,7 @@ $text['header-hostname']['ja-jp'] = "ホスト名";
 $text['header-hostname']['ko-kr'] = "호스트 이름";
 
 $text['description-variables_advanced']['en-us'] = "Define preprocessor variables here. Can be accessed in the xml configuration with \$.";
+$text['description-variables_advanced']['vi-vn'] = 'Định nghĩa biến preprocessor tại đây. Có thể truy cập trong cấu hình XML bằng $.';
 $text['description-variables_advanced']['en-gb'] = "Define preprocessor variables here. Can be accessed in the xml configuration with \$.";
 $text['description-variables_advanced']['ar-eg'] = "حدد متغيرات المعالج المسبق هنا. يمكن الوصول إليه في تكوين xml باستخدام \$.";
 $text['description-variables_advanced']['de-at'] = "Definieren Sie Preprozessor Variablen. Auf diese kann in der XML Konfiguration mittels \$ zugegriffen werden.";
@@ -379,6 +393,7 @@ $text['description-variables_advanced']['ja-jp'] = "ここでプリプロセッ�
 $text['description-variables_advanced']['ko-kr'] = "여기에서 전처리기 변수를 정의합니다. \$를 사용하여 xml 구성에서 액세스할 수 있습니다.";
 
 $text['description-variables']['en-us'] = "Define preprocessor variables here. A switch restart is required for changes to take effect.";
+$text['description-variables']['vi-vn'] = 'Định nghĩa biến preprocessor tại đây. Cần khởi động lại switch để thay đổi có hiệu lực.';
 $text['description-variables']['en-gb'] = "Define preprocessor variables here. A switch restart is required for changes to take effect.";
 $text['description-variables']['ar-eg'] = "حدد متغيرات المعالج المسبق هنا. يلزم إعادة تشغيل المفتاح حتى تصبح التغييرات سارية المفعول.";
 $text['description-variables']['de-at'] = "Definieren Sie Preprozessor Variablen.";
@@ -406,6 +421,7 @@ $text['description-variables']['ja-jp'] = "ここでプリプロセッサ変数�
 $text['description-variables']['ko-kr'] = "여기에서 전처리기 변수를 정의합니다. 변경 사항을 적용하려면 스위치를 다시 시작해야 합니다.";
 
 $text['description-command']['en-us'] = "Set the command.";
+$text['description-command']['vi-vn'] = 'Đặt lệnh.';
 $text['description-command']['en-gb'] = "Set the command.";
 $text['description-command']['ar-eg'] = "اضبط الأمر.";
 $text['description-command']['de-at'] = "Stellen Sie den Befehl ein.";
@@ -433,6 +449,7 @@ $text['description-command']['ja-jp'] = "コマンドを設定します。";
 $text['description-command']['ko-kr'] = "명령을 설정합니다.";
 
 $text['description-name']['en-us'] = "Enter the variable name.";
+$text['description-name']['vi-vn'] = 'Nhập tên biến.';
 $text['description-name']['en-gb'] = "Enter the variable name.";
 $text['description-name']['ar-eg'] = "أدخل اسم المتغير.";
 $text['description-name']['de-at'] = "Geben Sie den Namen der Variable an.";
@@ -460,6 +477,7 @@ $text['description-name']['ja-jp'] = "変数名を入力します。";
 $text['description-name']['ko-kr'] = "변수 이름을 입력합니다.";
 
 $text['description-hostname']['en-us'] = "Enter the hostname / switchname.";
+$text['description-hostname']['vi-vn'] = 'Nhập hostname / switchname.';
 $text['description-hostname']['en-gb'] = "Enter the hostname / switchname.";
 $text['description-hostname']['ar-eg'] = "أدخل اسم المضيف / اسم التحويل.";
 $text['description-hostname']['de-at'] = "Geben Sie den Hostnamen / Switchnamen an.";
@@ -487,6 +505,7 @@ $text['description-hostname']['ja-jp'] = "ホスト名/スイッチ名を入力�
 $text['description-hostname']['ko-kr'] = "호스트 이름/스위치 이름을 입력합니다.";
 
 $text['description-enabled']['en-us'] = "Enable or disable this variable.";
+$text['description-enabled']['vi-vn'] = 'Bật hoặc tắt biến này.';
 $text['description-enabled']['en-gb'] = "Enable or disable this variable.";
 $text['description-enabled']['ar-eg'] = "تمكين أو تعطيل هذا المتغير.";
 $text['description-enabled']['de-at'] = "Aktivieren oder deaktivieren Sie diese Variable.";
@@ -514,6 +533,7 @@ $text['description-enabled']['ja-jp'] = "この変数を有効または無効に
 $text['description-enabled']['ko-kr'] = "이 변수를 활성화 또는 비활성화합니다.";
 
 $text['description-order']['en-us'] = "Select the order.";
+$text['description-order']['vi-vn'] = 'Chọn thứ tự.';
 $text['description-order']['en-gb'] = "Select the order.";
 $text['description-order']['ar-eg'] = "حدد الطلب.";
 $text['description-order']['de-at'] = "Wählen Sie die Bestellung aus.";
@@ -541,6 +561,7 @@ $text['description-order']['ja-jp'] = "注文を選択します。";
 $text['description-order']['ko-kr'] = "주문을 선택합니다.";
 
 $text['description-description']['en-us'] = "Enter the description.";
+$text['description-description']['vi-vn'] = 'Nhập mô tả.';
 $text['description-description']['en-gb'] = "Enter the description.";
 $text['description-description']['ar-eg'] = "أدخل الوصف.";
 $text['description-description']['de-at'] = "Geben Sie die Beschreibung ein.";

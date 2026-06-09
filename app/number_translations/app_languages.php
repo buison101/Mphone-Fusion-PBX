@@ -1,6 +1,7 @@
 <?php
 
 $text['title-number_translations']['en-us'] = "Number Translations";
+$text['title-number_translations']['vi-vn'] = 'Chuyển đổi số';
 $text['title-number_translations']['en-gb'] = "Number Translations";
 $text['title-number_translations']['ar-eg'] = "عدد الترجمة التحريرية";
 $text['title-number_translations']['de-at'] = "Anzahl Übersetzungen";
@@ -28,6 +29,7 @@ $text['title-number_translations']['ja-jp'] = "数字の翻訳";
 $text['title-number_translations']['ko-kr'] = "숫자 번역";
 
 $text['title-number_translation']['en-us'] = "Number Translation";
+$text['title-number_translation']['vi-vn'] = 'Chuyển đổi số';
 $text['title-number_translation']['en-gb'] = "Number Translation";
 $text['title-number_translation']['ar-eg'] = "الترجمة التحريرية";
 $text['title-number_translation']['de-at'] = "Nummer Übersetzung";
@@ -55,6 +57,7 @@ $text['title-number_translation']['ja-jp'] = "数字の変換";
 $text['title-number_translation']['ko-kr'] = "숫자 변환";
 
 $text['title_description-number_translations']['en-us'] = "Use this to translate numbers from the original number to a new number using regular expressions.";
+$text['title_description-number_translations']['vi-vn'] = 'Dùng phần này để chuyển đổi số gốc thành số mới bằng biểu thức chính quy.';
 $text['title_description-number_translations']['en-gb'] = "Use this to translate numbers from the original number to a new number using regular expressions.";
 $text['title_description-number_translations']['ar-eg'] = "استخدام هذا لترجمة الأرقام من الرقم الأصلي إلى رقم جديد باستخدام عبارات منتظمة.";
 $text['title_description-number_translations']['de-at'] = "Verwenden Sie dies, um Zahlen von der ursprünglichen Nummer auf eine neue Zahl mit regelmäßigen Ausdrücken zu übersetzen.";
@@ -82,6 +85,7 @@ $text['title_description-number_translations']['ja-jp'] = "これを使用して
 $text['title_description-number_translations']['ko-kr'] = "정규식을 사용하여 숫자를 원래 숫자에서 새 숫자로 변환하는 데 사용합니다.";
 
 $text['label-number_translation_detail_regex']['en-us'] = "Regular Expression";
+$text['label-number_translation_detail_regex']['vi-vn'] = 'Biểu thức chính quy';
 $text['label-number_translation_detail_regex']['en-gb'] = "Regular Expression";
 $text['label-number_translation_detail_regex']['ar-eg'] = "تعبير عادي";
 $text['label-number_translation_detail_regex']['de-at'] = "Regulärer Ausdruck";
@@ -109,6 +113,7 @@ $text['label-number_translation_detail_regex']['ja-jp'] = "正規表現";
 $text['label-number_translation_detail_regex']['ko-kr'] = "정규 표현식";
 
 $text['description-number_translation_detail_regex']['en-us'] = "Enter the regular expression that identifies the number to replace.";
+$text['description-number_translation_detail_regex']['vi-vn'] = 'Nhập biểu thức chính quy để xác định số cần thay thế.';
 $text['description-number_translation_detail_regex']['en-gb'] = "Enter the regular expression that identifies the number to replace.";
 $text['description-number_translation_detail_regex']['ar-eg'] = "أدخل التعبير المنتظم الذي يحدد الرقم الذي يحل محله.";
 $text['description-number_translation_detail_regex']['de-at'] = "Geben Sie den regulären Ausdruck ein, der die zu ersetzende Nummer identifiziert.";
@@ -136,6 +141,7 @@ $text['description-number_translation_detail_regex']['ja-jp'] = "置換する数
 $text['description-number_translation_detail_regex']['ko-kr'] = "바꿀 숫자를 식별하는 정규식을 입력합니다.";
 
 $text['label-number_translation_detail_replace']['en-us'] = "Replace";
+$text['label-number_translation_detail_replace']['vi-vn'] = 'Thay thế';
 $text['label-number_translation_detail_replace']['en-gb'] = "Replace";
 $text['label-number_translation_detail_replace']['ar-eg'] = "يحل محل";
 $text['label-number_translation_detail_replace']['de-at'] = "Ersetzen";
@@ -163,6 +169,7 @@ $text['label-number_translation_detail_replace']['ja-jp'] = "交換";
 $text['label-number_translation_detail_replace']['ko-kr'] = "바꾸다";
 
 $text['description-number_translation_detail_replace']['en-us'] = "Enter the number translation detail replace.";
+$text['description-number_translation_detail_replace']['vi-vn'] = 'Nhập chuỗi thay thế chi tiết cho chuyển đổi số.';
 $text['description-number_translation_detail_replace']['en-gb'] = "Enter the number translation detail replace.";
 $text['description-number_translation_detail_replace']['ar-eg'] = "أدخل رقم ترجمة التفاصيل واستبدل.";
 $text['description-number_translation_detail_replace']['de-at'] = "Geben Sie die Nummer Übersetzungsdetail ersetzen.";
@@ -190,6 +197,7 @@ $text['description-number_translation_detail_replace']['ja-jp'] = "数値変換�
 $text['description-number_translation_detail_replace']['ko-kr'] = "숫자 변환 세부 사항을 입력하십시오.";
 
 $text['label-number_translation_detail_order']['en-us'] = "Order";
+$text['label-number_translation_detail_order']['vi-vn'] = 'Thứ tự';
 $text['label-number_translation_detail_order']['en-gb'] = "Order";
 $text['label-number_translation_detail_order']['ar-eg'] = "الأمر";
 $text['label-number_translation_detail_order']['de-at'] = "Ordnung";
@@ -217,6 +225,7 @@ $text['label-number_translation_detail_order']['ja-jp'] = "注文";
 $text['label-number_translation_detail_order']['ko-kr'] = "주문하다";
 
 $text['description-number_translation_detail_order']['en-us'] = "Select the rule order.";
+$text['description-number_translation_detail_order']['vi-vn'] = 'Chọn thứ tự quy tắc.';
 $text['description-number_translation_detail_order']['en-gb'] = "Select the rule order.";
 $text['description-number_translation_detail_order']['ar-eg'] = "اختاري النظام";
 $text['description-number_translation_detail_order']['de-at'] = "Wählen Sie den Regelauftrag aus.";
@@ -244,6 +253,7 @@ $text['description-number_translation_detail_order']['ja-jp'] = "ルールの順
 $text['description-number_translation_detail_order']['ko-kr'] = "규칙 순서를 선택합니다.";
 
 $text['label-number_translation_name']['en-us'] = "Name";
+$text['label-number_translation_name']['vi-vn'] = 'Tên';
 $text['label-number_translation_name']['en-gb'] = "Name";
 $text['label-number_translation_name']['ar-eg'] = "الاسم";
 $text['label-number_translation_name']['de-at'] = "Name";
@@ -271,6 +281,7 @@ $text['label-number_translation_name']['ja-jp'] = "名前";
 $text['label-number_translation_name']['ko-kr'] = "이름";
 
 $text['description-number_translation_name']['en-us'] = "Enter the number translation name.";
+$text['description-number_translation_name']['vi-vn'] = 'Nhập tên chuyển đổi số.';
 $text['description-number_translation_name']['en-gb'] = "Enter the number translation name.";
 $text['description-number_translation_name']['ar-eg'] = "أدخل اسم ترجمة الرقم.";
 $text['description-number_translation_name']['de-at'] = "Geben Sie den Nummernübersetzungsnamen ein.";
@@ -298,6 +309,7 @@ $text['description-number_translation_name']['ja-jp'] = "数値変換名を入�
 $text['description-number_translation_name']['ko-kr'] = "숫자 번역 이름을 입력합니다.";
 
 $text['label-number_translation_details']['en-us'] = "Details";
+$text['label-number_translation_details']['vi-vn'] = 'Chi tiết';
 $text['label-number_translation_details']['en-gb'] = "Details";
 $text['label-number_translation_details']['ar-eg'] = "التفاصيل";
 $text['label-number_translation_details']['de-at'] = "Details";
@@ -325,6 +337,7 @@ $text['label-number_translation_details']['ja-jp'] = "詳細";
 $text['label-number_translation_details']['ko-kr'] = "세부";
 
 $text['description-number_translation_details']['en-us'] = "Define the regular expression and replace string to format the number.";
+$text['description-number_translation_details']['vi-vn'] = 'Định nghĩa biểu thức chính quy và chuỗi thay thế để định dạng số.';
 $text['description-number_translation_details']['en-gb'] = "Define the regular expression and replace string to format the number.";
 $text['description-number_translation_details']['ar-eg'] = "حدد التعبير العادي وسلسلة الاستبدال لتنسيق الرقم.";
 $text['description-number_translation_details']['de-at'] = "Definieren Sie den regulären Ausdruck und die Ersetzungszeichenfolge, um die Nummer zu formatieren.";
@@ -352,6 +365,7 @@ $text['description-number_translation_details']['ja-jp'] = "数値をフォー�
 $text['description-number_translation_details']['ko-kr'] = "숫자를 포맷하기 위해 정규식과 교체 문자열을 정의합니다.";
 
 $text['label-number_translation_enabled']['en-us'] = "Enabled";
+$text['label-number_translation_enabled']['vi-vn'] = 'Đã bật';
 $text['label-number_translation_enabled']['en-gb'] = "Enabled";
 $text['label-number_translation_enabled']['ar-eg'] = "مُتاح";
 $text['label-number_translation_enabled']['de-at'] = "Aktiviert";
@@ -379,6 +393,7 @@ $text['label-number_translation_enabled']['ja-jp'] = "有効";
 $text['label-number_translation_enabled']['ko-kr'] = "사용";
 
 $text['description-number_translation_enabled']['en-us'] = "Enter the number translation enabled.";
+$text['description-number_translation_enabled']['vi-vn'] = 'Chọn trạng thái bật/tắt của chuyển đổi số.';
 $text['description-number_translation_enabled']['en-gb'] = "Enter the number translation enabled.";
 $text['description-number_translation_enabled']['ar-eg'] = "أدخل رقم تمكين الترجمة.";
 $text['description-number_translation_enabled']['de-at'] = "Geben Sie die aktivierte Nummernübersetzung ein.";
@@ -406,6 +421,7 @@ $text['description-number_translation_enabled']['ja-jp'] = "有効な番号変�
 $text['description-number_translation_enabled']['ko-kr'] = "활성화된 숫자를 입력하십시오.";
 
 $text['label-number_translation_description']['en-us'] = "Description";
+$text['label-number_translation_description']['vi-vn'] = 'Mô tả';
 $text['label-number_translation_description']['en-gb'] = "Description";
 $text['label-number_translation_description']['ar-eg'] = "الوصف";
 $text['label-number_translation_description']['de-at'] = "Beschreibung";
@@ -433,6 +449,7 @@ $text['label-number_translation_description']['ja-jp'] = "説明";
 $text['label-number_translation_description']['ko-kr'] = "설명";
 
 $text['description-number_translation_description']['en-us'] = "Enter the number translation description.";
+$text['description-number_translation_description']['vi-vn'] = 'Nhập mô tả cho chuyển đổi số.';
 $text['description-number_translation_description']['en-gb'] = "Enter the number translation description.";
 $text['description-number_translation_description']['ar-eg'] = "أدخل وصف ترجمة الرقم.";
 $text['description-number_translation_description']['de-at'] = "Geben Sie die Nummer Übersetzungsbeschreibung ein.";

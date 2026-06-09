@@ -2,6 +2,7 @@
 #This file was last reorganized on 19th of September 2017 08:54:24 AM UTC
 
 $text['theme-label-logout']['en-us'] = "Logout";
+$text['theme-label-logout']['vi-vn'] = "Đăng xuất";
 $text['theme-label-logout']['en-gb'] = "Logout";
 $text['theme-label-logout']['ar-eg'] = "تسجيل خروج";
 $text['theme-label-logout']['de-at'] = "Abmelden"; //copied from de-de
@@ -29,6 +30,7 @@ $text['theme-label-logout']['ja-jp'] = "ログアウト";
 $text['theme-label-logout']['ko-kr'] = "로그 아웃";
 
 $text['theme-confirm-logout']['en-us'] = "Do you really want to logout?";
+$text['theme-confirm-logout']['vi-vn'] = "Bạn có chắc muốn đăng xuất không?";
 $text['theme-confirm-logout']['en-gb'] = "Do you really want to logout?";
 $text['theme-confirm-logout']['ar-eg'] = "هل تريد حقًا تسجيل الخروج؟";
 $text['theme-confirm-logout']['de-at'] = "Möchten Sie sich wirklich abmelden?"; //copied from de-de
@@ -56,6 +58,7 @@ $text['theme-confirm-logout']['ja-jp'] = "本当にログアウトしますか?"
 $text['theme-confirm-logout']['ko-kr'] = "로그아웃하시겠습니까?";
 
 $text['theme-label-open_selector']['en-us'] = "Domain Selector [ESC]";
+$text['theme-label-open_selector']['vi-vn'] = "Bộ chọn tên miền [ESC]";
 $text['theme-label-open_selector']['en-gb'] = "Domain Selector [ESC]";
 $text['theme-label-open_selector']['ar-eg'] = "محدد المجال [ESC]";
 $text['theme-label-open_selector']['de-at'] = "Dömänen Auswählen [ESC]"; //copied from de-de
@@ -83,6 +86,7 @@ $text['theme-label-open_selector']['ja-jp'] = "ドメインセレクター [ESC]
 $text['theme-label-open_selector']['ko-kr'] = "도메인 선택기[ESC]";
 
 $text['theme-title-domains']['en-us'] = "Domains";
+$text['theme-title-domains']['vi-vn'] = "Tên miền";
 $text['theme-title-domains']['en-gb'] = "Domains";
 $text['theme-title-domains']['ar-eg'] = "المجالات";
 $text['theme-title-domains']['de-at'] = "Domänen"; //copied from de-de
@@ -110,6 +114,7 @@ $text['theme-title-domains']['ja-jp'] = "ドメイン";
 $text['theme-title-domains']['ko-kr'] = "도메인";
 
 $text['theme-button-close']['en-us'] = "Close";
+$text['theme-button-close']['vi-vn'] = "Đóng";
 $text['theme-button-close']['en-gb'] = "Close";
 $text['theme-button-close']['ar-eg'] = "يغلق";
 $text['theme-button-close']['de-at'] = "Schließen"; //copied from de-de
@@ -137,6 +142,7 @@ $text['theme-button-close']['ja-jp'] = "近い";
 $text['theme-button-close']['ko-kr'] = "닫다";
 
 $text['theme-label-search']['en-us'] = "Search...";
+$text['theme-label-search']['vi-vn'] = "Tìm kiếm...";
 $text['theme-label-search']['en-gb'] = "Search...";
 $text['theme-label-search']['ar-eg'] = "يبحث...";
 $text['theme-label-search']['de-at'] = "Suchen..."; //copied from de-de
@@ -164,6 +170,7 @@ $text['theme-label-search']['ja-jp'] = "検索...";
 $text['theme-label-search']['ko-kr'] = "찾다...";
 
 $text['theme-label-copyright']['en-us'] = "Copyright";
+$text['theme-label-copyright']['vi-vn'] = "Bản quyền";
 $text['theme-label-copyright']['en-gb'] = "Copyright";
 $text['theme-label-copyright']['ar-eg'] = "حقوق النشر";
 $text['theme-label-copyright']['de-at'] = "Urheberrecht"; //copied from de-de
@@ -191,6 +198,7 @@ $text['theme-label-copyright']['ja-jp'] = "著作権";
 $text['theme-label-copyright']['ko-kr'] = "저작권";
 
 $text['theme-label-all_rights_reserved']['en-us'] = "All rights reserved.";
+$text['theme-label-all_rights_reserved']['vi-vn'] = "Mọi quyền được bảo lưu.";
 $text['theme-label-all_rights_reserved']['en-gb'] = "All rights reserved.";
 $text['theme-label-all_rights_reserved']['ar-eg'] = "كل الحقوق محفوظة.";
 $text['theme-label-all_rights_reserved']['de-at'] = "Alle Rechte vorbehalten"; //copied from de-de
@@ -218,6 +226,7 @@ $text['theme-label-all_rights_reserved']['ja-jp'] = "全著作権所有。";
 $text['theme-label-all_rights_reserved']['ko-kr'] = "판권 소유.";
 
 $text['theme-label-user']['en-us'] = "User";
+$text['theme-label-user']['vi-vn'] = "Người dùng";
 $text['theme-label-user']['en-gb'] = "User";
 $text['theme-label-user']['ar-eg'] = "مستخدم";
 $text['theme-label-user']['de-at'] = "Benutzer"; //copied from de-de
@@ -245,6 +254,7 @@ $text['theme-label-user']['ja-jp'] = "ユーザー";
 $text['theme-label-user']['ko-kr'] = "사용자";
 
 $text['theme-label-domain']['en-us'] = "Domain";
+$text['theme-label-domain']['vi-vn'] = "Tên miền";
 $text['theme-label-domain']['en-gb'] = "Domain";
 $text['theme-label-domain']['ar-eg'] = "اِختِصاص";
 $text['theme-label-domain']['de-at'] = "Domäne"; //copied from de-de
@@ -272,6 +282,7 @@ $text['theme-label-domain']['ja-jp'] = "ドメイン";
 $text['theme-label-domain']['ko-kr'] = "도메인";
 
 $text['theme-label-expand_menu']['en-us'] = "Expand Menu";
+$text['theme-label-expand_menu']['vi-vn'] = "Mở rộng menu";
 $text['theme-label-expand_menu']['en-gb'] = "Expand Menu";
 $text['theme-label-expand_menu']['ar-eg'] = "قم بتوسيع القائمة";
 $text['theme-label-expand_menu']['de-at'] = "Erweitern Sie das Menü";
@@ -299,6 +310,7 @@ $text['theme-label-expand_menu']['ja-jp'] = "メニューを展開する";
 $text['theme-label-expand_menu']['ko-kr'] = "메뉴 펼치기";
 
 $text['theme-label-contract_menu']['en-us'] = "Contract Menu";
+$text['theme-label-contract_menu']['vi-vn'] = "Thu gọn menu";
 $text['theme-label-contract_menu']['en-gb'] = "Contract Menu";
 $text['theme-label-contract_menu']['ar-eg'] = "قائمة العقد";
 $text['theme-label-contract_menu']['de-at'] = "Vertragsmenü";
@@ -326,6 +338,7 @@ $text['theme-label-contract_menu']['ja-jp'] = "契約メニュー";
 $text['theme-label-contract_menu']['ko-kr'] = "계약 메뉴";
 
 $text['theme-label-pin_menu']['en-us'] = "Pin Menu";
+$text['theme-label-pin_menu']['vi-vn'] = "Ghim menu";
 $text['theme-label-pin_menu']['en-gb'] = "Pin Menu";
 $text['theme-label-pin_menu']['ar-eg'] = "قائمة التثبيت";
 $text['theme-label-pin_menu']['de-at'] = "Pin-Menü";
@@ -353,6 +366,7 @@ $text['theme-label-pin_menu']['ja-jp'] = "ピンメニュー";
 $text['theme-label-pin_menu']['ko-kr'] = "핀 메뉴";
 
 $text['theme-label-unpin_menu']['en-us'] = "Unpin Menu";
+$text['theme-label-unpin_menu']['vi-vn'] = "Bỏ ghim menu";
 $text['theme-label-unpin_menu']['en-gb'] = "Unpin Menu";
 $text['theme-label-unpin_menu']['ar-eg'] = "إلغاء تثبيت القائمة";
 $text['theme-label-unpin_menu']['de-at'] = "Menü lösen";
@@ -380,6 +394,7 @@ $text['theme-label-unpin_menu']['ja-jp'] = "メニューの固定を解除する
 $text['theme-label-unpin_menu']['ko-kr'] = "메뉴 고정 해제";
 
 $text['theme-message-menu_expanded']['en-us'] = "Menu Pinned";
+$text['theme-message-menu_expanded']['vi-vn'] = "Menu đã được ghim";
 $text['theme-message-menu_expanded']['en-gb'] = "Menu Pinned";
 $text['theme-message-menu_expanded']['ar-eg'] = "تم تثبيت القائمة";
 $text['theme-message-menu_expanded']['de-at'] = "Menü angepinnt";
@@ -407,6 +422,7 @@ $text['theme-message-menu_expanded']['ja-jp'] = "固定されたメニュー";
 $text['theme-message-menu_expanded']['ko-kr'] = "고정된 메뉴";
 
 $text['theme-message-menu_contracted']['en-us'] = "Menu Unpinned";
+$text['theme-message-menu_contracted']['vi-vn'] = "Menu đã bỏ ghim";
 $text['theme-message-menu_contracted']['en-gb'] = "Menu Unpinned";
 $text['theme-message-menu_contracted']['ar-eg'] = "تم إلغاء تثبيت القائمة";
 $text['theme-message-menu_contracted']['de-at'] = "Menü nicht angepinnt";
@@ -434,6 +450,7 @@ $text['theme-message-menu_contracted']['ja-jp'] = "メニューの固定が解�
 $text['theme-message-menu_contracted']['ko-kr'] = "고정 해제된 메뉴";
 
 $text['theme-message-menu_reset']['en-us'] = "Menu State Reset";
+$text['theme-message-menu_reset']['vi-vn'] = "Đã đặt lại trạng thái menu";
 $text['theme-message-menu_reset']['en-gb'] = "Menu State Reset";
 $text['theme-message-menu_reset']['ar-eg'] = "إعادة تعيين حالة القائمة";
 $text['theme-message-menu_reset']['de-at'] = "Zurücksetzen des Menüstatus";

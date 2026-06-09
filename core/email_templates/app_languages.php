@@ -1,6 +1,7 @@
 <?php
 
 $text['title-email_templates']['en-us'] = "Email Templates";
+$text['title-email_templates']['vi-vn'] = "Mẫu email";
 $text['title-email_templates']['en-gb'] = "Email Templates";
 $text['title-email_templates']['ar-eg'] = "نماذج البريد الإلكتروني";
 $text['title-email_templates']['de-at'] = "E-Mail-Vorlagen";
@@ -28,6 +29,7 @@ $text['title-email_templates']['ja-jp'] = "メール テンプレート";
 $text['title-email_templates']['ko-kr'] = "이메일 템플릿";
 
 $text['title-email_template']['en-us'] = "Email Template";
+$text['title-email_template']['vi-vn'] = "Mẫu email";
 $text['title-email_template']['en-gb'] = "Email Template";
 $text['title-email_template']['ar-eg'] = "نموذج البريد الإلكتروني";
 $text['title-email_template']['de-at'] = "E-Mail senden";
@@ -55,6 +57,7 @@ $text['title-email_template']['ja-jp'] = "メールテンプレート";
 $text['title-email_template']['ko-kr'] = "이메일 템플릿";
 
 $text['title_description-email_template']['en-us'] = "Define and manage dynamic templates used for system generated outbound emails.";
+$text['title_description-email_template']['vi-vn'] = "Định nghĩa và quản lý các mẫu động dùng cho email gửi ra do hệ thống tạo.";
 $text['title_description-email_template']['en-gb'] = "Define and manage dynamic templates used for system generated outbound emails.";
 $text['title_description-email_template']['ar-eg'] = ":: تحديد وإدارة النماذج الدينامية المستخدمة في النظام المولدة إلكترونيات إلكترونية خارجية.";
 $text['title_description-email_template']['de-at'] = "Definieren und verwalten Sie dynamische Vorlagen, die für System generierte Outbound-E-Mails verwendet werden.";
@@ -82,6 +85,7 @@ $text['title_description-email_template']['ja-jp'] = "システム生成のア�
 $text['title_description-email_template']['ko-kr'] = "시스템 생성 아웃바운드 이메일에 사용되는 동적 템플릿을 정의하고 관리합니다.";
 
 $text['label-template_language']['en-us'] = "Language";
+$text['label-template_language']['vi-vn'] = "Ngôn ngữ";
 $text['label-template_language']['en-gb'] = "Language";
 $text['label-template_language']['ar-eg'] = "اللغة";
 $text['label-template_language']['de-at'] = "Sprache";
@@ -109,6 +113,7 @@ $text['label-template_language']['ja-jp'] = "言語";
 $text['label-template_language']['ko-kr'] = "언어";
 
 $text['description-template_language']['en-us'] = "Enter the language.";
+$text['description-template_language']['vi-vn'] = "Nhập ngôn ngữ.";
 $text['description-template_language']['en-gb'] = "Enter the language.";
 $text['description-template_language']['ar-eg'] = "أدخلي اللغة";
 $text['description-template_language']['de-at'] = "Geben Sie die Sprache ein.";
@@ -136,6 +141,7 @@ $text['description-template_language']['ja-jp'] = "言語を入力します。";
 $text['description-template_language']['ko-kr'] = "언어를 입력하세요.";
 
 $text['label-template_category']['en-us'] = "Category";
+$text['label-template_category']['vi-vn'] = "Danh mục";
 $text['label-template_category']['en-gb'] = "Category";
 $text['label-template_category']['ar-eg'] = "الفئة";
 $text['label-template_category']['de-at'] = "Kategorie";
@@ -163,6 +169,7 @@ $text['label-template_category']['ja-jp'] = "カテゴリー";
 $text['label-template_category']['ko-kr'] = "범주";
 
 $text['description-template_category']['en-us'] = "Select the category.";
+$text['description-template_category']['vi-vn'] = "Chọn danh mục.";
 $text['description-template_category']['en-gb'] = "Select the category.";
 $text['description-template_category']['ar-eg'] = "اختيار الفئة.";
 $text['description-template_category']['de-at'] = "Wählen Sie die Kategorie aus.";
@@ -190,6 +197,7 @@ $text['description-template_category']['ja-jp'] = "カテゴリを選択しま�
 $text['description-template_category']['ko-kr'] = "범주를 선택합니다.";
 
 $text['label-template_subcategory']['en-us'] = "Subcategory";
+$text['label-template_subcategory']['vi-vn'] = "Danh mục con";
 $text['label-template_subcategory']['en-gb'] = "Subcategory";
 $text['label-template_subcategory']['ar-eg'] = "الفئة الفرعية";
 $text['label-template_subcategory']['de-at'] = "Unterkategorie";
@@ -217,6 +225,7 @@ $text['label-template_subcategory']['ja-jp'] = "サブカテゴリ";
 $text['label-template_subcategory']['ko-kr'] = "하위 카테고리";
 
 $text['description-template_subcategory']['en-us'] = "Enter the subcategory.";
+$text['description-template_subcategory']['vi-vn'] = "Nhập danh mục con.";
 $text['description-template_subcategory']['en-gb'] = "Enter the subcategory.";
 $text['description-template_subcategory']['ar-eg'] = "أدخلوا الفئة الفرعية";
 $text['description-template_subcategory']['de-at'] = "Geben Sie die Unterkategorie ein.";
@@ -244,6 +253,7 @@ $text['description-template_subcategory']['ja-jp'] = "サブカテゴリを入�
 $text['description-template_subcategory']['ko-kr'] = "하위 범주를 입력합니다.";
 
 $text['label-template_subject']['en-us'] = "Subject";
+$text['label-template_subject']['vi-vn'] = "Tiêu đề";
 $text['label-template_subject']['en-gb'] = "Subject";
 $text['label-template_subject']['ar-eg'] = "الموضوع";
 $text['label-template_subject']['de-at'] = "Gegenstand";
@@ -271,6 +281,7 @@ $text['label-template_subject']['ja-jp'] = "主題";
 $text['label-template_subject']['ko-kr'] = "주제";
 
 $text['description-template_subject']['en-us'] = "Enter the template subject.";
+$text['description-template_subject']['vi-vn'] = "Nhập tiêu đề mẫu.";
 $text['description-template_subject']['en-gb'] = "Enter the template subject.";
 $text['description-template_subject']['ar-eg'] = "أدخل موضوع النموذج";
 $text['description-template_subject']['de-at'] = "Geben Sie die Vorlage ein.";
@@ -298,6 +309,7 @@ $text['description-template_subject']['ja-jp'] = "テンプレートの件名を
 $text['description-template_subject']['ko-kr'] = "템플릿 제목을 입력합니다.";
 
 $text['label-template_body']['en-us'] = "Body";
+$text['label-template_body']['vi-vn'] = "Nội dung";
 $text['label-template_body']['en-gb'] = "Body";
 $text['label-template_body']['ar-eg'] = "الهيئة";
 $text['label-template_body']['de-at'] = "Körper";
@@ -325,6 +337,7 @@ $text['label-template_body']['ja-jp'] = "体";
 $text['label-template_body']['ko-kr'] = "몸";
 
 $text['description-template_body']['en-us'] = "Enter the template body.";
+$text['description-template_body']['vi-vn'] = "Nhập nội dung mẫu.";
 $text['description-template_body']['en-gb'] = "Enter the template body.";
 $text['description-template_body']['ar-eg'] = "أدخل الجسم المثالي";
 $text['description-template_body']['de-at'] = "Geben Sie die Vorlage ein.";
@@ -352,6 +365,7 @@ $text['description-template_body']['ja-jp'] = "テンプレートの本文を入
 $text['description-template_body']['ko-kr'] = "템플릿 본문을 입력합니다.";
 
 $text['label-template_type']['en-us'] = "Type";
+$text['label-template_type']['vi-vn'] = "Loại";
 $text['label-template_type']['en-gb'] = "Type";
 $text['label-template_type']['ar-eg'] = "النوع";
 $text['label-template_type']['de-at'] = "Art";
@@ -379,6 +393,7 @@ $text['label-template_type']['ja-jp'] = "タイプ";
 $text['label-template_type']['ko-kr'] = "유형";
 
 $text['description-template_type']['en-us'] = "Set the content type.";
+$text['description-template_type']['vi-vn'] = "Thiết lập loại nội dung.";
 $text['description-template_type']['en-gb'] = "Set the content type.";
 $text['description-template_type']['ar-eg'] = "حددي نوع المحتوى";
 $text['description-template_type']['de-at'] = "Setzen Sie den Inhaltstyp.";
@@ -406,6 +421,7 @@ $text['description-template_type']['ja-jp'] = "コンテンツタイプを設定
 $text['description-template_type']['ko-kr'] = "콘텐츠 유형을 설정합니다.";
 
 $text['label-template_text']['en-us'] = "Text";
+$text['label-template_text']['vi-vn'] = "Văn bản";
 $text['label-template_text']['en-gb'] = "Text";
 $text['label-template_text']['ar-eg'] = "النص";
 $text['label-template_text']['de-at'] = "Text";
@@ -433,6 +449,7 @@ $text['label-template_text']['ja-jp'] = "文章";
 $text['label-template_text']['ko-kr'] = "텍스트";
 
 $text['label-template_enabled']['en-us'] = "Enabled";
+$text['label-template_enabled']['vi-vn'] = "Đã bật";
 $text['label-template_enabled']['en-gb'] = "Enabled";
 $text['label-template_enabled']['ar-eg'] = "مُتاح";
 $text['label-template_enabled']['de-at'] = "Aktiviert";
@@ -460,6 +477,7 @@ $text['label-template_enabled']['ja-jp'] = "有効";
 $text['label-template_enabled']['ko-kr'] = "사용";
 
 $text['description-template_enabled']['en-us'] = "Set the status of the template.";
+$text['description-template_enabled']['vi-vn'] = "Thiết lập trạng thái của mẫu.";
 $text['description-template_enabled']['en-gb'] = "Set the status of the template.";
 $text['description-template_enabled']['ar-eg'] = "عيّن حالة القالب.";
 $text['description-template_enabled']['de-at'] = "Legen Sie den Status der Vorlage fest.";
@@ -487,6 +505,7 @@ $text['description-template_enabled']['ja-jp'] = "テンプレートのステー
 $text['description-template_enabled']['ko-kr'] = "템플릿의 상태를 설정합니다.";
 
 $text['label-template_description']['en-us'] = "Description";
+$text['label-template_description']['vi-vn'] = "Mô tả";
 $text['label-template_description']['en-gb'] = "Description";
 $text['label-template_description']['ar-eg'] = "الوصف";
 $text['label-template_description']['de-at'] = "Beschreibung";
@@ -514,6 +533,7 @@ $text['label-template_description']['ja-jp'] = "説明";
 $text['label-template_description']['ko-kr'] = "설명";
 
 $text['description-template_description']['en-us'] = "Enter the description.";
+$text['description-template_description']['vi-vn'] = "Nhập mô tả.";
 $text['description-template_description']['en-gb'] = "Enter the description.";
 $text['description-template_description']['ar-eg'] = "أدخل الوصف";
 $text['description-template_description']['de-at'] = "Geben Sie die Beschreibung ein.";

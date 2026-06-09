@@ -1,6 +1,7 @@
 <?php
 
 $text['title-user_logs']['en-us'] = "User Logs";
+$text['title-user_logs']['vi-vn'] = "Nhật ký người dùng";
 $text['title-user_logs']['en-gb'] = "User Logs";
 $text['title-user_logs']['ar-eg'] = "سجلات المستخدم";
 $text['title-user_logs']['de-at'] = "Benutzerprotokolle";
@@ -28,6 +29,7 @@ $text['title-user_logs']['ja-jp'] = "ユーザーログ";
 $text['title-user_logs']['ko-kr'] = "사용자 로그";
 
 $text['title-user_log']['en-us'] = "User Log";
+$text['title-user_log']['vi-vn'] = "Nhật ký người dùng";
 $text['title-user_log']['en-gb'] = "User Log";
 $text['title-user_log']['ar-eg'] = "مستعمل لوغ";
 $text['title-user_log']['de-at'] = "Benutzerprotokoll";
@@ -55,6 +57,7 @@ $text['title-user_log']['ja-jp'] = "ユーザーログ";
 $text['title-user_log']['ko-kr'] = "사용자 로그";
 
 $text['title_description-user_logs']['en-us'] = "Shows authentication attempts with the result, timestamp, remote address and user details.";
+$text['title_description-user_logs']['vi-vn'] = "Hiển thị các lần thử xác thực cùng kết quả, dấu thời gian, địa chỉ từ xa và chi tiết người dùng.";
 $text['title_description-user_logs']['en-gb'] = "Shows authentication attempts with the result, timestamp, remote address and user details.";
 $text['title_description-user_logs']['ar-eg'] = "يعرض محاولات المصادقة مع النتيجة والطابع الزمني والعنوان البعيد وتفاصيل المستخدم.";
 $text['title_description-user_logs']['de-at'] = "Zeigt Authentifizierungsversuche mit Ergebnis, Zeitstempel, Remote-Adresse und Benutzerdetails.";
@@ -82,6 +85,7 @@ $text['title_description-user_logs']['ja-jp'] = "結果、タイムスタンプ�
 $text['title_description-user_logs']['ko-kr'] = "결과, 타임 스탬프, 원격 주소 및 사용자 세부 사항에 대한 인증 시도를 보여줍니다.";
 
 $text['label-timestamp']['en-us'] = "Timestamp";
+$text['label-timestamp']['vi-vn'] = "Dấu thời gian";
 $text['label-timestamp']['en-gb'] = "Timestamp";
 $text['label-timestamp']['ar-eg'] = "الطابع الزمني";
 $text['label-timestamp']['de-at'] = "Zeitstempel";
@@ -109,6 +113,7 @@ $text['label-timestamp']['ja-jp'] = "タイムスタンプ";
 $text['label-timestamp']['ko-kr'] = "타임 스탬프";
 
 $text['description-timestamp']['en-us'] = "Set the datetime.";
+$text['description-timestamp']['vi-vn'] = "Thiết lập ngày giờ.";
 $text['description-timestamp']['en-gb'] = "Set the datetime.";
 $text['description-timestamp']['ar-eg'] = "اضبط التاريخ والوقت.";
 $text['description-timestamp']['de-at'] = "Stellen Sie das Datum und die Uhrzeit ein.";
@@ -136,6 +141,7 @@ $text['description-timestamp']['ja-jp'] = "日付時刻を設定します。";
 $text['description-timestamp']['ko-kr'] = "날짜/시간을 설정하십시오.";
 
 $text['label-user_uuid']['en-us'] = "User";
+$text['label-user_uuid']['vi-vn'] = "Người dùng";
 $text['label-user_uuid']['en-gb'] = "User";
 $text['label-user_uuid']['ar-eg'] = "مستخدم";
 $text['label-user_uuid']['de-at'] = "Benutzer";
@@ -163,6 +169,7 @@ $text['label-user_uuid']['ja-jp'] = "ユーザー";
 $text['label-user_uuid']['ko-kr'] = "사용자";
 
 $text['description-user_uuid']['en-us'] = "Select the user.";
+$text['description-user_uuid']['vi-vn'] = "Chọn người dùng.";
 $text['description-user_uuid']['en-gb'] = "Select the user.";
 $text['description-user_uuid']['ar-eg'] = "إختار المستعمل";
 $text['description-user_uuid']['de-at'] = "Wählen Sie den Benutzer aus.";
@@ -190,6 +197,7 @@ $text['description-user_uuid']['ja-jp'] = "ユーザを選択します。";
 $text['description-user_uuid']['ko-kr'] = "사용자를 선택합니다.";
 
 $text['label-username']['en-us'] = "Username";
+$text['label-username']['vi-vn'] = "Tên đăng nhập";
 $text['label-username']['en-gb'] = "Username";
 $text['label-username']['ar-eg'] = "اسم المستخدم";
 $text['label-username']['de-at'] = "Benutzername";
@@ -217,6 +225,7 @@ $text['label-username']['ja-jp'] = "ユーザ名";
 $text['label-username']['ko-kr'] = "사용자 이름";
 
 $text['description-username']['en-us'] = "Enter the Username.";
+$text['description-username']['vi-vn'] = "Nhập tên đăng nhập.";
 $text['description-username']['en-gb'] = "Enter the Username.";
 $text['description-username']['ar-eg'] = "أدخل اسم المستخدم.";
 $text['description-username']['de-at'] = "Geben Sie den Benutzernamen ein.";
@@ -244,6 +253,7 @@ $text['description-username']['ja-jp'] = "ユーザー名を入力します。";
 $text['description-username']['ko-kr'] = "사용자 이름을 입력하세요.";
 
 $text['label-type']['en-us'] = "Type";
+$text['label-type']['vi-vn'] = "Loại";
 $text['label-type']['en-gb'] = "Type";
 $text['label-type']['ar-eg'] = "النوع";
 $text['label-type']['de-at'] = "Art";
@@ -271,6 +281,7 @@ $text['label-type']['ja-jp'] = "タイプ";
 $text['label-type']['ko-kr'] = "유형";
 
 $text['description-type']['en-us'] = "Enter the type.";
+$text['description-type']['vi-vn'] = "Nhập loại.";
 $text['description-type']['en-gb'] = "Enter the type.";
 $text['description-type']['ar-eg'] = "أدخل النوع";
 $text['description-type']['de-at'] = "Geben Sie den Typ ein.";
@@ -298,6 +309,7 @@ $text['description-type']['ja-jp'] = "タイプを入力してください。";
 $text['description-type']['ko-kr'] = "유형을 입력하십시오.";
 
 $text['label-result']['en-us'] = "Result";
+$text['label-result']['vi-vn'] = "Kết quả";
 $text['label-result']['en-gb'] = "Result";
 $text['label-result']['ar-eg'] = "النتيجة";
 $text['label-result']['de-at'] = "Ergebnis";
@@ -325,6 +337,7 @@ $text['label-result']['ja-jp'] = "結果";
 $text['label-result']['ko-kr'] = "결과";
 
 $text['description-result']['en-us'] = "Enter the result.";
+$text['description-result']['vi-vn'] = "Nhập kết quả.";
 $text['description-result']['en-gb'] = "Enter the result.";
 $text['description-result']['ar-eg'] = "أدخل النتيجة";
 $text['description-result']['de-at'] = "Geben Sie das Ergebnis ein.";
@@ -352,6 +365,7 @@ $text['description-result']['ja-jp'] = "結果を入力してください。";
 $text['description-result']['ko-kr'] = "결과를 입력하십시오.";
 
 $text['label-success']['en-us'] = "success";
+$text['label-success']['vi-vn'] = "thành công";
 $text['label-success']['en-gb'] = "success";
 $text['label-success']['ar-eg'] = "النجاح";
 $text['label-success']['de-at'] = "Erfolg";
@@ -378,6 +392,7 @@ $text['label-success']['ja-jp'] = "サクセス";
 $text['label-success']['ko-kr'] = "결과";
 
 $text['label-failure']['en-us'] = "failure";
+$text['label-failure']['vi-vn'] = "thất bại";
 $text['label-failure']['en-gb'] = "failure";
 $text['label-failure']['ar-eg'] = "الفشل";
 $text['label-failure']['de-at'] = "Fehler";
@@ -404,6 +419,7 @@ $text['label-failure']['ja-jp'] = "故障";
 $text['label-failure']['ko-kr'] = "실패";
 
 $text['label-remote_address']['en-us'] = "Remote Address";
+$text['label-remote_address']['vi-vn'] = "Địa chỉ từ xa";
 $text['label-remote_address']['en-gb'] = "Remote Address";
 $text['label-remote_address']['ar-eg'] = "العنوان عن بعد";
 $text['label-remote_address']['de-at'] = "Fernleitung";
@@ -431,6 +447,7 @@ $text['label-remote_address']['ja-jp'] = "リモートアドレス";
 $text['label-remote_address']['ko-kr'] = "원격 주소";
 
 $text['description-remote_address']['en-us'] = "Enter the IP address.";
+$text['description-remote_address']['vi-vn'] = "Nhập địa chỉ IP.";
 $text['description-remote_address']['en-gb'] = "Enter the IP address.";
 $text['description-remote_address']['ar-eg'] = "أدخل العنوان";
 $text['description-remote_address']['de-at'] = "Geben Sie die IP-Adresse ein.";
@@ -458,6 +475,7 @@ $text['description-remote_address']['ja-jp'] = "IPアドレスを入力してく
 $text['description-remote_address']['ko-kr'] = "IP 주소를 입력하십시오.";
 
 $text['label-user_agent']['en-us'] = "User Agent";
+$text['label-user_agent']['vi-vn'] = "User Agent";
 $text['label-user_agent']['en-gb'] = "User Agent";
 $text['label-user_agent']['ar-eg'] = "وكيل مستعمل";
 $text['label-user_agent']['de-at'] = "Benutzer";
@@ -485,6 +503,7 @@ $text['label-user_agent']['ja-jp'] = "ユーザーエージェント";
 $text['label-user_agent']['ko-kr'] = "사용자 에이전트";
 
 $text['description-user_agent']['en-us'] = "Enter the user agent.";
+$text['description-user_agent']['vi-vn'] = "Nhập user agent.";
 $text['description-user_agent']['en-gb'] = "Enter the user agent.";
 $text['description-user_agent']['ar-eg'] = "أدخل وكيل المستعمل";
 $text['description-user_agent']['de-at'] = "Geben Sie den Benutzeragent ein.";
@@ -512,6 +531,7 @@ $text['description-user_agent']['ja-jp'] = "ユーザエージェントを入力
 $text['description-user_agent']['ko-kr'] = "사용자 에이전트를 입력하십시오.";
 
 $text['label-location']['en-us'] = "Location";
+$text['label-location']['vi-vn'] = "Vị trí";
 $text['label-location']['en-gb'] = "Location";
 $text['label-location']['ar-eg'] = "الموقع";
 $text['label-location']['de-at'] = "Standort";
@@ -539,6 +559,7 @@ $text['label-location']['ja-jp'] = "位置";
 $text['label-location']['ko-kr'] = "위치";
 
 $text['label-detail']['en-us'] = "Detail";
+$text['label-detail']['vi-vn'] = "Chi tiết";
 $text['label-detail']['en-gb'] = "Detail";
 $text['label-detail']['ar-eg'] = "تفصيل";
 $text['label-detail']['de-at'] = "Detail";
@@ -566,6 +587,7 @@ $text['label-detail']['ja-jp'] = "詳細";
 $text['label-detail']['ko-kr'] = "세부";
 
 $text['description-location']['en-us'] = "Enter the location.";
+$text['description-location']['vi-vn'] = "Nhập vị trí.";
 $text['description-location']['en-gb'] = "Enter the location.";
 $text['description-location']['ar-eg'] = "أدخل الموقع.";
 $text['description-location']['de-at'] = "Geben Sie den Standort ein.";

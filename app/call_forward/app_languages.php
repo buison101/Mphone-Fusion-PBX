@@ -1,6 +1,7 @@
 <?php
 
 $text['title-call_forward']['en-us'] = "Call Forward";
+$text['title-call_forward']['vi-vn'] = "Chuyển tiếp cuộc gọi";
 $text['title-call_forward']['en-gb'] = "Call Forward";
 $text['title-call_forward']['ar-eg'] = "دعوة إلى الأمام";
 $text['title-call_forward']['de-at'] = "Rufumleitung";
@@ -27,6 +28,7 @@ $text['title-call_forward']['ja-jp'] = "不在転送";
 $text['title-call_forward']['ko-kr'] = "착신 전환";
 
 $text['title-follow_me']['en-us'] = "Follow Me";
+$text['title-follow_me']['vi-vn'] = "Follow Me";
 $text['title-follow_me']['en-gb'] = "Follow Me";
 $text['title-follow_me']['ar-eg'] = "اتبعني";
 $text['title-follow_me']['de-at'] = "Anrufweiterschaltung";
@@ -53,6 +55,7 @@ $text['title-follow_me']['ja-jp'] = "フォローしてください";
 $text['title-follow_me']['ko-kr'] = "나를 따르라";
 
 $text['header-call_forward']['en-us'] = "Call Forward";
+$text['header-call_forward']['vi-vn'] = "Chuyển tiếp cuộc gọi";
 $text['header-call_forward']['en-gb'] = "Call Forward";
 $text['header-call_forward']['ar-eg'] = "دعوة إلى الأمام";
 $text['header-call_forward']['de-at'] = "Rufumleitung";
@@ -79,6 +82,7 @@ $text['header-call_forward']['ja-jp'] = "不在転送";
 $text['header-call_forward']['ko-kr'] = "착신 전환";
 
 $text['table-tools']['en-us'] = "Tools";
+$text['table-tools']['vi-vn'] = "Công cụ";
 $text['table-tools']['en-gb'] = "Tools";
 $text['table-tools']['ar-eg'] = "أدوات";
 $text['table-tools']['de-at'] = "Funktionen";
@@ -105,6 +109,7 @@ $text['table-tools']['ja-jp'] = "ツール";
 $text['table-tools']['ko-kr'] = "工具";
 
 $text['table-extension']['en-us'] = "Extension";
+$text['table-extension']['vi-vn'] = "Máy nhánh";
 $text['table-extension']['en-gb'] = "Extension";
 $text['table-extension']['ar-eg'] = "امتداد";
 $text['table-extension']['de-at'] = "Nebenstelle";
@@ -131,6 +136,7 @@ $text['table-extension']['ja-jp'] = "拡大";
 $text['table-extension']['ko-kr'] = "확대";
 
 $text['table-description']['en-us'] = "Description";
+$text['table-description']['vi-vn'] = "Mô tả";
 $text['table-description']['en-gb'] = "Description";
 $text['table-description']['ar-eg'] = "وصف";
 $text['table-description']['de-at'] = "Beschreibung";
@@ -157,6 +163,7 @@ $text['table-description']['ja-jp'] = "説明";
 $text['table-description']['ko-kr'] = "설명";
 
 $text['label-ring-timeout']['en-us'] = "Timeout";
+$text['label-ring-timeout']['vi-vn'] = "Thời gian chờ";
 $text['label-ring-timeout']['en-gb'] = "Timeout";
 $text['label-ring-timeout']['ar-eg'] = "نفذ الوقت";
 $text['label-ring-timeout']['de-at'] = "Abwurfzeit";
@@ -183,6 +190,7 @@ $text['label-ring-timeout']['ja-jp'] = "タイムアウト";
 $text['label-ring-timeout']['ko-kr'] = "타임아웃";
 
 $text['label-ring-order']['en-us'] = "Ring Order";
+$text['label-ring-order']['vi-vn'] = "Thứ tự đổ chuông";
 $text['label-ring-order']['en-gb'] = "Ring Order";
 $text['label-ring-order']['ar-eg'] = "ترتيب الطوق";
 $text['label-ring-order']['de-at'] = "Ruf Reihenfolge";
@@ -209,6 +217,7 @@ $text['label-ring-order']['ja-jp'] = "リングオーダー";
 $text['label-ring-order']['ko-kr'] = "링 오더";
 
 $text['label-ring-delay']['en-us'] = "Delay";
+$text['label-ring-delay']['vi-vn'] = "Trễ";
 $text['label-ring-delay']['en-gb'] = "Delay";
 $text['label-ring-delay']['ar-eg'] = "تأخير";
 $text['label-ring-delay']['de-at'] = "Verzögerung";
@@ -235,6 +244,7 @@ $text['label-ring-delay']['ja-jp'] = "遅れ";
 $text['label-ring-delay']['ko-kr'] = "지연";
 
 $text['label-prompt']['en-us'] = "Prompt to accept the call";
+$text['label-prompt']['vi-vn'] = "Nhắc để chấp nhận cuộc gọi";
 $text['label-prompt']['en-gb'] = "Prompt to accept the call";
 $text['label-prompt']['ar-eg'] = "موجه لقبول المكالمة";
 $text['label-prompt']['de-at'] = "Ansage um den Anruf anzunehmen";
@@ -261,6 +271,7 @@ $text['label-prompt']['ja-jp'] = "電話を受けるように促す";
 $text['label-prompt']['ko-kr'] = "전화를 수락할지 묻는 메시지";
 
 $text['label-on-busy']['en-us'] = "On Busy";
+$text['label-on-busy']['vi-vn'] = "Khi bận";
 $text['label-on-busy']['en-gb'] = "On Busy";
 $text['label-on-busy']['ar-eg'] = "مشغول";
 $text['label-on-busy']['de-at'] = "Bei Besetzt";
@@ -287,6 +298,7 @@ $text['label-on-busy']['ja-jp'] = "ビジー状態";
 $text['label-on-busy']['ko-kr'] = "바쁨";
 
 $text['label-number']['en-us'] = "Number";
+$text['label-number']['vi-vn'] = "Số";
 $text['label-number']['en-gb'] = "Number";
 $text['label-number']['ar-eg'] = "رقم";
 $text['label-number']['de-at'] = "Nummer";
@@ -313,6 +325,7 @@ $text['label-number']['ja-jp'] = "番号";
 $text['label-number']['ko-kr'] = "숫자";
 
 $text['label-no_answer']['en-us'] = "No Answer";
+$text['label-no_answer']['vi-vn'] = "Không trả lời";
 $text['label-no_answer']['en-gb'] = "No Answer";
 $text['label-no_answer']['ar-eg'] = "لا اجابة";
 $text['label-no_answer']['de-at'] = "Keine Antwort";
@@ -339,6 +352,7 @@ $text['label-no_answer']['ja-jp'] = "無回答";
 $text['label-no_answer']['ko-kr'] = "대답 없음";
 
 $text['label-not_registered']['en-us'] = "Not Registered";
+$text['label-not_registered']['vi-vn'] = "Chưa đăng ký";
 $text['label-not_registered']['en-gb'] = "Not Registered";
 $text['label-not_registered']['ar-eg'] = "غير مسجل";
 $text['label-not_registered']['de-at'] = "Nicht registriert";
@@ -365,6 +379,7 @@ $text['label-not_registered']['ja-jp'] = "未登録";
 $text['label-not_registered']['ko-kr'] = "등록되지 않은";
 
 $text['label-ignore_busy']['en-us'] = "Ignore Busy";
+$text['label-ignore_busy']['vi-vn'] = "Bỏ qua bận";
 $text['label-ignore_busy']['en-gb'] = "Ignore Busy";
 $text['label-ignore_busy']['ar-eg'] = "تجاهل مشغول";
 $text['label-ignore_busy']['de-at'] = "Besetzt ignorieren";
@@ -391,6 +406,7 @@ $text['label-ignore_busy']['ja-jp'] = "ビジー状態を無視";
 $text['label-ignore_busy']['ko-kr'] = "바쁜 무시";
 
 $text['label-follow_me']['en-us'] = "Follow Me";
+$text['label-follow_me']['vi-vn'] = "Follow Me";
 $text['label-follow_me']['en-gb'] = "Follow Me";
 $text['label-follow_me']['ar-eg'] = "اتبعني";
 $text['label-follow_me']['de-at'] = "Anrufweiterschaltung";
@@ -417,6 +433,7 @@ $text['label-follow_me']['ja-jp'] = "フォローしてください";
 $text['label-follow_me']['ko-kr'] = "나를 따르라";
 
 $text['label-dnd']['en-us'] = "Do Not Disturb";
+$text['label-dnd']['vi-vn'] = "Không làm phiền";
 $text['label-dnd']['en-gb'] = "Do Not Disturb";
 $text['label-dnd']['ar-eg'] = "لا تخل";
 $text['label-dnd']['de-at'] = "Bitte nicht stören";
@@ -443,6 +460,7 @@ $text['label-dnd']['ja-jp'] = "邪魔しないでください";
 $text['label-dnd']['ko-kr'] = "방해하지 마";
 
 $text['label-destinations']['en-us'] = "Destinations";
+$text['label-destinations']['vi-vn'] = "Đích";
 $text['label-destinations']['en-gb'] = "Destinations";
 $text['label-destinations']['ar-eg'] = "الأماكن";
 $text['label-destinations']['de-at'] = "Ziele";
@@ -469,6 +487,7 @@ $text['label-destinations']['ja-jp'] = "行き先";
 $text['label-destinations']['ko-kr'] = "목적지";
 
 $text['label-destination_timeout']['en-us'] = "Timeout";
+$text['label-destination_timeout']['vi-vn'] = "Thời gian chờ";
 $text['label-destination_timeout']['en-gb'] = "Timeout";
 $text['label-destination_timeout']['ar-eg'] = "نفذ الوقت";
 $text['label-destination_timeout']['de-at'] = "Abwurfzeit";
@@ -495,6 +514,7 @@ $text['label-destination_timeout']['ja-jp'] = "タイムアウト";
 $text['label-destination_timeout']['ko-kr'] = "타임아웃";
 
 $text['label-destination_prompt_confirm']['en-us'] = "Confirm";
+$text['label-destination_prompt_confirm']['vi-vn'] = "Xác nhận";
 $text['label-destination_prompt_confirm']['en-gb'] = "Confirm";
 $text['label-destination_prompt_confirm']['ar-eg'] = "يتأكد";
 $text['label-destination_prompt_confirm']['de-at'] = "Bestätigen";
@@ -521,6 +541,7 @@ $text['label-destination_prompt_confirm']['ja-jp'] = "確認";
 $text['label-destination_prompt_confirm']['ko-kr'] = "확인하다";
 
 $text['label-destination_prompt_announce']['en-us'] = "Announce";
+$text['label-destination_prompt_announce']['vi-vn'] = "Thông báo";
 $text['label-destination_prompt_announce']['en-gb'] = "Announce";
 $text['label-destination_prompt_announce']['ar-eg'] = "أعلن";
 $text['label-destination_prompt_announce']['de-at'] = "Ankündigen";
@@ -547,6 +568,7 @@ $text['label-destination_prompt_announce']['ja-jp'] = "発表";
 $text['label-destination_prompt_announce']['ko-kr'] = "발표하다";
 
 $text['label-destination_prompt']['en-us'] = "Prompt";
+$text['label-destination_prompt']['vi-vn'] = "Nhắc";
 $text['label-destination_prompt']['en-gb'] = "Prompt";
 $text['label-destination_prompt']['ar-eg'] = "اِسْتَدْعَى";
 $text['label-destination_prompt']['de-at'] = "Nachfragen";
@@ -573,6 +595,7 @@ $text['label-destination_prompt']['ja-jp'] = "促す";
 $text['label-destination_prompt']['ko-kr'] = "즉각적인";
 
 $text['label-destination_number']['en-us'] = "Destination";
+$text['label-destination_number']['vi-vn'] = "Đích";
 $text['label-destination_number']['en-gb'] = "Destination";
 $text['label-destination_number']['ar-eg'] = "وجهة";
 $text['label-destination_number']['de-at'] = "Ziel";
@@ -599,6 +622,7 @@ $text['label-destination_number']['ja-jp'] = "行き先";
 $text['label-destination_number']['ko-kr'] = "목적지";
 
 $text['label-destination_delay']['en-us'] = "Delay";
+$text['label-destination_delay']['vi-vn'] = "Trễ";
 $text['label-destination_delay']['en-gb'] = "Delay";
 $text['label-destination_delay']['ar-eg'] = "تأخير";
 $text['label-destination_delay']['de-at'] = "Verzögerung";
@@ -625,6 +649,7 @@ $text['label-destination_delay']['ja-jp'] = "遅れ";
 $text['label-destination_delay']['ko-kr'] = "지연";
 
 $text['label-destination']['en-us'] = "Destination";
+$text['label-destination']['vi-vn'] = "Đích";
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "وجهة";
 $text['label-destination']['de-at'] = "Ziel";
@@ -651,6 +676,7 @@ $text['label-destination']['ja-jp'] = "行き先";
 $text['label-destination']['ko-kr'] = "목적지";
 
 $text['label-cid-number-prefix']['en-us'] = "Number Prefix";
+$text['label-cid-number-prefix']['vi-vn'] = "Tiền tố số";
 $text['label-cid-number-prefix']['en-gb'] = "Number Prefix";
 $text['label-cid-number-prefix']['ar-eg'] = "بادئة الرقم";
 $text['label-cid-number-prefix']['de-at'] = "Anruferkennung (Nummer)";
@@ -677,6 +703,7 @@ $text['label-cid-number-prefix']['ja-jp'] = "番号のプレフィックス";
 $text['label-cid-number-prefix']['ko-kr'] = "번호 접두사";
 
 $text['label-cid-number']['en-us'] = "Caller ID Number";
+$text['label-cid-number']['vi-vn'] = "Số Caller ID";
 $text['label-cid-number']['en-gb'] = "Caller ID Number";
 $text['label-cid-number']['ar-eg'] = "رقم هوية المتصل";
 $text['label-cid-number']['de-at'] = "Anruferkennung (Nummer)";
@@ -703,6 +730,7 @@ $text['label-cid-number']['ja-jp'] = "発信者番号";
 $text['label-cid-number']['ko-kr'] = "발신자 ID 번호";
 
 $text['label-cid-name-prefix']['en-us'] = "Name Prefix";
+$text['label-cid-name-prefix']['vi-vn'] = "Tiền tố tên";
 $text['label-cid-name-prefix']['en-gb'] = "Name Prefix";
 $text['label-cid-name-prefix']['ar-eg'] = "الأسم الأول";
 $text['label-cid-name-prefix']['de-at'] = "Anruferkennung (Name)";
@@ -729,6 +757,7 @@ $text['label-cid-name-prefix']['ja-jp'] = "名前のプレフィックス";
 $text['label-cid-name-prefix']['ko-kr'] = "이름 접두사";
 
 $text['label-call-prompt']['en-us'] = "Call Prompt";
+$text['label-call-prompt']['vi-vn'] = "Nhắc xác nhận cuộc gọi";
 $text['label-call-prompt']['en-gb'] = "Call Prompt";
 $text['label-call-prompt']['ar-eg'] = "موجه الاتصال";
 $text['label-call-prompt']['de-at'] = "Nachfragen";
@@ -755,6 +784,7 @@ $text['label-call-prompt']['ja-jp'] = "プロンプトを呼び出す";
 $text['label-call-prompt']['ko-kr'] = "전화 프롬프트";
 
 $text['label-call_forward']['en-us'] = "Call Forward";
+$text['label-call_forward']['vi-vn'] = "Chuyển tiếp cuộc gọi";
 $text['label-call_forward']['en-gb'] = "Call Forward";
 $text['label-call_forward']['ar-eg'] = "دعوة إلى الأمام";
 $text['label-call_forward']['de-at'] = "Rufumleitung";
@@ -781,6 +811,7 @@ $text['label-call_forward']['ja-jp'] = "不在転送";
 $text['label-call_forward']['ko-kr'] = "착신 전환";
 
 $text['label-active']['en-us'] = "Active";
+$text['label-active']['vi-vn'] = "Hoạt động";
 $text['label-active']['en-gb'] = "Active";
 $text['label-active']['ar-eg'] = "نشيط";
 $text['label-active']['de-at'] = "Aktiv";
@@ -808,6 +839,7 @@ $text['label-active']['ja-jp'] = "アクティブ";
 $text['label-active']['ko-kr'] = "활동적인";
 
 $text['description-on-busy']['en-us'] = "If enabled, it overrides the value of voicemail enabling in extension.";
+$text['description-on-busy']['vi-vn'] = "Nếu bật, tùy chọn này sẽ ghi đè trạng thái bật thư thoại trong máy nhánh.";
 $text['description-on-busy']['en-gb'] = "If enabled, it overrides the value of voicemail enabling in extension.";
 $text['description-on-busy']['ar-eg'] = "إذا تم تمكينه ، فإنه يتجاوز قيمة تمكين البريد الصوتي في التمديد.";
 $text['description-on-busy']['de-at'] = "Falls aktiviert, wird die aktive Mailbox der Nebenstelle überschrieben.";
@@ -834,6 +866,7 @@ $text['description-on-busy']['ja-jp'] = "有効にすると、内線番号で有
 $text['description-on-busy']['ko-kr'] = "활성화된 경우 내선에서 활성화된 음성 메일 값을 재정의합니다.";
 
 $text['description-no_answer']['en-us'] = "If enabled, it overrides the value of voicemail enabling in extension.";
+$text['description-no_answer']['vi-vn'] = "Nếu bật, tùy chọn này sẽ ghi đè trạng thái bật thư thoại trong máy nhánh.";
 $text['description-no_answer']['en-gb'] = "If enabled, it overrides the value of voicemail enabling in extension.";
 $text['description-no_answer']['ar-eg'] = "إذا تم تمكينه ، فإنه يتجاوز قيمة تمكين البريد الصوتي في التمديد.";
 $text['description-no_answer']['de-at'] = "Falls aktiviert, wird die aktive Mailbox der Nebenstelle überschrieben.";
@@ -860,6 +893,7 @@ $text['description-no_answer']['ja-jp'] = "有効にすると、内線番号で�
 $text['description-no_answer']['ko-kr'] = "활성화된 경우 내선에서 활성화된 음성 메일 값을 재정의합니다.";
 
 $text['description-not_registered']['en-us'] = "If endpoint is not reachable, forward to this destination before going to voicemail.";
+$text['description-not_registered']['vi-vn'] = "Nếu endpoint không liên lạc được, chuyển tiếp đến đích này trước khi vào thư thoại.";
 $text['description-not_registered']['en-gb'] = "If endpoint is not reachable, forward to this destination before going to voicemail.";
 $text['description-not_registered']['ar-eg'] = "إذا كانت نقطة النهاية لا يمكن الوصول إليها ، فأعد توجيهها إلى هذه الوجهة قبل الانتقال إلى البريد الصوتي.";
 $text['description-not_registered']['de-at'] = "Rufweiterleitung an neues Ziel, wenn ursprüngliches Ziel nicht erreichbar ist, bevor die Mailbox aktiviert wird.";
@@ -886,6 +920,7 @@ $text['description-not_registered']['ja-jp'] = "エンドポイントに到達�
 $text['description-not_registered']['ko-kr'] = "끝점에 도달할 수 없는 경우 음성 메일로 이동하기 전에 이 대상으로 전달하십시오.";
 
 $text['description-ignore_busy']['en-us'] = "Interrupt the call if a destination is busy.";
+$text['description-ignore_busy']['vi-vn'] = "Ngắt cuộc gọi nếu một đích đang bận.";
 $text['description-ignore_busy']['en-gb'] = "Interrupt the call if a destination is busy.";
 $text['description-ignore_busy']['ar-eg'] = "مقاطعة المكالمة إذا كانت الوجهة مشغولة.";
 $text['description-ignore_busy']['de-at'] = "Anruf unterbrechen wenn ein Ziel besetzt ist.";
@@ -912,6 +947,7 @@ $text['description-ignore_busy']['ja-jp'] = "宛先が通話中の場合は通�
 $text['description-ignore_busy']['ko-kr'] = "대상이 통화 중인 경우 통화를 중단합니다.";
 
 $text['description-cid-number-prefix']['en-us'] = "Set the caller ID number prefix.";
+$text['description-cid-number-prefix']['vi-vn'] = "Thiết lập tiền tố số Caller ID.";
 $text['description-cid-number-prefix']['en-gb'] = "Set the caller ID number prefix.";
 $text['description-cid-number-prefix']['ar-eg'] = "قم بتعيين بادئة رقم معرف المتصل.";
 $text['description-cid-number-prefix']['de-at'] = "Setzen Sie ein Präfix für die Anruferkennung (Nummer)";
@@ -938,6 +974,7 @@ $text['description-cid-number-prefix']['ja-jp'] = "発信者 ID 番号のプレ�
 $text['description-cid-number-prefix']['ko-kr'] = "발신자 ID 번호 프리픽스를 설정합니다.";
 
 $text['description-cid-number']['en-us'] = "Select a number to override the original caller ID number.";
+$text['description-cid-number']['vi-vn'] = "Chọn một số để ghi đè số Caller ID gốc.";
 $text['description-cid-number']['en-gb'] = "Select a number to override the original caller ID number.";
 $text['description-cid-number']['ar-eg'] = "حدد رقمًا لتجاوز رقم معرف المتصل الأصلي.";
 $text['description-cid-number']['de-at'] = "Wählen Sie eine Nummer mit der die  ursprüngliche Anrufer-ID-Nummer überschreiben werden soll.";
@@ -964,6 +1001,7 @@ $text['description-cid-number']['ja-jp'] = "元の発信者 ID 番号を上書�
 $text['description-cid-number']['ko-kr'] = "원래 발신자 ID 번호를 재정의할 번호를 선택합니다.";
 
 $text['description-cid-name-prefix']['en-us'] = "Set the caller ID name prefix.";
+$text['description-cid-name-prefix']['vi-vn'] = "Thiết lập tiền tố tên Caller ID.";
 $text['description-cid-name-prefix']['en-gb'] = "Set the caller ID name prefix.";
 $text['description-cid-name-prefix']['ar-eg'] = "قم بتعيين بادئة اسم معرف المتصل.";
 $text['description-cid-name-prefix']['de-at'] = "Setzen Sie ein Präfix für die Anruferkennung (Name)";
@@ -990,6 +1028,7 @@ $text['description-cid-name-prefix']['ja-jp'] = "発信者 ID 名のプレフィ
 $text['description-cid-name-prefix']['ko-kr'] = "발신자 ID 이름 접두사를 설정합니다.";
 
 $text['description-call-prompt']['en-us'] = "Prompt to accept the call for external destinations.";
+$text['description-call-prompt']['vi-vn'] = "Nhắc để chấp nhận cuộc gọi cho các đích bên ngoài.";
 $text['description-call-prompt']['en-gb'] = "Prompt to accept the call for external destinations.";
 $text['description-call-prompt']['ar-eg'] = "موجه لقبول المكالمة للوجهات الخارجية.";
 $text['description-call-prompt']['de-at'] = "Nachfragen, ob der Anruf auch wirklich durchgestellt werden soll.";
@@ -1016,6 +1055,7 @@ $text['description-call-prompt']['ja-jp'] = "外部宛先へのコールを受�
 $text['description-call-prompt']['ko-kr'] = "외부 대상에 대한 호출을 수락하라는 메시지를 표시합니다.";
 
 $text['description-call_routing']['en-us'] = "Define alternate inbound call handling for the following extensions.";
+$text['description-call_routing']['vi-vn'] = "Định nghĩa cách xử lý cuộc gọi vào thay thế cho các máy nhánh sau.";
 $text['description-call_routing']['en-gb'] = "Define alternate inbound call handling for the following extensions.";
 $text['description-call_routing']['ar-eg'] = "حدد معالجة بديلة للمكالمات الواردة للامتدادات التالية.";
 $text['description-call_routing']['de-at'] = "Definieren Sie eine alternative Handhabung von eingehenden Anrufen für nachfolgende Nebenstellen.";
@@ -1042,6 +1082,7 @@ $text['description-call_routing']['ja-jp'] = "次の内線番号の代替イン�
 $text['description-call_routing']['ko-kr'] = "다음 내선에 대한 대체 인바운드 통화 처리를 정의합니다.";
 
 $text['description-call_forward']['en-us'] = "Forward all calls to the specified destination.";
+$text['description-call_forward']['vi-vn'] = "Chuyển tiếp tất cả cuộc gọi đến đích đã chỉ định.";
 $text['description-call_forward']['en-gb'] = "Forward all calls to the specified destination.";
 $text['description-call_forward']['ar-eg'] = "إعادة توجيه جميع المكالمات إلى الوجهة المحددة.";
 $text['description-call_forward']['de-at'] = "Leiten Sie alle Anrufe an das angegebene Ziel.";
@@ -1068,6 +1109,7 @@ $text['description-call_forward']['ja-jp'] = "すべての通話を指定され�
 $text['description-call_forward']['ko-kr'] = "모든 통화를 지정된 대상으로 착신 전환합니다.";
 
 $text['description']['en-us'] = "Directs incoming calls for extension:";
+$text['description']['vi-vn'] = "Điều hướng cuộc gọi vào cho máy nhánh:";
 $text['description']['en-gb'] = "Directs incoming calls for extension:";
 $text['description']['ar-eg'] = "يوجه المكالمات الواردة للتمديد:";
 $text['description']['de-at'] = "Leitet eingehende Gespräche für die Nebenstelle:";
@@ -1094,6 +1136,7 @@ $text['description']['ja-jp'] = "着信コールを内線に転送します。";
 $text['description']['ko-kr'] = "내선에 대한 수신 전화 연결:";
 
 $text['confirm-update']['en-us'] = "Update Complete";
+$text['confirm-update']['vi-vn'] = "Cập nhật hoàn tất";
 $text['confirm-update']['en-gb'] = "Update Complete";
 $text['confirm-update']['ar-eg'] = "تحديث كاملة";
 $text['confirm-update']['de-at'] = "Aktualisierung durchgeführt";
@@ -1120,6 +1163,7 @@ $text['confirm-update']['ja-jp'] = "アップデート完了";
 $text['confirm-update']['ko-kr'] = "업데이트 완료";
 
 $text['check-true']['en-us'] = "True";
+$text['check-true']['vi-vn'] = "Đúng";
 $text['check-true']['en-gb'] = "True";
 $text['check-true']['ar-eg'] = "حقيقي";
 $text['check-true']['de-at'] = "An";
@@ -1146,6 +1190,7 @@ $text['check-true']['ja-jp'] = "真実";
 $text['check-true']['ko-kr'] = "진실";
 
 $text['check-simultaneous']['en-us'] = "simultaneous";
+$text['check-simultaneous']['vi-vn'] = "đồng thời";
 $text['check-simultaneous']['en-gb'] = "simultaneous";
 $text['check-simultaneous']['ar-eg'] = "متزامنة";
 $text['check-simultaneous']['de-at'] = "gleichzeitig";
@@ -1172,6 +1217,7 @@ $text['check-simultaneous']['ja-jp'] = "同時に";
 $text['check-simultaneous']['ko-kr'] = "동시";
 
 $text['check-sequence']['en-us'] = "sequence";
+$text['check-sequence']['vi-vn'] = "tuần tự";
 $text['check-sequence']['en-gb'] = "sequence";
 $text['check-sequence']['ar-eg'] = "تسلسل";
 $text['check-sequence']['de-at'] = "sequenziell";
@@ -1198,6 +1244,7 @@ $text['check-sequence']['ja-jp'] = "順序";
 $text['check-sequence']['ko-kr'] = "순서";
 
 $text['check-false']['en-us'] = "False";
+$text['check-false']['vi-vn'] = "Sai";
 $text['check-false']['en-gb'] = "False";
 $text['check-false']['ar-eg'] = "خطأ شنيع";
 $text['check-false']['de-at'] = "Aus";
@@ -1224,6 +1271,7 @@ $text['check-false']['ja-jp'] = "間違い";
 $text['check-false']['ko-kr'] = "거짓";
 
 $text['button-view_all']['en-us'] = "View All";
+$text['button-view_all']['vi-vn'] = "Xem tất cả";
 $text['button-view_all']['en-gb'] = "View All";
 $text['button-view_all']['ar-eg'] = "مشاهدة الكل";
 $text['button-view_all']['de-at'] = "Alle anzeigen";

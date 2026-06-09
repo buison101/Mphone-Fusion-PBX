@@ -1,6 +1,7 @@
 <?php
 
 $text['title-call_centers']['en-us'] = "Call Center";
+$text['title-call_centers']['vi-vn'] = 'Call Center';
 $text['title-call_centers']['en-gb'] = "Call Center";
 $text['title-call_centers']['ar-eg'] = "مركز الاتصال";
 $text['title-call_centers']['de-at'] = "Callcenter";
@@ -27,6 +28,7 @@ $text['title-call_centers']['ja-jp'] = "コールセンター";
 $text['title-call_centers']['ko-kr'] = "콜센터";
 
 $text['title-call_center_tier_edit']['en-us'] = "Call Center Tier";
+$text['title-call_center_tier_edit']['vi-vn'] = 'Tier Call Center';
 $text['title-call_center_tier_edit']['en-gb'] = "Call Center Tier";
 $text['title-call_center_tier_edit']['ar-eg'] = "فئة مركز الاتصال";
 $text['title-call_center_tier_edit']['de-at'] = "Callcenter Ebene";
@@ -53,6 +55,7 @@ $text['title-call_center_tier_edit']['ja-jp'] = "コールセンター層";
 $text['title-call_center_tier_edit']['ko-kr'] = "콜 센터 계층";
 
 $text['title-call_center_queues_edit']['en-us'] = "Edit Call Center Queue";
+$text['title-call_center_queues_edit']['vi-vn'] = 'Sửa hàng đợi Call Center';
 $text['title-call_center_queues_edit']['en-gb'] = "Edit Call Center Queue";
 $text['title-call_center_queues_edit']['ar-eg'] = "تحرير قائمة انتظار مركز الاتصال";
 $text['title-call_center_queues_edit']['de-at'] = "Callcenter Warteschlange bearbeiten";
@@ -79,6 +82,7 @@ $text['title-call_center_queues_edit']['ja-jp'] = "コール センター キュ
 $text['title-call_center_queues_edit']['ko-kr'] = "콜 센터 대기열 편집";
 
 $text['title-call_center_queues_add']['en-us'] = "Add Call Center Queue";
+$text['title-call_center_queues_add']['vi-vn'] = 'Thêm hàng đợi Call Center';
 $text['title-call_center_queues_add']['en-gb'] = "Add Call Center Queue";
 $text['title-call_center_queues_add']['ar-eg'] = "إضافة قائمة انتظار مركز الاتصال";
 $text['title-call_center_queues_add']['de-at'] = "Callcenter Warteschalange hinzufügen";
@@ -105,6 +109,7 @@ $text['title-call_center_queues_add']['ja-jp'] = "コール センター キュ�
 $text['title-call_center_queues_add']['ko-kr'] = "콜센터 대기열 추가";
 
 $text['title-call_center_queues']['en-us'] = "Call Center Queues";
+$text['title-call_center_queues']['vi-vn'] = 'Hàng đợi Call Center';
 $text['title-call_center_queues']['en-gb'] = "Call Center Queues";
 $text['title-call_center_queues']['ar-eg'] = "قوائم انتظار مركز الاتصال";
 $text['title-call_center_queues']['de-at'] = "Callcenter Warteschlangen";
@@ -131,6 +136,7 @@ $text['title-call_center_queues']['ja-jp'] = "コールセンターの待ち行�
 $text['title-call_center_queues']['ko-kr'] = "콜센터 대기열";
 
 $text['title-call_center_queue_edit']['en-us'] = "Call Center Queue";
+$text['title-call_center_queue_edit']['vi-vn'] = 'Hàng đợi Call Center';
 $text['title-call_center_queue_edit']['en-gb'] = "Call Center Queue";
 $text['title-call_center_queue_edit']['ar-eg'] = "قائمة انتظار مركز الاتصال";
 $text['title-call_center_queue_edit']['de-at'] = "Callcenter Warteschlange";
@@ -157,6 +163,7 @@ $text['title-call_center_queue_edit']['ja-jp'] = "コール センター キュ�
 $text['title-call_center_queue_edit']['ko-kr'] = "콜센터 대기열";
 
 $text['title-call_center_queue_add']['en-us'] = "Call Center Queue";
+$text['title-call_center_queue_add']['vi-vn'] = 'Hàng đợi Call Center';
 $text['title-call_center_queue_add']['en-gb'] = "Call Center Queue";
 $text['title-call_center_queue_add']['ar-eg'] = "قائمة انتظار مركز الاتصال";
 $text['title-call_center_queue_add']['de-at'] = "Callcenter Warteschlange";
@@ -183,6 +190,7 @@ $text['title-call_center_queue_add']['ja-jp'] = "コール センター キュ�
 $text['title-call_center_queue_add']['ko-kr'] = "콜센터 대기열";
 
 $text['title-call_center_agents']['en-us'] = "Call Center Agents";
+$text['title-call_center_agents']['vi-vn'] = 'Agent Call Center';
 $text['title-call_center_agents']['en-gb'] = "Call Center Agents";
 $text['title-call_center_agents']['ar-eg'] = "وكلاء مركز الاتصال";
 $text['title-call_center_agents']['de-at'] = "Callcenter Agenten";
@@ -209,6 +217,7 @@ $text['title-call_center_agents']['ja-jp'] = "コールセンターのエージ�
 $text['title-call_center_agents']['ko-kr'] = "콜센터 상담원";
 
 $text['title-call_center_agent_status']['en-us'] = "Call Center Agent Status";
+$text['title-call_center_agent_status']['vi-vn'] = 'Trạng thái Agent Call Center';
 $text['title-call_center_agent_status']['en-gb'] = "Call Center Agent Status";
 $text['title-call_center_agent_status']['ar-eg'] = "حالة وكيل مركز الاتصال";
 $text['title-call_center_agent_status']['de-at'] = "Callcenter Agenten Status";
@@ -235,6 +244,7 @@ $text['title-call_center_agent_status']['ja-jp'] = "コール センター エ�
 $text['title-call_center_agent_status']['ko-kr'] = "콜센터 상담원 상태";
 
 $text['title-call_center_agent_edit']['en-us'] = "Call Center Agent";
+$text['title-call_center_agent_edit']['vi-vn'] = 'Agent Call Center';
 $text['title-call_center_agent_edit']['en-gb'] = "Call Center Agent";
 $text['title-call_center_agent_edit']['ar-eg'] = "وكيل كول سنتر";
 $text['title-call_center_agent_edit']['de-at'] = "Callcenter Agenten";
@@ -261,6 +271,7 @@ $text['title-call_center_agent_edit']['ja-jp'] = "コールセンターエージ
 $text['title-call_center_agent_edit']['ko-kr'] = "콜 센터 에이전트";
 
 $text['title-call_center_agent_add']['en-us'] = "Call Center Agent";
+$text['title-call_center_agent_add']['vi-vn'] = 'Agent Call Center';
 $text['title-call_center_agent_add']['en-gb'] = "Call Center Agent";
 $text['title-call_center_agent_add']['ar-eg'] = "وكيل كول سنتر";
 $text['title-call_center_agent_add']['de-at'] = "Callcenter Agenten";
@@ -287,6 +298,7 @@ $text['title-call_center_agent_add']['ja-jp'] = "コールセンターエージ�
 $text['title-call_center_agent_add']['ko-kr'] = "콜 센터 에이전트";
 
 $text['title-call_center']['en-us'] = "Call Center";
+$text['title-call_center']['vi-vn'] = 'Call Center';
 $text['title-call_center']['en-gb'] = "Call Center";
 $text['title-call_center']['ar-eg'] = "مركز الاتصال";
 $text['title-call_center']['de-at'] = "Callcenter";
@@ -313,6 +325,7 @@ $text['title-call_center']['ja-jp'] = "コールセンター";
 $text['title-call_center']['ko-kr'] = "콜센터";
 
 $text['option-usring']['en-us'] = "us-ring";
+$text['option-usring']['vi-vn'] = 'us-ring';
 $text['option-usring']['en-gb'] = "us-ring";
 $text['option-usring']['ar-eg'] = "us-ring";
 $text['option-usring']['de-at'] = "us-ring";
@@ -339,6 +352,7 @@ $text['option-usring']['ja-jp'] = "私たちリング";
 $text['option-usring']['ko-kr'] = "우리 반지";
 
 $text['option-ukring']['en-us'] = "uk-ring";
+$text['option-ukring']['vi-vn'] = 'uk-ring';
 $text['option-ukring']['en-gb'] = "uk-ring";
 $text['option-ukring']['ar-eg'] = "uk-ring";
 $text['option-ukring']['de-at'] = "uk-ring";
@@ -365,6 +379,7 @@ $text['option-ukring']['ja-jp'] = "英国リング";
 $text['option-ukring']['ko-kr'] = "영국 링";
 
 $text['option-true']['en-us'] = "True";
+$text['option-true']['vi-vn'] = 'Đúng';
 $text['option-true']['en-gb'] = "True";
 $text['option-true']['ar-eg'] = "حقيقي";
 $text['option-true']['de-at'] = "Ein";
@@ -391,6 +406,7 @@ $text['option-true']['ja-jp'] = "真実";
 $text['option-true']['ko-kr'] = "진실";
 
 $text['option-top_down']['en-us'] = "Top Down";
+$text['option-top_down']['vi-vn'] = 'Từ trên xuống';
 $text['option-top_down']['en-gb'] = "Top Down";
 $text['option-top_down']['ar-eg'] = "من أعلى إلى أسفل";
 $text['option-top_down']['de-at'] = "Absteigend";
@@ -417,6 +433,7 @@ $text['option-top_down']['ja-jp'] = "トップダウン";
 $text['option-top_down']['ko-kr'] = "위에서 아래로";
 
 $text['option-system']['en-us'] = "System";
+$text['option-system']['vi-vn'] = 'Hệ thống';
 $text['option-system']['en-gb'] = "System";
 $text['option-system']['ar-eg'] = "מערכת";
 $text['option-system']['de-at'] = "System";
@@ -443,6 +460,7 @@ $text['option-system']['ja-jp'] = "システム";
 $text['option-system']['ko-kr'] = "체계";
 
 $text['option-sequentially_by_next_agent_order']['en-us'] = "Sequentially By Next Agent Order";
+$text['option-sequentially_by_next_agent_order']['vi-vn'] = 'Tuần tự theo thứ tự agent kế tiếp';
 $text['option-sequentially_by_next_agent_order']['en-gb'] = "Sequentially By Next Agent Order";
 $text['option-sequentially_by_next_agent_order']['ar-eg'] = "بالتتابع حسب ترتيب الوكيل التالي";
 $text['option-sequentially_by_next_agent_order']['de-at'] = "Sequentielle Anordnung nächster Agent";
@@ -469,6 +487,7 @@ $text['option-sequentially_by_next_agent_order']['ja-jp'] = "次のエージェ�
 $text['option-sequentially_by_next_agent_order']['ko-kr'] = "다음 에이전트 순서에 따라 순차적으로";
 
 $text['option-sequentially_by_agent_order']['en-us'] = "Sequentially By Agent Order";
+$text['option-sequentially_by_agent_order']['vi-vn'] = 'Tuần tự theo thứ tự agent';
 $text['option-sequentially_by_agent_order']['en-gb'] = "Sequentially By Agent Order";
 $text['option-sequentially_by_agent_order']['ar-eg'] = "بالتتابع حسب أمر الوكيل";
 $text['option-sequentially_by_agent_order']['de-at'] = "Sequentielle Reihung nach Agenten";
@@ -495,6 +514,7 @@ $text['option-sequentially_by_agent_order']['ja-jp'] = "エージェント順で
 $text['option-sequentially_by_agent_order']['ko-kr'] = "에이전트 순서에 따라 순차적으로";
 
 $text['option-rsring']['en-us'] = "rs-ring";
+$text['option-rsring']['vi-vn'] = 'rs-ring';
 $text['option-rsring']['en-gb'] = "rs-ring";
 $text['option-rsring']['ar-eg'] = "rs-ring";
 $text['option-rsring']['de-at'] = "rs-ring";
@@ -521,6 +541,7 @@ $text['option-rsring']['ja-jp'] = "rs-リング";
 $text['option-rsring']['ko-kr'] = "RS-링";
 
 $text['option-round_robin']['en-us'] = "Round Robin";
+$text['option-round_robin']['vi-vn'] = 'Round Robin';
 $text['option-round_robin']['en-gb'] = "Round Robin";
 $text['option-round_robin']['ar-eg'] = "جولة روبن";
 $text['option-round_robin']['de-at'] = "Ringverteilung";
@@ -547,6 +568,7 @@ $text['option-round_robin']['ja-jp'] = "ラウンドロビン";
 $text['option-round_robin']['ko-kr'] = "라운드 로빈";
 
 $text['option-ring_all']['en-us'] = "Ring All";
+$text['option-ring_all']['vi-vn'] = 'Đổ chuông tất cả';
 $text['option-ring_all']['en-gb'] = "Ring All";
 $text['option-ring_all']['ar-eg'] = "رنين الكل";
 $text['option-ring_all']['de-at'] = "Alle läuten";
@@ -573,6 +595,7 @@ $text['option-ring_all']['ja-jp'] = "リングオール";
 $text['option-ring_all']['ko-kr'] = "모두 울리기";
 
 $text['option-random']['en-us'] = "Random";
+$text['option-random']['vi-vn'] = 'Ngẫu nhiên';
 $text['option-random']['en-gb'] = "Random";
 $text['option-random']['ar-eg'] = "عشوائي";
 $text['option-random']['de-at'] = "Zufallsprinzip";
@@ -599,6 +622,7 @@ $text['option-random']['ja-jp'] = "ランダム";
 $text['option-random']['ko-kr'] = "무작위의";
 
 $text['option-queue']['en-us'] = "Queue";
+$text['option-queue']['vi-vn'] = 'Hàng đợi';
 $text['option-queue']['en-gb'] = "Queue";
 $text['option-queue']['ar-eg'] = "طابور";
 $text['option-queue']['de-at'] = "Warteschlange";
@@ -625,6 +649,7 @@ $text['option-queue']['ja-jp'] = "列";
 $text['option-queue']['ko-kr'] = "대기줄";
 
 $text['option-ptring']['en-us'] = "pt-ring";
+$text['option-ptring']['vi-vn'] = 'pt-ring';
 $text['option-ptring']['en-gb'] = "pt-ring";
 $text['option-ptring']['ar-eg'] = "pt-ring";
 $text['option-ptring']['de-at'] = "pt-ring";
@@ -651,6 +676,7 @@ $text['option-ptring']['ja-jp'] = "ptリング";
 $text['option-ptring']['ko-kr'] = "pt-링";
 
 $text['option-on_break']['en-us'] = "On Break";
+$text['option-on_break']['vi-vn'] = 'Đang nghỉ';
 $text['option-on_break']['en-gb'] = "On Break";
 $text['option-on_break']['ar-eg'] = "في استراحة";
 $text['option-on_break']['de-at'] = "In Pause";
@@ -677,6 +703,7 @@ $text['option-on_break']['ja-jp'] = "休んで";
 $text['option-on_break']['ko-kr'] = "쉬는 중";
 
 $text['option-no_change']['en-us'] = "No Change";
+$text['option-no_change']['vi-vn'] = 'Không thay đổi';
 $text['option-no_change']['en-gb'] = "No Change";
 $text['option-no_change']['ar-eg'] = "لا تغيير";
 $text['option-no_change']['de-at'] = "Keine Änderung";
@@ -703,6 +730,7 @@ $text['option-no_change']['ja-jp'] = "変化なし";
 $text['option-no_change']['ko-kr'] = "변경 없음";
 
 $text['option-longest_idle_agent']['en-us'] = "Longest Idle Agent";
+$text['option-longest_idle_agent']['vi-vn'] = 'Agent rảnh lâu nhất';
 $text['option-longest_idle_agent']['en-gb'] = "Longest Idle Agent";
 $text['option-longest_idle_agent']['ar-eg'] = "أطول عامل خامل";
 $text['option-longest_idle_agent']['de-at'] = "Agent mit der höchsten Wartezeit";
@@ -729,6 +757,7 @@ $text['option-longest_idle_agent']['ja-jp'] = "最長アイドル エージェ�
 $text['option-longest_idle_agent']['ko-kr'] = "가장 긴 유휴 에이전트";
 
 $text['option-logged_out']['en-us'] = "Logged Out";
+$text['option-logged_out']['vi-vn'] = 'Đã đăng xuất';
 $text['option-logged_out']['en-gb'] = "Logged Out";
 $text['option-logged_out']['ar-eg'] = "تسجيل الخروج";
 $text['option-logged_out']['de-at'] = "Abgemeldet";
@@ -755,6 +784,7 @@ $text['option-logged_out']['ja-jp'] = "ログアウトしました";
 $text['option-logged_out']['ko-kr'] = "로그아웃됨";
 
 $text['option-itring']['en-us'] = "it-ring";
+$text['option-itring']['vi-vn'] = 'it-ring';
 $text['option-itring']['en-gb'] = "it-ring";
 $text['option-itring']['ar-eg'] = "it-ring";
 $text['option-itring']['de-at'] = "it-ring";
@@ -781,6 +811,7 @@ $text['option-itring']['ja-jp'] = "それリング";
 $text['option-itring']['ko-kr'] = "잇링";
 
 $text['option-frring']['en-us'] = "fr-ring";
+$text['option-frring']['vi-vn'] = 'fr-ring';
 $text['option-frring']['en-gb'] = "fr-ring";
 $text['option-frring']['ar-eg'] = "fr-ring";
 $text['option-frring']['de-at'] = "fr-ring";
@@ -807,6 +838,7 @@ $text['option-frring']['ja-jp'] = "frリング";
 $text['option-frring']['ko-kr'] = "프 링";
 
 $text['option-dering']['en-us'] = "de-ring";
+$text['option-dering']['vi-vn'] = 'bỏ đổ chuông';
 $text['option-dering']['en-gb'] = "de-ring";
 $text['option-dering']['ar-eg'] = "de-ring";
 $text['option-dering']['de-at'] = "de-ring";
@@ -833,6 +865,7 @@ $text['option-dering']['ja-jp'] = "リング";
 $text['option-dering']['ko-kr'] = "반지";
 
 $text['option-false']['en-us'] = "False";
+$text['option-false']['vi-vn'] = 'Sai';
 $text['option-false']['en-gb'] = "False";
 $text['option-false']['ar-eg'] = "خطأ شنيع";
 $text['option-false']['de-at'] = "Aus";
@@ -859,6 +892,7 @@ $text['option-false']['ja-jp'] = "間違い";
 $text['option-false']['ko-kr'] = "거짓";
 
 $text['option-do_not_disturb']['en-us'] = "Do Not Disturb";
+$text['option-do_not_disturb']['vi-vn'] = 'Không làm phiền';
 $text['option-do_not_disturb']['en-gb'] = "Do Not Disturb";
 $text['option-do_not_disturb']['ar-eg'] = "لا تخل";
 $text['option-do_not_disturb']['de-at'] = "Bitte nicht stören";
@@ -885,6 +919,7 @@ $text['option-do_not_disturb']['ja-jp'] = "邪魔しないでください";
 $text['option-do_not_disturb']['ko-kr'] = "방해하지 마";
 
 $text['option-available_on_demand']['en-us'] = "Available (On Demand)";
+$text['option-available_on_demand']['vi-vn'] = 'Sẵn sàng (theo yêu cầu)';
 $text['option-available_on_demand']['en-gb'] = "Available (On Demand)";
 $text['option-available_on_demand']['ar-eg'] = "متاح (عند الطلب)";
 $text['option-available_on_demand']['de-at'] = "Verfügbar (auf Anfrage)";
@@ -911,6 +946,7 @@ $text['option-available_on_demand']['ja-jp'] = "あり（オンデマンド）";
 $text['option-available_on_demand']['ko-kr'] = "사용 가능(주문형)";
 
 $text['option-available']['en-us'] = "Available";
+$text['option-available']['vi-vn'] = 'Sẵn sàng';
 $text['option-available']['en-gb'] = "Available";
 $text['option-available']['ar-eg'] = "متاح";
 $text['option-available']['de-at'] = "Verfügbar";
@@ -937,6 +973,7 @@ $text['option-available']['ja-jp'] = "利用可能";
 $text['option-available']['ko-kr'] = "사용 가능";
 
 $text['option-agent_with_least_talk_time']['en-us'] = "Agent With Least Talk Time";
+$text['option-agent_with_least_talk_time']['vi-vn'] = 'Agent có thời gian đàm thoại ít nhất';
 $text['option-agent_with_least_talk_time']['en-gb'] = "Agent With Least Talk Time";
 $text['option-agent_with_least_talk_time']['ar-eg'] = "وكيل بأقل وقت للتحدث";
 $text['option-agent_with_least_talk_time']['de-at'] = "Agent mit geringster Sprechzeit";
@@ -963,6 +1000,7 @@ $text['option-agent_with_least_talk_time']['ja-jp'] = "通話時間が最も短�
 $text['option-agent_with_least_talk_time']['ko-kr'] = "통화 시간이 가장 짧은 상담원";
 
 $text['option-agent_with_fewest_calls']['en-us'] = "Agent With Fewest Calls";
+$text['option-agent_with_fewest_calls']['vi-vn'] = 'Agent có ít cuộc gọi nhất';
 $text['option-agent_with_fewest_calls']['en-gb'] = "Agent With Fewest Calls";
 $text['option-agent_with_fewest_calls']['ar-eg'] = "وكيل بأقل عدد من المكالمات";
 $text['option-agent_with_fewest_calls']['de-at'] = "Agent mit wenigsten Anrufen";
@@ -989,6 +1027,7 @@ $text['option-agent_with_fewest_calls']['ja-jp'] = "コール数が最も少な�
 $text['option-agent_with_fewest_calls']['ko-kr'] = "통화가 가장 적은 에이전트";
 
 $text['message-maximum_queues']['en-us'] = "Maximum Queues:";
+$text['message-maximum_queues']['vi-vn'] = 'Số hàng đợi tối đa:';
 $text['message-maximum_queues']['en-gb'] = "Maximum Queues:";
 $text['message-maximum_queues']['ar-eg'] = "الحد الأقصى لقوائم الانتظار:";
 $text['message-maximum_queues']['de-at'] = "Maximale Anzahl Warteschlangen:";
@@ -1015,6 +1054,7 @@ $text['message-maximum_queues']['ja-jp'] = "最大キュー:";
 $text['message-maximum_queues']['ko-kr'] = "최대 대기열:";
 
 $text['message-duplicate_agent_id']['en-us'] = "Duplicate Agent ID Detected";
+$text['message-duplicate_agent_id']['vi-vn'] = 'Phát hiện Agent ID trùng lặp';
 $text['message-duplicate_agent_id']['en-gb'] = "Duplicate Agent ID Detected";
 $text['message-duplicate_agent_id']['ar-eg'] = "تم اكتشاف معرف وكيل مكرر";
 $text['message-duplicate_agent_id']['de-at'] = "Agenten ID bereits vorhanden";
@@ -1041,6 +1081,7 @@ $text['message-duplicate_agent_id']['ja-jp'] = "重複するエージェント I
 $text['message-duplicate_agent_id']['ko-kr'] = "중복 상담원 ID 감지됨";
 
 $text['message-status_set']['en-us'] = "Status Set";
+$text['message-status_set']['vi-vn'] = 'Đã đặt trạng thái';
 $text['message-status_set']['en-gb'] = "Status Set";
 $text['message-status_set']['ar-eg'] = "مجموعة الحالة";
 $text['message-status_set']['de-at'] = "Statussatz";
@@ -1067,6 +1108,7 @@ $text['message-status_set']['ja-jp'] = "ステータスセット";
 $text['message-status_set']['ko-kr'] = "상태 설정";
 
 $text['label-wrap_up_time']['en-us'] = "Wrap Up Time";
+$text['label-wrap_up_time']['vi-vn'] = 'Thời gian xử lý sau cuộc gọi';
 $text['label-wrap_up_time']['en-gb'] = "Wrap Up Time";
 $text['label-wrap_up_time']['ar-eg'] = "وقت الختام";
 $text['label-wrap_up_time']['de-at'] = "Nachbereitungszeit";
@@ -1093,6 +1135,7 @@ $text['label-wrap_up_time']['ja-jp'] = "ラップアップタイム";
 $text['label-wrap_up_time']['ko-kr'] = "마무리 시간";
 
 $text['label-type']['en-us'] = "Type";
+$text['label-type']['vi-vn'] = 'Loại';
 $text['label-type']['en-gb'] = "Type";
 $text['label-type']['ar-eg'] = "يكتب";
 $text['label-type']['de-at'] = "Typ";
@@ -1119,6 +1162,7 @@ $text['label-type']['ja-jp'] = "タイプ";
 $text['label-type']['ko-kr'] = "유형";
 
 $text['label-timeout_action']['en-us'] = "Timeout Action";
+$text['label-timeout_action']['vi-vn'] = 'Hành động khi hết thời gian chờ';
 $text['label-timeout_action']['en-gb'] = "Timeout Action";
 $text['label-timeout_action']['ar-eg'] = "مهلة العمل";
 $text['label-timeout_action']['de-at'] = "Aktion bei Zeitüberschreitung";
@@ -1145,6 +1189,7 @@ $text['label-timeout_action']['ja-jp'] = "タイムアウト アクション";
 $text['label-timeout_action']['ko-kr'] = "시간 초과 작업";
 
 $text['label-time_base_score']['en-us'] = "Time Base Score";
+$text['label-time_base_score']['vi-vn'] = 'Điểm theo thời gian';
 $text['label-time_base_score']['en-gb'] = "Time Base Score";
 $text['label-time_base_score']['ar-eg'] = "نقاط قاعدة الوقت";
 $text['label-time_base_score']['de-at'] = "Zeitgeber für Klassifikation";
@@ -1171,6 +1216,7 @@ $text['label-time_base_score']['ja-jp'] = "タイムベーススコア";
 $text['label-time_base_score']['ko-kr'] = "시간축 점수";
 
 $text['label-time_base_score_sec']['en-us'] = "Time Base Score Seconds";
+$text['label-time_base_score_sec']['vi-vn'] = 'Giây điểm theo thời gian';
 $text['label-time_base_score_sec']['en-gb'] = "Time Base Score Seconds";
 $text['label-time_base_score_sec']['ar-eg'] = "الوقت الأساسي النتيجة ثانية";
 $text['label-time_base_score_sec']['de-at'] = "Zeitgeber für Klassifikation Seconden";
@@ -1197,6 +1243,7 @@ $text['label-time_base_score_sec']['ja-jp'] = "タイムベーススコア秒";
 $text['label-time_base_score_sec']['ko-kr'] = "시간 기준 점수 초";
 
 $text['label-tiers']['en-us'] = "Tiers";
+$text['label-tiers']['vi-vn'] = 'Tier';
 $text['label-tiers']['en-gb'] = "Tiers";
 $text['label-tiers']['ar-eg'] = "المستويات";
 $text['label-tiers']['de-at'] = "Ebenen";
@@ -1223,6 +1270,7 @@ $text['label-tiers']['ja-jp'] = "階層";
 $text['label-tiers']['ko-kr'] = "계층";
 
 $text['label-tier_rules_apply']['en-us'] = "Tier Rules Apply";
+$text['label-tier_rules_apply']['vi-vn'] = 'Áp dụng quy tắc Tier';
 $text['label-tier_rules_apply']['en-gb'] = "Tier Rules Apply";
 $text['label-tier_rules_apply']['ar-eg'] = "تطبق قواعد الفئة";
 $text['label-tier_rules_apply']['de-at'] = "Ebenen-Regeln werden angewendet";
@@ -1249,6 +1297,7 @@ $text['label-tier_rules_apply']['ja-jp'] = "ティアルール適用";
 $text['label-tier_rules_apply']['ko-kr'] = "계층 규칙 적용";
 
 $text['label-tier_rule_wait_second']['en-us'] = "Tier Rule Wait Second";
+$text['label-tier_rule_wait_second']['vi-vn'] = 'Giây chờ của quy tắc Tier';
 $text['label-tier_rule_wait_second']['en-gb'] = "Tier Rule Wait Second";
 $text['label-tier_rule_wait_second']['ar-eg'] = "قاعدة الطبقة انتظر ثانيًا";
 $text['label-tier_rule_wait_second']['de-at'] = "Ebenen-Regel Wartezeit";
@@ -1275,6 +1324,7 @@ $text['label-tier_rule_wait_second']['ja-jp'] = "層ルール待機秒";
 $text['label-tier_rule_wait_second']['ko-kr'] = "계층 규칙 대기 초";
 
 $text['label-tier_rule_wait_multiply_level']['en-us'] = "Tier Rule Wait Multiply Level";
+$text['label-tier_rule_wait_multiply_level']['vi-vn'] = 'Nhân thời gian chờ theo cấp Tier';
 $text['label-tier_rule_wait_multiply_level']['en-gb'] = "Tier Rule Wait Multiply Level";
 $text['label-tier_rule_wait_multiply_level']['ar-eg'] = "الطبقة القاعدة انتظر ضرب المستوى";
 $text['label-tier_rule_wait_multiply_level']['de-at'] = "Multiplikator für die Ebenen-Regel Wartezeit";
@@ -1301,6 +1351,7 @@ $text['label-tier_rule_wait_multiply_level']['ja-jp'] = "層ルール待機乗�
 $text['label-tier_rule_wait_multiply_level']['ko-kr'] = "계층 규칙 대기 배수 수준";
 
 $text['label-tier_rule_no_agent_no_wait']['en-us'] = "Tier Rule No Agent No Wait";
+$text['label-tier_rule_no_agent_no_wait']['vi-vn'] = 'Quy tắc Tier không agent thì không chờ';
 $text['label-tier_rule_no_agent_no_wait']['en-gb'] = "Tier Rule No Agent No Wait";
 $text['label-tier_rule_no_agent_no_wait']['ar-eg'] = "قاعدة الطبقة لا وكيل لا انتظر";
 $text['label-tier_rule_no_agent_no_wait']['de-at'] = "Ebenen-Regel kein Agent nicht warten";
@@ -1327,6 +1378,7 @@ $text['label-tier_rule_no_agent_no_wait']['ja-jp'] = "Tier ルール No Agent No
 $text['label-tier_rule_no_agent_no_wait']['ko-kr'] = "계층 규칙 에이전트 없음 대기 없음";
 
 $text['label-tier_position']['en-us'] = "Tier Position";
+$text['label-tier_position']['vi-vn'] = 'Vị trí Tier';
 $text['label-tier_position']['en-gb'] = "Tier Position";
 $text['label-tier_position']['ar-eg'] = "موقف الطبقة";
 $text['label-tier_position']['de-at'] = "Ebenen-Position";
@@ -1353,6 +1405,7 @@ $text['label-tier_position']['ja-jp'] = "ティアの位置";
 $text['label-tier_position']['ko-kr'] = "계층 위치";
 
 $text['label-tier_level']['en-us'] = "Tier Level";
+$text['label-tier_level']['vi-vn'] = 'Cấp Tier';
 $text['label-tier_level']['en-gb'] = "Tier Level";
 $text['label-tier_level']['ar-eg'] = "مستوى الطبقة";
 $text['label-tier_level']['de-at'] = "Ebenen-Niveau";
@@ -1379,6 +1432,7 @@ $text['label-tier_level']['ja-jp'] = "ティアレベル";
 $text['label-tier_level']['ko-kr'] = "계층 수준";
 
 $text['label-strategy']['en-us'] = "Strategy";
+$text['label-strategy']['vi-vn'] = 'Chiến lược';
 $text['label-strategy']['en-gb'] = "Strategy";
 $text['label-strategy']['ar-eg'] = "إستراتيجية";
 $text['label-strategy']['de-at'] = "Strategie";
@@ -1405,6 +1459,7 @@ $text['label-strategy']['ja-jp'] = "ストラテジー";
 $text['label-strategy']['ko-kr'] = "전략";
 
 $text['label-status']['en-us'] = "Status";
+$text['label-status']['vi-vn'] = 'Trạng thái';
 $text['label-status']['en-gb'] = "Status";
 $text['label-status']['ar-eg'] = "حالة";
 $text['label-status']['de-at'] = "Status";
@@ -1431,6 +1486,7 @@ $text['label-status']['ja-jp'] = "スターテス";
 $text['label-status']['ko-kr'] = "상태";
 
 $text['label-reject_delay_time']['en-us'] = "Reject Delay Time";
+$text['label-reject_delay_time']['vi-vn'] = 'Thời gian trễ khi từ chối';
 $text['label-reject_delay_time']['en-gb'] = "Reject Delay Time";
 $text['label-reject_delay_time']['ar-eg'] = "رفض وقت التأخير";
 $text['label-reject_delay_time']['de-at'] = "Zeitverzögerung für Zeitüberschreitung";
@@ -1457,6 +1513,7 @@ $text['label-reject_delay_time']['ja-jp'] = "拒否遅延時間";
 $text['label-reject_delay_time']['ko-kr'] = "거부 지연 시간";
 
 $text['label-record_template']['en-us'] = "Record";
+$text['label-record_template']['vi-vn'] = 'Ghi âm';
 $text['label-record_template']['en-gb'] = "Record";
 $text['label-record_template']['ar-eg'] = "سِجِلّ";
 $text['label-record_template']['de-at'] = "Aufnehmen";
@@ -1483,6 +1540,7 @@ $text['label-record_template']['ja-jp'] = "記録";
 $text['label-record_template']['ko-kr'] = "기록";
 
 $text['label-queue_limit']['en-us'] = "Queue Limit";
+$text['label-queue_limit']['vi-vn'] = 'Giới hạn hàng đợi';
 $text['label-queue_limit']['en-gb'] = "Queue Limit";
 $text['label-queue_limit']['ar-eg'] = "حد الصف";
 $text['label-queue_limit']['de-at'] = "Warteschlangenlimit";
@@ -1509,6 +1567,7 @@ $text['label-queue_limit']['ja-jp'] = "キュー制限";
 $text['label-queue_limit']['ko-kr'] = "큐 제한";
 
 $text['label-queue']['en-us'] = "Queue";
+$text['label-queue']['vi-vn'] = 'Hàng đợi';
 $text['label-queue']['en-gb'] = "Queue";
 $text['label-queue']['ar-eg'] = "طابور";
 $text['label-queue']['de-at'] = "Warteschlange";
@@ -1535,6 +1594,7 @@ $text['label-queue']['ja-jp'] = "列";
 $text['label-queue']['ko-kr'] = "대기줄";
 
 $text['label-queues']['en-us'] = "Queues";
+$text['label-queues']['vi-vn'] = 'Hàng đợi';
 $text['label-queues']['en-gb'] = "Queues";
 $text['label-queues']['ar-eg'] = "Cozi";
 $text['label-queues']['de-at'] = "Warteschlangen";
@@ -1561,6 +1621,7 @@ $text['label-queues']['ja-jp'] = "尾";
 $text['label-queues']['ko-kr'] = "꼬리";
 
 $text['label-queue_name']['en-us'] = "Queue Name";
+$text['label-queue_name']['vi-vn'] = 'Tên hàng đợi';
 $text['label-queue_name']['en-gb'] = "Queue Name";
 $text['label-queue_name']['ar-eg'] = "اسم قائمة الانتظار";
 $text['label-queue_name']['de-at'] = "Name der Warteschlange";
@@ -1587,6 +1648,7 @@ $text['label-queue_name']['ja-jp'] = "キュー名";
 $text['label-queue_name']['ko-kr'] = "대기열 이름";
 
 $text['label-options']['en-us'] = "Options";
+$text['label-options']['vi-vn'] = 'Tùy chọn';
 $text['label-options']['en-gb'] = "Options";
 $text['label-options']['ar-eg'] = "خيارات";
 $text['label-options']['de-at'] = "Optionen";
@@ -1613,6 +1675,7 @@ $text['label-options']['ja-jp'] = "オプション";
 $text['label-options']['ko-kr'] = "옵션";
 
 $text['label-no_answer_delay_time']['en-us'] = "No Answer Delay Time";
+$text['label-no_answer_delay_time']['vi-vn'] = 'Thời gian trễ khi không trả lời';
 $text['label-no_answer_delay_time']['en-gb'] = "No Answer Delay Time";
 $text['label-no_answer_delay_time']['ar-eg'] = "لا وقت تأخير الرد";
 $text['label-no_answer_delay_time']['de-at'] = "Verzögerung für keine Antwort";
@@ -1639,6 +1702,7 @@ $text['label-no_answer_delay_time']['ja-jp'] = "無応答遅延時間";
 $text['label-no_answer_delay_time']['ko-kr'] = "무응답 지연 시간";
 
 $text['label-music_on_hold']['en-us'] = "Music on Hold";
+$text['label-music_on_hold']['vi-vn'] = 'Nhạc chờ';
 $text['label-music_on_hold']['en-gb'] = "Music on Hold";
 $text['label-music_on_hold']['ar-eg'] = "الموسيقى في الانتظار";
 $text['label-music_on_hold']['de-at'] = "Wartemusik";
@@ -1665,6 +1729,7 @@ $text['label-music_on_hold']['ja-jp'] = "保留音";
 $text['label-music_on_hold']['ko-kr'] = "음악 보류";
 
 $text['label-max_wait_time_with_no_agent_time_reached']['en-us'] = "Max Wait Time with No Agent Time Reached";
+$text['label-max_wait_time_with_no_agent_time_reached']['vi-vn'] = 'Đã đạt thời gian chờ tối đa khi không có agent';
 $text['label-max_wait_time_with_no_agent_time_reached']['en-gb'] = "Max Wait Time with No Agent Time Reached";
 $text['label-max_wait_time_with_no_agent_time_reached']['ar-eg'] = "أقصى وقت انتظار مع عدم بلوغ وقت الوكيل";
 $text['label-max_wait_time_with_no_agent_time_reached']['de-at'] = "Maximale Wartezeit ohne Agent erreicht";
@@ -1691,6 +1756,7 @@ $text['label-max_wait_time_with_no_agent_time_reached']['ja-jp'] = "エージェ
 $text['label-max_wait_time_with_no_agent_time_reached']['ko-kr'] = "에이전트 시간에 도달하지 않은 최대 대기 시간";
 
 $text['label-max_wait_time_with_no_agent']['en-us'] = "Max Wait Time with No Agent";
+$text['label-max_wait_time_with_no_agent']['vi-vn'] = 'Thời gian chờ tối đa khi không có agent';
 $text['label-max_wait_time_with_no_agent']['en-gb'] = "Max Wait Time with No Agent";
 $text['label-max_wait_time_with_no_agent']['ar-eg'] = "أقصى وقت انتظار بدون وكيل";
 $text['label-max_wait_time_with_no_agent']['de-at'] = "Maximale Wartezeit ohne Agent";
@@ -1717,6 +1783,7 @@ $text['label-max_wait_time_with_no_agent']['ja-jp'] = "エージェントなし�
 $text['label-max_wait_time_with_no_agent']['ko-kr'] = "에이전트 없는 최대 대기 시간";
 
 $text['label-max_wait_time']['en-us'] = "Max Wait Time";
+$text['label-max_wait_time']['vi-vn'] = 'Thời gian chờ tối đa';
 $text['label-max_wait_time']['en-gb'] = "Max Wait Time";
 $text['label-max_wait_time']['ar-eg'] = "وقت الانتظار الأقصى";
 $text['label-max_wait_time']['de-at'] = "Maximale Wartezeit";
@@ -1743,6 +1810,7 @@ $text['label-max_wait_time']['ja-jp'] = "最大待ち時間";
 $text['label-max_wait_time']['ko-kr'] = "최대 대기 시간";
 
 $text['label-max_no_answer']['en-us'] = "Max No Answer";
+$text['label-max_no_answer']['vi-vn'] = 'Số lần không trả lời tối đa';
 $text['label-max_no_answer']['en-gb'] = "Max No Answer";
 $text['label-max_no_answer']['ar-eg'] = "ماكس لا إجابة";
 $text['label-max_no_answer']['de-at'] = "Max keine Antwort";
@@ -1769,6 +1837,7 @@ $text['label-max_no_answer']['ja-jp'] = "最大無回答";
 $text['label-max_no_answer']['ko-kr'] = "맥스 무응답";
 
 $text['label-extension']['en-us'] = "Extension";
+$text['label-extension']['vi-vn'] = 'Máy nhánh';
 $text['label-extension']['en-gb'] = "Extension";
 $text['label-extension']['ar-eg'] = "امتداد";
 $text['label-extension']['de-at'] = "Nebenstelle";
@@ -1795,6 +1864,7 @@ $text['label-extension']['ja-jp'] = "拡大";
 $text['label-extension']['ko-kr'] = "확대";
 
 $text['label-discard_abandoned_after']['en-us'] = "Discard Abandoned After";
+$text['label-discard_abandoned_after']['vi-vn'] = 'Xóa cuộc gọi bỏ hàng đợi sau';
 $text['label-discard_abandoned_after']['en-gb'] = "Discard Abandoned After";
 $text['label-discard_abandoned_after']['ar-eg'] = "تجاهل المهجورة بعد";
 $text['label-discard_abandoned_after']['de-at'] = "Zurückweisen nach Zeitüberschreitung";
@@ -1821,6 +1891,7 @@ $text['label-discard_abandoned_after']['ja-jp'] = "次の後に放棄された�
 $text['label-discard_abandoned_after']['ko-kr'] = "폐기 후 폐기";
 
 $text['label-default_status']['en-us'] = "Default Status";
+$text['label-default_status']['vi-vn'] = 'Trạng thái mặc định';
 $text['label-default_status']['en-gb'] = "Default Status";
 $text['label-default_status']['ar-eg'] = "الوضع الافتراضي";
 $text['label-default_status']['de-at'] = "Standardzustand";
@@ -1847,6 +1918,7 @@ $text['label-default_status']['ja-jp'] = "デフォルトのステータス";
 $text['label-default_status']['ko-kr'] = "기본 상태";
 
 $text['label-contact']['en-us'] = "Contact";
+$text['label-contact']['vi-vn'] = 'Liên hệ';
 $text['label-contact']['en-gb'] = "Contact";
 $text['label-contact']['ar-eg'] = "اتصال";
 $text['label-contact']['de-at'] = "Kontakt";
@@ -1873,6 +1945,7 @@ $text['label-contact']['ja-jp'] = "コンタクト";
 $text['label-contact']['ko-kr'] = "연락하다";
 
 $text['label-caller_id_name_prefix']['en-us'] = "Caller ID Name Prefix";
+$text['label-caller_id_name_prefix']['vi-vn'] = 'Tiền tố tên Caller ID';
 $text['label-caller_id_name_prefix']['en-gb'] = "Caller ID Name Prefix";
 $text['label-caller_id_name_prefix']['ar-eg'] = "بادئة اسم معرف المتصل";
 $text['label-caller_id_name_prefix']['de-at'] = "Anruferkennung (Name) Prefix";
@@ -1899,6 +1972,7 @@ $text['label-caller_id_name_prefix']['ja-jp'] = "発信者 ID 名のプレフィ
 $text['label-caller_id_name_prefix']['ko-kr'] = "발신자 ID 이름 접두사";
 
 $text['label-outbound_caller_id_name']['en-us'] = "Outbound Caller ID Name";
+$text['label-outbound_caller_id_name']['vi-vn'] = 'Tên Caller ID gọi ra';
 $text['label-outbound_caller_id_name']['en-gb'] = "Outbound Caller ID Name";
 $text['label-outbound_caller_id_name']['ar-eg'] = "اسم معرف المتصل الصادر";
 $text['label-outbound_caller_id_name']['de-at'] = "Ausgehende Anruferkennung (Name)";
@@ -1925,6 +1999,7 @@ $text['label-outbound_caller_id_name']['ja-jp'] = "発信者 ID 名";
 $text['label-outbound_caller_id_name']['ko-kr'] = "아웃바운드 발신자 ID 이름";
 
 $text['label-outbound_caller_id_number']['en-us'] = "Outbound Caller ID Number";
+$text['label-outbound_caller_id_number']['vi-vn'] = 'Số Caller ID gọi ra';
 $text['label-outbound_caller_id_number']['en-gb'] = "Outbound Caller ID Number";
 $text['label-outbound_caller_id_number']['ar-eg'] = "رقم معرف المتصل الصادر";
 $text['label-outbound_caller_id_number']['de-at'] = "Ausgehende Anruferkennung (Nummer)";
@@ -1951,6 +2026,7 @@ $text['label-outbound_caller_id_number']['ja-jp'] = "発信者番号";
 $text['label-outbound_caller_id_number']['ko-kr'] = "아웃바운드 발신자 ID 번호";
 
 $text['label-queue_announce_position']['en-us'] = "Announce Position";
+$text['label-queue_announce_position']['vi-vn'] = 'Thông báo vị trí';
 $text['label-queue_announce_position']['en-gb'] = "Announce Position";
 $text['label-queue_announce_position']['ar-eg'] = "أعلن عن الوظيفة";
 $text['label-queue_announce_position']['de-at'] = "Stelle bekannt geben";
@@ -1977,6 +2053,7 @@ $text['label-queue_announce_position']['ja-jp'] = "役職発表";
 $text['label-queue_announce_position']['ko-kr'] = "입장 발표";
 
 $text['label-caller_announce_sound']['en-us'] = "Announce Sound";
+$text['label-caller_announce_sound']['vi-vn'] = 'Âm thông báo';
 $text['label-caller_announce_sound']['en-gb'] = "Announce Sound";
 $text['label-caller_announce_sound']['ar-eg'] = "أعلن الصوت";
 $text['label-caller_announce_sound']['de-at'] = "Ton für Ankündigung";
@@ -2003,6 +2080,7 @@ $text['label-caller_announce_sound']['ja-jp'] = "アナウンスサウンド";
 $text['label-caller_announce_sound']['ko-kr'] = "발표음";
 
 $text['label-caller_announce_frequency']['en-us'] = "Announce Frequency";
+$text['label-caller_announce_frequency']['vi-vn'] = 'Tần suất thông báo';
 $text['label-caller_announce_frequency']['en-gb'] = "Announce Frequency";
 $text['label-caller_announce_frequency']['ar-eg'] = "إعلان التردد";
 $text['label-caller_announce_frequency']['de-at'] = "Häufigkeit der Ankündigung";
@@ -2029,6 +2107,7 @@ $text['label-caller_announce_frequency']['ja-jp'] = "アナウンス頻度";
 $text['label-caller_announce_frequency']['ko-kr'] = "발표 빈도";
 
 $text['label-exit_keys']['en-us'] = "Exit Key";
+$text['label-exit_keys']['vi-vn'] = 'Phím thoát';
 $text['label-exit_keys']['en-gb'] = "Exit Key";
 $text['label-exit_keys']['ar-eg'] = "مفتاح الخروج";
 $text['label-exit_keys']['de-at'] = "Abbruch Taste";
@@ -2055,6 +2134,7 @@ $text['label-exit_keys']['ja-jp'] = "終了キー";
 $text['label-exit_keys']['ko-kr'] = "종료 키";
 
 $text['description-exit_keys']['en-us'] = "Define a key that can be used to exit the queue.";
+$text['description-exit_keys']['vi-vn'] = 'Định nghĩa phím có thể dùng để thoát khỏi hàng đợi.';
 $text['description-exit_keys']['en-gb'] = "Define a key that can be used to exit the queue.";
 $text['description-exit_keys']['ar-eg'] = "مفاتيح لإنهاء انتظار قائمة الانتظار الحالية.";
 $text['description-exit_keys']['de-at'] = "Tasten um die aktuelle Warteschlange zu verlassen.";
@@ -2081,6 +2161,7 @@ $text['description-exit_keys']['ja-jp'] = "現在待機しているキューを�
 $text['description-exit_keys']['ko-kr'] = "대기 중인 현재 대기열을 종료하는 키입니다.";
 
 $text['label-queue_email_address']['en-us'] = "Email Address";
+$text['label-queue_email_address']['vi-vn'] = 'Địa chỉ email';
 $text['label-queue_email_address']['en-gb'] = "Email Address";
 $text['label-queue_email_address']['ar-eg'] = "عنوان البريد الإلكتروني";
 $text['label-queue_email_address']['de-at'] = "E-Mail-Addresse";
@@ -2107,6 +2188,7 @@ $text['label-queue_email_address']['ja-jp'] = "電子メールアドレス";
 $text['label-queue_email_address']['ko-kr'] = "이메일 주소";
 
 $text['description-queue_email_address']['en-us'] = "Notification Email address.";
+$text['description-queue_email_address']['vi-vn'] = 'Địa chỉ email nhận thông báo.';
 $text['description-queue_email_address']['en-gb'] = "Notification Email address.";
 $text['description-queue_email_address']['ar-eg'] = "عنوان البريد الإلكتروني للإشعار.";
 $text['description-queue_email_address']['de-at'] = "Benachrichtigungs-E-Mail-Adresse.";
@@ -2133,6 +2215,7 @@ $text['description-queue_email_address']['ja-jp'] = "通知メールアドレス
 $text['description-queue_email_address']['ko-kr'] = "알림 이메일 주소.";
 
 $text['label-call_timeout']['en-us'] = "Call Timeout";
+$text['label-call_timeout']['vi-vn'] = 'Thời gian chờ cuộc gọi';
 $text['label-call_timeout']['en-gb'] = "Call Timeout";
 $text['label-call_timeout']['ar-eg'] = "مهلة الاتصال";
 $text['label-call_timeout']['de-at'] = "Zeitüberschreitung";
@@ -2159,6 +2242,7 @@ $text['label-call_timeout']['ja-jp'] = "通話タイムアウト";
 $text['label-call_timeout']['ko-kr'] = "통화 시간 초과";
 
 $text['label-busy_delay_time']['en-us'] = "Busy Delay Time";
+$text['label-busy_delay_time']['vi-vn'] = 'Thời gian trễ khi bận';
 $text['label-busy_delay_time']['en-gb'] = "Busy Delay Time";
 $text['label-busy_delay_time']['ar-eg'] = "وقت التأخير مشغول";
 $text['label-busy_delay_time']['de-at'] = "Verzögerungszeit für Besetzt";
@@ -2185,6 +2269,7 @@ $text['label-busy_delay_time']['ja-jp'] = "ビジー遅延時間";
 $text['label-busy_delay_time']['ko-kr'] = "바쁜 지연 시간";
 
 $text['label-agent_password']['en-us'] = "Agent Password";
+$text['label-agent_password']['vi-vn'] = 'Mật khẩu agent';
 $text['label-agent_password']['en-gb'] = "Agent Password";
 $text['label-agent_password']['ar-eg'] = "كلمة مرور الوكيل";
 $text['label-agent_password']['de-at'] = "Agenten Passwort";
@@ -2211,6 +2296,7 @@ $text['label-agent_password']['ja-jp'] = "エージェントパスワード";
 $text['label-agent_password']['ko-kr'] = "에이전트 비밀번호";
 
 $text['label-agent_name']['en-us'] = "Agent Name";
+$text['label-agent_name']['vi-vn'] = 'Tên agent';
 $text['label-agent_name']['en-gb'] = "Agent Name";
 $text['label-agent_name']['ar-eg'] = "اسم العميل";
 $text['label-agent_name']['de-at'] = "Agenten Name";
@@ -2237,6 +2323,7 @@ $text['label-agent_name']['ja-jp'] = "エージェント名";
 $text['label-agent_name']['ko-kr'] = "에이전트 이름";
 
 $text['label-agent_logout']['en-us'] = "Agent Logout";
+$text['label-agent_logout']['vi-vn'] = 'Đăng xuất agent';
 $text['label-agent_logout']['en-gb'] = "Agent Logout";
 $text['label-agent_logout']['ar-eg'] = "وكيل الخروج";
 $text['label-agent_logout']['de-at'] = "Agent Abmelden";
@@ -2263,6 +2350,7 @@ $text['label-agent_logout']['ja-jp'] = "エージェントのログアウト";
 $text['label-agent_logout']['ko-kr'] = "에이전트 로그아웃";
 
 $text['label-agent_id']['en-us'] = "Agent ID";
+$text['label-agent_id']['vi-vn'] = 'Agent ID';
 $text['label-agent_id']['en-gb'] = "Agent ID";
 $text['label-agent_id']['ar-eg'] = "معرف الوكيل";
 $text['label-agent_id']['de-at'] = "Agenten ID";
@@ -2289,6 +2377,7 @@ $text['label-agent_id']['ja-jp'] = "エージェント ID";
 $text['label-agent_id']['ko-kr'] = "에이전트 ID";
 
 $text['label-agent']['en-us'] = "Agent";
+$text['label-agent']['vi-vn'] = 'Agent';
 $text['label-agent']['en-gb'] = "Agent";
 $text['label-agent']['ar-eg'] = "عامل";
 $text['label-agent']['de-at'] = "Agent";
@@ -2315,6 +2404,7 @@ $text['label-agent']['ja-jp'] = "エージェント";
 $text['label-agent']['ko-kr'] = "대리인";
 
 $text['label-agents']['en-us'] = "Agents";
+$text['label-agents']['vi-vn'] = 'Agent';
 $text['label-agents']['en-gb'] = "Agents";
 $text['label-agents']['ar-eg'] = "عملاء";
 $text['label-agents']['de-at'] = "Agenten";
@@ -2341,6 +2431,7 @@ $text['label-agents']['ja-jp'] = "エージェント";
 $text['label-agents']['ko-kr'] = "자치령 대표";
 
 $text['label-abandoned_resume_allowed']['en-us'] = "Abandoned Resume Allowed";
+$text['label-abandoned_resume_allowed']['vi-vn'] = 'Cho phép tiếp tục cuộc gọi đã bỏ hàng đợi';
 $text['label-abandoned_resume_allowed']['en-gb'] = "Abandoned Resume Allowed";
 $text['label-abandoned_resume_allowed']['ar-eg'] = "استئناف مهجور مسموح به";
 $text['label-abandoned_resume_allowed']['de-at'] = "Wiederaufnahme nach Zurückweisung erlaubt";
@@ -2367,6 +2458,7 @@ $text['label-abandoned_resume_allowed']['ja-jp'] = "放棄された履歴書を�
 $text['label-abandoned_resume_allowed']['ko-kr'] = "포기한 이력서 허용";
 
 $text['header-call_center_tier_edit']['en-us'] = "Call Center Tier";
+$text['header-call_center_tier_edit']['vi-vn'] = 'Tier Call Center';
 $text['header-call_center_tier_edit']['en-gb'] = "Call Center Tier";
 $text['header-call_center_tier_edit']['ar-eg'] = "فئة مركز الاتصال";
 $text['header-call_center_tier_edit']['de-at'] = "Callcenter Ebene";
@@ -2393,6 +2485,7 @@ $text['header-call_center_tier_edit']['ja-jp'] = "コールセンター層";
 $text['header-call_center_tier_edit']['ko-kr'] = "콜 센터 계층";
 
 $text['header-call_center_queues']['en-us'] = "Call Center Queues";
+$text['header-call_center_queues']['vi-vn'] = 'Hàng đợi Call Center';
 $text['header-call_center_queues']['en-gb'] = "Call Center Queues";
 $text['header-call_center_queues']['ar-eg'] = "قوائم انتظار مركز الاتصال";
 $text['header-call_center_queues']['de-at'] = "Callcenter Warteschlangen";
@@ -2419,6 +2512,7 @@ $text['header-call_center_queues']['ja-jp'] = "コールセンターの待ち行
 $text['header-call_center_queues']['ko-kr'] = "콜센터 대기열";
 
 $text['header-call_center_queue_edit']['en-us'] = "Call Center Queue";
+$text['header-call_center_queue_edit']['vi-vn'] = 'Hàng đợi Call Center';
 $text['header-call_center_queue_edit']['en-gb'] = "Call Center Queue";
 $text['header-call_center_queue_edit']['ar-eg'] = "قائمة انتظار مركز الاتصال";
 $text['header-call_center_queue_edit']['de-at'] = "Callcenter Warteschlange";
@@ -2445,6 +2539,7 @@ $text['header-call_center_queue_edit']['ja-jp'] = "コール センター キュ
 $text['header-call_center_queue_edit']['ko-kr'] = "콜센터 대기열";
 
 $text['header-call_center_queue_add']['en-us'] = "Call Center Queue";
+$text['header-call_center_queue_add']['vi-vn'] = 'Hàng đợi Call Center';
 $text['header-call_center_queue_add']['en-gb'] = "Call Center Queue";
 $text['header-call_center_queue_add']['ar-eg'] = "قائمة انتظار مركز الاتصال";
 $text['header-call_center_queue_add']['de-at'] = "Callcenter Warteschlange";
@@ -2471,6 +2566,7 @@ $text['header-call_center_queue_add']['ja-jp'] = "コール センター キュ�
 $text['header-call_center_queue_add']['ko-kr'] = "콜센터 대기열";
 
 $text['header-call_center_agents']['en-us'] = "Call Center Agents";
+$text['header-call_center_agents']['vi-vn'] = 'Agent Call Center';
 $text['header-call_center_agents']['en-gb'] = "Call Center Agents";
 $text['header-call_center_agents']['ar-eg'] = "وكلاء مركز الاتصال";
 $text['header-call_center_agents']['de-at'] = "Callcenter Agent";
@@ -2497,6 +2593,7 @@ $text['header-call_center_agents']['ja-jp'] = "コールセンターのエージ
 $text['header-call_center_agents']['ko-kr'] = "콜센터 상담원";
 
 $text['header-call_center_agent_status']['en-us'] = "Call Center Agent Status";
+$text['header-call_center_agent_status']['vi-vn'] = 'Trạng thái Agent Call Center';
 $text['header-call_center_agent_status']['en-gb'] = "Call Center Agent Status";
 $text['header-call_center_agent_status']['ar-eg'] = "حالة وكيل مركز الاتصال";
 $text['header-call_center_agent_status']['de-at'] = "Callcenter Agenten-Status";
@@ -2523,6 +2620,7 @@ $text['header-call_center_agent_status']['ja-jp'] = "コール センター エ�
 $text['header-call_center_agent_status']['ko-kr'] = "콜센터 상담원 상태";
 
 $text['header-call_center_agent_edit']['en-us'] = "Call Center Agent";
+$text['header-call_center_agent_edit']['vi-vn'] = 'Agent Call Center';
 $text['header-call_center_agent_edit']['en-gb'] = "Call Center Agent";
 $text['header-call_center_agent_edit']['ar-eg'] = "وكيل كول سنتر";
 $text['header-call_center_agent_edit']['de-at'] = "Callcenter Agent";
@@ -2549,6 +2647,7 @@ $text['header-call_center_agent_edit']['ja-jp'] = "コールセンターエー�
 $text['header-call_center_agent_edit']['ko-kr'] = "콜 센터 에이전트";
 
 $text['header-call_center_agent_add']['en-us'] = "Call Center Agents";
+$text['header-call_center_agent_add']['vi-vn'] = 'Agent Call Center';
 $text['header-call_center_agent_add']['en-gb'] = "Call Center Agents";
 $text['header-call_center_agent_add']['ar-eg'] = "Agenti call center";
 $text['header-call_center_agent_add']['de-at'] = "Callcenter Agenten";
@@ -2575,6 +2674,7 @@ $text['header-call_center_agent_add']['ja-jp'] = "コールセンターのエー
 $text['header-call_center_agent_add']['ko-kr'] = "콜센터 상담원";
 
 $text['description-wrap_up_time']['en-us'] = "The amount of time to wait before putting the agent back in the available queue to receive another call, to allow them to complete notes or other tasks.";
+$text['description-wrap_up_time']['vi-vn'] = 'Khoảng thời gian chờ trước khi đưa agent trở lại hàng đợi sẵn sàng để nhận cuộc gọi khác, giúp họ hoàn tất ghi chú hoặc công việc sau cuộc gọi.';
 $text['description-wrap_up_time']['en-gb'] = "The amount of time to wait before putting the agent back in the available queue to receive another call, to allow them to complete notes or other tasks.";
 $text['description-wrap_up_time']['ar-eg'] = "مقدار الوقت اللازم للانتظار قبل إعادة الوكيل إلى قائمة الانتظار المتاحة لتلقي مكالمة أخرى، للسماح له بإكمال الملاحظات أو المهام الأخرى.";
 $text['description-wrap_up_time']['de-at'] = "Die Wartezeit, bevor der Agent wieder in die verfügbare Warteschlange aufgenommen wird, um einen weiteren Anruf entgegenzunehmen, damit er Notizen oder andere Aufgaben erledigen kann.";
@@ -2601,6 +2701,7 @@ $text['description-wrap_up_time']['ja-jp'] = "エージェントがメモやそ�
 $text['description-wrap_up_time']['ko-kr'] = "다른 전화를 받기 위해 상담원을 사용 가능한 대기열에 다시 넣고 메모나 기타 작업을 완료할 수 있도록 대기하는 시간입니다.";
 
 $text['description-type']['en-us'] = "Enter the agent type.";
+$text['description-type']['vi-vn'] = 'Nhập loại agent.';
 $text['description-type']['en-gb'] = "Enter the agent type.";
 $text['description-type']['ar-eg'] = "أدخل نوع الوكيل.";
 $text['description-type']['de-at'] = "Geben Sie den Agenten Typ an.";
@@ -2627,6 +2728,7 @@ $text['description-type']['ja-jp'] = "エージェント タイプを入力し�
 $text['description-type']['ko-kr'] = "에이전트 유형을 입력합니다.";
 
 $text['description-timeout_action']['en-us'] = "Set the action to perform when the max wait time is reached.";
+$text['description-timeout_action']['vi-vn'] = 'Đặt hành động cần thực hiện khi đạt thời gian chờ tối đa.';
 $text['description-timeout_action']['en-gb'] = "Set the action to perform when the max wait time is reached.";
 $text['description-timeout_action']['ar-eg'] = "اضبط الإجراء المطلوب تنفيذه عند الوصول إلى الحد الأقصى لوقت الانتظار.";
 $text['description-timeout_action']['de-at'] = "Aktion, wenn die maximale Wartezeit erreicht wurde.";
@@ -2653,6 +2755,7 @@ $text['description-timeout_action']['ja-jp'] = "最大待機時間に達した�
 $text['description-timeout_action']['ko-kr'] = "최대 대기 시간에 도달했을 때 수행할 작업을 설정합니다.";
 
 $text['description-time_base_score']['en-us'] = "Select the time base score.";
+$text['description-time_base_score']['vi-vn'] = 'Chọn điểm theo thời gian.';
 $text['description-time_base_score']['en-gb'] = "Select the time base score.";
 $text['description-time_base_score']['ar-eg'] = "حدد النقاط الأساسية للوقت.";
 $text['description-time_base_score']['de-at'] = "Wählen Sie die Zeitgeber für Klassifikation";
@@ -2679,6 +2782,7 @@ $text['description-time_base_score']['ja-jp'] = "タイム ベース スコア�
 $text['description-time_base_score']['ko-kr'] = "시간축 점수를 선택합니다.";
 
 $text['description-time_base_score_sec']['en-us'] = "Set the time base score in seconds. Higher numbers mean higher priority.";
+$text['description-time_base_score_sec']['vi-vn'] = 'Đặt điểm theo thời gian bằng giây. Số càng cao nghĩa là ưu tiên càng cao.';
 $text['description-time_base_score_sec']['en-gb'] = "Set the time base score in seconds. Higher numbers mean higher priority.";
 $text['description-time_base_score_sec']['ar-eg'] = "قم بتعيين النتيجة الأساسية للوقت بالثواني. تعني الأرقام الأعلى أولوية أعلى على مراكز الاتصال الأخرى.";
 $text['description-time_base_score_sec']['de-at'] = "Stellen Sie den Zeitbasiswert in Sekunden ein. Höhere Nummern bedeuten eine höhere Priorität gegenüber anderen Callcentern.";
@@ -2705,6 +2809,7 @@ $text['description-time_base_score_sec']['ja-jp'] = "時間ベースのスコア
 $text['description-time_base_score_sec']['ko-kr'] = "시간 기준 점수를 초 단위로 설정합니다. 숫자가 높을수록 다른 콜 센터보다 우선 순위가 높다는 의미입니다.";
 
 $text['description-tiers']['en-us'] = "Tiers assign agents to queues.";
+$text['description-tiers']['vi-vn'] = 'Tier dùng để gán agent vào hàng đợi.';
 $text['description-tiers']['en-gb'] = "Tiers assign agents to queues.";
 $text['description-tiers']['ar-eg'] = "تقوم المستويات بتعيين وكلاء لقوائم الانتظار.";
 $text['description-tiers']['de-at'] = "Agenten einer Warteschlange pro Ebene zuweisen.";
@@ -2731,6 +2836,7 @@ $text['description-tiers']['ja-jp'] = "ティアは、エージェントをキ�
 $text['description-tiers']['ko-kr'] = "계층은 상담원을 대기열에 할당합니다.";
 
 $text['description-tier_rules_apply']['en-us'] = "Set the tier rule rules apply to true or false.";
+$text['description-tier_rules_apply']['vi-vn'] = 'Đặt việc áp dụng quy tắc Tier là true hoặc false.';
 $text['description-tier_rules_apply']['en-gb'] = "Set the tier rule rules apply to true or false.";
 $text['description-tier_rules_apply']['ar-eg'] = "قم بتعيين قواعد الطبقة التي تنطبق على صواب أو خطأ.";
 $text['description-tier_rules_apply']['de-at'] = "Setzen Sie die Ebenen-Regel. Regeln sind Ein oder Aus";
@@ -2757,6 +2863,7 @@ $text['description-tier_rules_apply']['ja-jp'] = "階層ルール ルールが t
 $text['description-tier_rules_apply']['ko-kr'] = "적용되는 계층 규칙 규칙을 true 또는 false로 설정합니다.";
 
 $text['description-tier_rule_wait_second']['en-us'] = "Enter the tier rule wait seconds.";
+$text['description-tier_rule_wait_second']['vi-vn'] = 'Nhập số giây chờ của quy tắc Tier.';
 $text['description-tier_rule_wait_second']['en-gb'] = "Enter the tier rule wait seconds.";
 $text['description-tier_rule_wait_second']['ar-eg'] = "أدخل قاعدة الطبقة انتظر ثواني.";
 $text['description-tier_rule_wait_second']['de-at'] = "Geben Sie die Ebenen-Regel Wartezeit in Sekunden ein.";
@@ -2783,6 +2890,7 @@ $text['description-tier_rule_wait_second']['ja-jp'] = "層ルールの待機秒�
 $text['description-tier_rule_wait_second']['ko-kr'] = "계층 규칙 wait 초를 입력합니다.";
 
 $text['description-tier_rule_wait_multiply_level']['en-us'] = "Set the tier rule wait multiply level to true or false.";
+$text['description-tier_rule_wait_multiply_level']['vi-vn'] = 'Đặt việc nhân thời gian chờ theo cấp Tier là true hoặc false.';
 $text['description-tier_rule_wait_multiply_level']['en-gb'] = "Set the tier rule wait multiply level to true or false.";
 $text['description-tier_rule_wait_multiply_level']['ar-eg'] = "اضبط قاعدة الطبقة انتظر مستوى الضرب على صواب أو خطأ.";
 $text['description-tier_rule_wait_multiply_level']['de-at'] = "Setzen Sie den Multiplikator für die Ebenen-Regel Wartezeit auf Ein oder Aus.";
@@ -2809,6 +2917,7 @@ $text['description-tier_rule_wait_multiply_level']['ja-jp'] = "層ルールの�
 $text['description-tier_rule_wait_multiply_level']['ko-kr'] = "계층 규칙 대기 배수 수준을 true 또는 false로 설정합니다.";
 
 $text['description-tier_rule_no_agent_no_wait']['en-us'] = "Enter the tier rule no agent no wait.";
+$text['description-tier_rule_no_agent_no_wait']['vi-vn'] = 'Nhập thiết lập không agent thì không chờ cho quy tắc Tier.';
 $text['description-tier_rule_no_agent_no_wait']['en-gb'] = "Enter the tier rule no agent no wait.";
 $text['description-tier_rule_no_agent_no_wait']['ar-eg'] = "أدخل قاعدة الطبقة لا يوجد وكيل لا ينتظر.";
 $text['description-tier_rule_no_agent_no_wait']['de-at'] = "Geben Sie die Ebenen Regel kein Agent keine Wartezeit ein.";
@@ -2835,6 +2944,7 @@ $text['description-tier_rule_no_agent_no_wait']['ja-jp'] = "ティア ルール 
 $text['description-tier_rule_no_agent_no_wait']['ko-kr'] = "계층 규칙 no agent no wait를 입력합니다.";
 
 $text['description-tier_position']['en-us'] = "Select the tier position.";
+$text['description-tier_position']['vi-vn'] = 'Chọn vị trí Tier.';
 $text['description-tier_position']['en-gb'] = "Select the tier position.";
 $text['description-tier_position']['ar-eg'] = "حدد موضع الطبقة.";
 $text['description-tier_position']['de-at'] = "Wählen Sie die Ebenen Position.";
@@ -2861,6 +2971,7 @@ $text['description-tier_position']['ja-jp'] = "階層の位置を選択します
 $text['description-tier_position']['ko-kr'] = "계층 위치를 선택합니다.";
 
 $text['description-tier_level']['en-us'] = "Select the tier level.";
+$text['description-tier_level']['vi-vn'] = 'Chọn cấp Tier.';
 $text['description-tier_level']['en-gb'] = "Select the tier level.";
 $text['description-tier_level']['ar-eg'] = "حدد مستوى الطبقة.";
 $text['description-tier_level']['de-at'] = "Wählen Sie das Ebenen-Niveau.";
@@ -2887,6 +2998,7 @@ $text['description-tier_level']['ja-jp'] = "階層レベルを選択します。
 $text['description-tier_level']['ko-kr'] = "계층 수준을 선택합니다.";
 
 $text['description-strategy']['en-us'] = "Select the queue ring strategy.";
+$text['description-strategy']['vi-vn'] = 'Chọn chiến lược đổ chuông của hàng đợi.';
 $text['description-strategy']['en-gb'] = "Select the queue ring strategy.";
 $text['description-strategy']['ar-eg'] = "حدد استراتيجية حلقة قائمة الانتظار.";
 $text['description-strategy']['de-at'] = "Wählen Sie eine Rufstrategie für die Warteschlange.";
@@ -2913,6 +3025,7 @@ $text['description-strategy']['ja-jp'] = "キュー リング戦略を選択し�
 $text['description-strategy']['ko-kr'] = "대기열 링 전략을 선택합니다.";
 
 $text['description-status']['en-us'] = "Select the default agent status. Recommend leaving the status empty as it will keep the last known status after the service is restarted.";
+$text['description-status']['vi-vn'] = 'Chọn trạng thái agent mặc định. Khuyến nghị để trống để giữ trạng thái gần nhất sau khi dịch vụ khởi động lại.';
 $text['description-status']['en-gb'] = "Select the default agent status. Recommend leaving the status empty as it will keep the last known status after the service is restarted.";
 $text['description-status']['ar-eg'] = "حدد حالة الوكيل الافتراضية. نوصي بترك الحالة فارغة لأنها ستحتفظ بآخر حالة معروفة بعد إعادة تشغيل الخدمة.";
 $text['description-status']['de-at'] = "Wählen Sie den Standard-Agentenstatus aus. Wir empfehlen, den Status leer zu lassen, da nach dem Neustart des Dienstes der letzte bekannte Status beibehalten wird.";
@@ -2939,6 +3052,7 @@ $text['description-status']['ja-jp'] = "デフォルトのエージェントス�
 $text['description-status']['ko-kr'] = "기본 에이전트 상태를 선택합니다. 서비스가 다시 시작된 후 마지막으로 알려진 상태가 유지되므로 상태를 비워 두는 것이 좋습니다.";
 
 $text['description-reject_delay_time']['en-us'] = "If the agent presses the reject button on their phone, wait this defined time amount in seconds.";
+$text['description-reject_delay_time']['vi-vn'] = 'Nếu agent bấm nút từ chối trên điện thoại, hệ thống sẽ chờ số giây đã định nghĩa.';
 $text['description-reject_delay_time']['en-gb'] = "If the agent presses the reject button on their phone, wait this defined time amount in seconds.";
 $text['description-reject_delay_time']['ar-eg'] = "إذا ضغط الوكيل على زر الرفض على هاتفه، فانتظر هذه المدة الزمنية المحددة بالثواني.";
 $text['description-reject_delay_time']['de-at'] = "Wenn der Agent die Ablehnen-Taste auf seinem Telefon drückt, wird die festgelegte Zeitspanne in Sekunden abgewartet.";
@@ -2965,6 +3079,7 @@ $text['description-reject_delay_time']['ja-jp'] = "エージェントが電話�
 $text['description-reject_delay_time']['ko-kr'] = "상담원이 전화기의 거부 버튼을 누르면 정의된 시간(초)을 기다립니다.";
 
 $text['description-record_template']['en-us'] = "Save the recording.";
+$text['description-record_template']['vi-vn'] = 'Lưu bản ghi âm.';
 $text['description-record_template']['en-gb'] = "Save the recording.";
 $text['description-record_template']['ar-eg'] = "احفظ التسجيل.";
 $text['description-record_template']['de-at'] = "Aufnahme speichern.";
@@ -2991,6 +3106,7 @@ $text['description-record_template']['ja-jp'] = "記録を保存します。";
 $text['description-record_template']['ko-kr'] = "녹음을 저장합니다.";
 
 $text['description-queue_limit']['en-us'] = "Limit the number of callers allowed to wait in queue.";
+$text['description-queue_limit']['vi-vn'] = 'Giới hạn số người gọi được phép chờ trong hàng đợi.';
 $text['description-queue_limit']['en-gb'] = "Limit the number of callers allowed to wait in queue.";
 $text['description-queue_limit']['ar-eg'] = "حدد عدد المتصلين المسموح لهم الانتظار في الطابور.";
 $text['description-queue_limit']['de-at'] = "Begrenzen Sie die Anzahl der Anrufer, die im Warteschlangenpuffer warten dürfen.";
@@ -3017,6 +3133,7 @@ $text['description-queue_limit']['ja-jp'] = "キューで待機できる通話�
 $text['description-queue_limit']['ko-kr'] = "대기열에서 기다릴 수 있는 통화자의 수를 제한합니다.";
 
 $text['description-queue_name']['en-us'] = "Enter the queue name.";
+$text['description-queue_name']['vi-vn'] = 'Nhập tên hàng đợi.';
 $text['description-queue_name']['en-gb'] = "Enter the queue name.";
 $text['description-queue_name']['ar-eg'] = "أدخل اسم قائمة الانتظار.";
 $text['description-queue_name']['de-at'] = "Geben Sie den Namen der Warteschlange ein.";
@@ -3043,6 +3160,7 @@ $text['description-queue_name']['ja-jp'] = "キュー名を入力します。";
 $text['description-queue_name']['ko-kr'] = "대기열 이름을 입력합니다.";
 
 $text['description-options']['en-us'] = "Select the queue name.";
+$text['description-options']['vi-vn'] = 'Chọn tên hàng đợi.';
 $text['description-options']['en-gb'] = "Select the queue name.";
 $text['description-options']['ar-eg'] = "حدد اسم قائمة الانتظار.";
 $text['description-options']['de-at'] = "Wählen Sie den Namen der Warteschlange.";
@@ -3069,6 +3187,7 @@ $text['description-options']['ja-jp'] = "キュー名を選択します。";
 $text['description-options']['ko-kr'] = "대기열 이름을 선택합니다.";
 
 $text['description-no_answer_delay_time']['en-us'] = "Enter the agent no answer delay time in seconds. How long the system will wait before reattempting a call to an agent who has not answered.";
+$text['description-no_answer_delay_time']['vi-vn'] = 'Nhập thời gian trễ khi agent không trả lời, tính bằng giây. Đây là thời gian hệ thống chờ trước khi thử gọi lại agent chưa trả lời.';
 $text['description-no_answer_delay_time']['en-gb'] = "Enter the agent no answer delay time in seconds. How long the system will wait before reattempting a call to an agent who has not answered.";
 $text['description-no_answer_delay_time']['ar-eg'] = "أدخل الوكيل بدون وقت تأخير للإجابة بالثواني. كم من الوقت سينتظر النظام قبل إعادة محاولة الاتصال بالموظف الذي لم يرد.";
 $text['description-no_answer_delay_time']['de-at'] = "Geben Sie die Verzögerungszeit bei Nichtantwort des Agenten in Sekunden ein. Wie lange wartet das System, bevor es erneut versucht, einen Agenten anzurufen, der nicht geantwortet hat?";
@@ -3095,6 +3214,7 @@ $text['description-no_answer_delay_time']['ja-jp'] = "エージェントの無�
 $text['description-no_answer_delay_time']['ko-kr'] = "상담원 무응답 지연 시간을 초 단위로 입력하세요. 응답하지 않은 상담원에게 전화를 다시 시도하기 전에 시스템이 기다리는 시간입니다.";
 
 $text['description-music_on_hold']['en-us'] = "Select the desired hold music.";
+$text['description-music_on_hold']['vi-vn'] = 'Chọn nhạc chờ mong muốn.';
 $text['description-music_on_hold']['en-gb'] = "Select the desired hold music.";
 $text['description-music_on_hold']['ar-eg'] = "حدد الموسيقى المعلقة المطلوبة.";
 $text['description-music_on_hold']['de-at'] = "Wählen Sie die gewünschte Wartemusik.";
@@ -3121,6 +3241,7 @@ $text['description-music_on_hold']['ja-jp'] = "希望の保留音楽を選択し
 $text['description-music_on_hold']['ko-kr'] = "원하는 홀드 음악을 선택합니다.";
 
 $text['description-max_wait_time_with_no_agent_time_reached']['en-us'] = "Enter the max wait time with no agent time reached.";
+$text['description-max_wait_time_with_no_agent_time_reached']['vi-vn'] = 'Nhập thời gian chờ tối đa khi đã đạt mốc không có agent.';
 $text['description-max_wait_time_with_no_agent_time_reached']['en-gb'] = "Enter the max wait time with no agent time reached.";
 $text['description-max_wait_time_with_no_agent_time_reached']['ar-eg'] = "أدخل الحد الأقصى لوقت الانتظار مع عدم وصول وقت الوكيل.";
 $text['description-max_wait_time_with_no_agent_time_reached']['de-at'] = "Geben Sie die maximale Wartezeit in Sekunden an, die ohne Agent gewartet werden soll.";
@@ -3147,6 +3268,7 @@ $text['description-max_wait_time_with_no_agent_time_reached']['ja-jp'] = "エー
 $text['description-max_wait_time_with_no_agent_time_reached']['ko-kr'] = "에이전트 시간에 도달하지 않은 최대 대기 시간을 입력하십시오.";
 
 $text['description-max_wait_time_with_no_agent']['en-us'] = "Enter the max wait time with no agent.";
+$text['description-max_wait_time_with_no_agent']['vi-vn'] = 'Nhập thời gian chờ tối đa khi không có agent.';
 $text['description-max_wait_time_with_no_agent']['en-gb'] = "Enter the max wait time with no agent.";
 $text['description-max_wait_time_with_no_agent']['ar-eg'] = "أدخل أقصى وقت انتظار بدون وكيل.";
 $text['description-max_wait_time_with_no_agent']['de-at'] = "Geben Sie die maximale Wartezeit ohne Agent an.";
@@ -3173,6 +3295,7 @@ $text['description-max_wait_time_with_no_agent']['ja-jp'] = "エージェント�
 $text['description-max_wait_time_with_no_agent']['ko-kr'] = "상담원이 없을 때 최대 대기 시간을 입력하세요.";
 
 $text['description-max_wait_time']['en-us'] = "Enter the max wait time.";
+$text['description-max_wait_time']['vi-vn'] = 'Nhập thời gian chờ tối đa.';
 $text['description-max_wait_time']['en-gb'] = "Enter the max wait time.";
 $text['description-max_wait_time']['ar-eg'] = "أدخل أقصى وقت انتظار.";
 $text['description-max_wait_time']['de-at'] = "Geben Sie die maximale Wartezeit an.";
@@ -3199,6 +3322,7 @@ $text['description-max_wait_time']['ja-jp'] = "最大待ち時間を入力しま
 $text['description-max_wait_time']['ko-kr'] = "최대 대기 시간을 입력합니다.";
 
 $text['description-max_no_answer']['en-us'] = "If the agent fails to answer calls this number of times, their status is changed to 'On Break' automatically.";
+$text['description-max_no_answer']['vi-vn'] = 'Nếu agent không trả lời số lần này, trạng thái của họ sẽ tự động chuyển sang \'On Break\'.';
 $text['description-max_no_answer']['en-gb'] = "If the agent fails to answer calls this number of times, their status is changed to 'On Break' automatically.";
 $text['description-max_no_answer']['ar-eg'] = "إذا فشل الوكيل في الرد على المكالمات هذا العدد من المرات، تتغير حالته إلى (في حالة استراحة) تلقائيًا.";
 $text['description-max_no_answer']['de-at'] = "Wenn der Agent Anrufe so oft nicht entgegennimmt, wird sein Status automatisch in (In Pause) geändert.";
@@ -3225,6 +3349,7 @@ $text['description-max_no_answer']['ja-jp'] = "エージェントがこの回数
 $text['description-max_no_answer']['ko-kr'] = "상담원이 이 횟수만큼 전화에 응답하지 않으면 상태가 자동으로 (휴식 중)으로 변경됩니다.";
 
 $text['description-extension']['en-us'] = "Enter the extension number.";
+$text['description-extension']['vi-vn'] = 'Nhập số máy nhánh.';
 $text['description-extension']['en-gb'] = "Enter the extension number.";
 $text['description-extension']['ar-eg'] = "أدخل الرقم الداخلي.";
 $text['description-extension']['de-at'] = "Geben Sie die Nebenstelle an.";
@@ -3251,6 +3376,7 @@ $text['description-extension']['ja-jp'] = "内線番号を入力します。";
 $text['description-extension']['ko-kr'] = "내선번호를 입력하세요.";
 
 $text['description-discard_abandoned_after']['en-us'] = "The number of seconds before the abandoned call is removed from the queue.";
+$text['description-discard_abandoned_after']['vi-vn'] = 'Số giây trước khi cuộc gọi bỏ hàng đợi bị xóa khỏi hàng đợi.';
 $text['description-discard_abandoned_after']['en-gb'] = "The number of seconds before the abandoned call is removed from the queue.";
 $text['description-discard_abandoned_after']['ar-eg'] = "قم بتعيين المهملة بعد ثوانٍ.";
 $text['description-discard_abandoned_after']['de-at'] = "Setzen Sie die Zeit in Sekunden, nach der ein Anrufer nicht wieder in die Warteschlange eingereiht wird.";
@@ -3277,6 +3403,7 @@ $text['description-discard_abandoned_after']['ja-jp'] = "秒後に破棄を放�
 $text['description-discard_abandoned_after']['ko-kr'] = "초 후에 버려진 폐기를 설정합니다.";
 
 $text['description-contact']['en-us'] = "Select the contact number.";
+$text['description-contact']['vi-vn'] = 'Chọn số liên hệ.';
 $text['description-contact']['en-gb'] = "Select the contact number.";
 $text['description-contact']['ar-eg'] = "حدد رقم الاتصال.";
 $text['description-contact']['de-at'] = "Wählen Sie die Kontakt Nummer.";
@@ -3303,6 +3430,7 @@ $text['description-contact']['ja-jp'] = "連絡先番号を選択します。";
 $text['description-contact']['ko-kr'] = "연락처를 선택하세요.";
 
 $text['description-outbound_caller_id_number-select']['en-us'] = "Select the external (public) caller ID number.";
+$text['description-outbound_caller_id_number-select']['vi-vn'] = 'Chọn số Caller ID bên ngoài (public).';
 $text['description-outbound_caller_id_number-select']['en-gb'] = "Select the external (public) caller ID number.";
 $text['description-outbound_caller_id_number-select']['ar-eg'] = "حدد رقم معرف المتصل الخارجي (العام).";
 $text['description-outbound_caller_id_number-select']['de-at'] = "Wählen Sie die externe Anruferkennung (Nummer).";
@@ -3329,6 +3457,7 @@ $text['description-outbound_caller_id_number-select']['ja-jp'] = "外部 (パブ
 $text['description-outbound_caller_id_number-select']['ko-kr'] = "외부(공개) 발신자 ID 번호를 선택합니다.";
 
 $text['description-outbound_caller_id_number']['en-us'] = "Enter the external (public) caller ID number here.";
+$text['description-outbound_caller_id_number']['vi-vn'] = 'Nhập số Caller ID bên ngoài (public) tại đây.';
 $text['description-outbound_caller_id_number']['en-gb'] = "Enter the external (public) caller ID number here.";
 $text['description-outbound_caller_id_number']['ar-eg'] = "أدخل رقم معرف المتصل الخارجي (العام) هنا.";
 $text['description-outbound_caller_id_number']['de-at'] = "Geben Sie die externe Anruferkennung (Nummer) hier an.";
@@ -3355,6 +3484,7 @@ $text['description-outbound_caller_id_number']['ja-jp'] = "ここに外部 (パ�
 $text['description-outbound_caller_id_number']['ko-kr'] = "여기에 외부(공개) 발신자 ID 번호를 입력합니다.";
 
 $text['description-outbound_caller_id_name-select']['en-us'] = "Select the external (public) caller ID name.";
+$text['description-outbound_caller_id_name-select']['vi-vn'] = 'Chọn tên Caller ID bên ngoài (public).';
 $text['description-outbound_caller_id_name-select']['en-gb'] = "Select the external (public) caller ID name.";
 $text['description-outbound_caller_id_name-select']['ar-eg'] = "حدد اسم معرف المتصل الخارجي (العام).";
 $text['description-outbound_caller_id_name-select']['de-at'] = "Wählen Sie die externe Anruferkennung (Name).";
@@ -3381,6 +3511,7 @@ $text['description-outbound_caller_id_name-select']['ja-jp'] = "外部 (パブ�
 $text['description-outbound_caller_id_name-select']['ko-kr'] = "외부(공개) 발신자 ID 이름을 선택합니다.";
 
 $text['description-outbound_caller_id_name']['en-us'] = "Enter the external (public) caller ID name here.";
+$text['description-outbound_caller_id_name']['vi-vn'] = 'Nhập tên Caller ID bên ngoài (public) tại đây.';
 $text['description-outbound_caller_id_name']['en-gb'] = "Enter the external (public) caller ID name here.";
 $text['description-outbound_caller_id_name']['ar-eg'] = "أدخل اسم معرف المتصل الخارجي (العام) هنا.";
 $text['description-outbound_caller_id_name']['de-at'] = "Geben Sie die externe Anruferkennung (Name) hier an.";
@@ -3407,6 +3538,7 @@ $text['description-outbound_caller_id_name']['ja-jp'] = "ここに外部 (パブ
 $text['description-outbound_caller_id_name']['ko-kr'] = "여기에 외부(공용) 발신자 ID 이름을 입력합니다.";
 
 $text['description-caller_id_name_prefix']['en-us'] = "Set a prefix on the caller ID name.";
+$text['description-caller_id_name_prefix']['vi-vn'] = 'Thiết lập tiền tố cho tên Caller ID.';
 $text['description-caller_id_name_prefix']['en-gb'] = "Set a prefix on the caller ID name.";
 $text['description-caller_id_name_prefix']['ar-eg'] = "قم بتعيين بادئة على اسم معرف المتصل.";
 $text['description-caller_id_name_prefix']['de-at'] = "Setzen Sie ein Präfix für die Anruferkennung (Name).";
@@ -3433,6 +3565,7 @@ $text['description-caller_id_name_prefix']['ja-jp'] = "発信者 ID 名にプレ
 $text['description-caller_id_name_prefix']['ko-kr'] = "발신자 ID 이름에 접두사를 설정합니다.";
 
 $text['description-caller_announce_sound']['en-us'] = "A sound to play for a caller at specific intervals, as defined in seconds by the Announce Frequency. Full path to the recording is required.";
+$text['description-caller_announce_sound']['vi-vn'] = 'Âm thanh phát cho người gọi theo từng khoảng thời gian được định nghĩa bằng giây trong Tần suất thông báo. Cần nhập đầy đủ đường dẫn đến bản ghi âm.';
 $text['description-caller_announce_sound']['en-gb'] = "A sound to play for a caller at specific intervals, as defined in seconds by the Announce Frequency. Full path to the recording is required.";
 $text['description-caller_announce_sound']['ar-eg'] = "صوت يتم تشغيله للمتصل على فترات زمنية محددة ، كما هو محدد (بالثواني) بواسطة تردد الإعلان. يحتاج إلى المسار الكامل لملف wav.";
 $text['description-caller_announce_sound']['de-at'] = "Eine Datei, die regelmäßig dem Anrufer vorgespielt werden soll. Benötigt den kompletten Pfad zur wav Datei.";
@@ -3459,6 +3592,7 @@ $text['description-caller_announce_sound']['ja-jp'] = "アナウンス頻度で�
 $text['description-caller_announce_sound']['ko-kr'] = "발표 주파수에 의해 정의된 대로(초 단위) 특정 간격으로 발신자에게 재생되는 소리입니다. wav 파일의 전체 경로가 필요합니다.";
 
 $text['description-caller_announce_frequency']['en-us'] = "How often should we play the announce sound. Enter a number in seconds";
+$text['description-caller_announce_frequency']['vi-vn'] = 'Tần suất phát âm thông báo. Nhập một số tính bằng giây.';
 $text['description-caller_announce_frequency']['en-gb'] = "How often should we play the announce sound. Enter a number in seconds";
 $text['description-caller_announce_frequency']['ar-eg'] = "كم مرة يجب أن نشغل صوت الإعلان. أدخل رقمًا بالثواني";
 $text['description-caller_announce_frequency']['de-at'] = "Wie häufig soll der Anmeldeton abgespielt werden. Geben Sie eine Zahl in Sekunden an.";
@@ -3485,6 +3619,7 @@ $text['description-caller_announce_frequency']['ja-jp'] = "アナウンス サ�
 $text['description-caller_announce_frequency']['ko-kr'] = "아나운스 사운드를 얼마나 자주 재생해야 합니까? 초 단위로 숫자를 입력하세요";
 
 $text['description-call_timeout']['en-us'] = "Enter the call timeout.";
+$text['description-call_timeout']['vi-vn'] = 'Nhập thời gian timeout cuộc gọi.';
 $text['description-call_timeout']['en-gb'] = "Enter the call timeout.";
 $text['description-call_timeout']['ar-eg'] = "أدخل مهلة المكالمة.";
 $text['description-call_timeout']['de-at'] = "Geben Sie den Wert für die Zeitüberschreitung an.";
@@ -3511,6 +3646,7 @@ $text['description-call_timeout']['ja-jp'] = "通話タイムアウトを入力�
 $text['description-call_timeout']['ko-kr'] = "통화 제한 시간을 입력합니다.";
 
 $text['description-call_center_queues']['en-us'] = "List of queues for the call center.";
+$text['description-call_center_queues']['vi-vn'] = 'Danh sách hàng đợi của Call Center.';
 $text['description-call_center_queues']['en-gb'] = "List of queues for the call center.";
 $text['description-call_center_queues']['ar-eg'] = "قائمة قوائم الانتظار لمركز الاتصال.";
 $text['description-call_center_queues']['de-at'] = "Liste der Callcenter Warteschlangen";
@@ -3537,6 +3673,7 @@ $text['description-call_center_queues']['ja-jp'] = "コール センターのキ
 $text['description-call_center_queues']['ko-kr'] = "콜 센터의 대기열 목록입니다.";
 
 $text['description-call_center_agents']['en-us'] = "List of call center agents.";
+$text['description-call_center_agents']['vi-vn'] = 'Danh sách agent của Call Center.';
 $text['description-call_center_agents']['en-gb'] = "List of call center agents.";
 $text['description-call_center_agents']['ar-eg'] = "قائمة وكلاء مركز الاتصال.";
 $text['description-call_center_agents']['de-at'] = "Liste der Callcenter Agenten";
@@ -3563,6 +3700,7 @@ $text['description-call_center_agents']['ja-jp'] = "コール センター エ�
 $text['description-call_center_agents']['ko-kr'] = "콜센터 상담원 목록입니다.";
 
 $text['description-call_center_agent_status']['en-us'] = "List all the call center agents with the option to change the status of one or more agents.";
+$text['description-call_center_agent_status']['vi-vn'] = 'Liệt kê tất cả agent Call Center cùng tùy chọn đổi trạng thái cho một hoặc nhiều agent.';
 $text['description-call_center_agent_status']['en-gb'] = "List all the call center agents with the option to change the status of one or more agents.";
 $text['description-call_center_agent_status']['ar-eg'] = "قم بإدراج جميع وكلاء مركز الاتصال مع خيار تغيير حالة وكيل واحد أو أكثر.";
 $text['description-call_center_agent_status']['de-at'] = "Liste aller Callcenter Agenten mit der Option, den Status der einzelnen Agenten zu ändern.";
@@ -3589,6 +3727,7 @@ $text['description-call_center_agent_status']['ja-jp'] = "1 人以上のエー�
 $text['description-call_center_agent_status']['ko-kr'] = "하나 이상의 상담원 상태를 변경하는 옵션과 함께 모든 콜 센터 상담원을 나열합니다.";
 
 $text['description-busy_delay_time']['en-us'] = "If a busy response is received then wait for the delay time in seconds before calling the agent again.";
+$text['description-busy_delay_time']['vi-vn'] = 'Nếu nhận phản hồi bận, chờ số giây trễ trước khi gọi lại agent.';
 $text['description-busy_delay_time']['en-gb'] = "If a busy response is received then wait for the delay time in seconds before calling the agent again.";
 $text['description-busy_delay_time']['ar-eg'] = "أدخل العميل مشغول بالوقت المتأخر";
 $text['description-busy_delay_time']['de-at'] = "Geben Sie eine Wartezeit für den Agenten an.";
@@ -3615,6 +3754,7 @@ $text['description-busy_delay_time']['ja-jp'] = "エージェント ビジー遅
 $text['description-busy_delay_time']['ko-kr'] = "상담원 통화 지연 시간을 입력합니다.";
 
 $text['description-agent_password']['en-us'] = "Enter the agent password.";
+$text['description-agent_password']['vi-vn'] = 'Nhập mật khẩu agent.';
 $text['description-agent_password']['en-gb'] = "Enter the agent password.";
 $text['description-agent_password']['ar-eg'] = "أدخل كلمة مرور الوكيل.";
 $text['description-agent_password']['de-at'] = "Geben Sie ein Agenten Passwort ein";
@@ -3641,6 +3781,7 @@ $text['description-agent_password']['ja-jp'] = "エージェントのパスワ�
 $text['description-agent_password']['ko-kr'] = "에이전트 비밀번호를 입력합니다.";
 
 $text['description-agent_name']['en-us'] = "Select the agent name.";
+$text['description-agent_name']['vi-vn'] = 'Chọn tên agent.';
 $text['description-agent_name']['en-gb'] = "Select the agent name.";
 $text['description-agent_name']['ar-eg'] = "حدد اسم الوكيل.";
 $text['description-agent_name']['de-at'] = "Wählen Sie einen Agentennamen.";
@@ -3667,6 +3808,7 @@ $text['description-agent_name']['ja-jp'] = "エージェント名を選択しま
 $text['description-agent_name']['ko-kr'] = "에이전트 이름을 선택합니다.";
 
 $text['description-agent_logout']['en-us'] = "Enter the auto agent logout time in 00:00 format. Requires a service to enforce the logout time.";
+$text['description-agent_logout']['vi-vn'] = 'Nhập thời gian tự động đăng xuất agent theo định dạng 00:00. Cần có dịch vụ để thực thi thời gian đăng xuất.';
 $text['description-agent_logout']['en-gb'] = "Enter the auto agent logout time in 00:00 format. Requires a service to enforce the logout time.";
 $text['description-agent_logout']['ar-eg'] = "أدخل وقت تسجيل خروج الوكيل التلقائي بتنسيق 00:00. يتطلب خدمة لفرض وقت الخروج.";
 $text['description-agent_logout']['de-at'] = "Geben Sie die Zeit im Format 00:00 an, nach der Agenten automatisch abgemeldet werden. (Benötigt einen Cron Job)";
@@ -3693,6 +3835,7 @@ $text['description-agent_logout']['ja-jp'] = "自動エージェント ログア
 $text['description-agent_logout']['ko-kr'] = "자동 에이전트 로그아웃 시간을 00:00 형식으로 입력합니다. 로그아웃 시간을 적용하려면 서비스가 필요합니다.";
 
 $text['description-agent_id']['en-us'] = "Enter the agent ID.";
+$text['description-agent_id']['vi-vn'] = 'Nhập Agent ID.';
 $text['description-agent_id']['en-gb'] = "Enter the agent ID.";
 $text['description-agent_id']['ar-eg'] = "أدخل معرف الوكيل.";
 $text['description-agent_id']['de-at'] = "Wählen Sie eine Agenten ID.";
@@ -3719,6 +3862,7 @@ $text['description-agent_id']['ja-jp'] = "エージェント ID を入力しま�
 $text['description-agent_id']['ko-kr'] = "상담원 아이디를 입력하세요.";
 
 $text['description-agent']['en-us'] = "Select the agent name.";
+$text['description-agent']['vi-vn'] = 'Chọn tên agent.';
 $text['description-agent']['en-gb'] = "Select the agent name.";
 $text['description-agent']['ar-eg'] = "حدد اسم الوكيل.";
 $text['description-agent']['de-at'] = "Wählen Sie einen Agentennamen.";
@@ -3745,6 +3889,7 @@ $text['description-agent']['ja-jp'] = "エージェント名を選択します�
 $text['description-agent']['ko-kr'] = "에이전트 이름을 선택합니다.";
 
 $text['description-abandoned_resume_allowed']['en-us'] = "A caller who has left the queue can resume their position in the queue by calling again before the abandoned call has been discarded.";
+$text['description-abandoned_resume_allowed']['vi-vn'] = 'Người gọi đã rời hàng đợi có thể tiếp tục vị trí trong hàng đợi bằng cách gọi lại trước khi cuộc gọi bỏ hàng đợi bị xóa.';
 $text['description-abandoned_resume_allowed']['en-gb'] = "A caller who has left the queue can resume their position in the queue by calling again before the abandoned call has been discarded.";
 $text['description-abandoned_resume_allowed']['ar-eg'] = "اضبط السيرة الذاتية المهجورة المسموح بها على صواب أو خطأ.";
 $text['description-abandoned_resume_allowed']['de-at'] = "Schalten Sie die Wideraufnahme von Anrufern in der Warteschlange Ein oder Aus.";
@@ -3771,6 +3916,7 @@ $text['description-abandoned_resume_allowed']['ja-jp'] = "true または false �
 $text['description-abandoned_resume_allowed']['ko-kr'] = "허용된 포기된 이력서를 true 또는 false로 설정합니다.";
 
 $text['confirm-copy']['en-us'] = "Do you really want to copy this?";
+$text['confirm-copy']['vi-vn'] = 'Bạn có thật sự muốn sao chép mục này không?';
 $text['confirm-copy']['en-gb'] = "Do you really want to copy this?";
 $text['confirm-copy']['ar-eg'] = "هل تريد حقًا نسخ هذا؟";
 $text['confirm-copy']['de-at'] = "Wollen Sie das wirklich kopieren?";
@@ -3797,6 +3943,7 @@ $text['confirm-copy']['ja-jp'] = "本当にこれをコピーしますか?";
 $text['confirm-copy']['ko-kr'] = "정말 복사하시겠습니까?";
 
 $text['button-update_status']['en-us'] = "Update Status";
+$text['button-update_status']['vi-vn'] = 'Cập nhật trạng thái';
 $text['button-update_status']['en-gb'] = "Update Status";
 $text['button-update_status']['ar-eg'] = "تحديث الحالة";
 $text['button-update_status']['de-at'] = "Status Aktualisieren";
@@ -3823,6 +3970,7 @@ $text['button-update_status']['ja-jp'] = "最新状況";
 $text['button-update_status']['ko-kr'] = "업데이트 상태";
 
 $text['button-tiers']['en-us'] = "Tiers";
+$text['button-tiers']['vi-vn'] = 'Tier';
 $text['button-tiers']['en-gb'] = "Tiers";
 $text['button-tiers']['ar-eg'] = "المستويات";
 $text['button-tiers']['de-at'] = "Ebenen";
@@ -3849,6 +3997,7 @@ $text['button-tiers']['ja-jp'] = "階層";
 $text['button-tiers']['ko-kr'] = "계층";
 
 $text['button-agents']['en-us'] = "Agents";
+$text['button-agents']['vi-vn'] = 'Agent';
 $text['button-agents']['en-gb'] = "Agents";
 $text['button-agents']['ar-eg'] = "عملاء";
 $text['button-agents']['de-at'] = "Agenten";
@@ -3875,6 +4024,7 @@ $text['button-agents']['ja-jp'] = "エージェント";
 $text['button-agents']['ko-kr'] = "자치령 대표";
 
 $text['button-wallboard']['en-us'] = "Wallboard";
+$text['button-wallboard']['vi-vn'] = 'Wallboard';
 $text['button-wallboard']['en-gb'] = "Wallboard";
 $text['button-wallboard']['ar-eg'] = "ورق الحائط";
 $text['button-wallboard']['de-at'] = "Wandtafel";
@@ -3901,6 +4051,7 @@ $text['button-wallboard']['ja-jp'] = "ウォールボード";
 $text['button-wallboard']['ko-kr'] = "벽판";
 
 $text['label-call_center_agents']['en-us'] = "Call Center Queues";
+$text['label-call_center_agents']['vi-vn'] = 'Hàng đợi Call Center';
 $text['label-call_center_agents']['en-gb'] = "Call Center Queues";
 $text['label-call_center_agents']['ar-eg'] = "قوائم انتظار مركز الاتصال";
 $text['label-call_center_agents']['de-at'] = "Callcenter Warteschlangen";

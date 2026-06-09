@@ -1,6 +1,7 @@
 <?php
 
 $text['title-call_center_queue_activity']['en-us'] = "Call Center Queue Activity";
+$text['title-call_center_queue_activity']['vi-vn'] = 'Hoạt động hàng đợi Call Center';
 $text['title-call_center_queue_activity']['en-gb'] = "Call Center Queue Activity";
 $text['title-call_center_queue_activity']['ar-eg'] = "نشاط قائمة انتظار مركز الاتصال";
 $text['title-call_center_queue_activity']['de-at'] = "Callcenter Warteschlangen Aktivität";
@@ -28,6 +29,7 @@ $text['title-call_center_queue_activity']['ja-jp'] = "コール センター キ
 $text['title-call_center_queue_activity']['ko-kr'] = "콜센터 대기열 활동";
 
 $text['title-active_call_center']['en-us'] = "Active Call Center";
+$text['title-active_call_center']['vi-vn'] = 'Call Center đang hoạt động';
 $text['title-active_call_center']['en-gb'] = "Active Call Center";
 $text['title-active_call_center']['ar-eg'] = "مركز الاتصال النشط";
 $text['title-active_call_center']['de-at'] = "Aktive Callcenter";
@@ -55,6 +57,7 @@ $text['title-active_call_center']['ja-jp'] = "アクティブ コール セン�
 $text['title-active_call_center']['ko-kr'] = "활성 콜 센터";
 
 $text['message-confirm']['en-us'] = "Do you really want to do this?";
+$text['message-confirm']['vi-vn'] = 'Bạn có thật sự muốn thực hiện thao tác này không?';
 $text['message-confirm']['en-gb'] = "Do you really want to do this?";
 $text['message-confirm']['ar-eg'] = "هل تريد حقا أن تفعل هذا؟";
 $text['message-confirm']['de-at'] = "Wollen Sie das wirklich tun?";
@@ -82,6 +85,7 @@ $text['message-confirm']['ja-jp'] = "本当にやりたいですか？";
 $text['message-confirm']['ko-kr'] = "정말로 이것을 하시겠습니까?";
 
 $text['label-waiting']['en-us'] = "Waiting";
+$text['label-waiting']['vi-vn'] = 'Đang chờ';
 $text['label-waiting']['en-gb'] = "Waiting";
 $text['label-waiting']['ar-eg'] = "انتظار";
 $text['label-waiting']['de-at'] = "Warten";
@@ -109,6 +113,7 @@ $text['label-waiting']['ja-jp'] = "待っている";
 $text['label-waiting']['ko-kr'] = "대기 중";
 
 $text['label-trying']['en-us'] = "Trying";
+$text['label-trying']['vi-vn'] = 'Đang thử';
 $text['label-trying']['en-gb'] = "Trying";
 $text['label-trying']['ar-eg'] = "محاولة";
 $text['label-trying']['de-at'] = "Versuchen";
@@ -136,6 +141,7 @@ $text['label-trying']['ja-jp'] = "しようとしている";
 $text['label-trying']['ko-kr'] = "견딜 수 없는";
 
 $text['label-transfer']['en-us'] = "Transfer";
+$text['label-transfer']['vi-vn'] = 'Chuyển tiếp';
 $text['label-transfer']['en-gb'] = "Transfer";
 $text['label-transfer']['ar-eg'] = "تحويل";
 $text['label-transfer']['de-at'] = "Weiterleiten";
@@ -163,6 +169,7 @@ $text['label-transfer']['ja-jp'] = "移行";
 $text['label-transfer']['ko-kr'] = "옮기다";
 
 $text['label-time_base_score']['en-us'] = "Time Base Score";
+$text['label-time_base_score']['vi-vn'] = 'Điểm theo thời gian';
 $text['label-time_base_score']['en-gb'] = "Time Base Score";
 $text['label-time_base_score']['ar-eg'] = "نقاط قاعدة الوقت";
 $text['label-time_base_score']['de-at'] = "Zeitgeber für Klassifikation";
@@ -190,6 +197,7 @@ $text['label-time_base_score']['ja-jp'] = "タイムベーススコア";
 $text['label-time_base_score']['ko-kr'] = "시간축 점수";
 
 $text['label-time']['en-us'] = "Time";
+$text['label-time']['vi-vn'] = 'Thời gian';
 $text['label-time']['en-gb'] = "Time";
 $text['label-time']['ar-eg'] = "التوقيت";
 $text['label-time']['de-at'] = "Zeit";
@@ -217,6 +225,7 @@ $text['label-time']['ja-jp'] = "時間";
 $text['label-time']['ko-kr'] = "시간";
 
 $text['label-tier_state']['en-us'] = "Tier State";
+$text['label-tier_state']['vi-vn'] = 'Trạng thái Tier';
 $text['label-tier_state']['en-gb'] = "Tier State";
 $text['label-tier_state']['ar-eg'] = "دولة الطبقة";
 $text['label-tier_state']['de-at'] = "Ebenen-Status";
@@ -244,6 +253,7 @@ $text['label-tier_state']['ja-jp'] = "層の状態";
 $text['label-tier_state']['ko-kr'] = "계층 상태";
 
 $text['label-tier_rules_apply']['en-us'] = "Tier Rules Apply";
+$text['label-tier_rules_apply']['vi-vn'] = 'Áp dụng quy tắc Tier';
 $text['label-tier_rules_apply']['en-gb'] = "Tier Rules Apply";
 $text['label-tier_rules_apply']['ar-eg'] = "تطبق قواعد الفئة";
 $text['label-tier_rules_apply']['de-at'] = "Ebenen-Regeln werden angewendet";
@@ -271,6 +281,7 @@ $text['label-tier_rules_apply']['ja-jp'] = "ティアルール適用";
 $text['label-tier_rules_apply']['ko-kr'] = "계층 규칙 적용";
 
 $text['label-tier_rule_wait_second']['en-us'] = "Tier Rule Wait Second";
+$text['label-tier_rule_wait_second']['vi-vn'] = 'Giây chờ của quy tắc Tier';
 $text['label-tier_rule_wait_second']['en-gb'] = "Tier Rule Wait Second";
 $text['label-tier_rule_wait_second']['ar-eg'] = "قاعدة الطبقة انتظر ثانيًا";
 $text['label-tier_rule_wait_second']['de-at'] = "Wartezeit für Ebenen-Regel in Sekunden";
@@ -298,6 +309,7 @@ $text['label-tier_rule_wait_second']['ja-jp'] = "層ルール待機秒";
 $text['label-tier_rule_wait_second']['ko-kr'] = "계층 규칙 대기 초";
 
 $text['label-tier_rule_wait_multiply_level']['en-us'] = "Tier Rule Wait Multiply Level";
+$text['label-tier_rule_wait_multiply_level']['vi-vn'] = 'Nhân thời gian chờ theo cấp Tier';
 $text['label-tier_rule_wait_multiply_level']['en-gb'] = "Tier Rule Wait Multiply Level";
 $text['label-tier_rule_wait_multiply_level']['ar-eg'] = "الطبقة القاعدة انتظر ضرب المستوى";
 $text['label-tier_rule_wait_multiply_level']['de-at'] = "Regel für Wartezeit-Multiplikator pro Ebene";
@@ -325,6 +337,7 @@ $text['label-tier_rule_wait_multiply_level']['ja-jp'] = "層ルール待機乗�
 $text['label-tier_rule_wait_multiply_level']['ko-kr'] = "계층 규칙 대기 배수 수준";
 
 $text['label-tier_rule_no_agent_no_wait']['en-us'] = "Tier Rule No Agent No Wait";
+$text['label-tier_rule_no_agent_no_wait']['vi-vn'] = 'Quy tắc Tier không agent thì không chờ';
 $text['label-tier_rule_no_agent_no_wait']['en-gb'] = "Tier Rule No Agent No Wait";
 $text['label-tier_rule_no_agent_no_wait']['ar-eg'] = "قاعدة الطبقة لا وكيل لا انتظر";
 $text['label-tier_rule_no_agent_no_wait']['de-at'] = "Ebenen-Regel kein Agent nicht warten";
@@ -352,6 +365,7 @@ $text['label-tier_rule_no_agent_no_wait']['ja-jp'] = "Tier ルール No Agent No
 $text['label-tier_rule_no_agent_no_wait']['ko-kr'] = "계층 규칙 에이전트 없음 대기 없음";
 
 $text['label-tier_position']['en-us'] = "Tier Position";
+$text['label-tier_position']['vi-vn'] = 'Vị trí Tier';
 $text['label-tier_position']['en-gb'] = "Tier Position";
 $text['label-tier_position']['ar-eg'] = "موقف الطبقة";
 $text['label-tier_position']['de-at'] = "Ebenen-Position";
@@ -379,6 +393,7 @@ $text['label-tier_position']['ja-jp'] = "ティアの位置";
 $text['label-tier_position']['ko-kr'] = "계층 위치";
 
 $text['label-tier_level']['en-us'] = "Tier Level";
+$text['label-tier_level']['vi-vn'] = 'Cấp Tier';
 $text['label-tier_level']['en-gb'] = "Tier Level";
 $text['label-tier_level']['ar-eg'] = "مستوى الطبقة";
 $text['label-tier_level']['de-at'] = "Ebenen-Niveau";
@@ -406,6 +421,7 @@ $text['label-tier_level']['ja-jp'] = "ティアレベル";
 $text['label-tier_level']['ko-kr'] = "계층 수준";
 
 $text['label-system']['en-us'] = "System";
+$text['label-system']['vi-vn'] = 'Hệ thống';
 $text['label-system']['en-gb'] = "System";
 $text['label-system']['ar-eg'] = "النظام";
 $text['label-system']['de-at'] = "System";
@@ -433,6 +449,7 @@ $text['label-system']['ja-jp'] = "システム";
 $text['label-system']['ko-kr'] = "체계";
 
 $text['label-strategy']['en-us'] = "Strategy";
+$text['label-strategy']['vi-vn'] = 'Chiến lược';
 $text['label-strategy']['en-gb'] = "Strategy";
 $text['label-strategy']['ar-eg'] = "إستراتيجية";
 $text['label-strategy']['de-at'] = "Strategie";
@@ -460,6 +477,7 @@ $text['label-strategy']['ja-jp'] = "ストラテジー";
 $text['label-strategy']['ko-kr'] = "전략";
 
 $text['label-last_bridge_end']['en-us'] = "Last Call";
+$text['label-last_bridge_end']['vi-vn'] = 'Cuộc gọi cuối';
 $text['label-last_bridge_end']['en-gb'] = "Last Call";
 $text['label-last_bridge_end']['ar-eg'] = "آخر مكالمة";
 $text['label-last_bridge_end']['de-at'] = "Letzter Aufruf";
@@ -487,6 +505,7 @@ $text['label-last_bridge_end']['ja-jp'] = "ラスト・オーダー";
 $text['label-last_bridge_end']['ko-kr'] = "마지막 호출";
 
 $text['label-status_change']['en-us'] = "Status Change";
+$text['label-status_change']['vi-vn'] = 'Đổi trạng thái';
 $text['label-status_change']['en-gb'] = "Status Change";
 $text['label-status_change']['ar-eg'] = "تغيير الوضع";
 $text['label-status_change']['de-at'] = "Status Änderung";
@@ -514,6 +533,7 @@ $text['label-status_change']['ja-jp'] = "ステータス変更";
 $text['label-status_change']['ko-kr'] = "상태 변경";
 
 $text['label-status']['en-us'] = "Status";
+$text['label-status']['vi-vn'] = 'Trạng thái';
 $text['label-status']['en-gb'] = "Status";
 $text['label-status']['ar-eg'] = "الحالة";
 $text['label-status']['de-at'] = "Status";
@@ -541,6 +561,10 @@ $text['label-status']['ja-jp'] = "スターテス";
 $text['label-status']['ko-kr'] = "상태";
 
 $text['description-status']['en-us'] = "Logged Out - Cannot receive queue calls.\nAvailable - Ready to receive queue calls.\nAvailable (On Demand) - State will be set to 'Idle' once the call ends (not automatically set to 'Waiting').\nOn Break - 	Still Logged in, but will not receive queue calls.";
+$text['description-status']['vi-vn'] = 'Logged Out - Không thể nhận cuộc gọi hàng đợi.
+Available - Sẵn sàng nhận cuộc gọi hàng đợi.
+Available (On Demand) - Trạng thái sẽ được đặt thành \'Idle\' khi cuộc gọi kết thúc (không tự động đặt thành \'Waiting\').
+On Break - Vẫn đăng nhập nhưng sẽ không nhận cuộc gọi hàng đợi.';
 $text['description-status']['en-gb'] = "Logged Out - Cannot receive queue calls.\nAvailable - Ready to receive queue calls.\nAvailable (On Demand) - State will be set to 'Idle' once the call ends (not automatically set to 'Waiting').\nOn Break - 	Still Logged in, but will not receive queue calls.";
 $text['description-status']['ar-eg'] = 'تم تسجيل الخروج - لا يمكن تلقي مكالمات قائمة الانتظار. \ n متوفر - جاهز لاستقبال مكالمات قائمة الانتظار. \ n متاح (عند الطلب) - سيتم تعيين الحالة على "خامل" بمجرد انتهاء المكالمة (لن يتم تعيينها تلقائيًا على "قيد الانتظار"). \ n عند الاستراحة - ما زلت مسجلاً الدخول ، لكن لن تتلقى مكالمات قائمة';
 $text['description-status']['de-ch'] = "Abgemeldet – Warteschlangenanrufe können nicht empfangen werden.\nVerfügbar – Bereit zum Empfangen von Warteschlangenanrufen.\nVerfügbar (auf Abruf) – Der Status wird auf „Leer“ gesetzt, sobald der Anruf beendet ist (nicht automatisch auf „Wartend“).\nBei Pause – Sie sind immer noch angemeldet, erhalten aber keine Anrufe aus der Warteschlange.";
@@ -568,6 +592,7 @@ $text['description-status']['ja-jp'] = "ログアウト - キュー コールを
 $text['description-status']['ko-kr'] = "로그아웃됨 - 대기열 호출을 받을 수 없습니다.\n사용 가능 - 대기열 호출을 받을 준비가 되었습니다.\n사용 가능(요청 시) - 통화가 종료되면 상태가 '유휴'로 설정됩니다('대기 중'으로 자동 설정되지 않음).\n휴식 중 - 여전히 로그인되어 있지만 대기열 통화를 받지 않습니다.";
 
 $text['label-state']['en-us'] = "State";
+$text['label-state']['vi-vn'] = 'Trạng thái';
 $text['label-state']['en-gb'] = "State";
 $text['label-state']['ar-eg'] = "ولاية";
 $text['label-state']['de-at'] = "Zustand";
@@ -595,6 +620,10 @@ $text['label-state']['ja-jp'] = "州";
 $text['label-state']['ko-kr'] = "상태";
 
 $text['description-state']['en-us'] = "Idle - Does nothing, no calls are given.\nWaiting - Ready to receive calls.\nReceiving - A queue call is currently being offered to the agent.\nIn a queue call - Currently on a queue call.";
+$text['description-state']['vi-vn'] = 'Idle - Không làm gì, không nhận cuộc gọi.
+Waiting - Sẵn sàng nhận cuộc gọi.
+Receiving - Một cuộc gọi hàng đợi đang được đưa đến agent.
+In a queue call - Đang trong cuộc gọi hàng đợi.';
 $text['description-state']['en-gb'] = "Idle - Does nothing, no calls are given.\nWaiting - Ready to receive calls.\nReceiving - A queue call is currently being offered to the agent.\nIn a queue call - Currently on a queue call.";
 $text['description-state']['ar-eg'] = "خامل - لا يفعل شيئًا ، لا توجد مكالمات. \ n قيد الانتظار - جاهز لتلقي المكالمات. \ n جاري تلقي - يتم حاليًا تقديم مكالمة قائمة انتظار إلى الوكيل. \ n في مكالمة قائمة انتظار - حاليًا في قائمة انتظار.";
 $text['description-state']['de-at'] = "Inaktiv – Tut nichts, es werden keine Anrufe getätigt.\nWartend – Bereit zum Empfangen von Anrufen.\nEmpfangen – Dem Agenten wird derzeit ein Warteschlangenanruf angeboten.\nIn einem Warteschlangenanruf – Derzeit in einem Warteschlangenanruf.";
@@ -622,6 +651,7 @@ $text['description-state']['ja-jp'] = "アイドル - 何もせず、通話は�
 $text['description-state']['ko-kr'] = "유휴 - 아무것도 하지 않고 통화가 제공되지 않습니다.\n대기 중 - 전화를 받을 준비가 되었습니다.\n수신 중 - 현재 상담원에게 대기열 통화가 제공되고 있습니다.\n대기열 통화 중 - 현재 대기열 통화 중입니다.";
 
 $text['label-record_template']['en-us'] = "Record Template";
+$text['label-record_template']['vi-vn'] = 'Mẫu ghi âm';
 $text['label-record_template']['en-gb'] = "Record Template";
 $text['label-record_template']['ar-eg'] = "قالب التسجيل";
 $text['label-record_template']['de-at'] = "Aufnahme Vorlage";
@@ -649,6 +679,7 @@ $text['label-record_template']['ja-jp'] = "記録テンプレート";
 $text['label-record_template']['ko-kr'] = "레코드 템플릿";
 
 $text['label-queue_name']['en-us'] = "Queue Name";
+$text['label-queue_name']['vi-vn'] = 'Tên hàng đợi';
 $text['label-queue_name']['en-gb'] = "Queue Name";
 $text['label-queue_name']['ar-eg'] = "اسم الطابور";
 $text['label-queue_name']['de-at'] = "Warteschlange Name";
@@ -676,6 +707,7 @@ $text['label-queue_name']['ja-jp'] = "キュー名";
 $text['label-queue_name']['ko-kr'] = "대기열 이름";
 
 $text['label-queue']['en-us'] = "Queue";
+$text['label-queue']['vi-vn'] = 'Hàng đợi';
 $text['label-queue']['en-gb'] = "Queue";
 $text['label-queue']['ar-eg'] = "طابور";
 $text['label-queue']['de-at'] = "Warteschlange";
@@ -703,6 +735,7 @@ $text['label-queue']['ja-jp'] = "列";
 $text['label-queue']['ko-kr'] = "대기줄";
 
 $text['label-options']['en-us'] = "Options";
+$text['label-options']['vi-vn'] = 'Tùy chọn';
 $text['label-options']['en-gb'] = "Options";
 $text['label-options']['ar-eg'] = "خيارات";
 $text['label-options']['de-at'] = "Optionen";
@@ -730,6 +763,7 @@ $text['label-options']['ja-jp'] = "オプション";
 $text['label-options']['ko-kr'] = "옵션";
 
 $text['label-number']['en-us'] = "Number";
+$text['label-number']['vi-vn'] = 'Số';
 $text['label-number']['en-gb'] = "Number";
 $text['label-number']['ar-eg'] = "رقم";
 $text['label-number']['de-at'] = "Nummer";
@@ -757,6 +791,7 @@ $text['label-number']['ja-jp'] = "番号";
 $text['label-number']['ko-kr'] = "숫자";
 
 $text['label-music_on_hold']['en-us'] = "Music on Hold";
+$text['label-music_on_hold']['vi-vn'] = 'Nhạc chờ';
 $text['label-music_on_hold']['en-gb'] = "Music on Hold";
 $text['label-music_on_hold']['ar-eg'] = "الموسيقى في الانتظار";
 $text['label-music_on_hold']['de-at'] = "Wartemusik";
@@ -784,6 +819,7 @@ $text['label-music_on_hold']['ja-jp'] = "保留音";
 $text['label-music_on_hold']['ko-kr'] = "음악 보류";
 
 $text['label-missed']['en-us'] = "Missed";
+$text['label-missed']['vi-vn'] = 'Nhỡ';
 $text['label-missed']['en-gb'] = "Missed";
 $text['label-missed']['ar-eg'] = "مٌفتَقد";
 $text['label-missed']['de-at'] = "Verpasst";
@@ -811,6 +847,7 @@ $text['label-missed']['ja-jp'] = "逃した";
 $text['label-missed']['ko-kr'] = "놓친";
 
 $text['label-max_wait_time_with_no_agent']['en-us'] = "Max Wait Time with No Agent";
+$text['label-max_wait_time_with_no_agent']['vi-vn'] = 'Thời gian chờ tối đa khi không có agent';
 $text['label-max_wait_time_with_no_agent']['en-gb'] = "Max Wait Time with No Agent";
 $text['label-max_wait_time_with_no_agent']['ar-eg'] = "أقصى وقت انتظار بدون وكيل";
 $text['label-max_wait_time_with_no_agent']['de-at'] = "Maximale Wartezeit ohne Agent";
@@ -838,6 +875,7 @@ $text['label-max_wait_time_with_no_agent']['ja-jp'] = "エージェントなし�
 $text['label-max_wait_time_with_no_agent']['ko-kr'] = "에이전트 없는 최대 대기 시간";
 
 $text['label-max_wait_time']['en-us'] = "Max Wait Time";
+$text['label-max_wait_time']['vi-vn'] = 'Thời gian chờ tối đa';
 $text['label-max_wait_time']['en-gb'] = "Max Wait Time";
 $text['label-max_wait_time']['ar-eg'] = "وقت الانتظار الأقصى";
 $text['label-max_wait_time']['de-at'] = "Maximale Wartezeit";
@@ -865,6 +903,7 @@ $text['label-max_wait_time']['ja-jp'] = "最大待ち時間";
 $text['label-max_wait_time']['ko-kr'] = "최대 대기 시간";
 
 $text['label-extension']['en-us'] = "Extension";
+$text['label-extension']['vi-vn'] = 'Máy nhánh';
 $text['label-extension']['en-gb'] = "Extension";
 $text['label-extension']['ar-eg'] = "رقم داخلي";
 $text['label-extension']['de-at'] = "Nebenstelle";
@@ -892,6 +931,7 @@ $text['label-extension']['ja-jp'] = "拡大";
 $text['label-extension']['ko-kr'] = "확대";
 
 $text['label-eavesdrop']['en-us'] = "Eavesdrop";
+$text['label-eavesdrop']['vi-vn'] = 'Nghe xen';
 $text['label-eavesdrop']['en-gb'] = "Eavesdrop";
 $text['label-eavesdrop']['ar-eg'] = "التنصت";
 $text['label-eavesdrop']['de-at'] = "Mithören";
@@ -919,6 +959,7 @@ $text['label-eavesdrop']['ja-jp'] = "盗聴";
 $text['label-eavesdrop']['ko-kr'] = "엿듣다";
 
 $text['label-discard_abandoned_after']['en-us'] = "Discard Abandoned After";
+$text['label-discard_abandoned_after']['vi-vn'] = 'Xóa cuộc gọi bỏ hàng đợi sau';
 $text['label-discard_abandoned_after']['en-gb'] = "Discard Abandoned After";
 $text['label-discard_abandoned_after']['ar-eg'] = "تجاهل المهجورة بعد";
 $text['label-discard_abandoned_after']['de-at'] = "Zurückweisen nach Abwurf";
@@ -946,6 +987,7 @@ $text['label-discard_abandoned_after']['ja-jp'] = "次の後に放棄された�
 $text['label-discard_abandoned_after']['ko-kr'] = "폐기 후 폐기";
 
 $text['label-call']['en-us'] = "Call";
+$text['label-call']['vi-vn'] = 'Gọi';
 $text['label-call']['en-gb'] = "Call";
 $text['label-call']['ar-eg'] = "يتصل";
 $text['label-call']['de-at'] = "Anruf";
@@ -973,6 +1015,7 @@ $text['label-call']['ja-jp'] = "電話";
 $text['label-call']['ko-kr'] = "부르다";
 
 $text['label-answered']['en-us'] = "Answered";
+$text['label-answered']['vi-vn'] = 'Đã trả lời';
 $text['label-answered']['en-gb'] = "Answered";
 $text['label-answered']['ar-eg'] = "أجاب";
 $text['label-answered']['de-at'] = "Angenommen";
@@ -1000,6 +1043,7 @@ $text['label-answered']['ja-jp'] = "回答済み";
 $text['label-answered']['ko-kr'] = "대답했다";
 
 $text['label-agent']['en-us'] = "Agent";
+$text['label-agent']['vi-vn'] = 'Agent';
 $text['label-agent']['en-gb'] = "Agent";
 $text['label-agent']['ar-eg'] = "عامل";
 $text['label-agent']['de-at'] = "Agent";
@@ -1027,6 +1071,7 @@ $text['label-agent']['ja-jp'] = "エージェント";
 $text['label-agent']['ko-kr'] = "대리인";
 
 $text['label-abandoned_resume_allowed']['en-us'] = "Abandoned Resume Allowed";
+$text['label-abandoned_resume_allowed']['vi-vn'] = 'Cho phép tiếp tục cuộc gọi đã bỏ hàng đợi';
 $text['label-abandoned_resume_allowed']['en-gb'] = "Abandoned Resume Allowed";
 $text['label-abandoned_resume_allowed']['ar-eg'] = "استئناف مهجور مسموح به";
 $text['label-abandoned_resume_allowed']['de-at'] = "Wiederaufnahme nach Zurückweisung erlaubt";
@@ -1054,6 +1099,7 @@ $text['label-abandoned_resume_allowed']['ja-jp'] = "放棄された履歴書を�
 $text['label-abandoned_resume_allowed']['ko-kr'] = "포기한 이력서 허용";
 
 $text['header-agents']['en-us'] = "Agents";
+$text['header-agents']['vi-vn'] = 'Agent';
 $text['header-agents']['en-gb'] = "Agents";
 $text['header-agents']['ar-eg'] = "عملاء";
 $text['header-agents']['de-at'] = "Agenten";
@@ -1081,6 +1127,7 @@ $text['header-agents']['ja-jp'] = "エージェント";
 $text['header-agents']['ko-kr'] = "자치령 대표";
 
 $text['header-active_call_center']['en-us'] = "Active Call Center";
+$text['header-active_call_center']['vi-vn'] = 'Call Center đang hoạt động';
 $text['header-active_call_center']['en-gb'] = "Active Call Center";
 $text['header-active_call_center']['ar-eg'] = "مركز الاتصال النشط";
 $text['header-active_call_center']['de-at'] = "Aktives Callcenter";
@@ -1108,6 +1155,7 @@ $text['header-active_call_center']['ja-jp'] = "アクティブ コール セン�
 $text['header-active_call_center']['ko-kr'] = "활성 콜 센터";
 
 $text['description-queue']['en-us'] = "A current list of callers in the queue is below.";
+$text['description-queue']['vi-vn'] = 'Danh sách người gọi hiện đang trong hàng đợi ở bên dưới.';
 $text['description-queue']['en-gb'] = "A current list of callers in the queue is below.";
 $text['description-queue']['ar-eg'] = "القائمة الحالية للمتصلين في قائمة الانتظار أدناه.";
 $text['description-queue']['de-at'] = "Eine aktuelle Liste der Anrufer in der Warteschlange sehen sie unten.";
@@ -1135,6 +1183,7 @@ $text['description-queue']['ja-jp'] = "キュー内の発信者の現在のリ�
 $text['description-queue']['ko-kr'] = "대기열에 있는 현재 발신자 목록은 다음과 같습니다.";
 
 $text['description-agents']['en-us'] = "A current list of agents is below.";
+$text['description-agents']['vi-vn'] = 'Danh sách agent hiện tại ở bên dưới.';
 $text['description-agents']['en-gb'] = "A current list of agents is below.";
 $text['description-agents']['ar-eg'] = "القائمة الحالية للوكلاء أدناه.";
 $text['description-agents']['de-at'] = "Eine aktuelle Liste der Agenten sehen sie unten.";
@@ -1162,6 +1211,7 @@ $text['description-agents']['ja-jp'] = "現在のエージェントのリスト�
 $text['description-agents']['ko-kr'] = "현재 에이전트 목록은 다음과 같습니다.";
 
 $text['description-active_call_center']['en-us'] = "Select a Call Center Queue from the list below to view its activity.";
+$text['description-active_call_center']['vi-vn'] = 'Chọn một hàng đợi Call Center từ danh sách bên dưới để xem hoạt động.';
 $text['description-active_call_center']['en-gb'] = "Select a Call Center Queue from the list below to view its activity.";
 $text['description-active_call_center']['ar-eg'] = "حدد قائمة انتظار مركز الاتصال من القائمة أدناه لعرض نشاطها.";
 $text['description-active_call_center']['de-at'] = "Wählen Sie eine Callcenter-Warteschlange aus der Liste unten um die Aktivität zu beobachten.";
@@ -1189,6 +1239,7 @@ $text['description-active_call_center']['ja-jp'] = "以下のリストからコ�
 $text['description-active_call_center']['ko-kr'] = "활동을 보려면 아래 목록에서 콜 센터 대기열을 선택하십시오.";
 
 $text['label-available']['en-us'] = "Available";
+$text['label-available']['vi-vn'] = 'Sẵn sàng';
 $text['label-available']['en-gb'] = "Available";
 $text['label-available']['ar-eg'] = "متوفر";
 $text['label-available']['de-at'] = "Verfügbar";
@@ -1216,6 +1267,7 @@ $text['label-available']['ja-jp'] = "利用可能";
 $text['label-available']['ko-kr'] = "사용 가능";
 
 $text['label-available_on_demand']['en-us'] = "Available (On Demand)";
+$text['label-available_on_demand']['vi-vn'] = 'Sẵn sàng (theo yêu cầu)';
 $text['label-available_on_demand']['en-gb'] = "Available (On Demand)";
 $text['label-available_on_demand']['ar-eg'] = "متوفر (عند الطلب)";
 $text['label-available_on_demand']['de-at'] = "Verfügbar (auf Anfrage)";
@@ -1243,6 +1295,7 @@ $text['label-available_on_demand']['ja-jp'] = "需要時に利用可能";
 $text['label-available_on_demand']['ko-kr'] = "요청 시 사용 가능";
 
 $text['label-not_available']['en-us'] = "Not Available";
+$text['label-not_available']['vi-vn'] = 'Không khả dụng';
 $text['label-not_available']['en-gb'] = "Not Available";
 $text['label-not_available']['ar-eg'] = "غير متاح";
 $text['label-not_available']['de-at'] = "Nicht verfügbar";
@@ -1270,6 +1323,7 @@ $text['label-not_available']['ja-jp'] = "利用できません";
 $text['label-not_available']['ko-kr'] = "사용 불가";
 
 $text['label-on_break']['en-us'] = "On Break";
+$text['label-on_break']['vi-vn'] = 'Đang nghỉ';
 $text['label-on_break']['en-gb'] = "On Break";
 $text['label-on_break']['ar-eg'] = "في الإسترخاء";
 $text['label-on_break']['de-at'] = "Pausa";
@@ -1297,6 +1351,7 @@ $text['label-on_break']['ja-jp'] = "休憩中";
 $text['label-on_break']['ko-kr'] = "쉬는 시간";
 
 $text['label-logged_out']['en-us'] = "Logged Out";
+$text['label-logged_out']['vi-vn'] = 'Đã đăng xuất';
 $text['label-logged_out']['en-gb'] = "Logged Out";
 $text['label-logged_out']['ar-eg'] = "تسجيل خروج";
 $text['label-logged_out']['de-at'] = "Abgemeldet";

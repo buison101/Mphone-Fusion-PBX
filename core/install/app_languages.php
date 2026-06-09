@@ -1,6 +1,7 @@
 <?php
 
 $text['title-install']['en-us'] = "Install";
+$text['title-install']['vi-vn'] = "Cài đặt";
 $text['title-install']['en-gb'] = "Install";
 $text['title-install']['ar-eg'] = "ثَبَّتَ";
 $text['title-install']['de-at'] = "Installieren";
@@ -28,6 +29,7 @@ $text['title-install']['ja-jp'] = "インストール";
 $text['title-install']['ko-kr'] = "설치하다";
 
 $text['title-detected_configuration']['en-us'] = "Detected Configuration";
+$text['title-detected_configuration']['vi-vn'] = "Cấu hình phát hiện được";
 $text['title-detected_configuration']['en-gb'] = "Detected Configuration";
 $text['title-detected_configuration']['ar-eg'] = "التكوين المكتشف";
 $text['title-detected_configuration']['de-at'] = "Erkannte Konfiguration";
@@ -55,6 +57,7 @@ $text['title-detected_configuration']['ja-jp'] = "検出された構成";
 $text['title-detected_configuration']['ko-kr'] = "감지된 구성";
 
 $text['title-assumed_configuration']['en-us'] = "Assumed Configuration";
+$text['title-assumed_configuration']['vi-vn'] = "Cấu hình giả định";
 $text['title-assumed_configuration']['en-gb'] = "Assumed Configuration";
 $text['title-assumed_configuration']['ar-eg'] = "التكوين المفترض";
 $text['title-assumed_configuration']['de-at'] = "Angenommene Konfiguration";
@@ -82,6 +85,7 @@ $text['title-assumed_configuration']['ja-jp'] = "想定される構成";
 $text['title-assumed_configuration']['ko-kr'] = "가정된 구성";
 
 $text['label-ft-install']['en-us'] = "First Time Install";
+$text['label-ft-install']['vi-vn'] = "Cài đặt lần đầu";
 $text['label-ft-install']['en-gb'] = "First Time Install";
 $text['label-ft-install']['ar-eg'] = "التثبيت لأول مرة";
 $text['label-ft-install']['de-at'] = "Erstinstallation";
@@ -109,6 +113,7 @@ $text['label-ft-install']['ja-jp'] = "初回インストール";
 $text['label-ft-install']['ko-kr'] = "처음 설치";
 
 $text['description-ft-install']['en-us'] = "Perform all actions for a First Time Install";
+$text['description-ft-install']['vi-vn'] = "Thực hiện tất cả thao tác cho cài đặt lần đầu";
 $text['description-ft-install']['en-gb'] = "Perform all actions for a First Time Install";
 $text['description-ft-install']['ar-eg'] = "نفذ جميع الإجراءات للتثبيت لأول مرة";
 $text['description-ft-install']['de-at'] = "Führen Sie alle Scritte für eine Erstinstallation durch";
@@ -136,6 +141,7 @@ $text['description-ft-install']['ja-jp'] = "初回インストールのすべて
 $text['description-ft-install']['ko-kr'] = "처음 설치에 대한 모든 작업 수행";
 
 $text['label-add-switch']['en-us'] = "Add a new switch";
+$text['label-add-switch']['vi-vn'] = "Thêm switch mới";
 $text['label-add-switch']['en-gb'] = "Add a new switch";
 $text['label-add-switch']['ar-eg'] = "إضافة مفتاح جديد";
 $text['label-add-switch']['de-at'] = "Fügen Sie einen neuen Schalter hinzu";
@@ -163,6 +169,7 @@ $text['label-add-switch']['ja-jp'] = "新しいスイッチを追加する";
 $text['label-add-switch']['ko-kr'] = "새 스위치 추가";
 
 $text['label-select_language']['en-us'] = "Language";
+$text['label-select_language']['vi-vn'] = "Ngôn ngữ";
 $text['label-select_language']['en-gb'] = "Language";
 $text['label-select_language']['ar-eg'] = "لغة";
 $text['label-select_language']['de-at'] = "Sprache";
@@ -190,6 +197,7 @@ $text['label-select_language']['ja-jp'] = "言語";
 $text['label-select_language']['ko-kr'] = "언어";
 
 $text['label-event_host']['en-us'] = "Host address";
+$text['label-event_host']['vi-vn'] = "Địa chỉ host";
 $text['label-event_host']['en-gb'] = "Host address";
 $text['label-event_host']['ar-eg'] = "عنوان المضيف";
 $text['label-event_host']['de-at'] = "Host-Adresse";
@@ -217,6 +225,7 @@ $text['label-event_host']['ja-jp'] = "ホストアドレス";
 $text['label-event_host']['ko-kr'] = "호스트 주소";
 
 $text['label-event_port']['en-us'] = "Port";
+$text['label-event_port']['vi-vn'] = "Cổng";
 $text['label-event_port']['en-gb'] = "Port";
 $text['label-event_port']['ar-eg'] = "ميناء";
 $text['label-event_port']['de-at'] = "Port";
@@ -244,6 +253,7 @@ $text['label-event_port']['ja-jp'] = "ポート";
 $text['label-event_port']['ko-kr'] = "포트";
 
 $text['label-event_password']['en-us'] = "Password";
+$text['label-event_password']['vi-vn'] = "Mật khẩu";
 $text['label-event_password']['en-gb'] = "Password";
 $text['label-event_password']['ar-eg'] = "كلمة المرور";
 $text['label-event_password']['de-at'] = "Passwort";
@@ -271,6 +281,7 @@ $text['label-event_password']['ja-jp'] = "パスワード";
 $text['label-event_password']['ko-kr'] = "비밀번호";
 
 $text['label-username']['en-us'] = "Username";
+$text['label-username']['vi-vn'] = "Tên đăng nhập";
 $text['label-username']['en-gb'] = "Username";
 $text['label-username']['ar-eg'] = "اسم المستخدم";
 $text['label-username']['de-at'] = "Benutzername";
@@ -298,6 +309,7 @@ $text['label-username']['ja-jp'] = "ユーザー名";
 $text['label-username']['ko-kr'] = "사용자 이름";
 
 $text['label-port']['en-us'] = "Port";
+$text['label-port']['vi-vn'] = "Cổng";
 $text['label-port']['en-gb'] = "Port";
 $text['label-port']['ar-eg'] = "ميناء";
 $text['label-port']['de-at'] = "Port";
@@ -325,6 +337,7 @@ $text['label-port']['ja-jp'] = "ポート";
 $text['label-port']['ko-kr'] = "포트";
 
 $text['label-path']['en-us'] = "Path";
+$text['label-path']['vi-vn'] = "Đường dẫn";
 $text['label-path']['en-gb'] = "Path";
 $text['label-path']['ar-eg'] = "طريق";
 $text['label-path']['de-at'] = "Pfad";
@@ -352,6 +365,7 @@ $text['label-path']['ja-jp'] = "道";
 $text['label-path']['ko-kr'] = "길";
 
 $text['label-host']['en-us'] = "Host";
+$text['label-host']['vi-vn'] = "Host";
 $text['label-host']['en-gb'] = "Host";
 $text['label-host']['ar-eg'] = "يستضيف";
 $text['label-host']['de-at'] = "Host";
@@ -379,6 +393,7 @@ $text['label-host']['ja-jp'] = "ホスト";
 $text['label-host']['ko-kr'] = "주인";
 
 $text['label-domain_name']['en-us'] = "Domain Name";
+$text['label-domain_name']['vi-vn'] = "Tên miền";
 $text['label-domain_name']['en-gb'] = "Domain Name";
 $text['label-domain_name']['ar-eg'] = "اسم النطاق";
 $text['label-domain_name']['de-at'] = "Domäne";
@@ -408,6 +423,7 @@ $text['label-domain_name']['ja-jp'] = "ドメイン名";
 $text['label-domain_name']['ko-kr'] = "도메인 이름";
 
 $text['label-driver']['en-us'] = "Driver";
+$text['label-driver']['vi-vn'] = "Driver";
 $text['label-driver']['en-gb'] = "Driver";
 $text['label-driver']['ar-eg'] = "سائق";
 $text['label-driver']['de-at'] = "Treiber";
@@ -435,6 +451,7 @@ $text['label-driver']['ja-jp'] = "運転者";
 $text['label-driver']['ko-kr'] = "운전사";
 
 $text['header-install']['en-us'] = "Install";
+$text['header-install']['vi-vn'] = "Cài đặt";
 $text['header-install']['en-gb'] = "Install";
 $text['header-install']['ar-eg'] = "ثَبَّتَ";
 $text['header-install']['de-at'] = "Installieren";
@@ -462,6 +479,7 @@ $text['header-install']['ja-jp'] = "インストール";
 $text['header-install']['ko-kr'] = "설치하다";
 
 $text['header-select_language']['en-us'] = "Select Language";
+$text['header-select_language']['vi-vn'] = "Chọn ngôn ngữ";
 $text['header-select_language']['en-gb'] = "Select Language";
 $text['header-select_language']['ar-eg'] = "اختار اللغة";
 $text['header-select_language']['de-at'] = "Sprache auswählen";
@@ -489,6 +507,7 @@ $text['header-select_language']['ja-jp'] = "言語を選択する";
 $text['header-select_language']['ko-kr'] = "언어 선택";
 
 $text['header-event_socket']['en-us'] = "Event Socket Configuration";
+$text['header-event_socket']['vi-vn'] = "Cấu hình Event Socket";
 $text['header-event_socket']['en-gb'] = "Event Socket Configuration";
 $text['header-event_socket']['ar-eg'] = "تكوين مأخذ توصيل الحدث";
 $text['header-event_socket']['de-at'] = "Event-Socket Konfigurieren";
@@ -516,6 +535,7 @@ $text['header-event_socket']['ja-jp'] = "イベントソケットの設定";
 $text['header-event_socket']['ko-kr'] = "이벤트 소켓 구성";
 
 $text['header-config_detail']['en-us'] = "Admin Configuration";
+$text['header-config_detail']['vi-vn'] = "Cấu hình quản trị";
 $text['header-config_detail']['en-gb'] = "Admin Configuration";
 $text['header-config_detail']['ar-eg'] = "تكوين المسؤول";
 $text['header-config_detail']['de-at'] = "Admin-Konfiguration";
@@ -543,6 +563,7 @@ $text['header-config_detail']['ja-jp'] = "管理者の構成";
 $text['header-config_detail']['ko-kr'] = "관리자 구성";
 
 $text['header-config_database']['en-us'] = "Database Configuration";
+$text['header-config_database']['vi-vn'] = "Cấu hình cơ sở dữ liệu";
 $text['header-config_database']['en-gb'] = "Database Configuration";
 $text['header-config_database']['ar-eg'] = "تكوين قاعدة البيانات";
 $text['header-config_database']['de-at'] = "Datenbankkonfiguration ";
@@ -570,6 +591,7 @@ $text['header-config_database']['ja-jp'] = "データベース構成";
 $text['header-config_database']['ko-kr'] = "데이터베이스 구성";
 
 $text['header-installing']['en-us'] = "Executing Install";
+$text['header-installing']['vi-vn'] = "Đang thực thi cài đặt";
 $text['header-installing']['en-gb'] = "Executing Install";
 $text['header-installing']['ar-eg'] = "تنفيذ التثبيت";
 $text['header-installing']['de-at'] = "Installation ausführen";
@@ -597,6 +619,7 @@ $text['header-installing']['ja-jp'] = "インストールの実行";
 $text['header-installing']['ko-kr'] = "설치 실행";
 
 $text['description-event_host']['en-us'] = "Enter the event socket host name or IP address.";
+$text['description-event_host']['vi-vn'] = "Nhập hostname hoặc địa chỉ IP của event socket.";
 $text['description-event_host']['en-gb'] = "Enter the event socket host name or IP address.";
 $text['description-event_host']['ar-eg'] = "أدخل اسم مضيف مأخذ توصيل الحدث أو عنوان IP.";
 $text['description-event_host']['de-at'] = "Geben Sie die Hostnamen oder die IP-Adresse  für den Event-Socket an.";
@@ -624,6 +647,7 @@ $text['description-event_host']['ja-jp'] = "イベントソケットのホスト
 $text['description-event_host']['ko-kr'] = "이벤트 소켓 호스트 이름 또는 IP 주소를 입력하십시오.";
 
 $text['description-event_port']['en-us'] = "Enter the event socket port number.";
+$text['description-event_port']['vi-vn'] = "Nhập số cổng event socket.";
 $text['description-event_port']['en-gb'] = "Enter the event socket port number.";
 $text['description-event_port']['ar-eg'] = "أدخل رقم منفذ مأخذ توصيل الحدث.";
 $text['description-event_port']['de-at'] = "Geben Sie die Portnummer des Event-Sockets an";
@@ -651,6 +675,7 @@ $text['description-event_port']['ja-jp'] = "イベントソケットのポート
 $text['description-event_port']['ko-kr'] = "이벤트 소켓 포트 번호를 입력하십시오.";
 
 $text['description-event_password']['en-us'] = "Enter the event socket password.";
+$text['description-event_password']['vi-vn'] = "Nhập mật khẩu event socket.";
 $text['description-event_password']['en-gb'] = "Enter the event socket password.";
 $text['description-event_password']['ar-eg'] = "أدخل كلمة مرور مأخذ توصيل الحدث.";
 $text['description-event_password']['de-at'] = "Geben Sie das Passwort für den Event-Socket an.";
@@ -678,6 +703,7 @@ $text['description-event_password']['ja-jp'] = "イベントソケットのパ�
 $text['description-event_password']['ko-kr'] = "이벤트 소켓 암호를 입력하십시오.";
 
 $text['description-username']['en-us'] = "Enter the database username.";
+$text['description-username']['vi-vn'] = "Nhập tên đăng nhập cơ sở dữ liệu.";
 $text['description-username']['en-gb'] = "Enter the database username.";
 $text['description-username']['ar-eg'] = "أدخل اسم مستخدم قاعدة البيانات.";
 $text['description-username']['de-at'] = "Geben Sie den Benutzernamen für die Datenbank an.";
@@ -705,6 +731,7 @@ $text['description-username']['ja-jp'] = "データベースのユーザー名�
 $text['description-username']['ko-kr'] = "데이터베이스 사용자 이름을 입력합니다.";
 
 $text['description-type']['en-us'] = "Select the database type.";
+$text['description-type']['vi-vn'] = "Chọn loại cơ sở dữ liệu.";
 $text['description-type']['en-gb'] = "Select the database type.";
 $text['description-type']['ar-eg'] = "حدد نوع قاعدة البيانات.";
 $text['description-type']['de-at'] = "Wählen Sie den Datenbank Typ.";
@@ -732,6 +759,7 @@ $text['description-type']['ja-jp'] = "データベースの種類を選択しま
 $text['description-type']['ko-kr'] = "데이터베이스 유형을 선택합니다.";
 
 $text['description-port']['en-us'] = "Enter the port number.";
+$text['description-port']['vi-vn'] = "Nhập số cổng.";
 $text['description-port']['en-gb'] = "Enter the port number.";
 $text['description-port']['ar-eg'] = "أدخل رقم المنفذ.";
 $text['description-port']['de-at'] = "Geben Sie die Portnummer an.";
@@ -759,6 +787,7 @@ $text['description-port']['ja-jp'] = "ポート番号を入力します。";
 $text['description-port']['ko-kr'] = "포트 번호를 입력합니다.";
 
 $text['description-path']['en-us'] = "Enter the database file path (SQLite only).";
+$text['description-path']['vi-vn'] = "Nhập đường dẫn file cơ sở dữ liệu (chỉ SQLite).";
 $text['description-path']['en-gb'] = "Enter the database file path (SQLite only).";
 $text['description-path']['ar-eg'] = "أدخل مسار ملف قاعدة البيانات (SQLite فقط).";
 $text['description-path']['de-at'] = "Geben Sie den Datenbank Pfad an (nur für SQLite).";
@@ -786,6 +815,7 @@ $text['description-path']['ja-jp'] = "データベース ファイル パスを�
 $text['description-path']['ko-kr'] = "데이터베이스 파일 경로를 입력합니다(SQLite만 해당).";
 
 $text['description-password']['en-us'] = "Enter the database password.";
+$text['description-password']['vi-vn'] = "Nhập mật khẩu cơ sở dữ liệu.";
 $text['description-password']['en-gb'] = "Enter the database password.";
 $text['description-password']['ar-eg'] = "أدخل كلمة مرور قاعدة البيانات.";
 $text['description-password']['de-at'] = "Geben Sie das Password für die Datenbank ein.";
@@ -813,6 +843,7 @@ $text['description-password']['ja-jp'] = "データベースのパスワード�
 $text['description-password']['ko-kr'] = "데이터베이스 암호를 입력합니다.";
 
 $text['description-name']['en-us'] = "Enter the database name.";
+$text['description-name']['vi-vn'] = "Nhập tên cơ sở dữ liệu.";
 $text['description-name']['en-gb'] = "Enter the database name.";
 $text['description-name']['ar-eg'] = "أدخل اسم قاعدة البيانات.";
 $text['description-name']['de-at'] = "Geben Sie den Namen der Datenbank an";
@@ -840,6 +871,7 @@ $text['description-name']['ja-jp'] = "データベース名を入力します。
 $text['description-name']['ko-kr'] = "데이터베이스 이름을 입력합니다.";
 
 $text['description-host']['en-us'] = "Enter the host name.";
+$text['description-host']['vi-vn'] = "Nhập hostname.";
 $text['description-host']['en-gb'] = "Enter the host name.";
 $text['description-host']['ar-eg'] = "أدخل اسم المضيف.";
 $text['description-host']['de-at'] = "Geben Sie den Hostnamen ein.";
@@ -867,6 +899,7 @@ $text['description-host']['ja-jp'] = "ホスト名を入力します。";
 $text['description-host']['ko-kr'] = "호스트 이름을 입력합니다.";
 
 $text['description-driver']['en-us'] = "Select the database driver.";
+$text['description-driver']['vi-vn'] = "Chọn driver cơ sở dữ liệu.";
 $text['description-driver']['en-gb'] = "Select the database driver.";
 $text['description-driver']['ar-eg'] = "حدد برنامج تشغيل قاعدة البيانات.";
 $text['description-driver']['de-at'] = "Wählen Sie den Datenbank Treiber.";
@@ -894,6 +927,7 @@ $text['description-driver']['ja-jp'] = "データベースドライバーを選�
 $text['description-driver']['ko-kr'] = "데이터베이스 드라이버를 선택합니다.";
 
 $text['description-install']['en-us'] = "Select the action below you wish to perform.";
+$text['description-install']['vi-vn'] = "Chọn thao tác bạn muốn thực hiện bên dưới.";
 $text['description-install']['en-gb'] = "Select the action below you wish to perform.";
 $text['description-install']['ar-eg'] = "حدد الإجراء أدناه الذي ترغب في القيام به.";
 $text['description-install']['de-at'] = "Wählen Sie eine Aktion.";
@@ -921,6 +955,7 @@ $text['description-install']['ja-jp'] = "実行したいアクションを以下
 $text['description-install']['ko-kr'] = "수행하려는 작업을 아래에서 선택하십시오.";
 
 $text['description-database-edit']['en-us'] = "Database connection information.";
+$text['description-database-edit']['vi-vn'] = "Thông tin kết nối cơ sở dữ liệu.";
 $text['description-database-edit']['en-gb'] = "Database connection information.";
 $text['description-database-edit']['ar-eg'] = "معلومات اتصال قاعدة البيانات.";
 $text['description-database-edit']['de-at'] = "Datenbank Verbindungsinformation.";
@@ -948,6 +983,7 @@ $text['description-database-edit']['ja-jp'] = "データベース接続情報。
 $text['description-database-edit']['ko-kr'] = "데이터베이스 연결 정보.";
 
 $text['description-database-add']['en-us'] = "Database connection information.";
+$text['description-database-add']['vi-vn'] = "Thông tin kết nối cơ sở dữ liệu.";
 $text['description-database-add']['en-gb'] = "Database connection information.";
 $text['description-database-add']['ar-eg'] = "معلومات اتصال قاعدة البيانات.";
 $text['description-database-add']['de-at'] = "Datenbank Verbindungsinformation.";
@@ -975,6 +1011,7 @@ $text['description-database-add']['ja-jp'] = "データベース接続情報。"
 $text['description-database-add']['ko-kr'] = "데이터베이스 연결 정보.";
 
 $text['description-select_language']['en-us'] = "Please select the language you want to use";
+$text['description-select_language']['vi-vn'] = "Vui lòng chọn ngôn ngữ bạn muốn dùng";
 $text['description-select_language']['en-gb'] = "Please select the language you want to use";
 $text['description-select_language']['ar-eg'] = "الرجاء تحديد اللغة التي تريد استخدامها";
 $text['description-select_language']['de-at'] = "Bitte wählen Sie die zu verwendende Sprache aus";
@@ -1002,6 +1039,7 @@ $text['description-select_language']['ja-jp'] = "使用したい言語を選択�
 $text['description-select_language']['ko-kr'] = "사용하실 언어를 선택해주세요";
 
 $text['button-detect']['en-us'] = "Detect Configuration";
+$text['button-detect']['vi-vn'] = "Phát hiện cấu hình";
 $text['button-detect']['en-gb'] = "Detect Configuration";
 $text['button-detect']['ar-eg'] = "كشف التكوين";
 $text['button-detect']['de-at'] = "Konfiguration ermitteln";
@@ -1029,6 +1067,7 @@ $text['button-detect']['ja-jp'] = "構成の検出";
 $text['button-detect']['ko-kr'] = "구성 감지";
 
 $text['button-select']['en-us'] = "Select";
+$text['button-select']['vi-vn'] = "Chọn";
 $text['button-select']['en-gb'] = "Select";
 $text['button-select']['ar-eg'] = "يختار";
 $text['button-select']['de-at'] = "Auswählen";

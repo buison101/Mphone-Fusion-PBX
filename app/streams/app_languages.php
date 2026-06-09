@@ -1,6 +1,7 @@
 <?php
 
 $text['title-streams']['en-us'] = "Streams";
+$text['title-streams']['vi-vn'] = 'Luồng';
 $text['title-streams']['en-gb'] = "Streams";
 $text['title-streams']['ar-eg'] = "تيارات";
 $text['title-streams']['de-at'] = "Ströme";
@@ -28,6 +29,7 @@ $text['title-streams']['ja-jp'] = "ストリーム";
 $text['title-streams']['ko-kr'] = "스트림";
 
 $text['title-stream']['en-us'] = "Stream";
+$text['title-stream']['vi-vn'] = 'Stream';
 $text['title-stream']['en-gb'] = "Stream";
 $text['title-stream']['ar-eg'] = "تدفق";
 $text['title-stream']['de-at'] = "Strom";
@@ -55,6 +57,7 @@ $text['title-stream']['ja-jp'] = "ストリーム";
 $text['title-stream']['ko-kr'] = "스트림";
 
 $text['title_description-stream']['en-us'] = "Define details for streaming audio.";
+$text['title_description-stream']['vi-vn'] = 'Định nghĩa chi tiết cho streaming audio.';
 $text['title_description-stream']['en-gb'] = "Define details for streaming audio.";
 $text['title_description-stream']['ar-eg'] = "تحديد التفاصيل لدفق الصوت.";
 $text['title_description-stream']['de-at'] = "Definieren Sie Details für das Streaming von Audio.";
@@ -82,6 +85,7 @@ $text['title_description-stream']['ja-jp'] = "ストリーミングオーディ�
 $text['title_description-stream']['ko-kr'] = "스트리밍 오디오에 대한 세부 사항 정의.";
 
 $text['label-stream_name']['en-us'] = "Name";
+$text['label-stream_name']['vi-vn'] = 'Tên';
 $text['label-stream_name']['en-gb'] = "Name";
 $text['label-stream_name']['ar-eg'] = "اسم";
 $text['label-stream_name']['de-at'] = "Name";
@@ -109,6 +113,7 @@ $text['label-stream_name']['ja-jp'] = "お名前";
 $text['label-stream_name']['ko-kr'] = "이름";
 
 $text['description-stream_name']['en-us'] = "Enter the name.";
+$text['description-stream_name']['vi-vn'] = 'Nhập tên.';
 $text['description-stream_name']['en-gb'] = "Enter the name.";
 $text['description-stream_name']['ar-eg'] = "أدخل الاسم.";
 $text['description-stream_name']['de-at'] = "Geben Sie den Namen ein.";
@@ -136,6 +141,7 @@ $text['description-stream_name']['ja-jp'] = "お名前を入力してくださ�
 $text['description-stream_name']['ko-kr'] = "이름 입력";
 
 $text['label-stream_location']['en-us'] = "Location";
+$text['label-stream_location']['vi-vn'] = 'Vị trí';
 $text['label-stream_location']['en-gb'] = "Location";
 $text['label-stream_location']['ar-eg'] = "موقع";
 $text['label-stream_location']['de-at'] = "Plaats";
@@ -163,6 +169,7 @@ $text['label-stream_location']['ja-jp'] = "位置";
 $text['label-stream_location']['ko-kr'] = "위치";
 
 $text['description-stream_location']['en-us'] = "Enter the location.";
+$text['description-stream_location']['vi-vn'] = 'Nhập vị trí.';
 $text['description-stream_location']['en-gb'] = "Enter the location.";
 $text['description-stream_location']['ar-eg'] = "أدخل الموقع.";
 $text['description-stream_location']['de-at'] = "Ingresa la ubicación.";
@@ -190,6 +197,7 @@ $text['description-stream_location']['ja-jp'] = "所在地を入力してくだ�
 $text['description-stream_location']['ko-kr'] = "위치를 입력합니다.";
 
 $text['label-stream_enabled']['en-us'] = "Enabled";
+$text['label-stream_enabled']['vi-vn'] = 'Đã bật';
 $text['label-stream_enabled']['en-gb'] = "Enabled";
 $text['label-stream_enabled']['ar-eg'] = "ممكن";
 $text['label-stream_enabled']['de-at'] = "Aktiviert";
@@ -217,6 +225,7 @@ $text['label-stream_enabled']['ja-jp'] = "启用";
 $text['label-stream_enabled']['ko-kr'] = "사용";
 
 $text['description-stream_enabled']['en-us'] = "Enable or disable this stream.";
+$text['description-stream_enabled']['vi-vn'] = 'Bật hoặc tắt stream này.';
 $text['description-stream_enabled']['en-gb'] = "Enable or disable this stream.";
 $text['description-stream_enabled']['ar-eg'] = "تمكين أو تعطيل هذا البث.";
 $text['description-stream_enabled']['de-at'] = "Aktivieren oder deaktivieren Sie diesen Stream.";
@@ -244,6 +253,7 @@ $text['description-stream_enabled']['ja-jp'] = "このストリームを有効�
 $text['description-stream_enabled']['ko-kr'] = "이 스트림을 활성화하거나 비활성화합니다.";
 
 $text['label-stream_description']['en-us'] = "Description";
+$text['label-stream_description']['vi-vn'] = 'Mô tả';
 $text['label-stream_description']['en-gb'] = "Description";
 $text['label-stream_description']['ar-eg'] = "وصف";
 $text['label-stream_description']['de-at'] = "Beschreibung";
@@ -271,6 +281,7 @@ $text['label-stream_description']['ja-jp'] = "説明";
 $text['label-stream_description']['ko-kr'] = "설명";
 
 $text['description-stream_description']['en-us'] = "Enter the description.";
+$text['description-stream_description']['vi-vn'] = 'Nhập mô tả.';
 $text['description-stream_description']['en-gb'] = "Enter the description.";
 $text['description-stream_description']['ar-eg'] = "أدخل الوصف.";
 $text['description-stream_description']['de-at'] = "Geben Sie die Beschreibung ein.";

@@ -1,6 +1,7 @@
 <?php
 
 $text['label-switch_status']['en-us'] = "Switch Status";
+$text['label-switch_status']['vi-vn'] = 'Trạng thái switch';
 $text['label-switch_status']['en-gb'] = "Switch Status";
 $text['label-switch_status']['ar-eg'] = "تبديل الحالة";
 $text['label-switch_status']['de-at'] = "Status wechseln";
@@ -28,6 +29,7 @@ $text['label-switch_status']['ja-jp'] = "スイッチの状態";
 $text['label-switch_status']['ko-kr'] = "스위치 상태";
 
 $text['label-channels']['en-us'] = "Channels";
+$text['label-channels']['vi-vn'] = 'Kênh';
 $text['label-channels']['en-gb'] = "Channels";
 $text['label-channels']['ar-eg'] = "القنوات";
 $text['label-channels']['de-at'] = "Kanäle";
@@ -55,6 +57,7 @@ $text['label-channels']['ja-jp'] = "チャネル";
 $text['label-channels']['ko-kr'] = "채널";
 
 $text['label-registrations']['en-us'] = "Registrations";
+$text['label-registrations']['vi-vn'] = 'Đăng ký';
 $text['label-registrations']['en-gb'] = "Registrations";
 $text['label-registrations']['ar-eg'] = "التسجيلات";
 $text['label-registrations']['de-at'] = "Registrierungen";
@@ -82,6 +85,7 @@ $text['label-registrations']['ja-jp'] = "登録";
 $text['label-registrations']['ko-kr'] = "등록";
 
 $text['label-switch_uptime']['en-us'] = "Switch Uptime";
+$text['label-switch_uptime']['vi-vn'] = 'Thời gian hoạt động của Switch';
 $text['label-switch_uptime']['en-gb'] = "Switch Uptime";
 $text['label-switch_uptime']['ar-eg'] = "تبديل الجهوزية";
 $text['label-switch_uptime']['de-at'] = "Betriebszeit wechseln";
@@ -109,6 +113,7 @@ $text['label-switch_uptime']['ja-jp'] = "稼働時間の切り替え";
 $text['label-switch_uptime']['ko-kr'] = "스위치 가동 시간";
 
 $text['label-switch']['en-us'] = "Switch";
+$text['label-switch']['vi-vn'] = 'Switch';
 $text['label-switch']['en-gb'] = "Switch";
 $text['label-switch']['ar-eg'] = "يُحوّل";
 $text['label-switch']['de-at'] = "Switch";

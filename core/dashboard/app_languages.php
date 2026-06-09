@@ -1,6 +1,7 @@
 <?php
 
 $text['title-dashboard']['en-us'] = "Dashboard";
+$text['title-dashboard']['vi-vn'] = "Bảng điều khiển";
 $text['title-dashboard']['en-gb'] = "Dashboard";
 $text['title-dashboard']['ar-eg'] = "لوحة القيادة";
 $text['title-dashboard']['de-at'] = "Benutzerübersicht";
@@ -28,6 +29,7 @@ $text['title-dashboard']['ja-jp'] = "ダッシュボード";
 $text['title-dashboard']['ko-kr'] = "계기반";
 
 $text['title-dashboards']['en-us'] = "Dashboards";
+$text['title-dashboards']['vi-vn'] = "Bảng điều khiển";
 $text['title-dashboards']['en-gb'] = "Dashboards";
 $text['title-dashboards']['ar-eg'] = "لوحات التحكم";
 $text['title-dashboards']['de-at'] = "Dashboards";
@@ -55,6 +57,7 @@ $text['title-dashboards']['ja-jp'] = "ダッシュボード";
 $text['title-dashboards']['ko-kr'] = "대시보드";
 
 $text['title-widgets']['en-us'] = "Widgets";
+$text['title-widgets']['vi-vn'] = "Widget";
 $text['title-widgets']['en-gb'] = "Widgets";
 $text['title-widgets']['ar-eg'] = "الحاجيات";
 $text['title-widgets']['de-at'] = "Widgets";
@@ -82,6 +85,7 @@ $text['title-widgets']['ja-jp'] = "ウィンドゲット";
 $text['title-widgets']['ko-kr'] = "위젯";
 
 $text['title-dashboard_widget']['en-us'] = "Dashboard Widget";
+$text['title-dashboard_widget']['vi-vn'] = "Widget bảng điều khiển";
 $text['title-dashboard_widget']['en-gb'] = "Dashboard Widget";
 $text['title-dashboard_widget']['ar-eg'] = "حاجة لوحة التحكم";
 $text['title-dashboard_widget']['de-at'] = "Dashboard-Widget";
@@ -109,6 +113,7 @@ $text['title-dashboard_widget']['ja-jp'] = "ダッシュボード ウィンド�
 $text['title-dashboard_widget']['ko-kr'] = "대시보드 위젯";
 
 $text['description-dashboard']['en-us'] = "Quickly access information and tools related to your account.";
+$text['description-dashboard']['vi-vn'] = "Truy cập nhanh thông tin và công cụ liên quan đến tài khoản của bạn.";
 $text['description-dashboard']['en-gb'] = "Quickly access information and tools related to your account.";
 $text['description-dashboard']['ar-eg'] = "دخول سريع للمعلومات و الادوات الخاصة بحسابك";
 $text['description-dashboard']['de-at'] = "Schneller Zugriff auf Kontoinformationen und -funktionen";
@@ -136,6 +141,7 @@ $text['description-dashboard']['ja-jp'] = "アカウントに関連する情報�
 $text['description-dashboard']['ko-kr'] = "귀하의 계정과 관련된 정보 및 도구에 빠르게 액세스하십시오.";
 
 $text['label-group_uuid']['en-us'] = "Group UUID";
+$text['label-group_uuid']['vi-vn'] = "UUID nhóm";
 $text['label-group_uuid']['en-gb'] = "Group UUID";
 $text['label-group_uuid']['ar-eg'] = "مجموعة uuid";
 $text['label-group_uuid']['de-at'] = "Gruppen-UUID";
@@ -163,6 +169,7 @@ $text['label-group_uuid']['ja-jp'] = "グループUUID";
 $text['label-group_uuid']['ko-kr'] = "그룹 UUID";
 
 $text['description-group_uuid']['en-us'] = "Enter the group uuid.";
+$text['description-group_uuid']['vi-vn'] = "Nhập UUID nhóm.";
 $text['description-group_uuid']['en-gb'] = "Enter the group uuid.";
 $text['description-group_uuid']['ar-eg'] = "أدخل المجموعة uuid.";
 $text['description-group_uuid']['de-at'] = "Geben Sie die Gruppen-UUID ein.";
@@ -190,6 +197,7 @@ $text['description-group_uuid']['ja-jp'] = "グループUUIDを入力します�
 $text['description-group_uuid']['ko-kr'] = "그룹 UUID를 입력하십시오.";
 
 $text['label-dashboard_name']['en-us'] = "Name";
+$text['label-dashboard_name']['vi-vn'] = "Tên";
 $text['label-dashboard_name']['en-gb'] = "Name";
 $text['label-dashboard_name']['ar-eg'] = "اسم";
 $text['label-dashboard_name']['de-at'] = "Name";
@@ -217,6 +225,7 @@ $text['label-dashboard_name']['ja-jp'] = "名前";
 $text['label-dashboard_name']['ko-kr'] = "이름";
 
 $text['description-dashboard_name']['en-us'] = "Enter the dashboard name.";
+$text['description-dashboard_name']['vi-vn'] = "Nhập tên bảng điều khiển.";
 $text['description-dashboard_name']['en-gb'] = "Enter the dashboard name.";
 $text['description-dashboard_name']['ar-eg'] = "أدخل اسم لوحة التحكم.";
 $text['description-dashboard_name']['de-at'] = "Geben Sie den Namen der Dashboard ein.";
@@ -244,6 +253,7 @@ $text['description-dashboard_name']['ja-jp'] = "ダッシュボードの名前�
 $text['description-dashboard_name']['ko-kr'] = "대시보드 이름을 입력합니다.";
 
 $text['label-dashboard_enabled']['en-us'] = "Enabled";
+$text['label-dashboard_enabled']['vi-vn'] = "Đã bật";
 $text['label-dashboard_enabled']['en-gb'] = "Enabled";
 $text['label-dashboard_enabled']['ar-eg'] = "ممكن";
 $text['label-dashboard_enabled']['de-at'] = "Aktiviert";
@@ -271,6 +281,7 @@ $text['label-dashboard_enabled']['ja-jp'] = "有効";
 $text['label-dashboard_enabled']['ko-kr'] = "사용";
 
 $text['description-dashboard_enabled']['en-us'] = "Enter the dashboard enabled.";
+$text['description-dashboard_enabled']['vi-vn'] = "Chọn trạng thái bật của bảng điều khiển.";
 $text['description-dashboard_enabled']['en-gb'] = "Enter the dashboard enabled.";
 $text['description-dashboard_enabled']['ar-eg'] = "أدخل تفعيل لوحة المعلومات.";
 $text['description-dashboard_enabled']['de-at'] = "Geben Sie das Aktivieren des Dashboards ein.";
@@ -298,6 +309,7 @@ $text['description-dashboard_enabled']['ja-jp'] = "ダッシュボードを有�
 $text['description-dashboard_enabled']['ko-kr'] = "대시보드 활성화를 입력합니다.";
 
 $text['label-dashboard_description']['en-us'] = "Description";
+$text['label-dashboard_description']['vi-vn'] = "Mô tả";
 $text['label-dashboard_description']['en-gb'] = "Description";
 $text['label-dashboard_description']['ar-eg'] = "وصف";
 $text['label-dashboard_description']['de-at'] = "Beschreibung";
@@ -325,6 +337,7 @@ $text['label-dashboard_description']['ja-jp'] = "説明";
 $text['label-dashboard_description']['ko-kr'] = "설명";
 
 $text['description-dashboard_description']['en-us'] = "Enter the dashboard description.";
+$text['description-dashboard_description']['vi-vn'] = "Nhập mô tả bảng điều khiển.";
 $text['description-dashboard_description']['en-gb'] = "Enter the dashboard description.";
 $text['description-dashboard_description']['ar-eg'] = "أدخل وصف لوحة المعلومات.";
 $text['description-dashboard_description']['de-at'] = "Geben Sie die Beschreibung des Dashboards ein.";
@@ -352,6 +365,7 @@ $text['description-dashboard_description']['ja-jp'] = "ダッシュボードの�
 $text['description-dashboard_description']['ko-kr'] = "대시보드 설명을 입력합니다.";
 
 $text['label-widget_name']['en-us'] = "Name";
+$text['label-widget_name']['vi-vn'] = "Tên";
 $text['label-widget_name']['en-gb'] = "Name";
 $text['label-widget_name']['ar-eg'] = "اسم";
 $text['label-widget_name']['de-at'] = "Name";
@@ -379,6 +393,7 @@ $text['label-widget_name']['ja-jp'] = "名前";
 $text['label-widget_name']['ko-kr'] = "이름";
 
 $text['description-widget_name']['en-us'] = "Enter the dashboard widget name.";
+$text['description-widget_name']['vi-vn'] = "Nhập tên widget bảng điều khiển.";
 $text['description-widget_name']['en-gb'] = "Enter the dashboard widget name.";
 $text['description-widget_name']['ar-eg'] = "أدخل اسم أداة لوحة القيادة.";
 $text['description-widget_name']['de-at'] = "Geben Sie den Namen des Dashboard-Widgets ein.";
@@ -406,6 +421,7 @@ $text['description-widget_name']['ja-jp'] = "ダッシュボードウィジェ�
 $text['description-widget_name']['ko-kr'] = "대시 보드 위젯 이름을 입력하십시오.";
 
 $text['label-widget_path']['en-us'] = "Path";
+$text['label-widget_path']['vi-vn'] = "Đường dẫn";
 $text['label-widget_path']['en-gb'] = "Path";
 $text['label-widget_path']['ar-eg'] = "طريق";
 $text['label-widget_path']['de-at'] = "Weg";
@@ -433,6 +449,7 @@ $text['label-widget_path']['ja-jp'] = "道";
 $text['label-widget_path']['ko-kr'] = "길";
 
 $text['description-widget_path']['en-us'] = "Enter the dashboard widget path.";
+$text['description-widget_path']['vi-vn'] = "Nhập đường dẫn widget bảng điều khiển.";
 $text['description-widget_path']['en-gb'] = "Enter the dashboard widget path.";
 $text['description-widget_path']['ar-eg'] = "أدخل مسار أداة لوحة القيادة.";
 $text['description-widget_path']['de-at'] = "Geben Sie den Dashboard-Widget-Pfad ein.";
@@ -460,6 +477,7 @@ $text['description-widget_path']['ja-jp'] = "ダッシュボード ウィジェ�
 $text['description-widget_path']['ko-kr'] = "대시보드 위젯 경로를 입력합니다.";
 
 $text['description-widget_icon']['en-us'] = "Select an icon.";
+$text['description-widget_icon']['vi-vn'] = "Chọn biểu tượng.";
 $text['description-widget_icon']['en-gb'] = "Select an icon.";
 $text['description-widget_icon']['ar-eg'] = "اختر أيقونة.";
 $text['description-widget_icon']['de-at'] = "Wählen Sie ein Symbol.";
@@ -487,6 +505,7 @@ $text['description-widget_icon']['ja-jp'] = "アイコンを選択してくだ�
 $text['description-widget_icon']['ko-kr'] = "아이콘을 선택하세요.";
 
 $text['label-widget_icon_color']['en-us'] = "Icon Color";
+$text['label-widget_icon_color']['vi-vn'] = "Màu biểu tượng";
 $text['label-widget_icon_color']['en-gb'] = "Icon Color";
 $text['label-widget_icon_color']['ar-eg'] = "لون الأيقونة";
 $text['label-widget_icon_color']['de-at'] = "Symbolfarbe";
@@ -514,6 +533,7 @@ $text['label-widget_icon_color']['ja-jp'] = "アイコンの色";
 $text['label-widget_icon_color']['ko-kr'] = "아이콘 색상";
 
 $text['description-widget_icon_color']['en-us'] = "Enter the icon color.";
+$text['description-widget_icon_color']['vi-vn'] = "Nhập màu biểu tượng.";
 $text['description-widget_icon_color']['en-gb'] = "Enter the icon color.";
 $text['description-widget_icon_color']['ar-eg'] = "أدخل لون الأيقونة.";
 $text['description-widget_icon_color']['de-at'] = "Geben Sie die Symbolfarbe ein.";
@@ -541,6 +561,7 @@ $text['description-widget_icon_color']['ja-jp'] = "アイコンの色を入力�
 $text['description-widget_icon_color']['ko-kr'] = "아이콘 색상을 입력하세요.";
 
 $text['description-widget_url']['en-us'] = "Enter the URL.";
+$text['description-widget_url']['vi-vn'] = "Nhập URL.";
 $text['description-widget_url']['en-gb'] = "Enter the URL.";
 $text['description-widget_url']['ar-eg'] = "أدخل الرابط.";
 $text['description-widget_url']['de-at'] = "Geben Sie die URL ein.";
@@ -568,6 +589,7 @@ $text['description-widget_url']['ja-jp'] = "URLを入力してください。";
 $text['description-widget_url']['ko-kr'] = "URL을 입력하세요.";
 
 $text['description-widget_width']['en-us'] = "Enter the window width.";
+$text['description-widget_width']['vi-vn'] = "Nhập chiều rộng cửa sổ.";
 $text['description-widget_width']['en-gb'] = "Enter the window width.";
 $text['description-widget_width']['ar-eg'] = "أدخل عرض النافذة.";
 $text['description-widget_width']['de-at'] = "Geben Sie die Fensterbreite ein.";
@@ -595,6 +617,7 @@ $text['description-widget_width']['ja-jp'] = "ウィンドウの幅を入力し�
 $text['description-widget_width']['ko-kr'] = "창 너비를 입력하세요.";
 
 $text['description-widget_height']['en-us'] = "Enter the window height.";
+$text['description-widget_height']['vi-vn'] = "Nhập chiều cao cửa sổ.";
 $text['description-widget_height']['en-gb'] = "Enter the window height.";
 $text['description-widget_height']['ar-eg'] = "أدخل ارتفاع النافذة.";
 $text['description-widget_height']['de-at'] = "Geben Sie die Fensterhöhe ein.";
@@ -622,6 +645,7 @@ $text['description-widget_height']['ja-jp'] = "ウィンドウの高さを入力
 $text['description-widget_height']['ko-kr'] = "창 높이를 입력하세요.";
 
 $text['label-widget_content_text_align']['en-us'] = "Text Align";
+$text['label-widget_content_text_align']['vi-vn'] = "Căn chỉnh văn bản";
 $text['label-widget_content_text_align']['en-gb'] = "Text Align";
 $text['label-widget_content_text_align']['ar-eg'] = "محاذاة النص";
 $text['label-widget_content_text_align']['de-at'] = "Textausrichtung";
@@ -649,6 +673,7 @@ $text['label-widget_content_text_align']['ja-jp'] = "テキスト配置";
 $text['label-widget_content_text_align']['ko-kr'] = "텍스트 정렬";
 
 $text['description-widget_content_text_align']['en-us'] = "Align the text in the content.";
+$text['description-widget_content_text_align']['vi-vn'] = "Căn chỉnh văn bản trong nội dung.";
 $text['description-widget_content_text_align']['en-gb'] = "Align the text in the content.";
 $text['description-widget_content_text_align']['ar-eg'] = "محاذاة النص في المحتوى.";
 $text['description-widget_content_text_align']['de-at'] = "Richten Sie den Text im Inhalt aus.";
@@ -676,6 +701,7 @@ $text['description-widget_content_text_align']['ja-jp'] = "コンテンツ内の
 $text['description-widget_content_text_align']['ko-kr'] = "콘텐츠의 텍스트를 정렬합니다.";
 
 $text['label-widget_groups']['en-us'] = "Groups";
+$text['label-widget_groups']['vi-vn'] = "Nhóm";
 $text['label-widget_groups']['en-gb'] = "Groups";
 $text['label-widget_groups']['ar-eg'] = "مجموعات";
 $text['label-widget_groups']['de-at'] = "Gruppen";
@@ -703,6 +729,7 @@ $text['label-widget_groups']['ja-jp'] = "グループ";
 $text['label-widget_groups']['ko-kr'] = "여러 떼";
 
 $text['description-widget_target']['en-us'] = "Specify the target of the Link.";
+$text['description-widget_target']['vi-vn'] = "Chỉ định đích của liên kết.";
 $text['description-widget_target']['en-gb'] = "Specify the target of the Link.";
 $text['description-widget_target']['ar-eg'] = "حدد هدف الارتباط.";
 $text['description-widget_target']['de-at'] = "Geben Sie das Ziel des Links an.";
@@ -730,6 +757,7 @@ $text['description-widget_target']['ja-jp'] = "リンクのターゲットを指
 $text['description-widget_target']['ko-kr'] = "링크의 대상을 지정합니다.";
 
 $text['description-widget_content']['en-us'] = "Enter the content (text) to display in the top section of the widget.";
+$text['description-widget_content']['vi-vn'] = "Nhập nội dung (văn bản) hiển thị ở phần trên của widget.";
 $text['description-widget_content']['en-gb'] = "Enter the content (text) to display in the top section of the widget.";
 $text['description-widget_content']['ar-eg'] = "أدخل المحتوى (النص) لعرضه في القسم العلوي من الأداة.";
 $text['description-widget_content']['de-at'] = "Geben Sie Inhalt (Text) ein, der im oberen Abschnitt des Widgets angezeigt werden soll.";
@@ -757,6 +785,7 @@ $text['description-widget_content']['ja-jp'] = "ウィジェットの上部セ�
 $text['description-widget_content']['ko-kr'] = "위젯 상단에 표시할 내용(텍스트)을 입력하세요.";
 
 $text['description-widget_content_details']['en-us'] = "Enter the content (text) to display in the bottom section of the widget.";
+$text['description-widget_content_details']['vi-vn'] = "Nhập nội dung (văn bản) hiển thị ở phần dưới của widget.";
 $text['description-widget_content_details']['en-gb'] = "Enter the content (text) to display in the bottom section of the widget.";
 $text['description-widget_content_details']['ar-eg'] = "أدخل المحتوى (النص) الذي سيتم عرضه في القسم السفلي من الأداة.";
 $text['description-widget_content_details']['de-at'] = "Geben Sie den Inhalt (Text) ein, der im unteren Abschnitt des Widgets angezeigt werden soll.";
@@ -784,6 +813,7 @@ $text['description-widget_content_details']['ja-jp'] = "ウィジェットの下
 $text['description-widget_content_details']['ko-kr'] = "위젯 하단에 표시할 내용(텍스트)을 입력하세요.";
 
 $text['description-widget_groups']['en-us'] = "Add the groups that have permission to this widget.";
+$text['description-widget_groups']['vi-vn'] = "Thêm các nhóm có quyền truy cập widget này.";
 $text['description-widget_groups']['en-gb'] = "Add the groups that have permission to this widget.";
 $text['description-widget_groups']['ar-eg'] = "أضف المجموعات التي لديها إذن إلى هذه الأداة.";
 $text['description-widget_groups']['de-at'] = "Fügen Sie die Gruppen hinzu, die die Berechtigung für dieses Widget haben.";
@@ -811,6 +841,7 @@ $text['description-widget_groups']['ja-jp'] = "このウィジェットに対す
 $text['description-widget_groups']['ko-kr'] = "이 위젯에 대한 권한이 있는 그룹을 추가하십시오.";
 
 $text['label-widget_chart_type']['en-us'] = "Chart Type";
+$text['label-widget_chart_type']['vi-vn'] = "Loại biểu đồ";
 $text['label-widget_chart_type']['en-gb'] = "Chart Type";
 $text['label-widget_chart_type']['ar-eg'] = "نوع التخطيط";
 $text['label-widget_chart_type']['de-at'] = "Diagramm Typ";
@@ -838,6 +869,7 @@ $text['label-widget_chart_type']['ja-jp'] = "グラフの種類";
 $text['label-widget_chart_type']['ko-kr'] = "차트 종류";
 
 $text['description-widget_chart_type']['en-us'] = "Enter the dashboard widget chart type.";
+$text['description-widget_chart_type']['vi-vn'] = "Nhập loại biểu đồ của widget bảng điều khiển.";
 $text['description-widget_chart_type']['en-gb'] = "Enter the dashboard widget chart type.";
 $text['description-widget_chart_type']['ar-eg'] = "أدخل نوع مخطط عنصر واجهة المستخدم للوحة المعلومات.";
 $text['description-widget_chart_type']['de-at'] = "Geben Sie den Diagrammtyp des Dashboard-Widgets ein.";
@@ -865,6 +897,7 @@ $text['description-widget_chart_type']['ja-jp'] = "ダッシュボード ウィ�
 $text['description-widget_chart_type']['ko-kr'] = "대시보드 위젯 차트 유형을 입력합니다.";
 
 $text['label-doughnut']['en-us'] = "Doughnut";
+$text['label-doughnut']['vi-vn'] = "Biểu đồ vòng";
 $text['label-doughnut']['en-gb'] = "Doughnut";
 $text['label-doughnut']['ar-eg'] = "كعكة محلاة";
 $text['label-doughnut']['de-at'] = "Krapfen";
@@ -892,6 +925,7 @@ $text['label-doughnut']['ja-jp'] = "ドーナツ";
 $text['label-doughnut']['ko-kr'] = "도넛";
 
 $text['label-line']['en-us'] = "Line";
+$text['label-line']['vi-vn'] = "Đường";
 $text['label-line']['en-gb'] = "Line";
 $text['label-line']['ar-eg'] = "خط";
 $text['label-line']['de-at'] = "Leitung";
@@ -919,6 +953,7 @@ $text['label-line']['ja-jp'] = "回線";
 $text['label-line']['ko-kr'] = "회선";
 
 $text['label-progress_bar']['en-us'] = "Progress Bar";
+$text['label-progress_bar']['vi-vn'] = "Thanh tiến trình";
 $text['label-progress_bar']['en-gb'] = "Progress Bar";
 $text['label-progress_bar']['ar-eg'] = "شريط التقدم";
 $text['label-progress_bar']['de-at'] = "Fortschrittsbalken";
@@ -946,6 +981,7 @@ $text['label-progress_bar']['ja-jp'] = "進行バー";
 $text['label-progress_bar']['ko-kr'] = "진행 막대";
 
 $text['label-widget_label_enabled']['en-us'] = "Label Enabled";
+$text['label-widget_label_enabled']['vi-vn'] = "Bật nhãn";
 $text['label-widget_label_enabled']['en-gb'] = "Label Enabled";
 $text['label-widget_label_enabled']['ar-eg'] = "تم تمكين العلامة";
 $text['label-widget_label_enabled']['de-at'] = "Label aktiviert";
@@ -973,6 +1009,7 @@ $text['label-widget_label_enabled']['ja-jp'] = "ラベルが有効";
 $text['label-widget_label_enabled']['ko-kr'] = "레이블 활성화됨";
 
 $text['description-widget_label_enabled']['en-us'] = "Enter the dashboard widget label enabled.";
+$text['description-widget_label_enabled']['vi-vn'] = "Chọn trạng thái bật nhãn của widget bảng điều khiển.";
 $text['description-widget_label_enabled']['en-gb'] = "Enter the dashboard widget label enabled.";
 $text['description-widget_label_enabled']['ar-eg'] = "أدخل تسمية عنصر واجهة المستخدم الرسومية في لوحة المعلومات ممكّنة.";
 $text['description-widget_label_enabled']['de-at'] = "Geben Sie die aktivierte Bezeichnung des Dashboard-Widgets ein.";
@@ -1000,6 +1037,7 @@ $text['description-widget_label_enabled']['ja-jp'] = "有効なダッシュボ�
 $text['description-widget_label_enabled']['ko-kr'] = "대시보드 위젯 라벨을 활성화로 입력하세요.";
 
 $text['label-widget_label_text_color']['en-us'] = "Label Text Color";
+$text['label-widget_label_text_color']['vi-vn'] = "Màu chữ nhãn";
 $text['label-widget_label_text_color']['en-gb'] = "Label Text Color";
 $text['label-widget_label_text_color']['ar-eg'] = "لون نص الملصق";
 $text['label-widget_label_text_color']['de-at'] = "Beschriftungstextfarbe";
@@ -1027,6 +1065,7 @@ $text['label-widget_label_text_color']['ja-jp'] = "ラベルテキストの色";
 $text['label-widget_label_text_color']['ko-kr'] = "라벨 텍스트 색상";
 
 $text['description-widget_label_text_color']['en-us'] = "Enter the dashboard widget label text color.";
+$text['description-widget_label_text_color']['vi-vn'] = "Nhập màu chữ nhãn của widget bảng điều khiển.";
 $text['description-widget_label_text_color']['en-gb'] = "Enter the dashboard widget label text color.";
 $text['description-widget_label_text_color']['ar-eg'] = "أدخل لون نص تسمية أداة لوحة المعلومات.";
 $text['description-widget_label_text_color']['de-at'] = "Geben Sie die Textfarbe der Dashboard-Widget-Beschriftung ein.";
@@ -1054,6 +1093,7 @@ $text['description-widget_label_text_color']['ja-jp'] = "ダッシュボード �
 $text['description-widget_label_text_color']['ko-kr'] = "대시보드 위젯 라벨 텍스트 색상을 입력하세요.";
 
 $text['label-widget_label_text_color_hover']['en-us'] = "Label Text Color Hover";
+$text['label-widget_label_text_color_hover']['vi-vn'] = "Màu chữ nhãn khi hover";
 $text['label-widget_label_text_color_hover']['en-gb'] = "Label Text Color Hover";
 $text['label-widget_label_text_color_hover']['ar-eg'] = "لون نص الملصق عند التمرير فوقه";
 $text['label-widget_label_text_color_hover']['de-at'] = "Beschriftungstextfarbe beim Hovern";
@@ -1081,6 +1121,7 @@ $text['label-widget_label_text_color_hover']['ja-jp'] = "ラベルテキスト�
 $text['label-widget_label_text_color_hover']['ko-kr'] = "라벨 텍스트 색상 호버";
 
 $text['description-widget_label_text_color_hover']['en-us'] = "Enter the dashboard widget label text color hover.";
+$text['description-widget_label_text_color_hover']['vi-vn'] = "Nhập màu chữ nhãn khi hover của widget bảng điều khiển.";
 $text['description-widget_label_text_color_hover']['en-gb'] = "Enter the dashboard widget label text color hover.";
 $text['description-widget_label_text_color_hover']['ar-eg'] = "أدخل لون نص تسمية أداة لوحة المعلومات عند تحريك المؤشر عليها.";
 $text['description-widget_label_text_color_hover']['de-at'] = "Geben Sie beim Hovern die Textfarbe für die Dashboard-Widget-Beschriftung ein.";
@@ -1108,6 +1149,7 @@ $text['description-widget_label_text_color_hover']['ja-jp'] = "ダッシュボ�
 $text['description-widget_label_text_color_hover']['ko-kr'] = "대시보드 위젯 라벨 텍스트 색상 호버를 입력하세요.";
 
 $text['label-widget_label_background_color']['en-us'] = "Label Background Color";
+$text['label-widget_label_background_color']['vi-vn'] = "Màu nền nhãn";
 $text['label-widget_label_background_color']['en-gb'] = "Label Background Color";
 $text['label-widget_label_background_color']['ar-eg'] = "لون خلفية الملصق";
 $text['label-widget_label_background_color']['de-at'] = "Hintergrundfarbe des Etiketts";
@@ -1135,6 +1177,7 @@ $text['label-widget_label_background_color']['ja-jp'] = "ラベルの背景色";
 $text['label-widget_label_background_color']['ko-kr'] = "라벨 배경색";
 
 $text['description-widget_label_background_color']['en-us'] = "Enter the dashboard widget label background color.";
+$text['description-widget_label_background_color']['vi-vn'] = "Nhập màu nền nhãn của widget bảng điều khiển.";
 $text['description-widget_label_background_color']['en-gb'] = "Enter the dashboard widget label background color.";
 $text['description-widget_label_background_color']['ar-eg'] = "أدخل لون الخلفية لتسمية عنصر واجهة المستخدم الرسومية في لوحة المعلومات.";
 $text['description-widget_label_background_color']['de-at'] = "Geben Sie die Hintergrundfarbe der Dashboard-Widget-Beschriftung ein.";
@@ -1162,6 +1205,7 @@ $text['description-widget_label_background_color']['ja-jp'] = "ダッシュボ�
 $text['description-widget_label_background_color']['ko-kr'] = "대시보드 위젯 라벨 배경색을 입력하세요.";
 
 $text['label-widget_label_background_color_hover']['en-us'] = "Label Background Color Hover";
+$text['label-widget_label_background_color_hover']['vi-vn'] = "Màu nền nhãn khi hover";
 $text['label-widget_label_background_color_hover']['en-gb'] = "Label Background Color Hover";
 $text['label-widget_label_background_color_hover']['ar-eg'] = "لون خلفية الملصق عند تحريك المؤشر عليه";
 $text['label-widget_label_background_color_hover']['de-at'] = "Beschriftungshintergrundfarbe beim Hovern";
@@ -1189,6 +1233,7 @@ $text['label-widget_label_background_color_hover']['ja-jp'] = "ラベルの背�
 $text['label-widget_label_background_color_hover']['ko-kr'] = "라벨 배경색 호버";
 
 $text['description-widget_label_background_color_hover']['en-us'] = "Enter the dashboard widget label background color hover.";
+$text['description-widget_label_background_color_hover']['vi-vn'] = "Nhập màu nền nhãn khi hover của widget bảng điều khiển.";
 $text['description-widget_label_background_color_hover']['en-gb'] = "Enter the dashboard widget label background color hover.";
 $text['description-widget_label_background_color_hover']['ar-eg'] = "أدخل لون خلفية تسمية أداة لوحة المعلومات.";
 $text['description-widget_label_background_color_hover']['de-at'] = "Geben Sie beim Hovern die Hintergrundfarbe der Dashboard-Widget-Beschriftung ein.";
@@ -1216,6 +1261,7 @@ $text['description-widget_label_background_color_hover']['ja-jp'] = "ダッシ�
 $text['description-widget_label_background_color_hover']['ko-kr'] = "대시보드 위젯 라벨 배경색에 마우스를 올려 놓으세요.";
 
 $text['label-widget_number_text_color']['en-us'] = "Number Text Color";
+$text['label-widget_number_text_color']['vi-vn'] = "Màu chữ số";
 $text['label-widget_number_text_color']['en-gb'] = "Number Text Color";
 $text['label-widget_number_text_color']['ar-eg'] = "رقم لون النص";
 $text['label-widget_number_text_color']['de-at'] = "Zahlentextfarbe";
@@ -1243,6 +1289,7 @@ $text['label-widget_number_text_color']['ja-jp'] = "数字のテキストの色"
 $text['label-widget_number_text_color']['ko-kr'] = "숫자 텍스트 색상";
 
 $text['description-widget_number_text_color']['en-us'] = "Enter the dashboard widget number text color.";
+$text['description-widget_number_text_color']['vi-vn'] = "Nhập màu chữ số của widget bảng điều khiển.";
 $text['description-widget_number_text_color']['en-gb'] = "Enter the dashboard widget number text color.";
 $text['description-widget_number_text_color']['ar-eg'] = "أدخل لون نص رقم عنصر واجهة المستخدم للوحة المعلومات.";
 $text['description-widget_number_text_color']['de-at'] = "Geben Sie die Textfarbe für die Nummer des Dashboard-Widgets ein.";
@@ -1270,6 +1317,7 @@ $text['description-widget_number_text_color']['ja-jp'] = "ダッシュボード 
 $text['description-widget_number_text_color']['ko-kr'] = "대시보드 위젯 번호 텍스트 색상을 입력하세요.";
 
 $text['label-widget_number_text_color_hover']['en-us'] = "Number Text Color Hover";
+$text['label-widget_number_text_color_hover']['vi-vn'] = "Màu chữ số khi hover";
 $text['label-widget_number_text_color_hover']['en-gb'] = "Number Text Color Hover";
 $text['label-widget_number_text_color_hover']['ar-eg'] = "رقم لون النص تحوم";
 $text['label-widget_number_text_color_hover']['de-at'] = "Nummer Textfarbe Hover";
@@ -1297,6 +1345,7 @@ $text['label-widget_number_text_color_hover']['ja-jp'] = "数字 テキスト �
 $text['label-widget_number_text_color_hover']['ko-kr'] = "숫자 텍스트 색상 마우스 오버";
 
 $text['description-widget_number_text_color_hover']['en-us'] = "Enter the dashboard widget number text color hover.";
+$text['description-widget_number_text_color_hover']['vi-vn'] = "Nhập màu chữ số khi hover của widget bảng điều khiển.";
 $text['description-widget_number_text_color_hover']['en-gb'] = "Enter the dashboard widget number text color hover.";
 $text['description-widget_number_text_color_hover']['ar-eg'] = "أدخل لون نص رقم عنصر واجهة المستخدم الخاص بلوحة المعلومات.";
 $text['description-widget_number_text_color_hover']['de-at'] = "Geben Sie beim Hovern die Textfarbe der Dashboard-Widgetnummer ein.";
@@ -1324,6 +1373,7 @@ $text['description-widget_number_text_color_hover']['ja-jp'] = "ダッシュボ�
 $text['description-widget_number_text_color_hover']['ko-kr'] = "대시보드 위젯 번호 텍스트 색상을 마우스로 가리키면 입력됩니다.";
 
 $text['label-widget_number_background_color']['en-us'] = "Number Background Color";
+$text['label-widget_number_background_color']['vi-vn'] = "Màu nền số";
 $text['label-widget_number_background_color']['en-gb'] = "Number Background Color";
 $text['label-widget_number_background_color']['ar-eg'] = "لون خلفية الرقم";
 $text['label-widget_number_background_color']['de-at'] = "Hintergrundfarbe der Zahl";
@@ -1351,6 +1401,7 @@ $text['label-widget_number_background_color']['ja-jp'] = "数字の背景色";
 $text['label-widget_number_background_color']['ko-kr'] = "숫자 배경 색상";
 
 $text['description-widget_number_background_color']['en-us'] = "Enter the dashboard widget number background color.";
+$text['description-widget_number_background_color']['vi-vn'] = "Nhập màu nền số của widget bảng điều khiển.";
 $text['description-widget_number_background_color']['en-gb'] = "Enter the dashboard widget number background color.";
 $text['description-widget_number_background_color']['ar-eg'] = "أدخل لون خلفية الرقم في عنصر واجهة المستخدم على لوحة التحكم.";
 $text['description-widget_number_background_color']['de-at'] = "Geben Sie die Hintergrundfarbe der Zahl im Dashboard-Widget ein.";
@@ -1378,6 +1429,7 @@ $text['description-widget_number_background_color']['ja-jp'] = "ダッシュボ�
 $text['description-widget_number_background_color']['ko-kr'] = "대시보드 위젯 숫자의 배경 색상을 입력하세요.";
 
 $text['label-widget_background_color']['en-us'] = "Background Color";
+$text['label-widget_background_color']['vi-vn'] = "Màu nền";
 $text['label-widget_background_color']['en-gb'] = "Background Color";
 $text['label-widget_background_color']['ar-eg'] = "لون الخلفية";
 $text['label-widget_background_color']['de-at'] = "Hintergrundfarbe";
@@ -1405,6 +1457,7 @@ $text['label-widget_background_color']['ja-jp'] = "背景色";
 $text['label-widget_background_color']['ko-kr'] = "배경색";
 
 $text['description-widget_background_color']['en-us'] = "Enter the dashboard widget background color.";
+$text['description-widget_background_color']['vi-vn'] = "Nhập màu nền của widget bảng điều khiển.";
 $text['description-widget_background_color']['en-gb'] = "Enter the dashboard widget background color.";
 $text['description-widget_background_color']['ar-eg'] = "أدخل لون خلفية أداة لوحة المعلومات.";
 $text['description-widget_background_color']['de-at'] = "Geben Sie die Hintergrundfarbe des Dashboard-Widgets ein.";
@@ -1432,6 +1485,7 @@ $text['description-widget_background_color']['ja-jp'] = "ダッシュボード �
 $text['description-widget_background_color']['ko-kr'] = "대시보드 위젯 배경색을 입력하세요.";
 
 $text['label-widget_background_color_hover']['en-us'] = "Background Color Hover";
+$text['label-widget_background_color_hover']['vi-vn'] = "Màu nền khi hover";
 $text['label-widget_background_color_hover']['en-gb'] = "Background Color Hover";
 $text['label-widget_background_color_hover']['ar-eg'] = "لون الخلفية تحوم";
 $text['label-widget_background_color_hover']['de-at'] = "Hintergrundfarbe Hover";
@@ -1459,6 +1513,7 @@ $text['label-widget_background_color_hover']['ja-jp'] = "背景色ホバー";
 $text['label-widget_background_color_hover']['ko-kr'] = "배경색 마우스오버";
 
 $text['description-widget_background_color_hover']['en-us'] = "Enter the dashboard widget background color hover.";
+$text['description-widget_background_color_hover']['vi-vn'] = "Nhập màu nền khi hover của widget bảng điều khiển.";
 $text['description-widget_background_color_hover']['en-gb'] = "Enter the dashboard widget background color hover.";
 $text['description-widget_background_color_hover']['ar-eg'] = "أدخل لون خلفية عنصر واجهة المستخدم للوحة المعلومات.";
 $text['description-widget_background_color_hover']['de-at'] = "Geben Sie beim Hovern die Hintergrundfarbe des Dashboard-Widgets ein.";
@@ -1486,6 +1541,7 @@ $text['description-widget_background_color_hover']['ja-jp'] = "ダッシュボ�
 $text['description-widget_background_color_hover']['ko-kr'] = "대시보드 위젯 배경색 마우스오버를 입력하세요.";
 
 $text['label-widget_detail_background_color']['en-us'] = "Detail Background Color";
+$text['label-widget_detail_background_color']['vi-vn'] = "Màu nền chi tiết";
 $text['label-widget_detail_background_color']['en-gb'] = "Detail Background Color";
 $text['label-widget_detail_background_color']['ar-eg'] = "تفاصيل لون الخلفية";
 $text['label-widget_detail_background_color']['de-at'] = "Detail-Hintergrundfarbe";
@@ -1513,6 +1569,7 @@ $text['label-widget_detail_background_color']['ja-jp'] = "詳細背景色";
 $text['label-widget_detail_background_color']['ko-kr'] = "세부 배경색";
 
 $text['description-widget_detail_background_color']['en-us'] = "Enter the dashboard widget detail background color.";
+$text['description-widget_detail_background_color']['vi-vn'] = "Nhập màu nền chi tiết của widget bảng điều khiển.";
 $text['description-widget_detail_background_color']['en-gb'] = "Enter the dashboard widget detail background color.";
 $text['description-widget_detail_background_color']['ar-eg'] = "أدخل لون خلفية تفاصيل أداة لوحة المعلومات.";
 $text['description-widget_detail_background_color']['de-at'] = "Geben Sie die Hintergrundfarbe für die Dashboard-Widgetdetails ein.";
@@ -1540,6 +1597,7 @@ $text['description-widget_detail_background_color']['ja-jp'] = "ダッシュボ�
 $text['description-widget_detail_background_color']['ko-kr'] = "대시보드 위젯 세부 배경색을 입력하세요.";
 
 $text['label-widget_column_span']['en-us'] = "Column Span";
+$text['label-widget_column_span']['vi-vn'] = "Số cột chiếm";
 $text['label-widget_column_span']['en-gb'] = "Column Span";
 $text['label-widget_column_span']['ar-eg'] = "العمود سبان";
 $text['label-widget_column_span']['de-at'] = "Spaltenspanne";
@@ -1567,6 +1625,7 @@ $text['label-widget_column_span']['ja-jp'] = "列のスパン";
 $text['label-widget_column_span']['ko-kr'] = "열 범위";
 
 $text['description-widget_column_span']['en-us'] = "Enter the dashboard widget column span.";
+$text['description-widget_column_span']['vi-vn'] = "Nhập số cột mà widget bảng điều khiển chiếm.";
 $text['description-widget_column_span']['en-gb'] = "Enter the dashboard widget column span.";
 $text['description-widget_column_span']['ar-eg'] = "أدخل امتداد عمود أداة لوحة المعلومات.";
 $text['description-widget_column_span']['de-at'] = "Geben Sie die Spaltenspanne des Dashboard-Widgets ein.";
@@ -1594,6 +1653,7 @@ $text['description-widget_column_span']['ja-jp'] = "ダッシュボード ウィ
 $text['description-widget_column_span']['ko-kr'] = "대시보드 위젯 열 범위를 입력합니다.";
 
 $text['label-widget_row_span']['en-us'] = "Row Span";
+$text['label-widget_row_span']['vi-vn'] = "Số hàng chiếm";
 $text['label-widget_row_span']['en-gb'] = "Row Span";
 $text['label-widget_row_span']['ar-eg'] = "نطاق الصف";
 $text['label-widget_row_span']['de-at'] = "Zeilenspanne";
@@ -1621,6 +1681,7 @@ $text['label-widget_row_span']['ja-jp'] = "行スパン";
 $text['label-widget_row_span']['ko-kr'] = "행 범위";
 
 $text['description-widget_row_span']['en-us'] = "Enter the dashboard widget row span.";
+$text['description-widget_row_span']['vi-vn'] = "Nhập số hàng mà widget bảng điều khiển chiếm.";
 $text['description-widget_row_span']['en-gb'] = "Enter the dashboard widget row span.";
 $text['description-widget_row_span']['ar-eg'] = "أدخل نطاق صف أداة لوحة المعلومات.";
 $text['description-widget_row_span']['de-at'] = "Geben Sie die Zeilenspanne des Dashboard-Widgets ein.";
@@ -1648,6 +1709,7 @@ $text['description-widget_row_span']['ja-jp'] = "ダッシュボード ウィジ
 $text['description-widget_row_span']['ko-kr'] = "대시보드 위젯 행 범위를 입력합니다.";
 
 $text['label-widget_details_state']['en-us'] = "Details State";
+$text['label-widget_details_state']['vi-vn'] = "Trạng thái chi tiết";
 $text['label-widget_details_state']['en-gb'] = "Details State";
 $text['label-widget_details_state']['ar-eg'] = "تفاصيل الدولة";
 $text['label-widget_details_state']['de-at'] = "Details Zustand";
@@ -1675,6 +1737,7 @@ $text['label-widget_details_state']['ja-jp'] = "詳細状態";
 $text['label-widget_details_state']['ko-kr'] = "세부사항 상태";
 
 $text['description-widget_details_state']['en-us'] = "Set the default state of the widget details.";
+$text['description-widget_details_state']['vi-vn'] = "Thiết lập trạng thái mặc định của chi tiết widget.";
 $text['description-widget_details_state']['en-gb'] = "Set the default state of the widget details.";
 $text['description-widget_details_state']['ar-eg'] = "تعيين الحالة الافتراضية لتفاصيل القطعة.";
 $text['description-widget_details_state']['de-at'] = "Legen Sie den Standardstatus der Widget-Details fest.";
@@ -1702,6 +1765,7 @@ $text['description-widget_details_state']['ja-jp'] = "ウィジェットの詳�
 $text['description-widget_details_state']['ko-kr'] = "위젯 세부 정보의 기본 상태를 설정합니다.";
 
 $text['label-dashboard_widget_parent_uuid']['en-us'] = "Parent";
+$text['label-dashboard_widget_parent_uuid']['vi-vn'] = "Cha";
 $text['label-dashboard_widget_parent_uuid']['en-gb'] = "Parent";
 $text['label-dashboard_widget_parent_uuid']['ar-eg'] = "الوالد";
 $text['label-dashboard_widget_parent_uuid']['de-at'] = "Elternteil";
@@ -1729,6 +1793,7 @@ $text['label-dashboard_widget_parent_uuid']['ja-jp'] = "親";
 $text['label-dashboard_widget_parent_uuid']['ko-kr'] = "부모";
 
 $text['description-dashboard_widget_parent_uuid']['en-us'] = "Select the parent widget.";
+$text['description-dashboard_widget_parent_uuid']['vi-vn'] = "Chọn widget cha.";
 $text['description-dashboard_widget_parent_uuid']['en-gb'] = "Select the parent widget.";
 $text['description-dashboard_widget_parent_uuid']['ar-eg'] = "اختر القطعة الويب الأم.";
 $text['description-dashboard_widget_parent_uuid']['de-at'] = "Wählen Sie das übergeordnete Widget aus.";
@@ -1756,6 +1821,7 @@ $text['description-dashboard_widget_parent_uuid']['ja-jp'] = "親ウィンドウ
 $text['description-dashboard_widget_parent_uuid']['ko-kr'] = "부모 위젯을 선택합니다.";
 
 $text['label-widget_order']['en-us'] = "Order";
+$text['label-widget_order']['vi-vn'] = "Thứ tự";
 $text['label-widget_order']['en-gb'] = "Order";
 $text['label-widget_order']['ar-eg'] = "طلب";
 $text['label-widget_order']['de-at'] = "Befehl";
@@ -1783,6 +1849,7 @@ $text['label-widget_order']['ja-jp'] = "注文";
 $text['label-widget_order']['ko-kr'] = "주문하다";
 
 $text['description-widget_order']['en-us'] = "Enter the dashboard widget order.";
+$text['description-widget_order']['vi-vn'] = "Nhập thứ tự widget bảng điều khiển.";
 $text['description-widget_order']['en-gb'] = "Enter the dashboard widget order.";
 $text['description-widget_order']['ar-eg'] = "أدخل ترتيب أداة لوحة القيادة.";
 $text['description-widget_order']['de-at'] = "Geben Sie die Dashboard-Widget-Reihenfolge ein.";
@@ -1810,6 +1877,7 @@ $text['description-widget_order']['ja-jp'] = "ダッシュボード ウィジェ
 $text['description-widget_order']['ko-kr'] = "대시보드 위젯 순서를 입력합니다.";
 
 $text['label-widget_enabled']['en-us'] = "Enabled";
+$text['label-widget_enabled']['vi-vn'] = "Đã bật";
 $text['label-widget_enabled']['en-gb'] = "Enabled";
 $text['label-widget_enabled']['ar-eg'] = "ممكن";
 $text['label-widget_enabled']['de-at'] = "Aktiviert";
@@ -1837,6 +1905,7 @@ $text['label-widget_enabled']['ja-jp'] = "有効";
 $text['label-widget_enabled']['ko-kr'] = "사용";
 
 $text['description-widget_enabled']['en-us'] = "Enter the dashboard widget enabled.";
+$text['description-widget_enabled']['vi-vn'] = "Chọn trạng thái bật của widget bảng điều khiển.";
 $text['description-widget_enabled']['en-gb'] = "Enter the dashboard widget enabled.";
 $text['description-widget_enabled']['ar-eg'] = "أدخل أداة لوحة القيادة الممكنة.";
 $text['description-widget_enabled']['de-at'] = "Geben Sie das aktivierte Dashboard-Widget ein.";
@@ -1864,6 +1933,7 @@ $text['description-widget_enabled']['ja-jp'] = "ダッシュボード ウィジ�
 $text['description-widget_enabled']['ko-kr'] = "활성화된 대시보드 위젯을 입력합니다.";
 
 $text['label-widget_description']['en-us'] = "Description";
+$text['label-widget_description']['vi-vn'] = "Mô tả";
 $text['label-widget_description']['en-gb'] = "Description";
 $text['label-widget_description']['ar-eg'] = "وصف";
 $text['label-widget_description']['de-at'] = "Beschreibung";
@@ -1891,6 +1961,7 @@ $text['label-widget_description']['ja-jp'] = "説明";
 $text['label-widget_description']['ko-kr'] = "설명";
 
 $text['description-widget_description']['en-us'] = "Enter the dashboard widget description.";
+$text['description-widget_description']['vi-vn'] = "Nhập mô tả widget bảng điều khiển.";
 $text['description-widget_description']['en-gb'] = "Enter the dashboard widget description.";
 $text['description-widget_description']['ar-eg'] = "أدخل وصف أداة لوحة القيادة.";
 $text['description-widget_description']['de-at'] = "Geben Sie die Beschreibung des Dashboard-Widgets ein.";
@@ -1918,6 +1989,7 @@ $text['description-widget_description']['ja-jp'] = "ダッシュボード ウィ
 $text['description-widget_description']['ko-kr'] = "대시보드 위젯 설명을 입력합니다.";
 
 $text['label-welcome']['en-us'] = "Welcome:";
+$text['label-welcome']['vi-vn'] = "Xin chào:";
 $text['label-welcome']['en-gb'] = "Welcome:";
 $text['label-welcome']['ar-eg'] = "مرحباً:";
 $text['label-welcome']['de-at'] = "Herzlich willkommen:";
@@ -1945,6 +2017,7 @@ $text['label-welcome']['ja-jp'] = "いらっしゃいませ：";
 $text['label-welcome']['ko-kr'] = "환영:";
 
 $text['button-collapse_all']['en-us'] = "Collapse All";
+$text['button-collapse_all']['vi-vn'] = "Thu gọn tất cả";
 $text['button-collapse_all']['en-gb'] = "Collapse All";
 $text['button-collapse_all']['ar-eg'] = "انهيار جميع";
 $text['button-collapse_all']['de-at'] = "Alle reduzieren";
@@ -1972,6 +2045,7 @@ $text['button-collapse_all']['ja-jp'] = "すべて折りたたむ";
 $text['button-collapse_all']['ko-kr'] = "모든 축소";
 
 $text['button-expand_all']['en-us'] = "Expand All";
+$text['button-expand_all']['vi-vn'] = "Mở rộng tất cả";
 $text['button-expand_all']['en-gb'] = "Expand All";
 $text['button-expand_all']['ar-eg'] = "توسيع الكل";
 $text['button-expand_all']['de-at'] = "Alle erweitern";
@@ -1999,6 +2073,7 @@ $text['button-expand_all']['ja-jp'] = "すべて展開";
 $text['button-expand_all']['ko-kr'] = "모두 펼치기";
 
 $text['login-message_dismiss']['en-us'] = "Dismiss Message";
+$text['login-message_dismiss']['vi-vn'] = "Ẩn thông báo";
 $text['login-message_dismiss']['en-gb'] = "Dismiss Message";
 $text['login-message_dismiss']['ar-eg'] = "رفض الرسالة";
 $text['login-message_dismiss']['de-at'] = "Nachricht schließen";
@@ -2026,6 +2101,7 @@ $text['login-message_dismiss']['ja-jp'] = "メッセージを閉じる";
 $text['login-message_dismiss']['ko-kr'] = "메시지 닫기";
 
 $text['label-widget_background_gradient_style']['en-us'] = "Background Gradient";
+$text['label-widget_background_gradient_style']['vi-vn'] = "Gradient nền";
 $text['label-widget_background_gradient_style']['en-gb'] = "Background Gradient";
 $text['label-widget_background_gradient_style']['ar-eg'] = "تدرج الخلفية";
 $text['label-widget_background_gradient_style']['de-at'] = "Hintergrundverlauf";
@@ -2052,6 +2128,7 @@ $text['label-widget_background_gradient_style']['ja-jp'] = "背景グラデー�
 $text['label-widget_background_gradient_style']['ko-kr'] = "배경 그라디언트";
 
 $text['description-widget_background_gradient_style']['en-us'] = "Select a background gradient style.";
+$text['description-widget_background_gradient_style']['vi-vn'] = "Chọn kiểu gradient nền.";
 $text['description-widget_background_gradient_style']['en-gb'] = "Select a background gradient style.";
 $text['description-widget_background_gradient_style']['ar-eg'] = "حدد نمط التدرج الخلفي.";
 $text['description-widget_background_gradient_style']['de-at'] = "Wählen Sie einen Hintergrundverlaufsstil aus.";
@@ -2078,6 +2155,7 @@ $text['description-widget_background_gradient_style']['ja-jp'] = "背景のグ�
 $text['description-widget_background_gradient_style']['ko-kr'] = "배경 그라데이션 스타일을 선택하세요.";
 
 $text['option-widget_background_gradient_style_option_mirror']['en-us'] = "Mirror";
+$text['option-widget_background_gradient_style_option_mirror']['vi-vn'] = "Đối xứng";
 $text['option-widget_background_gradient_style_option_mirror']['en-gb'] = "Mirror";
 $text['option-widget_background_gradient_style_option_mirror']['ar-eg'] = "مرآة";
 $text['option-widget_background_gradient_style_option_mirror']['de-at'] = "Spiegel";
@@ -2104,6 +2182,7 @@ $text['option-widget_background_gradient_style_option_mirror']['ja-jp'] = "鏡";
 $text['option-widget_background_gradient_style_option_mirror']['ko-kr'] = "거울";
 
 $text['option-widget_background_gradient_style_option_simple']['en-us'] = "Simple";
+$text['option-widget_background_gradient_style_option_simple']['vi-vn'] = "Đơn giản";
 $text['option-widget_background_gradient_style_option_simple']['en-gb'] = "Simple";
 $text['option-widget_background_gradient_style_option_simple']['ar-eg'] = "بسيط";
 $text['option-widget_background_gradient_style_option_simple']['de-at'] = "Einfach";
@@ -2130,6 +2209,7 @@ $text['option-widget_background_gradient_style_option_simple']['ja-jp'] = "単�
 $text['option-widget_background_gradient_style_option_simple']['ko-kr'] = "단순한";
 
 $text['label-widget_background_gradient_angle']['en-us'] = "Background Angle";
+$text['label-widget_background_gradient_angle']['vi-vn'] = "Góc nền";
 $text['label-widget_background_gradient_angle']['en-gb'] = "Background Angle";
 $text['label-widget_background_gradient_angle']['ar-eg'] = "زاوية الخلفية";
 $text['label-widget_background_gradient_angle']['de-at'] = "Hintergrundwinkel";
@@ -2156,6 +2236,7 @@ $text['label-widget_background_gradient_angle']['ja-jp'] = "背景の角度";
 $text['label-widget_background_gradient_angle']['ko-kr'] = "배경 각도";
 
 $text['description-widget_background_gradient_angle']['en-us'] = "Select the angle of the background gradient.";
+$text['description-widget_background_gradient_angle']['vi-vn'] = "Chọn góc của gradient nền.";
 $text['description-widget_background_gradient_angle']['en-gb'] = "Select the angle of the background gradient.";
 $text['description-widget_background_gradient_angle']['ar-eg'] = "حدد زاوية التدرج الخلفي.";
 $text['description-widget_background_gradient_angle']['de-at'] = "Wählen Sie den Winkel des Hintergrundverlaufs.";
@@ -2182,6 +2263,7 @@ $text['description-widget_background_gradient_angle']['ja-jp'] = "背景のグ�
 $text['description-widget_background_gradient_angle']['ko-kr'] = "배경 그라데이션 각도를 선택하세요.";
 
 $text['button-swap']['en-us'] = "Swap Values";
+$text['button-swap']['vi-vn'] = "Hoán đổi giá trị";
 $text['button-swap']['en-gb'] = "Swap Values";
 $text['button-swap']['ar-eg'] = "قيم المبادلة";
 $text['button-swap']['de-at'] = "Werte vertauschen";
@@ -2208,6 +2290,7 @@ $text['button-swap']['ja-jp'] = "スワップ値";
 $text['button-swap']['ko-kr'] = "가치 교환";
 
 $text['label-system_status']['en-us'] = "System Status";
+$text['label-system_status']['vi-vn'] = "Trạng thái hệ thống";
 $text['label-system_status']['en-gb'] = "System Status";
 $text['label-system_status']['ar-eg'] = "حالة النظام";
 $text['label-system_status']['de-at'] = "System Status";
@@ -2235,6 +2318,7 @@ $text['label-system_status']['ja-jp'] = "システムステータス";
 $text['label-system_status']['ko-kr'] = "시스템 상태";
 
 $text['button-assign']['en-us'] = "Assign";
+$text['button-assign']['vi-vn'] = "Gán";
 $text['button-assign']['en-gb'] = "Assign";
 $text['button-assign']['ar-eg'] = "تعيين";
 $text['button-assign']['de-at'] = "Zuweisen";
@@ -2260,6 +2344,7 @@ $text['button-assign']['ja-jp'] = "割り当てる";
 $text['button-assign']['ko-kr'] = "할당하다";
 
 $text['button-unassign']['en-us'] = "Unassign";
+$text['button-unassign']['vi-vn'] = "Bỏ gán";
 $text['button-unassign']['en-gb'] = "Unassign";
 $text['button-unassign']['ar-eg'] = "إلغاء التعيين";
 $text['button-unassign']['de-at'] = "Entfernen";

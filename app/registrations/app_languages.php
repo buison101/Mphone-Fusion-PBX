@@ -1,6 +1,7 @@
 <?php
 
 $text['label-user']['en-us'] = "User";
+$text['label-user']['vi-vn'] = 'Người dùng';
 $text['label-user']['en-gb'] = "User";
 $text['label-user']['ar-eg'] = "مستخدم";
 $text['label-user']['de-at'] = "Benutzer";
@@ -28,6 +29,7 @@ $text['label-user']['ja-jp'] = "ユーザー";
 $text['label-user']['ko-kr'] = "사용자";
 
 $text['label-status']['en-us'] = "Status";
+$text['label-status']['vi-vn'] = 'Trạng thái';
 $text['label-status']['en-gb'] = "Status";
 $text['label-status']['ar-eg'] = "الحالة";
 $text['label-status']['de-at'] = "Status";
@@ -55,6 +57,7 @@ $text['label-status']['ja-jp'] = "スターテス";
 $text['label-status']['ko-kr'] = "상태";
 
 $text['label-response']['en-us'] = "Response:";
+$text['label-response']['vi-vn'] = 'Phản hồi:';
 $text['label-response']['en-gb'] = "Response:";
 $text['label-response']['ar-eg'] = "الرد:";
 $text['label-response']['de-at'] = "Antwort:";
@@ -82,6 +85,7 @@ $text['label-response']['ja-jp'] = "応答：";
 $text['label-response']['ko-kr'] = "응답:";
 
 $text['label-refresh_pause']['en-us'] = "Pause Refresh";
+$text['label-refresh_pause']['vi-vn'] = 'Tạm dừng làm mới';
 $text['label-refresh_pause']['en-gb'] = "Pause Refresh";
 $text['label-refresh_pause']['ar-eg'] = "وقف التجديد";
 $text['label-refresh_pause']['de-at'] = "Seite neu laden deaktivieren";
@@ -109,6 +113,7 @@ $text['label-refresh_pause']['ja-jp'] = "リフレッシュの一時停止";
 $text['label-refresh_pause']['ko-kr'] = "새로고침 일시중지";
 
 $text['label-refresh_enable']['en-us'] = "Enable Refresh";
+$text['label-refresh_enable']['vi-vn'] = 'Bật làm mới';
 $text['label-refresh_enable']['en-gb'] = "Enable Refresh";
 $text['label-refresh_enable']['ar-eg'] = "تمكين التحديث";
 $text['label-refresh_enable']['de-at'] = "Seite neu laden aktivieren";
@@ -136,6 +141,7 @@ $text['label-refresh_enable']['ja-jp'] = "リフレッシュを有効にする";
 $text['label-refresh_enable']['ko-kr'] = "새로 고침 활성화";
 
 $text['label-port']['en-us'] = "Port";
+$text['label-port']['vi-vn'] = 'Cổng';
 $text['label-port']['en-gb'] = "Port";
 $text['label-port']['ar-eg'] = "بورت";
 $text['label-port']['de-at'] = "Hafen";
@@ -163,6 +169,7 @@ $text['label-port']['ja-jp'] = "ポート";
 $text['label-port']['ko-kr'] = "포트";
 
 $text['label-ping']['en-us'] = "Ping";
+$text['label-ping']['vi-vn'] = 'Ping';
 $text['label-ping']['en-gb'] = "Ping";
 $text['label-ping']['ar-eg'] = "بينغ";
 $text['label-ping']['de-at'] = "Klingeln";
@@ -190,6 +197,7 @@ $text['label-ping']['ja-jp'] = "ピン";
 $text['label-ping']['ko-kr'] = "핑";
 
 $text['label-message']['en-us'] = "Invalid Profile!";
+$text['label-message']['vi-vn'] = 'Profile không hợp lệ!';
 $text['label-message']['en-gb'] = "Invalid Profile!";
 $text['label-message']['ar-eg'] = "ملف تعريف غير صالح!";
 $text['label-message']['de-at'] = "Ungültiges Profil!";
@@ -217,6 +225,7 @@ $text['label-message']['ja-jp'] = "無効なプロフィールです!!";
 $text['label-message']['ko-kr'] = "프로필이 잘못되었습니다!";
 
 $text['label-lan_ip']['en-us'] = "LAN IP";
+$text['label-lan_ip']['vi-vn'] = 'IP LAN';
 $text['label-lan_ip']['en-gb'] = "LAN IP";
 $text['label-lan_ip']['ar-eg'] = "LAN IP";
 $text['label-lan_ip']['de-at'] = "LAN IP";
@@ -244,6 +253,7 @@ $text['label-lan_ip']['ja-jp'] = "LAN IP";
 $text['label-lan_ip']['ko-kr'] = "LAN IP";
 
 $text['label-ip']['en-us'] = "IP";
+$text['label-ip']['vi-vn'] = 'IP';
 $text['label-ip']['en-gb'] = "IP";
 $text['label-ip']['ar-eg'] = "ip";
 $text['label-ip']['de-at'] = "IP";
@@ -271,6 +281,7 @@ $text['label-ip']['ja-jp'] = "IPアドレス";
 $text['label-ip']['ko-kr'] = "IP";
 
 $text['label-interval']['en-us'] = "Interval (Sec)";
+$text['label-interval']['vi-vn'] = 'Khoảng thời gian (giây)';
 $text['label-interval']['en-gb'] = "Interval (Sec)";
 $text['label-interval']['ar-eg'] = "الفترات الفاصلة";
 $text['label-interval']['de-at'] = "Intervall (Sek)";
@@ -298,6 +309,7 @@ $text['label-interval']['ja-jp'] = "間隔(秒)";
 $text['label-interval']['ko-kr'] = "간격(초)";
 
 $text['label-hostname']['en-us'] = "Hostname";
+$text['label-hostname']['vi-vn'] = 'Hostname';
 $text['label-hostname']['en-gb'] = "Hostname";
 $text['label-hostname']['ar-eg'] = "الاسم المضيف";
 $text['label-hostname']['de-at'] = "Hostname";
@@ -325,6 +337,7 @@ $text['label-hostname']['ja-jp'] = "ホスト名";
 $text['label-hostname']['ko-kr'] = "호스트 이름";
 
 $text['label-event']['en-us'] = "Event:";
+$text['label-event']['vi-vn'] = 'Sự kiện:';
 $text['label-event']['en-gb'] = "Event:";
 $text['label-event']['ar-eg'] = "الحدث:";
 $text['label-event']['de-at'] = "Ereignis:";
@@ -352,6 +365,7 @@ $text['label-event']['ja-jp'] = "イベント：";
 $text['label-event']['ko-kr'] = "이벤트:";
 
 $text['label-domain']['en-us'] = "Domain";
+$text['label-domain']['vi-vn'] = 'Tên miền';
 $text['label-domain']['en-gb'] = "Domain";
 $text['label-domain']['ar-eg'] = "النطاق";
 $text['label-domain']['de-at'] = "Domäne";
@@ -379,6 +393,7 @@ $text['label-domain']['ja-jp'] = "ドメイン";
 $text['label-domain']['ko-kr'] = "도메인";
 
 $text['label-agent']['en-us'] = "Agent";
+$text['label-agent']['vi-vn'] = 'Agent';
 $text['label-agent']['en-gb'] = "Agent";
 $text['label-agent']['ar-eg'] = "الوكيل";
 $text['label-agent']['de-at'] = "Agent";
@@ -406,6 +421,7 @@ $text['label-agent']['ja-jp'] = "エージェント";
 $text['label-agent']['ko-kr'] = "대리인";
 
 $text['label-contact']['en-us'] = "Contact";
+$text['label-contact']['vi-vn'] = 'Liên hệ';
 $text['label-contact']['en-gb'] = "Contact";
 $text['label-contact']['ar-eg'] = "الاتصال";
 $text['label-contact']['de-at'] = "Kontakt";
@@ -433,6 +449,7 @@ $text['label-contact']['ja-jp'] = "コンタクト";
 $text['label-contact']['ko-kr'] = "연락하다";
 
 $text['label-sip_profile_name']['en-us'] = "Profile";
+$text['label-sip_profile_name']['vi-vn'] = 'Profile';
 $text['label-sip_profile_name']['en-gb'] = "Profile";
 $text['label-sip_profile_name']['ar-eg'] = "موجز";
 $text['label-sip_profile_name']['de-at'] = "Profil";
@@ -460,6 +477,7 @@ $text['label-sip_profile_name']['ja-jp'] = "プロフィール";
 $text['label-sip_profile_name']['ko-kr'] = "프로필";
 
 $text['header-registrations']['en-us'] = "Registrations";
+$text['header-registrations']['vi-vn'] = 'Đăng ký';
 $text['header-registrations']['en-gb'] = "Registrations";
 $text['header-registrations']['ar-eg'] = "التسجيلات";
 $text['header-registrations']['de-at'] = "Registrierungen";
@@ -487,6 +505,7 @@ $text['header-registrations']['ja-jp'] = "登録";
 $text['header-registrations']['ko-kr'] = "등록";
 
 $text['description-registrations']['en-us'] = "Manage current extensions registered to the system.";
+$text['description-registrations']['vi-vn'] = 'Quản lý các máy nhánh hiện đang đăng ký vào hệ thống.';
 $text['description-registrations']['en-gb'] = "Manage current extensions registered to the system.";
 $text['description-registrations']['ar-eg'] = "إدارة الامتدادات الحالية المسجلة في النظام.";
 $text['description-registrations']['de-at'] = "Verwalten Sie aktuelle Nebenstellen, die im System registriert sind.";
@@ -514,6 +533,7 @@ $text['description-registrations']['ja-jp'] = "システムに登録されてい
 $text['description-registrations']['ko-kr'] = "시스템에 등록 된 현재 확장을 관리합니다.";
 
 $text['error-event-socket']['en-us'] = "Connection to Event Socket failed.";
+$text['error-event-socket']['vi-vn'] = 'Kết nối đến Event Socket thất bại.';
 $text['error-event-socket']['en-gb'] = "Connection to Event Socket failed.";
 $text['error-event-socket']['ar-eg'] = "فشل الاتصال بـ Event Socket.";
 $text['error-event-socket']['de-at'] = "Verbindung zum Event Socket fehlgeschlagen.";
@@ -541,6 +561,7 @@ $text['error-event-socket']['ja-jp'] = "イベントソケットへの接続に�
 $text['error-event-socket']['ko-kr'] = "이벤트 소켓에 연결하지 못했습니다.";
 
 $text['button-unregister']['en-us'] = "Unregister";
+$text['button-unregister']['vi-vn'] = 'Hủy đăng ký';
 $text['button-unregister']['en-gb'] = "Unregister";
 $text['button-unregister']['ar-eg'] = "غير مسجل";
 $text['button-unregister']['de-at'] = "Registrierung aufheben";
@@ -568,6 +589,7 @@ $text['button-unregister']['ja-jp'] = "登録を解除する";
 $text['button-unregister']['ko-kr'] = "등록 취소";
 
 $text['button-reboot']['en-us'] = "Reboot";
+$text['button-reboot']['vi-vn'] = 'Khởi động lại';
 $text['button-reboot']['en-gb'] = "Reboot";
 $text['button-reboot']['ar-eg'] = "إعادة التشغيل";
 $text['button-reboot']['de-at'] = "Neu starten";
@@ -595,6 +617,7 @@ $text['button-reboot']['ja-jp'] = "リブート";
 $text['button-reboot']['ko-kr'] = "재부팅";
 
 $text['button-provision']['en-us'] = "Provision";
+$text['button-provision']['vi-vn'] = 'Cấp phát';
 $text['button-provision']['en-gb'] = "Provision";
 $text['button-provision']['ar-eg'] = "الاعتماد";
 $text['button-provision']['de-at'] = "Bereitstellen";
@@ -622,6 +645,7 @@ $text['button-provision']['ja-jp'] = "規定";
 $text['button-provision']['ko-kr'] = "공급";
 
 $text['button-all_profiles']['en-us'] = "All Profiles";
+$text['button-all_profiles']['vi-vn'] = 'Tất cả profile';
 $text['button-all_profiles']['en-gb'] = "All Profiles";
 $text['button-all_profiles']['ar-eg'] = "جميع التشكيلات";
 $text['button-all_profiles']['de-at'] = "Alle Profile";
@@ -649,6 +673,7 @@ $text['button-all_profiles']['ja-jp'] = "すべてのプロファイル";
 $text['button-all_profiles']['ko-kr'] = "모든 프로필";
 
 $text['button-single_profile']['en-us'] = "Single Profile";
+$text['button-single_profile']['vi-vn'] = 'Một profile';
 $text['button-single_profile']['en-gb'] = "Single Profile";
 $text['button-single_profile']['ar-eg'] = "ملف شخصي واحد";
 $text['button-single_profile']['de-at'] = "Einzelprofil";
@@ -676,6 +701,7 @@ $text['button-single_profile']['ja-jp'] = "単一プロファイル";
 $text['button-single_profile']['ko-kr'] = "단일 프로필";
 
 $text['message-registrations_unregistered']['en-us'] = "Unregistered";
+$text['message-registrations_unregistered']['vi-vn'] = 'Chưa đăng ký';
 $text['message-registrations_unregistered']['en-gb'] = "Unregistered";
 $text['message-registrations_unregistered']['ar-eg'] = "غير مسجل";
 $text['message-registrations_unregistered']['de-at'] = "Abgemeldet";
@@ -701,6 +727,7 @@ $text['message-registrations_unregistered']['ja-jp'] = "登録解除されまし
 $text['message-registrations_unregistered']['ko-kr'] = "등록 해제됨";
 
 $text['message-registrations_provisioned']['en-us'] = "Provisioned";
+$text['message-registrations_provisioned']['vi-vn'] = 'Đã provision';
 $text['message-registrations_provisioned']['en-gb'] = "Provisioned";
 $text['message-registrations_provisioned']['ar-eg'] = "مُعد";
 $text['message-registrations_provisioned']['de-at'] = "Bereitgestellt";
@@ -726,6 +753,7 @@ $text['message-registrations_provisioned']['ja-jp'] = "プロビジョニング�
 $text['message-registrations_provisioned']['ko-kr'] = "프로비저닝됨";
 
 $text['message-registrations_rebooted']['en-us'] = "Rebooted";
+$text['message-registrations_rebooted']['vi-vn'] = 'Đã khởi động lại';
 $text['message-registrations_rebooted']['en-gb'] = "Rebooted";
 $text['message-registrations_rebooted']['ar-eg'] = "تم إعادة تشغيله";
 $text['message-registrations_rebooted']['de-at'] = "Neugestartet";
@@ -751,6 +779,7 @@ $text['message-registrations_rebooted']['ja-jp'] = "再起動されました";
 $text['message-registrations_rebooted']['ko-kr'] = "재부팅됨";
 
 $text['confirm-unregister']['en-us'] = "Do you really want to UNREGISTER these?";
+$text['confirm-unregister']['vi-vn'] = 'Bạn có thật sự muốn HỦY ĐĂNG KÝ các mục này không?';
 $text['confirm-unregister']['en-gb'] = "Do you really want to UNREGISTER these?";
 $text['confirm-unregister']['ar-eg'] = "هل تريد حقًا إلغاء تسجيل هذه؟";
 $text['confirm-unregister']['de-at'] = "Möchten Sie diese wirklich UNREGISTRIEREN?";
@@ -778,6 +807,7 @@ $text['confirm-unregister']['ja-jp'] = "本当に登録を解除しますか?";
 $text['confirm-unregister']['ko-kr'] = "등록을 취소하시겠습니까?";
 
 $text['confirm-provision']['en-us'] = "Do you really want to PROVISION these?";
+$text['confirm-provision']['vi-vn'] = 'Bạn có thật sự muốn PROVISION các mục này không?';
 $text['confirm-provision']['en-gb'] = "Do you really want to PROVISION these?";
 $text['confirm-provision']['ar-eg'] = "هل تريد حقًا توفير هذه؟";
 $text['confirm-provision']['de-at'] = "Möchten Sie diese wirklich BEREITSTELLEN?";
@@ -805,6 +835,7 @@ $text['confirm-provision']['ja-jp'] = "本当にこれらをプロビジョニ�
 $text['confirm-provision']['ko-kr'] = "프로비저닝하시겠습니까?";
 
 $text['confirm-reboot']['en-us'] = "Do you really want to REBOOT these?";
+$text['confirm-reboot']['vi-vn'] = 'Bạn có thật sự muốn KHỞI ĐỘNG LẠI các mục này không?';
 $text['confirm-reboot']['en-gb'] = "Do you really want to REBOOT these?";
 $text['confirm-reboot']['ar-eg'] = "هل تريد حقًا إعادة تشغيل هذه الأشياء؟";
 $text['confirm-reboot']['de-at'] = "Möchten Sie diese wirklich neu starten?";

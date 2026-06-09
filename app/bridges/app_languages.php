@@ -1,6 +1,7 @@
 <?php
 
 $text['title-bridges']['en-us'] = "Bridges";
+$text['title-bridges']['vi-vn'] = 'Cầu nối';
 $text['title-bridges']['en-gb'] = "Bridges";
 $text['title-bridges']['ar-eg'] = "الجسور";
 $text['title-bridges']['de-at'] = "Brücken";
@@ -28,6 +29,7 @@ $text['title-bridges']['ja-jp'] = "橋";
 $text['title-bridges']['ko-kr'] = "교량";
 
 $text['title-bridge']['en-us'] = "Bridge";
+$text['title-bridge']['vi-vn'] = 'Bridge';
 $text['title-bridge']['en-gb'] = "Bridge";
 $text['title-bridge']['ar-eg'] = "كوبري";
 $text['title-bridge']['de-at'] = "Brücke";
@@ -55,6 +57,7 @@ $text['title-bridge']['ja-jp'] = "橋";
 $text['title-bridge']['ko-kr'] = "다리";
 
 $text['title_description-bridge']['en-us'] = "Add bridge statements to destination select list.";
+$text['title_description-bridge']['vi-vn'] = 'Thêm câu lệnh bridge vào danh sách chọn đích.';
 $text['title_description-bridge']['en-gb'] = "Add bridge statements to destination select list.";
 $text['title_description-bridge']['ar-eg'] = "إضافة عبارات الجسر إلى قائمة تحديد الوجهة.";
 $text['title_description-bridge']['de-at'] = "Bridge-Anweisungen zur Zielauswahlliste hinzufügen.";
@@ -82,6 +85,7 @@ $text['title_description-bridge']['ja-jp'] = "宛先選択リストにブリッ�
 $text['title_description-bridge']['ko-kr'] = "대상 선택 목록에 브리지 문을 추가합니다.";
 
 $text['label-bridge_import']['en-us'] = "Bridge Import";
+$text['label-bridge_import']['vi-vn'] = 'Nhập bridge';
 $text['label-bridge_import']['en-gb'] = "Bridge Import";
 $text['label-bridge_import']['ar-eg'] = "استيراد الجسر";
 $text['label-bridge_import']['de-at'] = "Bridge-Import";
@@ -109,6 +113,7 @@ $text['label-bridge_import']['ja-jp'] = "ブリッジインポート";
 $text['label-bridge_import']['ko-kr'] = "브릿지 임포트";
 
 $text['label-bridge_name']['en-us'] = "Name";
+$text['label-bridge_name']['vi-vn'] = 'Tên';
 $text['label-bridge_name']['en-gb'] = "Name";
 $text['label-bridge_name']['ar-eg'] = "اسم";
 $text['label-bridge_name']['de-at'] = "Name";
@@ -136,6 +141,7 @@ $text['label-bridge_name']['ja-jp'] = "名前";
 $text['label-bridge_name']['ko-kr'] = "이름";
 
 $text['description-bridge_name']['en-us'] = "Enter the name.";
+$text['description-bridge_name']['vi-vn'] = 'Nhập tên.';
 $text['description-bridge_name']['en-gb'] = "Enter the name.";
 $text['description-bridge_name']['ar-eg'] = "أدخل الاسم.";
 $text['description-bridge_name']['de-at'] = "Geben Sie den Namen ein.";
@@ -163,6 +169,7 @@ $text['description-bridge_name']['ja-jp'] = "名前を入力します。";
 $text['description-bridge_name']['ko-kr'] = "이름을 입력하세요.";
 
 $text['label-bridge_action']['en-us'] = "Action";
+$text['label-bridge_action']['vi-vn'] = 'Thao tác';
 $text['label-bridge_action']['en-gb'] = "Action";
 $text['label-bridge_action']['ar-eg'] = "الإجراء";
 $text['label-bridge_action']['de-at'] = "Aktion";
@@ -190,6 +197,7 @@ $text['label-bridge_action']['ja-jp'] = "アクション";
 $text['label-bridge_action']['ko-kr'] = "행동";
 
 $text['description-bridge_action']['en-us'] = "Select the bridge action.";
+$text['description-bridge_action']['vi-vn'] = 'Chọn hành động bridge.';
 $text['description-bridge_action']['en-gb'] = "Select the bridge action.";
 $text['description-bridge_action']['ar-eg'] = "حدد إجراء الجسر.";
 $text['description-bridge_action']['de-at'] = "Wählen Sie die Bridge-Aktion aus.";
@@ -217,6 +225,7 @@ $text['description-bridge_action']['ja-jp'] = "ブリッジアクションを選
 $text['description-bridge_action']['ko-kr'] = "브리지 작업을 선택합니다.";
 
 $text['label-bridge_destination']['en-us'] = "Destination";
+$text['label-bridge_destination']['vi-vn'] = 'Đích';
 $text['label-bridge_destination']['en-gb'] = "Destination";
 $text['label-bridge_destination']['ar-eg'] = "وجهة";
 $text['label-bridge_destination']['de-at'] = "Ziel";
@@ -244,6 +253,7 @@ $text['label-bridge_destination']['ja-jp'] = "行き先";
 $text['label-bridge_destination']['ko-kr'] = "목적지";
 
 $text['description-bridge_destination']['en-us'] = "Enter the destination.";
+$text['description-bridge_destination']['vi-vn'] = 'Nhập đích.';
 $text['description-bridge_destination']['en-gb'] = "Enter the destination.";
 $text['description-bridge_destination']['ar-eg'] = "أدخل الوجهة.";
 $text['description-bridge_destination']['de-at'] = "Geben Sie das Ziel ein.";
@@ -271,6 +281,7 @@ $text['description-bridge_destination']['ja-jp'] = "目的地を入力します�
 $text['description-bridge_destination']['ko-kr'] = "목적지를 입력하세요.";
 
 $text['label-bridge_enabled']['en-us'] = "Enabled";
+$text['label-bridge_enabled']['vi-vn'] = 'Đã bật';
 $text['label-bridge_enabled']['en-gb'] = "Enabled";
 $text['label-bridge_enabled']['ar-eg'] = "ممكن";
 $text['label-bridge_enabled']['de-at'] = "Aktiviert";
@@ -298,6 +309,7 @@ $text['label-bridge_enabled']['ja-jp'] = "有効";
 $text['label-bridge_enabled']['ko-kr'] = "사용";
 
 $text['description-bridge_enabled']['en-us'] = "Select to enable or disable.";
+$text['description-bridge_enabled']['vi-vn'] = 'Chọn bật hoặc tắt.';
 $text['description-bridge_enabled']['en-gb'] = "Select to enable or disable.";
 $text['description-bridge_enabled']['ar-eg'] = "حدد للتمكين أو التعطيل.";
 $text['description-bridge_enabled']['de-at'] = "Wählen Sie zum Aktivieren oder Deaktivieren.";
@@ -325,6 +337,7 @@ $text['description-bridge_enabled']['ja-jp'] = "有効または無効を選択�
 $text['description-bridge_enabled']['ko-kr'] = "활성화 또는 비활성화를 선택합니다.";
 
 $text['label-bridge_description']['en-us'] = "Description";
+$text['label-bridge_description']['vi-vn'] = 'Mô tả';
 $text['label-bridge_description']['en-gb'] = "Description";
 $text['label-bridge_description']['ar-eg'] = "وصف";
 $text['label-bridge_description']['de-at'] = "Beschreibung";
@@ -353,6 +366,7 @@ $text['label-bridge_description']['ja-jp'] = "説明";
 $text['label-bridge_description']['ko-kr'] = "설명";
 
 $text['description-bridge_description']['en-us'] = "Enter the description. ";
+$text['description-bridge_description']['vi-vn'] = 'Nhập mô tả. ';
 $text['description-bridge_description']['en-gb'] = "Enter the description. ";
 $text['description-bridge_description']['ar-eg'] = "أدخل الوصف.";
 $text['description-bridge_description']['de-at'] = "Geben Sie die Beschreibung ein.";
@@ -380,6 +394,7 @@ $text['description-bridge_description']['ja-jp'] = "説明を入力します。"
 $text['description-bridge_description']['ko-kr'] = "설명을 입력합니다.";
 
 $text['label-bridge_profile']['en-us'] = "Profile";
+$text['label-bridge_profile']['vi-vn'] = 'Profile';
 $text['label-bridge_profile']['en-gb'] = "Profile";
 $text['label-bridge_profile']['ar-eg'] = "موجز";
 $text['label-bridge_profile']['de-at'] = "Profil";
@@ -407,6 +422,7 @@ $text['label-bridge_profile']['ja-jp'] = "プロフィール";
 $text['label-bridge_profile']['ko-kr'] = "프로필";
 
 $text['description-bridge_profile']['en-us'] = "Enter the profile here.";
+$text['description-bridge_profile']['vi-vn'] = 'Nhập profile tại đây.';
 $text['description-bridge_profile']['en-gb'] = "Enter the profile here.";
 $text['description-bridge_profile']['ar-eg'] = "أدخل ملف التعريف هنا.ا";
 $text['description-bridge_profile']['de-at'] = "Definieren Sie die Einstellungen für dieses Profil.";
@@ -434,6 +450,7 @@ $text['description-bridge_profile']['ja-jp'] = "ここにプロフィールを�
 $text['description-bridge_profile']['ko-kr'] = "여기에 프로필을 입력하세요.";
 
 $text['label-bridge_variables']['en-us'] = "Variables";
+$text['label-bridge_variables']['vi-vn'] = 'Biến';
 $text['label-bridge_variables']['en-gb'] = "Variables";
 $text['label-bridge_variables']['ar-eg'] = "المتغيرات";
 $text['label-bridge_variables']['de-at'] = "Variablen";
@@ -461,6 +478,7 @@ $text['label-bridge_variables']['ja-jp'] = "変数";
 $text['label-bridge_variables']['ko-kr'] = "변수";
 
 $text['description-bridge_variables']['en-us'] = "Set a value for the variable.";
+$text['description-bridge_variables']['vi-vn'] = 'Đặt giá trị cho biến.';
 $text['description-bridge_variables']['en-gb'] = "Set a value for the variable.";
 $text['description-bridge_variables']['ar-eg'] = "قم بتعيين قيمة للمتغير.";
 $text['description-bridge_variables']['de-at'] = "Legen Sie einen Wert für die Variable fest.";
@@ -488,6 +506,7 @@ $text['description-bridge_variables']['ja-jp'] = "変数の値を設定します
 $text['description-bridge_variables']['ko-kr'] = "변수의 값을 설정합니다.";
 
 $text['label-bridge_gateways']['en-us'] = "Gateways";
+$text['label-bridge_gateways']['vi-vn'] = 'Gateway';
 $text['label-bridge_gateways']['en-gb'] = "Gateways";
 $text['label-bridge_gateways']['ar-eg'] = "البوابات";
 $text['label-bridge_gateways']['de-at'] = "Gateways";
@@ -515,6 +534,7 @@ $text['label-bridge_gateways']['ja-jp'] = "ゲートウェイ";
 $text['label-bridge_gateways']['ko-kr'] = "게이트웨이";
 
 $text['description-bridge_gateways']['en-us'] = "Select the gateway.";
+$text['description-bridge_gateways']['vi-vn'] = 'Chọn gateway.';
 $text['description-bridge_gateways']['en-gb'] = "Select the gateway.";
 $text['description-bridge_gateways']['ar-eg'] = "حدد البوابة.";
 $text['description-bridge_gateways']['de-at'] = "Wählen Sie das Gateway aus.";
@@ -569,6 +589,7 @@ $text['description-bridge_variables']['ja-jp'] = "変数の値を設定します
 $text['description-bridge_variables']['ko-kr'] = "변수의 값을 설정합니다.";
 
 $text['label-destination_number']['en-us'] = "Destination Number";
+$text['label-destination_number']['vi-vn'] = 'Số đích';
 $text['label-destination_number']['en-gb'] = "Destination Number";
 $text['label-destination_number']['ar-eg'] = "رقم الوجهة";
 $text['label-destination_number']['de-at'] = "Zielnummer";
@@ -596,6 +617,7 @@ $text['label-destination_number']['ja-jp'] = "宛先番号";
 $text['label-destination_number']['ko-kr'] = "대상 번호";
 
 $text['description-destination_number']['en-us'] = "Set the destination number for the action.";
+$text['description-destination_number']['vi-vn'] = 'Đặt số đích cho hành động.';
 $text['description-destination_number']['en-gb'] = "Set the destination number for the action.";
 $text['description-destination_number']['ar-eg'] = "قم بتعيين رقم الوجهة للإجراء.";
 $text['description-destination_number']['de-at'] = "Legen Sie die Zielnummer für die Aktion fest.";

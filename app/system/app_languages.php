@@ -1,6 +1,7 @@
 <?php
 
 $text['title-sys-status']['en-us'] = "System Status";
+$text['title-sys-status']['vi-vn'] = 'Trạng thái hệ thống';
 $text['title-sys-status']['en-gb'] = "System Status";
 $text['title-sys-status']['ar-eg'] = "حالة النظام";
 $text['title-sys-status']['de-at'] = "System Status";
@@ -28,6 +29,7 @@ $text['title-sys-status']['ja-jp'] = "システムステータス";
 $text['title-sys-status']['ko-kr'] = "시스템 상태";
 
 $text['title-sys-info']['en-us'] = "System Information";
+$text['title-sys-info']['vi-vn'] = 'Thông tin hệ thống';
 $text['title-sys-info']['en-gb'] = "System Information";
 $text['title-sys-info']['ar-eg'] = "معلومات النظام";
 $text['title-sys-info']['de-at'] = "System Information";
@@ -55,6 +57,7 @@ $text['title-sys-info']['ja-jp'] = "システムインフォメーション";
 $text['title-sys-info']['ko-kr'] = "시스템 정보";
 
 $text['title-os-info']['en-us'] = "Operating System Information";
+$text['title-os-info']['vi-vn'] = 'Thông tin hệ điều hành';
 $text['title-os-info']['en-gb'] = "Operating System Information";
 $text['title-os-info']['ar-eg'] = "معلومات نظام التشغيل";
 $text['title-os-info']['de-at'] = "Informationen zum Betriebssystem";
@@ -82,6 +85,7 @@ $text['title-os-info']['ja-jp'] = "オペレーティング システム情報";
 $text['title-os-info']['ko-kr'] = "운영 체제 정보";
 
 $text['title-database']['en-us'] = "Database Information";
+$text['title-database']['vi-vn'] = 'Thông tin cơ sở dữ liệu';
 $text['title-database']['en-gb'] = "Database Information";
 $text['title-database']['ar-eg'] = "معلومات قاعدة البيانات";
 $text['title-database']['de-at'] = "Database Information";
@@ -109,6 +113,7 @@ $text['title-database']['ja-jp'] = "データベース情報";
 $text['title-database']['ko-kr'] = "데이터베이스 정보";
 
 $text['title-memcache']['en-us'] = "Memcache Information";
+$text['title-memcache']['vi-vn'] = 'Thông tin Memcache';
 $text['title-memcache']['en-gb'] = "Memcache Information";
 $text['title-memcache']['ar-eg'] = "معلومات Memcache";
 $text['title-memcache']['de-at'] = "Memcache Information";
@@ -136,6 +141,7 @@ $text['title-memcache']['ja-jp'] = "Memcache 情報";
 $text['title-memcache']['ko-kr'] = "Memcache 정보";
 
 $text['title-mem']['en-us'] = "Memory Information";
+$text['title-mem']['vi-vn'] = 'Thông tin bộ nhớ';
 $text['title-mem']['en-gb'] = "Memory Information";
 $text['title-mem']['ar-eg'] = "Informații Memcache";
 $text['title-mem']['de-at'] = "Speicher Information";
@@ -163,6 +169,7 @@ $text['title-mem']['ja-jp'] = "メモリ情報";
 $text['title-mem']['ko-kr'] = "메모리 정보";
 
 $text['title-drive']['en-us'] = "Drive Information";
+$text['title-drive']['vi-vn'] = 'Thông tin ổ đĩa';
 $text['title-drive']['en-gb'] = "Drive Information";
 $text['title-drive']['ar-eg'] = "Informații despre unitate";
 $text['title-drive']['de-at'] = "Festplatten Information";
@@ -190,6 +197,7 @@ $text['title-drive']['ja-jp'] = "ドライブ情報";
 $text['title-drive']['ko-kr'] = "드라이브 정보";
 
 $text['title-cpu']['en-us'] = "CPU Information";
+$text['title-cpu']['vi-vn'] = 'Thông tin CPU';
 $text['title-cpu']['en-gb'] = "CPU Information";
 $text['title-cpu']['ar-eg'] = "معلومات وحدة المعالجة المركزية";
 $text['title-cpu']['de-at'] = "CPU Information";
@@ -217,6 +225,7 @@ $text['title-cpu']['ja-jp'] = "CPU情報";
 $text['title-cpu']['ko-kr'] = "CPU 정보";
 
 $text['message-unavailable']['en-us'] = "Unavailable";
+$text['message-unavailable']['vi-vn'] = 'Không khả dụng';
 $text['message-unavailable']['en-gb'] = "Unavailable";
 $text['message-unavailable']['ar-eg'] = "غير متوفره";
 $text['message-unavailable']['de-at'] = "Nicht verfügbar";
@@ -244,6 +253,7 @@ $text['message-unavailable']['ja-jp'] = "利用不可";
 $text['message-unavailable']['ko-kr'] = "없는";
 
 $text['label-service']['en-us'] = 'Service';
+$text['label-service']['vi-vn'] = 'Dịch vụ';
 $text['label-service']['en-gb'] = 'Service';
 $text['label-service']['ar-eg'] = 'خدمة';
 $text['label-service']['de-at'] = 'Service';
@@ -271,6 +281,7 @@ $text['label-service']['ja-jp'] = 'サービス';
 $text['label-service']['ko-kr'] = '서비스';
 
 $text['label-running']['en-us'] = "Running";
+$text['label-running']['vi-vn'] = 'Đang chạy';
 $text['label-running']['en-gb'] = "Running";
 $text['label-running']['ar-eg'] = "فعال";
 $text['label-running']['de-at'] = "Aktiv";
@@ -298,6 +309,7 @@ $text['label-running']['ja-jp'] = "ランニング";
 $text['label-running']['ko-kr'] = "달리기";
 
 $text['label-yes']['en-us'] = "Yes";
+$text['label-yes']['vi-vn'] = 'Có';
 $text['label-yes']['en-gb'] = "Yes";
 $text['label-yes']['ar-eg'] = "نعم";
 $text['label-yes']['de-at'] = "Ja";
@@ -324,6 +336,7 @@ $text['label-yes']['ja-jp'] = "はい";
 $text['label-yes']['ko-kr'] = "예";
 
 $text['label-no']['en-us'] = "No";
+$text['label-no']['vi-vn'] = 'Không';
 $text['label-no']['en-gb'] = "No";
 $text['label-no']['ar-eg'] = "لا";
 $text['label-no']['de-at'] = "Nein";
@@ -350,6 +363,7 @@ $text['label-no']['ja-jp'] = "いいえ";
 $text['label-no']['ko-kr'] = "아니요";
 
 $text['label-os']['en-us'] = "Operating System";
+$text['label-os']['vi-vn'] = 'Hệ điều hành';
 $text['label-os']['en-gb'] = "Operating System";
 $text['label-os']['ar-eg'] = "מערכת הפעלה";
 $text['label-os']['de-at'] = "Betriebssystem";
@@ -377,6 +391,7 @@ $text['label-os']['ja-jp'] = "オペレーティング·システム";
 $text['label-os']['ko-kr'] = "운영 체제";
 
 $text['label-kernel']['en-us'] = "Kernel";
+$text['label-kernel']['vi-vn'] = 'Kernel';
 $text['label-kernel']['en-gb'] = "Kernel";
 $text['label-kernel']['ar-eg'] = "نواة";
 $text['label-kernel']['de-at'] = "Kernel";
@@ -404,6 +419,7 @@ $text['label-kernel']['ja-jp'] = "カーネル";
 $text['label-kernel']['ko-kr'] = "핵심";
 
 $text['label-uptime']['en-us'] = "Uptime";
+$text['label-uptime']['vi-vn'] = 'Thời gian hoạt động';
 $text['label-uptime']['en-gb'] = "Uptime";
 $text['label-uptime']['ar-eg'] = "وقت التشغيل";
 $text['label-uptime']['de-at'] = "Betriebszeit";
@@ -431,6 +447,7 @@ $text['label-uptime']['ja-jp'] = "稼働時間";
 $text['label-uptime']['ko-kr'] = "작동 시간";
 
 $text['label-databases']['en-us'] = "Databases";
+$text['label-databases']['vi-vn'] = 'Cơ sở dữ liệu';
 $text['label-databases']['en-gb'] = "Databases";
 $text['label-databases']['ar-eg'] = "قواعد بيانات";
 $text['label-databases']['de-at'] = "Datenbanken";
@@ -458,6 +475,7 @@ $text['label-databases']['ja-jp'] = "データベース";
 $text['label-databases']['ko-kr'] = "데이터베이스";
 
 $text['label-git_info']['en-us'] = "Git Information";
+$text['label-git_info']['vi-vn'] = 'Thông tin Git';
 $text['label-git_info']['en-gb'] = "Git Information";
 $text['label-git_info']['ar-eg'] = "معلومات Git";
 $text['label-git_info']['de-at'] = "Git Informationen";
@@ -485,6 +503,7 @@ $text['label-git_info']['ja-jp'] = "Git情報";
 $text['label-git_info']['ko-kr'] = "힘내 정보";
 
 $text['label-git_corrupted']['en-us'] = "Git data is corrupt";
+$text['label-git_corrupted']['vi-vn'] = 'Dữ liệu Git bị hỏng';
 $text['label-git_corrupted']['en-gb'] = "Git data is corrupt";
 $text['label-git_corrupted']['ar-eg'] = "بيانات Git تالفة";
 $text['label-git_corrupted']['de-at'] = "Git Daten sind korrupt";
@@ -512,6 +531,7 @@ $text['label-git_corrupted']['ja-jp'] = "Git データが破損しています";
 $text['label-git_corrupted']['ko-kr'] = "힘내 데이터가 손상되었습니다";
 
 $text['label-switch']['en-us'] = "Switch";
+$text['label-switch']['vi-vn'] = 'Switch';
 $text['label-switch']['en-gb'] = "Switch";
 $text['label-switch']['ar-eg'] = "يُحوّل";
 $text['label-switch']['de-at'] = "Switch";
@@ -539,6 +559,7 @@ $text['label-switch']['ja-jp'] = "スイッチ";
 $text['label-switch']['ko-kr'] = "스위치";
 
 $text['label-git_branch']['en-us'] = "Branch";
+$text['label-git_branch']['vi-vn'] = 'Nhánh';
 $text['label-git_branch']['en-gb'] = "Branch";
 $text['label-git_branch']['ar-eg'] = "فرع";
 $text['label-git_branch']['de-at'] = "Zweig";
@@ -566,6 +587,7 @@ $text['label-git_branch']['ja-jp'] = "ブランチ";
 $text['label-git_branch']['ko-kr'] = "나뭇가지";
 
 $text['label-php']['en-us'] = "PHP";
+$text['label-php']['vi-vn'] = 'PHP';
 $text['label-php']['en-gb'] = "PHP";
 $text['label-php']['ar-eg'] = "PHP";
 $text['label-php']['de-at'] = "PHP";
@@ -593,6 +615,7 @@ $text['label-php']['ja-jp'] = "PHP";
 $text['label-php']['ko-kr'] = "PHP";
 
 $text['label-git_commit']['en-us'] = "Commit";
+$text['label-git_commit']['vi-vn'] = 'Commit';
 $text['label-git_commit']['en-gb'] = "Commit";
 $text['label-git_commit']['ar-eg'] = "يقترف";
 $text['label-git_commit']['de-at'] = "Übergeben";
@@ -620,6 +643,7 @@ $text['label-git_commit']['ja-jp'] = "専念";
 $text['label-git_commit']['ko-kr'] = "저지르다";
 
 $text['label-git_origin']['en-us'] = "Origin";
+$text['label-git_origin']['vi-vn'] = 'Origin';
 $text['label-git_origin']['en-gb'] = "Origin";
 $text['label-git_origin']['ar-eg'] = "أصل";
 $text['label-git_origin']['de-at'] = "Quelle";
@@ -647,6 +671,7 @@ $text['label-git_origin']['ja-jp'] = "元";
 $text['label-git_origin']['ko-kr'] = "기원";
 
 $text['label-git_status']['en-us'] = "Status";
+$text['label-git_status']['vi-vn'] = 'Trạng thái';
 $text['label-git_status']['en-gb'] = "Status";
 $text['label-git_status']['ar-eg'] = "حالة";
 $text['label-git_status']['de-at'] = "Status";
@@ -674,6 +699,7 @@ $text['label-git_status']['ja-jp'] = "スターテス";
 $text['label-git_status']['ko-kr'] = "상태";
 
 $text['label-database_connections']['en-us'] = "Connections";
+$text['label-database_connections']['vi-vn'] = 'Kết nối';
 $text['label-database_connections']['en-gb'] = "Connections";
 $text['label-database_connections']['ar-eg'] = "روابط";
 $text['label-database_connections']['de-at'] = "Verbindungen";
@@ -701,6 +727,7 @@ $text['label-database_connections']['ja-jp'] = "接続";
 $text['label-database_connections']['ko-kr'] = "사이";
 
 $text['label-memcache_status']['en-us'] = "Memcache Status";
+$text['label-memcache_status']['vi-vn'] = 'Trạng thái Memcache';
 $text['label-memcache_status']['en-gb'] = "Memcache Status";
 $text['label-memcache_status']['ar-eg'] = "حالة Memcache";
 $text['label-memcache_status']['de-at'] = "Memcache Status";
@@ -728,6 +755,7 @@ $text['label-memcache_status']['ja-jp'] = "Memcache のステータス";
 $text['label-memcache_status']['ko-kr'] = "Memcache 상태";
 
 $text['label-mem']['en-us'] = "Memory Status";
+$text['label-mem']['vi-vn'] = 'Trạng thái bộ nhớ';
 $text['label-mem']['en-gb'] = "Memory Status";
 $text['label-mem']['ar-eg'] = "حالة الذاكرة";
 $text['label-mem']['de-at'] = "Speicher Status";
@@ -755,6 +783,7 @@ $text['label-mem']['ja-jp'] = "メモリの状態";
 $text['label-mem']['ko-kr'] = "메모리 상태";
 
 $text['label-drive-percent']['en-us'] = "Percent Free";
+$text['label-drive-percent']['vi-vn'] = 'Phần trăm trống';
 $text['label-drive-percent']['en-gb'] = "Percent Free";
 $text['label-drive-percent']['ar-eg'] = "النسبة المئوية مجانية";
 $text['label-drive-percent']['de-at'] = "Prozent Frei";
@@ -782,6 +811,7 @@ $text['label-drive-percent']['ja-jp'] = "空き率";
 $text['label-drive-percent']['ko-kr'] = "퍼센트 무료";
 
 $text['label-drive-free']['en-us'] = "Free Space";
+$text['label-drive-free']['vi-vn'] = 'Dung lượng trống';
 $text['label-drive-free']['en-gb'] = "Free Space";
 $text['label-drive-free']['ar-eg'] = "مساحة فارغة";
 $text['label-drive-free']['de-at'] = "Freier Speicherplatz";
@@ -809,6 +839,7 @@ $text['label-drive-free']['ja-jp'] = "フリースペース";
 $text['label-drive-free']['ko-kr'] = "자유 공간";
 
 $text['label-drive-capacity']['en-us'] = "Capacity";
+$text['label-drive-capacity']['vi-vn'] = 'Dung lượng';
 $text['label-drive-capacity']['en-gb'] = "Capacity";
 $text['label-drive-capacity']['ar-eg'] = "سعة";
 $text['label-drive-capacity']['de-at'] = "Kapazität";
@@ -836,6 +867,7 @@ $text['label-drive-capacity']['ja-jp'] = "容量";
 $text['label-drive-capacity']['ko-kr'] = "용량";
 
 $text['label-drive']['en-us'] = "Drive Space";
+$text['label-drive']['vi-vn'] = 'Dung lượng ổ đĩa';
 $text['label-drive']['en-gb'] = "Drive Space";
 $text['label-drive']['ar-eg'] = "مساحة القيادة";
 $text['label-drive']['de-at'] = "Festplatten Speicher";
@@ -863,6 +895,7 @@ $text['label-drive']['ja-jp'] = "ドライブ容量";
 $text['label-drive']['ko-kr'] = "드라이브 공간";
 
 $text['label-cpu']['en-us'] = "CPU Status";
+$text['label-cpu']['vi-vn'] = 'Trạng thái CPU';
 $text['label-cpu']['en-gb'] = "CPU Status";
 $text['label-cpu']['ar-eg'] = "حالة وحدة المعالجة المركزية";
 $text['label-cpu']['de-at'] = "CPU Status";
@@ -890,6 +923,7 @@ $text['label-cpu']['ja-jp'] = "CPU ステータス";
 $text['label-cpu']['ko-kr'] = "CPU 상태";
 
 $text['label-cpu_usage']['en-us'] = "CPU Usage";
+$text['label-cpu_usage']['vi-vn'] = 'Mức dùng CPU';
 $text['label-cpu_usage']['en-gb'] = "CPU Usage";
 $text['label-cpu_usage']['ar-eg'] = "معالج الاستخدام";
 $text['label-cpu_usage']['de-at'] = "Prozessorauslastung ";
@@ -918,6 +952,7 @@ $text['label-cpu_usage']['ja-jp'] = "CPU使用率";
 $text['label-cpu_usage']['ko-kr'] = "CPU 사용량";
 
 $text['label-cpu_cores']['en-us'] = "CPU Cores";
+$text['label-cpu_cores']['vi-vn'] = 'Nhân CPU';
 $text['label-cpu_cores']['en-gb'] = "CPU Cores";
 $text['label-cpu_cores']['ar-eg'] = "أنوية وحدة المعالجة المركزية";
 $text['label-cpu_cores']['de-at'] = "CPU-Kerne";
@@ -945,6 +980,7 @@ $text['label-cpu_cores']['ja-jp'] = "CPUのサイトマップ";
 $text['label-cpu_cores']['ko-kr'] = "CPU의 사이트맵";
 
 $text['label-load_average']['en-us'] = "Load Average";
+$text['label-load_average']['vi-vn'] = 'Tải trung bình';
 $text['label-load_average']['en-gb'] = "Load Average";
 $text['label-load_average']['ar-eg'] = "متوسط الحمل";
 $text['label-load_average']['de-at'] = "Durchschnittslast";
@@ -972,6 +1008,7 @@ $text['label-load_average']['ja-jp'] = "負荷平均";
 $text['label-load_average']['ko-kr'] = "부하 평균";
 
 $text['label-network_usage']['en-us'] = "Network Usage";
+$text['label-network_usage']['vi-vn'] = 'Mức dùng mạng';
 $text['label-network_usage']['en-gb'] = "Network Usage";
 $text['label-network_usage']['ar-eg'] = "استخدام الشبكة";
 $text['label-network_usage']['de-at'] = "Netzwerknutzung";
@@ -999,6 +1036,7 @@ $text['label-network_usage']['ja-jp'] = "ネットワーク使用状況";
 $text['label-network_usage']['ko-kr'] = "네트워크 사용량";
 
 $text['header-sys-status']['en-us'] = "System Status";
+$text['header-sys-status']['vi-vn'] = 'Trạng thái hệ thống';
 $text['header-sys-status']['en-gb'] = "System Status";
 $text['header-sys-status']['ar-eg'] = "حالة النظام";
 $text['header-sys-status']['de-at'] = "Systemstatus";
@@ -1025,6 +1063,7 @@ $text['header-sys-status']['ja-jp'] = "システムステータス";
 $text['header-sys-status']['ko-kr'] = "시스템 상태";
 
 $text['label-support']['en-us'] = "Support Information";
+$text['label-support']['vi-vn'] = 'Thông tin hỗ trợ';
 $text['label-support']['en-gb'] = "Support Information";
 $text['label-support']['ar-eg'] = "معلومات الدعم";
 $text['label-support']['de-at'] = "Unterstützende Informationen";
@@ -1050,6 +1089,7 @@ $text['label-support']['ja-jp'] = "サポート情報";
 $text['label-support']['ko-kr'] = "지원 정보";
 
 $text['label-json']['en-us'] = "JSON";
+$text['label-json']['vi-vn'] = 'JSON';
 $text['label-json']['en-gb'] = "JSON";
 $text['label-json']['ar-eg'] = "JSON";
 $text['label-json']['de-at'] = "JSON";
@@ -1075,6 +1115,7 @@ $text['label-json']['ja-jp'] = "JSON";
 $text['label-json']['ko-kr'] = "JSON";
 
 $text['label-system_cpu_usage']['en-us'] = "CPU Usage";
+$text['label-system_cpu_usage']['vi-vn'] = 'Mức dùng CPU';
 $text['label-system_cpu_usage']['en-gb'] = "CPU Usage";
 $text['label-system_cpu_usage']['ar-eg'] = "معالج الاستخدام";
 $text['label-system_cpu_usage']['de-at'] = "Prozessorauslastung ";
@@ -1103,6 +1144,7 @@ $text['label-system_cpu_usage']['ja-jp'] = "CPU使用率";
 $text['label-system_cpu_usage']['ko-kr'] = "CPU 사용량";
 
 $text['label-system_network_status']['en-us'] = "System Network Status";
+$text['label-system_network_status']['vi-vn'] = 'Trạng thái mạng hệ thống';
 $text['label-system_network_status']['en-gb'] = "System Network Status";
 $text['label-system_network_status']['ar-eg'] = "حالة الشبكة النظامية";
 $text['label-system_network_status']['de-at'] = "System-Netzwerkstatus";
@@ -1128,6 +1170,7 @@ $text['label-system_network_status']['ja-jp'] = "システムネットワーク�
 $text['label-system_network_status']['ko-kr'] = "시스템 네트워크 상태";
 
 $text['label-system_services']['en-us'] = "System Services";
+$text['label-system_services']['vi-vn'] = 'Dịch vụ hệ thống';
 $text['label-system_services']['en-gb'] = "System Services";
 $text['label-system_services']['ar-eg'] = "خدمات النظام";
 $text['label-system_services']['de-at'] = "Systemdienste";
@@ -1153,6 +1196,7 @@ $text['label-system_services']['ja-jp'] = "システムサービス";
 $text['label-system_services']['ko-kr'] = "시스템 서비스";
 
 $text['label-system_status']['en-us'] = "System Status";
+$text['label-system_status']['vi-vn'] = 'Trạng thái hệ thống';
 $text['label-system_status']['en-gb'] = "System Status";
 $text['label-system_status']['ar-eg'] = "حالة النظام";
 $text['label-system_status']['de-at'] = "Systemstatus";

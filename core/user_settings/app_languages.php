@@ -1,6 +1,7 @@
 <?php
 
 $text['title-user_settings']['en-us'] = "User Settings";
+$text['title-user_settings']['vi-vn'] = "Cài đặt người dùng";
 $text['title-user_settings']['en-gb'] = "User Settings";
 $text['title-user_settings']['ar-eg'] = "إعدادات المستخدم";
 $text['title-user_settings']['de-at'] = "Benutzereinstellungen";
@@ -29,6 +30,7 @@ $text['title-user_settings']['ja-jp'] = "ユーザー設定";
 $text['title-user_settings']['ko-kr'] = "사용자 설정";
 
 $text['title_description-user_settings']['en-us'] = "Settings for this user that should override those defined in Domain or Default Settings.";
+$text['title_description-user_settings']['vi-vn'] = "Các cài đặt cho người dùng này sẽ ghi đè những cài đặt đã định nghĩa trong Cài đặt tên miền hoặc Cài đặt mặc định.";
 $text['title_description-user_settings']['en-gb'] = "Settings for this user that should override those defined in Domain or Default Settings.";
 $text['title_description-user_settings']['ar-eg'] = "يجب أن تتجاوز الإعدادات الخاصة بهذا المستخدم الإعدادات المحددة في النطاق أو الإعدادات الافتراضية.";
 $text['title_description-user_settings']['de-at'] = "Einstellungen für diesen Benutzer, die die in den Domänen- oder Standardeinstellungen definierten überschreiben sollen.";
@@ -56,6 +58,7 @@ $text['title_description-user_settings']['ja-jp'] = "ドメインまたはデフ
 $text['title_description-user_settings']['ko-kr'] = "이 사용자에 대한 설정은 도메인 또는 기본 설정에서 정의된 것을 무시해야 합니다.";
 
 $text['title-user_setting-edit']['en-us'] = "User Setting";
+$text['title-user_setting-edit']['vi-vn'] = "Cài đặt người dùng";
 $text['title-user_setting-edit']['en-gb'] = "User Setting";
 $text['title-user_setting-edit']['ar-eg'] = "مؤسسة مستعمل";
 $text['title-user_setting-edit']['de-at'] = "Benutzereinstellung";
@@ -83,6 +86,7 @@ $text['title-user_setting-edit']['ja-jp'] = "ユーザー設定";
 $text['title-user_setting-edit']['ko-kr'] = "사용자 설정";
 
 $text['title-user_setting-add']['en-us'] = "User Setting Add";
+$text['title-user_setting-add']['vi-vn'] = "Thêm cài đặt người dùng";
 $text['title-user_setting-add']['en-gb'] = "User Setting Add";
 $text['title-user_setting-add']['ar-eg'] = "المستعمل";
 $text['title-user_setting-add']['de-at'] = "Benutzereinstellung hinzufügen";
@@ -110,6 +114,7 @@ $text['title-user_setting-add']['ja-jp'] = "ユーザー設定追加";
 $text['title-user_setting-add']['ko-kr'] = "사용자 설정 추가";
 
 $text['title-user_dashboard']['en-us'] = "Dashboard";
+$text['title-user_dashboard']['vi-vn'] = "Bảng điều khiển";
 $text['title-user_dashboard']['en-gb'] = "Dashboard";
 $text['title-user_dashboard']['ar-eg'] = "الصفحه الرئيسيه للمستخدم";
 $text['title-user_dashboard']['de-at'] = "Benutzerübersicht";
@@ -137,6 +142,7 @@ $text['title-user_dashboard']['ja-jp'] = "ダッシュボード";
 $text['title-user_dashboard']['ko-kr'] = "대시보드";
 
 $text['title']['en-us'] = "Account Settings";
+$text['title']['vi-vn'] = "Cài đặt tài khoản";
 $text['title']['en-gb'] = "Account Settings";
 $text['title']['ar-eg'] = "إعدادات الحساب";
 $text['title']['de-at'] = "Kontoeinstellungen";
@@ -164,6 +170,7 @@ $text['title']['ja-jp'] = "アカウント設定";
 $text['title']['ko-kr'] = "계정 설정";
 
 $text['table2-title']['en-us'] = "Additional Info";
+$text['table2-title']['vi-vn'] = "Thông tin bổ sung";
 $text['table2-title']['en-gb'] = "Additional Info";
 $text['table2-title']['ar-eg'] = "معلومات اضافيه";
 $text['table2-title']['de-at'] = "Zusätzliche Informationen";
@@ -191,6 +198,7 @@ $text['table2-title']['ja-jp'] = "追加情報";
 $text['table2-title']['ko-kr'] = "추가 정보";
 
 $text['table-tools']['en-us'] = "Tools";
+$text['table-tools']['vi-vn'] = "Công cụ";
 $text['table-tools']['en-gb'] = "Tools";
 $text['table-tools']['ar-eg'] = "الادوات";
 $text['table-tools']['de-at'] = "Funktionen";
@@ -218,6 +226,7 @@ $text['table-tools']['ja-jp'] = "ツール";
 $text['table-tools']['ko-kr'] = "工具";
 
 $text['table-title']['en-us'] = "User Info";
+$text['table-title']['vi-vn'] = "Thông tin người dùng";
 $text['table-title']['en-gb'] = "User Info";
 $text['table-title']['ar-eg'] = "بيانات المستخدم";
 $text['table-title']['de-at'] = "Benutzerinformationen";
@@ -245,6 +254,7 @@ $text['table-title']['ja-jp'] = "ユーザー情報";
 $text['table-title']['ko-kr'] = "사용자 정보";
 
 $text['table-extension']['en-us'] = "Extension";
+$text['table-extension']['vi-vn'] = "Máy nhánh";
 $text['table-extension']['en-gb'] = "Extension";
 $text['table-extension']['ar-eg'] = "رقم داخلي";
 $text['table-extension']['de-at'] = "Nebenstelle";
@@ -272,6 +282,7 @@ $text['table-extension']['ja-jp'] = "エクステンション";
 $text['table-extension']['ko-kr'] = "확대";
 
 $text['table-description']['en-us'] = "Description";
+$text['table-description']['vi-vn'] = "Mô tả";
 $text['table-description']['en-gb'] = "Description";
 $text['table-description']['ar-eg'] = "الوصف";
 $text['table-description']['de-at'] = "Beschreibung";
@@ -299,6 +310,7 @@ $text['table-description']['ja-jp'] = "説明";
 $text['table-description']['ko-kr'] = "설명";
 
 $text['message-reset_link_sent']['en-us'] = "Password Reset Link Sent";
+$text['message-reset_link_sent']['vi-vn'] = "Đã gửi liên kết đặt lại mật khẩu";
 $text['message-reset_link_sent']['en-gb'] = "Password Reset Link Sent";
 $text['message-reset_link_sent']['ar-eg'] = "تم ارسال رابط اعادة تعيين كلمة السر";
 $text['message-reset_link_sent']['de-at'] = "Link zum Zurücksetzen des Passworts gesendet";
@@ -326,6 +338,7 @@ $text['message-reset_link_sent']['ja-jp'] = "送信されたパスワードリ�
 $text['message-reset_link_sent']['ko-kr'] = "비밀번호 재설정 링크가 보냈습니다";
 
 $text['message-password_reset']['en-us'] = "Password Reset";
+$text['message-password_reset']['vi-vn'] = "Đặt lại mật khẩu";
 $text['message-password_reset']['en-gb'] = "Password Reset";
 $text['message-password_reset']['ar-eg'] = "اعادة تعيين كلمة السر";
 $text['message-password_reset']['de-at'] = "Passwort zurücksetzen";
@@ -353,6 +366,7 @@ $text['message-password_reset']['ja-jp'] = "パスワードリセット";
 $text['message-password_reset']['ko-kr'] = "비밀번호 재설정";
 
 $text['message-password_reset_link_invalid']['en-us'] = "Password Reset Link is Invalid";
+$text['message-password_reset_link_invalid']['vi-vn'] = "Liên kết đặt lại mật khẩu không hợp lệ";
 $text['message-password_reset_link_invalid']['en-gb'] = "Password Reset Link is Invalid";
 $text['message-password_reset_link_invalid']['ar-eg'] = "رابط إعادة تعيين كلمة السر غير صالحة";
 $text['message-password_reset_link_invalid']['de-at'] = "Passwort-Rücksetzungslink ist ungültig";
@@ -380,6 +394,7 @@ $text['message-password_reset_link_invalid']['ja-jp'] = "パスワードリセ�
 $text['message-password_reset_link_invalid']['ko-kr'] = "비밀번호 재설정 링크가 유효하지 않습니다";
 
 $text['message-password_requirements']['en-us'] = "Password Requirements";
+$text['message-password_requirements']['vi-vn'] = "Yêu cầu mật khẩu";
 $text['message-password_requirements']['en-gb'] = "Password Requirements";
 $text['message-password_requirements']['ar-eg'] = "متطلبات كلمة السر";
 $text['message-password_requirements']['de-at'] = "Kennwortanforderungen ";
@@ -407,6 +422,7 @@ $text['message-password_requirements']['ja-jp'] = "パスワード要件";
 $text['message-password_requirements']['ko-kr'] = "비밀번호 요구 사항";
 
 $text['message-password_mismatch']['en-us'] = "Password Mismatch";
+$text['message-password_mismatch']['vi-vn'] = "Mật khẩu không khớp";
 $text['message-password_mismatch']['en-gb'] = "Password Mismatch";
 $text['message-password_mismatch']['ar-eg'] = "كلمة السر";
 $text['message-password_mismatch']['de-at'] = "Passwörter stimmen nicht überein.";
@@ -434,6 +450,7 @@ $text['message-password_mismatch']['ja-jp'] = "パスワード";
 $text['message-password_mismatch']['ko-kr'] = "암호 불일치";
 
 $text['message-password_blank']['en-us'] = "Invalid Password";
+$text['message-password_blank']['vi-vn'] = "Mật khẩu không hợp lệ";
 $text['message-password_blank']['en-gb'] = "Invalid Password";
 $text['message-password_blank']['ar-eg'] = "كلمة سر غير صالحة";
 $text['message-password_blank']['de-at'] = "Falsches Passwort";
@@ -461,6 +478,7 @@ $text['message-password_blank']['ja-jp'] = "無効なパスワード";
 $text['message-password_blank']['ko-kr'] = "유효하지 않은 비밀번호";
 
 $text['message-invalid_username_mismatch_passwords']['en-us'] = "Invalid Username and/or Mismatched Passwords";
+$text['message-invalid_username_mismatch_passwords']['vi-vn'] = "Tên đăng nhập không hợp lệ và/hoặc mật khẩu không khớp";
 $text['message-invalid_username_mismatch_passwords']['en-gb'] = "Invalid Username and/or Mismatched Passwords";
 $text['message-invalid_username_mismatch_passwords']['ar-eg'] = "خطا في اسم المسخدم او كلمة السر";
 $text['message-invalid_username_mismatch_passwords']['de-at'] = "Falscher Benutzername und/oder Nichtübereinstimmung der Passwörter";
@@ -488,6 +506,7 @@ $text['message-invalid_username_mismatch_passwords']['ja-jp'] = "無効なユー
 $text['message-invalid_username_mismatch_passwords']['ko-kr'] = "유효하지 않은 사용자 이름 및/또는 불일치 암호";
 
 $text['message-invalid_email']['en-us'] = "Invalid Email Address";
+$text['message-invalid_email']['vi-vn'] = "Địa chỉ email không hợp lệ";
 $text['message-invalid_email']['en-gb'] = "Invalid Email Address";
 $text['message-invalid_email']['ar-eg'] = "البريد الإلكتروني غير صحيح";
 $text['message-invalid_email']['de-at'] = "Ungültige E-Mail-Adresse";
@@ -515,6 +534,7 @@ $text['message-invalid_email']['ja-jp'] = "無効なメールアドレス";
 $text['message-invalid_email']['ko-kr'] = "잘못된 이메일 주소";
 
 $text['message-email_assigned_mutliple_users']['en-us'] = "Email Address Assigned to Multiple Users";
+$text['message-email_assigned_mutliple_users']['vi-vn'] = "Địa chỉ email được gán cho nhiều người dùng";
 $text['message-email_assigned_mutliple_users']['en-gb'] = "Email Address Assigned to Multiple Users";
 $text['message-email_assigned_mutliple_users']['ar-eg'] = "عنوان البريد عنوان البريد الإلكتروني المخصص لعدة مستخدمين";
 $text['message-email_assigned_mutliple_users']['de-at'] = "E-Mail-Adresse, die mehreren Benutzern zugewiesen ist";
@@ -542,6 +562,7 @@ $text['message-email_assigned_mutliple_users']['ja-jp'] = "複数のユーザー
 $text['message-email_assigned_mutliple_users']['ko-kr'] = "여러 사용자에게 이메일 주소가 할당됨";
 
 $text['login-message_dismiss']['en-us'] = "Dismiss";
+$text['login-message_dismiss']['vi-vn'] = "Bỏ qua";
 $text['login-message_dismiss']['en-gb'] = "Dismiss";
 $text['login-message_dismiss']['ar-eg'] = "رفض";
 $text['login-message_dismiss']['de-at'] = "Zurückweisen";
@@ -569,6 +590,7 @@ $text['login-message_dismiss']['ja-jp'] = "解散";
 $text['login-message_dismiss']['ko-kr'] = "해고하다";
 
 $text['login-message_attention']['en-us'] = "Attention!";
+$text['login-message_attention']['vi-vn'] = "Chú ý!";
 $text['login-message_attention']['en-gb'] = "Attention!";
 $text['login-message_attention']['ar-eg'] = "برجاء الملاحظة";
 $text['login-message_attention']['de-at'] = "Achtung!";
@@ -596,6 +618,7 @@ $text['login-message_attention']['ja-jp'] = "注意！";
 $text['login-message_attention']['ko-kr'] = "주목!";
 
 $text['option-select_box']['en-us'] = "Select Box";
+$text['option-select_box']['vi-vn'] = "Hộp chọn";
 $text['option-select_box']['en-gb'] = "Select Box";
 $text['option-select_box']['ar-eg'] = "حدد المربع";
 $text['option-select_box']['de-at'] = "Auswahlfeld";
@@ -623,6 +646,7 @@ $text['option-select_box']['ja-jp'] = "選択ボックス";
 $text['option-select_box']['ko-kr'] = "선택 상자";
 
 $text['option-switch_round']['en-us'] = "Round Switch";
+$text['option-switch_round']['vi-vn'] = "Công tắc bo tròn";
 $text['option-switch_round']['en-gb'] = "Round Switch";
 $text['option-switch_round']['ar-eg'] = "مفتاح دائري";
 $text['option-switch_round']['de-at'] = "Runder Schalter";
@@ -650,6 +674,7 @@ $text['option-switch_round']['ja-jp'] = "ラウンドスイッチ";
 $text['option-switch_round']['ko-kr'] = "둥근 스위치";
 
 $text['option-switch_square']['en-us'] = "Square Switch";
+$text['option-switch_square']['vi-vn'] = "Công tắc vuông";
 $text['option-switch_square']['en-gb'] = "Square Switch";
 $text['option-switch_square']['ar-eg'] = "تبديل مربع";
 $text['option-switch_square']['de-at'] = "Quadratischer Schalter";
@@ -677,6 +702,7 @@ $text['option-switch_square']['ja-jp'] = "正方形スイッチ";
 $text['option-switch_square']['ko-kr'] = "스퀘어 스위치";
 
 $text['label-welcome']['en-us'] = "Welcome:";
+$text['label-welcome']['vi-vn'] = "Xin chào:";
 $text['label-welcome']['en-gb'] = "Welcome:";
 $text['label-welcome']['ar-eg'] = "أهلا بك:";
 $text['label-welcome']['de-at'] = "Herzlich willkommen:";
@@ -704,6 +730,7 @@ $text['label-welcome']['ja-jp'] = "歓迎:";
 $text['label-welcome']['ko-kr'] = "환영:";
 
 $text['label-voicemail']['en-us'] = "Voicemail";
+$text['label-voicemail']['vi-vn'] = "Thư thoại";
 $text['label-voicemail']['en-gb'] = "Voicemail";
 $text['label-voicemail']['ar-eg'] = "البريد الصوتي";
 $text['label-voicemail']['de-at'] = "Mailbox";
@@ -731,6 +758,7 @@ $text['label-voicemail']['ja-jp'] = "ボイスメール";
 $text['label-voicemail']['ko-kr'] = "음성 메일";
 
 $text['label-view_all']['en-us'] = "View All";
+$text['label-view_all']['vi-vn'] = "Xem tất cả";
 $text['label-view_all']['en-gb'] = "View All";
 $text['label-view_all']['ar-eg'] = "مشاهدة جميع";
 $text['label-view_all']['de-at'] = "Alle anzeigen";
@@ -758,6 +786,7 @@ $text['label-view_all']['ja-jp'] = "すべてを表示します";
 $text['label-view_all']['ko-kr'] = "모두 보기";
 
 $text['label-value']['en-us'] = "Value";
+$text['label-value']['vi-vn'] = "Giá trị";
 $text['label-value']['en-gb'] = "Value";
 $text['label-value']['ar-eg'] = "القيمة";
 $text['label-value']['de-at'] = "Wert";
@@ -785,6 +814,7 @@ $text['label-value']['ja-jp'] = "バリュー";
 $text['label-value']['ko-kr'] = "값";
 
 $text['label-username']['en-us'] = "Username";
+$text['label-username']['vi-vn'] = "Tên đăng nhập";
 $text['label-username']['en-gb'] = "Username";
 $text['label-username']['ar-eg'] = "اسم المستخدم";
 $text['label-username']['de-at'] = "Benutzername";
@@ -812,6 +842,7 @@ $text['label-username']['ja-jp'] = "ユーザ名";
 $text['label-username']['ko-kr'] = "사용자 이름";
 
 $text['label-users']['en-us'] = "Users";
+$text['label-users']['vi-vn'] = "Người dùng";
 $text['label-users']['en-gb'] = "Users";
 $text['label-users']['ar-eg'] = "المستخدمون";
 $text['label-users']['de-at'] = "Benutzer";
@@ -839,6 +870,7 @@ $text['label-users']['ja-jp'] = "ユーザー";
 $text['label-users']['ko-kr'] = "사용자";
 
 $text['label-user_language']['en-us'] = "Language";
+$text['label-user_language']['vi-vn'] = "Ngôn ngữ";
 $text['label-user_language']['en-gb'] = "Language";
 $text['label-user_language']['ar-eg'] = "اللغه";
 $text['label-user_language']['de-at'] = "Sprache";
@@ -866,6 +898,7 @@ $text['label-user_language']['ja-jp'] = "言語";
 $text['label-user_language']['ko-kr'] = "언어";
 
 $text['label-used']['en-us'] = "Used";
+$text['label-used']['vi-vn'] = "Đã dùng";
 $text['label-used']['en-gb'] = "Used";
 $text['label-used']['ar-eg'] = "مستعمل";
 $text['label-used']['de-at'] = "Benutzt";
@@ -893,6 +926,7 @@ $text['label-used']['ja-jp'] = "使用済み";
 $text['label-used']['ko-kr'] = "사용된";
 
 $text['label-uppercase_letters']['en-us'] = "Uppercase Letters";
+$text['label-uppercase_letters']['vi-vn'] = "Chữ hoa";
 $text['label-uppercase_letters']['en-gb'] = "Uppercase Letters";
 $text['label-uppercase_letters']['ar-eg'] = "الأحرف الكبيرة";
 $text['label-uppercase_letters']['de-at'] = "Großbuchstaben";
@@ -920,6 +954,7 @@ $text['label-uppercase_letters']['ja-jp'] = "アッパーケースレター";
 $text['label-uppercase_letters']['ko-kr'] = "대문자";
 
 $text['label-total_extensions']['en-us'] = "Total Extensions";
+$text['label-total_extensions']['vi-vn'] = "Tổng số máy nhánh";
 $text['label-total_extensions']['en-gb'] = "Total Extensions";
 $text['label-total_extensions']['ar-eg'] = "مجموع الإضافات";
 $text['label-total_extensions']['de-at'] = "Nebenstellen insgesamt";
@@ -947,6 +982,7 @@ $text['label-total_extensions']['ja-jp'] = "総延長";
 $text['label-total_extensions']['ko-kr'] = "총 확장";
 
 $text['label-total_destinations']['en-us'] = "Total Destinations";
+$text['label-total_destinations']['vi-vn'] = "Tổng số đích";
 $text['label-total_destinations']['en-gb'] = "Total Destinations";
 $text['label-total_destinations']['ar-eg'] = "مجموع ظبي";
 $text['label-total_destinations']['de-at'] = "Ziele insgesamt";
@@ -974,6 +1010,7 @@ $text['label-total_destinations']['ja-jp'] = "総目的地";
 $text['label-total_destinations']['ko-kr'] = "총 목적지";
 
 $text['label-total']['en-us'] = "Total";
+$text['label-total']['vi-vn'] = "Tổng";
 $text['label-total']['en-gb'] = "Total";
 $text['label-total']['ar-eg'] = "المجموع";
 $text['label-total']['de-at'] = "Summe";
@@ -1001,6 +1038,7 @@ $text['label-total']['ja-jp'] = "合計";
 $text['label-total']['ko-kr'] = "총";
 
 $text['label-time']['en-us'] = "Time Zone";
+$text['label-time']['vi-vn'] = "Múi giờ";
 $text['label-time']['en-gb'] = "Time Zone";
 $text['label-time']['ar-eg'] = "منطقة التوقيت";
 $text['label-time']['de-at'] = "Zeitzone";
@@ -1028,6 +1066,7 @@ $text['label-time']['ja-jp'] = "タイムゾーン";
 $text['label-time']['ko-kr'] = "시간 영역";
 
 $text['label-system_uptime']['en-us'] = "OS Uptime";
+$text['label-system_uptime']['vi-vn'] = "Thời gian hoạt động của OS";
 $text['label-system_uptime']['en-gb'] = "OS Uptime";
 $text['label-system_uptime']['ar-eg'] = "نظام الجهوزية";
 $text['label-system_uptime']['de-at'] = "Systemlaufzeit";
@@ -1055,6 +1094,7 @@ $text['label-system_uptime']['ja-jp'] = "OS 稼働時間";
 $text['label-system_uptime']['ko-kr'] = "OS 가동 시간";
 
 $text['label-system_status']['en-us'] = "System Status";
+$text['label-system_status']['vi-vn'] = "Trạng thái hệ thống";
 $text['label-system_status']['en-gb'] = "System Status";
 $text['label-system_status']['ar-eg'] = "حالة النظام";
 $text['label-system_status']['de-at'] = "Systemstatus";
@@ -1082,6 +1122,7 @@ $text['label-system_status']['ja-jp'] = "システムステータス";
 $text['label-system_status']['ko-kr'] = "시스템 상태";
 
 $text['label-system_counts']['en-us'] = "System Counts";
+$text['label-system_counts']['vi-vn'] = "Số liệu hệ thống";
 $text['label-system_counts']['en-gb'] = "System Counts";
 $text['label-system_counts']['ar-eg'] = "التهم النظام";
 $text['label-system_counts']['de-at'] = "Systemzähler";
@@ -1109,6 +1150,7 @@ $text['label-system_counts']['ja-jp'] = "システムカウント";
 $text['label-system_counts']['ko-kr'] = "시스템 수";
 
 $text['label-switch_uptime']['en-us'] = "Switch Uptime";
+$text['label-switch_uptime']['vi-vn'] = "Thời gian hoạt động của Switch";
 $text['label-switch_uptime']['en-gb'] = "Switch Uptime";
 $text['label-switch_uptime']['ar-eg'] = "التبديل";
 $text['label-switch_uptime']['de-at'] = "Betriebszeit wechseln";
@@ -1136,6 +1178,7 @@ $text['label-switch_uptime']['ja-jp'] = "スイッチ稼働時間";
 $text['label-switch_uptime']['ko-kr'] = "가동 시간을 전환하십시오";
 
 $text['label-switch']['en-us'] = "Switch";
+$text['label-switch']['vi-vn'] = "Switch";
 $text['label-switch']['en-gb'] = "Switch";
 $text['label-switch']['ar-eg'] = "مفتاح";
 $text['label-switch']['de-at'] = "Schalten";
@@ -1163,6 +1206,7 @@ $text['label-switch']['ja-jp'] = "スイッチ";
 $text['label-switch']['ko-kr'] = "스위치";
 
 $text['label-status']['en-us'] = "Status";
+$text['label-status']['vi-vn'] = "Trạng thái";
 $text['label-status']['en-gb'] = "Status";
 $text['label-status']['ar-eg'] = "الحالة";
 $text['label-status']['de-at'] = "Status";
@@ -1190,6 +1234,7 @@ $text['label-status']['ja-jp'] = "スターテス";
 $text['label-status']['ko-kr'] = "상태";
 
 $text['label-special_characters']['en-us'] = "Special Characters";
+$text['label-special_characters']['vi-vn'] = "Ký tự đặc biệt";
 $text['label-special_characters']['en-gb'] = "Special Characters";
 $text['label-special_characters']['ar-eg'] = "أحرف خاصة";
 $text['label-special_characters']['de-at'] = "Sonderzeichen";
@@ -1217,6 +1262,7 @@ $text['label-special_characters']['ja-jp'] = "特殊文字";
 $text['label-special_characters']['ko-kr'] = "특수 문자";
 
 $text['label-ring_groups']['en-us'] = "Ring Groups";
+$text['label-ring_groups']['vi-vn'] = "Nhóm đổ chuông";
 $text['label-ring_groups']['en-gb'] = "Ring Groups";
 $text['label-ring_groups']['ar-eg'] = "مجموعات حصص الإعاشة";
 $text['label-ring_groups']['de-at'] = "Rufgruppen";
@@ -1244,6 +1290,7 @@ $text['label-ring_groups']['ja-jp'] = "リンググループ";
 $text['label-ring_groups']['ko-kr'] = "링 그룹";
 
 $text['label-reset_password']['en-us'] = "Reset Password";
+$text['label-reset_password']['vi-vn'] = "Đặt lại mật khẩu";
 $text['label-reset_password']['en-gb'] = "Reset Password";
 $text['label-reset_password']['ar-eg'] = "اعادة تعيين كلمة السر";
 $text['label-reset_password']['de-at'] = "Passwort zurücksetzen";
@@ -1271,6 +1318,7 @@ $text['label-reset_password']['ja-jp'] = "パスワードを再設定する";
 $text['label-reset_password']['ko-kr'] = "암호를 재설정";
 
 $text['label-repeat_password']['en-us'] = "Repeat Password";
+$text['label-repeat_password']['vi-vn'] = "Nhập lại mật khẩu";
 $text['label-repeat_password']['en-gb'] = "Repeat Password";
 $text['label-repeat_password']['ar-eg'] = "تاكيد كلمة السر";
 $text['label-repeat_password']['de-at'] = "Passwort wiederholen";
@@ -1298,6 +1346,7 @@ $text['label-repeat_password']['ja-jp'] = "パスワードを再度入力して�
 $text['label-repeat_password']['ko-kr'] = "비밀번호를 반복하십시오";
 
 $text['label-registrations']['en-us'] = "Registrations";
+$text['label-registrations']['vi-vn'] = "Đăng ký";
 $text['label-registrations']['en-gb'] = "Registrations";
 $text['label-registrations']['ar-eg'] = "التسجيلات";
 $text['label-registrations']['de-at'] = "Registrierungen";
@@ -1325,6 +1374,7 @@ $text['label-registrations']['ja-jp'] = "登録";
 $text['label-registrations']['ko-kr'] = "등록";
 
 $text['label-recent_calls']['en-us'] = "Recent Calls";
+$text['label-recent_calls']['vi-vn'] = "Cuộc gọi gần đây";
 $text['label-recent_calls']['en-gb'] = "Recent Calls";
 $text['label-recent_calls']['ar-eg'] = "المكالمات الأخيرة";
 $text['label-recent_calls']['de-at'] = "Kürzliche Anrufe";
@@ -1352,6 +1402,7 @@ $text['label-recent_calls']['ja-jp'] = "最近の電話";
 $text['label-recent_calls']['ko-kr'] = "최근 전화";
 
 $text['label-processor_usage']['en-us'] = "CPU Usage";
+$text['label-processor_usage']['vi-vn'] = "Mức dùng CPU";
 $text['label-processor_usage']['en-gb'] = "CPU Usage";
 $text['label-processor_usage']['ar-eg'] = "معالج الاستخدام";
 $text['label-processor_usage']['de-at'] = "Prozessorauslastung ";
@@ -1379,6 +1430,7 @@ $text['label-processor_usage']['ja-jp'] = "CPU 使用率";
 $text['label-processor_usage']['ko-kr'] = "CPU 사용";
 
 $text['label-password']['en-us'] = "Password";
+$text['label-password']['vi-vn'] = "Mật khẩu";
 $text['label-password']['en-gb'] = "Password";
 $text['label-password']['ar-eg'] = "كلمة السر";
 $text['label-password']['de-at'] = "Passwort";
@@ -1406,6 +1458,7 @@ $text['label-password']['ja-jp'] = "パスワード";
 $text['label-password']['ko-kr'] = "비밀번호";
 
 $text['label-outbound']['en-us'] = "Outbound";
+$text['label-outbound']['vi-vn'] = "Gọi ra";
 $text['label-outbound']['en-gb'] = "Outbound";
 $text['label-outbound']['ar-eg'] = "إلى الخارج";
 $text['label-outbound']['de-at'] = "Ausgehend";
@@ -1433,6 +1486,7 @@ $text['label-outbound']['ja-jp'] = "アウトバウンド";
 $text['label-outbound']['ko-kr'] = "배 밖으로";
 
 $text['label-numbers']['en-us'] = "Numbers";
+$text['label-numbers']['vi-vn'] = "Số";
 $text['label-numbers']['en-gb'] = "Numbers";
 $text['label-numbers']['ar-eg'] = "أرقام";
 $text['label-numbers']['de-at'] = "Nummern";
@@ -1460,6 +1514,7 @@ $text['label-numbers']['ja-jp'] = "数字";
 $text['label-numbers']['ko-kr'] = "민수기";
 
 $text['label-no_voicemail_assigned']['en-us'] = "No Voicemail Assigned";
+$text['label-no_voicemail_assigned']['vi-vn'] = "Chưa gán thư thoại";
 $text['label-no_voicemail_assigned']['en-gb'] = "No Voicemail Assigned";
 $text['label-no_voicemail_assigned']['ar-eg'] = "لا المخصصة البريد الصوتي";
 $text['label-no_voicemail_assigned']['de-at'] = "Keine Mailbox zugewiesen";
@@ -1487,6 +1542,7 @@ $text['label-no_voicemail_assigned']['ja-jp'] = "ボイスメールは割り当�
 $text['label-no_voicemail_assigned']['ko-kr'] = "음성 메일이 할당되지 않았습니다";
 
 $text['label-new_password']['en-us'] = "New Password";
+$text['label-new_password']['vi-vn'] = "Mật khẩu mới";
 $text['label-new_password']['en-gb'] = "New Password";
 $text['label-new_password']['ar-eg'] = "كلمة سر جديدة";
 $text['label-new_password']['de-at'] = "Neues Passwort";
@@ -1514,6 +1570,7 @@ $text['label-new_password']['ja-jp'] = "新しいパスワード";
 $text['label-new_password']['ko-kr'] = "새 비밀번호";
 
 $text['label-new_messages']['en-us'] = "New Messages";
+$text['label-new_messages']['vi-vn'] = "Tin nhắn mới";
 $text['label-new_messages']['en-gb'] = "New Messages";
 $text['label-new_messages']['ar-eg'] = "رسائل جديدة";
 $text['label-new_messages']['de-at'] = "Neue Nachrichten";
@@ -1541,6 +1598,7 @@ $text['label-new_messages']['ja-jp'] = "新しいメッセージ";
 $text['label-new_messages']['ko-kr'] = "새로운 새로운 메시지";
 
 $text['label-new']['en-us'] = "New";
+$text['label-new']['vi-vn'] = "Mới";
 $text['label-new']['en-gb'] = "New";
 $text['label-new']['ar-eg'] = "جديدة";
 $text['label-new']['de-at'] = "Neu";
@@ -1568,6 +1626,7 @@ $text['label-new']['ja-jp'] = "新しい";
 $text['label-new']['ko-kr'] = "새로운";
 
 $text['label-missed_calls']['en-us'] = "Missed Calls";
+$text['label-missed_calls']['vi-vn'] = "Cuộc gọi nhỡ";
 $text['label-missed_calls']['en-gb'] = "Missed Calls";
 $text['label-missed_calls']['ar-eg'] = "مكالمات فائتة";
 $text['label-missed_calls']['de-at'] = "Anrufe in Abwesenheit";
@@ -1595,6 +1654,7 @@ $text['label-missed_calls']['ja-jp'] = "不在着信";
 $text['label-missed_calls']['ko-kr'] = "부재중 전화";
 
 $text['label-missed']['en-us'] = "Missed";
+$text['label-missed']['vi-vn'] = "Nhỡ";
 $text['label-missed']['en-gb'] = "Missed";
 $text['label-missed']['ar-eg'] = "مفقودة";
 $text['label-missed']['de-at'] = "Verpasst";
@@ -1622,6 +1682,7 @@ $text['label-missed']['ja-jp'] = "逃した";
 $text['label-missed']['ko-kr'] = "놓쳤다";
 
 $text['label-messages']['en-us'] = "Messages";
+$text['label-messages']['vi-vn'] = "Tin nhắn";
 $text['label-messages']['en-gb'] = "Messages";
 $text['label-messages']['ar-eg'] = "رسائل";
 $text['label-messages']['de-at'] = "Nachrichten";
@@ -1649,6 +1710,7 @@ $text['label-messages']['ja-jp'] = "メッセージ";
 $text['label-messages']['ko-kr'] = "메시지";
 
 $text['label-memory_usage']['en-us'] = "Memory Usage";
+$text['label-memory_usage']['vi-vn'] = "Mức dùng bộ nhớ";
 $text['label-memory_usage']['en-gb'] = "Memory Usage";
 $text['label-memory_usage']['ar-eg'] = "استخدام الذاكرة";
 $text['label-memory_usage']['de-at'] = "Speichernutzung";
@@ -1676,6 +1738,7 @@ $text['label-memory_usage']['ja-jp'] = "メモリ使用量";
 $text['label-memory_usage']['ko-kr'] = "메모리 사용";
 
 $text['label-memory_available']['en-us'] = "Available Memory";
+$text['label-memory_available']['vi-vn'] = "Bộ nhớ khả dụng";
 $text['label-memory_available']['en-gb'] = "Available Memory";
 $text['label-memory_available']['ar-eg'] = "الذاكرة المتوفرة";
 $text['label-memory_available']['de-at'] = "Verfügbare Erinnerung";
@@ -1703,6 +1766,7 @@ $text['label-memory_available']['ja-jp'] = "使用可能なメモリ";
 $text['label-memory_available']['ko-kr'] = "사용 가능한 메모리";
 
 $text['label-swap_usage']['en-us'] = "Swap Usage";
+$text['label-swap_usage']['vi-vn'] = "Mức dùng swap";
 $text['label-swap_usage']['en-gb'] = "Swap Usage";
 $text['label-swap_usage']['ar-eg'] = "";
 $text['label-swap_usage']['de-at'] = "";
@@ -1730,6 +1794,7 @@ $text['label-swap_usage']['ja-jp'] = "";
 $text['label-swap_usage']['ko-kr'] = "";
 
 $text['label-os_version']['en-us'] = "OS Version";
+$text['label-os_version']['vi-vn'] = "Phiên bản OS";
 $text['label-os_version']['en-gb'] = "OS Version";
 $text['label-os_version']['ar-eg'] = "";
 $text['label-os_version']['de-at'] = "";
@@ -1757,6 +1822,7 @@ $text['label-os_version']['ja-jp'] = "";
 $text['label-os_version']['ko-kr'] = "";
 
 $text['label-lowercase_letters']['en-us'] = "Lowercase Letters";
+$text['label-lowercase_letters']['vi-vn'] = "Chữ thường";
 $text['label-lowercase_letters']['en-gb'] = "Lowercase Letters";
 $text['label-lowercase_letters']['ar-eg'] = "أحرف صغيرة";
 $text['label-lowercase_letters']['de-at'] = "Kleinbuchstaben";
@@ -1784,6 +1850,7 @@ $text['label-lowercase_letters']['ja-jp'] = "小文字";
 $text['label-lowercase_letters']['ko-kr'] = "소문자 문자";
 
 $text['label-local']['en-us'] = "Local";
+$text['label-local']['vi-vn'] = "Cục bộ";
 $text['label-local']['en-gb'] = "Local";
 $text['label-local']['ar-eg'] = "محلية";
 $text['label-local']['de-at'] = "Lokal";
@@ -1811,6 +1878,7 @@ $text['label-local']['ja-jp'] = "地元";
 $text['label-local']['ko-kr'] = "현지의";
 
 $text['label-last_24_hours']['en-us'] = "Last 24 Hours";
+$text['label-last_24_hours']['vi-vn'] = "24 giờ qua";
 $text['label-last_24_hours']['en-gb'] = "Last 24 Hours";
 $text['label-last_24_hours']['ar-eg'] = "الماضي أربع وعشرين ساعة";
 $text['label-last_24_hours']['de-at'] = "Die letzten 24 Stunden";
@@ -1838,6 +1906,7 @@ $text['label-last_24_hours']['ja-jp'] = "過去 24 時間";
 $text['label-last_24_hours']['ko-kr'] = "지난 24 시간";
 
 $text['label-ivr_menus']['en-us'] = "IVR Menus";
+$text['label-ivr_menus']['vi-vn'] = "Menu IVR";
 $text['label-ivr_menus']['en-gb'] = "IVR Menus";
 $text['label-ivr_menus']['ar-eg'] = "ivr menus";
 $text['label-ivr_menus']['de-at'] = "Automatische Vermittlungen";
@@ -1865,6 +1934,7 @@ $text['label-ivr_menus']['ja-jp'] = "IVRメニュー";
 $text['label-ivr_menus']['ko-kr'] = "IVR 메뉴";
 
 $text['label-inbound']['en-us'] = "Inbound";
+$text['label-inbound']['vi-vn'] = "Gọi vào";
 $text['label-inbound']['en-gb'] = "Inbound";
 $text['label-inbound']['ar-eg'] = "الداخل";
 $text['label-inbound']['de-at'] = "Eingehend";
@@ -1892,6 +1962,7 @@ $text['label-inbound']['ja-jp'] = "インバウンド";
 $text['label-inbound']['ko-kr'] = "인바운드";
 
 $text['label-item']['en-us'] = "Item";
+$text['label-item']['vi-vn'] = "Mục";
 $text['label-item']['en-gb'] = "Item";
 $text['label-item']['ar-eg'] = "بند";
 $text['label-item']['de-at'] = "Objekt";
@@ -1919,6 +1990,7 @@ $text['label-item']['ja-jp'] = "アイテム";
 $text['label-item']['ko-kr'] = "안건";
 
 $text['label-gateways']['en-us'] = "Gateways";
+$text['label-gateways']['vi-vn'] = "Gateway";
 $text['label-gateways']['en-gb'] = "Gateways";
 $text['label-gateways']['ar-eg'] = "البوابات";
 $text['label-gateways']['de-at'] = "Gateways";
@@ -1946,6 +2018,7 @@ $text['label-gateways']['ja-jp'] = "ゲートウェイ";
 $text['label-gateways']['ko-kr'] = "게이트웨이";
 
 $text['label-followme']['en-us'] = "Follow Me";
+$text['label-followme']['vi-vn'] = "Follow Me";
 $text['label-followme']['en-gb'] = "Follow Me";
 $text['label-followme']['ar-eg'] = "خدمة اتبعني";
 $text['label-followme']['de-at'] = "Anrufweiterschaltung";
@@ -1973,6 +2046,7 @@ $text['label-followme']['ja-jp'] = "フォローしてください";
 $text['label-followme']['ko-kr'] = "날 따라 오세요";
 
 $text['label-feature']['en-us'] = "Feature";
+$text['label-feature']['vi-vn'] = "Tính năng";
 $text['label-feature']['en-gb'] = "Feature";
 $text['label-feature']['ar-eg'] = "ميزة";
 $text['label-feature']['de-at'] = "Funktion";
@@ -2000,6 +2074,7 @@ $text['label-feature']['ja-jp'] = "特徴";
 $text['label-feature']['ko-kr'] = "특징";
 
 $text['label-failed']['en-us'] = "Failed";
+$text['label-failed']['vi-vn'] = "Thất bại";
 $text['label-failed']['en-gb'] = "Failed";
 $text['label-failed']['ar-eg'] = "فشل";
 $text['label-failed']['de-at'] = "Fehlgeschlagen";
@@ -2027,6 +2102,7 @@ $text['label-failed']['ja-jp'] = "失敗した";
 $text['label-failed']['ko-kr'] = "실패한";
 
 $text['label-extensions']['en-us'] = "Extensions";
+$text['label-extensions']['vi-vn'] = "Máy nhánh";
 $text['label-extensions']['en-gb'] = "Extensions";
 $text['label-extensions']['ar-eg'] = "الأرقام الداخلية";
 $text['label-extensions']['de-at'] = "Nebenstellen";
@@ -2054,6 +2130,7 @@ $text['label-extensions']['ja-jp'] = "拡張機能";
 $text['label-extensions']['ko-kr'] = "확장";
 
 $text['label-extension']['en-us'] = "Extension";
+$text['label-extension']['vi-vn'] = "Máy nhánh";
 $text['label-extension']['en-gb'] = "Extension";
 $text['label-extension']['ar-eg'] = "رقم داخلي";
 $text['label-extension']['de-at'] = "Nebenstelle";
@@ -2081,6 +2158,7 @@ $text['label-extension']['ja-jp'] = "拡大";
 $text['label-extension']['ko-kr'] = "확대";
 
 $text['label-email_address']['en-us'] = "Email Address";
+$text['label-email_address']['vi-vn'] = "Địa chỉ email";
 $text['label-email_address']['en-gb'] = "Email Address";
 $text['label-email_address']['ar-eg'] = "البريد الإلكتروني";
 $text['label-email_address']['de-at'] = "Email Adresse";
@@ -2108,6 +2186,7 @@ $text['label-email_address']['ja-jp'] = "電子メールアドレス";
 $text['label-email_address']['ko-kr'] = "이메일 주소";
 
 $text['label-domains']['en-us'] = "Domains";
+$text['label-domains']['vi-vn'] = "Tên miền";
 $text['label-domains']['en-gb'] = "Domains";
 $text['label-domains']['ar-eg'] = "المجالات";
 $text['label-domains']['de-at'] = "Domänen";
@@ -2135,6 +2214,7 @@ $text['label-domains']['ja-jp'] = "ドメイン";
 $text['label-domains']['ko-kr'] = "도메인";
 
 $text['label-domain_limits']['en-us'] = "Domain Limits";
+$text['label-domain_limits']['vi-vn'] = "Giới hạn tên miền";
 $text['label-domain_limits']['en-gb'] = "Domain Limits";
 $text['label-domain_limits']['ar-eg'] = "حدود نطاق";
 $text['label-domain_limits']['de-at'] = "Grenzen der Domäne";
@@ -2162,6 +2242,7 @@ $text['label-domain_limits']['ja-jp'] = "ドメイン制限";
 $text['label-domain_limits']['ko-kr'] = "도메인 제한";
 
 $text['label-domain']['en-us'] = "Domain";
+$text['label-domain']['vi-vn'] = "Tên miền";
 $text['label-domain']['en-gb'] = "Domain";
 $text['label-domain']['ar-eg'] = "النطاق";
 $text['label-domain']['de-at'] = "Domäne";
@@ -2189,6 +2270,7 @@ $text['label-domain']['ja-jp'] = "ドメイン";
 $text['label-domain']['ko-kr'] = "도메인";
 
 $text['label-dnd']['en-us'] = "Do Not Disturb";
+$text['label-dnd']['vi-vn'] = "Không làm phiền";
 $text['label-dnd']['en-gb'] = "Do Not Disturb";
 $text['label-dnd']['ar-eg'] = "عدم الازعاج";
 $text['label-dnd']['de-at'] = "Nicht stören";
@@ -2216,6 +2298,7 @@ $text['label-dnd']['ja-jp'] = "邪魔しないでください";
 $text['label-dnd']['ko-kr'] = "방해하지 마";
 
 $text['label-system_disk_usage']['en-us'] = "Disk Usage";
+$text['label-system_disk_usage']['vi-vn'] = "Mức dùng ổ đĩa";
 $text['label-system_disk_usage']['en-gb'] = "Disk Usage";
 $text['label-system_disk_usage']['ar-eg'] = "إستخدام القرص";
 $text['label-system_disk_usage']['de-at'] = "Festplattennutzung";
@@ -2243,6 +2326,7 @@ $text['label-system_disk_usage']['ja-jp'] = "ディスクの使用状況";
 $text['label-system_disk_usage']['ko-kr'] = "디스크 사용량";
 
 $text['label-disabled']['en-us'] = "Disabled";
+$text['label-disabled']['vi-vn'] = "Đã tắt";
 $text['label-disabled']['en-gb'] = "Disabled";
 $text['label-disabled']['ar-eg'] = "المعوقين";
 $text['label-disabled']['de-at'] = "Ausgeschaltet";
@@ -2270,6 +2354,7 @@ $text['label-disabled']['ja-jp'] = "無効";
 $text['label-disabled']['ko-kr'] = "장애가 있는";
 
 $text['label-devices']['en-us'] = "Devices";
+$text['label-devices']['vi-vn'] = "Thiết bị";
 $text['label-devices']['en-gb'] = "Devices";
 $text['label-devices']['ar-eg'] = "الأجهزة";
 $text['label-devices']['de-at'] = "Geräte";
@@ -2297,6 +2382,7 @@ $text['label-devices']['ja-jp'] = "デバイス";
 $text['label-devices']['ko-kr'] = "장치";
 
 $text['label-destinations']['en-us'] = "Destinations";
+$text['label-destinations']['vi-vn'] = "Đích";
 $text['label-destinations']['en-gb'] = "Destinations";
 $text['label-destinations']['ar-eg'] = "جهات الأتصال";
 $text['label-destinations']['de-at'] = "Kopfnummern";
@@ -2324,6 +2410,7 @@ $text['label-destinations']['ja-jp'] = "目的地";
 $text['label-destinations']['ko-kr'] = "목적지";
 
 $text['label-date_time']['en-us'] = "Date/Time";
+$text['label-date_time']['vi-vn'] = "Ngày/giờ";
 $text['label-date_time']['en-gb'] = "Date/Time";
 $text['label-date_time']['ar-eg'] = "تاريخ / وقت";
 $text['label-date_time']['de-at'] = "Datum/Uhrzeit";
@@ -2351,6 +2438,7 @@ $text['label-date_time']['ja-jp'] = "日付/時刻";
 $text['label-date_time']['ko-kr'] = "날짜 시간";
 
 $text['label-database_connections']['en-us'] = "DB Connections";
+$text['label-database_connections']['vi-vn'] = "Kết nối DB";
 $text['label-database_connections']['en-gb'] = "DB Connections";
 $text['label-database_connections']['ar-eg'] = "اتصالات قاعدة البيانات";
 $text['label-database_connections']['de-at'] = "Datenbankverbindungen";
@@ -2378,6 +2466,7 @@ $text['label-database_connections']['ja-jp'] = "データベース接続";
 $text['label-database_connections']['ko-kr'] = "데이터베이스 연결";
 
 $text['label-confirm-password']['en-us'] = "Confirm Password";
+$text['label-confirm-password']['vi-vn'] = "Xác nhận mật khẩu";
 $text['label-confirm-password']['en-gb'] = "Confirm Password";
 $text['label-confirm-password']['ar-eg'] = "تاكيد كلمة السر";
 $text['label-confirm-password']['de-at'] = "Passwort bestätigen";
@@ -2405,6 +2494,7 @@ $text['label-confirm-password']['ja-jp'] = "パスワードを認証する";
 $text['label-confirm-password']['ko-kr'] = "비밀번호 확인";
 
 $text['label-cid_number']['en-us'] = "Number";
+$text['label-cid_number']['vi-vn'] = "Số";
 $text['label-cid_number']['en-gb'] = "Number";
 $text['label-cid_number']['ar-eg'] = "العدد";
 $text['label-cid_number']['de-at'] = "Nummer";
@@ -2432,6 +2522,7 @@ $text['label-cid_number']['ja-jp'] = "番号";
 $text['label-cid_number']['ko-kr'] = "숫자";
 
 $text['label-cid_name']['en-us'] = "Name";
+$text['label-cid_name']['vi-vn'] = "Tên";
 $text['label-cid_name']['en-gb'] = "Name";
 $text['label-cid_name']['ar-eg'] = "الاسم";
 $text['label-cid_name']['de-at'] = "Name";
@@ -2459,6 +2550,7 @@ $text['label-cid_name']['ja-jp'] = "名前";
 $text['label-cid_name']['ko-kr'] = "이름";
 
 $text['label-characters']['en-us'] = "Characters";
+$text['label-characters']['vi-vn'] = "Ký tự";
 $text['label-characters']['en-gb'] = "Characters";
 $text['label-characters']['ar-eg'] = "الشخصيات";
 $text['label-characters']['de-at'] = "Zeichen";
@@ -2486,6 +2578,7 @@ $text['label-characters']['ja-jp'] = "文字";
 $text['label-characters']['ko-kr'] = "캐릭터";
 
 $text['label-channels']['en-us'] = "Channels";
+$text['label-channels']['vi-vn'] = "Kênh";
 $text['label-channels']['en-gb'] = "Channels";
 $text['label-channels']['ar-eg'] = "القنوات";
 $text['label-channels']['de-at'] = "Kanäle";
@@ -2513,6 +2606,7 @@ $text['label-channels']['ja-jp'] = "チャネル";
 $text['label-channels']['ko-kr'] = "채널";
 
 $text['label-cancelled']['en-us'] = "Cancelled";
+$text['label-cancelled']['vi-vn'] = "Đã hủy";
 $text['label-cancelled']['en-gb'] = "Cancelled";
 $text['label-cancelled']['ar-eg'] = "ألغيت";
 $text['label-cancelled']['de-at'] = "Abgebrochen";
@@ -2540,6 +2634,7 @@ $text['label-cancelled']['ja-jp'] = "キャンセル";
 $text['label-cancelled']['ko-kr'] = "취소 된";
 
 $text['label-cancel']['en-us'] = "Cancel";
+$text['label-cancel']['vi-vn'] = "Hủy";
 $text['label-cancel']['en-gb'] = "Cancel";
 $text['label-cancel']['ar-eg'] = "الغاء";
 $text['label-cancel']['de-at'] = "Abbrechen";
@@ -2567,6 +2662,7 @@ $text['label-cancel']['ja-jp'] = "キャンセル";
 $text['label-cancel']['ko-kr'] = "취소";
 
 $text['label-callforward']['en-us'] = "Call Forward";
+$text['label-callforward']['vi-vn'] = "Chuyển tiếp cuộc gọi";
 $text['label-callforward']['en-gb'] = "Call Forward";
 $text['label-callforward']['ar-eg'] = "تحويل المكالمات";
 $text['label-callforward']['de-at'] = "Rufumleitung";
@@ -2594,6 +2690,7 @@ $text['label-callforward']['ja-jp'] = "前方に電話してください";
 $text['label-callforward']['ko-kr'] = "앞으로 전화하십시오";
 
 $text['label-call_center_queues']['en-us'] = "CC Queues";
+$text['label-call_center_queues']['vi-vn'] = "Hàng đợi CC";
 $text['label-call_center_queues']['en-gb'] = "CC Queues";
 $text['label-call_center_queues']['ar-eg'] = "cc queues";
 $text['label-call_center_queues']['de-at'] = "Callcenter Warteschlangen";
@@ -2621,6 +2718,7 @@ $text['label-call_center_queues']['ja-jp'] = "コールセンターキュー";
 $text['label-call_center_queues']['ko-kr'] = "콜센터 대기열";
 
 $text['label-answered']['en-us'] = "Answered";
+$text['label-answered']['vi-vn'] = "Đã trả lời";
 $text['label-answered']['en-gb'] = "Answered";
 $text['label-answered']['ar-eg'] = "تم الرد";
 $text['label-answered']['de-at'] = "Angenommen";
@@ -2648,6 +2746,7 @@ $text['label-answered']['ja-jp'] = "答えた";
 $text['label-answered']['ko-kr'] = "대답했다";
 
 $text['label-no_answer']['en-us'] = "No Answer";
+$text['label-no_answer']['vi-vn'] = "Không trả lời";
 $text['label-no_answer']['en-gb'] = "No Answer";
 $text['label-no_answer']['ar-eg'] = "لا اجابة";
 $text['label-no_answer']['de-at'] = "Keine Antwort";
@@ -2674,6 +2773,7 @@ $text['label-no_answer']['ja-jp'] = "答えはありません";
 $text['label-no_answer']['ko-kr'] = "답변 없음";
 
 $text['label-active_users']['en-us'] = "Active Users";
+$text['label-active_users']['vi-vn'] = "Người dùng đang hoạt động";
 $text['label-active_users']['en-gb'] = "Active Users";
 $text['label-active_users']['ar-eg'] = "الأعضاء النشيطين";
 $text['label-active_users']['de-at'] = "Aktive Benutzer";
@@ -2701,6 +2801,7 @@ $text['label-active_users']['ja-jp'] = "アクティブユーザー";
 $text['label-active_users']['ko-kr'] = "활성 사용자";
 
 $text['label-active_extensions']['en-us'] = "Active Extensions";
+$text['label-active_extensions']['vi-vn'] = "Máy nhánh đang hoạt động";
 $text['label-active_extensions']['en-gb'] = "Active Extensions";
 $text['label-active_extensions']['ar-eg'] = "الامتدادات النشطة";
 $text['label-active_extensions']['de-at'] = "Aktive Nebenstellen";
@@ -2728,6 +2829,7 @@ $text['label-active_extensions']['ja-jp'] = "アクティブな拡張機能";
 $text['label-active_extensions']['ko-kr'] = "활성 확장";
 
 $text['label-active_domains']['en-us'] = "Active Domains";
+$text['label-active_domains']['vi-vn'] = "Tên miền đang hoạt động";
 $text['label-active_domains']['en-gb'] = "Active Domains";
 $text['label-active_domains']['ar-eg'] = "مجالات حية";
 $text['label-active_domains']['de-at'] = "Aktive Domänen";
@@ -2755,6 +2857,7 @@ $text['label-active_domains']['ja-jp'] = "アクティブドメイン";
 $text['label-active_domains']['ko-kr'] = "활성 도메인";
 
 $text['label-dynamic']['en-us'] = "Dynamic";
+$text['label-dynamic']['vi-vn'] = "Động";
 $text['label-dynamic']['en-gb'] = "Dynamic";
 $text['label-dynamic']['ar-eg'] = "متحرك";
 $text['label-dynamic']['de-at'] = "Dynamisch";
@@ -2782,6 +2885,7 @@ $text['label-dynamic']['ja-jp'] = "ダイナミック";
 $text['label-dynamic']['ko-kr'] = "동적";
 
 $text['label-single']['en-us'] = "Single";
+$text['label-single']['vi-vn'] = "Đơn";
 $text['label-single']['en-gb'] = "Single";
 $text['label-single']['ar-eg'] = "أعزب";
 $text['label-single']['de-at'] = "Einzel";
@@ -2809,6 +2913,7 @@ $text['label-single']['ja-jp'] = "独身";
 $text['label-single']['ko-kr'] = "하나의";
 
 $text['label-multiple']['en-us'] = "Multiple";
+$text['label-multiple']['vi-vn'] = "Nhiều";
 $text['label-multiple']['en-gb'] = "Multiple";
 $text['label-multiple']['ar-eg'] = "عديد";
 $text['label-multiple']['de-at'] = "Mehrere";
@@ -2836,6 +2941,7 @@ $text['label-multiple']['ja-jp'] = "多数";
 $text['label-multiple']['ko-kr'] = "다수의";
 
 $text['header-user_dashboard']['en-us'] = "Dashboard";
+$text['header-user_dashboard']['vi-vn'] = "Bảng điều khiển";
 $text['header-user_dashboard']['en-gb'] = "Dashboard";
 $text['header-user_dashboard']['ar-eg'] = "الصفحه الرئيسيه للمستخدم";
 $text['header-user_dashboard']['de-at'] = "Benutzerübersicht";
@@ -2863,6 +2969,7 @@ $text['header-user_dashboard']['ja-jp'] = "ダッシュボード";
 $text['header-user_dashboard']['ko-kr'] = "대시보드";
 
 $text['header-user_setting-edit']['en-us'] = "User Setting";
+$text['header-user_setting-edit']['vi-vn'] = "Cài đặt người dùng";
 $text['header-user_setting-edit']['en-gb'] = "User Setting";
 $text['header-user_setting-edit']['ar-eg'] = "مؤسسة مستعمل";
 $text['header-user_setting-edit']['de-at'] = "Benutzereinstellung";
@@ -2890,6 +2997,7 @@ $text['header-user_setting-edit']['ja-jp'] = "ユーザー設定";
 $text['header-user_setting-edit']['ko-kr'] = "사용자 설정";
 
 $text['header-user_setting-add']['en-us'] = "User Setting Add";
+$text['header-user_setting-add']['vi-vn'] = "Thêm cài đặt người dùng";
 $text['header-user_setting-add']['en-gb'] = "User Setting Add";
 $text['header-user_setting-add']['ar-eg'] = "المستعمل";
 $text['header-user_setting-add']['de-at'] = "Benutzereinstellung hinzufügen";
@@ -2917,6 +3025,7 @@ $text['header-user_setting-add']['ja-jp'] = "ユーザー設定追加";
 $text['header-user_setting-add']['ko-kr'] = "사용자 설정 추가";
 
 $text['description-user_language']['en-us'] = "Select the language.";
+$text['description-user_language']['vi-vn'] = "Chọn ngôn ngữ.";
 $text['description-user_language']['en-gb'] = "Select the language.";
 $text['description-user_language']['ar-eg'] = "اختيار الغة";
 $text['description-user_language']['de-at'] = "Sprache auswählen";
@@ -2944,6 +3053,7 @@ $text['description-user_language']['ja-jp'] = "言語を選択します。";
 $text['description-user_language']['ko-kr'] = "언어 선택";
 
 $text['description-user_dashboard']['en-us'] = "Quickly access information and tools related to your account.";
+$text['description-user_dashboard']['vi-vn'] = "Truy cập nhanh thông tin và công cụ liên quan đến tài khoản của bạn.";
 $text['description-user_dashboard']['en-gb'] = "Quickly access information and tools related to your account.";
 $text['description-user_dashboard']['ar-eg'] = "دخول سريع للمعلومات و الادوات الخاصة بحسابك";
 $text['description-user_dashboard']['de-at'] = "Schneller Zugriff auf Kontoinformationen und -funktionen";
@@ -2971,6 +3081,7 @@ $text['description-user_dashboard']['ja-jp'] = "アカウントに関連する�
 $text['description-user_dashboard']['ko-kr'] = "귀하의 계정과 관련된 빠른 액세스 정보 및 도구.";
 
 $text['description-timezone']['en-us'] = "Select the default time zone.";
+$text['description-timezone']['vi-vn'] = "Chọn múi giờ mặc định.";
 $text['description-timezone']['en-gb'] = "Select the default time zone.";
 $text['description-timezone']['ar-eg'] = "اختيار منطقة التوقيت";
 $text['description-timezone']['de-at'] = "Standardzeitzone auswählen";
@@ -2998,6 +3109,7 @@ $text['description-timezone']['ja-jp'] = "デフォルトのタイムゾーン�
 $text['description-timezone']['ko-kr'] = "기본 시간대를 선택하십시오.";
 
 $text['description-status']['en-us'] = "Select a user status.";
+$text['description-status']['vi-vn'] = "Chọn trạng thái người dùng.";
 $text['description-status']['en-gb'] = "Select a user status.";
 $text['description-status']['ar-eg'] = "اختيار حالة للمستخدم";
 $text['description-status']['de-at'] = "Benutzerstatus auswählen";
@@ -3025,6 +3137,7 @@ $text['description-status']['ja-jp'] = "ユーザーのステータスを選択�
 $text['description-status']['ko-kr'] = "사용자 상태를 선택하십시오.";
 
 $text['description']['en-us'] = "Edit account information.";
+$text['description']['vi-vn'] = "Sửa thông tin tài khoản.";
 $text['description']['en-gb'] = "Edit account information.";
 $text['description']['ar-eg'] = "تعديل بيانات الحساب";
 $text['description']['de-at'] = "Kontoinformationen bearbeiten";
@@ -3052,6 +3165,7 @@ $text['description']['ja-jp'] = "アカウント情報の編集";
 $text['description']['ko-kr'] = "계정 정보 편집.";
 
 $text['confirm-update']['en-us'] = "Update Complete";
+$text['confirm-update']['vi-vn'] = "Cập nhật hoàn tất";
 $text['confirm-update']['en-gb'] = "Update Complete";
 $text['confirm-update']['ar-eg'] = "تم التحديث";
 $text['confirm-update']['de-at'] = "Aktualisierung durchgeführt";
@@ -3079,6 +3193,7 @@ $text['confirm-update']['ja-jp'] = "完了します";
 $text['confirm-update']['ko-kr'] = "업데이트 완료";
 
 $text['confirm-password']['en-us'] = "Passwords did not match.";
+$text['confirm-password']['vi-vn'] = "Mật khẩu không khớp.";
 $text['confirm-password']['en-gb'] = "Passwords did not match.";
 $text['confirm-password']['ar-eg'] = "كلمات السر غير متطابقة";
 $text['confirm-password']['de-at'] = "Die Passwörter stimmen nicht überein";
@@ -3106,6 +3221,7 @@ $text['confirm-password']['ja-jp'] = "パスワードが一致しなかった。
 $text['confirm-password']['ko-kr'] = "비밀번호가 일치하지 않았습니다.";
 
 $text['check-onbreak-status']['en-us'] = "On Break";
+$text['check-onbreak-status']['vi-vn'] = "Đang nghỉ";
 $text['check-onbreak-status']['en-gb'] = "On Break";
 $text['check-onbreak-status']['ar-eg'] = " (في استراحة (لا يعمل";
 $text['check-onbreak-status']['de-at'] = "In der Pause";
@@ -3133,6 +3249,7 @@ $text['check-onbreak-status']['ja-jp'] = "休んで";
 $text['check-onbreak-status']['ko-kr'] = "쉬는 중";
 
 $text['check-loggedout-status']['en-us'] = "Logged Out";
+$text['check-loggedout-status']['vi-vn'] = "Đã đăng xuất";
 $text['check-loggedout-status']['en-gb'] = "Logged Out";
 $text['check-loggedout-status']['ar-eg'] = "تم الخروخ";
 $text['check-loggedout-status']['de-at'] = "Abgemeldet";
@@ -3160,6 +3277,7 @@ $text['check-loggedout-status']['ja-jp'] = "ログアウトしました";
 $text['check-loggedout-status']['ko-kr'] = "로그 아웃";
 
 $text['check-do-not-disturb-status']['en-us'] = "Do Not Disturb";
+$text['check-do-not-disturb-status']['vi-vn'] = "Không làm phiền";
 $text['check-do-not-disturb-status']['en-gb'] = "Do Not Disturb";
 $text['check-do-not-disturb-status']['ar-eg'] = "عدم الازعاج";
 $text['check-do-not-disturb-status']['de-at'] = "Nicht stören";
@@ -3187,6 +3305,7 @@ $text['check-do-not-disturb-status']['ja-jp'] = "邪魔しないでください"
 $text['check-do-not-disturb-status']['ko-kr'] = "방해하지 마";
 
 $text['check-available-status']['en-us'] = "Available";
+$text['check-available-status']['vi-vn'] = "Sẵn sàng";
 $text['check-available-status']['en-gb'] = "Available";
 $text['check-available-status']['ar-eg'] = "متاح";
 $text['check-available-status']['de-at'] = "Erreichbar";
@@ -3214,6 +3333,7 @@ $text['check-available-status']['ja-jp'] = "利用できる";
 $text['check-available-status']['ko-kr'] = "사용 가능";
 
 $text['check-available-ondemand-status']['en-us'] = "Available (On Demand)";
+$text['check-available-ondemand-status']['vi-vn'] = "Sẵn sàng (theo yêu cầu)";
 $text['check-available-ondemand-status']['en-gb'] = "Available (On Demand)";
 $text['check-available-ondemand-status']['ar-eg'] = "(متاح ( تحت الطلب";
 $text['check-available-ondemand-status']['de-at'] = "Erreichbar (bei Bedarf)";
@@ -3241,6 +3361,7 @@ $text['check-available-ondemand-status']['ja-jp'] = "利用可能な(オンデ�
 $text['check-available-ondemand-status']['ko-kr'] = "사용 가능 (주문형)";
 
 $text['button-voicemail']['en-us'] = "Voicemail";
+$text['button-voicemail']['vi-vn'] = "Thư thoại";
 $text['button-voicemail']['en-gb'] = "Voicemail";
 $text['button-voicemail']['ar-eg'] = "البريد الصوتي";
 $text['button-voicemail']['de-at'] = "Voicemail";
@@ -3268,6 +3389,7 @@ $text['button-voicemail']['ja-jp'] = "ボイスメール";
 $text['button-voicemail']['ko-kr'] = "음성 메일";
 
 $text['description-user_setting-edit']['en-us'] = "Edit a setting for this user.";
+$text['description-user_setting-edit']['vi-vn'] = "Sửa một cài đặt cho người dùng này.";
 $text['description-user_setting-edit']['en-gb'] = "Edit a setting for this user.";
 $text['description-user_setting-edit']['ar-eg'] = "جهزوا مكان لهذا المستخدم";
 $text['description-user_setting-edit']['de-at'] = "Eine Einstellung für diesen Benutzer bearbeiten.";
@@ -3295,6 +3417,7 @@ $text['description-user_setting-edit']['ja-jp'] = "このユーザーの設定�
 $text['description-user_setting-edit']['ko-kr'] = "이 사용자의 설정을 편집합니다.";
 
 $text['description-user_setting-add']['en-us'] = "Add a setting for this user.";
+$text['description-user_setting-add']['vi-vn'] = "Thêm một cài đặt cho người dùng này.";
 $text['description-user_setting-add']['en-gb'] = "Add a setting for this user.";
 $text['description-user_setting-add']['ar-eg'] = "أضف مكان لهذا المستخدم";
 $text['description-user_setting-add']['de-at'] = "Eine Einstellung für diesen Benutzer hinzufügen.";
@@ -3322,6 +3445,7 @@ $text['description-user_setting-add']['ja-jp'] = "このユーザーの設定を
 $text['description-user_setting-add']['ko-kr'] = "이 사용자에 대한 설정 추가.";
 
 $text['label-active']['en-us'] = "Active";
+$text['label-active']['vi-vn'] = "Hoạt động";
 $text['label-active']['en-gb'] = "Active";
 $text['label-active']['ar-eg'] = "النشاط";
 $text['label-active']['de-at'] = "Aktiv";
@@ -3349,6 +3473,7 @@ $text['label-active']['ja-jp'] = "アクティブ";
 $text['label-active']['ko-kr'] = "활동적인";
 
 $text['label-inactive']['en-us'] = "Inactive";
+$text['label-inactive']['vi-vn'] = "Không hoạt động";
 $text['label-inactive']['en-gb'] = "Inactive";
 $text['label-inactive']['ar-eg'] = "غير فعال";
 $text['label-inactive']['de-at'] = "Inaktiv";
@@ -3376,6 +3501,7 @@ $text['label-inactive']['ja-jp'] = "インアクティブ";
 $text['label-inactive']['ko-kr'] = "비활성";
 
 $text['label-maintenance']['en-us'] = "Maintenance";
+$text['label-maintenance']['vi-vn'] = "Bảo trì";
 $text['label-maintenance']['en-gb'] = "Maintenance";
 $text['label-maintenance']['ar-eg'] = "صيانة";
 $text['label-maintenance']['de-at'] = "Wartung";
@@ -3402,6 +3528,7 @@ $text['label-maintenance']['ja-jp'] = "メンテナンス";
 $text['label-maintenance']['ko-kr'] = "유지";
 
 $text['label-running']['en-us'] = "Running";
+$text['label-running']['vi-vn'] = "Đang chạy";
 $text['label-running']['en-gb'] = "Running";
 $text['label-running']['ar-eg'] = "جري";
 $text['label-running']['de-at'] = "Läuft";
@@ -3428,6 +3555,7 @@ $text['label-running']['ja-jp'] = "ランニング";
 $text['label-running']['ko-kr'] = "달리기";
 
 $text['label-email_sent']['en-us'] = "Email Sent";
+$text['label-email_sent']['vi-vn'] = "Email đã gửi";
 $text['label-email_sent']['en-gb'] = "Email Sent";
 $text['label-email_sent']['ar-eg'] = "تم إرسال البريد الإلكتروني";
 $text['label-email_sent']['de-at'] = "E-Mail gesendet";
@@ -3455,6 +3583,7 @@ $text['label-email_sent']['ja-jp'] = "メールが送信されました";
 $text['label-email_sent']['ko-kr'] = "이메일이 전송되었습니다";
 
 $text['description-email_sent']['en-us'] = "An email has been sent to you with instructions to reset your password.<br />Please check your email.";
+$text['description-email_sent']['vi-vn'] = "Một email kèm hướng dẫn đặt lại mật khẩu đã được gửi cho bạn.<br />Vui lòng kiểm tra email.";
 $text['description-email_sent']['en-gb'] = "An email has been sent to you with instructions to reset your password.<br />Please check your email.";
 $text['description-email_sent']['ar-eg'] = "تم إرسال بريد إلكتروني إليك تحتوي على تعليمات لإعادة تعيين كلمة المرور الخاصة بك.<br />رجاءً قم بمراجعة بريدك الإلكتروني.";
 $text['description-email_sent']['de-at'] = "Eine E-Mail mit Anweisungen zum Zurücksetzen Ihres Passworts wurde an Sie gesendet.<br />Bitte überprüfen Sie Ihre E-Mails.";
@@ -3482,6 +3611,7 @@ $text['description-email_sent']['ja-jp'] = "パスワードをリセットする
 $text['description-email_sent']['ko-kr'] = "비밀번호를 재설정하기 위한 지침이 포함된 이메일이 발송되었습니다.<br/>이메일을 확인하세요.";
 
 $text['label-forgot_password']['en-us'] = "Forgot Password?";
+$text['label-forgot_password']['vi-vn'] = "Quên mật khẩu?";
 $text['label-forgot_password']['en-gb'] = "Forgot Password?";
 $text['label-forgot_password']['ar-eg'] = "هل نسيت كلمة المرور؟";
 $text['label-forgot_password']['de-at'] = "Passwort vergessen?";
@@ -3509,6 +3639,7 @@ $text['label-forgot_password']['ja-jp'] = "パスワードを忘れた？";
 $text['label-forgot_password']['ko-kr'] = "비밀번호를 잊으셨나요?";
 
 $text['description-forgot_password']['en-us'] = "Provide the email address associated with your account.";
+$text['description-forgot_password']['vi-vn'] = "Nhập địa chỉ email liên kết với tài khoản của bạn.";
 $text['description-forgot_password']['en-gb'] = "Provide the email address associated with your account.";
 $text['description-forgot_password']['ar-eg'] = "أدخل عنوان البريد الإلكتروني المرتبط بحسابك.";
 $text['description-forgot_password']['de-at'] = "Geben Sie die E-Mail-Adresse an, die Ihrem Konto zugeordnet ist.";
@@ -3536,6 +3667,7 @@ $text['description-forgot_password']['ja-jp'] = "アカウントに関連付け�
 $text['description-forgot_password']['ko-kr'] = "계정과 연결된 이메일 주소를 입력하세요.";
 
 $text['label-password_reset']['en-us'] = "Password Reset";
+$text['label-password_reset']['vi-vn'] = "Đặt lại mật khẩu";
 $text['label-password_reset']['en-gb'] = "Password Reset";
 $text['label-password_reset']['ar-eg'] = "إعادة تعيين كلمة المرور";
 $text['label-password_reset']['de-at'] = "Passwort zurücksetzen";

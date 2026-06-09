@@ -1,6 +1,7 @@
 <?php
 
 $text['title-sofia_global_settings']['en-us'] = "Sofia Global Settings";
+$text['title-sofia_global_settings']['vi-vn'] = 'Thiết lập global Sofia';
 $text['title-sofia_global_settings']['en-gb'] = "Sofia Global Settings";
 $text['title-sofia_global_settings']['ar-eg'] = "تهيئة بيئة عالمية";
 $text['title-sofia_global_settings']['de-at'] = "Sofia Globale Einstellungen";
@@ -28,6 +29,7 @@ $text['title-sofia_global_settings']['ja-jp'] = "ソフィアグローバル設�
 $text['title-sofia_global_settings']['ko-kr'] = "소피아 전역 설정";
 
 $text['title-sofia_global_setting']['en-us'] = "Sofia Global Setting";
+$text['title-sofia_global_setting']['vi-vn'] = 'Thiết lập global Sofia';
 $text['title-sofia_global_setting']['en-gb'] = "Sofia Global Setting";
 $text['title-sofia_global_setting']['ar-eg'] = "تهيئة بيئة عالمية";
 $text['title-sofia_global_setting']['de-at'] = "Sofia Globale Einstellung";
@@ -55,6 +57,7 @@ $text['title-sofia_global_setting']['ja-jp'] = "ソフィアグローバル設�
 $text['title-sofia_global_setting']['ko-kr'] = "소피아 전역 설정";
 
 $text['title_description-sofia_global_settings']['en-us'] = "Used to define sofia global settings.";
+$text['title_description-sofia_global_settings']['vi-vn'] = 'Dùng để định nghĩa các thiết lập global của Sofia.';
 $text['title_description-sofia_global_settings']['en-gb'] = "Used to define sofia global settings.";
 $text['title_description-sofia_global_settings']['ar-eg'] = "اعتاد على تعريف البيئات العالمية للصوفيا.";
 $text['title_description-sofia_global_settings']['de-at'] = "Wird verwendet, um sofia globale Einstellungen zu definieren.";
@@ -82,6 +85,7 @@ $text['title_description-sofia_global_settings']['ja-jp'] = "ソフィアのグ�
 $text['title_description-sofia_global_settings']['ko-kr'] = "소피아 전역 설정을 정의하는 데 사용됩니다.";
 
 $text['label-global_setting_name']['en-us'] = "Name";
+$text['label-global_setting_name']['vi-vn'] = 'Tên';
 $text['label-global_setting_name']['en-gb'] = "Name";
 $text['label-global_setting_name']['ar-eg'] = "الاسم";
 $text['label-global_setting_name']['de-at'] = "Name";
@@ -109,6 +113,7 @@ $text['label-global_setting_name']['ja-jp'] = "名前";
 $text['label-global_setting_name']['ko-kr'] = "이름";
 
 $text['description-global_setting_name']['en-us'] = "Enter the global setting name.";
+$text['description-global_setting_name']['vi-vn'] = 'Nhập tên thiết lập global.';
 $text['description-global_setting_name']['en-gb'] = "Enter the global setting name.";
 $text['description-global_setting_name']['ar-eg'] = "أدخلي اسم الموقع العالمي";
 $text['description-global_setting_name']['de-at'] = "Geben Sie den globalen Einstellungsnamen ein.";
@@ -136,6 +141,7 @@ $text['description-global_setting_name']['ja-jp'] = "グローバル設定名を
 $text['description-global_setting_name']['ko-kr'] = "전역 설정 이름을 입력합니다.";
 
 $text['label-global_setting_value']['en-us'] = "Value";
+$text['label-global_setting_value']['vi-vn'] = 'Giá trị';
 $text['label-global_setting_value']['en-gb'] = "Value";
 $text['label-global_setting_value']['ar-eg'] = "القيمة";
 $text['label-global_setting_value']['de-at'] = "Wert";
@@ -163,6 +169,7 @@ $text['label-global_setting_value']['ja-jp'] = "価値";
 $text['label-global_setting_value']['ko-kr'] = "값";
 
 $text['description-global_setting_value']['en-us'] = "Enter the global setting value.";
+$text['description-global_setting_value']['vi-vn'] = 'Nhập giá trị thiết lập global.';
 $text['description-global_setting_value']['en-gb'] = "Enter the global setting value.";
 $text['description-global_setting_value']['ar-eg'] = "أدخل قيمة السياق العالمي.";
 $text['description-global_setting_value']['de-at'] = "Geben Sie den globalen Einstellwert ein.";
@@ -190,6 +197,7 @@ $text['description-global_setting_value']['ja-jp'] = "グローバル設定値�
 $text['description-global_setting_value']['ko-kr'] = "전역 설정 값을 입력합니다.";
 
 $text['label-global_setting_enabled']['en-us'] = "Enabled";
+$text['label-global_setting_enabled']['vi-vn'] = 'Đã bật';
 $text['label-global_setting_enabled']['en-gb'] = "Enabled";
 $text['label-global_setting_enabled']['ar-eg'] = "مُتاح";
 $text['label-global_setting_enabled']['de-at'] = "Aktiviert";
@@ -217,6 +225,7 @@ $text['label-global_setting_enabled']['ja-jp'] = "有効";
 $text['label-global_setting_enabled']['ko-kr'] = "사용";
 
 $text['description-global_setting_enabled']['en-us'] = "Enter the global setting enabled.";
+$text['description-global_setting_enabled']['vi-vn'] = 'Chọn trạng thái bật/tắt của thiết lập global.';
 $text['description-global_setting_enabled']['en-gb'] = "Enter the global setting enabled.";
 $text['description-global_setting_enabled']['ar-eg'] = "وتمكنت من دخول الإطار العالمي.";
 $text['description-global_setting_enabled']['de-at'] = "Geben Sie die globale Einstellung ein.";
@@ -244,6 +253,7 @@ $text['description-global_setting_enabled']['ja-jp'] = "有効なグローバル
 $text['description-global_setting_enabled']['ko-kr'] = "전역 설정을 활성화로 입력하십시오.";
 
 $text['label-global_setting_description']['en-us'] = "Description";
+$text['label-global_setting_description']['vi-vn'] = 'Mô tả';
 $text['label-global_setting_description']['en-gb'] = "Description";
 $text['label-global_setting_description']['ar-eg'] = "الوصف";
 $text['label-global_setting_description']['de-at'] = "Beschreibung";
@@ -271,6 +281,7 @@ $text['label-global_setting_description']['ja-jp'] = "説明";
 $text['label-global_setting_description']['ko-kr'] = "설명";
 
 $text['description-global_setting_description']['en-us'] = "Enter the global setting description.";
+$text['description-global_setting_description']['vi-vn'] = 'Nhập mô tả thiết lập global.';
 $text['description-global_setting_description']['en-gb'] = "Enter the global setting description.";
 $text['description-global_setting_description']['ar-eg'] = "أدخل وصف الإعداد العام.";
 $text['description-global_setting_description']['de-at'] = "Geben Sie die globale Einstellungsbeschreibung ein.";
