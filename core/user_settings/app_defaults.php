@@ -44,7 +44,7 @@
 			}
 		//migrate old user_settings
 			$sql = "update v_user_settings ";
-			$sql .= "set user_setting_value = '#fafafa' ";
+			$sql .= "set user_setting_value = '#F7FAFC' ";
 			$sql .= "where user_setting_subcategory = 'message_default_color' ";
 			$sql .= "and user_setting_value = '#ccffcc' ";
 			$database->execute($sql, null);

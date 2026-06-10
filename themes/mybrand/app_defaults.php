@@ -57,7 +57,7 @@
 
 		//migrate old default_settings
 			$sql = "update v_default_settings ";
-			$sql .= "set default_setting_value = '#fafafa' ";
+			$sql .= "set default_setting_value = '#F7FAFC' ";
 			$sql .= "where default_setting_subcategory = 'message_default_color' ";
 			$sql .= "and default_setting_value = '#ccffcc' ";
 			$database->execute($sql);

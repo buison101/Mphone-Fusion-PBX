@@ -144,7 +144,7 @@
 	$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 	$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "active_conference_status_connected";
 	$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-	$apps[$x]['default_settings'][$y]['default_setting_value'] = "#28a745";
+	$apps[$x]['default_settings'][$y]['default_setting_value'] = "#22C55E";
 	$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 	$apps[$x]['default_settings'][$y]['default_setting_description'] = "Color of the status indicator when connected and receiving pong responses.";
 	$y++;
@@ -152,7 +152,7 @@
 	$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 	$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "active_conference_status_warning";
 	$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-	$apps[$x]['default_settings'][$y]['default_setting_value'] = "#ffc107";
+	$apps[$x]['default_settings'][$y]['default_setting_value'] = "#F59E0B";
 	$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 	$apps[$x]['default_settings'][$y]['default_setting_description'] = "Color of the status indicator when ping sent but pong not yet received (warning state).";
 	$y++;
@@ -160,7 +160,7 @@
 	$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 	$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "active_conference_status_disconnected";
 	$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-	$apps[$x]['default_settings'][$y]['default_setting_value'] = "#dc3545";
+	$apps[$x]['default_settings'][$y]['default_setting_value'] = "#EF4444";
 	$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 	$apps[$x]['default_settings'][$y]['default_setting_description'] = "Color of the status indicator when disconnected or not authenticated.";
 	$y++;
@@ -168,7 +168,7 @@
 	$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 	$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "active_conference_status_connecting";
 	$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-	$apps[$x]['default_settings'][$y]['default_setting_value'] = "#6c757d";
+	$apps[$x]['default_settings'][$y]['default_setting_value'] = "#66758C";
 	$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 	$apps[$x]['default_settings'][$y]['default_setting_description'] = "Color of the status indicator when connecting or authenticating.";
 	$y++;

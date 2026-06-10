@@ -278,7 +278,7 @@ echo "<script src='resources/javascript/arrows.js?v=$version'></script>\n";
 
 	const colors = {
 		RINGING: 'blue',
-		CONNECTED: '<?php echo $settings->get('theme', 'heading_count_background_color', '#28a745'); ?>',
+		CONNECTED: '<?php echo $settings->get('theme', 'heading_count_background_color', '#22C55E'); ?>',
 		HANGUP: 'red',
 		INACTIVE: 'black'
 	}

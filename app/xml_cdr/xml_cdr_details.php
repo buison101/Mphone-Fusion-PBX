@@ -664,8 +664,8 @@
 	echo "		border: 1px solid;\n";
 
 	echo "		border-radius: " . $settings->get('theme', 'message_bubble_border_radius', '10px 10px 10px 10px') . ";\n";
-	echo "		border-color: " . $settings->get('theme', 'message_bubble_em_border_color', '#abefa0') . ";\n";
-	echo "		background: " . $settings->get('theme', 'message_bubble_em_background_color', '#daffd4') . ";\n";
+	echo "		border-color: " . $settings->get('theme', 'message_bubble_em_border_color', '#DCFCE7') . ";\n";
+	echo "		background: " . $settings->get('theme', 'message_bubble_em_background_color', '#F0FDF4') . ";\n";
 	echo "		color: " . $settings->get('theme', 'message_bubble_em_text_color', '#000000') . ";\n";
 	echo "		margin-bottom: 10px;\n";
 	echo "		clear: both;\n";
@@ -674,9 +674,9 @@
 	echo "	.message-bubble-em {\n";
 	//echo "		padding-right: 15px;\n";
 	//echo "		border-radius: " . $settings->get('theme', 'message_bubble_em_border_radius', '0 20px 20px 20px') . ";\n";
-	echo "		border-color: " . $settings->get('theme', 'message_bubble_em_border_color', '#abefa0') . ";\n";
-	echo "		background: " . $settings->get('theme', 'message_bubble_em_background_color', '#daffd4') . ";\n";
-	echo "		background: linear-gradient(180deg, ".$settings->get('theme', 'message_bubble_em_border_color', '#abefa0') . " 0%, " . $settings->get('theme', 'message_bubble_em_background_color', '#daffd4') . " 15px);\n";
+	echo "		border-color: " . $settings->get('theme', 'message_bubble_em_border_color', '#DCFCE7') . ";\n";
+	echo "		background: " . $settings->get('theme', 'message_bubble_em_background_color', '#F0FDF4') . ";\n";
+	echo "		background: linear-gradient(180deg, ".$settings->get('theme', 'message_bubble_em_border_color', '#DCFCE7') . " 0%, " . $settings->get('theme', 'message_bubble_em_background_color', '#F0FDF4') . " 15px);\n";
 	echo "		color: " . $settings->get('theme', 'message_bubble_em_text_color', '#000000') . ";\n";
 	echo "		}\n";
 
@@ -684,9 +684,9 @@
 	//echo "		float: right;\n";
 	//echo "		padding-left: 15px;\n";
 	//echo "		border-radius: " . $settings->get('theme', 'message_bubble_em_border_radius', '20px 20px 0 20px') . ";\n";
-	echo "		border-color: " . $settings->get('theme', 'message_bubble_me_border_color', '#a3e1fd') . ";\n";
-	echo "		background: " . $settings->get('theme', 'message_bubble_me_background_color', '#cbf0ff') . ";\n";
-	echo "		background: linear-gradient(180deg, " . $settings->get('theme', 'message_bubble_me_background_color', '#cbf0ff') . " calc(100% - 15px), ".$settings->get('theme', 'message_bubble_me_border_color', '#a3e1fd') . " 100%);\n";
+	echo "		border-color: " . $settings->get('theme', 'message_bubble_me_border_color', '#CFFAFE') . ";\n";
+	echo "		background: " . $settings->get('theme', 'message_bubble_me_background_color', '#ECFEFF') . ";\n";
+	echo "		background: linear-gradient(180deg, " . $settings->get('theme', 'message_bubble_me_background_color', '#ECFEFF') . " calc(100% - 15px), ".$settings->get('theme', 'message_bubble_me_border_color', '#CFFAFE') . " 100%);\n";
 	echo "		color: " . $settings->get('theme', 'message_bubble_me_text_color', '#000000') . ";\n";
 	echo "		}\n";
 

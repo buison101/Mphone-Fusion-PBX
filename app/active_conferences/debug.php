@@ -35,7 +35,7 @@ $version = md5(file_get_contents(__DIR__ . '/resources/javascript/websocket_clie
         }
 
         .websocket-header {
-            background-color: #f5f5f5;
+            background-color: #F7FAFC;
             padding: 10px;
             cursor: pointer;
             display: flex;
@@ -45,7 +45,7 @@ $version = md5(file_get_contents(__DIR__ . '/resources/javascript/websocket_clie
         }
 
         .websocket-header:hover {
-            background-color: #e9e9e9;
+            background-color: #EDF2F7;
         }
 
         .toggle-icon {
@@ -66,7 +66,7 @@ $version = md5(file_get_contents(__DIR__ . '/resources/javascript/websocket_clie
             overflow-y: auto;
             border: 1px solid #eee;
             padding: 10px;
-            background-color: #f9f9f9;
+            background-color: #F7FAFC;
             font-family: monospace;
             font-size: 12px;
         }
@@ -76,11 +76,11 @@ $version = md5(file_get_contents(__DIR__ . '/resources/javascript/websocket_clie
             padding: 5px;
             border-radius: 3px;
             background-color: #fff;
-            border-left: 3px solid #007bff;
+            border-left: 3px solid #1047BF;
         }
 
         .event-item:hover {
-            background-color: #f0f8ff;
+            background-color: #F4F8FF;
         }
 
         .event-timestamp {
@@ -90,7 +90,7 @@ $version = md5(file_get_contents(__DIR__ . '/resources/javascript/websocket_clie
 
         .event-type {
             font-weight: bold;
-            color: #007bff;
+            color: #1047BF;
         }
 
         .event-data {
@@ -105,15 +105,15 @@ $version = md5(file_get_contents(__DIR__ . '/resources/javascript/websocket_clie
         }
 
         .connected {
-            background-color: #d4edda;
-            color: #155724;
-            border: 1px solid #c3e6cb;
+            background-color: #DCFCE7;
+            color: #22C55E;
+            border: 1px solid #DCFCE7;
         }
 
         .disconnected {
-            background-color: #f8d7da;
-            color: #721c24;
-            border: 1px solid #f5c6cb;
+            background-color: #FEE2E2;
+            color: #EF4444;
+            border: 1px solid #FEE2E2;
         }
 
         .controls {
@@ -129,17 +129,17 @@ $version = md5(file_get_contents(__DIR__ . '/resources/javascript/websocket_clie
         }
 
         .connect-btn {
-            background-color: #28a745;
+            background-color: #22C55E;
             color: white;
         }
 
         .disconnect-btn {
-            background-color: #dc3545;
+            background-color: #EF4444;
             color: white;
         }
 
         .clear-btn {
-            background-color: #6c757d;
+            background-color: #66758C;
             color: white;
         }
     </style>

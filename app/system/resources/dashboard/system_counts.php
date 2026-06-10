@@ -314,8 +314,8 @@
 							datasets: [{
 								data: ['<?php echo $domain_active; ?>', '<?php echo $domain_inactive; ?>'],
 								backgroundColor: [
-									'<?php echo ($settings->get('theme', 'dashboard_system_counts_chart_main_color') ?? '#3086f2'); ?>',
-									'<?php echo ($settings->get('theme', 'dashboard_system_counts_chart_sub_color') ?? '#d4d4d4'); ?>'
+									'<?php echo ($settings->get('theme', 'dashboard_system_counts_chart_main_color') ?? '#4F7FE2'); ?>',
+									'<?php echo ($settings->get('theme', 'dashboard_system_counts_chart_sub_color') ?? '#DCE3EC'); ?>'
 								],
 								borderColor: '<?php echo $settings->get('theme', 'dashboard_chart_border_color'); ?>',
 								borderWidth: '<?php echo $settings->get('theme', 'dashboard_chart_border_width'); ?>',

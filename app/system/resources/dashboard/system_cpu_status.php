@@ -66,9 +66,9 @@
 
 			const cpu_status_subject = '<?php echo system_dashboard_service::CPU_STATUS_TOPIC; ?>';
 			const dashboard_cpu_usage_chart_main_color = [
-				'<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[0] ?? '#28a745'); ?>',
-				'<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[1] ?? '#ff9933'); ?>',
-				'<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[2] ?? '#ea4c46'); ?>'
+				'<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[0] ?? '#22C55E'); ?>',
+				'<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[1] ?? '#F59E0B'); ?>',
+				'<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[2] ?? '#EF4444'); ?>'
 			];
 
 			function connect_cpu_status_websocket() {
@@ -128,7 +128,7 @@
 			let cpu_index = 0;
 
 			// Color palette (expandable for any number of cores)
-			const base_colors = ['#00bcd4', '#8bc34a', '#ffc107', '#e91e63', '#9c27b0', '#ff5722', '#607d8b', '#795548'];
+			const base_colors = ['#00bcd4', '#8bc34a', '#F59E0B', '#e91e63', '#9c27b0', '#ff5722', '#607d8b', '#795548'];
 			const cpu_colors = Array.from({ length: num_cores }, (_, i) => base_colors[i % base_colors.length]);
 
 			window.system_cpu_status_chart = new Chart(
@@ -225,9 +225,9 @@
 
 			const cpu_status_subject = '<?php echo system_dashboard_service::CPU_STATUS_TOPIC; ?>';
 			const dashboard_cpu_usage_chart_main_color = [
-				'<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[0] ?? '#28a745'); ?>',
-				'<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[1] ?? '#ff9933'); ?>',
-				'<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[2] ?? '#ea4c46'); ?>'
+				'<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[0] ?? '#22C55E'); ?>',
+				'<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[1] ?? '#F59E0B'); ?>',
+				'<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[2] ?? '#EF4444'); ?>'
 			];
 
 			function connect_cpu_status_websocket() {
@@ -269,11 +269,11 @@
 
 				// Update color based on threshold
 				if (cpu_rounded <= 60) {
-					chart.data.datasets[0].backgroundColor[0] = '<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[0] ?? '#28a745'); ?>';
+					chart.data.datasets[0].backgroundColor[0] = '<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[0] ?? '#22C55E'); ?>';
 				} else if (cpu_rounded <= 80) {
-					chart.data.datasets[0].backgroundColor[0] = '<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[1] ?? '#ff9933'); ?>';
+					chart.data.datasets[0].backgroundColor[0] = '<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[1] ?? '#F59E0B'); ?>';
 				} else {
-					chart.data.datasets[0].backgroundColor[0] = '<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[2] ?? '#ea4c46'); ?>';
+					chart.data.datasets[0].backgroundColor[0] = '<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[2] ?? '#EF4444'); ?>';
 				}
 
 				chart.options.plugins.chart_number_2.text = cpu_rounded;
@@ -295,14 +295,14 @@
 							backgroundColor: [
 								<?php
 								if ($percent_cpu <= 60) {
-									echo "'".($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[0] ?? '#28a745')."',\n";
+									echo "'".($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[0] ?? '#22C55E')."',\n";
 								} else if ($percent_cpu <= 80) {
-									echo "'".($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[1] ?? '#ff9933')."',\n";
+									echo "'".($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[1] ?? '#F59E0B')."',\n";
 								} else if ($percent_cpu > 80) {
-									echo "'".($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[2] ?? '#ea4c46')."',\n";
+									echo "'".($settings->get('theme', 'dashboard_cpu_usage_chart_main_color')[2] ?? '#EF4444')."',\n";
 								}
 								?>
-								'<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_sub_color') ?? '#d4d4d4'); ?>'
+								'<?php echo ($settings->get('theme', 'dashboard_cpu_usage_chart_sub_color') ?? '#DCE3EC'); ?>'
 							],
 							borderColor: '<?php echo $settings->get('theme', 'dashboard_chart_border_color'); ?>',
 							borderWidth: '<?php echo $settings->get('theme', 'dashboard_chart_border_width'); ?>'

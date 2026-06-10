@@ -100,8 +100,8 @@
 						datasets: [{
 							data: ['<?php echo $registrations; ?>', 0.00001],
 							backgroundColor: [
-								'<?php echo ($settings->get('theme', 'dashboard_switch_status_chart_main_color') ?? '#3086f2'); ?>',
-								'<?php echo ($settings->get('theme', 'dashboard_switch_status_chart_sub_color') ?? '#d4d4d4'); ?>'
+								'<?php echo ($settings->get('theme', 'dashboard_switch_status_chart_main_color') ?? '#4F7FE2'); ?>',
+								'<?php echo ($settings->get('theme', 'dashboard_switch_status_chart_sub_color') ?? '#DCE3EC'); ?>'
 							],
 							borderColor: '<?php echo $settings->get('theme', 'dashboard_chart_border_color'); ?>',
 							borderWidth: '<?php echo $settings->get('theme', 'dashboard_chart_border_width'); ?>',

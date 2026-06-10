@@ -155,7 +155,7 @@
 	<title><?php echo $text['label-time_timer']; ?>: <?php echo $contact; ?></title>
 	<style>
 		body {
-			color: #5f5f5f;
+			color: #66758C;
 			font-size: 12px;
 			font-family: arial;
 			margin: 0;
@@ -163,18 +163,18 @@
 			}
 
 		b {
-			color: #952424;
+			color: #EF4444;
 			font-size: 15px;
 			font-family: arial;
 			}
 
 		a {
-			color: #004083;
+			color: #1047BF;
 			width: 100%;
 			}
 
 		a:hover {
-			color: #5082ca;
+			color: #1047BF;
 			}
 
 		form {
@@ -204,9 +204,9 @@
 			}
 
 		input.btn:hover, input.button:hover, img.list_control_icon:hover {
-			box-shadow: 0 0 5px #cddaf0;
-			-webkit-box-shadow: 0 0 5px #cddaf0;
-			-moz-box-shadow: 0 0 5px #cddaf0;
+			box-shadow: 0 0 5px #DCE7FC;
+			-webkit-box-shadow: 0 0 5px #DCE7FC;
+			-moz-box-shadow: 0 0 5px #DCE7FC;
 			opacity: 1.0;
 			-moz-opacity: 1.0;
 			cursor: pointer;
@@ -218,11 +218,11 @@
 			color: #000;
 			text-align: left;
 			padding: 5px;
-			border: 1px solid #c0c0c0;
+			border: 1px solid #C1CCD9;
 			background-color: #fff;
-			box-shadow: 0 0 3px #cddaf0 inset;
-			-moz-box-shadow: 0 0 3px #cddaf0 inset;
-			-webkit-box-shadow: 0 0 3px #cddaf0 inset;
+			box-shadow: 0 0 3px #DCE7FC inset;
+			-moz-box-shadow: 0 0 3px #DCE7FC inset;
+			-webkit-box-shadow: 0 0 3px #DCE7FC inset;
 			border-radius: 3px;
 			-moz-border-radius: 3px;
 			-webkit-border-radius: 3px;
@@ -236,27 +236,27 @@
 			}
 
 		input.txt:focus, .formfld:focus {
-			-webkit-box-shadow: 0 0 5px #cddaf0;
-			-moz-box-shadow: 0 0 5px #cddaf0;
-			box-shadow: 0 0 5px #cddaf0;
+			-webkit-box-shadow: 0 0 5px #DCE7FC;
+			-moz-box-shadow: 0 0 5px #DCE7FC;
+			box-shadow: 0 0 5px #DCE7FC;
 			}
 
 		td {
-			color: #5f5f5f;
+			color: #66758C;
 			font-size: 12px;
 			font-family: arial;
 			}
 
 		.vncell {
 			border-bottom: 1px solid #fff;
-			background-color: #e5e9f0;
+			background-color: #EDF2F7;
 			padding: 8px;
 			text-align: right;
 			color: #000;
 			-moz-border-radius: 4px;
 			-webkit-border-radius: 4px;
 			border-radius: 4px;
-			border-right: 3px solid #e5e9f0;
+			border-right: 3px solid #EDF2F7;
 			}
 
 		DIV.timer_running {
@@ -266,7 +266,7 @@
 			width: 100%;
 			height: 53px;
 			text-align: center;
-			background-color: #2C9DE8;
+			background-color: #1047BF;
 			font-size: 50px;
 			color: #FFFFFF;
 			/*-webkit-text-shadow: 0px 0px 5px #000;*/
@@ -287,7 +287,7 @@
 			width: 100%;
 			height: 53px;
 			text-align: center;
-			background-color: #2C9DE8;
+			background-color: #1047BF;
 			font-size: 50px;
 			color: #FFFFFF;
 			/*-webkit-text-shadow: 0px 0px 5px #000;*/

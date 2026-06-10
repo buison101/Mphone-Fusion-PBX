@@ -268,7 +268,7 @@
 
 //adjust color and initialize step counter
 	$step = 1;
-	$step_color = !empty($settings->get('theme', 'upgrade_step_color')) ? $settings->get('theme', 'upgrade_step_color') : color_adjust((!empty($settings->get('theme', 'form_table_label_background_color')) ? $settings->get('theme', 'form_table_label_background_color') : '#e5e9f0'), -0.1);
+	$step_color = !empty($settings->get('theme', 'upgrade_step_color')) ? $settings->get('theme', 'upgrade_step_color') : color_adjust((!empty($settings->get('theme', 'form_table_label_background_color')) ? $settings->get('theme', 'form_table_label_background_color') : '#EDF2F7'), -0.1);
 	$step_container_style = "width: 30px; height: 30px; border: 2px solid ".$step_color."; border-radius: 50%; float: left; text-align: center; vertical-align: middle;";
 	$step_number_style = "font-size: 150%; font-weight: 600; color: ".$step_color.";";
 

@@ -66,10 +66,10 @@
 
 //get theme colors for status indicator
 	$status_colors = [
-		'connected'    => $settings->get('theme', 'active_conference_status_connected', '#28a745'),
-		'warning'      => $settings->get('theme', 'active_conference_status_warning', '#ffc107'),
-		'disconnected' => $settings->get('theme', 'active_conference_status_disconnected', '#dc3545'),
-		'connecting'   => $settings->get('theme', 'active_conference_status_connecting', '#6c757d'),
+		'connected'    => $settings->get('theme', 'active_conference_status_connected', '#22C55E'),
+		'warning'      => $settings->get('theme', 'active_conference_status_warning', '#F59E0B'),
+		'disconnected' => $settings->get('theme', 'active_conference_status_disconnected', '#EF4444'),
+		'connecting'   => $settings->get('theme', 'active_conference_status_connecting', '#66758C'),
 	];
 
 //get status indicator mode and icons

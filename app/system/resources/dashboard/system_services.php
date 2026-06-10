@@ -167,8 +167,8 @@ if (!isset($widget_chart_type) || $widget_chart_type == "doughnut") {
 	echo "					datasets: [{\n";
 	echo "							data: ['".$total_running."','".($total_services-$total_running)."'],\n";
 	echo "							backgroundColor: [\n";
-	echo "								'".$settings->get('theme', 'dashboard_system_counts_chart_main_color','#3086f2')."',\n";
-	echo "								'".$settings->get('theme', 'dashboard_system_counts_chart_sub_color','#d4d4d4')."'\n";
+	echo "								'".$settings->get('theme', 'dashboard_system_counts_chart_main_color','#4F7FE2')."',\n";
+	echo "								'".$settings->get('theme', 'dashboard_system_counts_chart_sub_color','#DCE3EC')."'\n";
 	echo "							],\n";
 	echo "							borderColor: '".$settings->get('theme', 'dashboard_chart_border_color')."',\n";
 	echo "							borderWidth: '".$settings->get('theme', 'dashboard_chart_border_width')."'\n";
@@ -226,8 +226,8 @@ if ($widget_details_state != 'disabled') {
 	foreach ($services as $info) {
 		$label = $info['label'];
 		$status = $info['running']
-			? "<span style='background-color: #28a745; color: white; padding: 2px 8px; border-radius: 10px;'>".($text['label-yes'] ?? 'Yes')."</span>"
-			: "<span style='background-color: #dc3545; color: white; padding: 2px 8px; border-radius: 10px;'>".($text['label-no'] ?? 'No')."</span>";
+			? "<span style='background-color: #22C55E; color: white; padding: 2px 8px; border-radius: 10px;'>".($text['label-yes'] ?? 'Yes')."</span>"
+			: "<span style='background-color: #EF4444; color: white; padding: 2px 8px; border-radius: 10px;'>".($text['label-no'] ?? 'No')."</span>";
 		$etime = isset($info['etime']) ? format_etime($info['etime']) : '-';
 		$pid = $info['pid'] ?? '';
 		$tooltip_attr = $pid ? "title='PID: $pid'" : '';

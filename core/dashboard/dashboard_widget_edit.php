@@ -1062,7 +1062,7 @@ document.addEventListener('DOMContentLoaded', function() {
 	echo "			<input type='radio' style='display: none;' name='widget_chart_type' value='icon' ".($widget_chart_type == 'icon' ? 'checked' : '').">\n";
 	echo "			<div style='position: relative; display: inline-block;'>\n";
 	echo "				<i class='fas fa-envelope'></i>\n";
-	echo "				<span style=\"background: #4099FF; color: #ffffff; font-size: 9px; font-weight: bold; text-align: center; position: absolute; top: 11px; left: 14px; padding: 0px 4px; border-radius: 10px; white-space: nowrap;\">1</span>\n";
+	echo "				<span style=\"background: #1047BF; color: #ffffff; font-size: 9px; font-weight: bold; text-align: center; position: absolute; top: 11px; left: 14px; padding: 0px 4px; border-radius: 10px; white-space: nowrap;\">1</span>\n";
 	echo "			</div>\n";
 	echo "		</label>\n";
 	echo "		<label class='chart_type_button' title='".$text['label-line']."' ".(!in_array('line', $widget_chart_type_options) ? "style='display: none;'" : null).">\n";

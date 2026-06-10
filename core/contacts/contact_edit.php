@@ -1158,7 +1158,7 @@
 			$parameters['user_uuid'] = $_SESSION['user']['user_uuid'];
 			$parameters['contact_uuid'] = $contact_uuid;
 			$time_start = $database->select($sql, $parameters, 'column');
-			$btn_style = $time_start ? 'color: #fff; background-color: #3693df; background-image: none;' : null;
+			$btn_style = $time_start ? 'color: #fff; background-color: #1047BF; background-image: none;' : null;
 			unset($sql, $parameters);
 			echo button::create(['type'=>'button','label'=>$text['button-timer'],'icon'=>'clock','style'=>$btn_style,'title'=>$time_start,'collapse'=>'hide-sm-dn','onclick'=>"window.open('contact_timer.php?domain_uuid=".urlencode($domain_uuid)."&contact_uuid=".urlencode($contact_uuid)."','contact_time_".escape($contact_uuid)."','width=300, height=375, top=30, left='+(screen.width - 350)+', menubar=no, scrollbars=no, status=no, toolbar=no, resizable=no');"]);
 		}
@@ -1255,7 +1255,7 @@ label {
 	}
 
 input[type=submit] {
-	background-color: #4CAF50;
+	background-color: #22C55E;
 	color: white;
 	padding: 12px 20px;
 	border: none;
@@ -1265,7 +1265,7 @@ input[type=submit] {
 	}
 
 input[type=submit]:hover {
-	background-color: #45a049;
+	background-color: #22C55E;
 	}
 
 option:first-child {
@@ -1274,7 +1274,7 @@ option:first-child {
 
 .container {
 	border-radius: 5px;
-	background-color: #f2f2f2;
+	background-color: #EDF2F7;
 	padding: 20px;
 	}
 

@@ -54,7 +54,7 @@
 
 		//migrate old domain_settings
 			$sql = "update v_domain_settings ";
-			$sql .= "set domain_setting_value = '#fafafa' ";
+			$sql .= "set domain_setting_value = '#F7FAFC' ";
 			$sql .= "where domain_setting_subcategory = 'message_default_color' ";
 			$sql .= "and domain_setting_value = '#ccffcc' ";
 			$database->execute($sql, null);

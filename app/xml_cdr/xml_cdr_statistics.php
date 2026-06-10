@@ -180,43 +180,43 @@
 				{
 					label: "Volume",
 					data: <?php echo json_encode($graph['volume']); ?>,
-					backgroundColor: "#EDC240",
-					borderColor: "#EDC240",
+					backgroundColor: "#F59E0B",
+					borderColor: "#F59E0B",
 					fill: false
 				},
 				{
 					label: "Minutes",
 					data: <?php echo json_encode($graph['minutes']); ?>,
-					backgroundColor: "#AFD8F8",
-					borderColor: "#AFD8F8",
+					backgroundColor: "#B9CEF8",
+					borderColor: "#B9CEF8",
 					fill: false
 				},
 				{
 					label: "Calls Per Min",
 					data: <?php echo json_encode($graph['call_per_min']); ?>,
-					backgroundColor: "#CB4B4B",
-					borderColor: "#CB4B4B",
+					backgroundColor: "#EF4444",
+					borderColor: "#EF4444",
 					fill: false
 				},
 				{
 					label: "Missed",
 					data: <?php echo json_encode($graph['missed']); ?>,
-					backgroundColor: "#4DA74D",
-					borderColor: "#4DA74D",
+					backgroundColor: "#22C55E",
+					borderColor: "#22C55E",
 					fill: false
 				},
 				{
 					label: "ASR",
 					data: <?php echo json_encode($graph['asr']); ?>,
-					backgroundColor: "#9440ED",
-					borderColor: "#9440ED",
+					backgroundColor: "#4F7FE2",
+					borderColor: "#4F7FE2",
 					fill: false
 				},
 				{
 					label: "ALOC",
 					data: <?php echo json_encode($graph['aloc']); ?>,
-					backgroundColor: "#BD9B33",
-					borderColor: "#BD9B33",
+					backgroundColor: "#F59E0B",
+					borderColor: "#F59E0B",
 					fill: false
 				}
 			]

@@ -149,6 +149,9 @@
 				}
 
 			//pre-process some settings
+				if (empty($settings_array['theme']['custom_css'])) {
+					$settings_array['theme']['custom_css'] = $settings->get('theme', 'custom_css');
+				}
 				$settings_array['theme']['favicon'] = !empty($settings_array['theme']['favicon']) ? $settings_array['theme']['favicon'] : PROJECT_PATH.'/themes/default/favicon.ico';
 				$settings_array['theme']['font_loader_version'] = !empty($settings_array['theme']['font_loader_version']) ? urlencode($settings_array['theme']['font_loader_version']) : '1';
 				$settings_array['theme']['message_delay'] = isset($settings_array['theme']['message_delay']) ? 1000 * (float) $settings_array['theme']['message_delay'] : 3000;
