@@ -33,7 +33,7 @@ $menu_main_border_radius = $settings->get('theme', 'menu_main_border_radius', $m
 $menu_brand_text_color = $settings->get('theme', 'menu_brand_text_color', '#DCE7FC');
 $menu_brand_text_size = $settings->get('theme', 'menu_brand_text_size', '13pt');
 $menu_brand_text_color_hover = $settings->get('theme', 'menu_brand_text_color_hover', '#ffffff');
-$menu_main_text_font = $settings->get('theme', 'menu_main_text_font', 'arial');
+$menu_main_text_font = $settings->get('theme', 'menu_main_text_font', 'Inter, Arial, sans-serif');
 $menu_main_text_size = $settings->get('theme', 'menu_main_text_size', '10.25pt');
 $menu_main_text_color = $settings->get('theme', 'menu_main_text_color', '#DCE7FC');
 $menu_main_text_color_hover = $settings->get('theme', 'menu_main_text_color_hover', '#ffffff');
@@ -43,7 +43,7 @@ $menu_sub_border_size = $settings->get('theme', 'menu_sub_border_size', 0);
 $menu_sub_background_color = $settings->get('theme', 'menu_sub_background_color', '#1047BF');
 $menu_sub_shadow_color = !empty($settings->get('theme', 'menu_sub_shadow_color', '')) ? '0 0 5px '.$settings->get('theme', 'menu_sub_shadow_color') : 'none';
 $menu_sub_border_radius = $settings->get('theme', 'menu_sub_border_radius', null);
-$menu_sub_text_font = $settings->get('theme', 'menu_sub_text_font', 'arial');
+$menu_sub_text_font = $settings->get('theme', 'menu_sub_text_font', 'Inter, Arial, sans-serif');
 $menu_sub_text_color = $settings->get('theme', 'menu_sub_text_color', '#DCE7FC');
 $menu_sub_text_size = $settings->get('theme', 'menu_sub_text_size', '10pt');
 $menu_sub_text_color_hover = $settings->get('theme', 'menu_sub_text_color_hover', '#ffffff');
@@ -73,7 +73,7 @@ $button_border_color = $settings->get('theme', 'button_border_color', '#1047BF')
 $button_border_radius = $settings->get('theme', 'button_border_radius', null);
 $button_background_color = $settings->get('theme', 'button_background_color', '#1047BF');
 $button_background_color_bottom = $settings->get('theme', 'button_background_color_bottom', '#1047BF');
-$button_text_font = $settings->get('theme', 'button_text_font', 'Candara, Calibri, Segoe, "Segoe UI", Optima, Arial, sans-serif');
+$button_text_font = $settings->get('theme', 'button_text_font', 'Inter, Arial, sans-serif');
 $button_text_color = $settings->get('theme', 'button_text_color', '#ffffff');
 $button_text_weight = $settings->get('theme', 'button_text_weight', 'bold');
 $button_text_size = $settings->get('theme', 'button_text_size', '11px');
@@ -98,9 +98,9 @@ $domain_inactive_text_color_hover = $settings->get('theme', 'domain_inactive_tex
 $domain_active_desc_text_color = $settings->get('theme', 'domain_active_desc_text_color', '#84A9F0');
 $domain_inactive_desc_text_color = $settings->get('theme', 'domain_inactive_desc_text_color', '#84A9F0');
 $heading_text_size = $settings->get('theme', 'heading_text_size', '15px');
-$heading_text_font = $settings->get('theme', 'heading_text_font', 'arial');
+$heading_text_font = $settings->get('theme', 'heading_text_font', 'Inter, Arial, sans-serif');
 $heading_count_padding = $settings->get('theme', 'heading_count_padding', '2px 6px');
-$heading_count_text_font = $settings->get('theme', 'heading_count_text_font', 'arial');
+$heading_count_text_font = $settings->get('theme', 'heading_count_text_font', 'Inter, Arial, sans-serif');
 $heading_count_text_size = $settings->get('theme', 'heading_count_text_size', '12px');
 $heading_count_text_color = $settings->get('theme', 'heading_count_text_color', '#ffffff');
 $heading_count_text_weight = $settings->get('theme', 'heading_count_text_weight', '700');
@@ -111,13 +111,13 @@ $body_border_radius = $settings->get('theme', 'body_border_radius', null);
 $body_shadow_color = !empty($settings->get('theme', 'body_shadow_color', '')) ? '0 1px 4px '.$settings->get('theme', 'body_shadow_color') : 'none';
 $body_text_color = $settings->get('theme', 'body_text_color', '#151F33');
 $body_text_size = $settings->get('theme', 'body_text_size', '12px');
-$body_text_font = $settings->get('theme', 'body_text_font', 'arial');
+$body_text_font = $settings->get('theme', 'body_text_font', 'Inter, Arial, sans-serif');
 $body_width = $settings->get('theme', 'body_width', '90%');
 $heading_text_color = $settings->get('theme', 'heading_text_color', '#1047BF');
 $heading_text_size = $settings->get('theme', 'heading_text_size', '15px');
-$heading_text_font = $settings->get('theme', 'heading_text_font', 'arial');
+$heading_text_font = $settings->get('theme', 'heading_text_font', 'Inter, Arial, sans-serif');
 $input_height = $settings->get('theme', 'input_height', '28px');
-$input_text_font = $settings->get('theme', 'input_text_font', 'Arial');
+$input_text_font = $settings->get('theme', 'input_text_font', 'Inter, Arial, sans-serif');
 $input_text_font_password = $settings->get('theme', 'input_text_font_password', 'monospace');
 $input_text_size = $settings->get('theme', 'input_text_size', '12px');
 $input_text_color = $settings->get('theme', 'input_text_color', '#151F33');
@@ -161,11 +161,11 @@ $login_body_border_style = $login_body_border_size || $login_body_border_color ?
 $login_body_shadow_color = !empty($settings->get('theme', 'login_body_shadow_color', '')) ? '0 1px 20px '.$settings->get('theme', 'login_body_shadow_color') : 'none';
 $login_link_text_color = $settings->get('theme', 'login_link_text_color', '#1047BF');
 $login_link_text_size = $settings->get('theme', 'login_link_text_size', '11px');
-$login_link_text_font = $settings->get('theme', 'login_link_text_font', 'Arial');
+$login_link_text_font = $settings->get('theme', 'login_link_text_font', 'Inter, Arial, sans-serif');
 $login_link_text_color_hover = $settings->get('theme', 'login_link_text_color_hover', '#1047BF');
 $login_text_color = $settings->get('theme', 'login_text_color', '#151F33');
 $login_text_size = $settings->get('theme', 'login_text_size', '12px');
-$login_text_font = $settings->get('theme', 'login_text_font', 'Arial');
+$login_text_font = $settings->get('theme', 'login_text_font', 'Inter, Arial, sans-serif');
 $login_input_text_font = $settings->get('theme', 'login_input_text_font', $input_text_font);
 $login_input_text_size = $settings->get('theme', 'login_input_text_size', $input_text_size);
 $login_input_text_color = $settings->get('theme', 'login_input_text_color', $input_text_color);
@@ -199,12 +199,12 @@ $login_input_shadow_outer_color_focus = $login_input_shadow_outer_color_focus !=
 $pwstrength_background_color = $settings->get('theme', 'input_background_color', '#ffffff');
 $table_heading_text_color = $settings->get('theme', 'table_heading_text_color', '#1047BF');
 $table_heading_text_size = $settings->get('theme', 'table_heading_text_size', '12px');
-$table_heading_text_font = $settings->get('theme', 'table_heading_text_font', 'arial');
+$table_heading_text_font = $settings->get('theme', 'table_heading_text_font', 'Inter, Arial, sans-serif');
 $table_heading_background_color = $settings->get('theme', 'table_heading_background_color', '#EDF2F7');
 $table_heading_border_color = $settings->get('theme', 'table_heading_border_color', '#DCE7FC');
 $table_heading_padding = $settings->get('theme', 'table_heading_padding', '4px 7px');
 $table_row_text_color = $settings->get('theme', 'table_row_text_color', '#151F33');
-$table_row_text_font = $settings->get('theme', 'table_row_text_font', 'arial');
+$table_row_text_font = $settings->get('theme', 'table_row_text_font', 'Inter, Arial, sans-serif');
 $table_row_text_size = $settings->get('theme', 'table_row_text_size', '12px');
 $table_row_text_link_color = $settings->get('theme', 'table_row_text_link_color', $text_link_color);
 $table_row_text_link_color_hover = $settings->get('theme', 'table_row_text_link_color_hover', $text_link_color_hover);
@@ -219,7 +219,7 @@ $form_table_label_border_radius = $settings->get('theme', 'form_table_label_bord
 $form_table_label_border_color = $settings->get('theme', 'form_table_label_border_color', '#ffffff');
 $form_table_label_padding = $settings->get('theme', 'form_table_label_padding', '7px 8px');
 $form_table_label_text_color = $settings->get('theme', 'form_table_label_text_color', '#151F33');
-$form_table_label_text_font = $settings->get('theme', 'form_table_label_text_font', 'Arial');
+$form_table_label_text_font = $settings->get('theme', 'form_table_label_text_font', 'Inter, Arial, sans-serif');
 $form_table_label_text_size = $settings->get('theme', 'form_table_label_text_size', '9pt');
 $form_table_label_required_background_color = $settings->get('theme', 'form_table_label_required_background_color', '#F4F8FF');
 $form_table_label_required_border_color = $settings->get('theme', 'form_table_label_required_border_color', '#4F7FE2');
@@ -230,7 +230,7 @@ $form_table_field_border_radius = $settings->get('theme', 'form_table_field_bord
 $form_table_field_border_color = $settings->get('theme', 'form_table_field_border_color', '#DCE7FC');
 $form_table_field_padding = $settings->get('theme', 'form_table_field_padding', '6px');
 $form_table_field_text_color = $settings->get('theme', 'form_table_field_text_color', '#151F33');
-$form_table_field_text_font = $settings->get('theme', 'form_table_field_text_font', 'Arial');
+$form_table_field_text_font = $settings->get('theme', 'form_table_field_text_font', 'Inter, Arial, sans-serif');
 $form_table_field_text_size = $settings->get('theme', 'form_table_field_text_size', '8pt');
 $form_table_heading_padding = $settings->get('theme', 'form_table_heading_padding', '8px 8px 4px 8px');
 $form_table_row_padding = $settings->get('theme', 'form_table_row_padding', null);
@@ -257,13 +257,13 @@ $dashboard_border_color_hover = $settings->get('theme', 'dashboard_border_color_
 $dashboard_label_text_color = $settings->get('theme', 'dashboard_label_text_color', '#ffffff');
 $dashboard_label_text_color_hover = $settings->get('theme', 'dashboard_label_text_color_hover', '');
 $dashboard_label_text_size = $settings->get('theme', 'dashboard_label_text_size', '13px');
-$dashboard_label_text_font = $settings->get('theme', 'dashboard_label_text_font', 'Arial, Calibri, Candara, Segoe, "Segoe UI", Optima, sans-serif');
+$dashboard_label_text_font = $settings->get('theme', 'dashboard_label_text_font', 'Inter, Arial, sans-serif');
 $dashboard_label_text_shadow_color = $settings->get('theme', 'dashboard_label_text_shadow_color', 'rgba(0,0,0,0)');
 $dashboard_label_background_color = $settings->get('theme', 'dashboard_label_background_color', '');
 $dashboard_label_background_color_hover = $settings->get('theme', 'dashboard_label_background_color_hover', '');
 $dashboard_number_text_color = $settings->get('theme', 'dashboard_number_text_color', '#1047BF');
 $dashboard_number_text_color_hover = $settings->get('theme', 'dashboard_number_text_color_hover', '');
-$dashboard_number_text_font = $settings->get('theme', 'dashboard_number_text_font', 'Arial, Calibri, Candara, Segoe, "Segoe UI", Optima, sans-serif');
+$dashboard_number_text_font = $settings->get('theme', 'dashboard_number_text_font', 'Inter, Arial, sans-serif');
 $dashboard_number_text_size = $settings->get('theme', 'dashboard_number_text_size', '60pt');
 $dashboard_number_text_shadow_color = $settings->get('theme', 'dashboard_number_text_shadow_color', 'rgba(0,0,0,0)');
 $dashboard_number_text_shadow_color_hover = $settings->get('theme', 'dashboard_number_text_shadow_color_hover', 'rgba(0,0,0,0)');
@@ -271,7 +271,7 @@ $dashboard_number_background_color = $settings->get('theme', 'dashboard_number_b
 $dashboard_number_background_color_hover = $settings->get('theme', 'dashboard_number_background_color_hover', '');
 $dashboard_number_title_text_color = $settings->get('theme', 'dashboard_number_title_text_color', '#151F33');
 $dashboard_number_title_text_size = $settings->get('theme', 'dashboard_number_title_text_size', '14px');
-$dashboard_number_title_text_font = $settings->get('theme', 'dashboard_number_title_text_font', 'Calibri, Candara, Segoe, "Segoe UI", Optima, Arial, sans-serif');
+$dashboard_number_title_text_font = $settings->get('theme', 'dashboard_number_title_text_font', 'Inter, Arial, sans-serif');
 $dashboard_number_title_text_shadow_color = $settings->get('theme', 'dashboard_number_title_text_shadow_color', '#737983');
 $dashboard_detail_shadow_color = $settings->get('theme', 'dashboard_detail_shadow_color', 'rgba(16,71,191,0.10)');
 $dashboard_detail_heading_text_size = $settings->get('theme', 'dashboard_detail_heading_text_size', '11px');
@@ -348,7 +348,7 @@ if (!empty($_SESSION['theme'])) {
 					$font_name = trim($font_name);
 					$fonts[] = $font_name;
 				}
-				if (sizeof($fonts) == 1 && strtolower($fonts[0]) != 'arial') { $fonts[] = 'Arial'; } //fall back font
+				if (sizeof($fonts) == 1 && strtolower($fonts[0]) != 'Inter, Arial, sans-serif') { $fonts[] = 'Inter, Arial, sans-serif'; } //fall back font
 				$_SESSION['theme'][$subcategory]['text'] = "'".implode("','", $fonts)."'";
 			}
 		}
@@ -615,7 +615,7 @@ else { //default: white
 
 	.footer {
 		font-size: 11px;
-		font-family: arial;
+		font-family: Inter, Arial, sans-serif;
 		line-height: 14px;
 		color: <?=$footer_color?>;
 		white-space: nowrap;
@@ -2690,7 +2690,7 @@ else { //default: white
 		z-index: 99999;
 		margin: 0 auto;
 		text-align: center;
-		font-family: arial, san-serif;
+		font-family: Inter, Arial, sans-serif;
 		font-size: 10pt;
 		display: block;
 		color: <?=$message_default_color?>;
@@ -2829,7 +2829,7 @@ else { //default: white
 	td.op_ext_info {
 		text-align: left;
 		vertical-align: top;
-		font-family: arial;
+		font-family: Inter, Arial, sans-serif;
 		font-size: 10px;
 		overflow: auto;
 		width: 100%;
@@ -2865,7 +2865,7 @@ else { //default: white
 		}
 
 	.op_user_info {
-		font-family: arial;
+		font-family: Inter, Arial, sans-serif;
 		font-size: 10px;
 		display: inline-block;
 		color: <?=$operator_panel_user_info?>;
@@ -2878,7 +2878,7 @@ else { //default: white
 	.op_caller_info {
 		display: block;
 		margin-top: 4px;
-		font-family: arial;
+		font-family: Inter, Arial, sans-serif;
 		font-size: 10px;
 		color: <?=$operator_panel_caller_info?>;
 		}
@@ -2886,7 +2886,7 @@ else { //default: white
 	.op_call_info {
 		display: inline-block;
 		padding: 0px;
-		font-family: arial;
+		font-family: Inter, Arial, sans-serif;
 		font-size: 10px;
 		color: <?=$operator_panel_call_info?>;
 		}
@@ -3297,7 +3297,7 @@ else { //default: white
 		background-image: none;
 		background-color: #ffffff;
 		white-space: nowrap;
-		font-family: arial;
+		font-family: Inter, Arial, sans-serif;
 		font-size: 12px;
 		color: #151F33;
 		}

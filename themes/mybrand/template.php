@@ -19,6 +19,9 @@
 	<link rel='stylesheet' type='text/css' href='{$project_path}/resources/bootstrap/css/bootstrap-tempusdominus.min.css.php'>
 	<link rel='stylesheet' type='text/css' href='{$project_path}/resources/bootstrap/css/bootstrap-colorpicker.min.css.php'>
 	<link rel='stylesheet' type='text/css' href='{$project_path}/resources/fontawesome/css/all.min.css.php'>
+	<link rel='preconnect' href='https://fonts.googleapis.com'>
+	<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
+	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'>
 	<link rel='stylesheet' type='text/css' href='{$project_path}/themes/mybrand/css.php?updated=202606090000'>
 {*//link to custom css file *}
 	{if !empty($settings.theme.custom_css)}

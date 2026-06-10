@@ -620,7 +620,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "menu_main_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Arial";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the font of the main menu items.";
 		$y++;
@@ -716,7 +716,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "menu_sub_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Arial";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the font of the sub menu items.";
 		$y++;
@@ -756,7 +756,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "heading_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "arial";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the font of the page heading text.";
 		$y++;
@@ -788,7 +788,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "heading_count_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "arial";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the text font of the page heading record counter.";
 		$y++;
@@ -836,7 +836,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "body_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "arial";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the font of body text.";
 		$y++;
@@ -892,7 +892,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "table_heading_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "arial";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the text font of table header rows.";
 		$y++;
@@ -940,7 +940,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "table_row_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "arial";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the text font of table data rows.";
 		$y++;
@@ -1164,7 +1164,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "dashboard_label_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the font of the Dashboard block label text.";
 		$y++;
@@ -1228,7 +1228,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "dashboard_number_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the font of the Dashboard block number.";
 		$y++;
@@ -1268,7 +1268,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "dashboard_number_title_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Calibri, Candara, Segoe, Segoe UI, Optima, Arial, sans-serif";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the font of the Dashboard block number title.";
 		$y++;
@@ -1428,7 +1428,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "form_table_label_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Arial";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the text font of the form label.";
 		$y++;
@@ -1516,7 +1516,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "form_table_field_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Arial";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the font of text in the form field cell.";
 		$y++;
@@ -1692,7 +1692,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "login_link_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Arial";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the font of text links on the login box.";
 		$y++;
@@ -1716,7 +1716,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "login_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Arial";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the font of text links on the login box.";
 		$y++;
@@ -1804,7 +1804,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "button_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Candara, Calibri, Segoe, Segoe UI, Optima, Arial, sans-serif";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the font of button text.";
 		$y++;
@@ -2052,7 +2052,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "input_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Arial";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the font of text input content.";
 		$y++;
@@ -2308,7 +2308,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "login_input_text_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Arial";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the font of text input content on the login box.";
 		$y++;
@@ -3004,7 +3004,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "modal_title_font";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "arial";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Inter, Arial, sans-serif";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "";
 		$y++;
