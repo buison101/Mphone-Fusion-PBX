@@ -32,11 +32,11 @@ switch ($menu_style) {
 $menu_main_border_radius = $settings->get('theme', 'menu_main_border_radius', $menu_main_border_radius_default);
 $menu_brand_text_color = $settings->get('theme', 'menu_brand_text_color', '#DCE7FC');
 $menu_brand_text_size = $settings->get('theme', 'menu_brand_text_size', '13pt');
-$menu_brand_text_color_hover = $settings->get('theme', 'menu_brand_text_color_hover', '#ffffff');
+$menu_brand_text_color_hover = $settings->get('theme', 'menu_brand_text_color_hover', '#fbfcfe');
 $menu_main_text_font = $settings->get('theme', 'menu_main_text_font', 'Inter, Arial, sans-serif');
 $menu_main_text_size = $settings->get('theme', 'menu_main_text_size', '10.25pt');
 $menu_main_text_color = $settings->get('theme', 'menu_main_text_color', '#DCE7FC');
-$menu_main_text_color_hover = $settings->get('theme', 'menu_main_text_color_hover', '#ffffff');
+$menu_main_text_color_hover = $settings->get('theme', 'menu_main_text_color_hover', '#fbfcfe');
 $menu_main_background_color_hover = $settings->get('theme', 'menu_main_background_color_hover', '#1047BF');
 $menu_sub_border_color = $settings->get('theme', 'menu_sub_border_color', '#1047BF');
 $menu_sub_border_size = $settings->get('theme', 'menu_sub_border_size', 0);
@@ -46,7 +46,7 @@ $menu_sub_border_radius = $settings->get('theme', 'menu_sub_border_radius', null
 $menu_sub_text_font = $settings->get('theme', 'menu_sub_text_font', 'Inter, Arial, sans-serif');
 $menu_sub_text_color = $settings->get('theme', 'menu_sub_text_color', '#DCE7FC');
 $menu_sub_text_size = $settings->get('theme', 'menu_sub_text_size', '10pt');
-$menu_sub_text_color_hover = $settings->get('theme', 'menu_sub_text_color_hover', '#ffffff');
+$menu_sub_text_color_hover = $settings->get('theme', 'menu_sub_text_color_hover', '#fbfcfe');
 $menu_sub_background_color_hover = $settings->get('theme', 'menu_sub_background_color_hover', '#1047BF');
 $header_user_color_hover = $settings->get('theme', 'header_user_color_hover', null);
 $header_domain_color_hover = $settings->get('theme', 'header_domain_color_hover', null);
@@ -59,7 +59,7 @@ $menu_side_width_expanded = $settings->get('theme', 'menu_side_width_expanded', 
 $menu_side_width_contracted = $settings->get('theme', 'menu_side_width_contracted', 60);
 $menu_main_icon_color = $settings->get('theme', 'menu_main_icon_color', '#B9CEF8');
 $menu_main_icon_color_hover = $settings->get('theme', 'menu_main_icon_color_hover', '#ffffff');
-$body_header_background_color = $settings->get('theme', 'body_header_background_color', '#ffffff');
+$body_header_background_color = $settings->get('theme', 'body_header_background_color', '#fbfcfe');
 $body_header_shadow_color = $settings->get('theme', 'body_header_shadow_color', '');
 $body_header_brand_text_color = $settings->get('theme', 'body_header_brand_text_color', '#151F33');
 $body_header_brand_text_color_hover = $settings->get('theme', 'body_header_brand_text_color_hover', '#1047BF');
@@ -74,21 +74,21 @@ $button_border_radius = $settings->get('theme', 'button_border_radius', null);
 $button_background_color = $settings->get('theme', 'button_background_color', '#1047BF');
 $button_background_color_bottom = $settings->get('theme', 'button_background_color_bottom', '#1047BF');
 $button_text_font = $settings->get('theme', 'button_text_font', 'Inter, Arial, sans-serif');
-$button_text_color = $settings->get('theme', 'button_text_color', '#ffffff');
+$button_text_color = $settings->get('theme', 'button_text_color', '#fbfcfe');
 $button_text_weight = $settings->get('theme', 'button_text_weight', 'bold');
 $button_text_size = $settings->get('theme', 'button_text_size', '11px');
 $button_border_color_hover = $settings->get('theme', 'button_border_color_hover', '#1047BF');
 $button_background_color_hover = $settings->get('theme', 'button_background_color_hover', '#1047BF');
 $button_background_color_bottom_hover = $settings->get('theme', 'button_background_color_bottom_hover', '#1047BF');
-$button_text_color_hover = $settings->get('theme', 'button_text_color_hover', '#ffffff');
+$button_text_color_hover = $settings->get('theme', 'button_text_color_hover', '#fbfcfe');
 $button_icons = $settings->get('theme', 'button_icons', 'auto');
 $body_icon_color = $settings->get('theme', 'body_icon_color', 'rgba(16,71,191,0.62)');
 $body_icon_color_hover = $settings->get('theme', 'body_icon_color_hover', '#1047BF');
-$domain_selector_background_color = $settings->get('theme', 'domain_selector_background_color', '#ffffff');
+$domain_selector_background_color = $settings->get('theme', 'domain_selector_background_color', '#fbfcfe');
 $domain_selector_shadow_color = !empty($settings->get('theme', 'domain_selector_shadow_color', '')) ? '0 0 10px '.$settings->get('theme', 'domain_selector_shadow_color') : 'none';
 $domain_selector_title_color = $settings->get('theme', 'domain_selector_title_color', '#151F33');
 $domain_selector_title_color_hover = $settings->get('theme', 'domain_selector_title_color_hover', '#1047BF');
-$domain_selector_list_background_color = $settings->get('theme', 'domain_selector_list_background_color', '#ffffff');
+$domain_selector_list_background_color = $settings->get('theme', 'domain_selector_list_background_color', '#fbfcfe');
 $domain_selector_list_border_color = $settings->get('theme', 'domain_selector_list_border_color', '#DCE7FC');
 $domain_selector_list_divider_color = $settings->get('theme', 'domain_selector_list_divider_color', '#F4F8FF');
 $domain_active_text_color = $settings->get('theme', 'domain_active_text_color', '#1047BF');
@@ -102,7 +102,7 @@ $heading_text_font = $settings->get('theme', 'heading_text_font', 'Inter, Arial,
 $heading_count_padding = $settings->get('theme', 'heading_count_padding', '2px 6px');
 $heading_count_text_font = $settings->get('theme', 'heading_count_text_font', 'Inter, Arial, sans-serif');
 $heading_count_text_size = $settings->get('theme', 'heading_count_text_size', '12px');
-$heading_count_text_color = $settings->get('theme', 'heading_count_text_color', '#ffffff');
+$heading_count_text_color = $settings->get('theme', 'heading_count_text_color', '#fbfcfe');
 $heading_count_text_weight = $settings->get('theme', 'heading_count_text_weight', '700');
 $heading_count_border_radius = $settings->get('theme', 'heading_count_border_radius', '12px');
 $heading_count_background_color = $settings->get('theme', 'heading_count_background_color', '#22C55E');
@@ -139,7 +139,7 @@ $input_outline_color_focus = $settings->get('theme', 'input_outline_color_focus'
 $input_outline_color_hover = $settings->get('theme', 'input_outline_color_hover', $input_outline_color);
 $input_outline_color_hover_focus = $settings->get('theme', 'input_outline_color_hover_focus', $input_outline_color);
 $input_outline_radius = $settings->get('theme', 'input_outline_radius', $input_border_radius ?? null);
-$input_background_color = $settings->get('theme', 'input_background_color', '#ffffff');
+$input_background_color = $settings->get('theme', 'input_background_color', '#fbfcfe');
 $input_shadow_inner_color = !empty($settings->get('theme', 'input_shadow_inner_color', '')) ? '0 0 3px '.$settings->get('theme', 'input_shadow_inner_color').' inset' : null;
 $input_shadow_inner_color_focus = !empty($settings->get('theme', 'input_shadow_inner_color_focus', '')) ? '0 0 3px '.$settings->get('theme', 'input_shadow_inner_color_focus').' inset' : null;
 $input_shadow_outer_color = !empty($settings->get('theme', 'input_shadow_outer_color', '')) ? '0 0 5px '.$settings->get('theme', 'input_shadow_outer_color') : null;
@@ -148,7 +148,7 @@ $input_toggle_style = $settings->get('theme', 'input_toggle_style', 'switch_roun
 $input_toggle_switch_background_color_true = $settings->get('theme', 'input_toggle_switch_background_color_true', '#06B6D4');
 $input_toggle_switch_background_color_false = $settings->get('theme', 'input_toggle_switch_background_color_false', $input_border_color);
 $input_toggle_switch_handle_symbol = $settings->get('theme', 'input_toggle_switch_handle_symbol', false);
-$input_toggle_switch_handle_color = $settings->get('theme', 'input_toggle_switch_handle_color', '#ffffff');
+$input_toggle_switch_handle_color = $settings->get('theme', 'input_toggle_switch_handle_color', '#fbfcfe');
 $login_body_top = $settings->get('theme', 'login_body_top', '50%');
 $login_body_left = $settings->get('theme', 'login_body_left', '50%');
 $login_body_padding = $settings->get('theme', 'login_body_padding', '30px');
@@ -196,7 +196,7 @@ $login_input_shadow_inner_color_focus = $settings->get('theme', 'login_input_sha
 $login_input_shadow_inner_color_focus = $login_input_shadow_inner_color_focus != 'none' ? '0 0 3px '.$login_input_shadow_inner_color_focus.' inset' : 'none';
 $login_input_shadow_outer_color_focus = $settings->get('theme', 'login_input_shadow_outer_color_focus', $input_shadow_outer_color_focus);
 $login_input_shadow_outer_color_focus = $login_input_shadow_outer_color_focus != 'none' ? '0 0 5px '.$login_input_shadow_outer_color_focus : 'none';
-$pwstrength_background_color = $settings->get('theme', 'input_background_color', '#ffffff');
+$pwstrength_background_color = $settings->get('theme', 'input_background_color', '#fbfcfe');
 $table_heading_text_color = $settings->get('theme', 'table_heading_text_color', '#1047BF');
 $table_heading_text_size = $settings->get('theme', 'table_heading_text_size', '12px');
 $table_heading_text_font = $settings->get('theme', 'table_heading_text_font', 'Inter, Arial, sans-serif');
@@ -209,7 +209,7 @@ $table_row_text_size = $settings->get('theme', 'table_row_text_size', '12px');
 $table_row_text_link_color = $settings->get('theme', 'table_row_text_link_color', $text_link_color);
 $table_row_text_link_color_hover = $settings->get('theme', 'table_row_text_link_color_hover', $text_link_color_hover);
 $table_row_border_color = $settings->get('theme', 'table_row_border_color', '#DCE7FC');
-$table_row_background_color_light = $settings->get('theme', 'table_row_background_color_light', '#ffffff');
+$table_row_background_color_light = $settings->get('theme', 'table_row_background_color_light', '#fbfcfe');
 $table_row_background_color_medium = $settings->get('theme', 'table_row_background_color_medium', '#F7FAFC');
 $table_row_background_color_dark = $settings->get('theme', 'table_row_background_color_dark', '#F4F8FF');
 $table_row_background_color_hover = $settings->get('theme', 'table_row_background_color_hover', null);
@@ -225,7 +225,7 @@ $form_table_label_required_background_color = $settings->get('theme', 'form_tabl
 $form_table_label_required_border_color = $settings->get('theme', 'form_table_label_required_border_color', '#4F7FE2');
 $form_table_label_required_text_color = $settings->get('theme', 'form_table_label_required_text_color', '#1047BF');
 $form_table_label_required_text_weight = $settings->get('theme', 'form_table_label_required_text_weight', 'bold');
-$form_table_field_background_color = $settings->get('theme', 'form_table_field_background_color', '#ffffff');
+$form_table_field_background_color = $settings->get('theme', 'form_table_field_background_color', '#fbfcfe');
 $form_table_field_border_radius = $settings->get('theme', 'form_table_field_border_radius', null);
 $form_table_field_border_color = $settings->get('theme', 'form_table_field_border_color', '#DCE7FC');
 $form_table_field_padding = $settings->get('theme', 'form_table_field_padding', '6px');
@@ -244,7 +244,7 @@ $message_alert_color = $settings->get('theme', 'message_alert_color', '#F59E0B')
 $message_alert_background_color = $settings->get('theme', 'message_alert_background_color', '#FFFBEB');
 $operator_panel_border_color = $settings->get('theme', 'operator_panel_border_color', '#DCE7FC');
 $operator_panel_sub_background_color = $settings->get('theme', 'operator_panel_sub_background_color', '#F4F8FF');
-$operator_panel_main_background_color = $settings->get('theme', 'operator_panel_main_background_color', '#ffffff');
+$operator_panel_main_background_color = $settings->get('theme', 'operator_panel_main_background_color', '#fbfcfe');
 $operator_panel_user_info = $settings->get('theme', 'operator_panel_user_info', '#151F33');
 $operator_panel_caller_info = $settings->get('theme', 'operator_panel_caller_info', '#151F33');
 $operator_panel_call_info = $settings->get('theme', 'operator_panel_call_info', '#151F33');
@@ -254,7 +254,7 @@ $dashboard_background_gradient_angle = $settings->get('theme', 'dashboard_backgr
 $dashboard_border_radius = $settings->get('theme', 'dashboard_border_radius', '8px');
 $dashboard_border_color = $settings->get('theme', 'dashboard_border_color', '#DCE7FC');
 $dashboard_border_color_hover = $settings->get('theme', 'dashboard_border_color_hover', '#4F7FE2');
-$dashboard_label_text_color = $settings->get('theme', 'dashboard_label_text_color', '#ffffff');
+$dashboard_label_text_color = $settings->get('theme', 'dashboard_label_text_color', '#fbfcfe');
 $dashboard_label_text_color_hover = $settings->get('theme', 'dashboard_label_text_color_hover', '');
 $dashboard_label_text_size = $settings->get('theme', 'dashboard_label_text_size', '13px');
 $dashboard_label_text_font = $settings->get('theme', 'dashboard_label_text_font', 'Inter, Arial, sans-serif');
@@ -306,7 +306,7 @@ $action_bar_shadow_scroll = $settings->get('theme', 'action_bar_shadow_scroll', 
 $modal_transition_seconds = $settings->get('theme', 'modal_transition_seconds', 0.03);
 $modal_shade_color = $settings->get('theme', 'modal_shade_color', 'rgba(16,71,191,0.45)');
 $modal_padding = $settings->get('theme', 'modal_padding', '15px 20px 20px 20px');
-$modal_background_color = $settings->get('theme', 'modal_background_color', '#ffffff');
+$modal_background_color = $settings->get('theme', 'modal_background_color', '#fbfcfe');
 $modal_width = $settings->get('theme', 'modal_width', '500px');
 $modal_corner_radius = $settings->get('theme', 'modal_corner_radius', '8px');
 $modal_shadow = $settings->get('theme', 'modal_shadow', '0 0 40px rgba(16,71,191,0.24)');
@@ -317,7 +317,7 @@ $modal_title_margin = $settings->get('theme', 'modal_title_margin', '0 0 15px 0'
 $modal_close_color = $settings->get('theme', 'modal_close_color', '#84A9F0');
 $modal_close_color_hover = $settings->get('theme', 'modal_close_color_hover', '#1047BF');
 $modal_close_corner_radius = $settings->get('theme', 'modal_close_corner_radius', '4px 4px 4px 8px');
-$modal_close_background_color = $settings->get('theme', 'modal_close_background_color', '#ffffff');
+$modal_close_background_color = $settings->get('theme', 'modal_close_background_color', '#fbfcfe');
 $modal_close_background_color_hover = $settings->get('theme', 'modal_close_background_color_hover', '#F4F8FF');
 $modal_message_color = $settings->get('theme', 'modal_message_color', '#151F33');
 $modal_message_alignment = $settings->get('theme', 'modal_message_alignment', 'left');
@@ -927,6 +927,24 @@ else { //default: white
 		text-decoration: none;
 		}
 
+	a#menu_brand_image_contracted.menu_side_brand_toggle {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		padding: 0 !important;
+		color: <?=$menu_main_icon_color?>;
+		}
+
+	a#menu_brand_image_contracted.menu_side_brand_toggle:hover,
+	a#menu_brand_image_contracted.menu_side_brand_toggle:focus,
+	a#menu_brand_image_contracted.menu_side_brand_toggle:active {
+		color: <?=$menu_main_icon_color_hover?>;
+		}
+
+	a#menu_brand_image_contracted.menu_side_brand_toggle > i {
+		margin: 0 !important;
+		}
+
 	img#menu_brand_image_contracted {
 		border: none;
 		width: auto;
@@ -972,7 +990,7 @@ else { //default: white
 		z-index: 99901;
 		top: 0;
 		padding: 0;
-		min-height: 73px;
+		min-height: 76px;
 		text-align: left;
 		<?php if ($menu_main_background_image) { ?>
 			background-image: url("<?=$menu_main_background_image?>");
@@ -988,6 +1006,29 @@ else { //default: white
 		-khtml-border-radius: <?=$menu_main_border_radius?>;
 		border-radius: <?=$menu_main_border_radius?>;
 		}
+
+	div#menu_side_control_container {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		}
+
+	div#menu_side_control_container .menu_side_control_state {
+		float: none !important;
+		margin-left: auto;
+		order: 2;
+		}
+
+	div#menu_side_control_container .menu_side_brand_expanded {
+		order: 1;
+		margin-left: 20px;
+		margin-right: auto;
+		}
+
+	div#menu_side_control_container #menu_brand_image_contracted {
+		order: 1;
+		}
+
 
 	div#menu_side_container > a.menu_side_item_main,
 	div#menu_side_container > div > a.menu_side_item_main,
@@ -1067,22 +1108,25 @@ else { //default: white
 
 	@media (max-width: 575.98px) {
 		div#content_container {
-			<?php
-			if ($settings->get('theme', 'menu_style', '') == 'side') {
-				switch ($settings->get('theme', 'menu_side_state', '')) {
-					case 'expanded': $content_container_width = $settings->get('theme', 'menu_side_width_expanded', 225); break;
-					case 'hidden': $content_container_width = 0; break;
-					default: $content_container_width = $settings->get('theme', 'menu_side_width_contracted', 60);
-				}
-			}
-			else {
-				$content_container_width = 0;
-			}
-			?>
-			width: calc(100% - <?=$content_container_width?>);
+			width: 100%;
 			}
 	}
-	@media (min-width: 576px) {
+	@media (min-width: 576px) and (max-width: 1199.98px) {
+		div#content_container {
+			<?php
+			if ($menu_side_state == 'hidden') {
+				$content_container_width = 0;
+			}
+			else {
+				$content_container_width = $menu_side_width_contracted;
+			}
+			?>
+			width: calc(100% - <?=$content_container_width?>px);
+			float: right;
+			}
+	}
+
+	@media (min-width: 1200px) {
 		div#content_container {
 			<?php
 			if ($menu_side_state == 'expanded') {
@@ -1108,7 +1152,7 @@ else { //default: white
 			z-index: 1;
 			isolation: isolate;
 			padding: 17px 10px 13px 10px;
-			height: 60px;
+			height: 72px;
 			background-color: <?=$body_header_background_color?>;
 			-webkit-box-shadow: 0 2px <?=$body_header_shadow_size ?? '7px'?> <?=$body_header_shadow_color?>;
 			-moz-box-shadow: 0 2px <?=$body_header_shadow_size ?? '7px'?> <?=$body_header_shadow_color?>;
@@ -1729,7 +1773,7 @@ else { //default: white
 			-webkit-box-shadow: <?=$body_shadow_color?>;
 			-moz-box-shadow: <?=$body_shadow_color?>;
 			box-shadow: <?=$body_shadow_color?>;
-			padding: 20px;
+			padding: 24px;
 			<?php
 		}
 		else {
@@ -3006,7 +3050,7 @@ else { //default: white
 
 	div.widget div.hud_box:first-of-type {
 		<?php
-		echo "background: ".($dashboard_background_color[0] ?? '#ffffff').";\n";
+		echo "background: ".($dashboard_background_color[0] ?? '#fbfcfe').";\n";
 		if (!empty($dashboard_background_color) && is_array($dashboard_background_color) && sizeof($dashboard_background_color) > 1) {
 			if (!empty($dashboard_background_gradient_style) && $dashboard_background_gradient_style == 'mirror') {
 				echo "background-image: linear-gradient(".(empty($dashboard_background_gradient_angle) ? '0deg' : $dashboard_background_gradient_angle.'deg').", ".$dashboard_background_color[1]." 0%, ".$dashboard_background_color[0]." 30%, ".$dashboard_background_color[0]." 70%, ".$dashboard_background_color[1]." 100%);\n";
@@ -3155,7 +3199,7 @@ else { //default: white
 			height: 345.5px;
 			display: block;
 			<?php
-			echo "background: ".($dashboard_detail_background_color[0] ?? '#ffffff').";\n";
+			echo "background: ".($dashboard_detail_background_color[0] ?? '#fbfcfe').";\n";
 			if (!empty($dashboard_detail_background_color) && is_array($dashboard_detail_background_color) && sizeof($dashboard_detail_background_color) > 1) {
 				if ($dashboard_background_gradient_style == 'mirror') {
 					echo "background-image: linear-gradient(".(empty($dashboard_background_gradient_angle) ? '0deg' : $dashboard_background_gradient_angle.'deg').", ".$dashboard_detail_background_color[1]." 0%, ".$dashboard_detail_background_color[0]." 30%, ".$dashboard_detail_background_color[0]." 70%, ".$dashboard_detail_background_color[1]." 100%);\n";
@@ -3295,7 +3339,7 @@ else { //default: white
 		cursor: pointer;
 		border-color: #ffffff;
 		background-image: none;
-		background-color: #ffffff;
+		background-color: #fbfcfe;
 		white-space: nowrap;
 		font-family: Inter, Arial, sans-serif;
 		font-size: 12px;
@@ -3306,7 +3350,7 @@ else { //default: white
 		color: #1047BF;
 		border: 1px solid white;
 		background-image: none;
-		background-color: #ffffff;
+		background-color: #fbfcfe;
 		}
 
 /* CSS GRID ********************************************************************/
@@ -4141,8 +4185,12 @@ a.menu_side_item_sub {
 	position: relative;
 	min-height: 40px;
 	display: flex;
-	gap: 8px;
+	gap: 12px;
 	line-height: 1.25;
+}
+
+a.menu_side_item_main {
+    height: 56px;
 }
 
 div#menu_side_container .menu_side_item_icon,

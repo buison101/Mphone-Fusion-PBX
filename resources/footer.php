@@ -220,9 +220,7 @@
 			switch ($settings->get('theme', 'menu_style')) {
 				case 'side':
 					$view->assign('menu_side_state', (!empty($settings->get('theme', 'menu_side_state')) && $settings->get('theme', 'menu_side_state') != '' ? $settings->get('theme', 'menu_side_state') : 'expanded'));
-					if ($settings->get('theme', 'menu_side_state') != 'hidden') {
-						$menu_side_toggle = $settings->get('theme', 'menu_side_toggle') == 'hover' ? " onmouseenter=\"clearTimeout(menu_side_contract_timer); if ($('#menu_side_container').width() < 100) { menu_side_expand_start(); }\" onmouseleave=\"clearTimeout(menu_side_expand_timer); if ($('#menu_side_container').width() > 100 && $('#menu_side_state_current').val() != 'expanded') { menu_side_contract_start(); }\"" : null;
-					}
+					$menu_side_toggle = null;
 					$container_open = "<div id='menu_side_container' style='width: ".(in_array($settings->get('theme', 'menu_side_state'), ['expanded','hidden']) ? ($settings->get('theme', 'menu_side_width_expanded') ?? 225) : ($settings->get('theme', 'menu_side_width_contracted') ?? 60))."px; ".($settings->get('theme', 'menu_side_state') == 'hidden' ? "display: none;'" : "' class='hide-xs'").$menu_side_toggle." >\n";
 					$menu = new menu;
 					$menu->text = $text;

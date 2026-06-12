@@ -226,6 +226,7 @@
 	echo "	Chart.overrides.doughnut.cutout = '".$settings->get('theme', 'dashboard_chart_cutout', '75%')."';\n";
 	echo "	Chart.defaults.responsive = true;\n";
 	echo "	Chart.defaults.maintainAspectRatio = false;\n";
+	echo "	Chart.defaults.devicePixelRatio = Math.max(window.devicePixelRatio || 1, 2);\n";
 	echo "	Chart.defaults.plugins.legend.display = false;\n";
 	echo "</script>\n";
 
@@ -728,6 +729,32 @@ window.addEventListener('resize', update_parent_height);
 		$x++;
 	}
 	echo "</div>\n";
+?>
+<script>
+function dashboard_chart_resize() {
+	if (!window.Chart || !Chart.instances) {
+		return;
+	}
+	Object.values(Chart.instances).forEach(function(chart) {
+		if (chart && typeof chart.resize === 'function') {
+			chart.resize();
+		}
+		if (chart && typeof chart.update === 'function') {
+			chart.update('none');
+		}
+	});
+}
+window.addEventListener('load', function() {
+	requestAnimationFrame(function() {
+		dashboard_chart_resize();
+	});
+});
+window.addEventListener('resize', function() {
+	clearTimeout(window.dashboardChartResizeTimer);
+	window.dashboardChartResizeTimer = setTimeout(dashboard_chart_resize, 150);
+});
+</script>
+<?php
 
 //begin edit
 	if (permission_exists('dashboard_edit')) {
