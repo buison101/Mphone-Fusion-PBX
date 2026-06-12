@@ -4096,6 +4096,8 @@ button.btn-default > .button-label.pad {
 button.btn:not(.btn-link) > .fa-fw,
 button.btn-default > .fa-fw {
 	width: 1.25em;
+	position: relative;
+    top: 1px;
 }
 
 button.list_control_icon,
