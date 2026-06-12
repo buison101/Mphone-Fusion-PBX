@@ -2449,8 +2449,7 @@ else { //default: white
 		}
 
 	th {
-		padding: 4px 7px 4px 0;
-		padding: 4px 7px;
+		padding: 4px 12px;
 		text-align: left;
 		color: <?=$table_heading_text_color?>;
 		font-size: <?=$table_heading_text_size?>;
@@ -3021,7 +3020,7 @@ else { //default: white
 			echo "-webkit-box-shadow: 0 px 7px ".$dashboard_shadow_color.";\n";
 			echo "-moz-box-shadow: 0 2px 7px ".$dashboard_shadow_color.";\n";
 			echo "box-shadow: 0 2px 7px ".$dashboard_shadow_color.";\n";
-			echo "padding: 8px 0px ".$dashboard_shadow_color.";\n";
+			echo "padding: 8px 0px;\n";
 		}
 		?>
 		}
