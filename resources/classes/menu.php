@@ -1504,7 +1504,7 @@ class menu {
 		if (!empty($menu_array)) {
 			foreach ($menu_array as $menu_item_main) {
 				$menu_target = ($menu_item_main['menu_item_category'] == 'external') ? '_blank' : '';
-				$html .= "	<a class='menu_side_item_main' " . (!empty($menu_item_main['menu_item_link']) ? "href='" . $menu_item_main['menu_item_link'] . "' target='" . $menu_target . "'" : "onclick=\"menu_side_expand(); menu_side_item_toggle('" . $menu_item_main['menu_item_uuid'] . "');\"") . " title=\"" . $menu_item_main['menu_language_title'] . "\">";
+				$html .= "	<a class='menu_side_item_main' " . (!empty($menu_item_main['menu_item_link']) ? "href='" . $menu_item_main['menu_item_link'] . "' target='" . $menu_target . "'" : "onclick=\"menu_side_expand_item_toggle('" . $menu_item_main['menu_item_uuid'] . "');\"") . " title=\"" . $menu_item_main['menu_language_title'] . "\">";
 				if (is_array($menu_item_main['menu_items']) && sizeof($menu_item_main['menu_items']) != 0 && $this->settings->get('theme', 'menu_side_item_main_sub_icons', true) === true) {
 					$html .= "	<div class='menu_side_item_main_sub_icons' style='float: right; margin-right: -1px; " . ($menu_side_state != 'expanded' ? "display: none;" : null) . "'><i id='sub_arrow_" . $menu_item_main['menu_item_uuid'] . "' class='sub_arrows " . $this->settings->get('theme', 'menu_side_item_main_sub_icon_expand', 'fa-solid fa-chevron-down') . " fa-xs'></i></div>\n";
 				}

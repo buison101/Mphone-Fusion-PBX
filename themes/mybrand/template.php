@@ -117,18 +117,11 @@
 						jQuery(".menu_side_control_state").show();
 						jQuery(".menu_side_toggle_main").show();
 						jQuery("#menu_brand_image_contracted").hide();
-						if (animate) {
-							jQuery("#menu_brand_image_expanded").hide();
-							jQuery(".menu_brand_text").hide();
-							jQuery(".menu_side_item_main_sub_icons").hide();
-							jQuery(".menu_side_item_title").hide();
-						}
-						else {
-							jQuery("#menu_brand_image_expanded").show();
-							jQuery(".menu_brand_text").show();
-							jQuery(".menu_side_item_main_sub_icons").show();
-							jQuery(".menu_side_item_title").show();
-						}
+						jQuery("#menu_brand_image_expanded").show();
+						jQuery(".menu_brand_text").show();
+						jQuery(".menu_side_item_main_sub_icons").show();
+						jQuery(".menu_side_item_title").show();
+						jQuery("#menu_brand_image_expanded, .menu_brand_text, .menu_side_item_main_sub_icons, .menu_side_item_title").css("opacity", animate ? 0 : 1);
 						jQuery("#menu_side_state_hidden_button").hide();
 					}
 					else {
@@ -138,10 +131,10 @@
 						jQuery("#menu_side_control_container").removeClass("menu_side_is_expanded").addClass("menu_side_is_contracted");
 						jQuery(".menu_side_control_state").show();
 						jQuery(".menu_side_toggle_main").show();
-						jQuery("#menu_brand_image_expanded").hide();
+						jQuery("#menu_brand_image_expanded").hide().css("opacity", 1);
 						jQuery("#menu_brand_image_contracted").show();
-						jQuery(".menu_side_item_main_sub_icons").hide();
-						jQuery(".menu_side_item_title").hide();
+						jQuery(".menu_side_item_main_sub_icons").hide().css("opacity", 1);
+						jQuery(".menu_side_item_title").hide().css("opacity", 1);
 						jQuery("#menu_side_state_hidden_button").toggle(window_width < 576);
 						jQuery(".sub_arrows").removeClass("{/literal}{$settings.theme.menu_side_item_main_sub_icon_contract}{literal}").addClass("{/literal}{$settings.theme.menu_side_item_main_sub_icon_expand}{literal}");
 					}
@@ -156,10 +149,7 @@
 					if (animate) {
 						jQuery("#menu_side_container").stop(true, true).animate({ width: menu_width }, 180, function() {
 							if (menu_side_state_current == "expanded") {
-								jQuery("#menu_brand_image_expanded").show();
-								jQuery(".menu_brand_text").show();
-								jQuery(".menu_side_item_main_sub_icons").show();
-								jQuery(".menu_side_item_title").show();
+								jQuery("#menu_brand_image_expanded, .menu_brand_text, .menu_side_item_main_sub_icons, .menu_side_item_title").css("opacity", 1);
 							}
 						});
 						jQuery("#content_container").stop(true, true).animate({ width: content_width }, 180);
@@ -198,6 +188,20 @@
 					}
 					else {
 						menu_side_expand();
+					}
+				}
+
+				function menu_side_expand_item_toggle(item_id) {
+					if (menu_side_state_current == "expanded") {
+						menu_side_item_toggle(item_id);
+					}
+					else {
+						menu_side_expand();
+						setTimeout(function() {
+							if (menu_side_state_current == "expanded") {
+								menu_side_item_toggle(item_id);
+							}
+						}, 190);
 					}
 				}
 
