@@ -274,7 +274,7 @@
 
 :root {
 	--row-height: 89.5px;
-	--grid-gap: 16px;
+	--grid-gap: 24px;
 }
 
 * {

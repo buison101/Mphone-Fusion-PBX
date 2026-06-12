@@ -614,7 +614,7 @@ else { //default: white
 		}
 
 	.footer {
-		font-size: 11px;
+		font-size: 13px;
 		font-family: Inter, Arial, sans-serif;
 		line-height: 14px;
 		color: <?=$footer_color?>;
@@ -3020,7 +3020,7 @@ else { //default: white
 			echo "-webkit-box-shadow: 0 px 7px ".$dashboard_shadow_color.";\n";
 			echo "-moz-box-shadow: 0 2px 7px ".$dashboard_shadow_color.";\n";
 			echo "box-shadow: 0 2px 7px ".$dashboard_shadow_color.";\n";
-			echo "padding: 8px 0px;\n";
+			echo "padding: 12px 0px;\n";
 		}
 		?>
 		}
