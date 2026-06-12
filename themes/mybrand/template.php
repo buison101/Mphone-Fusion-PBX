@@ -113,7 +113,9 @@
 					if (is_expanded) {
 						jQuery(".menu_side_expand").hide();
 						jQuery(".menu_side_contract").show();
+						jQuery("#menu_side_control_container").removeClass("menu_side_is_contracted").addClass("menu_side_is_expanded");
 						jQuery(".menu_side_control_state").show();
+						jQuery(".menu_side_toggle_main").show();
 						jQuery("#menu_brand_image_contracted").hide();
 						jQuery("#menu_brand_image_expanded").show();
 						jQuery(".menu_brand_text").show();
@@ -125,7 +127,9 @@
 						jQuery(".menu_side_sub").slideUp(animate ? 180 : 0);
 						jQuery(".menu_side_contract").hide();
 						jQuery(".menu_side_expand").show();
-						jQuery(".menu_side_control_state").hide();
+						jQuery("#menu_side_control_container").removeClass("menu_side_is_expanded").addClass("menu_side_is_contracted");
+						jQuery(".menu_side_control_state").show();
+						jQuery(".menu_side_toggle_main").show();
 						jQuery("#menu_brand_image_expanded").hide();
 						jQuery("#menu_brand_image_contracted").show();
 						jQuery(".menu_side_item_main_sub_icons").hide();
@@ -173,6 +177,14 @@
 					menu_side_apply_layout(true);
 				}
 
+				function menu_side_toggle() {
+					if (menu_side_state_current == "expanded") {
+						menu_side_contract();
+					}
+					else {
+						menu_side_expand();
+					}
+				}
 
 				function menu_side_item_toggle(item_id) {
 					$('#sub_arrow_'+item_id).toggleClass(['{/literal}{$settings.theme.menu_side_item_main_sub_icon_contract}{literal}','{/literal}{$settings.theme.menu_side_item_main_sub_icon_expand}{literal}']);

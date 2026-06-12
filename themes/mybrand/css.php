@@ -1019,6 +1019,23 @@ else { //default: white
 		order: 2;
 		}
 
+	div#menu_side_control_container.menu_side_is_contracted {
+		justify-content: center;
+		}
+
+	div#menu_side_control_container.menu_side_is_contracted .menu_side_control_state {
+		margin-left: 0;
+		}
+
+	div#menu_side_control_container .menu_side_toggle_main {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		min-width: 48px;
+		padding-left: 0;
+		padding-right: 0;
+		}
+
 	div#menu_side_control_container .menu_side_brand_expanded {
 		order: 1;
 		margin-left: 20px;
@@ -1041,6 +1058,16 @@ else { //default: white
 		font-size: <?=$menu_main_text_size?>;
 		color: <?=$menu_main_text_color?>;
 		cursor: pointer;
+		}
+
+	div#menu_side_container > div#menu_side_control_container a.menu_side_toggle_main {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		width: 48px;
+		min-width: 48px;
+		padding-left: 0;
+		padding-right: 0;
 		}
 
 	div#menu_side_container > a.menu_side_item_main:hover,

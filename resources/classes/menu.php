@@ -1475,10 +1475,10 @@ class menu {
 		$menu_side_state = $this->settings->get('theme', 'menu_side_state', 'contracted');
 		$menu_side_state_class = $menu_side_state !== 'hidden' ? 'hide-sm-up ' : '';
 		//menu brand image and/or text
-		$html = "	<div id='menu_side_control_container'>\n";
-		$html .= "		<div class='menu_side_control_state' style='float: right; " . ($menu_side_state != 'expanded' ? "display: none;" : null) . "'>\n";
+		$html = "	<div id='menu_side_control_container' class='menu_side_is_" . ($menu_side_state == 'expanded' ? "expanded" : "contracted") . "'>\n";
+		$html .= "		<div class='menu_side_control_state' style='float: right;'>\n";
 		if ($this->settings->get('theme', 'menu_brand_type', 'image') != 'none') {
-			$html .= "		<a class='menu_side_item_main menu_side_contract' onclick='menu_side_contract();' style='height: 60px; width: 48px; !important; " . ($menu_side_state != 'expanded' ? "display: none;" : null) . "'><i class='fa-solid fa-bars fa-fw'></i></a>";
+			$html .= "		<a class='menu_side_item_main menu_side_toggle_main' onclick='menu_side_toggle();' style='height: 60px; width: 48px;' title=\"" . $this->text['theme-label-expand_menu'] . "\"><i class='fa-solid fa-bars fa-fw'></i></a>";
 		}
 		$html .= "		</div>\n";
 		$menu_brand_text = escape($this->settings->get('theme', 'menu_brand_text', 'FusionPBX'));
@@ -1489,16 +1489,13 @@ class menu {
 				break;
 			case 'text':
 				$html .= "<a class='menu_brand_text' style='" . ($menu_side_state != 'expanded' ? "display: none;" : null) . "' href='" . PROJECT_PATH . "/'>" . escape($menu_brand_text) . "</a>\n";
-				$html .= "<a class='menu_side_item_main menu_side_expand' style='height: 60px; padding-top: 19px; " . ($menu_side_state == 'expanded' ? "display: none;" : null) . "' onclick='menu_side_expand();' title=\"" . $this->text['theme-label-expand_menu'] . "\"><i class='fa-solid fa-bars fa-fw' style='z-index: 99800; padding-left: 1px;'></i></a>";
 				break;
 			case 'image_text':
-				$html .= "<a id='menu_brand_image_contracted' class='menu_side_item_main menu_side_expand menu_side_brand_toggle' onclick='event.preventDefault(); menu_side_expand();' style='" . ($menu_side_state == 'expanded' ? "display: none;" : null) . " height: 60px;' title=\"" . $this->text['theme-label-expand_menu'] . "\"><i class='fa-solid fa-bars fa-fw'></i></a>";
 				$html .= "<span id='menu_brand_image_expanded' class='menu_brand_text menu_side_brand_expanded' style='" . ($menu_side_state != 'expanded' ? "display: none;" : null) . "'>" . escape($menu_brand_text) . "</span>";
 				break;
 			case 'image':
 			default:
 				$menu_brand_image_expanded = $this->settings->get('theme', 'menu_side_brand_image_expanded', PROJECT_PATH . '/themes/default/images/logo_side_expanded.png');
-				$html .= "<a id='menu_brand_image_contracted' class='menu_side_item_main menu_side_expand menu_side_brand_toggle' onclick='event.preventDefault(); menu_side_expand();' style='" . ($menu_side_state == 'expanded' ? "display: none;" : null) . " height: 60px;' title=\"" . $this->text['theme-label-expand_menu'] . "\"><i class='fa-solid fa-bars fa-fw'></i></a>";
 				$html .= "<img id='menu_brand_image_expanded' class='menu_side_brand_expanded' style='" . ($menu_side_state != 'expanded' ? "display: none;" : null) . "' src='" . escape($menu_brand_image_expanded) . "' title=\"" . escape($menu_brand_text) . "\">";
 				break;
 		}
