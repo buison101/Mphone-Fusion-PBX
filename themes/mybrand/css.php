@@ -1210,7 +1210,7 @@ else { //default: white
 		height: <?=$button_height?>;
 		padding: <?=$button_padding?>;
 		border: <?=$button_border_size?> solid <?=$button_border_color?>;
-		<?php $br = format_border_radius($button_border_radius, '3px'); ?>
+		<?php $br = format_border_radius($button_border_radius, '8px'); ?>
 		-moz-border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
 		-webkit-border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
 		-khtml-border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
@@ -1230,7 +1230,6 @@ else { //default: white
 		<?php unset($color_1, $color_2); ?>
 		font-family: <?=$button_text_font?>;
 		text-align: center;
-		text-transform: uppercase;
 		color: <?=$button_text_color?>;
 		font-weight: <?=$button_text_weight?>;
 		font-size: <?=$button_text_size?>;
@@ -1773,7 +1772,7 @@ else { //default: white
 		color: <?=$heading_text_color?>;
 		font-size: <?=$heading_text_size?>;
 		font-family: <?=$heading_text_font?>;
-		font-weight: bold
+		font-weight: 600
 		}
 
 	a,
@@ -2458,6 +2457,7 @@ else { //default: white
 		font-family: <?=$table_heading_text_font?>;
 		background: <?=$table_heading_background_color?>;
 		border-bottom: 1px solid <?=$table_heading_border_color?>;
+		font-weight: 500;
 		}
 
 	th a, th a:visited, th a:active {
@@ -3033,7 +3033,7 @@ else { //default: white
 		letter-spacing: -0.02em;
 		color: <?=$dashboard_label_text_color?>;
 		font-size: <?=$dashboard_label_text_size?>;
-		font-weight: bold;
+		font-weight: 500;
 		<?php
 		//calculate line height based on font size
 		$font_size = strtolower($dashboard_label_text_size);
@@ -3173,7 +3173,7 @@ else { //default: white
 		font-size: <?=$dashboard_detail_heading_text_size?>;
 		font-family: <?=$table_heading_text_font?>;
 		color: <?=$table_heading_text_color?>;
-		padding-top: 3px;
+		padding-top: 4px;
 		}
 
 	th.hud_heading:first-of-type {
