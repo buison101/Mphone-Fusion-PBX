@@ -3479,20 +3479,20 @@ else { //default: white
 			case 'side':
 				echo "position: -webkit-sticky;\n";
 				echo "position: sticky;\n";
-				echo "padding: 15px 20px 15px 20px;\n";
-				echo "margin: -10px -20px 10px -20px;\n";
+				echo "padding: 12px 20px 12px 20px;\n";
+				echo "margin: -12px -20px 12px -20px;\n";
 				echo "min-height: 60px;\n";
 				break;
 			case 'fixed';
 				echo "position: -webkit-sticky;\n";
 				echo "position: sticky;\n";
-				echo "padding: 10px 30px 10px 30px;\n";
-				echo "margin: -10px -30px 10px -30px;\n";
+				echo "padding: 12px 30px 12px 30px;\n";
+				echo "margin: -12px -30px 12px -30px;\n";
 				break;
 			case 'static':
 			case 'inline':
-				echo "padding: 15px 20px 15px 20px;\n";
-				echo "margin: -10px -20px 10px -20px;\n";
+				echo "padding: 16px 20px 16px 20px;\n";
+				echo "margin: -16px -20px 16px -20px;\n";
 				break;
 		}
 		?>
@@ -3524,16 +3524,18 @@ else { //default: white
 	div.action_bar > div.heading {
 		<?php
 		if ($menu_style == 'side') {
-			echo "padding-top: 2px;\n";
+			echo "padding-top: 8px;\n";
 		}
 		else if ($menu_style == 'fixed') {
-			echo "padding-top: 4px;\n";
+			echo "padding-top: 8px;\n";
 		}
 		?>
 		float: left;
 		}
 
 	div.action_bar > div.actions {
+		margin-top: 12px;
+		margin-bottom: 10px;
 		float: right;
 		white-space: normal;
 		overflow-wrap: break-word;
