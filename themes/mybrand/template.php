@@ -117,10 +117,18 @@
 						jQuery(".menu_side_control_state").show();
 						jQuery(".menu_side_toggle_main").show();
 						jQuery("#menu_brand_image_contracted").hide();
-						jQuery("#menu_brand_image_expanded").show();
-						jQuery(".menu_brand_text").show();
-						jQuery(".menu_side_item_main_sub_icons").show();
-						jQuery(".menu_side_item_title").show();
+						if (animate) {
+							jQuery("#menu_brand_image_expanded").hide();
+							jQuery(".menu_brand_text").hide();
+							jQuery(".menu_side_item_main_sub_icons").hide();
+							jQuery(".menu_side_item_title").hide();
+						}
+						else {
+							jQuery("#menu_brand_image_expanded").show();
+							jQuery(".menu_brand_text").show();
+							jQuery(".menu_side_item_main_sub_icons").show();
+							jQuery(".menu_side_item_title").show();
+						}
 						jQuery("#menu_side_state_hidden_button").hide();
 					}
 					else {
@@ -146,7 +154,14 @@
 					}
 
 					if (animate) {
-						jQuery("#menu_side_container").stop(true, true).animate({ width: menu_width }, 180);
+						jQuery("#menu_side_container").stop(true, true).animate({ width: menu_width }, 180, function() {
+							if (menu_side_state_current == "expanded") {
+								jQuery("#menu_brand_image_expanded").show();
+								jQuery(".menu_brand_text").show();
+								jQuery(".menu_side_item_main_sub_icons").show();
+								jQuery(".menu_side_item_title").show();
+							}
+						});
 						jQuery("#content_container").stop(true, true).animate({ width: content_width }, 180);
 					}
 					else {
