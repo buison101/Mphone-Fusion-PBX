@@ -3989,6 +3989,227 @@ else { //default: white
 		opacity: 1.0;
 		}
 
+/* SYSTEM UI OVERRIDES **********************************************************/
+
+:root {
+	--mphone-brand-primary: #1a73e8;
+	--mphone-brand-hover: #1547ba;
+	--mphone-brand-focus: #5d84f5;
+	--mphone-border: #dadce0;
+	--mphone-sidebar-hover: #30353b;
+	--mphone-text-primary: #202124;
+	--mphone-sidebar-dark: #1b1f24;
+	--mphone-system-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+html,
+body,
+body :not(.fa):not(.fas):not(.far):not(.fal):not(.fab):not(.fa-solid):not(.fa-regular):not(.fa-brands),
+input,
+button,
+select,
+textarea,
+#main_content,
+.container-fluid,
+.hud_box,
+.hud_title,
+.hud_heading,
+.hud_text,
+.menu_side_item_main,
+.menu_side_item_sub,
+.menu_side_item_title {
+	font-family: var(--mphone-system-font);
+}
+
+button.btn:not(.btn-link),
+button.btn-default {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	line-height: 1;
+}
+
+button.btn:not(.btn-link) > .fa,
+button.btn:not(.btn-link) > .fas,
+button.btn:not(.btn-link) > .far,
+button.btn:not(.btn-link) > .fal,
+button.btn:not(.btn-link) > .fab,
+button.btn:not(.btn-link) > .fa-solid,
+button.btn:not(.btn-link) > .fa-regular,
+button.btn:not(.btn-link) > .fa-brands,
+button.btn:not(.btn-link) > .button-label,
+button.btn-default > .fa,
+button.btn-default > .fas,
+button.btn-default > .far,
+button.btn-default > .fal,
+button.btn-default > .fab,
+button.btn-default > .fa-solid,
+button.btn-default > .fa-regular,
+button.btn-default > .fa-brands,
+button.btn-default > .button-label {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;
+	vertical-align: middle;
+}
+
+button.btn:not(.btn-link) > .fa,
+button.btn:not(.btn-link) > .fas,
+button.btn:not(.btn-link) > .far,
+button.btn:not(.btn-link) > .fal,
+button.btn:not(.btn-link) > .fab,
+button.btn:not(.btn-link) > .fa-solid,
+button.btn:not(.btn-link) > .fa-regular,
+button.btn:not(.btn-link) > .fa-brands,
+button.btn-default > .fa,
+button.btn-default > .fas,
+button.btn-default > .far,
+button.btn-default > .fal,
+button.btn-default > .fab,
+button.btn-default > .fa-solid,
+button.btn-default > .fa-regular,
+button.btn-default > .fa-brands {
+	padding: 0 !important;
+	margin: 0 !important;
+}
+
+button.btn:not(.btn-link) > .button-label,
+button.btn:not(.btn-link) > .hidden-xs,
+button.btn:not(.btn-link) > .hide-xs,
+button.btn-default > .button-label,
+button.btn-default > .hidden-xs,
+button.btn-default > .hide-xs {
+	display: inline-flex;
+	align-items: center;
+	line-height: 1;
+	padding-top: 0 !important;
+	padding-bottom: 0 !important;
+}
+
+button.btn:not(.btn-link) > .button-label.pad,
+button.btn-default > .button-label.pad {
+	margin-left: 0 !important;
+}
+
+button.btn:not(.btn-link) > .fa-fw,
+button.btn-default > .fa-fw {
+	width: 1.25em;
+}
+
+button.list_control_icon,
+button.list_control_icon_disabled {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	line-height: 1;
+}
+
+div#body_header a.header_user,
+div#body_header a.header_domain,
+div#body_header a.header_domain_selector_domain,
+div#menu_side_container > a.menu_side_item_main,
+div#menu_side_container > div > a.menu_side_item_main,
+div#menu_side_container > div#menu_side_control_container a.menu_side_item_main,
+a.menu_side_item_sub {
+	align-items: center;
+}
+
+div#body_header a.header_user,
+div#body_header a.header_domain,
+div#body_header a.header_domain_selector_domain {
+	display: inline-flex;
+	gap: 7px;
+	line-height: 1;
+}
+
+div#body_header a.header_user > span,
+div#body_header a.header_domain > span,
+div#body_header a.header_domain_selector_domain > span {
+	margin-left: 0 !important;
+}
+
+div#menu_side_container > a.menu_side_item_main,
+div#menu_side_container > div > a.menu_side_item_main,
+div#menu_side_container > div#menu_side_control_container a.menu_side_item_main,
+a.menu_side_item_sub {
+	position: relative;
+	min-height: 40px;
+	display: flex;
+	gap: 8px;
+	line-height: 1.25;
+}
+
+div#menu_side_container .menu_side_item_icon,
+a.menu_side_item_sub > .fa,
+a.menu_side_item_sub > .fas,
+a.menu_side_item_sub > .far,
+a.menu_side_item_sub > .fal,
+a.menu_side_item_sub > .fab,
+a.menu_side_item_sub > .fa-solid,
+a.menu_side_item_sub > .fa-regular,
+a.menu_side_item_sub > .fa-brands {
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	flex: 0 0 1.25em;
+	line-height: 1;
+	margin-right: 0 !important;
+}
+
+div#menu_side_container .menu_side_item_icon {
+	order: 1;
+}
+
+div#menu_side_container .menu_side_item_title {
+	order: 2;
+	line-height: 1.25;
+}
+
+div#menu_side_container .menu_side_item_main_sub_icons {
+	order: 3;
+	display: inline-flex;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	top: 50%;
+	right: 16px;
+	transform: translateY(-50%);
+	flex: 0 0 auto;
+	margin-left: 0;
+	margin-right: 0 !important;
+}
+
+div#menu_side_container .sub_arrows {
+	margin-left: 0;
+}
+
+.hud_stat .fas,
+.hud_stat .fa-solid,
+.hud_stat svg,
+.hud_box .hud_content > .hud_stat {
+	color: var(--mphone-brand-primary) !important;
+}
+
+.hud_title,
+.hud_title a,
+.hud_heading,
+.hud_box,
+.hud_content {
+	color: var(--mphone-text-primary);
+}
+
+.hud_box {
+	border-color: var(--mphone-border) !important;
+}
+
+.menu_side_item_main:hover,
+.menu_side_item_sub:hover {
+	background-color: var(--mphone-sidebar-hover) !important;
+}
+
+
 <?php
 
 //output custom css
