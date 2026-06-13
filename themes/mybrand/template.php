@@ -97,10 +97,11 @@
 					var expanded_width = window_width < 576 ? Math.round(window_width * 0.65) : {/literal}{$settings.theme.menu_side_width_expanded}{literal};
 					var contracted_width = {/literal}{$settings.theme.menu_side_width_contracted}{literal};
 					var is_expanded = menu_side_state_current == "expanded";
-					var menu_width = is_expanded ? expanded_width : contracted_width;
+					var is_mobile = window_width < 576;
+					var menu_width = is_expanded ? expanded_width : (is_mobile ? 0 : contracted_width);
 					var content_width;
 
-					if (window_width < 576) {
+					if (is_mobile) {
 						content_width = window_width;
 					}
 					else if (window_width < 1200) {
@@ -139,10 +140,14 @@
 						jQuery(".sub_arrows").removeClass("{/literal}{$settings.theme.menu_side_item_main_sub_icon_contract}{literal}").addClass("{/literal}{$settings.theme.menu_side_item_main_sub_icon_expand}{literal}");
 					}
 
-					if (window_width < 576 && !is_expanded) {
+					var menu_was_hidden = !jQuery("#menu_side_container").is(":visible");
+					if (is_mobile && !is_expanded && !animate) {
 						jQuery("#menu_side_container").hide();
 					}
 					else {
+						if (is_mobile && is_expanded && animate && menu_was_hidden) {
+							jQuery("#menu_side_container").width(0);
+						}
 						jQuery("#menu_side_container").show();
 					}
 
@@ -150,6 +155,9 @@
 						jQuery("#menu_side_container").stop(true, true).animate({ width: menu_width }, 180, function() {
 							if (menu_side_state_current == "expanded") {
 								jQuery("#menu_brand_image_expanded, .menu_brand_text, .menu_side_item_main_sub_icons, .menu_side_item_title").css("opacity", 1);
+							}
+							else if (is_mobile) {
+								jQuery("#menu_side_container").hide();
 							}
 						});
 						jQuery("#content_container").stop(true, true).animate({ width: content_width }, 180);
