@@ -4071,13 +4071,8 @@ else { //default: white
 /* SYSTEM UI OVERRIDES **********************************************************/
 
 :root {
-	--mphone-brand-primary: #1a73e8;
-	--mphone-brand-hover: #1547ba;
-	--mphone-brand-focus: #5d84f5;
-	--mphone-border: #dadce0;
-	--mphone-sidebar-hover: #30353b;
-	--mphone-text-primary: #202124;
-	--mphone-sidebar-dark: #1b1f24;
+	--mphone-brand-primary: #184fcf;
+	--mphone-text-primary: #141d2e;
 	--mphone-system-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -4283,15 +4278,6 @@ div#menu_side_container .sub_arrows {
 .hud_box,
 .hud_content {
 	color: var(--mphone-text-primary);
-}
-
-.hud_box {
-	border-color: var(--mphone-border) !important;
-}
-
-.menu_side_item_main:hover,
-.menu_side_item_sub:hover {
-	background-color: var(--mphone-sidebar-hover) !important;
 }
 
 
