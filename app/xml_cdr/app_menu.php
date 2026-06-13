@@ -3,6 +3,7 @@
 	$y=0;
 	$apps[$x]['menu'][$y]['title']['en-us'] = "Call Detail Records";
 	$apps[$x]['menu'][$y]['title']['en-gb'] = "Call Detail Records";
+$apps[$x]['menu'][$y]['title']['vi-vn'] = "Chi tiết cuộc gọi";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "سجلات تفاصيل المكالمات";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Meine Gespräche";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "Meine Gespräche";

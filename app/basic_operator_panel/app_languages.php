@@ -1,7 +1,7 @@
 <?php
 
 $text['title-operator_panel']['en-us'] = "Operator Panel";
-$text['title-operator_panel']['vi-vn'] = 'Bảng operator';
+$text['title-operator_panel']['vi-vn'] = 'Quản lý tổng đài viên';
 $text['title-operator_panel']['en-gb'] = "Operator Panel";
 $text['title-operator_panel']['ar-eg'] = "لوحة المشغل";
 $text['title-operator_panel']['de-at'] = "Bedienfeld";

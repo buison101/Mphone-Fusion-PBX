@@ -28,7 +28,7 @@ $text['title-call_forward']['ja-jp'] = "不在転送";
 $text['title-call_forward']['ko-kr'] = "착신 전환";
 
 $text['title-follow_me']['en-us'] = "Follow Me";
-$text['title-follow_me']['vi-vn'] = "Follow Me";
+$text['title-follow_me']['vi-vn'] = "Chuyển tiếp cuộc gọi";
 $text['title-follow_me']['en-gb'] = "Follow Me";
 $text['title-follow_me']['ar-eg'] = "اتبعني";
 $text['title-follow_me']['de-at'] = "Anrufweiterschaltung";
@@ -406,7 +406,7 @@ $text['label-ignore_busy']['ja-jp'] = "ビジー状態を無視";
 $text['label-ignore_busy']['ko-kr'] = "바쁜 무시";
 
 $text['label-follow_me']['en-us'] = "Follow Me";
-$text['label-follow_me']['vi-vn'] = "Follow Me";
+$text['label-follow_me']['vi-vn'] = "Chuyển tiếp cuộc gọi";
 $text['label-follow_me']['en-gb'] = "Follow Me";
 $text['label-follow_me']['ar-eg'] = "اتبعني";
 $text['label-follow_me']['de-at'] = "Anrufweiterschaltung";
@@ -431,6 +431,34 @@ $text['label-follow_me']['uk-ua'] = "Слідуй за мною";
 $text['label-follow_me']['zh-cn'] = "跟我来";
 $text['label-follow_me']['ja-jp'] = "フォローしてください";
 $text['label-follow_me']['ko-kr'] = "나를 따르라";
+
+$text['label-dashboard_follow_me']['en-us'] = "Follow Me";
+$text['label-dashboard_follow_me']['vi-vn'] = "Chuyển tiếp cuộc gọi";
+$text['label-dashboard_follow_me']['en-gb'] = "Follow Me";
+$text['label-dashboard_follow_me']['ar-eg'] = "اتبعني";
+$text['label-dashboard_follow_me']['de-at'] = "Anrufweiterschaltung";
+$text['label-dashboard_follow_me']['de-ch'] = "Anrufweiterschaltung";
+$text['label-dashboard_follow_me']['de-de'] = "Anrufweiterschaltung";
+$text['label-dashboard_follow_me']['el-gr'] = "Ακολούθησέ με";
+$text['label-dashboard_follow_me']['es-cl'] = "Sígueme";
+$text['label-dashboard_follow_me']['es-mx'] = "Sígueme";
+$text['label-dashboard_follow_me']['fr-ca'] = "Suis moi";
+$text['label-dashboard_follow_me']['fr-fr'] = "Suis moi";
+$text['label-dashboard_follow_me']['he-il'] = "עקוב אחריי";
+$text['label-dashboard_follow_me']['it-it'] = "Seguimi";
+$text['label-dashboard_follow_me']['ka-ge'] = "ზარის მიმართულების შეცვლა";
+$text['label-dashboard_follow_me']['nl-nl'] = "Volg mij";
+$text['label-dashboard_follow_me']['pl-pl'] = "Podążaj za mną";
+$text['label-dashboard_follow_me']['pt-br'] = "Siga-me";
+$text['label-dashboard_follow_me']['pt-pt'] = "Segue-me";
+$text['label-dashboard_follow_me']['ro-ro'] = "Urmați-mă";
+$text['label-dashboard_follow_me']['ru-ru'] = "Перенаправление";
+$text['label-dashboard_follow_me']['sv-se'] = "Följ mig";
+$text['label-dashboard_follow_me']['uk-ua'] = "Слідуй за мною";
+$text['label-dashboard_follow_me']['zh-cn'] = "跟我来";
+$text['label-dashboard_follow_me']['ja-jp'] = "フォローしてください";
+$text['label-dashboard_follow_me']['ko-kr'] = "나를 따르라";
+
 
 $text['label-dnd']['en-us'] = "Do Not Disturb";
 $text['label-dnd']['vi-vn'] = "Không làm phiền";

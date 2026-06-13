@@ -3,6 +3,7 @@
 	$y=0;
 	$apps[$x]['menu'][$y]['title']['en-us'] = "Operator Panel";
 	$apps[$x]['menu'][$y]['title']['en-gb'] = "Operator Panel";
+$apps[$x]['menu'][$y]['title']['vi-vn'] = "Quản lý tổng đài viên";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "لوحة المشغل";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Bedienfeld";
 	$apps[$x]['menu'][$y]['title']['de-ch'] = "Bedienfeld";

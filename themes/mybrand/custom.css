@@ -1,6 +1,7 @@
 /*
-	Mybrand custom CSS
-
-	This file is loaded after the main Mybrand stylesheet.
-	Use it for site-specific overrides that should survive theme CSS changes.
+		Đây là file tôi tự chỉnh, các AI Agent không thêm code vào đây!
 */
+
+div#menu_side_container > a.menu_side_item_main:hover {
+    background: #141d2e;
+}

@@ -4073,6 +4073,7 @@ else { //default: white
 :root {
 	--mphone-brand-primary: #184fcf;
 	--mphone-text-primary: #141d2e;
+	--mphone-text-secondary: #222f43;
 	--mphone-system-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -4272,13 +4273,11 @@ div#menu_side_container .sub_arrows {
 	color: var(--mphone-brand-primary) !important;
 }
 
-.hud_title,
-.hud_title a,
-.hud_heading,
-.hud_box,
-.hud_content {
-	color: var(--mphone-text-primary);
+.hud_box > .hud_content > .hud_title:first-of-type,
+.hud_box > .hud_content > .hud_title:first-of-type a {
+	color: var(--mphone-text-secondary) !important;
 }
+
 
 
 <?php

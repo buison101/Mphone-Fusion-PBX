@@ -117,7 +117,7 @@
 			echo "				'".$text['label-dnd'].": ".$stats['dnd']."',\n";
 		}
 		if (permission_exists('follow_me')) {
-			echo "				'".$text['label-follow_me'].": ".$stats['follow_me']."',\n";
+			echo "				'".$text['label-dashboard_follow_me'].": ".$stats['follow_me']."',\n";
 		}
 		if (permission_exists('call_forward')) {
 			echo "				'".$text['label-call_forward'].": ".$stats['call_forward']."',\n";
@@ -203,7 +203,7 @@
 			echo "	<th class='hud_heading' style='text-align: center;'><a href='".$call_forward_link."'>".$text['label-call_forward']."</a></th>\n";
 		}
 		if (permission_exists('follow_me')) {
-			echo "	<th class='hud_heading' style='text-align: center;'><a href='".$call_forward_link."'>".$text['label-follow_me']."</a></th>\n";
+			echo "	<th class='hud_heading' style='text-align: center;'><a href='".$call_forward_link."'>".$text['label-dashboard_follow_me']."</a></th>\n";
 		}
 		if (permission_exists('do_not_disturb')) {
 			echo "	<th class='hud_heading' style='text-align: center;'><a href='".$call_forward_link."'>".$text['label-dnd']."</a></th>\n";
