@@ -1134,6 +1134,12 @@ else { //default: white
 		}
 
 	@media (max-width: 575.98px) {
+		div#menu_side_container {
+			max-width: 65vw;
+			}
+	}
+
+	@media (max-width: 575.98px) {
 		div#content_container {
 			width: 100%;
 			}
