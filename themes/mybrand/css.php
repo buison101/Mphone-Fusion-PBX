@@ -20,7 +20,7 @@ $text_link_color = $settings->get('theme', 'text_link_color', '#1047BF');
 $text_link_color_hover = $settings->get('theme', 'text_link_color_hover', '#1047BF');
 $menu_main_background_image = $settings->get('theme', 'menu_main_background_image', null);
 $menu_main_background_color = $settings->get('theme', 'menu_main_background_color', '#1047BF');
-$menu_main_shadow_color = !empty($settings->get('theme', 'menu_main_shadow_color', '')) ? '0 0 5px '.$settings->get('theme', 'menu_main_shadow_color') : 'none';
+$menu_main_shadow_color = !empty($settings->get('theme', 'menu_main_shadow_color', '')) ? '0 2px 3px '.$settings->get('theme', 'menu_main_shadow_color') : 'none';
 $menu_main_border_color = $settings->get('theme', 'menu_main_border_color', '#1047BF');
 $menu_main_border_size = $settings->get('theme', 'menu_main_border_size', 0);
 $menu_style = $settings->get('theme', 'menu_style', 'fixed');
@@ -41,7 +41,7 @@ $menu_main_background_color_hover = $settings->get('theme', 'menu_main_backgroun
 $menu_sub_border_color = $settings->get('theme', 'menu_sub_border_color', '#1047BF');
 $menu_sub_border_size = $settings->get('theme', 'menu_sub_border_size', 0);
 $menu_sub_background_color = $settings->get('theme', 'menu_sub_background_color', '#1047BF');
-$menu_sub_shadow_color = !empty($settings->get('theme', 'menu_sub_shadow_color', '')) ? '0 0 5px '.$settings->get('theme', 'menu_sub_shadow_color') : 'none';
+$menu_sub_shadow_color = !empty($settings->get('theme', 'menu_sub_shadow_color', '')) ? '0 2px 3px '.$settings->get('theme', 'menu_sub_shadow_color') : 'none';
 $menu_sub_border_radius = $settings->get('theme', 'menu_sub_border_radius', null);
 $menu_sub_text_font = $settings->get('theme', 'menu_sub_text_font', 'Inter, Arial, sans-serif');
 $menu_sub_text_color = $settings->get('theme', 'menu_sub_text_color', '#DCE7FC');
@@ -85,7 +85,7 @@ $button_icons = $settings->get('theme', 'button_icons', 'auto');
 $body_icon_color = $settings->get('theme', 'body_icon_color', 'rgba(16,71,191,0.62)');
 $body_icon_color_hover = $settings->get('theme', 'body_icon_color_hover', '#1047BF');
 $domain_selector_background_color = $settings->get('theme', 'domain_selector_background_color', '#fbfcfe');
-$domain_selector_shadow_color = !empty($settings->get('theme', 'domain_selector_shadow_color', '')) ? '0 0 10px '.$settings->get('theme', 'domain_selector_shadow_color') : 'none';
+$domain_selector_shadow_color = !empty($settings->get('theme', 'domain_selector_shadow_color', '')) ? '0 3px 7px '.$settings->get('theme', 'domain_selector_shadow_color') : 'none';
 $domain_selector_title_color = $settings->get('theme', 'domain_selector_title_color', '#151F33');
 $domain_selector_title_color_hover = $settings->get('theme', 'domain_selector_title_color_hover', '#1047BF');
 $domain_selector_list_background_color = $settings->get('theme', 'domain_selector_list_background_color', '#fbfcfe');
@@ -108,7 +108,7 @@ $heading_count_border_radius = $settings->get('theme', 'heading_count_border_rad
 $heading_count_background_color = $settings->get('theme', 'heading_count_background_color', '#22C55E');
 $body_color = $settings->get('theme', 'body_color', 'rgba(255,255,255,0)');
 $body_border_radius = $settings->get('theme', 'body_border_radius', null);
-$body_shadow_color = !empty($settings->get('theme', 'body_shadow_color', '')) ? '0 1px 4px '.$settings->get('theme', 'body_shadow_color') : 'none';
+$body_shadow_color = !empty($settings->get('theme', 'body_shadow_color', '')) ? '0 2px 3px '.$settings->get('theme', 'body_shadow_color') : 'none';
 $body_text_color = $settings->get('theme', 'body_text_color', '#151F33');
 $body_text_size = $settings->get('theme', 'body_text_size', '12px');
 $body_text_font = $settings->get('theme', 'body_text_font', 'Inter, Arial, sans-serif');
@@ -140,10 +140,10 @@ $input_outline_color_hover = $settings->get('theme', 'input_outline_color_hover'
 $input_outline_color_hover_focus = $settings->get('theme', 'input_outline_color_hover_focus', $input_outline_color);
 $input_outline_radius = $settings->get('theme', 'input_outline_radius', $input_border_radius ?? null);
 $input_background_color = $settings->get('theme', 'input_background_color', '#fbfcfe');
-$input_shadow_inner_color = !empty($settings->get('theme', 'input_shadow_inner_color', '')) ? '0 0 3px '.$settings->get('theme', 'input_shadow_inner_color').' inset' : null;
-$input_shadow_inner_color_focus = !empty($settings->get('theme', 'input_shadow_inner_color_focus', '')) ? '0 0 3px '.$settings->get('theme', 'input_shadow_inner_color_focus').' inset' : null;
-$input_shadow_outer_color = !empty($settings->get('theme', 'input_shadow_outer_color', '')) ? '0 0 5px '.$settings->get('theme', 'input_shadow_outer_color') : null;
-$input_shadow_outer_color_focus = !empty($settings->get('theme', 'input_shadow_outer_color_focus', '')) ? '0 0 5px '.$settings->get('theme', 'input_shadow_outer_color_focus') : null;
+$input_shadow_inner_color = !empty($settings->get('theme', 'input_shadow_inner_color', '')) ? '0 1px 2px '.$settings->get('theme', 'input_shadow_inner_color').' inset' : null;
+$input_shadow_inner_color_focus = !empty($settings->get('theme', 'input_shadow_inner_color_focus', '')) ? '0 1px 2px '.$settings->get('theme', 'input_shadow_inner_color_focus').' inset' : null;
+$input_shadow_outer_color = !empty($settings->get('theme', 'input_shadow_outer_color', '')) ? '0 2px 3px '.$settings->get('theme', 'input_shadow_outer_color') : null;
+$input_shadow_outer_color_focus = !empty($settings->get('theme', 'input_shadow_outer_color_focus', '')) ? '0 2px 3px '.$settings->get('theme', 'input_shadow_outer_color_focus') : null;
 $input_toggle_style = $settings->get('theme', 'input_toggle_style', 'switch_round');
 $input_toggle_switch_background_color_true = $settings->get('theme', 'input_toggle_switch_background_color_true', '#06B6D4');
 $input_toggle_switch_background_color_false = $settings->get('theme', 'input_toggle_switch_background_color_false', $input_border_color);
@@ -158,7 +158,7 @@ $login_body_border_radius = $settings->get('theme', 'login_body_border_radius', 
 $login_body_border_size = $settings->get('theme', 'login_body_border_size', 0);
 $login_body_border_color = $settings->get('theme', 'login_body_border_color', 'rgba(255,255,255,0.7)');
 $login_body_border_style = $login_body_border_size || $login_body_border_color ? 'solid' : 'none';
-$login_body_shadow_color = !empty($settings->get('theme', 'login_body_shadow_color', '')) ? '0 1px 20px '.$settings->get('theme', 'login_body_shadow_color') : 'none';
+$login_body_shadow_color = !empty($settings->get('theme', 'login_body_shadow_color', '')) ? '0 7px 14px '.$settings->get('theme', 'login_body_shadow_color') : 'none';
 $login_link_text_color = $settings->get('theme', 'login_link_text_color', '#1047BF');
 $login_link_text_size = $settings->get('theme', 'login_link_text_size', '11px');
 $login_link_text_font = $settings->get('theme', 'login_link_text_font', 'Inter, Arial, sans-serif');
@@ -189,13 +189,13 @@ $login_input_outline_color_hover_focus = $settings->get('theme', 'login_input_ou
 $login_input_outline_radius = $settings->get('theme', 'login_input_outline_radius', $login_input_border_radius ?? null);
 $login_input_background_color = $settings->get('theme', 'login_input_background_color', $input_background_color);
 $login_input_shadow_inner_color = $settings->get('theme', 'login_input_shadow_inner_color', $input_shadow_inner_color);
-$login_input_shadow_inner_color = $login_input_shadow_inner_color != 'none' ? '0 0 3px '.$login_input_shadow_inner_color.' inset' : 'none';
+$login_input_shadow_inner_color = $login_input_shadow_inner_color != 'none' ? '0 1px 2px '.$login_input_shadow_inner_color.' inset' : 'none';
 $login_input_shadow_outer_color = $settings->get('theme', 'login_input_shadow_outer_color', $input_shadow_outer_color);
-$login_input_shadow_outer_color = $login_input_shadow_outer_color != 'none' ? '0 0 5px '.$login_input_shadow_outer_color : 'none';
+$login_input_shadow_outer_color = $login_input_shadow_outer_color != 'none' ? '0 2px 3px '.$login_input_shadow_outer_color : 'none';
 $login_input_shadow_inner_color_focus = $settings->get('theme', 'login_input_shadow_inner_color_focus', $input_shadow_inner_color_focus);
-$login_input_shadow_inner_color_focus = $login_input_shadow_inner_color_focus != 'none' ? '0 0 3px '.$login_input_shadow_inner_color_focus.' inset' : 'none';
+$login_input_shadow_inner_color_focus = $login_input_shadow_inner_color_focus != 'none' ? '0 1px 2px '.$login_input_shadow_inner_color_focus.' inset' : 'none';
 $login_input_shadow_outer_color_focus = $settings->get('theme', 'login_input_shadow_outer_color_focus', $input_shadow_outer_color_focus);
-$login_input_shadow_outer_color_focus = $login_input_shadow_outer_color_focus != 'none' ? '0 0 5px '.$login_input_shadow_outer_color_focus : 'none';
+$login_input_shadow_outer_color_focus = $login_input_shadow_outer_color_focus != 'none' ? '0 2px 3px '.$login_input_shadow_outer_color_focus : 'none';
 $pwstrength_background_color = $settings->get('theme', 'input_background_color', '#fbfcfe');
 $table_heading_text_color = $settings->get('theme', 'table_heading_text_color', '#1047BF');
 $table_heading_text_size = $settings->get('theme', 'table_heading_text_size', '12px');
@@ -302,14 +302,14 @@ $action_bar_border_bottom_scroll = $settings->get('theme', 'action_bar_border_bo
 $action_bar_border_left_scroll = $settings->get('theme', 'action_bar_border_left_scroll', 'initial');
 $action_bar_border_radius_scroll = $settings->get('theme', 'action_bar_border_radius_scroll', 'initial');
 $action_bar_background_scroll = $settings->get('theme', 'action_bar_background_scroll', 'rgba(255,255,255,0.96)');
-$action_bar_shadow_scroll = $settings->get('theme', 'action_bar_shadow_scroll', '0 3px 12px 0 rgba(16,71,191,0.12)');
+$action_bar_shadow_scroll = $settings->get('theme', 'action_bar_shadow_scroll', '0px 5px 10px 0 rgba(16,71,191,0.12)');
 $modal_transition_seconds = $settings->get('theme', 'modal_transition_seconds', 0.03);
 $modal_shade_color = $settings->get('theme', 'modal_shade_color', 'rgba(16,71,191,0.45)');
 $modal_padding = $settings->get('theme', 'modal_padding', '15px 20px 20px 20px');
 $modal_background_color = $settings->get('theme', 'modal_background_color', '#fbfcfe');
 $modal_width = $settings->get('theme', 'modal_width', '500px');
 $modal_corner_radius = $settings->get('theme', 'modal_corner_radius', '8px');
-$modal_shadow = $settings->get('theme', 'modal_shadow', '0 0 40px rgba(16,71,191,0.24)');
+$modal_shadow = $settings->get('theme', 'modal_shadow', '0px 13px 27px rgba(16,71,191,0.24)');
 $modal_title_font = $settings->get('theme', 'modal_title_font', $heading_text_font);
 $modal_title_color = $settings->get('theme', 'modal_title_color', $heading_text_color);
 $modal_title_alignment = $settings->get('theme', 'modal_title_alignment', 'left');
@@ -1178,21 +1178,21 @@ else { //default: white
 			position: relative;
 			z-index: 1;
 			isolation: isolate;
-			padding: 17px 10px 13px 10px;
+			padding: 20px 10px 16px 10px;
 			height: 72px;
 			background-color: <?=$body_header_background_color?>;
-			-webkit-box-shadow: 0 2px <?=$body_header_shadow_size ?? '7px'?> <?=$body_header_shadow_color?>;
-			-moz-box-shadow: 0 2px <?=$body_header_shadow_size ?? '7px'?> <?=$body_header_shadow_color?>;
-			box-shadow: 0 2px <?=$body_header_shadow_size ?? '7px'?> <?=$body_header_shadow_color?>;
+			-webkit-box-shadow: 0 3px <?=$body_header_shadow_size ?? '6px'?> <?=$body_header_shadow_color?>;
+			-moz-box-shadow: 0 3px <?=$body_header_shadow_size ?? '6px'?> <?=$body_header_shadow_color?>;
+			box-shadow: 0 3px <?=$body_header_shadow_size ?? '6px'?> <?=$body_header_shadow_color?>;
 			}
 	<?php } else { ?>
 		div#body_header {
 			padding: 10px;
 			margin-top: 5px;
 			height: 40px;
-			-webkit-box-shadow: 0 2px <?=$body_header_shadow_size ?? '7px'?> <?=$body_header_shadow_color?>;
-			-moz-box-shadow: 0 2px <?=$body_header_shadow_size ?? '7px'?> <?=$body_header_shadow_color?>;
-			box-shadow: 0 2px <?=$body_header_shadow_size ?? '7px'?> <?=$body_header_shadow_color?>;
+			-webkit-box-shadow: 0 3px <?=$body_header_shadow_size ?? '6px'?> <?=$body_header_shadow_color?>;
+			-moz-box-shadow: 0 3px <?=$body_header_shadow_size ?? '6px'?> <?=$body_header_shadow_color?>;
+			box-shadow: 0 3px <?=$body_header_shadow_size ?? '6px'?> <?=$body_header_shadow_color?>;
 			}
 	<?php } ?>
 
@@ -1221,9 +1221,9 @@ else { //default: white
 		-moz-border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
 		border-radius: <?php echo $br['tl']['n'].$br['tl']['u']; ?> <?php echo $br['tr']['n'].$br['tr']['u']; ?> <?php echo $br['br']['n'].$br['br']['u']; ?> <?php echo $br['bl']['n'].$br['bl']['u']; ?>;
 		<?php unset($br); ?>
-		-webkit-box-shadow: 0 2px <?=$body_header_shadow_size ?? '7px'?> <?=$body_header_shadow_color?>;
-		-moz-box-shadow: 0 2px <?=$body_header_shadow_size ?? '7px'?> <?=$body_header_shadow_color?>;
-		box-shadow: 0 2px <?=$body_header_shadow_size ?? '7px'?> <?=$body_header_shadow_color?>;
+		-webkit-box-shadow: 0 3px <?=$body_header_shadow_size ?? '6px'?> <?=$body_header_shadow_color?>;
+		-moz-box-shadow: 0 3px <?=$body_header_shadow_size ?? '6px'?> <?=$body_header_shadow_color?>;
+		box-shadow: 0 3px <?=$body_header_shadow_size ?? '6px'?> <?=$body_header_shadow_color?>;
 		}
 
 	@media (max-width: 575.98px) {
@@ -2261,9 +2261,9 @@ else { //default: white
 	input[type=password].formfld_highlight_bad:active,
 	input[type=password].formfld_highlight_bad:focus {
 		border-color: #aa2525;
-		-webkit-box-shadow: 0 0 3px #aa2525 inset;
-		-moz-box-shadow: 0 0 3px #aa2525 inset;
-		box-shadow: 0 0 3px #aa2525 inset;
+		-webkit-box-shadow: 0 1px 2px #aa2525 inset;
+		-moz-box-shadow: 0 1px 2px #aa2525 inset;
+		box-shadow: 0 1px 2px #aa2525 inset;
 		}
 
 	input[type=password].formfld_highlight_good,
@@ -2271,9 +2271,9 @@ else { //default: white
 	input[type=password].formfld_highlight_good:active,
 	input[type=password].formfld_highlight_good:focus {
 		border-color: #2fb22f;
-		-webkit-box-shadow: 0 0 3px #2fb22f inset;
-		-moz-box-shadow: 0 0 3px #2fb22f inset;
-		box-shadow: 0 0 3px #2fb22f inset;
+		-webkit-box-shadow: 0 1px 2px #2fb22f inset;
+		-moz-box-shadow: 0 1px 2px #2fb22f inset;
+		box-shadow: 0 1px 2px #2fb22f inset;
 		}
 
 	/* removes spinners (increment/decrement controls) inside input fields */
@@ -2339,9 +2339,9 @@ else { //default: white
 		-moz-border-radius: 4px 4px 8px 8px;
 		-webkit-border-radius: 4px 4px 8px 8px;
 		-khtml-border-radius: 4px 4px 8px 8px;
-		-webkit-box-shadow: 0 0 3px 0px rgba(<?=hex_to_rgb($audio_player_indicator_color,',',true,0.8)?>);
-		-moz-box-shadow: 0 0 3px 0px rgba(<?=hex_to_rgb($audio_player_indicator_color,',',true,0.8)?>);
-		box-shadow: 0 0 3px 0px rgba(<?=hex_to_rgb($audio_player_indicator_color,',',true,0.8)?>);
+		-webkit-box-shadow: 0 1px 2px 0px rgba(<?=hex_to_rgb($audio_player_indicator_color,',',true,0.8)?>);
+		-moz-box-shadow: 0 1px 2px 0px rgba(<?=hex_to_rgb($audio_player_indicator_color,',',true,0.8)?>);
+		box-shadow: 0 1px 2px 0px rgba(<?=hex_to_rgb($audio_player_indicator_color,',',true,0.8)?>);
 		pointer-events: none;
 		}
 
@@ -2765,7 +2765,7 @@ else { //default: white
 		display: block;
 		color: <?=$message_default_color?>;
 		background: <?=$message_default_background_color?>;
-		box-shadow: inset 0px 7px 8px -10px <?=$message_default_color?>;
+		box-shadow: inset 0px 5px 10px -10px <?=$message_default_color?>;
 		opacity: 0;
 		<?php
 		if ($menu_style == 'side') {
@@ -2781,19 +2781,19 @@ else { //default: white
 	.message_mood_positive {
 		color: <?=$message_positive_color?>;
 		background: <?=$message_positive_background_color?>;
-		box-shadow: inset 0px 7px 8px -10px <?=$message_positive_color?>;
+		box-shadow: inset 0px 5px 10px -10px <?=$message_positive_color?>;
 		}
 
 	.message_mood_negative {
 		color: <?=$message_negative_color?>;
 		background: <?=$message_negative_background_color?>;
-		box-shadow: inset 0px 7px 8px -10px <?=$message_negative_color?>;
+		box-shadow: inset 0px 5px 10px -10px <?=$message_negative_color?>;
 		}
 
 	.message_mood_alert {
 		color: <?=$message_alert_color?>;
 		background: <?=$message_alert_background_color?>;
-		box-shadow: inset 0px 7px 8px -10px <?=$message_alert_color?>;
+		box-shadow: inset 0px 5px 10px -10px <?=$message_alert_color?>;
 		}
 
 /* OPERATOR PANEL ****************************************************************/
@@ -2807,9 +2807,9 @@ else { //default: white
 		-moz-border-radius: 8px;
 		-webkit-border-radius: 8px;
 		border-radius: 8px;
-		-webkit-box-shadow: 0 0 3px <?=$form_table_field_background_color?>;
-		-moz-box-shadow: 0 0 3px <?=$form_table_field_background_color?>;
-		box-shadow: 0 0 3px <?=$form_table_field_background_color?>;
+		-webkit-box-shadow: 0 1px 2px <?=$form_table_field_background_color?>;
+		-moz-box-shadow: 0 1px 2px <?=$form_table_field_background_color?>;
+		box-shadow: 0 1px 2px <?=$form_table_field_background_color?>;
 		border-width: 1px 3px;
 		border-color: <?=$operator_panel_border_color?>;
 		background-color: <?=$form_table_label_background_color?>;
@@ -2826,9 +2826,9 @@ else { //default: white
 		-moz-border-radius: 8px;
 		-webkit-border-radius: 8px;
 		border-radius: 8px;
-		-webkit-box-shadow: 0 0 3px <?=$form_table_field_background_color?>;
-		-moz-box-shadow: 0 0 3px <?=$form_table_field_background_color?>;
-		box-shadow: 0 0 3px <?=$form_table_field_background_color?>;
+		-webkit-box-shadow: 0 1px 2px <?=$form_table_field_background_color?>;
+		-moz-box-shadow: 0 1px 2px <?=$form_table_field_background_color?>;
+		box-shadow: 0 1px 2px <?=$form_table_field_background_color?>;
 		border-width: 1px 3px;
 		border-color: <?=$operator_panel_border_color?>;
 		background-color: <?=$form_table_label_background_color?>;
@@ -3019,9 +3019,9 @@ else { //default: white
 				echo "background-color: " .$card_background_color.";\n";
 			}
 			if (!empty($card_shadow_color)) {
-				echo "-webkit-box-shadow: 0 2px ".($card_shadow_size ?? '7px')." ".$card_shadow_color.";\n";
-				echo "-moz-box-shadow: 0 2px ".($card_shadow_size ?? '7px')." ".$card_shadow_color.";\n";
-				echo "box-shadow: 0 2px ".($card_shadow_size ?? '7px')." ".$card_shadow_color.";\n";
+				echo "-webkit-box-shadow: 0 3px ".($card_shadow_size ?? '6px')." ".$card_shadow_color.";\n";
+				echo "-moz-box-shadow: 0 3px ".($card_shadow_size ?? '6px')." ".$card_shadow_color.";\n";
+				echo "box-shadow: 0 3px ".($card_shadow_size ?? '6px')." ".$card_shadow_color.";\n";
 			}
 		}
 		else {
@@ -3088,9 +3088,9 @@ else { //default: white
 		}
 
 		if (!empty($dashboard_shadow_color)) {
-			echo "-webkit-box-shadow: 0 px 7px ".$dashboard_shadow_color.";\n";
-			echo "-moz-box-shadow: 0 2px 7px ".$dashboard_shadow_color.";\n";
-			echo "box-shadow: 0 2px 7px ".$dashboard_shadow_color.";\n";
+			echo "-webkit-box-shadow: 0 3px 6px ".$dashboard_shadow_color.";\n";
+			echo "-moz-box-shadow: 0 3px 6px ".$dashboard_shadow_color.";\n";
+			echo "box-shadow: 0 3px 6px ".$dashboard_shadow_color.";\n";
 			echo "padding: 12px 0px;\n";
 		}
 		?>
@@ -3206,9 +3206,9 @@ else { //default: white
 
 	div.hud_details {
 		/*
-		-moz-box-shadow: inset 0 7px 7px -7px <?=$dashboard_detail_shadow_color?>, inset 0 -8px 12px -10px <?=$dashboard_detail_shadow_color?>;
-		-webkit-box-shadow: inset 0 7px 7px -7px <?=$dashboard_detail_shadow_color?>, inset 0 -8px 12px -10px <?=$dashboard_detail_shadow_color?>;
-		box-shadow: inset 0 7px 7px -7px <?=$dashboard_detail_shadow_color?>, inset 0 -8px 12px -10px <?=$dashboard_detail_shadow_color?>;
+		-moz-box-shadow: inset 0 5px 9px -7px <?=$dashboard_detail_shadow_color?>, inset 0 -7px 13px -10px <?=$dashboard_detail_shadow_color?>;
+		-webkit-box-shadow: inset 0 5px 9px -7px <?=$dashboard_detail_shadow_color?>, inset 0 -7px 13px -10px <?=$dashboard_detail_shadow_color?>;
+		box-shadow: inset 0 5px 9px -7px <?=$dashboard_detail_shadow_color?>, inset 0 -7px 13px -10px <?=$dashboard_detail_shadow_color?>;
 		*/
 		padding-bottom: 15px;
 		overflow-y: auto;
@@ -3407,9 +3407,9 @@ else { //default: white
 				echo "background-color: " .$card_background_color.";\n";
 			}
 			if (!empty($card_shadow_color)) {
-				echo "-webkit-box-shadow: 0 2px ".($card_shadow_size ?? '7px')." ".$card_shadow_color.";\n";
-				echo "-moz-box-shadow: 0 2px ".($card_shadow_size ?? '7px')." ".$card_shadow_color.";\n";
-				echo "box-shadow: 0 2px ".($card_shadow_size ?? '7px')." ".$card_shadow_color.";\n";
+				echo "-webkit-box-shadow: 0 3px ".($card_shadow_size ?? '6px')." ".$card_shadow_color.";\n";
+				echo "-moz-box-shadow: 0 3px ".($card_shadow_size ?? '6px')." ".$card_shadow_color.";\n";
+				echo "box-shadow: 0 3px ".($card_shadow_size ?? '6px')." ".$card_shadow_color.";\n";
 			}
 		}
 		else {
@@ -4217,7 +4217,7 @@ a.menu_side_item_sub {
 }
 
 a.menu_side_item_main {
-    height: 56px;
+    height: 52px;
 }
 
 div#menu_side_container .menu_side_item_icon,

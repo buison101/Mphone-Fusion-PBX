@@ -396,7 +396,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "body_header_shadow_size";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "7px";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "6px";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the shadow size of the body header bar.";
 		$y++;
@@ -1036,7 +1036,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "card_shadow_size";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "7px";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "6px";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the size of the content card shadow.";
 		$y++;
@@ -2588,7 +2588,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "action_bar_shadow_scroll";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "0 3px 12px 0 rgba(16,71,191,0.12)";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "0px 5px 10px 0 rgba(16,71,191,0.12)";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Sets the shadow style of the Action Bar when scrolled.";
 		$y++;
@@ -2996,7 +2996,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "modal_shadow";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "0 0 40px rgba(16,71,191,0.24)";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "0px 13px 27px rgba(16,71,191,0.24)";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "";
 		$y++;
