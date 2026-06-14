@@ -92,6 +92,15 @@
 				var menu_side_state_current = '{if $menu_side_state == 'hidden'}expanded{else}{$menu_side_state}{/if}';
 				{literal}
 
+				function menu_side_desktop_default() {
+					if (jQuery(window).width() >= 1200) {
+						menu_side_state_current = "expanded";
+					}
+					else {
+						menu_side_state_current = "contracted";
+					}
+				}
+
 				function menu_side_apply_layout(animate) {
 					var window_width = jQuery(window).width();
 					var expanded_width = window_width < 576 ? Math.round(window_width * 0.65) : {/literal}{$settings.theme.menu_side_width_expanded}{literal};
@@ -239,6 +248,7 @@
 
 		{if $settings.theme.menu_style == 'side'}
 			{literal}
+			menu_side_desktop_default();
 			menu_side_apply_layout(false);
 			jQuery("#content_container").on("click touchstart", function(event) {
 				if (jQuery(window).width() < 1200 && menu_side_state_current == "expanded") {
@@ -677,15 +687,8 @@
 			{if $settings.theme.menu_style == 'side'}
 				{literal}
 				jQuery(window).on('resizeEnd', function() {
+					menu_side_desktop_default();
 					menu_side_apply_layout(false);
-			jQuery("#content_container").on("click touchstart", function(event) {
-				if (jQuery(window).width() < 1200 && menu_side_state_current == "expanded") {
-					event.preventDefault();
-					event.stopPropagation();
-					menu_side_contract();
-					return false;
-				}
-			});
 				});
 				{/literal}
 			{/if}
