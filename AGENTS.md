@@ -1,5 +1,15 @@
 # Repository Guidelines
 
+## Project Context
+
+This repository is an active development copy of a FusionPBX PHP application. It is running on a Debian 12 virtual machine inside VirtualBox, so treat local paths, services, permissions, and web-server behavior as development-environment details unless the user says otherwise. Prefer small, reversible changes and verify them locally with targeted commands before reporting completion.
+
+Assume this is not a clean production checkout. There may be local experiments, deployment-specific files, or unfinished work in progress. Do not overwrite, normalize, or revert unrelated changes.
+
+## Strict No-Touch Files
+
+Do not read, edit, format, regenerate, move, delete, or otherwise modify `themes/mybrand/custom.css`. That file is not intended for AI changes. If a task appears to require changes to that file, stop and ask the user for explicit direction instead.
+
 ## Project Structure & Module Organization
 
 This repository is a FusionPBX PHP application. Feature modules live in `app/<module>/` and usually include `app_config.php`, `app_languages.php`, `app_menu.php`, and one or more page/controller PHP files. Core platform modules are under `core/`, including authentication, users, groups, domains, menus, installs, and upgrades. Shared classes, functions, vendor libraries, JavaScript, templates, and install resources are in `resources/`. Theme and branding work belongs in `themes/default/` or project-specific themes such as `themes/mybrand/`. The `secure/` directory is reserved for protected runtime/configuration material.
