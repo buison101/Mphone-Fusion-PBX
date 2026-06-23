@@ -5,3 +5,12 @@
 div#menu_side_container > a.menu_side_item_main:hover {
     background: #141d2e;
 }
+
+.hud_stat .fas, .hud_stat .fa-solid, .hud_stat svg, .hud_box .hud_content > .hud_stat {
+    color: #1a73e8 !important;
+}
+
+.hud_box > .hud_content > .hud_title:first-of-type,
+.hud_box > .hud_content > .hud_title:first-of-type a {
+	color: #222f43 !important;
+}

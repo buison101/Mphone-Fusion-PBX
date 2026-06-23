@@ -4082,9 +4082,6 @@ else { //default: white
 /* SYSTEM UI OVERRIDES **********************************************************/
 
 :root {
-	--mphone-brand-primary: #184fcf;
-	--mphone-text-primary: #141d2e;
-	--mphone-text-secondary: #222f43;
 	--mphone-system-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
@@ -4277,17 +4274,8 @@ div#menu_side_container .sub_arrows {
 	margin-left: 0;
 }
 
-.hud_stat .fas,
-.hud_stat .fa-solid,
-.hud_stat svg,
-.hud_box .hud_content > .hud_stat {
-	color: var(--mphone-brand-primary) !important;
-}
 
-.hud_box > .hud_content > .hud_title:first-of-type,
-.hud_box > .hud_content > .hud_title:first-of-type a {
-	color: var(--mphone-text-secondary) !important;
-}
+
 
 
 
