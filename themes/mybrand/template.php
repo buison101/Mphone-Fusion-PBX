@@ -8,6 +8,15 @@
 
 <html xmlns='http://www.w3.org/1999/xhtml' xml:lang='en' lang='en'>
 <head>
+{if $settings.theme.menu_style == 'side'}
+<script>
+(function() {
+	if (window.matchMedia && window.matchMedia('(min-width: 1200px)').matches) {
+		document.documentElement.className += ' menu_side_preload_desktop';
+	}
+})();
+</script>
+{/if}
 <meta charset='utf-8'>
 <meta http-equiv='Content-Type' content='text/html; charset=UTF-8'>
 <meta http-equiv='X-UA-Compatible' content='IE=edge'>
@@ -250,6 +259,7 @@
 			{literal}
 			menu_side_desktop_default();
 			menu_side_apply_layout(false);
+			jQuery(document.documentElement).removeClass("menu_side_preload_desktop");
 			jQuery("#content_container").on("click touchstart", function(event) {
 				if (jQuery(window).width() < 1200 && menu_side_state_current == "expanded") {
 					event.preventDefault();

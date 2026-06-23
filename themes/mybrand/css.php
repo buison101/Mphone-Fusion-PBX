@@ -916,6 +916,17 @@ else { //default: white
 		border-radius: <?=$menu_main_border_radius?>;
 		}
 
+	@media (min-width: 1200px) {
+		html.menu_side_preload_desktop div#menu_side_container {
+			width: <?=$menu_side_width_expanded?>px !important;
+			}
+
+		html.menu_side_preload_desktop div#content_container {
+			width: calc(100% - <?=$menu_side_width_expanded?>px) !important;
+			float: right;
+			}
+	}
+
 	/* menu side logo */
 	a.menu_brand_image {
 		display: inline-block;
