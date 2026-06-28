@@ -44,7 +44,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "background_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "array";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#fcfcfd";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#f5f5f7";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set a background color.";
 		$y++;
@@ -148,7 +148,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "domain_active_background_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#f5f5f7";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#fcfcfd";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "background color of the active domain in the side menu Domain selector";
 		$y++;
@@ -156,7 +156,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "domain_inactive_background_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "array";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#fcfcfd";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#f5f5f7";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the alternating background color of the inactive domains in the side menu.";
 		$y++;
@@ -164,7 +164,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "domain_inactive_background_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "array";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#fcfcfd";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#f5f5f7";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the alternating background color of the inactive domains in the side menu.";
 		$y++;
@@ -172,7 +172,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "domain_active_text_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1c1c1e";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "text color of the active domain in the side menu Domain selector Domain selector";
 		$y++;
@@ -180,7 +180,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "domain_inactive_text_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#48484a";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "text color of the inactive domains in the side menu Domain selector";
 		$y++;
@@ -188,7 +188,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "domain_active_text_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#006AE6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "text hover color of the active domain in the side menu Domain selector";
 		$y++;
@@ -196,7 +196,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "domain_inactive_text_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#006AE6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "text hover color of the inactive domains in the side menu Domain selector";
 		$y++;
@@ -204,7 +204,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "domain_active_desc_text_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#66afff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#636366";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "description text color of the active domain in the side menu Domain selector";
 		$y++;
@@ -212,7 +212,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "domain_inactive_desc_text_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#66afff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#636366";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "description text color of the inactive domains in the side menu Domain selector";
 		$y++;
@@ -228,7 +228,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "logout_icon_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#32ade6";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#fcfcfd";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the hover color (and opacity) for the logout icon (if visible).";
 		$y++;
@@ -252,7 +252,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "menu_main_toggle_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#32ade6";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#fcfcfd";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the hover color (and opacity) for the menu toggle icon (in mobile view).";
 		$y++;
@@ -404,7 +404,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "body_header_shadow_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(0,0,0,0.08)";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(0,0,0,.08)";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the shadow color of the body header bar.";
 		$y++;
@@ -444,7 +444,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "body_header_text_link_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007AFF";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the color (and opacity) of text links in the body header.";
 		$y++;
@@ -452,7 +452,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "body_header_text_link_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#006AE6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the hover color (and opacity) of text links in the body header.";
 		$y++;
@@ -460,7 +460,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "body_shadow_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(0,122,255,0.08)";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(0,0,0,.04)";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the color (and opacity) of the body.";
 		$y++;
@@ -492,7 +492,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "domain_selector_title_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#006AE6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the text hover color of the domain selector title.";
 		$y++;
@@ -516,7 +516,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "domain_selector_list_border_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#e5e5ea";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#d1d1d6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the list border color of the domain selector pane.";
 		$y++;
@@ -524,7 +524,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "domain_selector_list_divider_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#f5f5f7";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#e5e5ea";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the list item divider color of the domain selector pane.";
 		$y++;
@@ -532,7 +532,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "domain_selector_shadow_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(0,122,255,0.16)";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(0,0,0,.08)";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the shadow color (and opacity) of the domain selector pane.";
 		$y++;
@@ -548,7 +548,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "menu_main_background_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1c1c1e";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set a background color (and opacity) of the main menu bar.";
 		$y++;
@@ -556,7 +556,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "menu_main_background_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#2c2c2e";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set a background hover color (and opacity) of the main menu items.";
 		$y++;
@@ -604,7 +604,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "menu_main_icon_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#d1d1d6";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#aeaeb2";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the icon color of the main menu items.";
 		$y++;
@@ -612,7 +612,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "menu_main_icon_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#ffffff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#fcfcfd";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the icon hover color of the main menu items.";
 		$y++;
@@ -652,7 +652,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "menu_main_border_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#2c2c2e";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the border color (and opacity) of the main menu.";
 		$y++;
@@ -668,7 +668,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "menu_sub_background_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#2c2c2e";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the background color (and opacity) of the sub menus.";
 		$y++;
@@ -676,7 +676,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "menu_sub_background_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#3a3a3c";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the hover background color (and opacity) of the sub menu items.";
 		$y++;
@@ -748,7 +748,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "menu_sub_border_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#3a3a3c";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the border color (and opacity) of the sub menu.";
 		$y++;
@@ -772,7 +772,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "heading_text_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1c1c1e";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the color (and opacity) of the page heading text.";
 		$y++;
@@ -868,7 +868,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "text_link_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007AFF";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the link color (and opacity) of text links outside tables.";
 		$y++;
@@ -876,7 +876,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "text_link_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#006AE6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the hover color (and opacity) of text links outside tables.";
 		$y++;
@@ -908,7 +908,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "table_heading_text_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1c1c1e";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the text color (and opacity) of table header rows.";
 		$y++;
@@ -924,7 +924,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "table_heading_border_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#e5e5ea";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#d1d1d6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the bottom border color (and opacity) of table header rows.";
 		$y++;
@@ -964,7 +964,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "table_row_text_link_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007AFF";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the text color (and opacity) of links in table data rows.";
 		$y++;
@@ -972,7 +972,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "table_row_text_link_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#006AE6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the text hover color (and opacity) of links in table data rows.";
 		$y++;
@@ -1004,7 +1004,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "table_row_background_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#e5e5ea";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#f5f5f7";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the background color of table data rows on hover.";
 		$y++;
@@ -1028,7 +1028,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "card_shadow_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(0,0,0,0.08)";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(0,0,0,.08)";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the color (and opacity) of the content cards.";
 		$y++;
@@ -1052,7 +1052,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "card_border_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#e5e5ea";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#d1d1d6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the border color of the content cards.";
 		$y++;
@@ -1108,7 +1108,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "dashboard_border_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#e5e5ea";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#d1d1d6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the border color (and opacity) of the Dashboard blocks.";
 		$y++;
@@ -1116,7 +1116,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "dashboard_border_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#aeaeb2";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the border hover color (and opacity) of the Dashboard block.";
 		$y++;
@@ -1148,7 +1148,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "dashboard_label_text_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#fcfcfd";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1c1c1e";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the color (and opacity) of the Dashboard block label text.";
 		$y++;
@@ -1156,7 +1156,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "dashboard_label_text_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#fcfcfd";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1c1c1e";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the hover color (and opacity) of the Dashboard block label text.";
 		$y++;
@@ -1212,7 +1212,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "dashboard_number_text_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1c1c1e";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the color (and opacity) of the Dashboard block number.";
 		$y++;
@@ -1284,7 +1284,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "dashboard_number_title_text_shadow_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(255,255,255,0)";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#636366";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the shadow color (and opacity) of the Dashboard block number title.";
 		$y++;
@@ -1348,7 +1348,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "dashboard_shadow_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(0,0,0,0.08)";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(0,0,0,.08)";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the shadow color (and opacity) of the Dashboard blocks.";
 		$y++;
@@ -1364,7 +1364,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "dashboard_footer_background_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#f5f5f7";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#e5e5ea";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the background hover color (and opacity) of the Dashboard block footer bar.";
 		$y++;
@@ -1404,7 +1404,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "form_table_label_border_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#ffffff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#d1d1d6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the bottom-border color (and opacity) of the form label cell.";
 		$y++;
@@ -1436,7 +1436,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "form_table_label_text_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1c1c1e";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#48484a";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the text color (and opacity) of the form label.";
 		$y++;
@@ -1452,7 +1452,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "form_table_label_required_border_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#d1d1d6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the right-border color (and opacity) of the required form label cell.";
 		$y++;
@@ -1460,7 +1460,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "form_table_label_required_text_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1c1c1e";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the text color (and opacity) of the required form label.";
 		$y++;
@@ -1492,7 +1492,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "form_table_field_border_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#e5e5ea";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#d1d1d6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the bottom-border color (and opacity) of the form field cell.";
 		$y++;
@@ -1660,7 +1660,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "login_body_border_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(209,209,214,0.70)";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#d1d1d6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the border color (and opacity) of the login box.";
 		$y++;
@@ -1668,7 +1668,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "login_link_text_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007AFF";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the color (and opacity) of text links on the login box.";
 		$y++;
@@ -1676,7 +1676,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "login_link_text_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#006AE6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the hover color (and opacity) of text links on the login box.";
 		$y++;
@@ -1724,7 +1724,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "button_background_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007AFF";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the background main/top color (and opacity) of buttons.";
 		$y++;
@@ -1732,7 +1732,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "button_background_color_bottom";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007AFF";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the background bottom color (and opacity) of buttons.";
 		$y++;
@@ -1740,7 +1740,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "button_background_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#006AE6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the background main/top hover color (and opacity) of buttons.";
 		$y++;
@@ -1748,7 +1748,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "button_background_color_bottom_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#006AE6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the background bottom hover color (and opacity) of buttons.";
 		$y++;
@@ -1772,7 +1772,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "button_border_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#d1d1d6";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the border color (and opacity) of buttons.";
 		$y++;
@@ -1780,7 +1780,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "button_border_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#aeaeb2";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the border hover color (and opacity) of buttons.";
 		$y++;
@@ -1900,7 +1900,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "input_border_color_focus";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1a73e8";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the border focus color (and opacity) of text inputs.";
 		$y++;
@@ -1908,7 +1908,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "input_border_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#66afff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#aeaeb2";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the border hover color (and opacity) of text inputs.";
 		$y++;
@@ -1916,7 +1916,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "input_border_color_hover_focus";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1a73e8";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the border hover color (and opacity) of focused text inputs.";
 		$y++;
@@ -2020,7 +2020,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "input_shadow_inner_color_focus";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#ffffff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#fcfcfd";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the inner focus shadow color (and opacity) of text inputs.";
 		$y++;
@@ -2076,7 +2076,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "input_text_placeholder_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#66afff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#8e8e93; opacity: 1.0;";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the color (and opacity) of input placeholder text.";
 		$y++;
@@ -2092,7 +2092,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "input_toggle_switch_background_color_true";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#32ade6";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#34c759";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the color of the toggle switch container when it is in the on/true position.";
 		$y++;
@@ -2156,7 +2156,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "login_input_border_color_focus";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1a73e8";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the border focus color (and opacity) of text inputs on the login box.";
 		$y++;
@@ -2164,7 +2164,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "login_input_border_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#66afff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#aeaeb2";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the border hover color (and opacity) of text inputs on the login box.";
 		$y++;
@@ -2172,7 +2172,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "login_input_border_color_hover_focus";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1a73e8";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the border hover color (and opacity) of focused text inputs on the login box.";
 		$y++;
@@ -2276,7 +2276,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "login_input_shadow_inner_color_focus";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#ffffff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#fcfcfd";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the inner focus shadow color (and opacity) of text inputs on the login box.";
 		$y++;
@@ -2324,7 +2324,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "login_input_text_placeholder_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#66afff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#8e8e93; opacity: 1.0;";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the color (and opacity) of input placeholder text on the login box.";
 		$y++;
@@ -2364,7 +2364,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "body_icon_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(0,122,255,0.62)";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#636366";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the color (and opacity) for the icons in the body.";
 		$y++;
@@ -2372,7 +2372,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "body_icon_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007AFF";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the hover color (and opacity) for the icons in the body.";
 		$y++;
@@ -2588,7 +2588,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "action_bar_shadow_scroll";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "0px 5px 10px 0 rgba(0,0,0,0.08)";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "0 4px 12px rgba(0,0,0,.08)";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Sets the shadow style of the Action Bar when scrolled.";
 		$y++;
@@ -2956,7 +2956,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "modal_shade_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(0,122,255,0.45)";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "rgba(0,0,0,0.35)";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "";
 		$y++;
@@ -2996,7 +2996,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "modal_shadow";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "0px 13px 27px rgba(0,0,0,0.12)";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "0 20px 40px rgba(0,0,0,.12)";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "";
 		$y++;
@@ -3012,7 +3012,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "modal_title_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1c1c1e";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "";
 		$y++;
@@ -3036,7 +3036,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "modal_close_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#66afff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#8e8e93";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "";
 		$y++;
@@ -3060,7 +3060,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "modal_close_color_hover";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#1c1c1e";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "";
 		$y++;
@@ -3124,7 +3124,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "audio_player_indicator_color";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007aff";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "#007AFF";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the color of the playback progress indicator.";
 		$y++;

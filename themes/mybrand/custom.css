@@ -14,3 +14,51 @@ div#menu_side_container > a.menu_side_item_main:hover {
 .hud_box > .hud_content > .hud_title:first-of-type a {
 	color: #1c1c1e !important;
 }
+
+
+div#menu_side_container, div#menu_side_control_container, a.menu_side_item_sub {
+    background: #000000;
+}
+
+a.menu_side_item_sub:hover, a.menu_side_item_sub:focus, a.menu_side_item_sub:active {
+    color: #f5f5f7;
+    background: #1c1c1e;
+}
+
+
+div#menu_side_container > a.menu_side_item_main > i.menu_side_item_icon, div#menu_side_container > a.menu_side_item_main > i.menu_side_item_icon, div#menu_side_container > a.menu_side_item_main > i.menu_side_item_icon, div#menu_side_container > a.menu_side_item_main, div#menu_side_container > div > a.menu_side_item_main, div#menu_side_container > div#menu_side_control_container a.menu_side_item_main {
+    color: #fcfcfd;
+}
+
+a.menu_side_item_sub {
+    color: #fcfcfd;
+}
+
+.list-row:hover > td, .list-row:nth-child(odd):hover > :not(.action-button), .list-row:nth-child(even):hover > :not(.action-button) {
+    background: #e5e5ea;
+}
+
+div#body_header a {
+    color: #48484a;
+}
+
+div#body_header a:hover {
+    color:  #1c1c1e;
+}
+
+div.hud_box {
+    border: 1px solid #e5e5ea;
+}
+
+div.hud_box:hover {
+    border: 1px solid #d1d1d6;
+}
+
+input.btn, input.button, button.btn-default {
+    background: #636366;
+    background-image: unset;
+}
+input.btn:hover, input.btn:active, input.btn:focus, input.button:hover, input.button:active, input.button:focus, button.btn-default:hover, button.btn-default:active, button.btn-default:focus {
+    background: #48484a;
+    background-image: unset;
+}
