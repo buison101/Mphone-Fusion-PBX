@@ -39,11 +39,11 @@ a.menu_side_item_sub {
 }
 
 div#body_header a {
-    color: #48484a;
+    color: #636366;
 }
 
 div#body_header a:hover {
-    color:  #1c1c1e;
+    color:  #48484a;
 }
 
 div.hud_box {
