@@ -224,6 +224,9 @@
 	echo "	var chart_text_font = '".$settings->get('theme', 'dashboard_number_text_font', 'arial')."';\n";
 	echo "	var chart_text_size = '".$settings->get('theme', 'dashboard_chart_text_size', '30px')."';\n";
 	echo "	Chart.overrides.doughnut.cutout = '".$settings->get('theme', 'dashboard_chart_cutout', '75%')."';\n";
+	echo "	Chart.defaults.color = '#48484a';\n";
+	echo "	Chart.defaults.borderColor = '#d1d1d6';\n";
+	echo "	Chart.defaults.backgroundColor = 'rgba(0,122,255,0.12)';\n";
 	echo "	Chart.defaults.responsive = true;\n";
 	echo "	Chart.defaults.maintainAspectRatio = false;\n";
 	echo "	Chart.defaults.devicePixelRatio = Math.max(window.devicePixelRatio || 1, 2);\n";

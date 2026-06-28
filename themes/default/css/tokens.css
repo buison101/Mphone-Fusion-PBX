@@ -1,0 +1,182 @@
+/* FusionPBX design tokens
+   Central palette and semantic aliases for safe theme-level color updates. */
+
+:root {
+	/* Neutral gray scale */
+	--fp-neutral-50: #fcfcfd;
+	--fp-neutral-100: #f5f5f7;
+	--fp-neutral-200: #e5e5ea;
+	--fp-neutral-300: #d1d1d6;
+	--fp-neutral-400: #aeaeb2;
+	--fp-neutral-500: #8e8e93;
+	--fp-neutral-600: #636366;
+	--fp-neutral-700: #48484a;
+	--fp-neutral-800: #2c2c2e;
+	--fp-neutral-900: #1c1c1e;
+	--fp-neutral-950: #000000;
+
+	/* Text */
+	--fp-text-primary: var(--fp-neutral-900);
+	--fp-text-secondary: var(--fp-neutral-700);
+	--fp-text-tertiary: var(--fp-neutral-600);
+	--fp-text-placeholder: var(--fp-neutral-500);
+	--fp-text-disabled: var(--fp-neutral-400);
+	--fp-text-inverse: #ffffff;
+	--fp-transparent: transparent;
+
+	/* Surface and border */
+	--fp-surface-canvas: var(--fp-neutral-50);
+	--fp-surface-body: #ffffff;
+	--fp-surface-subtle: var(--fp-neutral-100);
+	--fp-surface-muted: var(--fp-neutral-200);
+	--fp-surface-elevated: #ffffff;
+	--fp-surface-overlay: #ffffff;
+	--fp-border-subtle: var(--fp-neutral-200);
+	--fp-border-default: var(--fp-neutral-300);
+	--fp-border-strong: var(--fp-neutral-400);
+	--fp-border-separator: rgba(60, 60, 67, 0.29);
+	--fp-border-opaque-separator: #c6c6c8;
+	--fp-border-focus: #1a73e8;
+
+	/* Shadow */
+	--fp-shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+	--fp-shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08);
+	--fp-shadow-md: 0 4px 12px rgba(0, 0, 0, 0.08);
+	--fp-shadow-lg: 0 8px 24px rgba(0, 0, 0, 0.10);
+	--fp-shadow-xl: 0 20px 40px rgba(0, 0, 0, 0.12);
+	--fp-shadow-card: 0 1px 2px rgba(0, 0, 0, 0.06), 0 8px 24px rgba(0, 0, 0, 0.08);
+	--fp-shadow-popup: 0 4px 12px rgba(0, 0, 0, 0.08), 0 20px 40px rgba(0, 0, 0, 0.12);
+	--fp-modal-scrim: rgba(0, 0, 0, 0.30);
+	--fp-audio-waveform-shade: rgba(0, 0, 0, 0.10);
+
+	/* Brand */
+	--fp-brand-50: #f2f7ff;
+	--fp-brand-100: #e5f0ff;
+	--fp-brand-200: #c8dcff;
+	--fp-brand-300: #9fc2ff;
+	--fp-brand-400: #5d91ff;
+	--fp-brand-500: #2d68f3;
+	--fp-brand-600: #2558d9;
+	--fp-brand-700: #1d47b8;
+	--fp-brand-800: #16368f;
+	--fp-brand-900: #102a70;
+	--fp-brand-950: #091a47;
+
+	/* Semantic palette */
+	--fp-blue-50: #f2f8ff;
+	--fp-blue-100: #e5f1ff;
+	--fp-blue-500: #007aff;
+	--fp-blue-700: #0059c2;
+	--fp-green-50: #f1fcf5;
+	--fp-green-100: #dcf8e7;
+	--fp-green-500: #34c759;
+	--fp-green-700: #248a3d;
+	--fp-orange-50: #fff8f0;
+	--fp-orange-100: #ffeccf;
+	--fp-orange-500: #ff9500;
+	--fp-orange-700: #c76e00;
+	--fp-yellow-50: #fffdf0;
+	--fp-yellow-100: #fff5cc;
+	--fp-yellow-500: #ffcc00;
+	--fp-yellow-700: #c79c00;
+	--fp-red-50: #fff5f4;
+	--fp-red-100: #ffdcd9;
+	--fp-red-500: #ff3b30;
+	--fp-red-700: #c6281e;
+	--fp-purple-50: #faf5ff;
+	--fp-purple-100: #f0e3ff;
+	--fp-purple-500: #af52de;
+	--fp-purple-700: #7f34a9;
+	--fp-pink-50: #fff4f8;
+	--fp-pink-100: #ffdde8;
+	--fp-pink-500: #ff2d55;
+	--fp-pink-700: #c41d42;
+	--fp-teal-50: #f2fcfd;
+	--fp-teal-100: #d8f5fa;
+	--fp-teal-500: #5ac8fa;
+	--fp-teal-700: #2e90c5;
+	--fp-mint-50: #f1fcfb;
+	--fp-mint-100: #d9f7f4;
+	--fp-mint-500: #00c7be;
+	--fp-mint-700: #008e88;
+	--fp-indigo-50: #f4f5ff;
+	--fp-indigo-100: #e3e5ff;
+	--fp-indigo-500: #5856d6;
+	--fp-indigo-700: #3d3ba3;
+	--fp-cyan-50: #f2fafe;
+	--fp-cyan-100: #ddf3fc;
+	--fp-cyan-500: #32ade6;
+	--fp-cyan-700: #1e7fb0;
+
+	/* Semantic aliases */
+	--fp-success: var(--fp-green-500);
+	--fp-success-strong: var(--fp-green-700);
+	--fp-success-surface: var(--fp-green-50);
+	--fp-success-border: var(--fp-green-100);
+	--fp-warning: var(--fp-orange-500);
+	--fp-warning-strong: var(--fp-orange-700);
+	--fp-warning-surface: var(--fp-orange-50);
+	--fp-warning-border: var(--fp-orange-100);
+	--fp-danger: var(--fp-red-500);
+	--fp-danger-strong: var(--fp-red-700);
+	--fp-danger-surface: var(--fp-red-50);
+	--fp-danger-border: var(--fp-red-100);
+	--fp-info: var(--fp-blue-500);
+	--fp-info-strong: var(--fp-blue-700);
+	--fp-info-surface: var(--fp-blue-50);
+	--fp-info-border: var(--fp-blue-100);
+
+	/* Component aliases */
+	--fp-link: var(--fp-brand-700);
+	--fp-link-hover: var(--fp-brand-500);
+	--fp-menu-bg: var(--fp-neutral-900);
+	--fp-menu-bg-hover: var(--fp-neutral-800);
+	--fp-menu-text: rgba(255, 255, 255, 0.86);
+	--fp-menu-text-hover: #ffffff;
+	--fp-menu-icon: var(--fp-brand-400);
+	--fp-input-bg: var(--fp-surface-body);
+	--fp-input-border: var(--fp-border-default);
+	--fp-input-border-hover: var(--fp-border-strong);
+	--fp-input-border-focus: var(--fp-border-focus);
+	--fp-row-hover: var(--fp-brand-50);
+	--fp-selected-surface: var(--fp-brand-50);
+	--fp-password-weak: var(--fp-danger-strong);
+	--fp-password-strong: var(--fp-success-strong);
+	--fp-operator-active-surface: var(--fp-success-surface);
+	--fp-operator-active-border: var(--fp-success);
+	--fp-operator-ringing-surface: var(--fp-info-surface);
+	--fp-operator-ringing-border: var(--fp-info);
+	--fp-operator-park-surface: var(--fp-purple-100);
+	--fp-operator-park-border: var(--fp-purple-500);
+	--fp-code-preview-text: var(--fp-success-strong);
+}
+
+/* Optional dark mode tokens. Not enabled unless an ancestor sets data-theme="dark". */
+[data-theme="dark"] {
+	--fp-text-primary: rgba(255, 255, 255, 1);
+	--fp-text-secondary: rgba(235, 235, 245, 0.60);
+	--fp-text-tertiary: rgba(235, 235, 245, 0.30);
+	--fp-text-placeholder: rgba(235, 235, 245, 0.30);
+	--fp-text-disabled: rgba(235, 235, 245, 0.18);
+	--fp-text-inverse: var(--fp-neutral-900);
+	--fp-surface-canvas: var(--fp-neutral-900);
+	--fp-surface-body: var(--fp-neutral-800);
+	--fp-surface-subtle: var(--fp-neutral-800);
+	--fp-surface-muted: var(--fp-neutral-700);
+	--fp-surface-elevated: var(--fp-neutral-800);
+	--fp-surface-overlay: var(--fp-neutral-800);
+	--fp-border-subtle: #38383a;
+	--fp-border-default: rgba(84, 84, 88, 0.65);
+	--fp-border-strong: var(--fp-neutral-600);
+	--fp-border-separator: rgba(84, 84, 88, 0.65);
+	--fp-border-opaque-separator: #38383a;
+	--fp-link: var(--fp-brand-300);
+	--fp-link-hover: var(--fp-brand-200);
+	--fp-menu-bg: var(--fp-neutral-950);
+	--fp-menu-bg-hover: var(--fp-neutral-800);
+	--fp-input-bg: var(--fp-neutral-800);
+	--fp-row-hover: rgba(45, 104, 243, 0.18);
+	--fp-selected-surface: rgba(45, 104, 243, 0.18);
+	--fp-modal-scrim: rgba(0, 0, 0, 0.55);
+	--fp-audio-waveform-shade: rgba(255, 255, 255, 0.10);
+}

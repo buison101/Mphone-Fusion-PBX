@@ -11,17 +11,17 @@ header('Expires: '.gmdate('D, d M Y H:i:s',time()+3600).' GMT');
 /***********************************************************************************************************************************************/
 /* SET DEFAULTS */
 
-$pre_text_color = $settings->get('theme', 'pre_text_color', '#151F33');
-$footer_background_color = $settings->get('theme', 'footer_background_color', 'rgba(16,71,191,0)');
+$pre_text_color = $settings->get('theme', 'pre_text_color', '#1c1c1e');
+$footer_background_color = $settings->get('theme', 'footer_background_color', 'rgba(0,122,255,0)');
 $footer_border_radius = $settings->get('theme', 'footer_border_radius', null);
-$footer_background_color = $settings->get('theme', 'footer_background_color', 'rgba(16,71,191,0)');
-$footer_color = $settings->get('theme', 'footer_color', 'rgba(21,31,51,0.55)');
-$text_link_color = $settings->get('theme', 'text_link_color', '#1047BF');
-$text_link_color_hover = $settings->get('theme', 'text_link_color_hover', '#1047BF');
+$footer_background_color = $settings->get('theme', 'footer_background_color', 'rgba(0,122,255,0)');
+$footer_color = $settings->get('theme', 'footer_color', 'rgba(60,60,67,0.60)');
+$text_link_color = $settings->get('theme', 'text_link_color', '#007aff');
+$text_link_color_hover = $settings->get('theme', 'text_link_color_hover', '#007aff');
 $menu_main_background_image = $settings->get('theme', 'menu_main_background_image', null);
-$menu_main_background_color = $settings->get('theme', 'menu_main_background_color', '#1047BF');
+$menu_main_background_color = $settings->get('theme', 'menu_main_background_color', '#007aff');
 $menu_main_shadow_color = !empty($settings->get('theme', 'menu_main_shadow_color', '')) ? '0 2px 3px '.$settings->get('theme', 'menu_main_shadow_color') : 'none';
-$menu_main_border_color = $settings->get('theme', 'menu_main_border_color', '#1047BF');
+$menu_main_border_color = $settings->get('theme', 'menu_main_border_color', '#007aff');
 $menu_main_border_size = $settings->get('theme', 'menu_main_border_size', 0);
 $menu_style = $settings->get('theme', 'menu_style', 'fixed');
 switch ($menu_style) {
@@ -30,140 +30,140 @@ switch ($menu_style) {
 	default: $menu_main_border_radius_default = '4px';
 }
 $menu_main_border_radius = $settings->get('theme', 'menu_main_border_radius', $menu_main_border_radius_default);
-$menu_brand_text_color = $settings->get('theme', 'menu_brand_text_color', '#DCE7FC');
+$menu_brand_text_color = $settings->get('theme', 'menu_brand_text_color', '#e5e5ea');
 $menu_brand_text_size = $settings->get('theme', 'menu_brand_text_size', '13pt');
-$menu_brand_text_color_hover = $settings->get('theme', 'menu_brand_text_color_hover', '#fbfcfe');
+$menu_brand_text_color_hover = $settings->get('theme', 'menu_brand_text_color_hover', '#fcfcfd');
 $menu_main_text_font = $settings->get('theme', 'menu_main_text_font', 'Inter, Arial, sans-serif');
 $menu_main_text_size = $settings->get('theme', 'menu_main_text_size', '10.25pt');
-$menu_main_text_color = $settings->get('theme', 'menu_main_text_color', '#DCE7FC');
-$menu_main_text_color_hover = $settings->get('theme', 'menu_main_text_color_hover', '#fbfcfe');
-$menu_main_background_color_hover = $settings->get('theme', 'menu_main_background_color_hover', '#1047BF');
-$menu_sub_border_color = $settings->get('theme', 'menu_sub_border_color', '#1047BF');
+$menu_main_text_color = $settings->get('theme', 'menu_main_text_color', '#e5e5ea');
+$menu_main_text_color_hover = $settings->get('theme', 'menu_main_text_color_hover', '#fcfcfd');
+$menu_main_background_color_hover = $settings->get('theme', 'menu_main_background_color_hover', '#007aff');
+$menu_sub_border_color = $settings->get('theme', 'menu_sub_border_color', '#007aff');
 $menu_sub_border_size = $settings->get('theme', 'menu_sub_border_size', 0);
-$menu_sub_background_color = $settings->get('theme', 'menu_sub_background_color', '#1047BF');
+$menu_sub_background_color = $settings->get('theme', 'menu_sub_background_color', '#007aff');
 $menu_sub_shadow_color = !empty($settings->get('theme', 'menu_sub_shadow_color', '')) ? '0 2px 3px '.$settings->get('theme', 'menu_sub_shadow_color') : 'none';
 $menu_sub_border_radius = $settings->get('theme', 'menu_sub_border_radius', null);
 $menu_sub_text_font = $settings->get('theme', 'menu_sub_text_font', 'Inter, Arial, sans-serif');
-$menu_sub_text_color = $settings->get('theme', 'menu_sub_text_color', '#DCE7FC');
+$menu_sub_text_color = $settings->get('theme', 'menu_sub_text_color', '#e5e5ea');
 $menu_sub_text_size = $settings->get('theme', 'menu_sub_text_size', '10pt');
-$menu_sub_text_color_hover = $settings->get('theme', 'menu_sub_text_color_hover', '#fbfcfe');
-$menu_sub_background_color_hover = $settings->get('theme', 'menu_sub_background_color_hover', '#1047BF');
+$menu_sub_text_color_hover = $settings->get('theme', 'menu_sub_text_color_hover', '#fcfcfd');
+$menu_sub_background_color_hover = $settings->get('theme', 'menu_sub_background_color_hover', '#007aff');
 $header_user_color_hover = $settings->get('theme', 'header_user_color_hover', null);
 $header_domain_color_hover = $settings->get('theme', 'header_domain_color_hover', null);
-$logout_icon_color = $settings->get('theme', 'logout_icon_color', '#DCE7FC');
-$logout_icon_color_hover = $settings->get('theme', 'logout_icon_color_hover', '#06B6D4');
-$menu_main_toggle_color = $settings->get('theme', 'menu_main_toggle_color', '#DCE7FC');
-$menu_main_toggle_color_hover = $settings->get('theme', 'menu_main_toggle_color_hover', '#06B6D4');
+$logout_icon_color = $settings->get('theme', 'logout_icon_color', '#e5e5ea');
+$logout_icon_color_hover = $settings->get('theme', 'logout_icon_color_hover', '#32ade6');
+$menu_main_toggle_color = $settings->get('theme', 'menu_main_toggle_color', '#e5e5ea');
+$menu_main_toggle_color_hover = $settings->get('theme', 'menu_main_toggle_color_hover', '#32ade6');
 $menu_side_state = $settings->get('theme', 'menu_side_state', null);
 $menu_side_width_expanded = $settings->get('theme', 'menu_side_width_expanded', 225);
 $menu_side_width_contracted = $settings->get('theme', 'menu_side_width_contracted', 60);
-$menu_main_icon_color = $settings->get('theme', 'menu_main_icon_color', '#B9CEF8');
+$menu_main_icon_color = $settings->get('theme', 'menu_main_icon_color', '#d1d1d6');
 $menu_main_icon_color_hover = $settings->get('theme', 'menu_main_icon_color_hover', '#ffffff');
-$body_header_background_color = $settings->get('theme', 'body_header_background_color', '#fbfcfe');
+$body_header_background_color = $settings->get('theme', 'body_header_background_color', '#fcfcfd');
 $body_header_shadow_color = $settings->get('theme', 'body_header_shadow_color', '');
-$body_header_brand_text_color = $settings->get('theme', 'body_header_brand_text_color', '#151F33');
-$body_header_brand_text_color_hover = $settings->get('theme', 'body_header_brand_text_color_hover', '#1047BF');
+$body_header_brand_text_color = $settings->get('theme', 'body_header_brand_text_color', '#1c1c1e');
+$body_header_brand_text_color_hover = $settings->get('theme', 'body_header_brand_text_color_hover', '#007aff');
 $body_header_brand_text_size = $settings->get('theme', 'body_header_brand_text_size', '16px');
 $body_header_text_link_color = $settings->get('theme', 'body_header_text_link_color', $text_link_color);
 $body_header_text_link_color_hover = $settings->get('theme', 'body_header_text_link_color_hover', $text_link_color_hover);
 $button_height = $settings->get('theme', 'button_height', '28px');
 $button_padding = $settings->get('theme', 'button_padding', '5px 8px');
 $button_border_size = $settings->get('theme', 'button_border_size', '1px');
-$button_border_color = $settings->get('theme', 'button_border_color', '#1047BF');
+$button_border_color = $settings->get('theme', 'button_border_color', '#007aff');
 $button_border_radius = $settings->get('theme', 'button_border_radius', null);
-$button_background_color = $settings->get('theme', 'button_background_color', '#1047BF');
-$button_background_color_bottom = $settings->get('theme', 'button_background_color_bottom', '#1047BF');
+$button_background_color = $settings->get('theme', 'button_background_color', '#007aff');
+$button_background_color_bottom = $settings->get('theme', 'button_background_color_bottom', '#007aff');
 $button_text_font = $settings->get('theme', 'button_text_font', 'Inter, Arial, sans-serif');
-$button_text_color = $settings->get('theme', 'button_text_color', '#fbfcfe');
+$button_text_color = $settings->get('theme', 'button_text_color', '#fcfcfd');
 $button_text_weight = $settings->get('theme', 'button_text_weight', 'bold');
 $button_text_size = $settings->get('theme', 'button_text_size', '11px');
-$button_border_color_hover = $settings->get('theme', 'button_border_color_hover', '#1047BF');
-$button_background_color_hover = $settings->get('theme', 'button_background_color_hover', '#1047BF');
-$button_background_color_bottom_hover = $settings->get('theme', 'button_background_color_bottom_hover', '#1047BF');
-$button_text_color_hover = $settings->get('theme', 'button_text_color_hover', '#fbfcfe');
+$button_border_color_hover = $settings->get('theme', 'button_border_color_hover', '#007aff');
+$button_background_color_hover = $settings->get('theme', 'button_background_color_hover', '#007aff');
+$button_background_color_bottom_hover = $settings->get('theme', 'button_background_color_bottom_hover', '#007aff');
+$button_text_color_hover = $settings->get('theme', 'button_text_color_hover', '#fcfcfd');
 $button_icons = $settings->get('theme', 'button_icons', 'auto');
-$body_icon_color = $settings->get('theme', 'body_icon_color', 'rgba(16,71,191,0.62)');
-$body_icon_color_hover = $settings->get('theme', 'body_icon_color_hover', '#1047BF');
-$domain_selector_background_color = $settings->get('theme', 'domain_selector_background_color', '#fbfcfe');
+$body_icon_color = $settings->get('theme', 'body_icon_color', 'rgba(0,122,255,0.62)');
+$body_icon_color_hover = $settings->get('theme', 'body_icon_color_hover', '#007aff');
+$domain_selector_background_color = $settings->get('theme', 'domain_selector_background_color', '#fcfcfd');
 $domain_selector_shadow_color = !empty($settings->get('theme', 'domain_selector_shadow_color', '')) ? '0 3px 7px '.$settings->get('theme', 'domain_selector_shadow_color') : 'none';
-$domain_selector_title_color = $settings->get('theme', 'domain_selector_title_color', '#151F33');
-$domain_selector_title_color_hover = $settings->get('theme', 'domain_selector_title_color_hover', '#1047BF');
-$domain_selector_list_background_color = $settings->get('theme', 'domain_selector_list_background_color', '#fbfcfe');
-$domain_selector_list_border_color = $settings->get('theme', 'domain_selector_list_border_color', '#DCE7FC');
-$domain_selector_list_divider_color = $settings->get('theme', 'domain_selector_list_divider_color', '#F4F8FF');
-$domain_active_text_color = $settings->get('theme', 'domain_active_text_color', '#1047BF');
-$domain_active_text_color_hover = $settings->get('theme', 'domain_active_text_color_hover', '#1047BF');
-$domain_inactive_text_color = $settings->get('theme', 'domain_inactive_text_color', '#1047BF');
-$domain_inactive_text_color_hover = $settings->get('theme', 'domain_inactive_text_color_hover', '#1047BF');
-$domain_active_desc_text_color = $settings->get('theme', 'domain_active_desc_text_color', '#84A9F0');
-$domain_inactive_desc_text_color = $settings->get('theme', 'domain_inactive_desc_text_color', '#84A9F0');
+$domain_selector_title_color = $settings->get('theme', 'domain_selector_title_color', '#1c1c1e');
+$domain_selector_title_color_hover = $settings->get('theme', 'domain_selector_title_color_hover', '#007aff');
+$domain_selector_list_background_color = $settings->get('theme', 'domain_selector_list_background_color', '#fcfcfd');
+$domain_selector_list_border_color = $settings->get('theme', 'domain_selector_list_border_color', '#e5e5ea');
+$domain_selector_list_divider_color = $settings->get('theme', 'domain_selector_list_divider_color', '#f5f5f7');
+$domain_active_text_color = $settings->get('theme', 'domain_active_text_color', '#007aff');
+$domain_active_text_color_hover = $settings->get('theme', 'domain_active_text_color_hover', '#007aff');
+$domain_inactive_text_color = $settings->get('theme', 'domain_inactive_text_color', '#007aff');
+$domain_inactive_text_color_hover = $settings->get('theme', 'domain_inactive_text_color_hover', '#007aff');
+$domain_active_desc_text_color = $settings->get('theme', 'domain_active_desc_text_color', '#66afff');
+$domain_inactive_desc_text_color = $settings->get('theme', 'domain_inactive_desc_text_color', '#66afff');
 $heading_text_size = $settings->get('theme', 'heading_text_size', '15px');
 $heading_text_font = $settings->get('theme', 'heading_text_font', 'Inter, Arial, sans-serif');
 $heading_count_padding = $settings->get('theme', 'heading_count_padding', '2px 6px');
 $heading_count_text_font = $settings->get('theme', 'heading_count_text_font', 'Inter, Arial, sans-serif');
 $heading_count_text_size = $settings->get('theme', 'heading_count_text_size', '12px');
-$heading_count_text_color = $settings->get('theme', 'heading_count_text_color', '#fbfcfe');
+$heading_count_text_color = $settings->get('theme', 'heading_count_text_color', '#fcfcfd');
 $heading_count_text_weight = $settings->get('theme', 'heading_count_text_weight', '700');
 $heading_count_border_radius = $settings->get('theme', 'heading_count_border_radius', '12px');
-$heading_count_background_color = $settings->get('theme', 'heading_count_background_color', '#22C55E');
+$heading_count_background_color = $settings->get('theme', 'heading_count_background_color', '#34c759');
 $body_color = $settings->get('theme', 'body_color', 'rgba(255,255,255,0)');
 $body_border_radius = $settings->get('theme', 'body_border_radius', null);
 $body_shadow_color = !empty($settings->get('theme', 'body_shadow_color', '')) ? '0 2px 3px '.$settings->get('theme', 'body_shadow_color') : 'none';
-$body_text_color = $settings->get('theme', 'body_text_color', '#151F33');
+$body_text_color = $settings->get('theme', 'body_text_color', '#1c1c1e');
 $body_text_size = $settings->get('theme', 'body_text_size', '12px');
 $body_text_font = $settings->get('theme', 'body_text_font', 'Inter, Arial, sans-serif');
 $body_width = $settings->get('theme', 'body_width', '90%');
-$heading_text_color = $settings->get('theme', 'heading_text_color', '#1047BF');
+$heading_text_color = $settings->get('theme', 'heading_text_color', '#007aff');
 $heading_text_size = $settings->get('theme', 'heading_text_size', '15px');
 $heading_text_font = $settings->get('theme', 'heading_text_font', 'Inter, Arial, sans-serif');
 $input_height = $settings->get('theme', 'input_height', '28px');
 $input_text_font = $settings->get('theme', 'input_text_font', 'Inter, Arial, sans-serif');
 $input_text_font_password = $settings->get('theme', 'input_text_font_password', 'monospace');
 $input_text_size = $settings->get('theme', 'input_text_size', '12px');
-$input_text_color = $settings->get('theme', 'input_text_color', '#151F33');
-$input_text_placeholder_color = $settings->get('theme', 'input_text_placeholder_color', '#84A9F0; opacity: 1.0;');
+$input_text_color = $settings->get('theme', 'input_text_color', '#1c1c1e');
+$input_text_placeholder_color = $settings->get('theme', 'input_text_placeholder_color', '#66afff; opacity: 1.0;');
 $input_border_size = $settings->get('theme', 'input_border_size', '1px');
 $input_border_style = $settings->get('theme', 'input_border_style', 'solid');
-$input_border_color = $settings->get('theme', 'input_border_color', '#B9CEF8');
-$input_border_color_focus = $settings->get('theme', 'input_border_color_focus', '#4F7FE2');
-$input_border_color_hover = $settings->get('theme', 'input_border_color_hover', '#84A9F0');
-$input_border_color_hover_focus = $settings->get('theme', 'input_border_color_hover_focus', '#4F7FE2');
+$input_border_color = $settings->get('theme', 'input_border_color', '#d1d1d6');
+$input_border_color_focus = $settings->get('theme', 'input_border_color_focus', '#007aff');
+$input_border_color_hover = $settings->get('theme', 'input_border_color_hover', '#66afff');
+$input_border_color_hover_focus = $settings->get('theme', 'input_border_color_hover_focus', '#007aff');
 $input_border_radius = $settings->get('theme', 'input_border_radius', null);
 $input_outline_size = $settings->get('theme', 'input_outline_size', '3px');
 $input_outline_size_focus = $settings->get('theme', 'input_outline_size_focus', $input_outline_size);
 $input_outline_size_hover = $settings->get('theme', 'input_outline_size_hover', $input_outline_size);
 $input_outline_size_hover_focus = $settings->get('theme', 'input_outline_size_hover_focus', $input_outline_size);
 $input_outline_style = $settings->get('theme', 'input_outline_style', null);
-$input_outline_color = $settings->get('theme', 'input_outline_color', 'rgba(79,127,226,0.25)');
+$input_outline_color = $settings->get('theme', 'input_outline_color', 'rgba(0,122,255,0.25)');
 $input_outline_color_focus = $settings->get('theme', 'input_outline_color_focus', $input_outline_color);
 $input_outline_color_hover = $settings->get('theme', 'input_outline_color_hover', $input_outline_color);
 $input_outline_color_hover_focus = $settings->get('theme', 'input_outline_color_hover_focus', $input_outline_color);
 $input_outline_radius = $settings->get('theme', 'input_outline_radius', $input_border_radius ?? null);
-$input_background_color = $settings->get('theme', 'input_background_color', '#fbfcfe');
+$input_background_color = $settings->get('theme', 'input_background_color', '#fcfcfd');
 $input_shadow_inner_color = !empty($settings->get('theme', 'input_shadow_inner_color', '')) ? '0 1px 2px '.$settings->get('theme', 'input_shadow_inner_color').' inset' : null;
 $input_shadow_inner_color_focus = !empty($settings->get('theme', 'input_shadow_inner_color_focus', '')) ? '0 1px 2px '.$settings->get('theme', 'input_shadow_inner_color_focus').' inset' : null;
 $input_shadow_outer_color = !empty($settings->get('theme', 'input_shadow_outer_color', '')) ? '0 2px 3px '.$settings->get('theme', 'input_shadow_outer_color') : null;
 $input_shadow_outer_color_focus = !empty($settings->get('theme', 'input_shadow_outer_color_focus', '')) ? '0 2px 3px '.$settings->get('theme', 'input_shadow_outer_color_focus') : null;
 $input_toggle_style = $settings->get('theme', 'input_toggle_style', 'switch_round');
-$input_toggle_switch_background_color_true = $settings->get('theme', 'input_toggle_switch_background_color_true', '#06B6D4');
+$input_toggle_switch_background_color_true = $settings->get('theme', 'input_toggle_switch_background_color_true', '#32ade6');
 $input_toggle_switch_background_color_false = $settings->get('theme', 'input_toggle_switch_background_color_false', $input_border_color);
 $input_toggle_switch_handle_symbol = $settings->get('theme', 'input_toggle_switch_handle_symbol', false);
-$input_toggle_switch_handle_color = $settings->get('theme', 'input_toggle_switch_handle_color', '#fbfcfe');
+$input_toggle_switch_handle_color = $settings->get('theme', 'input_toggle_switch_handle_color', '#fcfcfd');
 $login_body_top = $settings->get('theme', 'login_body_top', '50%');
 $login_body_left = $settings->get('theme', 'login_body_left', '50%');
 $login_body_padding = $settings->get('theme', 'login_body_padding', '30px');
 $login_body_width = $settings->get('theme', 'login_body_width', 'auto');
-$login_body_background_color = $settings->get('theme', 'login_body_background_color', 'rgba(255,255,255,0.92)');
+$login_body_background_color = $settings->get('theme', 'login_body_background_color', 'rgba(252,252,253,0.92)');
 $login_body_border_radius = $settings->get('theme', 'login_body_border_radius', null);
 $login_body_border_size = $settings->get('theme', 'login_body_border_size', 0);
-$login_body_border_color = $settings->get('theme', 'login_body_border_color', 'rgba(255,255,255,0.7)');
+$login_body_border_color = $settings->get('theme', 'login_body_border_color', 'rgba(209,209,214,0.70)');
 $login_body_border_style = $login_body_border_size || $login_body_border_color ? 'solid' : 'none';
 $login_body_shadow_color = !empty($settings->get('theme', 'login_body_shadow_color', '')) ? '0 7px 14px '.$settings->get('theme', 'login_body_shadow_color') : 'none';
-$login_link_text_color = $settings->get('theme', 'login_link_text_color', '#1047BF');
+$login_link_text_color = $settings->get('theme', 'login_link_text_color', '#007aff');
 $login_link_text_size = $settings->get('theme', 'login_link_text_size', '11px');
 $login_link_text_font = $settings->get('theme', 'login_link_text_font', 'Inter, Arial, sans-serif');
-$login_link_text_color_hover = $settings->get('theme', 'login_link_text_color_hover', '#1047BF');
-$login_text_color = $settings->get('theme', 'login_text_color', '#151F33');
+$login_link_text_color_hover = $settings->get('theme', 'login_link_text_color_hover', '#007aff');
+$login_text_color = $settings->get('theme', 'login_text_color', '#1c1c1e');
 $login_text_size = $settings->get('theme', 'login_text_size', '12px');
 $login_text_font = $settings->get('theme', 'login_text_font', 'Inter, Arial, sans-serif');
 $login_input_text_font = $settings->get('theme', 'login_input_text_font', $input_text_font);
@@ -196,72 +196,72 @@ $login_input_shadow_inner_color_focus = $settings->get('theme', 'login_input_sha
 $login_input_shadow_inner_color_focus = $login_input_shadow_inner_color_focus != 'none' ? '0 1px 2px '.$login_input_shadow_inner_color_focus.' inset' : 'none';
 $login_input_shadow_outer_color_focus = $settings->get('theme', 'login_input_shadow_outer_color_focus', $input_shadow_outer_color_focus);
 $login_input_shadow_outer_color_focus = $login_input_shadow_outer_color_focus != 'none' ? '0 2px 3px '.$login_input_shadow_outer_color_focus : 'none';
-$pwstrength_background_color = $settings->get('theme', 'input_background_color', '#fbfcfe');
-$table_heading_text_color = $settings->get('theme', 'table_heading_text_color', '#1047BF');
+$pwstrength_background_color = $settings->get('theme', 'input_background_color', '#fcfcfd');
+$table_heading_text_color = $settings->get('theme', 'table_heading_text_color', '#007aff');
 $table_heading_text_size = $settings->get('theme', 'table_heading_text_size', '12px');
 $table_heading_text_font = $settings->get('theme', 'table_heading_text_font', 'Inter, Arial, sans-serif');
-$table_heading_background_color = $settings->get('theme', 'table_heading_background_color', '#EDF2F7');
-$table_heading_border_color = $settings->get('theme', 'table_heading_border_color', '#DCE7FC');
+$table_heading_background_color = $settings->get('theme', 'table_heading_background_color', '#f5f5f7');
+$table_heading_border_color = $settings->get('theme', 'table_heading_border_color', '#e5e5ea');
 $table_heading_padding = $settings->get('theme', 'table_heading_padding', '4px 7px');
-$table_row_text_color = $settings->get('theme', 'table_row_text_color', '#151F33');
+$table_row_text_color = $settings->get('theme', 'table_row_text_color', '#1c1c1e');
 $table_row_text_font = $settings->get('theme', 'table_row_text_font', 'Inter, Arial, sans-serif');
 $table_row_text_size = $settings->get('theme', 'table_row_text_size', '12px');
 $table_row_text_link_color = $settings->get('theme', 'table_row_text_link_color', $text_link_color);
 $table_row_text_link_color_hover = $settings->get('theme', 'table_row_text_link_color_hover', $text_link_color_hover);
-$table_row_border_color = $settings->get('theme', 'table_row_border_color', '#DCE7FC');
-$table_row_background_color_light = $settings->get('theme', 'table_row_background_color_light', '#fbfcfe');
-$table_row_background_color_medium = $settings->get('theme', 'table_row_background_color_medium', '#F7FAFC');
-$table_row_background_color_dark = $settings->get('theme', 'table_row_background_color_dark', '#F4F8FF');
+$table_row_border_color = $settings->get('theme', 'table_row_border_color', '#e5e5ea');
+$table_row_background_color_light = $settings->get('theme', 'table_row_background_color_light', '#fcfcfd');
+$table_row_background_color_medium = $settings->get('theme', 'table_row_background_color_medium', '#fcfcfd');
+$table_row_background_color_dark = $settings->get('theme', 'table_row_background_color_dark', '#f5f5f7');
 $table_row_background_color_hover = $settings->get('theme', 'table_row_background_color_hover', null);
 $table_row_padding = $settings->get('theme', 'table_row_padding', '4px 7px');
-$form_table_label_background_color = $settings->get('theme', 'form_table_label_background_color', '#EDF2F7');
+$form_table_label_background_color = $settings->get('theme', 'form_table_label_background_color', '#f5f5f7');
 $form_table_label_border_radius = $settings->get('theme', 'form_table_label_border_radius', null);
 $form_table_label_border_color = $settings->get('theme', 'form_table_label_border_color', '#ffffff');
 $form_table_label_padding = $settings->get('theme', 'form_table_label_padding', '7px 8px');
-$form_table_label_text_color = $settings->get('theme', 'form_table_label_text_color', '#151F33');
+$form_table_label_text_color = $settings->get('theme', 'form_table_label_text_color', '#1c1c1e');
 $form_table_label_text_font = $settings->get('theme', 'form_table_label_text_font', 'Inter, Arial, sans-serif');
 $form_table_label_text_size = $settings->get('theme', 'form_table_label_text_size', '9pt');
-$form_table_label_required_background_color = $settings->get('theme', 'form_table_label_required_background_color', '#F4F8FF');
-$form_table_label_required_border_color = $settings->get('theme', 'form_table_label_required_border_color', '#4F7FE2');
-$form_table_label_required_text_color = $settings->get('theme', 'form_table_label_required_text_color', '#1047BF');
+$form_table_label_required_background_color = $settings->get('theme', 'form_table_label_required_background_color', '#f5f5f7');
+$form_table_label_required_border_color = $settings->get('theme', 'form_table_label_required_border_color', '#007aff');
+$form_table_label_required_text_color = $settings->get('theme', 'form_table_label_required_text_color', '#007aff');
 $form_table_label_required_text_weight = $settings->get('theme', 'form_table_label_required_text_weight', 'bold');
-$form_table_field_background_color = $settings->get('theme', 'form_table_field_background_color', '#fbfcfe');
+$form_table_field_background_color = $settings->get('theme', 'form_table_field_background_color', '#fcfcfd');
 $form_table_field_border_radius = $settings->get('theme', 'form_table_field_border_radius', null);
-$form_table_field_border_color = $settings->get('theme', 'form_table_field_border_color', '#DCE7FC');
+$form_table_field_border_color = $settings->get('theme', 'form_table_field_border_color', '#e5e5ea');
 $form_table_field_padding = $settings->get('theme', 'form_table_field_padding', '6px');
-$form_table_field_text_color = $settings->get('theme', 'form_table_field_text_color', '#151F33');
+$form_table_field_text_color = $settings->get('theme', 'form_table_field_text_color', '#1c1c1e');
 $form_table_field_text_font = $settings->get('theme', 'form_table_field_text_font', 'Inter, Arial, sans-serif');
 $form_table_field_text_size = $settings->get('theme', 'form_table_field_text_size', '8pt');
 $form_table_heading_padding = $settings->get('theme', 'form_table_heading_padding', '8px 8px 4px 8px');
 $form_table_row_padding = $settings->get('theme', 'form_table_row_padding', null);
-$message_default_color = $settings->get('theme', 'message_default_color', '#151F33');
-$message_default_background_color = $settings->get('theme', 'message_default_background_color', '#F4F8FF');
-$message_positive_color = $settings->get('theme', 'message_positive_color', '#22C55E');
-$message_positive_background_color = $settings->get('theme', 'message_positive_background_color', '#F0FDF4');
-$message_negative_color = $settings->get('theme', 'message_negative_color', '#EF4444');
-$message_negative_background_color = $settings->get('theme', 'message_negative_background_color', '#FEF2F2');
-$message_alert_color = $settings->get('theme', 'message_alert_color', '#F59E0B');
-$message_alert_background_color = $settings->get('theme', 'message_alert_background_color', '#FFFBEB');
-$operator_panel_border_color = $settings->get('theme', 'operator_panel_border_color', '#DCE7FC');
-$operator_panel_sub_background_color = $settings->get('theme', 'operator_panel_sub_background_color', '#F4F8FF');
-$operator_panel_main_background_color = $settings->get('theme', 'operator_panel_main_background_color', '#fbfcfe');
-$operator_panel_user_info = $settings->get('theme', 'operator_panel_user_info', '#151F33');
-$operator_panel_caller_info = $settings->get('theme', 'operator_panel_caller_info', '#151F33');
-$operator_panel_call_info = $settings->get('theme', 'operator_panel_call_info', '#151F33');
+$message_default_color = $settings->get('theme', 'message_default_color', '#1c1c1e');
+$message_default_background_color = $settings->get('theme', 'message_default_background_color', '#f5f5f7');
+$message_positive_color = $settings->get('theme', 'message_positive_color', '#34c759');
+$message_positive_background_color = $settings->get('theme', 'message_positive_background_color', '#f1fcf5');
+$message_negative_color = $settings->get('theme', 'message_negative_color', '#ff3b30');
+$message_negative_background_color = $settings->get('theme', 'message_negative_background_color', '#fff5f4');
+$message_alert_color = $settings->get('theme', 'message_alert_color', '#ff9500');
+$message_alert_background_color = $settings->get('theme', 'message_alert_background_color', '#fff8f0');
+$operator_panel_border_color = $settings->get('theme', 'operator_panel_border_color', '#e5e5ea');
+$operator_panel_sub_background_color = $settings->get('theme', 'operator_panel_sub_background_color', '#f5f5f7');
+$operator_panel_main_background_color = $settings->get('theme', 'operator_panel_main_background_color', '#fcfcfd');
+$operator_panel_user_info = $settings->get('theme', 'operator_panel_user_info', '#1c1c1e');
+$operator_panel_caller_info = $settings->get('theme', 'operator_panel_caller_info', '#1c1c1e');
+$operator_panel_call_info = $settings->get('theme', 'operator_panel_call_info', '#1c1c1e');
 $dashboard_background_color = $settings->get('theme', 'dashboard_background_color', '');
 $dashboard_background_gradient_style = $settings->get('theme', 'dashboard_background_gradient_style', '');
 $dashboard_background_gradient_angle = $settings->get('theme', 'dashboard_background_gradient_angle', '');
 $dashboard_border_radius = $settings->get('theme', 'dashboard_border_radius', '8px');
-$dashboard_border_color = $settings->get('theme', 'dashboard_border_color', '#DCE7FC');
-$dashboard_border_color_hover = $settings->get('theme', 'dashboard_border_color_hover', '#4F7FE2');
-$dashboard_label_text_color = $settings->get('theme', 'dashboard_label_text_color', '#fbfcfe');
+$dashboard_border_color = $settings->get('theme', 'dashboard_border_color', '#e5e5ea');
+$dashboard_border_color_hover = $settings->get('theme', 'dashboard_border_color_hover', '#007aff');
+$dashboard_label_text_color = $settings->get('theme', 'dashboard_label_text_color', '#fcfcfd');
 $dashboard_label_text_color_hover = $settings->get('theme', 'dashboard_label_text_color_hover', '');
 $dashboard_label_text_size = $settings->get('theme', 'dashboard_label_text_size', '13px');
 $dashboard_label_text_font = $settings->get('theme', 'dashboard_label_text_font', 'Inter, Arial, sans-serif');
 $dashboard_label_text_shadow_color = $settings->get('theme', 'dashboard_label_text_shadow_color', 'rgba(0,0,0,0)');
 $dashboard_label_background_color = $settings->get('theme', 'dashboard_label_background_color', '');
 $dashboard_label_background_color_hover = $settings->get('theme', 'dashboard_label_background_color_hover', '');
-$dashboard_number_text_color = $settings->get('theme', 'dashboard_number_text_color', '#1047BF');
+$dashboard_number_text_color = $settings->get('theme', 'dashboard_number_text_color', '#007aff');
 $dashboard_number_text_color_hover = $settings->get('theme', 'dashboard_number_text_color_hover', '');
 $dashboard_number_text_font = $settings->get('theme', 'dashboard_number_text_font', 'Inter, Arial, sans-serif');
 $dashboard_number_text_size = $settings->get('theme', 'dashboard_number_text_size', '60pt');
@@ -269,18 +269,18 @@ $dashboard_number_text_shadow_color = $settings->get('theme', 'dashboard_number_
 $dashboard_number_text_shadow_color_hover = $settings->get('theme', 'dashboard_number_text_shadow_color_hover', 'rgba(0,0,0,0)');
 $dashboard_number_background_color = $settings->get('theme', 'dashboard_number_background_color', '');
 $dashboard_number_background_color_hover = $settings->get('theme', 'dashboard_number_background_color_hover', '');
-$dashboard_number_title_text_color = $settings->get('theme', 'dashboard_number_title_text_color', '#151F33');
+$dashboard_number_title_text_color = $settings->get('theme', 'dashboard_number_title_text_color', '#1c1c1e');
 $dashboard_number_title_text_size = $settings->get('theme', 'dashboard_number_title_text_size', '14px');
 $dashboard_number_title_text_font = $settings->get('theme', 'dashboard_number_title_text_font', 'Inter, Arial, sans-serif');
-$dashboard_number_title_text_shadow_color = $settings->get('theme', 'dashboard_number_title_text_shadow_color', '#737983');
-$dashboard_detail_shadow_color = $settings->get('theme', 'dashboard_detail_shadow_color', 'rgba(16,71,191,0.10)');
+$dashboard_number_title_text_shadow_color = $settings->get('theme', 'dashboard_number_title_text_shadow_color', '#636366');
+$dashboard_detail_shadow_color = $settings->get('theme', 'dashboard_detail_shadow_color', 'rgba(0,122,255,0.10)');
 $dashboard_detail_heading_text_size = $settings->get('theme', 'dashboard_detail_heading_text_size', '11px');
 $dashboard_detail_background_color = $settings->get('theme', 'dashboard_detail_background_color', '');
 $dashboard_detail_row_text_size = $settings->get('theme', 'dashboard_detail_row_text_size', '11px');
-$dashboard_shadow_color = $settings->get('theme', 'dashboard_shadow_color', 'rgba(16,71,191,0.12)');
-$dashboard_footer_background_color = $settings->get('theme', 'dashboard_footer_background_color', '#EDF2F7');
+$dashboard_shadow_color = $settings->get('theme', 'dashboard_shadow_color', 'rgba(0,0,0,0.08)');
+$dashboard_footer_background_color = $settings->get('theme', 'dashboard_footer_background_color', '#f5f5f7');
 $dashboard_footer_background_color_hover = $settings->get('theme', 'dashboard_footer_background_color_hover', color_adjust($dashboard_footer_background_color, 0.02));
-$dashboard_footer_dots_color = $settings->get('theme', 'dashboard_footer_dots_color', '#B9CEF8');
+$dashboard_footer_dots_color = $settings->get('theme', 'dashboard_footer_dots_color', '#d1d1d6');
 $dashboard_footer_dots_color_hover = $settings->get('theme', 'dashboard_footer_dots_color_hover', $dashboard_footer_dots_color);
 $card_padding = $settings->get('theme', 'card_padding', '0');
 $card_shadow_color = $settings->get('theme', 'card_shadow_color', null);
@@ -301,28 +301,28 @@ $action_bar_border_right_scroll = $settings->get('theme', 'action_bar_border_rig
 $action_bar_border_bottom_scroll = $settings->get('theme', 'action_bar_border_bottom_scroll', 'initial');
 $action_bar_border_left_scroll = $settings->get('theme', 'action_bar_border_left_scroll', 'initial');
 $action_bar_border_radius_scroll = $settings->get('theme', 'action_bar_border_radius_scroll', 'initial');
-$action_bar_background_scroll = $settings->get('theme', 'action_bar_background_scroll', 'rgba(255,255,255,0.96)');
-$action_bar_shadow_scroll = $settings->get('theme', 'action_bar_shadow_scroll', '0px 5px 10px 0 rgba(16,71,191,0.12)');
+$action_bar_background_scroll = $settings->get('theme', 'action_bar_background_scroll', 'rgba(252,252,253,0.96)');
+$action_bar_shadow_scroll = $settings->get('theme', 'action_bar_shadow_scroll', '0px 5px 10px 0 rgba(0,0,0,0.08)');
 $modal_transition_seconds = $settings->get('theme', 'modal_transition_seconds', 0.03);
-$modal_shade_color = $settings->get('theme', 'modal_shade_color', 'rgba(16,71,191,0.45)');
+$modal_shade_color = $settings->get('theme', 'modal_shade_color', 'rgba(0,122,255,0.45)');
 $modal_padding = $settings->get('theme', 'modal_padding', '15px 20px 20px 20px');
-$modal_background_color = $settings->get('theme', 'modal_background_color', '#fbfcfe');
+$modal_background_color = $settings->get('theme', 'modal_background_color', '#fcfcfd');
 $modal_width = $settings->get('theme', 'modal_width', '500px');
 $modal_corner_radius = $settings->get('theme', 'modal_corner_radius', '8px');
-$modal_shadow = $settings->get('theme', 'modal_shadow', '0px 13px 27px rgba(16,71,191,0.24)');
+$modal_shadow = $settings->get('theme', 'modal_shadow', '0px 13px 27px rgba(0,0,0,0.12)');
 $modal_title_font = $settings->get('theme', 'modal_title_font', $heading_text_font);
 $modal_title_color = $settings->get('theme', 'modal_title_color', $heading_text_color);
 $modal_title_alignment = $settings->get('theme', 'modal_title_alignment', 'left');
 $modal_title_margin = $settings->get('theme', 'modal_title_margin', '0 0 15px 0');
-$modal_close_color = $settings->get('theme', 'modal_close_color', '#84A9F0');
-$modal_close_color_hover = $settings->get('theme', 'modal_close_color_hover', '#1047BF');
+$modal_close_color = $settings->get('theme', 'modal_close_color', '#66afff');
+$modal_close_color_hover = $settings->get('theme', 'modal_close_color_hover', '#007aff');
 $modal_close_corner_radius = $settings->get('theme', 'modal_close_corner_radius', '4px 4px 4px 8px');
-$modal_close_background_color = $settings->get('theme', 'modal_close_background_color', '#fbfcfe');
-$modal_close_background_color_hover = $settings->get('theme', 'modal_close_background_color_hover', '#F4F8FF');
-$modal_message_color = $settings->get('theme', 'modal_message_color', '#151F33');
+$modal_close_background_color = $settings->get('theme', 'modal_close_background_color', '#fcfcfd');
+$modal_close_background_color_hover = $settings->get('theme', 'modal_close_background_color_hover', '#f5f5f7');
+$modal_message_color = $settings->get('theme', 'modal_message_color', '#1c1c1e');
 $modal_message_alignment = $settings->get('theme', 'modal_message_alignment', 'left');
 $modal_message_margin = $settings->get('theme', 'modal_message_margin', '0 0 20px 0');
-$audio_player_indicator_color = $settings->get('theme', 'audio_player_indicator_color', '#1047BF');
+$audio_player_indicator_color = $settings->get('theme', 'audio_player_indicator_color', '#007aff');
 $audio_player_waveform_enabled = $settings->get('theme', 'audio_player_waveform_enabled', true);
 $audio_player_waveform_height = $settings->get('theme', 'audio_player_waveform_height', '70px');
 $custom_css_code = $settings->get('theme', 'custom_css_code', null);
@@ -523,7 +523,7 @@ else { //default: white
 		text-align: center;
 		}
 
-	#background-video {
+	#aeaeb2kground-video {
 		width: 100vw;
 		height: 100vh;
 		object-fit: cover;
@@ -535,7 +535,7 @@ else { //default: white
 		z-index: -7;
 		}
 
-	#background-image {
+	#aeaeb2kground-image {
 		width: 100vw;
 		height: 100vh;
 		object-fit: cover;
@@ -560,7 +560,7 @@ else { //default: white
 		z-index: -5;
 		}
 
-	#background-color {
+	#aeaeb2kground-color {
 		width: 100vw;
 		height: 100vh;
 		object-fit: cover;
@@ -1706,7 +1706,7 @@ else { //default: white
 	div.domains_list_item span.domain_list_item_description,
 	div.domains_list_item_active span.domain_list_item_description,
 	div.domains_list_item_inactive span.domain_list_item_description {
-		color: #84A9F0;
+		color: #66afff;
 		}
 
 	div.domains_list_item_active a {
@@ -1727,7 +1727,7 @@ else { //default: white
 
 	div.domains_list_item:hover a,
 	div.domains_list_item:hover span {
-		color: #1047BF;
+		color: #007aff;
 		}
 
 	div.domains_list_item_active:hover a,
@@ -1742,7 +1742,7 @@ else { //default: white
 
 /* DOMAIN SELECTOR: END ********************************************************/
 
-	#default_login {
+	#d8f5fault_login {
 		position: fixed;
 		top: <?=$login_body_top?>;
 		left: <?=$login_body_left?>;
@@ -2277,20 +2277,20 @@ else { //default: white
 	input[type=password].formfld_highlight_bad:hover,
 	input[type=password].formfld_highlight_bad:active,
 	input[type=password].formfld_highlight_bad:focus {
-		border-color: #aa2525;
-		-webkit-box-shadow: 0 1px 2px #aa2525 inset;
-		-moz-box-shadow: 0 1px 2px #aa2525 inset;
-		box-shadow: 0 1px 2px #aa2525 inset;
+		border-color: #c6281e;
+		-webkit-box-shadow: 0 1px 2px #c6281e inset;
+		-moz-box-shadow: 0 1px 2px #c6281e inset;
+		box-shadow: 0 1px 2px #c6281e inset;
 		}
 
 	input[type=password].formfld_highlight_good,
 	input[type=password].formfld_highlight_good:hover,
 	input[type=password].formfld_highlight_good:active,
 	input[type=password].formfld_highlight_good:focus {
-		border-color: #2fb22f;
-		-webkit-box-shadow: 0 1px 2px #2fb22f inset;
-		-moz-box-shadow: 0 1px 2px #2fb22f inset;
-		box-shadow: 0 1px 2px #2fb22f inset;
+		border-color: #34c759;
+		-webkit-box-shadow: 0 1px 2px #34c759 inset;
+		-moz-box-shadow: 0 1px 2px #34c759 inset;
+		box-shadow: 0 1px 2px #34c759 inset;
 		}
 
 	/* removes spinners (increment/decrement controls) inside input fields */
@@ -2870,21 +2870,21 @@ else { //default: white
 		}
 
 	div.op_state_active {
-		background-color: #baf4bb;
+		background-color: #dcf8e7;
 		border-width: 1px 3px;
-		border-color: #77d779;
+		border-color: #34c759;
 		}
 
 	div.op_state_ringing {
-		background-color: #a8dbf0;
+		background-color: #d8f5fa;
 		border-width: 1px 3px;
-		border-color: #41b9eb;
+		border-color: #32ade6;
 		}
 
 	div.op_valet_park_active {
 		border-width: 1px 3px;
-		background-color: #B9A6FC;
-		border-color: #B9A6FC;
+		background-color: #af52de;
+		border-color: #af52de;
 		}
 
 	table.op_ext, table.ur_ext {
@@ -2928,27 +2928,27 @@ else { //default: white
 		}
 
 	td.op_state_ringing {
-		background-color: #d1f1ff;
+		background-color: #f2f8ff;
 		}
 
 	td.op_state_active {
-		background-color: #e1ffe2;
+		background-color: #f1fcf5;
 		}
 
 	td.op_valet_park_active {
-		background-color: #ECE3FF;
+		background-color: #f0e3ff;
 		}
 
 	table.op_valet_park_active {
-		background-color: #B9A6FC;
+		background-color: #af52de;
 		}
 
 	table.op_state_ringing {
-		background-color: #a8dbf0;
+		background-color: #d8f5fa;
 		}
 
 	table.op_state_active {
-		background-color: #baf4bb;
+		background-color: #dcf8e7;
 		}
 
 	.op_user_info {
@@ -2959,7 +2959,7 @@ else { //default: white
 		}
 
 	.op_user_info strong {
-		color: #1047BF;
+		color: #007aff;
 		}
 
 	.op_caller_info {
@@ -2979,38 +2979,38 @@ else { //default: white
 		}
 
 	#op_btn_status_available {
-		background-image: -moz-linear-gradient(top, #8ec989 0%, #2d9c38 100%);
-		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #8ec989), color-stop(1, #2d9c38));
-		background-color: #2d9c38;
-		border: 1px solid #006200;
+		background-image: -moz-linear-gradient(top, #34c759 0%, #248a3d 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #34c759), color-stop(1, #248a3d));
+		background-color: #248a3d;
+		border: 1px solid #248a3d;
 		}
 
 	#op_btn_status_available_on_demand {
-		background-image: -moz-linear-gradient(top, #abd0aa 0%, #629d62 100%);
-		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #abd0aa), color-stop(1, #629d62));
-		background-color: #629d62;
-		border: 1px solid #619c61;
+		background-image: -moz-linear-gradient(top, #dcf8e7 0%, #248a3d 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #dcf8e7), color-stop(1, #248a3d));
+		background-color: #248a3d;
+		border: 1px solid #248a3d;
 		}
 
 	#op_btn_status_on_break {
-		background-image: -moz-linear-gradient(top, #ddc38b 0%, #be8e2c 100%);
-		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ddc38b), color-stop(1, #be8e2c));
-		background-color: #be8e2c;
-		border: 1px solid #7d1b00;
+		background-image: -moz-linear-gradient(top, #ffeccf 0%, #c76e00 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffeccf), color-stop(1, #c76e00));
+		background-color: #c76e00;
+		border: 1px solid #c6281e;
 		}
 
 	#op_btn_status_do_not_disturb {
-		background-image: -moz-linear-gradient(top, #cc8984 0%, #960d10 100%);
-		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #cc8984), color-stop(1, #960d10));
-		background-color: #960d10;
-		border: 1px solid #5b0000;
+		background-image: -moz-linear-gradient(top, #ffdcd9 0%, #c6281e 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #ffdcd9), color-stop(1, #c6281e));
+		background-color: #c6281e;
+		border: 1px solid #c6281e;
 		}
 
 	#op_btn_status_logged_out {
-		background-image: -moz-linear-gradient(top, #cacac9 0%, #8d8d8b 100%);
-		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #cacac9), color-stop(1, #8d8d8b));
-		background-color: #8d8d8b;
-		border: 1px solid #5d5f5a;
+		background-image: -moz-linear-gradient(top, #d1d1d6 0%, #8e8e93 100%);
+		background-image: -webkit-gradient(linear, left top, left bottom, color-stop(0, #d1d1d6), color-stop(1, #8e8e93));
+		background-color: #8e8e93;
+		border: 1px solid #636366;
 		}
 
 /* CARD **********************************************************************/
@@ -3064,8 +3064,8 @@ else { //default: white
 
 	/* login message */
 	div.login_message {
-		border: 1px solid #bae0ba;
-		background-color: #eeffee;
+		border: 1px solid #dcf8e7;
+		background-color: #f1fcf5;
 		-webkit-border-radius: 4px;
 		-moz-border-radius: 4px;
 		border-radius: 4px;
@@ -3094,7 +3094,7 @@ else { //default: white
 
 	div.widget div.hud_box:first-of-type {
 		<?php
-		echo "background: ".($dashboard_background_color[0] ?? '#fbfcfe').";\n";
+		echo "background: ".($dashboard_background_color[0] ?? '#fcfcfd').";\n";
 		if (!empty($dashboard_background_color) && is_array($dashboard_background_color) && sizeof($dashboard_background_color) > 1) {
 			if (!empty($dashboard_background_gradient_style) && $dashboard_background_gradient_style == 'mirror') {
 				echo "background-image: linear-gradient(".(empty($dashboard_background_gradient_angle) ? '0deg' : $dashboard_background_gradient_angle.'deg').", ".$dashboard_background_color[1]." 0%, ".$dashboard_background_color[0]." 30%, ".$dashboard_background_color[0]." 70%, ".$dashboard_background_color[1]." 100%);\n";
@@ -3243,7 +3243,7 @@ else { //default: white
 			height: 345.5px;
 			display: block;
 			<?php
-			echo "background: ".($dashboard_detail_background_color[0] ?? '#fbfcfe').";\n";
+			echo "background: ".($dashboard_detail_background_color[0] ?? '#fcfcfd').";\n";
 			if (!empty($dashboard_detail_background_color) && is_array($dashboard_detail_background_color) && sizeof($dashboard_detail_background_color) > 1) {
 				if ($dashboard_background_gradient_style == 'mirror') {
 					echo "background-image: linear-gradient(".(empty($dashboard_background_gradient_angle) ? '0deg' : $dashboard_background_gradient_angle.'deg').", ".$dashboard_detail_background_color[1]." 0%, ".$dashboard_detail_background_color[0]." 30%, ".$dashboard_detail_background_color[0]." 70%, ".$dashboard_detail_background_color[1]." 100%);\n";
@@ -3326,12 +3326,12 @@ else { //default: white
 		}
 
 	.chart_type_button:has(input:checked) {
-		background-color: rgba(142,172,249,0.15);
-		border-color: #8EACF9;
+		background-color: rgba(0,122,255,0.15);
+		border-color: #66afff;
 		}
 
 	.chart_type_button:hover {
-		background-color: rgba(0,0,0,0.03);
+		background-color: rgba(0,0,0,0.04);
 		}
 
 	.chart_type_button i {
@@ -3371,7 +3371,7 @@ else { //default: white
 		overflow-x: hidden;
 		white-space: nowrap;
 		width: auto;
-		border: 1px solid #B9CEF8;
+		border: 1px solid #d1d1d6;
 		}
 
 	.ui-menu, .ui-menu .ui-menu-item {
@@ -3383,18 +3383,18 @@ else { //default: white
 		cursor: pointer;
 		border-color: #ffffff;
 		background-image: none;
-		background-color: #fbfcfe;
+		background-color: #fcfcfd;
 		white-space: nowrap;
 		font-family: Inter, Arial, sans-serif;
 		font-size: 12px;
-		color: #151F33;
+		color: #1c1c1e;
 		}
 
 	.ui-menu .ui-menu-item a:hover {
-		color: #1047BF;
+		color: #007aff;
 		border: 1px solid white;
 		background-image: none;
-		background-color: #fbfcfe;
+		background-color: #fcfcfd;
 		}
 
 /* CSS GRID ********************************************************************/
@@ -3633,7 +3633,7 @@ else { //default: white
 	div.action_bar > div.actions > div.unsaved {
 		display: inline-block;
 		margin-right: 30px;
-		color: #b00;
+		color: #c6281e;
 		}
 
 	/* used primarily in contacts */
@@ -3649,11 +3649,11 @@ else { //default: white
 	.warning_bar {
 		width: 100%;
 		text-align: center;
-		border: 2px dashed #c00;
+		border: 2px dashed #c6281e;
 		padding: 10px 20px;
 		margin-bottom: 16px;
-		color: #e00;
-		background: #F4F8FF;
+		color: #ff3b30;
+		background: #f5f5f7;
 		font-size: 1.4em;
 	}
 
@@ -3816,7 +3816,7 @@ else { //default: white
 	.list-status-active {
 		width: 10px;
 		height: 10px;
-		background-color: #03C04A;
+		background-color: #34c759;
 		border-radius: 50%;
 		display: inline-block;
 	}
@@ -3824,7 +3824,7 @@ else { //default: white
 	.list-status-inactive {
 		width: 10px;
 		height: 10px;
-		background-color: #ccc;
+		background-color: #d1d1d6;
 		border-radius: 50%;
 		display: inline-block;
 	}
@@ -3832,7 +3832,7 @@ else { //default: white
 	.list-status-failed {
 		width: 10px;
 		height: 10px;
-		background-color: #EF4444;
+		background-color: #ff3b30;
 		border-radius: 50%;
 		display: inline-block;
 	}

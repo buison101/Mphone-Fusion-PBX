@@ -176,8 +176,8 @@
 		echo "						0.00001,\n";
 		echo "					],\n";
 		echo "					backgroundColor: [\n";
-		echo "						'".($settings->get('theme', 'dashboard_ring_group_forward_chart_color_active') ?? '#DCE3EC')."',\n";
-		echo "						'".($settings->get('theme', 'dashboard_ring_group_forward_chart_color_forwarding') ?? '#EF4444')."'\n";
+		echo "						'".($settings->get('theme', 'dashboard_ring_group_forward_chart_color_active') ?? '#d1d1d6')."',\n";
+		echo "						'".($settings->get('theme', 'dashboard_ring_group_forward_chart_color_forwarding') ?? '#ff3b30')."'\n";
 		echo "					],\n";
 		echo "					borderColor: '".$settings->get('theme', 'dashboard_chart_border_color')."',\n";
 		echo "					borderWidth: '".$settings->get('theme', 'dashboard_chart_border_width')."'\n";

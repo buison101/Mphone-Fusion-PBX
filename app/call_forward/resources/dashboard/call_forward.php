@@ -140,16 +140,16 @@
 		echo "					],\n";
 		echo "					backgroundColor: [\n";
 		if (permission_exists('do_not_disturb')) {
-			echo "					'".($settings->get('theme', 'dashboard_call_forward_chart_color_do_not_disturb') ?? '#EF4444')."',\n";
+			echo "					'".($settings->get('theme', 'dashboard_call_forward_chart_color_do_not_disturb') ?? '#ff3b30')."',\n";
 		}
 		if (permission_exists('follow_me')) {
-			echo "					'".($settings->get('theme', 'dashboard_call_forward_chart_color_follow_me') ?? '#22C55E')."',\n";
+			echo "					'".($settings->get('theme', 'dashboard_call_forward_chart_color_follow_me') ?? '#34c759')."',\n";
 		}
 		if (permission_exists('call_forward')) {
-			echo "					'".($settings->get('theme', 'dashboard_call_forward_chart_color_call_forward') ?? '#4F7FE2')."',\n";
+			echo "					'".($settings->get('theme', 'dashboard_call_forward_chart_color_call_forward') ?? '#007aff')."',\n";
 		}
-		echo "						'".($settings->get('theme', 'dashboard_call_forward_chart_color_active') ?? '#DCE3EC')."',\n";
-		echo "						'".($settings->get('theme', 'dashboard_call_forward_chart_color_active') ?? '#DCE3EC')."'\n";
+		echo "						'".($settings->get('theme', 'dashboard_call_forward_chart_color_active') ?? '#d1d1d6')."',\n";
+		echo "						'".($settings->get('theme', 'dashboard_call_forward_chart_color_active') ?? '#d1d1d6')."'\n";
 		echo "					],\n";
 		echo "					borderColor: '".$settings->get('theme', 'dashboard_chart_border_color')."',\n";
 		echo "					borderWidth: '".$settings->get('theme', 'dashboard_chart_border_width')."'\n";

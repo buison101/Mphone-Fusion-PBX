@@ -72,8 +72,8 @@
 						datasets: [{
 							data: ['<?php echo $messages['new']; ?>', 0.00001],
 							backgroundColor: [
-								'<?php echo ($settings->get('theme', 'dashboard_missed_calls_chart_main_color') ?? '#F59E0B'); ?>',
-								'<?php echo ($settings->get('theme', 'dashboard_missed_calls_chart_sub_color') ?? '#DCE3EC'); ?>'
+								'<?php echo ($settings->get('theme', 'dashboard_missed_calls_chart_main_color') ?? '#ff9500'); ?>',
+								'<?php echo ($settings->get('theme', 'dashboard_missed_calls_chart_sub_color') ?? '#d1d1d6'); ?>'
 							],
 							borderColor: '<?php echo $settings->get('theme', 'dashboard_chart_border_color'); ?>',
 							borderWidth: '<?php echo $settings->get('theme', 'dashboard_chart_border_width'); ?>',
@@ -113,7 +113,7 @@
 	if (!isset($widget_chart_type) || $widget_chart_type == "icon") {
 		echo "	<div style='position: relative; display: inline-block;'>\n";
 		echo "		<span class='hud_stat'><i class=\"fas ".$widget_icon." \"></i></span>\n";
-		echo "		<span style=\"background-color: ".(!empty($widget_number_background_color) ? $widget_number_background_color : '#22C55E')."; color: ".(!empty($widget_number_text_color) ? $widget_number_text_color : '#ffffff')."; font-size: 10px; text-align: center; position: absolute; top: 28px; left: 24px; padding: 2px 7px 1px 7px; border-radius: 10px; white-space: nowrap;\">".$messages['new']."</span>\n";
+		echo "		<span style=\"background-color: ".(!empty($widget_number_background_color) ? $widget_number_background_color : '#34c759')."; color: ".(!empty($widget_number_text_color) ? $widget_number_text_color : '#ffffff')."; font-size: 10px; text-align: center; position: absolute; top: 28px; left: 24px; padding: 2px 7px 1px 7px; border-radius: 10px; white-space: nowrap;\">".$messages['new']."</span>\n";
 		echo "	</div>\n";
 	}
 

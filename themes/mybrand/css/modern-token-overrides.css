@@ -1,0 +1,181 @@
+/* MyBrand token bridge
+   Keeps existing layout and database widget settings, but normalizes visible
+   dashboard/menu colors to the shared FusionPBX design tokens. */
+
+/* Base surfaces ------------------------------------------------------------- */
+body {
+	background-color: var(--fp-surface-canvas);
+	color: var(--fp-text-primary);
+}
+
+#main_content {
+	color: var(--fp-text-primary);
+}
+
+a,
+a:visited,
+button.btn.btn-link {
+	color: var(--fp-link);
+}
+
+a:hover,
+a:focus,
+button.btn.btn-link:hover {
+	color: var(--fp-link-hover);
+}
+
+/* Left menu ----------------------------------------------------------------- */
+div#menu_side_container,
+div#menu_side_control_container {
+	background: var(--fp-menu-bg);
+	border-color: var(--fp-border-opaque-separator);
+	box-shadow: var(--fp-shadow-sm);
+}
+
+span.menu_brand_text,
+a.menu_brand_text,
+div#menu_side_container > a.menu_side_item_main,
+div#menu_side_container > div > a.menu_side_item_main,
+div#menu_side_container > div#menu_side_control_container a.menu_side_item_main,
+a.menu_side_item_sub,
+div#menu_side_container .menu_side_item_title,
+div#menu_side_container .menu_side_item_main_sub_icons,
+div#menu_side_container .sub_arrows {
+	color: var(--fp-menu-text) !important;
+}
+
+div#menu_side_container > a.menu_side_item_main:hover,
+div#menu_side_container > a.menu_side_item_main:focus,
+div#menu_side_container > a.menu_side_item_main:active,
+div#menu_side_container > div > a.menu_side_item_main:hover,
+div#menu_side_container > div > a.menu_side_item_main:focus,
+div#menu_side_container > div > a.menu_side_item_main:active,
+div#menu_side_container > div#menu_side_control_container > div a.menu_side_item_main:hover,
+div#menu_side_container > div#menu_side_control_container > div a.menu_side_item_main:focus,
+div#menu_side_container > div#menu_side_control_container > div a.menu_side_item_main:active,
+a.menu_side_item_sub:hover,
+a.menu_side_item_sub:focus,
+a.menu_side_item_sub:active {
+	background: var(--fp-menu-bg-hover) !important;
+	color: var(--fp-menu-text-hover) !important;
+}
+
+div#menu_side_container .menu_side_item_icon,
+div#menu_side_container > a.menu_side_item_main > i.menu_side_item_icon,
+a.menu_side_item_sub > .fa,
+a.menu_side_item_sub > .fas,
+a.menu_side_item_sub > .far,
+a.menu_side_item_sub > .fal,
+a.menu_side_item_sub > .fab,
+a.menu_side_item_sub > .fa-solid,
+a.menu_side_item_sub > .fa-regular,
+a.menu_side_item_sub > .fa-brands {
+	color: var(--fp-menu-icon) !important;
+}
+
+/* Dashboard cards ----------------------------------------------------------- */
+div.widget > div.hud_box,
+div.widget div.hud_box:first-of-type,
+div.hud_box {
+	background: var(--fp-surface-elevated) !important;
+	border-color: var(--fp-border-subtle) !important;
+	box-shadow: var(--fp-shadow-card) !important;
+	color: var(--fp-text-primary) !important;
+}
+
+div.widget:hover > div.hud_box,
+div.widget:hover div.hud_box:first-of-type,
+div.hud_box:hover {
+	border-color: var(--fp-border-default) !important;
+}
+
+div.widget .hud_content,
+div.widget .hud_details,
+div.widget .hud_chart,
+div.widget .hud_text {
+	color: var(--fp-text-secondary) !important;
+}
+
+span.hud_title,
+div.widget > div.hud_box > div.hud_content > span.hud_title,
+div.widget > div.hud_box > div.hud_content > span.hud_title:first-of-type,
+div.widget .hud_title,
+div.widget .hud_title a {
+	background: var(--fp-transparent) !important;
+	border-color: var(--fp-transparent) !important;
+	color: var(--fp-text-primary) !important;
+	text-shadow: none !important;
+}
+
+span.hud_title:hover,
+div.widget:hover .hud_title,
+div.widget:hover .hud_title a {
+	background: var(--fp-transparent) !important;
+	color: var(--fp-link-hover) !important;
+	text-shadow: none !important;
+}
+
+span.hud_stat,
+div.widget > div.hud_box > div.hud_content > span.hud_stat,
+div.widget .hud_stat,
+div.widget .hud_stat a {
+	background: var(--fp-transparent) !important;
+	border-color: var(--fp-transparent) !important;
+	color: var(--fp-text-primary) !important;
+	text-shadow: none !important;
+}
+
+div.widget .hud_stat .fa,
+div.widget .hud_stat .fas,
+div.widget .hud_stat .far,
+div.widget .hud_stat .fal,
+div.widget .hud_stat .fab,
+div.widget .hud_stat .fa-solid,
+div.widget .hud_stat .fa-regular,
+div.widget .hud_stat .fa-brands {
+	color: var(--fp-brand-500) !important;
+	opacity: 1 !important;
+}
+
+div.widget .count,
+div.widget .badge {
+	background-color: var(--fp-success) !important;
+	color: var(--fp-text-inverse) !important;
+}
+
+div.widget .hud_expander {
+	background: var(--fp-surface-subtle) !important;
+	border-color: var(--fp-border-subtle) !important;
+	color: var(--fp-text-tertiary) !important;
+}
+
+/* Dashboard charts and progress -------------------------------------------- */
+div.widget canvas {
+	color: var(--fp-text-secondary);
+}
+
+div.widget .progress,
+div.widget div[class*="progress"] {
+	background-color: var(--fp-surface-muted) !important;
+}
+
+div.widget .progress-bar,
+div.widget div[class*="progress"] > div {
+	background-color: var(--fp-success) !important;
+	color: var(--fp-text-inverse) !important;
+}
+
+/* Tables and chart legends inside widgets ---------------------------------- */
+div.widget th,
+div.widget .hud_heading {
+	background: var(--fp-surface-subtle) !important;
+	border-color: var(--fp-border-subtle) !important;
+	color: var(--fp-text-secondary) !important;
+}
+
+div.widget td,
+div.widget label,
+div.widget .chart-legend,
+div.widget .legend {
+	color: var(--fp-text-secondary) !important;
+}

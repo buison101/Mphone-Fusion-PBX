@@ -80,7 +80,7 @@ echo "<div class='hud_content' ".($widget_details_state == "disabled" ?: "onclic
 	if ($widget_chart_type == 'icon') {
 		echo "<div style='position: relative; display: inline-block;'>\n";
 			echo "<span class='hud_stat'><i class=\"fas " . $widget_icon . " \"></i></span>\n";
-			echo "<span id='calls_active_count' name='calls_active_count' style=\"background-color: " . (!empty($widget_number_background_color) ? $widget_number_background_color : '#22C55E') . "; color: " . (!empty($widget_number_text_color) ? $widget_number_text_color : '#ffffff') . "; font-size: 10px; text-align: center; position: absolute; top: 28px; left: 24px; padding: 2px 7px 1px 7px; border-radius: 10px; white-space: nowrap;\">0</span>\n";
+			echo "<span id='calls_active_count' name='calls_active_count' style=\"background-color: " . (!empty($widget_number_background_color) ? $widget_number_background_color : '#34c759') . "; color: " . (!empty($widget_number_text_color) ? $widget_number_text_color : '#ffffff') . "; font-size: 10px; text-align: center; position: absolute; top: 28px; left: 24px; padding: 2px 7px 1px 7px; border-radius: 10px; white-space: nowrap;\">0</span>\n";
 		echo "</div>\n";
 	}
 echo "</div>\n";
@@ -129,8 +129,8 @@ echo "<script src='/app/active_calls/resources/javascript/arrows.js?v=$version'>
                 datasets: [
                     {
                         label: 'Active Calls',
-                        // borderColor: 'blue',
-                        // backgroundColor: rxColor + '33',
+                        borderColor: '#007aff',
+                        backgroundColor: 'rgba(0,122,255,0.12)',
                         fill: true,
                         tension: 0.3,
                         pointRadius: 0,
@@ -157,16 +157,18 @@ echo "<script src='/app/active_calls/resources/javascript/arrows.js?v=$version'>
                                 chart.data.datasets[0].data.push({ x: Date.now(), y: get_count() });
                             }
                         },
-                        grid: {drawOnChartArea: false},
+                        grid: {drawOnChartArea: false, color: '#d1d1d6'},
                         ticks: {display: false},
                     },
                     y: {
                         beginAtZero: true,
                         grace: '10%',
                         ticks: {
+                            color: '#48484a',
                             precision: 0,  //whole numbers only
                             callback: (v) => Number.isInteger(v) ? v : v.toFixed(0)
                         },
+                        grid: {color: '#d1d1d6'},
                         suggestedMax: 4  //becomes 5 because chart adds the 0 line as a y-axis value
                     }
                 },
@@ -253,7 +255,7 @@ if (!empty($_SESSION['user']['extension'])) {
 
 	const colors = {
 		RINGING: 'blue',
-		CONNECTED: '<?php echo $settings->get('theme', 'heading_count_background_color', '#22C55E'); ?>',
+		CONNECTED: '<?php echo $settings->get('theme', 'heading_count_background_color', '#34c759'); ?>',
 		HANGUP: 'red',
 		INACTIVE: 'black'
 	}
@@ -349,7 +351,7 @@ if (!empty($_SESSION['user']['extension'])) {
 		// DISCONNECTED
 		active_calls_widget_client.ws.addEventListener("close", async () => {
 			const status = document.getElementById('calls_active_count');
-			status.style.background = '#cc0033';
+			status.style.background = '#ff3b30';
 			console.warn("Websocket Disconnected");
 		});
 

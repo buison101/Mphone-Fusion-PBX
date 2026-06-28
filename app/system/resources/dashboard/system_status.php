@@ -161,14 +161,14 @@
 							backgroundColor: [
 								<?php
 								if ($percent_disk_usage <= 80) {
-									echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[0] ?? '#22C55E')."',\n";
+									echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[0] ?? '#34c759')."',\n";
 								} else if ($percent_disk_usage <= 90) {
-									echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[1] ?? '#F59E0B')."',\n";
+									echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[1] ?? '#ff9500')."',\n";
 								} else if ($percent_disk_usage > 90) {
-									echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[2] ?? '#EF4444')."',\n";
+									echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[2] ?? '#ff3b30')."',\n";
 								}
 								?>
-								'<?php echo ($settings->get('theme', 'dashboard_disk_usage_chart_sub_color') ?? '#DCE3EC'); ?>'
+								'<?php echo ($settings->get('theme', 'dashboard_disk_usage_chart_sub_color') ?? '#d1d1d6'); ?>'
 							],
 							borderColor: '<?php echo $settings->get('theme', 'dashboard_chart_border_color'); ?>',
 							borderWidth: '<?php echo $settings->get('theme', 'dashboard_chart_border_width'); ?>',
@@ -208,8 +208,8 @@
 		//cpu usage
 		if ($widget_row_span > 1) {
 			echo "	<span class='hud_title cpu_usage' style='text-align: left; font-size: 11px; line-height: 1.8; font-weight: unset; padding-left: 10%;'>".$text['label-processor_usage']."</span>\n";
-			echo "	<div class='progress_container' style='width: 80%; height: 15px; overflow: hidden; border-radius: 10px; background: ".($settings->get('theme', 'dashboard_cpu_usage_chart_sub_color') ?? '#DCE3EC').";'>\n";
-			echo "		<div id='cpu_status_progress_bar' class='progress_bar' style='width: ".($percent_cpu > 100 ? 100 : $percent_cpu)."%; height: 15px; border-radius: 10px; font-size: x-small; color: ".$row['widget_number_text_color']."; background: ".($settings->get('theme', 'dashboard_cpu_usage_chart_main_color') ?? '#22C55E')."; transition: 1.5s;'>".($percent_cpu > 100 ? 100 : round($percent_cpu))."%</div>\n";
+			echo "	<div class='progress_container' style='width: 80%; height: 15px; overflow: hidden; border-radius: 10px; background: ".($settings->get('theme', 'dashboard_cpu_usage_chart_sub_color') ?? '#d1d1d6').";'>\n";
+			echo "		<div id='cpu_status_progress_bar' class='progress_bar' style='width: ".($percent_cpu > 100 ? 100 : $percent_cpu)."%; height: 15px; border-radius: 10px; font-size: x-small; color: ".$row['widget_number_text_color']."; background: ".($settings->get('theme', 'dashboard_cpu_usage_chart_main_color') ?? '#34c759')."; transition: 1.5s;'>".($percent_cpu > 100 ? 100 : round($percent_cpu))."%</div>\n";
 			echo "	</div>\n";
 			echo "	<div style='width: 100%; height: 15px'>&nbsp;</div>\n";
 		}
@@ -217,8 +217,8 @@
 		//disk usage
 		if ($widget_row_span >= 1) {
 			echo "	<span class='hud_title' style='text-align: left; font-size: 11px; line-height: 1.8; font-weight: unset; padding-left: 10%;'>".$text['label-system_disk_usage']."</span>\n";
-			echo "	<div class='progress_container' style='width: 80%; height: 15px; overflow: hidden; border-radius: 10px; background: ".($settings->get('theme', 'dashboard_disk_usage_chart_sub_color') ?? '#DCE3EC').";'>\n";
-			echo "		<div class='progress_bar' style='width: ".$percent_disk_usage."%; height: 15px; border-radius: 10px; font-size: x-small; color: ".$row['widget_number_text_color']."; background: ".($settings->get('theme', 'dashboard_disk_usage_chart_main_color') ?? '#22C55E').";'>".round($percent_disk_usage)."%</div>\n";
+			echo "	<div class='progress_container' style='width: 80%; height: 15px; overflow: hidden; border-radius: 10px; background: ".($settings->get('theme', 'dashboard_disk_usage_chart_sub_color') ?? '#d1d1d6').";'>\n";
+			echo "		<div class='progress_bar' style='width: ".$percent_disk_usage."%; height: 15px; border-radius: 10px; font-size: x-small; color: ".$row['widget_number_text_color']."; background: ".($settings->get('theme', 'dashboard_disk_usage_chart_main_color') ?? '#34c759').";'>".round($percent_disk_usage)."%</div>\n";
 			echo "	</div>\n";
 			echo "	<div style='width: 100%; height: 15px'>&nbsp;</div>\n";
 		}
@@ -226,8 +226,8 @@
 		//percent memory
 		if ($widget_row_span > 1) {
 			echo "	<span class='hud_title' style='text-align: left; font-size: 11px; line-height: 1.8; font-weight: unset; padding-left: 10%;'>".$text['label-memory_usage']."</span>\n";
-			echo "	<div class='progress_container' style='width: 80%; height: 15px; overflow: hidden; border-radius: 10px; background: ".($settings->get('theme', 'dashboard_disk_usage_chart_sub_color') ?? '#DCE3EC').";'>\n";
-			echo "		<div class='progress_bar' style='width: ".round((int)$memory_details['memory_percent'])."%; height: 15px; border-radius: 10px; font-size: x-small; color: ".$row['widget_number_text_color']."; background: ".($settings->get('theme', 'dashboard_disk_usage_chart_main_color') ?? '#22C55E').";'>".round((int)$memory_details['memory_percent'])."%</div>\n";
+			echo "	<div class='progress_container' style='width: 80%; height: 15px; overflow: hidden; border-radius: 10px; background: ".($settings->get('theme', 'dashboard_disk_usage_chart_sub_color') ?? '#d1d1d6').";'>\n";
+			echo "		<div class='progress_bar' style='width: ".round((int)$memory_details['memory_percent'])."%; height: 15px; border-radius: 10px; font-size: x-small; color: ".$row['widget_number_text_color']."; background: ".($settings->get('theme', 'dashboard_disk_usage_chart_main_color') ?? '#34c759').";'>".round((int)$memory_details['memory_percent'])."%</div>\n";
 			echo "	</div>\n";
 		}
 	}

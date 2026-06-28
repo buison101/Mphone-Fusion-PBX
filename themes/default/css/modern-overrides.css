@@ -1,0 +1,645 @@
+/* FusionPBX modern color overrides
+   Loaded after themes/default/css.php and before user custom CSS. */
+
+/* Base surfaces and text ---------------------------------------------------- */
+body {
+	background-color: var(--fp-surface-canvas);
+	color: var(--fp-text-primary);
+}
+
+#main_content {
+	background-color: var(--fp-surface-body);
+	color: var(--fp-text-primary);
+}
+
+td,
+label,
+.login_text {
+	color: var(--fp-text-secondary);
+}
+
+pre {
+	color: var(--fp-text-secondary);
+}
+
+a,
+a:visited,
+button.btn.btn-link,
+.list tr td a,
+.list tr td button.btn.btn-link {
+	color: var(--fp-link);
+}
+
+a:hover,
+a:focus,
+button.btn.btn-link:hover,
+.list tr td button.btn.btn-link:hover {
+	color: var(--fp-link-hover);
+}
+
+.title,
+b,
+div.action_bar > div.heading b {
+	color: var(--fp-text-primary);
+}
+
+/* Header, navbar, and side menu -------------------------------------------- */
+nav.navbar,
+div#menu_side_container,
+div#menu_side_control_container {
+	background: var(--fp-menu-bg);
+	border-color: var(--fp-border-opaque-separator);
+	box-shadow: var(--fp-shadow-sm);
+}
+
+div.navbar-brand > a.navbar-brand-text,
+span.menu_brand_text,
+a.menu_brand_text,
+ul.navbar-nav > li.nav-item > a.nav-link,
+ul.navbar-nav.ml-auto > li.nav-item > a.nav-link,
+ul.navbar-nav > li.nav-item > a.header_user,
+ul.navbar-nav > li.nav-item > a.header_domain,
+div#menu_side_container > a.menu_side_item_main,
+div#menu_side_container > div > a.menu_side_item_main,
+div#menu_side_container > div#menu_side_control_container a.menu_side_item_main,
+a.logout_icon,
+button.navbar-toggler > span.fa-solid.fa-bars {
+	color: var(--fp-menu-text);
+}
+
+div.navbar-brand > a.navbar-brand-text:hover,
+a.menu_brand_text:hover,
+span.menu_brand_text:hover,
+ul.navbar-nav > li.nav-item:hover > a.nav-link,
+ul.navbar-nav > li.nav-item:focus > a.nav-link,
+ul.navbar-nav > li.nav-item:active > a.nav-link,
+div#menu_side_container > a.menu_side_item_main:hover,
+div#menu_side_container > a.menu_side_item_main:focus,
+div#menu_side_container > a.menu_side_item_main:active,
+div#menu_side_container > div > a.menu_side_item_main:hover,
+div#menu_side_container > div > a.menu_side_item_main:focus,
+div#menu_side_container > div > a.menu_side_item_main:active,
+div#menu_side_container > div#menu_side_control_container > div a.menu_side_item_main:hover,
+div#menu_side_container > div#menu_side_control_container > div a.menu_side_item_main:focus,
+div#menu_side_container > div#menu_side_control_container > div a.menu_side_item_main:active,
+a.logout_icon:hover,
+a.logout_icon:focus,
+a.logout_icon:active,
+button.navbar-toggler > span.fa-solid.fa-bars:hover {
+	background: var(--fp-menu-bg-hover);
+	color: var(--fp-menu-text-hover);
+}
+
+ul.navbar-nav > li.nav-item > ul.dropdown-menu,
+a.menu_side_item_sub {
+	background: var(--fp-neutral-800);
+	border-color: var(--fp-border-opaque-separator);
+	box-shadow: var(--fp-shadow-popup);
+}
+
+ul.navbar-nav > li.nav-item > ul.dropdown-menu > li.nav-item > a.nav-link,
+ul.navbar-nav > li.nav-item > ul.dropdown-menu.multi-column > div.row > div > ul.multi-column-dropdown > li.nav-item > a.nav-link,
+a.menu_side_item_sub {
+	color: var(--fp-menu-text);
+}
+
+ul.navbar-nav > li.nav-item > ul.dropdown-menu > li.nav-item > a.nav-link:hover,
+ul.navbar-nav > li.nav-item > ul.dropdown-menu > li.nav-item > a.nav-link:focus,
+ul.navbar-nav > li.nav-item > ul.dropdown-menu > li.nav-item > a.nav-link:active,
+ul.navbar-nav > li.nav-item > ul.dropdown-menu.multi-column > div.row > div > ul.multi-column-dropdown > li.nav-item > a.nav-link:hover,
+ul.navbar-nav > li.nav-item > ul.dropdown-menu.multi-column > div.row > div > ul.multi-column-dropdown > li.nav-item > a.nav-link:focus,
+ul.navbar-nav > li.nav-item > ul.dropdown-menu.multi-column > div.row > div > ul.multi-column-dropdown > li.nav-item > a.nav-link:active,
+a.menu_side_item_sub:hover,
+a.menu_side_item_sub:focus,
+a.menu_side_item_sub:active {
+	background: var(--fp-menu-bg-hover);
+	color: var(--fp-menu-text-hover);
+}
+
+div#menu_side_container > a.menu_side_item_main > i.menu_side_item_icon,
+div#menu_side_container > div > a.menu_side_item_main > i.menu_side_item_icon,
+div#menu_side_container > div#menu_side_control_container a.menu_side_item_main > i.menu_side_item_icon {
+	color: var(--fp-menu-icon);
+}
+
+div#body_header,
+div#body_header_user_menu {
+	background-color: var(--fp-surface-elevated);
+	border-color: var(--fp-border-subtle);
+	box-shadow: var(--fp-shadow-xs);
+}
+
+div#body_header a,
+div#body_header_brand_text > a {
+	color: var(--fp-text-primary);
+}
+
+div#body_header a:hover,
+div#body_header_brand_text > a:hover {
+	color: var(--fp-link-hover);
+}
+
+/* Page title and action bars ------------------------------------------------ */
+div.action_bar,
+div.action_bar.scroll,
+div.action_bar.sub {
+	background: var(--fp-surface-elevated);
+	border-color: var(--fp-border-subtle);
+	box-shadow: var(--fp-shadow-xs);
+}
+
+div.action_bar > div.actions > div.unsaved,
+.warning_bar {
+	color: var(--fp-danger-strong);
+}
+
+.warning_bar {
+	background: var(--fp-danger-surface);
+	border-color: var(--fp-danger);
+}
+
+div.count {
+	background-color: var(--fp-success);
+	color: var(--fp-text-inverse);
+}
+
+/* Cards and panels ---------------------------------------------------------- */
+div.card,
+div.grid > div.box.contact-details,
+div.hud_box,
+#default_login,
+div.login_message {
+	background-color: var(--fp-surface-elevated);
+	border: 1px solid var(--fp-border-subtle);
+	box-shadow: var(--fp-shadow-card);
+}
+
+div.login_message {
+	color: var(--fp-success-strong);
+	background-color: var(--fp-success-surface);
+	border-color: var(--fp-success-border);
+}
+
+span.hud_title,
+span.hud_stat_title {
+	background: var(--fp-surface-subtle);
+	border-color: var(--fp-border-subtle);
+	color: var(--fp-text-primary);
+}
+
+span.hud_stat,
+div.hud_details {
+	background: var(--fp-surface-body);
+	color: var(--fp-text-primary);
+}
+
+/* Tables -------------------------------------------------------------------- */
+th,
+.list-header > th,
+th.hud_heading {
+	background: var(--fp-surface-subtle);
+	border-bottom-color: var(--fp-border-default);
+	color: var(--fp-text-secondary);
+}
+
+th a,
+th a:visited,
+th a:active,
+.list-header > th > a.default-color {
+	color: var(--fp-text-secondary);
+}
+
+th a:hover,
+.list-header > th > a.default-color:hover {
+	color: var(--fp-link-hover);
+}
+
+.row_style0,
+.list-row:nth-child(even) > :not(.action-button) {
+	background: var(--fp-surface-subtle);
+}
+
+.row_style1,
+.list-row:nth-child(odd) > :not(.action-button) {
+	background: var(--fp-surface-body);
+}
+
+.row_stylebg {
+	background: var(--fp-surface-muted);
+}
+
+.row_style0,
+.row_style1,
+.row_stylebg,
+.list-row > td:not(.action-button),
+td.hud_text {
+	border-bottom-color: var(--fp-border-subtle);
+	color: var(--fp-text-primary);
+}
+
+table.tr_hover tr:hover td,
+table.tr_hover tr:hover td a,
+.list tr:hover td:not(.no-link),
+.list tr:hover td:not(.no-link) a,
+.list-row:hover > td,
+.list-row:nth-child(odd):hover > :not(.action-button),
+.list-row:nth-child(even):hover > :not(.action-button) {
+	background: var(--fp-row-hover);
+	color: var(--fp-link-hover);
+}
+
+/* Forms --------------------------------------------------------------------- */
+select.txt,
+textarea.txt,
+input[type=text].txt,
+input[type=number].txt,
+input[type=password].txt,
+input[type=email].txt,
+input[type=url].txt,
+select.formfld,
+textarea.formfld,
+input[type=text].formfld,
+input[type=number].formfld,
+input[type=url].formfld,
+input[type=password].formfld,
+input[type=email].formfld,
+input.txt.login {
+	background: var(--fp-input-bg);
+	border-color: var(--fp-input-border);
+	color: var(--fp-text-primary);
+	box-shadow: var(--fp-shadow-xs);
+}
+
+select.txt:hover,
+textarea.txt:hover,
+input[type=text].txt:hover,
+input[type=number].txt:hover,
+input[type=password].txt:hover,
+input[type=email].txt:hover,
+label.txt:hover,
+select.formfld:hover,
+textarea.formfld:hover,
+input[type=text].formfld:hover,
+input[type=number].formfld:hover,
+input[type=url].formfld:hover,
+input[type=password].formfld:hover,
+input[type=email].formfld:hover,
+label.formfld:hover,
+input.txt.login:hover {
+	border-color: var(--fp-input-border-hover) !important;
+}
+
+select.txt:focus,
+textarea.txt:focus,
+input[type=text].txt:focus,
+input[type=number].txt:focus,
+input[type=password].txt:focus,
+input[type=email].txt:focus,
+label.txt:focus,
+select.formfld:focus,
+textarea.formfld:focus,
+input[type=text].formfld:focus,
+input[type=number].formfld:focus,
+input[type=url].formfld:focus,
+input[type=password].formfld:focus,
+input[type=email].formfld:focus,
+label.formfld:focus,
+input.txt.login:focus {
+	border-color: var(--fp-input-border-focus) !important;
+	box-shadow: 0 0 0 3px var(--fp-brand-100) !important;
+}
+
+::placeholder,
+input.txt.login::placeholder {
+	color: var(--fp-text-placeholder);
+}
+
+.vncell,
+.vncellcol,
+div.form_set > .label {
+	background: var(--fp-surface-subtle);
+	border-color: var(--fp-border-subtle);
+	color: var(--fp-text-secondary);
+}
+
+.vncellreq,
+.vncellcolreq,
+div.form_set > .label.required {
+	background: var(--fp-warning-surface);
+	border-color: var(--fp-warning-border);
+	color: var(--fp-warning-strong);
+}
+
+.vtable,
+.vtablerow,
+div.form_set > .field {
+	background: var(--fp-surface-body);
+	border-color: var(--fp-border-subtle);
+	color: var(--fp-text-secondary);
+}
+
+.slider {
+	background: var(--fp-border-strong);
+}
+
+select:has(option[value="true"]:checked) + .slider {
+	background: var(--fp-success);
+}
+
+/* Buttons ------------------------------------------------------------------- */
+input.btn,
+input.button,
+button.btn-default,
+.btn-primary {
+	background: var(--fp-brand-500);
+	background-image: none;
+	border-color: var(--fp-brand-600);
+	color: var(--fp-text-inverse);
+	box-shadow: var(--fp-shadow-xs);
+}
+
+input.btn:hover,
+input.btn:active,
+input.btn:focus,
+input.button:hover,
+input.button:active,
+input.button:focus,
+button.btn-default:hover,
+button.btn-default:active,
+button.btn-default:focus,
+.btn-primary:hover,
+.btn-primary:focus,
+.btn-primary:active {
+	background: var(--fp-brand-600);
+	background-image: none;
+	border-color: var(--fp-brand-700);
+	color: var(--fp-text-inverse);
+}
+
+input.btn.btn-secondary,
+button.btn.btn-secondary,
+.btn-secondary,
+button.list_control_icon,
+button.list_control_icon_disabled {
+	background: var(--fp-surface-body);
+	background-image: none;
+	border-color: var(--fp-border-default);
+	color: var(--fp-text-primary);
+}
+
+input.btn.btn-secondary:hover,
+input.btn.btn-secondary:focus,
+input.btn.btn-secondary:active,
+button.btn.btn-secondary:hover,
+button.btn.btn-secondary:focus,
+button.btn.btn-secondary:active,
+.btn-secondary:hover,
+.btn-secondary:focus,
+.btn-secondary:active,
+button.list_control_icon:hover,
+button.list_control_icon:active,
+button.list_control_icon:focus {
+	background: var(--fp-surface-subtle);
+	background-image: none;
+	border-color: var(--fp-border-strong);
+	color: var(--fp-text-primary);
+}
+
+input.btn.btn-danger,
+button.btn.btn-danger,
+.btn-danger {
+	background: var(--fp-danger);
+	background-image: none;
+	border-color: var(--fp-danger-strong);
+	color: var(--fp-text-inverse);
+}
+
+input.btn.btn-danger:hover,
+input.btn.btn-danger:focus,
+input.btn.btn-danger:active,
+button.btn.btn-danger:hover,
+button.btn.btn-danger:focus,
+button.btn.btn-danger:active,
+.btn-danger:hover,
+.btn-danger:focus,
+.btn-danger:active {
+	background: var(--fp-danger-strong);
+	background-image: none;
+	border-color: var(--fp-danger-strong);
+	color: var(--fp-text-inverse);
+}
+
+a.disabled,
+button.btn.disabled,
+.btn.disabled,
+.btn:disabled {
+	color: var(--fp-text-disabled);
+	opacity: 0.65;
+}
+
+/* Alerts and response messages --------------------------------------------- */
+.message_text,
+.alert {
+	background: var(--fp-info-surface);
+	border-color: var(--fp-info-border);
+	color: var(--fp-info-strong);
+	box-shadow: inset 0 7px 8px -10px var(--fp-info-strong);
+}
+
+.message_mood_positive,
+.alert-success {
+	background: var(--fp-success-surface);
+	border-color: var(--fp-success-border);
+	color: var(--fp-success-strong);
+	box-shadow: inset 0 7px 8px -10px var(--fp-success-strong);
+}
+
+.message_mood_negative,
+.alert-danger {
+	background: var(--fp-danger-surface);
+	border-color: var(--fp-danger-border);
+	color: var(--fp-danger-strong);
+	box-shadow: inset 0 7px 8px -10px var(--fp-danger-strong);
+}
+
+.message_mood_alert,
+.alert-warning {
+	background: var(--fp-warning-surface);
+	border-color: var(--fp-warning-border);
+	color: var(--fp-warning-strong);
+	box-shadow: inset 0 7px 8px -10px var(--fp-warning-strong);
+}
+
+.alert-info {
+	background: var(--fp-info-surface);
+	border-color: var(--fp-info-border);
+	color: var(--fp-info-strong);
+}
+
+/* Modals, popups, and menus ------------------------------------------------- */
+.modal-window {
+	background: var(--fp-modal-scrim);
+}
+
+.modal-window > div,
+#source_preview_container,
+#domains_block,
+.dropdown-menu,
+.ui-autocomplete {
+	background: var(--fp-surface-overlay);
+	border-color: var(--fp-border-subtle);
+	box-shadow: var(--fp-shadow-popup);
+	color: var(--fp-text-primary);
+}
+
+.modal-window .modal-title,
+#source_preview_container div.title,
+#domains_header > a#domains_title {
+	color: var(--fp-text-primary);
+}
+
+.modal-window .modal-message,
+#source_preview_container,
+#domains_block {
+	color: var(--fp-text-secondary);
+}
+
+.modal-close {
+	background: var(--fp-surface-overlay);
+	color: var(--fp-text-tertiary);
+}
+
+.modal-close:hover {
+	background: var(--fp-surface-subtle);
+	color: var(--fp-text-primary);
+}
+
+#domains_list,
+#source_preview_container div.file_paths {
+	background: var(--fp-surface-body);
+	border-color: var(--fp-border-default);
+}
+
+div.domains_list_item,
+div.domains_list_item_active,
+div.domains_list_item_inactive {
+	border-bottom-color: var(--fp-border-subtle);
+}
+
+/* Pagination, tabs, badges, and statuses ----------------------------------- */
+.pagination .page-link {
+	background: var(--fp-surface-body);
+	border-color: var(--fp-border-default);
+	color: var(--fp-link);
+}
+
+.pagination .page-link:hover,
+.pagination .page-link:focus {
+	background: var(--fp-selected-surface);
+	border-color: var(--fp-brand-200);
+	color: var(--fp-link-hover);
+}
+
+.pagination .page-item.active .page-link {
+	background: var(--fp-brand-500);
+	border-color: var(--fp-brand-600);
+	color: var(--fp-text-inverse);
+}
+
+.pagination .page-item.disabled .page-link {
+	background: var(--fp-surface-subtle);
+	border-color: var(--fp-border-subtle);
+	color: var(--fp-text-disabled);
+}
+
+.nav-tabs {
+	border-bottom-color: var(--fp-border-default);
+}
+
+.nav-tabs .nav-link {
+	color: var(--fp-text-secondary);
+}
+
+.nav-tabs .nav-link:hover,
+.nav-tabs .nav-link:focus {
+	border-color: var(--fp-border-subtle);
+	color: var(--fp-link-hover);
+}
+
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-item.show .nav-link {
+	background: var(--fp-surface-body);
+	border-color: var(--fp-border-default) var(--fp-border-default) var(--fp-surface-body);
+	color: var(--fp-text-primary);
+}
+
+.badge,
+span.label,
+.label-default {
+	background-color: var(--fp-neutral-600);
+	color: var(--fp-text-inverse);
+}
+
+.badge-primary,
+.label-primary {
+	background-color: var(--fp-brand-500);
+}
+
+.badge-success,
+.label-success {
+	background-color: var(--fp-success);
+}
+
+.badge-warning,
+.label-warning {
+	background-color: var(--fp-warning);
+	color: var(--fp-text-primary);
+}
+
+.badge-danger,
+.label-danger {
+	background-color: var(--fp-danger);
+}
+
+.badge-info,
+.label-info {
+	background-color: var(--fp-info);
+}
+
+.list-status-active {
+	background-color: var(--fp-success);
+}
+
+.list-status-inactive {
+	background-color: var(--fp-text-disabled);
+}
+
+.list-status-failed {
+	background-color: var(--fp-danger);
+}
+
+/* Plugin surfaces ----------------------------------------------------------- */
+.ui-menu .ui-menu-item a {
+	background-color: var(--fp-surface-body);
+	border-color: var(--fp-surface-body);
+	color: var(--fp-text-primary);
+}
+
+.ui-menu .ui-menu-item a:hover {
+	background-color: var(--fp-selected-surface);
+	border-color: var(--fp-brand-100);
+	color: var(--fp-link-hover);
+}
+
+.chart_type_button {
+	border-color: var(--fp-border-subtle);
+}
+
+.chart_type_button:has(input:checked) {
+	background-color: var(--fp-selected-surface);
+	border-color: var(--fp-brand-300);
+}
+
+.chart_type_button:hover {
+	background-color: var(--fp-surface-subtle);
+}

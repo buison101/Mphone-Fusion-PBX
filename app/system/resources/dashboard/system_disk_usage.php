@@ -61,14 +61,14 @@
 									backgroundColor: [
 										<?php
 										if ($percent_disk_usage <= 80) {
-											echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[0] ?? '#22C55E')."',\n";
+											echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[0] ?? '#34c759')."',\n";
 										} else if ($percent_disk_usage <= 90) {
-											echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[1] ?? '#F59E0B')."',\n";
+											echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[1] ?? '#ff9500')."',\n";
 										} else if ($percent_disk_usage > 90) {
-											echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[2] ?? '#EF4444')."',\n";
+											echo "'".($settings->get('theme', 'dashboard_disk_usage_chart_main_color')[2] ?? '#ff3b30')."',\n";
 										}
 										?>
-										'<?php echo ($settings->get('theme', 'dashboard_disk_usage_chart_sub_color') ?? '#DCE3EC'); ?>'
+										'<?php echo ($settings->get('theme', 'dashboard_disk_usage_chart_sub_color') ?? '#d1d1d6'); ?>'
 									],
 									borderColor: '<?php echo $settings->get('theme', 'dashboard_chart_border_color'); ?>',
 									borderWidth: '<?php echo $settings->get('theme', 'dashboard_chart_border_width'); ?>',
