@@ -11,6 +11,18 @@ This document describes `sql/001_create_supabase_reader_view.sql`, which creates
 
 The script does not grant write permissions and does not grant direct access to the source tables unless the database already has separate permissions outside this script.
 
+## Connection Settings
+
+Use these settings from Supabase:
+
+- Host: `192.168.1.201`
+- Port: `5432`
+- Database: `fusionpbx`
+- User: `supabase_reader`
+- SSL mode: use the local PostgreSQL policy for this VM
+
+The PostgreSQL server should listen on `localhost,192.168.1.201`. The `pg_hba.conf` access rule should allow the Supabase host `192.168.1.134/32` to connect as `supabase_reader`.
+
 ## View Columns
 
 `public.api_sip_extensions` returns enabled extensions only:
@@ -42,6 +54,12 @@ Example:
 
 ```sh
 psql -d fusionpbx -f sql/001_create_supabase_reader_view.sql
+```
+
+Remote connection test from the Supabase host:
+
+```sh
+psql -h 192.168.1.201 -p 5432 -U supabase_reader -d fusionpbx
 ```
 
 ## Verify Permissions
