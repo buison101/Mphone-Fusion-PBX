@@ -55,10 +55,10 @@ div.hud_box:hover {
 }
 
 input.btn, input.button, button.btn-default {
-    background: #636366;
+    background: #8e8e93;
     background-image: unset;
 }
 input.btn:hover, input.btn:active, input.btn:focus, input.button:hover, input.button:active, input.button:focus, button.btn-default:hover, button.btn-default:active, button.btn-default:focus {
-    background: #48484a;
+    background: #636366;
     background-image: unset;
 }
