@@ -7,7 +7,7 @@
 		$apps[$x]['subcategory'] = "";
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
-		$apps[$x]['url'] = "http://www.fusionpbx.com";
+		$apps[$x]['url'] = "https://mphone.vn";
 		$apps[$x]['description']['en-us'] = "";
 		$apps[$x]['description']['en-gb'] = "";
 		$apps[$x]['description']['ar-eg'] = "";
@@ -92,7 +92,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "provision";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "fanvil_greeting";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "FusionPBX";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Mphone";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Name at top left of screen 0~12 characters";
 		$y++;

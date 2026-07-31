@@ -7,7 +7,7 @@
 		$apps[$x]['subcategory'] = "";
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
-		$apps[$x]['url'] = "http://www.fusionpbx.com";
+		$apps[$x]['url'] = "https://mphone.vn";
 		$apps[$x]['description']['en-us'] = "Default theme";
 		$apps[$x]['description']['en-gb'] = "Default theme";
 		$apps[$x]['description']['ar-eg'] = "";
@@ -3116,7 +3116,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "theme";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "title";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "text";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "FusionPBX";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "Mphone";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "true";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Brand used in the browser title bar.";
 		$y++;

@@ -7,7 +7,7 @@
 		$apps[$x]['subcategory'] = "";
 		$apps[$x]['version'] = "1.0";
 		$apps[$x]['license'] = "Mozilla Public License 1.1";
-		$apps[$x]['url'] = "http://www.fusionpbx.com";
+		$apps[$x]['url'] = "https://mphone.vn";
 		$apps[$x]['description']['en-us'] = "View configured feature codes for the system.";
 		$apps[$x]['description']['en-gb'] = "View configured feature codes for the system.";
 		$apps[$x]['description']['ar-eg'] = "";

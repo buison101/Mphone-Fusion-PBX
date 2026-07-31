@@ -7,7 +7,7 @@
 		$apps[$x]['subcategory'] = 'email';
 		$apps[$x]['version'] = '2.11';
 		$apps[$x]['license'] = 'Member';
-		$apps[$x]['url'] = 'http://www.fusionpbx.com';
+		$apps[$x]['url'] = 'https://mphone.vn';
 		$apps[$x]['description']['en-us'] = '';
 
 	//default settings

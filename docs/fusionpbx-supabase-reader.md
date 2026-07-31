@@ -1,6 +1,36 @@
 # FusionPBX Supabase Reader
 
-This document describes `sql/001_create_supabase_reader_view.sql`, which creates a PostgreSQL read-only account for Supabase to read enabled SIP extensions from FusionPBX.
+## Current Deployment (Source of Truth)
+
+FusionPBX and Supabase are now installed on the **same server**.
+
+- Server/LAN address: `192.168.1.201`
+- FusionPBX application: `/var/www/fusionpbx`
+- FusionPBX PostgreSQL database: host PostgreSQL on `192.168.1.201:5432`
+- Supabase project root: `/opt/supabase/supabase-project`
+- Supabase environment file: `/opt/supabase/supabase-project/.env`
+- Supabase Compose file: `/opt/supabase/supabase-project/docker-compose.yml`
+- FusionPBX login Edge Function: `/opt/supabase/supabase-project/volumes/functions/fusionpbx-login/index.ts`
+- Supabase API/Kong endpoint: `http://192.168.1.201:8000`
+- Supabase Docker network: `172.18.0.0/16`
+
+Although both applications share one physical server, Supabase services run in
+Docker. Connections from the Edge Function therefore originate from the Docker
+network (for example `172.18.0.12`), not from `192.168.1.201`. PostgreSQL,
+`pg_hba.conf`, and UFW must allow `supabase_reader` from `172.18.0.0/16`.
+
+The active app login flow is:
+
+```text
+Linphone fork app
+  -> Supabase Edge Function: fusionpbx-login
+  -> FusionPBX PostgreSQL using supabase_reader
+  -> verify the FusionPBX user password
+  -> return the user's enabled SIP extensions
+```
+
+This document also describes `sql/001_create_supabase_reader_view.sql`, which
+was originally intended to create a read-only view for enabled SIP extensions.
 
 ## What It Creates
 
@@ -21,7 +51,17 @@ Use these settings from Supabase:
 - User: `supabase_reader`
 - SSL mode: use the local PostgreSQL policy for this VM
 
-The PostgreSQL server should listen on `localhost,192.168.1.201`. The `pg_hba.conf` access rule should allow the Supabase host `192.168.1.134/32` to connect as `supabase_reader`.
+The PostgreSQL server should listen on `localhost,192.168.1.201`. The active
+`pg_hba.conf` access rules should allow `supabase_reader` from the local server
+and the Supabase Docker network:
+
+```text
+host    fusionpbx    supabase_reader    192.168.1.201/32    scram-sha-256
+host    fusionpbx    supabase_reader    172.18.0.0/16       scram-sha-256
+```
+
+Do not restore the obsolete Supabase host rule for `192.168.1.134`; that was the
+address used before Supabase was moved onto this server.
 
 ## View Columns
 
@@ -56,7 +96,7 @@ Example:
 psql -d fusionpbx -f sql/001_create_supabase_reader_view.sql
 ```
 
-Remote connection test from the Supabase host:
+Connection test from the server host:
 
 ```sh
 psql -h 192.168.1.201 -p 5432 -U supabase_reader -d fusionpbx

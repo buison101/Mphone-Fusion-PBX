@@ -7,7 +7,7 @@
 		$apps[$x]['subcategory'] = '';
 		$apps[$x]['version'] = '2.1';
 		$apps[$x]['license'] = 'Mozilla Public License 1.1';
-		$apps[$x]['url'] = 'http://www.fusionpbx.com';
+		$apps[$x]['url'] = 'https://mphone.vn';
 		$apps[$x]['description']['en-us'] = "Queues are used to setup waiting lines for callers. Also known as FIFO Queues.";
 		$apps[$x]['description']['en-gb'] = "Queues are used to setup waiting lines for callers. Also known as FIFO Queues.";
 		$apps[$x]['description']['ar-eg'] = "";

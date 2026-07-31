@@ -6,7 +6,7 @@
 		$apps[$x]['category'] = "Switch";
 		$apps[$x]['subcategory'] = "";
 		$apps[$x]['version'] = "1.0";
-		$apps[$x]['url'] = "http://www.fusionpbx.com";
+		$apps[$x]['url'] = "https://mphone.vn";
 		$apps[$x]['description']['en-us'] = "Configure notification preferences.";
 		$apps[$x]['description']['en-gb'] = "Configure notification preferences.";
 		$apps[$x]['description']['ar-eg'] = "";

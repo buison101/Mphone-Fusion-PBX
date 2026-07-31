@@ -1259,7 +1259,7 @@ class menu {
 
 		if ($menu_brand) {
 			//define menu brand mark
-			$menu_brand_text = escape($this->settings->get('theme', 'menu_brand_text', 'FusionPBX'));
+			$menu_brand_text = escape($this->settings->get('theme', 'menu_brand_text', 'Mphone'));
 			switch ($this->settings->get('theme', 'menu_brand_type', 'image')) {
 				case 'text':
 					$html .= "			<a class='navbar-brand-text' href='" . PROJECT_PATH . "/'>" . $menu_brand_text . "</a>\n";
@@ -1481,7 +1481,7 @@ class menu {
 			$html .= "		<a class='menu_side_item_main menu_side_toggle_main' onclick='menu_side_toggle();' style='height: 60px; width: 48px;' title=\"" . $this->text['theme-label-expand_menu'] . "\"><i class='fa-solid fa-bars fa-fw'></i></a>";
 		}
 		$html .= "		</div>\n";
-		$menu_brand_text = escape($this->settings->get('theme', 'menu_brand_text', 'FusionPBX'));
+		$menu_brand_text = escape($this->settings->get('theme', 'menu_brand_text', 'Mphone'));
 		switch ($this->settings->get('theme', 'menu_brand_type', 'image')) {
 			case 'none':
 				$html .= "<a class='menu_side_item_main menu_side_contract' onclick='menu_side_contract();' style='" . ($menu_side_state != 'expanded' ? "display: none;" : null) . " height: 60px; min-width: " . intval($this->settings->get('theme', 'menu_side_width_contracted', 60)) . "px;' title=\"" . $this->text['theme-label-contract_menu'] . "\"><i class='fa-solid fa-bars fa-fw' style='z-index: 99800; padding-left: 1px; padding-top: 11px;'></i></a>";
@@ -1582,7 +1582,7 @@ class menu {
 		$html .= "<div class='float-left'>\n";
 		// $html .= button::create(['type'=>'button','id'=>'menu_side_state_hidden_button','title'=>$this->text['theme-label-expand_menu'],'icon'=>'bars','class'=>'default '.($this->settings->get('theme', 'menu_side_state') != 'hidden' ? 'hide-sm-up ' : null).'float-left','onclick'=>'menu_side_expand();']);
 		$html .= "<a id='menu_side_state_hidden_button' class='$menu_side_state_class' href='show:menu' onclick=\"event.preventDefault(); menu_side_expand(); event.stopPropagation();\" title=\"" . $this->text['theme-label-expand_menu'] . "\"><i class='fa-solid fa-bars fa-fw' style='margin: 7px 10px 5px 10px;'></i></a>";
-		$body_header_brand_text = escape($this->settings->get('theme', 'body_header_brand_text', 'FusionPBX'));
+		$body_header_brand_text = escape($this->settings->get('theme', 'body_header_brand_text', 'Mphone'));
 		if ($this->settings->get('theme', 'body_header_brand_type') == 'image' || $this->settings->get('theme', 'body_header_brand_type') == 'image_text') {
 			$body_header_brand_image = $this->settings->get('theme', 'body_header_brand_image', PROJECT_PATH . '/themes/default/images/logo_side_expanded.png');
 			$html .= "<div id='body_header_brand_image'>";
