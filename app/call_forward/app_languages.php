@@ -271,7 +271,7 @@ $text['label-prompt']['ja-jp'] = "電話を受けるように促す";
 $text['label-prompt']['ko-kr'] = "전화를 수락할지 묻는 메시지";
 
 $text['label-on-busy']['en-us'] = "On Busy";
-$text['label-on-busy']['vi-vn'] = "Khi bận";
+$text['label-on-busy']['vi-vn'] = "Máy bận";
 $text['label-on-busy']['en-gb'] = "On Busy";
 $text['label-on-busy']['ar-eg'] = "مشغول";
 $text['label-on-busy']['de-at'] = "Bei Besetzt";
@@ -867,7 +867,7 @@ $text['label-active']['ja-jp'] = "アクティブ";
 $text['label-active']['ko-kr'] = "활동적인";
 
 $text['description-on-busy']['en-us'] = "If enabled, it overrides the value of voicemail enabling in extension.";
-$text['description-on-busy']['vi-vn'] = "Chỉ chuyển tiếp khi bận.";
+$text['description-on-busy']['vi-vn'] = "Chỉ chuyển tiếp khi máy bận.";
 $text['description-on-busy']['en-gb'] = "If enabled, it overrides the value of voicemail enabling in extension.";
 $text['description-on-busy']['ar-eg'] = "إذا تم تمكينه ، فإنه يتجاوز قيمة تمكين البريد الصوتي في التمديد.";
 $text['description-on-busy']['de-at'] = "Falls aktiviert, wird die aktive Mailbox der Nebenstelle überschrieben.";

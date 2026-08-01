@@ -3709,7 +3709,7 @@ else { //default: white
 		}
 
 	.list-header > th.shrink {
-		width: 1%;
+		width: 5%;
 		}
 
 	.list-header > th > a.default-color {
