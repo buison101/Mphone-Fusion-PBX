@@ -77,7 +77,7 @@
 		$apps[$x]['default_settings'][$y]['default_setting_category'] = "follow_me";
 		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "timeout";
 		$apps[$x]['default_settings'][$y]['default_setting_name'] = "numeric";
-		$apps[$x]['default_settings'][$y]['default_setting_value'] = "30";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "45";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_order'] = "0";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Set the default Follow Me Timeout value.";

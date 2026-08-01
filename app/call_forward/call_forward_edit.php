@@ -485,7 +485,7 @@
 		if (empty($destinations[$n]['destination'])) { $destinations[$n]['destination'] =  null; }
 		if (empty($destinations[$n]['delay'])) { $destinations[$n]['delay'] =  null; }
 		if (empty($destinations[$n]['prompt'])) { $destinations[$n]['prompt'] =  null; }
-		if (empty($destinations[$n]['timeout'])) { $destinations[$n]['timeout'] =  30; }
+		if (empty($destinations[$n]['timeout'])) { $destinations[$n]['timeout'] =  45; }
 	}
 
 //get the extensions array - used with autocomplete
@@ -731,7 +731,7 @@
 									destination_select('destinations['.$n.'][delay]', $destination['delay'], '0');
 			echo "			</td>\n";
 			echo "			<td>\n";
-									destination_select('destinations['.$n.'][timeout]', $destination['timeout'], $settings->get('follow_me', 'timeout', 30));
+									destination_select('destinations['.$n.'][timeout]', $destination['timeout'], $settings->get('follow_me', 'timeout', 45));
 			echo "			</td>\n";
 			if (permission_exists('follow_me_prompt')) {
 				echo "		<td>\n";

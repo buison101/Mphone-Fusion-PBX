@@ -115,6 +115,42 @@
 		];
 	}
 
+	function follow_me_payload(database $database, array $extension): array {
+		$follow_me = [];
+		$destinations = [];
+		if (is_uuid($extension['follow_me_uuid'] ?? '')) {
+			$sql = "select cid_name_prefix, cid_number_prefix, follow_me_enabled, follow_me_ignore_busy ";
+			$sql .= "from v_follow_me where domain_uuid = :domain_uuid and follow_me_uuid = :follow_me_uuid";
+			$follow_me = $database->select($sql, [
+				'domain_uuid' => $extension['domain_uuid'],
+				'follow_me_uuid' => $extension['follow_me_uuid'],
+			], 'row') ?: [];
+
+			$sql = "select follow_me_destination_uuid, follow_me_destination, follow_me_delay, ";
+			$sql .= "follow_me_timeout, follow_me_prompt from v_follow_me_destinations ";
+			$sql .= "where follow_me_uuid = :follow_me_uuid order by follow_me_order asc";
+			$rows = $database->select($sql, ['follow_me_uuid' => $extension['follow_me_uuid']], 'all');
+			foreach ($rows as $destination) {
+				$destinations[] = [
+					'uuid' => $destination['follow_me_destination_uuid'],
+					'destination' => $destination['follow_me_destination'],
+					'delay' => (int) $destination['follow_me_delay'],
+					'timeout' => (int) $destination['follow_me_timeout'],
+					'confirm' => !empty($destination['follow_me_prompt']),
+				];
+			}
+		}
+		return [
+			'extension_uuid' => $extension['extension_uuid'],
+			'extension' => $extension['extension'],
+			'enabled' => filter_var($follow_me['follow_me_enabled'] ?? $extension['follow_me_enabled'] ?? false, FILTER_VALIDATE_BOOLEAN),
+			'ignore_busy' => filter_var($follow_me['follow_me_ignore_busy'] ?? false, FILTER_VALIDATE_BOOLEAN),
+			'cid_name_prefix' => $follow_me['cid_name_prefix'] ?? '',
+			'cid_number_prefix' => $follow_me['cid_number_prefix'] ?? '',
+			'destinations' => $destinations,
+		];
+	}
+
 	$service_secret = getenv('MPHONE_API_SECRET') ?: '';
 	$provided_secret = request_header('X-Mphone-Api-Key');
 	$session_user_uuid = session_user_uuid(request_header('X-Mphone-Session'));
@@ -137,6 +173,7 @@
 		}
 		$input = $decoded;
 	}
+	$mode = trim((string) ($_GET['mode'] ?? $input['mode'] ?? 'basic'));
 
 	$user_uuid = $session_user_uuid !== ''
 		? $session_user_uuid
@@ -168,6 +205,111 @@
 
 	if (empty($row)) {
 		api_response(404, ['error' => 'Extension not found or not assigned to user']);
+	}
+
+	if ($method === 'GET' && $mode === 'advanced') {
+		api_response(200, follow_me_payload($database, $row));
+	}
+
+	if ($method === 'PUT' && $mode === 'advanced') {
+		$enabled = boolean_value($input['enabled'] ?? null);
+		$ignore_busy = boolean_value($input['ignore_busy'] ?? null);
+		$cid_name_prefix = trim((string) ($input['cid_name_prefix'] ?? ''));
+		$cid_number_prefix = trim((string) ($input['cid_number_prefix'] ?? ''));
+		$submitted_destinations = $input['destinations'] ?? null;
+		if ($enabled === null || $ignore_busy === null || !is_array($submitted_destinations)) {
+			api_response(400, ['error' => 'Invalid advanced forwarding settings']);
+		}
+		if (count($submitted_destinations) > 5 || strlen($cid_name_prefix) > 255 || strlen($cid_number_prefix) > 255) {
+			api_response(400, ['error' => 'Advanced forwarding settings exceed allowed limits']);
+		}
+
+		$follow_me_uuid = is_uuid($row['follow_me_uuid'] ?? '') ? $row['follow_me_uuid'] : uuid();
+		$destinations = [];
+		foreach ($submitted_destinations as $index => $destination) {
+			if (!is_array($destination)) {
+				api_response(400, ['error' => 'Invalid destination']);
+			}
+			$number = trim((string) ($destination['destination'] ?? ''));
+			if ($number === '') {
+				continue;
+			}
+			$delay = (int) ($destination['delay'] ?? 0);
+			$timeout = (int) ($destination['timeout'] ?? 45);
+			$confirm = boolean_value($destination['confirm'] ?? false);
+			if (!preg_match('/^[*0-9]+$/', $number) || strlen($number) > 255 || $number === $row['extension']) {
+				api_response(400, ['error' => 'Invalid advanced forwarding destination']);
+			}
+			if ($delay < 0 || $delay > 100 || $timeout < 5 || $timeout > 100 || $confirm === null) {
+				api_response(400, ['error' => 'Delay and timeout must be between 0 and 100 seconds']);
+			}
+			$destinations[] = [
+				'uuid' => is_uuid($destination['uuid'] ?? '') ? $destination['uuid'] : uuid(),
+				'destination' => $number,
+				'delay' => $delay,
+				'timeout' => $timeout,
+				'confirm' => $confirm,
+				'order' => count($destinations),
+			];
+		}
+		$enabled = $enabled && count($destinations) > 0;
+
+		try {
+			$array['extensions'][0]['domain_uuid'] = $row['domain_uuid'];
+			$array['extensions'][0]['extension_uuid'] = $extension_uuid;
+			$array['extensions'][0]['follow_me_uuid'] = $follow_me_uuid;
+			$array['extensions'][0]['follow_me_enabled'] = $enabled ? 'true' : 'false';
+			if ($enabled) {
+				$array['extensions'][0]['forward_all_enabled'] = 'false';
+				$array['extensions'][0]['do_not_disturb'] = 'false';
+			}
+			$array['follow_me'][0]['domain_uuid'] = $row['domain_uuid'];
+			$array['follow_me'][0]['follow_me_uuid'] = $follow_me_uuid;
+			$array['follow_me'][0]['cid_name_prefix'] = $cid_name_prefix;
+			$array['follow_me'][0]['cid_number_prefix'] = $cid_number_prefix;
+			$array['follow_me'][0]['follow_me_ignore_busy'] = $ignore_busy ? 'true' : 'false';
+			$array['follow_me'][0]['follow_me_enabled'] = $enabled ? 'true' : 'false';
+			foreach ($destinations as $index => $destination) {
+				$array['follow_me'][0]['follow_me_destinations'][$index] = [
+					'domain_uuid' => $row['domain_uuid'],
+					'follow_me_uuid' => $follow_me_uuid,
+					'follow_me_destination_uuid' => $destination['uuid'],
+					'follow_me_destination' => $destination['destination'],
+					'follow_me_delay' => $destination['delay'],
+					'follow_me_timeout' => $destination['timeout'],
+					'follow_me_prompt' => $destination['confirm'] ? '1' : '',
+					'follow_me_order' => $destination['order'],
+				];
+			}
+			$database->save($array);
+			unset($array);
+
+			$kept_uuids = array_column($destinations, 'uuid');
+			$sql = "select follow_me_destination_uuid from v_follow_me_destinations where follow_me_uuid = :follow_me_uuid";
+			$existing = $database->select($sql, ['follow_me_uuid' => $follow_me_uuid], 'all');
+			foreach ($existing as $existing_destination) {
+				if (!in_array($existing_destination['follow_me_destination_uuid'], $kept_uuids, true)) {
+					$delete['follow_me_destinations'][]['follow_me_destination_uuid'] = $existing_destination['follow_me_destination_uuid'];
+				}
+			}
+			if (!empty($delete)) {
+				$database->delete($delete);
+			}
+
+			$cache = new cache;
+			$cache->delete('directory:' . $row['extension'] . '@' . $row['domain_name']);
+			if (!empty($settings->get('switch', 'extensions')) && is_readable($settings->get('switch', 'extensions'))) {
+				$extension_config = new extension;
+				$extension_config->xml();
+			}
+			$row['follow_me_uuid'] = $follow_me_uuid;
+			$row['follow_me_enabled'] = $enabled ? 'true' : 'false';
+			api_response(200, follow_me_payload($database, $row));
+		}
+		catch (Throwable $error) {
+			error_log('Mphone advanced call-forward API failed: ' . $error->getMessage());
+			api_response(500, ['error' => 'Unable to update advanced call forwarding']);
+		}
 	}
 
 	if ($method === 'GET') {
@@ -240,6 +382,11 @@
 			$notify->forward_no_answer_enabled = $updates['forward_no_answer_enabled'] === 'true';
 			$notify->forward_no_answer_destination = $updates['forward_no_answer_destination'] ?: '0';
 			$notify->send_notify();
+		}
+
+		if (!empty($settings->get('switch', 'extensions')) && is_readable($settings->get('switch', 'extensions'))) {
+			$extension_config = new extension;
+			$extension_config->xml();
 		}
 
 		$row = array_merge($row, $updates);
