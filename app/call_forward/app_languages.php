@@ -28,7 +28,7 @@ $text['title-call_forward']['ja-jp'] = "不在転送";
 $text['title-call_forward']['ko-kr'] = "착신 전환";
 
 $text['title-follow_me']['en-us'] = "Follow Me";
-$text['title-follow_me']['vi-vn'] = "Chuyển tiếp cuộc gọi";
+$text['title-follow_me']['vi-vn'] = "Chuyển tiếp nâng cao";
 $text['title-follow_me']['en-gb'] = "Follow Me";
 $text['title-follow_me']['ar-eg'] = "اتبعني";
 $text['title-follow_me']['de-at'] = "Anrufweiterschaltung";
@@ -163,7 +163,7 @@ $text['table-description']['ja-jp'] = "説明";
 $text['table-description']['ko-kr'] = "설명";
 
 $text['label-ring-timeout']['en-us'] = "Timeout";
-$text['label-ring-timeout']['vi-vn'] = "Thời gian chờ";
+$text['label-ring-timeout']['vi-vn'] = "Thời gian đổ chuông";
 $text['label-ring-timeout']['en-gb'] = "Timeout";
 $text['label-ring-timeout']['ar-eg'] = "نفذ الوقت";
 $text['label-ring-timeout']['de-at'] = "Abwurfzeit";
@@ -352,7 +352,7 @@ $text['label-no_answer']['ja-jp'] = "無回答";
 $text['label-no_answer']['ko-kr'] = "대답 없음";
 
 $text['label-not_registered']['en-us'] = "Not Registered";
-$text['label-not_registered']['vi-vn'] = "Chưa đăng ký";
+$text['label-not_registered']['vi-vn'] = "Không có kết nối";
 $text['label-not_registered']['en-gb'] = "Not Registered";
 $text['label-not_registered']['ar-eg'] = "غير مسجل";
 $text['label-not_registered']['de-at'] = "Nicht registriert";
@@ -406,7 +406,7 @@ $text['label-ignore_busy']['ja-jp'] = "ビジー状態を無視";
 $text['label-ignore_busy']['ko-kr'] = "바쁜 무시";
 
 $text['label-follow_me']['en-us'] = "Follow Me";
-$text['label-follow_me']['vi-vn'] = "Chuyển tiếp cuộc gọi";
+$text['label-follow_me']['vi-vn'] = "Chuyển tiếp nâng cao";
 $text['label-follow_me']['en-gb'] = "Follow Me";
 $text['label-follow_me']['ar-eg'] = "اتبعني";
 $text['label-follow_me']['de-at'] = "Anrufweiterschaltung";
@@ -433,7 +433,7 @@ $text['label-follow_me']['ja-jp'] = "フォローしてください";
 $text['label-follow_me']['ko-kr'] = "나를 따르라";
 
 $text['label-dashboard_follow_me']['en-us'] = "Follow Me";
-$text['label-dashboard_follow_me']['vi-vn'] = "Chuyển tiếp cuộc gọi";
+$text['label-dashboard_follow_me']['vi-vn'] = "Chuyển tiếp nâng cao";
 $text['label-dashboard_follow_me']['en-gb'] = "Follow Me";
 $text['label-dashboard_follow_me']['ar-eg'] = "اتبعني";
 $text['label-dashboard_follow_me']['de-at'] = "Anrufweiterschaltung";
@@ -515,7 +515,7 @@ $text['label-destinations']['ja-jp'] = "行き先";
 $text['label-destinations']['ko-kr'] = "목적지";
 
 $text['label-destination_timeout']['en-us'] = "Timeout";
-$text['label-destination_timeout']['vi-vn'] = "Thời gian chờ";
+$text['label-destination_timeout']['vi-vn'] = "Thời gian đổ chuông";
 $text['label-destination_timeout']['en-gb'] = "Timeout";
 $text['label-destination_timeout']['ar-eg'] = "نفذ الوقت";
 $text['label-destination_timeout']['de-at'] = "Abwurfzeit";
@@ -623,7 +623,7 @@ $text['label-destination_prompt']['ja-jp'] = "促す";
 $text['label-destination_prompt']['ko-kr'] = "즉각적인";
 
 $text['label-destination_number']['en-us'] = "Destination";
-$text['label-destination_number']['vi-vn'] = "Đích đến";
+$text['label-destination_number']['vi-vn'] = "SĐT";
 $text['label-destination_number']['en-gb'] = "Destination";
 $text['label-destination_number']['ar-eg'] = "وجهة";
 $text['label-destination_number']['de-at'] = "Ziel";
@@ -677,7 +677,7 @@ $text['label-destination_delay']['ja-jp'] = "遅れ";
 $text['label-destination_delay']['ko-kr'] = "지연";
 
 $text['label-destination']['en-us'] = "Destination";
-$text['label-destination']['vi-vn'] = "Đích đến";
+$text['label-destination']['vi-vn'] = "SĐT";
 $text['label-destination']['en-gb'] = "Destination";
 $text['label-destination']['ar-eg'] = "وجهة";
 $text['label-destination']['de-at'] = "Ziel";
@@ -812,7 +812,7 @@ $text['label-call-prompt']['ja-jp'] = "プロンプトを呼び出す";
 $text['label-call-prompt']['ko-kr'] = "전화 프롬프트";
 
 $text['label-call_forward']['en-us'] = "Call Forward";
-$text['label-call_forward']['vi-vn'] = "Chuyển tiếp";
+$text['label-call_forward']['vi-vn'] = "Chuyển tiếp thường";
 $text['label-call_forward']['en-gb'] = "Call Forward";
 $text['label-call_forward']['ar-eg'] = "دعوة إلى الأمام";
 $text['label-call_forward']['de-at'] = "Rufumleitung";
@@ -867,7 +867,7 @@ $text['label-active']['ja-jp'] = "アクティブ";
 $text['label-active']['ko-kr'] = "활동적인";
 
 $text['description-on-busy']['en-us'] = "If enabled, it overrides the value of voicemail enabling in extension.";
-$text['description-on-busy']['vi-vn'] = "Nếu bật, tùy chọn này sẽ ghi đè trạng thái bật thư thoại trong máy nhánh.";
+$text['description-on-busy']['vi-vn'] = "Chỉ chuyển tiếp khi bận.";
 $text['description-on-busy']['en-gb'] = "If enabled, it overrides the value of voicemail enabling in extension.";
 $text['description-on-busy']['ar-eg'] = "إذا تم تمكينه ، فإنه يتجاوز قيمة تمكين البريد الصوتي في التمديد.";
 $text['description-on-busy']['de-at'] = "Falls aktiviert, wird die aktive Mailbox der Nebenstelle überschrieben.";
@@ -894,7 +894,7 @@ $text['description-on-busy']['ja-jp'] = "有効にすると、内線番号で有
 $text['description-on-busy']['ko-kr'] = "활성화된 경우 내선에서 활성화된 음성 메일 값을 재정의합니다.";
 
 $text['description-no_answer']['en-us'] = "If enabled, it overrides the value of voicemail enabling in extension.";
-$text['description-no_answer']['vi-vn'] = "Nếu bật, tùy chọn này sẽ ghi đè trạng thái bật thư thoại trong máy nhánh.";
+$text['description-no_answer']['vi-vn'] = "Chỉ chuyển tiếp khi không trả lời.";
 $text['description-no_answer']['en-gb'] = "If enabled, it overrides the value of voicemail enabling in extension.";
 $text['description-no_answer']['ar-eg'] = "إذا تم تمكينه ، فإنه يتجاوز قيمة تمكين البريد الصوتي في التمديد.";
 $text['description-no_answer']['de-at'] = "Falls aktiviert, wird die aktive Mailbox der Nebenstelle überschrieben.";
@@ -921,7 +921,7 @@ $text['description-no_answer']['ja-jp'] = "有効にすると、内線番号で�
 $text['description-no_answer']['ko-kr'] = "활성화된 경우 내선에서 활성화된 음성 메일 값을 재정의합니다.";
 
 $text['description-not_registered']['en-us'] = "If endpoint is not reachable, forward to this destination before going to voicemail.";
-$text['description-not_registered']['vi-vn'] = "Nếu endpoint không liên lạc được, chuyển tiếp đến đích đến này trước khi vào thư thoại.";
+$text['description-not_registered']['vi-vn'] = "Chỉ chuyển tiếp khi không có kết nối.";
 $text['description-not_registered']['en-gb'] = "If endpoint is not reachable, forward to this destination before going to voicemail.";
 $text['description-not_registered']['ar-eg'] = "إذا كانت نقطة النهاية لا يمكن الوصول إليها ، فأعد توجيهها إلى هذه الوجهة قبل الانتقال إلى البريد الصوتي.";
 $text['description-not_registered']['de-at'] = "Rufweiterleitung an neues Ziel, wenn ursprüngliches Ziel nicht erreichbar ist, bevor die Mailbox aktiviert wird.";
@@ -1110,7 +1110,7 @@ $text['description-call_routing']['ja-jp'] = "次の内線番号の代替イン�
 $text['description-call_routing']['ko-kr'] = "다음 내선에 대한 대체 인바운드 통화 처리를 정의합니다.";
 
 $text['description-call_forward']['en-us'] = "Forward all calls to the specified destination.";
-$text['description-call_forward']['vi-vn'] = "Chuyển tiếp tất cả cuộc gọi đến đích đến đã chỉ định.";
+$text['description-call_forward']['vi-vn'] = "Chuyển tiếp tất cả các cuộc gọi.";
 $text['description-call_forward']['en-gb'] = "Forward all calls to the specified destination.";
 $text['description-call_forward']['ar-eg'] = "إعادة توجيه جميع المكالمات إلى الوجهة المحددة.";
 $text['description-call_forward']['de-at'] = "Leiten Sie alle Anrufe an das angegebene Ziel.";

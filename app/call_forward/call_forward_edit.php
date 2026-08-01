@@ -581,31 +581,30 @@
 
 	echo "<tr>\n";
 	echo "<td class='vncell' valign='top' align='left' nowrap='nowrap'>\n";
-	echo "	".$text['label-on-busy']."\n";
+	echo "	".$text['label-not_registered']."\n";
 	echo "</td>\n";
 	echo "<td class='vtable' align='left'>\n";
 	echo "	<script>\n";
-	echo "		function changed_forward_on_busy() {\n";
-	echo "			if (document.getElementById('forward_busy_enabled').value == 'true') {\n";
-	echo "				document.getElementById('do_not_disturb').value = 'false';\n";
-	echo "				document.getElementById('forward_busy_destination').focus();\n";
+	echo "		function changed_forward_not_registered() {\n";
+	echo "			if (document.getElementById('forward_user_not_registered_enabled').value == 'true') {\n";
+	echo "				document.getElementById('forward_user_not_registered_destination').focus();\n";
 	echo "			}\n";
 	echo "		}\n";
 	echo "	</script>\n";
 	if ($input_toggle_style_switch) {
 		echo "	<span class='switch'>\n";
 	}
-	echo "		<select class='formfld' id='forward_busy_enabled' name='forward_busy_enabled' onchange='changed_forward_on_busy();'>\n";
-	echo "			<option value='true' ".($forward_busy_enabled === true ? "selected='selected'" : '').">".$text['option-true']."</option>\n";
-	echo "			<option value='false' ".($forward_busy_enabled === false ? "selected='selected'" : '').">".$text['option-false']."</option>\n";
+	echo "		<select class='formfld' id='forward_user_not_registered_enabled' name='forward_user_not_registered_enabled' onchange='changed_forward_not_registered(this);'>\n";
+	echo "			<option value='true' ".($forward_user_not_registered_enabled === true ? "selected='selected'" : '').">".$text['option-true']."</option>\n";
+	echo "			<option value='false' ".($forward_user_not_registered_enabled === false ? "selected='selected'" : '').">".$text['option-false']."</option>\n";
 	echo "		</select>\n";
 	if ($input_toggle_style_switch) {
 		echo "		<span class='slider'></span>\n";
 		echo "	</span>\n";
 		echo "&nbsp;";
 	}
-	echo "	<input class='formfld' type='text' name='forward_busy_destination' id='forward_busy_destination' maxlength='255' placeholder=\"".$text['label-destination']."\" value=\"".escape($forward_busy_destination)."\">\n";
-	echo "	<br />".$text['description-on-busy']."\n";
+	echo "	<input class='formfld' type='text' name='forward_user_not_registered_destination' id='forward_user_not_registered_destination' maxlength='255' placeholder=\"".$text['label-destination']."\" value=\"".escape($forward_user_not_registered_destination)."\">\n";
+	echo "	<br />".$text['description-not_registered']."\n";
 	echo "</td>\n";
 	echo "</tr>\n";
 
@@ -641,30 +640,31 @@
 
 	echo "<tr>\n";
 	echo "<td class='vncell' valign='top' align='left' nowrap='nowrap'>\n";
-	echo "	".$text['label-not_registered']."\n";
+	echo "	".$text['label-on-busy']."\n";
 	echo "</td>\n";
 	echo "<td class='vtable' align='left'>\n";
 	echo "	<script>\n";
-	echo "		function changed_forward_not_registered() {\n";
-	echo "			if (document.getElementById('forward_user_not_registered_enabled').value == 'true') {\n";
-	echo "				document.getElementById('forward_user_not_registered_destination').focus();\n";
+	echo "		function changed_forward_on_busy() {\n";
+	echo "			if (document.getElementById('forward_busy_enabled').value == 'true') {\n";
+	echo "				document.getElementById('do_not_disturb').value = 'false';\n";
+	echo "				document.getElementById('forward_busy_destination').focus();\n";
 	echo "			}\n";
 	echo "		}\n";
 	echo "	</script>\n";
 	if ($input_toggle_style_switch) {
 		echo "	<span class='switch'>\n";
 	}
-	echo "		<select class='formfld' id='forward_user_not_registered_enabled' name='forward_user_not_registered_enabled' onchange='changed_forward_not_registered(this);'>\n";
-	echo "			<option value='true' ".($forward_user_not_registered_enabled === true ? "selected='selected'" : '').">".$text['option-true']."</option>\n";
-	echo "			<option value='false' ".($forward_user_not_registered_enabled === false ? "selected='selected'" : '').">".$text['option-false']."</option>\n";
+	echo "		<select class='formfld' id='forward_busy_enabled' name='forward_busy_enabled' onchange='changed_forward_on_busy();'>\n";
+	echo "			<option value='true' ".($forward_busy_enabled === true ? "selected='selected'" : '').">".$text['option-true']."</option>\n";
+	echo "			<option value='false' ".($forward_busy_enabled === false ? "selected='selected'" : '').">".$text['option-false']."</option>\n";
 	echo "		</select>\n";
 	if ($input_toggle_style_switch) {
 		echo "		<span class='slider'></span>\n";
 		echo "	</span>\n";
 		echo "&nbsp;";
 	}
-	echo "	<input class='formfld' type='text' name='forward_user_not_registered_destination' id='forward_user_not_registered_destination' maxlength='255' placeholder=\"".$text['label-destination']."\" value=\"".escape($forward_user_not_registered_destination)."\">\n";
-	echo "	<br />".$text['description-not_registered']."\n";
+	echo "	<input class='formfld' type='text' name='forward_busy_destination' id='forward_busy_destination' maxlength='255' placeholder=\"".$text['label-destination']."\" value=\"".escape($forward_busy_destination)."\">\n";
+	echo "	<br />".$text['description-on-busy']."\n";
 	echo "</td>\n";
 	echo "</tr>\n";
 
