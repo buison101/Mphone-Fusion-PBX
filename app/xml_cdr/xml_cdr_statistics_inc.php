@@ -37,6 +37,13 @@
 // assign default value for show all
 	$showall = false;
 
+//select the statistics data source
+	$data_source = ($_REQUEST['data_source'] ?? 'real') === 'test' ? 'test' : 'real';
+	$chart_range = $_REQUEST['chart_range'] ?? '24h';
+	if (!in_array($chart_range, ['24h', '7d', '30d', '1y'])) {
+		$chart_range = '24h';
+	}
+
 //show all call detail records to admin and superadmin. for everyone else show only the call details for extensions assigned to them
 	if (!permission_exists('xml_cdr_domain')) {
 		// select caller_id_number, destination_number from v_xml_cdr where domain_uuid = ''
@@ -382,10 +389,37 @@
 		$time_format = 'HH12:MI am';
 	}
 
+//build time buckets for the selected chart range
+	switch ($chart_range) {
+		case '7d':
+			$chart_bucket_count = 7;
+			$chart_bucket_label = 'Ngày';
+			$statistics_date_format = 'DD Mon';
+			$statistics_windows_sql = "select bucket as s_id, 24::numeric as s_hour, date_trunc('day', now()) - (bucket * interval '1 day') as start_date, date_trunc('day', now()) + interval '1 day' - (bucket * interval '1 day') as end_date from generate_series(0, 6) as bucket";
+			break;
+		case '30d':
+			$chart_bucket_count = 30;
+			$chart_bucket_label = 'Ngày';
+			$statistics_date_format = 'DD Mon';
+			$statistics_windows_sql = "select bucket as s_id, 24::numeric as s_hour, date_trunc('day', now()) - (bucket * interval '1 day') as start_date, date_trunc('day', now()) + interval '1 day' - (bucket * interval '1 day') as end_date from generate_series(0, 29) as bucket";
+			break;
+		case '1y':
+			$chart_bucket_count = 12;
+			$chart_bucket_label = 'Tháng';
+			$statistics_date_format = 'Mon YYYY';
+			$statistics_windows_sql = "select bucket as s_id, extract(epoch from ((date_trunc('month', now()) + interval '1 month' - (bucket * interval '1 month')) - (date_trunc('month', now()) - (bucket * interval '1 month')))) / 3600 as s_hour, date_trunc('month', now()) - (bucket * interval '1 month') as start_date, date_trunc('month', now()) + interval '1 month' - (bucket * interval '1 month') as end_date from generate_series(0, 11) as bucket";
+			break;
+		default:
+			$chart_bucket_count = 24;
+			$chart_bucket_label = 'Giờ';
+			$statistics_date_format = 'DD Mon';
+			$statistics_windows_sql = "select bucket as s_id, 1::numeric as s_hour, date_trunc('hour', now()) - (bucket * interval '1 hour') as start_date, date_trunc('hour', now()) + interval '1 hour' - (bucket * interval '1 hour') as end_date from generate_series(0, 23) as bucket";
+	}
+
 //build the sql query for xml cdr statistics
 	$sql = "select ";
 	$sql .= "row_number() over() as hours, ";
-	$sql .= "to_char(start_date at time zone :time_zone, 'DD Mon') as date, \n";
+	$sql .= "to_char(start_date at time zone :time_zone, '".$statistics_date_format."') as date, \n";
 	$sql .= "to_char(start_date at time zone :time_zone, '".$time_format."') || ' - ' || to_char(end_date at time zone :time_zone, '".$time_format."') as time, \n";
 	$sql .= "extract(epoch from start_date) as start_epoch, ";
 	$sql .= "extract(epoch from end_date) as end_epoch, ";
@@ -400,42 +434,26 @@
 	$sql .= "( \n";
 	$sql .= "	select \n";
 	$sql .= "	(count(*) filter ( \n";
-	$sql .= "		where start_stamp between s.start_date and s.end_date \n";
+	$sql .= "		where start_stamp >= s.start_date and start_stamp < s.end_date \n";
 	$sql .= "	)) as volume, \n";
 	$sql .= "	(count(*) filter ( \n";
-	$sql .= "		where start_stamp between s.start_date and s.end_date \n";
+	$sql .= "		where start_stamp >= s.start_date and start_stamp < s.end_date \n";
 	$sql .= "		and c.originating_leg_uuid IS NULL \n";
 	$sql .= "		and (c.answer_stamp IS NOT NULL and c.bridge_uuid IS NOT NULL) \n";
 	$sql .= "		and (c.cc_side IS NULL or c.cc_side !='agent') \n";
 	$sql .= "	)) as answered, \n";
 	$sql .= "	(count(*) filter ( \n";
-	$sql .= "		where start_stamp between s.start_date and s.end_date \n";
+	$sql .= "		where start_stamp >= s.start_date and start_stamp < s.end_date \n";
 	$sql .= "		and missed_call = true \n";
 	$sql .= "	)) as missed, \n";
 	$sql .= "	(sum(c.billsec) filter ( \n";
-	$sql .= "		where c.start_stamp between s.start_date and s.end_date \n";
+	$sql .= "		where c.start_stamp >= s.start_date and c.start_stamp < s.end_date \n";
 	$sql .= "	)) as seconds, \n";
 	$sql .= "	s.start_date, \n";
 	$sql .= "	s.end_date, \n";
 	$sql .= "	s.s_hour \n";
 	$sql .= "	from v_xml_cdr as c, \n";
-	$sql .= "	( \n";
-	$sql .= "		select h.s_id, h.s_start, h.s_end, h.s_hour, \n";
-	$sql .= "			(date_trunc('hour', now()) + (interval '1 hour') - (h.s_start * (interval '1 hour'))) as start_date, \n";
-	$sql .= "			(date_trunc('hour', now()) + (interval '1 hour') - (h.s_end * (interval '1 hour'))) as end_date  \n";
-	$sql .= "		from ( \n";
-	$sql .= "				select generate_series(0, 23) as s_id, generate_series(1, 24) as s_start, generate_series(0, 23) as s_end, 1 s_hour \n";
-	$sql .= "				union \n";
-	$sql .= "				select 25 s_id, 24 as s_start, 0 as s_end, 24 s_hour \n";
-	$sql .= "				union \n";
-	$sql .= "				select 26 s_id, 168 as s_start, 0 as s_end, 168 s_hour \n";
-	$sql .= "				union \n";
-	$sql .= "				select 27 s_id, 720 as s_start, 0 as s_end, 720 s_hour \n";
-	$sql .= "			) as h \n";
-	$sql .= "		where true \n";
-	$sql .= "		group by s_id, s_hour, s_start, s_end \n";
-	$sql .= "		order by s_id asc \n";
-	$sql .= "	) as s \n";
+	$sql .= "	(".$statistics_windows_sql.") as s \n";
 	$sql .= "where true \n";
 
 //concatenate the 'ands's array, add to where clause
@@ -601,10 +619,45 @@
 	$sql .= "	order by s.s_id asc \n";
 	$sql .= ") as d; \n";
 	$parameters['time_zone'] = $time_zone;
-	$stats = $database->select($sql, $parameters, 'all');
+	if ($data_source === 'test') {
+		//Use the isolated synthetic CDR database without changing production records.
+		$test_sql = "with windows as (\n";
+		$test_sql .= $statistics_windows_sql."\n";
+		$test_sql .= "), totals as (\n";
+		$test_sql .= "\tselect w.*, count(c.id) as volume,\n";
+		$test_sql .= "\t\tcount(c.id) filter (where c.status = 'answered') as answered,\n";
+		$test_sql .= "\t\tcount(c.id) filter (where c.missed_call) as missed,\n";
+		$test_sql .= "\t\tcoalesce(sum(c.billsec), 0) as seconds\n";
+		$test_sql .= "\tfrom windows w\n";
+		$test_sql .= "\tleft join analytics_test.call_records c on c.start_stamp >= w.start_date and c.start_stamp < w.end_date\n";
+		$test_sql .= "\tgroup by w.s_id, w.s_hour, w.start_date, w.end_date\n";
+		$test_sql .= ")\n";
+		$test_sql .= "select row_number() over (order by s_id) as hours,\n";
+		$test_sql .= "\tto_char(start_date at time zone :time_zone, '".$statistics_date_format."') as date,\n";
+		$test_sql .= "\tto_char(start_date at time zone :time_zone, '".$time_format."') || ' - ' || to_char(end_date at time zone :time_zone, '".$time_format."') as time,\n";
+		$test_sql .= "\textract(epoch from start_date) as start_epoch, extract(epoch from end_date) as end_epoch,\n";
+		$test_sql .= "\ts_hour, start_date, end_date, volume, answered, round(seconds / 60.0, 1) as minutes,\n";
+		$test_sql .= "\tvolume::numeric / (s_hour * 60) as calls_per_minute, volume::numeric / s_hour as calls_per_hour, missed,\n";
+		$test_sql .= "\tanswered::numeric / (s_hour * 60) as cpm_answered, volume::numeric / (s_hour * 60) as avg_min,\n";
+		$test_sql .= "\tround(100 * answered::numeric / nullif(volume, 0), 2) as asr,\n";
+		$test_sql .= "\tround(seconds::numeric / nullif(answered, 0) / 60, 2) as aloc, seconds\n";
+		$test_sql .= "from totals order by s_id";
 
-//set the hours
-	$hours = 23;
+		$test_dsn = "pgsql:host=".$database->host.";port=".$database->port.";dbname=fusionpbx_analytics_test";
+		$test_database = new PDO($test_dsn, $database->username, $database->password, [
+			PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+			PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+		]);
+		$statement = $test_database->prepare($test_sql);
+		$statement->execute(['time_zone' => $time_zone]);
+		$stats = $statement->fetchAll();
+	}
+	else {
+		$stats = $database->select($sql, $parameters, 'all');
+	}
+
+//set the number of graph buckets
+	$hours = $chart_bucket_count - 1;
 
 //show the graph
 	$x = 0;
@@ -618,13 +671,6 @@
 	foreach ($stats as $row) {
 		$graph['minutes'][$x][] = $row['start_epoch'] * 1000;
 		$graph['minutes'][$x][] = round($row['minutes'] ?? 0,2);
-		if ($x == $hours) { break; }
-		$x++;
-	}
-	$x = 0;
-	foreach ($stats as $row) {
-		$graph['call_per_min'][$x][] = $row['start_epoch'] * 1000;
-		$graph['call_per_min'][$x][] = round($row['avg_min'],2);
 		if ($x == $hours) { break; }
 		$x++;
 	}

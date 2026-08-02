@@ -38,6 +38,24 @@
 //add multi-lingual support
 	$language = new text;
 	$text = $language->get();
+	$language_code = strtolower($settings->get('domain', 'language', 'en-us'));
+	$is_vietnamese = $language_code === 'vi' || str_starts_with($language_code, 'vi-');
+	if ($chart_range === '24h') {
+		$chart_bucket_label = $text['label-hours'] ?? ($is_vietnamese ? 'Giờ' : 'Hours');
+	}
+	else if ($chart_range === '1y') {
+		$chart_bucket_label = $text['label-months'] ?? ($is_vietnamese ? 'Tháng' : 'Months');
+	}
+	else {
+		$chart_bucket_label = $text['label-days'] ?? ($is_vietnamese ? 'Ngày' : 'Days');
+	}
+	$chart_labels = [
+		'volume' => $is_vietnamese ? 'Số cuộc gọi' : ($text['label-volume'] ?? 'Volume'),
+		'minutes' => $is_vietnamese ? 'Tổng phút' : ($text['label-minutes'] ?? 'Minutes'),
+		'missed' => $is_vietnamese ? 'Cuộc gọi nhỡ' : ($text['label-missed'] ?? 'Missed'),
+		'asr' => $is_vietnamese ? 'Tỷ lệ trả lời' : 'ASR',
+		'aloc' => $is_vietnamese ? 'Thời lượng trung bình' : 'ALOC',
+	];
 
 //set default showall
 	$show_all = false;
@@ -48,6 +66,10 @@
 
 //search url
 	$search_url = '';
+	if ($data_source === 'test') {
+		$search_url .= '&data_source=test';
+	}
+	$search_url .= '&chart_range='.urlencode($chart_range);
 	if (permission_exists('xml_cdr_search_advanced')) {
 		$search_url .= '&redirect=xml_cdr_statistics';
 	}
@@ -143,6 +165,18 @@
 	echo "<div class='action_bar' id='action_bar'>\n";
 	echo "	<div class='heading'><b>".$text['title-call-statistics']."</b></div>\n";
 	echo "	<div class='actions'>\n";
+	echo "		<span style='display: inline-flex; align-items: center; gap: 6px; margin-right: 12px;'>\n";
+	echo "			<span>".escape($text['label-data_source'] ?? 'Nguồn dữ liệu').":</span>\n";
+	echo button::create(['type'=>'button','label'=>'Thật','icon'=>($data_source === 'real' ? 'check-circle' : 'database'),'link'=>'xml_cdr_statistics.php?chart_range='.urlencode($chart_range)]);
+	echo button::create(['type'=>'button','label'=>'Test','icon'=>($data_source === 'test' ? 'check-circle' : 'flask'),'link'=>'xml_cdr_statistics.php?data_source=test&chart_range='.urlencode($chart_range)]);
+	echo "		</span>\n";
+	echo "		<span style='display: inline-flex; align-items: center; gap: 6px; margin-right: 12px;'>\n";
+	echo "			<span>".escape($text['label-chart_range'] ?? 'Khoảng biểu đồ').":</span>\n";
+	foreach (['24h' => '24 giờ', '7d' => '7 ngày', '30d' => '30 ngày', '1y' => '1 năm'] as $range_value => $range_label) {
+		$range_query = ($data_source === 'test' ? 'data_source=test&' : '').'chart_range='.$range_value;
+		echo button::create(['type'=>'button','label'=>$range_label,'icon'=>($chart_range === $range_value ? 'check-circle' : 'chart-line'),'link'=>'xml_cdr_statistics.php?'.$range_query]);
+	}
+	echo "		</span>\n";
 	if (substr_count($_SERVER['HTTP_REFERER'], 'app/xml_cdr/xml_cdr.php') != 0) {
 		echo button::create(['type'=>'button','label'=>$text['button-back'],'icon'=>$settings->get('theme', 'button_icon_back'),'id'=>'btn_back','style'=>'margin-right: 15px;','link'=>'xml_cdr.php']);
 	}
@@ -178,49 +212,71 @@
 		const cdr_stats_data = {
 			datasets: [
 				{
-					label: "Volume",
+					label: <?php echo json_encode($chart_labels['volume']); ?>,
 					data: <?php echo json_encode($graph['volume']); ?>,
-					backgroundColor: "#F59E0B",
-					borderColor: "#F59E0B",
-					fill: false
-				},
-				{
-					label: "Minutes",
-					data: <?php echo json_encode($graph['minutes']); ?>,
-					backgroundColor: "#B9CEF8",
-					borderColor: "#B9CEF8",
-					fill: false
-				},
-				{
-					label: "Calls Per Min",
-					data: <?php echo json_encode($graph['call_per_min']); ?>,
-					backgroundColor: "#EF4444",
-					borderColor: "#EF4444",
-					fill: false
-				},
-				{
-					label: "Missed",
-					data: <?php echo json_encode($graph['missed']); ?>,
 					backgroundColor: "#22C55E",
 					borderColor: "#22C55E",
 					fill: false
 				},
 				{
-					label: "ASR",
-					data: <?php echo json_encode($graph['asr']); ?>,
+					label: <?php echo json_encode($chart_labels['minutes']); ?>,
+					data: <?php echo json_encode($graph['minutes']); ?>,
 					backgroundColor: "#4F7FE2",
 					borderColor: "#4F7FE2",
 					fill: false
 				},
 				{
-					label: "ALOC",
-					data: <?php echo json_encode($graph['aloc']); ?>,
+					label: <?php echo json_encode($chart_labels['missed']); ?>,
+					data: <?php echo json_encode($graph['missed']); ?>,
+					backgroundColor: "#EF4444",
+					borderColor: "#EF4444",
+					fill: false
+				},
+				{
+					label: <?php echo json_encode($chart_labels['asr']); ?>,
+					data: <?php echo json_encode($graph['asr']); ?>,
 					backgroundColor: "#F59E0B",
 					borderColor: "#F59E0B",
+					fill: false
+				},
+				{
+					label: <?php echo json_encode($chart_labels['aloc']); ?>,
+					data: <?php echo json_encode($graph['aloc']); ?>,
+					backgroundColor: "#B9CEF8",
+					borderColor: "#B9CEF8",
 					fill: false
 				}
 			]
 		};
+
+		<?php
+			$tooltip_date_options = ['timeZone' => $time_zone];
+			switch ($chart_range) {
+				case '1y':
+					$tooltip_date_options['month'] = '2-digit';
+					$tooltip_date_options['year'] = 'numeric';
+					break;
+				case '7d':
+					$tooltip_date_options['day'] = '2-digit';
+					$tooltip_date_options['month'] = '2-digit';
+					break;
+				case '30d':
+					$tooltip_date_options['day'] = '2-digit';
+					$tooltip_date_options['month'] = '2-digit';
+					$tooltip_date_options['year'] = 'numeric';
+					break;
+				default:
+					$tooltip_date_options['hour'] = '2-digit';
+					$tooltip_date_options['minute'] = '2-digit';
+					$tooltip_date_options['hour12'] = $settings->get('domain', 'time_format') != '24h';
+					$tooltip_date_options['day'] = '2-digit';
+					$tooltip_date_options['month'] = '2-digit';
+			}
+		?>
+		const cdr_tooltip_date_formatter = new Intl.DateTimeFormat(
+			'vi-VN',
+			<?php echo json_encode($tooltip_date_options); ?>
+		);
 
 		const cdr_stats_config = {
 			type: 'line',
@@ -228,6 +284,11 @@
 			options: {
 				responsive: true,
 				maintainAspectRatio: false,
+				interaction: {
+					mode: 'index',
+					axis: 'x',
+					intersect: false
+				},
 				plugins: {
 					legend: {
 						display: true,
@@ -237,6 +298,16 @@
 							color: '#444',
 							boxWidth: 15
 						}
+					},
+					tooltip: {
+						mode: 'index',
+						intersect: false,
+						callbacks: {
+							title: (items) => {
+								if (!items.length) return '';
+								return cdr_tooltip_date_formatter.format(new Date(items[0].parsed.x));
+							}
+						}
 					}
 				},
 				scales: {
@@ -245,6 +316,8 @@
 						time: {
 							displayFormats: {
 								hour: '<?php echo $chart_time_format; ?>',
+								day: 'dd MMM',
+								month: 'MMM yyyy',
 							}
 						},
 					},
@@ -288,63 +361,56 @@
 	echo "<div class='card'>\n";
 	echo "<table class='list'>\n";
 	echo "<tr class='list-header'>\n";
-	echo "	<th>".$text['label-hours']."</th>\n";
-	echo "	<th>".$text['label-date']."</th>\n";
 	echo "	<th class='no-wrap'>".$text['label-time']."</th>\n";
-	echo "	<th title='".$text['description-volume']."'>".$text['label-volume']."</th>\n";
-	echo "	<th>".$text['label-minutes']."</th>\n";
-	echo "	<th title='".$text['description-calls-per-minute']."'>".$text['label-calls-per-minute']."</th>\n";
-	echo "	<th class='center'>".$text['label-missed']."</th>\n";
-	echo "	<th title='".$text['description-asr']."'>".$text['label-asr']."</th>\n";
-	echo "	<th title='".$text['description-aloc']."'>".$text['label-aloc']."</th>\n";
+	echo "	<th title='".$text['description-volume']."'>".escape($chart_labels['volume'])."</th>\n";
+	echo "	<th>".escape($chart_labels['minutes'])."</th>\n";
+	echo "	<th class='center'>".escape($chart_labels['missed'])."</th>\n";
+	echo "	<th title='".$text['description-asr']."'>".escape($chart_labels['asr'])."</th>\n";
+	echo "	<th title='".$text['description-aloc']."'>".escape($chart_labels['aloc'])."</th>\n";
 	echo "</tr>\n";
 
-	$i = 0;
 	foreach ($stats as $row) {
+		$display_date = $row['date'];
+		$display_time = $row['time'];
+		if ($is_vietnamese && !empty($row['start_epoch']) && !empty($row['end_epoch'])) {
+			$start_date_time = (new DateTimeImmutable('@'.(int) $row['start_epoch']))->setTimezone(new DateTimeZone($time_zone));
+			$end_date_time = (new DateTimeImmutable('@'.(int) $row['end_epoch']))->setTimezone(new DateTimeZone($time_zone));
+			switch ($chart_range) {
+				case '1y':
+					$display_date = $start_date_time->format('m/Y');
+					$display_time = '';
+					break;
+				case '7d':
+					$weekdays = [
+						1 => 'Thứ Hai',
+						2 => 'Thứ Ba',
+						3 => 'Thứ Tư',
+						4 => 'Thứ Năm',
+						5 => 'Thứ Sáu',
+						6 => 'Thứ Bảy',
+						7 => 'Chủ Nhật',
+					];
+					$display_date = $weekdays[(int) $start_date_time->format('N')].', '.$start_date_time->format('d/m');
+					$display_time = '';
+					break;
+				case '30d':
+					$display_date = $start_date_time->format('d/m');
+					$display_time = '';
+					break;
+				default:
+					$display_date = $start_date_time->format('H:i').' - '.$end_date_time->format('H:i');
+					$display_time = $start_date_time->format('d/m');
+			}
+		}
+		$combined_time = trim($display_date.(!empty($display_time) ? ' '.$display_time : ''));
 		echo "<tr class='list-row'>\n";
-		if ($i <= $hours) {
-			echo "	<td>".$row['hours']."</td>\n";
-		}
-		else if ($i == $hours+1) {
-			echo "	<br /><br />\n";
-			echo "</tr>\n";
-			echo "<tr>\n";
-			echo "	<td>\n";
-			echo "		<br /><br />\n";
-			echo "	</td>\n";
-			echo "</tr>\n";
-			echo "<tr class='list-header'>\n";
-			echo "	<th class='no-wrap'>".$text['label-days']."</th>\n";
-			echo "	<th class='no-wrap'>".$text['label-date']."</th>\n";
-			echo "	<th class='no-wrap'>".$text['label-time']."</th>\n";
-			echo "	<th>Volume</th>\n";
-			echo "	<th>".$text['label-minutes']."</th>\n";
-			echo "	<th class='no-wrap'>".$text['label-calls-per-minute']."</th>\n";
-			echo "	<th class='center'>".$text['label-missed']."</th>\n";
-			echo "	<th>ASR</th>\n";
-			echo "	<th>ALOC</th>\n";
-			echo "</tr>\n";
-			echo "<tr class='list-row'>\n";
-		}
-		if ($i > $hours) {
-			echo "	<td>" . floor(escape($row['s_hour'])/24) . "</td>\n";
-		}
-		if ($i <= $hours) {
-			echo "	<td>".$row['date']."</td>\n";
-			echo "	<td>".$row['time']."&nbsp;</td>\n";
-		}
-		else {
-			echo "	<td>".$row['date']."</td>\n";
-			echo "	<td>".$row['time']."&nbsp;</td>\n";
-		}
+		echo "	<td class='no-wrap'>".escape($combined_time)."&nbsp;</td>\n";
 		echo "	<td>".escape($row['volume'])."&nbsp;</td>\n";
 		echo "	<td>".escape(round($row['minutes'] ?? 0, 2))."&nbsp;</td>\n";
-		echo "	<td>".escape(round($row['avg_min'] ?? 0, 2))."&nbsp;/&nbsp;".escape(round($row['cpm_answered'] ?? 0, 2))."&nbsp;</td>\n";
 		echo "	<td class='center'><a href=\"xml_cdr.php?call_result=missed&direction=".$direction."&start_epoch=".escape($row['start_epoch'] ?? '')."&stop_epoch=".escape($row['stop_epoch'] ?? '')."\">".escape($row['missed'] ?? '')."</a>&nbsp;</td>\n";
 		echo "	<td>".escape(round($row['asr'] ?? 0, 2))."&nbsp;</td>\n";
 		echo "	<td>".escape(round($row['aloc'] ?? 0, 2))."&nbsp;</td>\n";
 		echo "</tr >\n";
-		$i++;
 	}
 	echo "</table>\n";
 	echo "</div>\n";
