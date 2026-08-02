@@ -862,6 +862,8 @@ class menu {
 			'/app/conferences_active/conferences_active.php',
 			'/app/fax/fax.php',
 			'/app/fax_queue/fax_queue.php',
+			'/core/users/user_profile.php',
+			'/logout.php',
 		];
 		if (is_array($sub_result) && @sizeof($sub_result) != 0) {
 			foreach ($sub_result as $row) {

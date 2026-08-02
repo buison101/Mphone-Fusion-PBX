@@ -266,11 +266,11 @@
 	$apps[$x]['menu'][$y]['icon'] = "fa-solid fa-right-from-bracket";
 	$apps[$x]['menu'][$y]['path'] = "/logout.php";
 	$apps[$x]['menu'][$y]['order'] = "";
-	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
-	$apps[$x]['menu'][$y]['groups'][] = "admin";
-	$apps[$x]['menu'][$y]['groups'][] = "user";
-	$apps[$x]['menu'][$y]['groups'][] = "agent";
-	$apps[$x]['menu'][$y]['groups'][] = "fax";
+	//$apps[$x]['menu'][$y]['groups'][] = "superadmin";
+	//$apps[$x]['menu'][$y]['groups'][] = "admin";
+	//$apps[$x]['menu'][$y]['groups'][] = "user";
+	//$apps[$x]['menu'][$y]['groups'][] = "agent";
+	//$apps[$x]['menu'][$y]['groups'][] = "fax";
 	$y++;
 
 ?>
