@@ -716,6 +716,13 @@ window.addEventListener('resize', update_parent_height);
 		$widget_details_state = preg_replace($text_pattern, '', $widget_details_state);
 		$widget_row_span = preg_replace($number_pattern, '', $widget_row_span);
 		$widget_path = preg_replace($text_pattern, '', strtolower($row['widget_path']));
+		$widget_class = '';
+		if ($widget_path == 'call_forward/call_forward') {
+			$widget_class = ' dashboard-call-forward';
+		}
+		elseif ($widget_path == 'ring_groups/ring_group_forward') {
+			$widget_class = ' dashboard-ring-group-forward';
+		}
 
 		//find the application and widget
 		$widget_path_array = explode('/', $widget_path);
@@ -723,7 +730,7 @@ window.addEventListener('resize', update_parent_height);
 		$widget_path_name = $widget_path_array[1];
 		$path_array = glob(dirname(__DIR__, 2).'/*/'.$application_name.'/resources/dashboard/'.$widget_path_name.'.php');
 
-		echo "<div class='widget ".$widget_details_state."' id='".$widget_id."' ".($widget_path == 'dashboard/parent' ? "data-is-parent='true'" : null)." draggable='false'>\n";
+		echo "<div class='widget ".$widget_details_state.$widget_class."' id='".$widget_id."' ".($widget_path == 'dashboard/parent' ? "data-is-parent='true'" : null)." draggable='false'>\n";
 		if (file_exists($path_array[0])) {
 			include $path_array[0];
 		}

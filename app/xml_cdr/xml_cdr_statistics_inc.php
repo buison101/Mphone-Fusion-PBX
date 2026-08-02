@@ -39,6 +39,10 @@
 
 //select the statistics data source
 	$data_source = ($_REQUEST['data_source'] ?? 'real') === 'test' ? 'test' : 'real';
+	$can_use_test_data = permission_exists('xml_cdr_domain');
+	if ($data_source === 'test' && !$can_use_test_data) {
+		$data_source = 'real';
+	}
 	$chart_range = $_REQUEST['chart_range'] ?? '24h';
 	if (!in_array($chart_range, ['24h', '7d', '30d', '1y'])) {
 		$chart_range = '24h';
@@ -670,7 +674,7 @@
 	$x = 0;
 	foreach ($stats as $row) {
 		$graph['minutes'][$x][] = $row['start_epoch'] * 1000;
-		$graph['minutes'][$x][] = round($row['minutes'] ?? 0,2);
+		$graph['minutes'][$x][] = round($row['minutes'] ?? 0);
 		if ($x == $hours) { break; }
 		$x++;
 	}
@@ -684,7 +688,7 @@
 	$x = 0;
 	foreach ($stats as $row) {
 		$graph['asr'][$x][] = $row['start_epoch'] * 1000;
-		$graph['asr'][$x][] = round($row['asr'] ?? 0,2) / 100;
+		$graph['asr'][$x][] = round($row['asr'] ?? 0,2);
 		if ($x == $hours) { break; }
 		$x++;
 	}

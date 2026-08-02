@@ -266,6 +266,7 @@
 		$apps[$x]['permissions'][$y]['name'] = "xml_cdr_statistics";
 		$apps[$x]['permissions'][$y]['groups'][] = "superadmin";
 		$apps[$x]['permissions'][$y]['groups'][] = "admin";
+		$apps[$x]['permissions'][$y]['groups'][] = "user";
 		$y++;
 		$apps[$x]['permissions'][$y]['name'] = "xml_cdr_export";
 		$apps[$x]['permissions'][$y]['groups'][] = "superadmin";
@@ -1254,4 +1255,3 @@
 		$apps[$x]['db'][$y]['fields'][$z]['type']['sqlite'] = "text";
 		$apps[$x]['db'][$y]['fields'][$z]['type']['mysql'] = "char(36)";
 		$apps[$x]['db'][$y]['fields'][$z]['description']['en-us'] = "";
-

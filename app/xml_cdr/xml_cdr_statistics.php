@@ -50,12 +50,22 @@
 		$chart_bucket_label = $text['label-days'] ?? ($is_vietnamese ? 'Ngày' : 'Days');
 	}
 	$chart_labels = [
-		'volume' => $is_vietnamese ? 'Số cuộc gọi' : ($text['label-volume'] ?? 'Volume'),
-		'minutes' => $is_vietnamese ? 'Tổng phút' : ($text['label-minutes'] ?? 'Minutes'),
-		'missed' => $is_vietnamese ? 'Cuộc gọi nhỡ' : ($text['label-missed'] ?? 'Missed'),
-		'asr' => $is_vietnamese ? 'Tỷ lệ trả lời' : 'ASR',
-		'aloc' => $is_vietnamese ? 'Thời lượng trung bình' : 'ALOC',
+		'volume' => $is_vietnamese ? 'Số cuộc gọi' : 'Call count',
+		'minutes' => $is_vietnamese ? 'Tổng phút' : 'Total minutes',
+		'missed' => $is_vietnamese ? 'Cuộc gọi nhỡ' : 'Missed calls',
+		'asr' => $is_vietnamese ? 'Tỷ lệ trả lời' : 'Answer rate',
+		'aloc' => $is_vietnamese ? 'Thời lượng trung bình' : 'Average duration',
 	];
+	$format_stat_number = static function ($value, int $decimals = 2) use ($is_vietnamese) {
+		if (!$is_vietnamese) {
+			return (string) round((float) $value, $decimals);
+		}
+		$formatted = number_format((float) $value, $decimals, ',', '.');
+		if ($decimals > 0) {
+			$formatted = rtrim(rtrim($formatted, '0'), ',');
+		}
+		return $formatted;
+	};
 
 //set default showall
 	$show_all = false;
@@ -165,14 +175,19 @@
 	echo "<div class='action_bar' id='action_bar'>\n";
 	echo "	<div class='heading'><b>".$text['title-call-statistics']."</b></div>\n";
 	echo "	<div class='actions'>\n";
+	if ($can_use_test_data) {
+		echo "		<span style='display: inline-flex; align-items: center; gap: 6px; margin-right: 12px;'>\n";
+		echo "			<span>".escape($text['label-data_source'] ?? ($is_vietnamese ? 'Nguồn dữ liệu' : 'Data source')).":</span>\n";
+		echo button::create(['type'=>'button','label'=>($is_vietnamese ? 'Thật' : 'Real'),'icon'=>($data_source === 'real' ? 'check-circle' : 'database'),'link'=>'xml_cdr_statistics.php?chart_range='.urlencode($chart_range)]);
+		echo button::create(['type'=>'button','label'=>'Test','icon'=>($data_source === 'test' ? 'check-circle' : 'flask'),'link'=>'xml_cdr_statistics.php?data_source=test&chart_range='.urlencode($chart_range)]);
+		echo "		</span>\n";
+	}
 	echo "		<span style='display: inline-flex; align-items: center; gap: 6px; margin-right: 12px;'>\n";
-	echo "			<span>".escape($text['label-data_source'] ?? 'Nguồn dữ liệu').":</span>\n";
-	echo button::create(['type'=>'button','label'=>'Thật','icon'=>($data_source === 'real' ? 'check-circle' : 'database'),'link'=>'xml_cdr_statistics.php?chart_range='.urlencode($chart_range)]);
-	echo button::create(['type'=>'button','label'=>'Test','icon'=>($data_source === 'test' ? 'check-circle' : 'flask'),'link'=>'xml_cdr_statistics.php?data_source=test&chart_range='.urlencode($chart_range)]);
-	echo "		</span>\n";
-	echo "		<span style='display: inline-flex; align-items: center; gap: 6px; margin-right: 12px;'>\n";
-	echo "			<span>".escape($text['label-chart_range'] ?? 'Khoảng biểu đồ').":</span>\n";
-	foreach (['24h' => '24 giờ', '7d' => '7 ngày', '30d' => '30 ngày', '1y' => '1 năm'] as $range_value => $range_label) {
+	echo "			<span>".escape($text['label-chart_range'] ?? ($is_vietnamese ? 'Khoảng biểu đồ' : 'Chart range')).":</span>\n";
+	$range_options = $is_vietnamese
+		? ['24h' => '24 giờ', '7d' => '7 ngày', '30d' => '30 ngày', '1y' => '1 năm']
+		: ['24h' => '24 hours', '7d' => '7 days', '30d' => '30 days', '1y' => '1 year'];
+	foreach ($range_options as $range_value => $range_label) {
 		$range_query = ($data_source === 'test' ? 'data_source=test&' : '').'chart_range='.$range_value;
 		echo button::create(['type'=>'button','label'=>$range_label,'icon'=>($chart_range === $range_value ? 'check-circle' : 'chart-line'),'link'=>'xml_cdr_statistics.php?'.$range_query]);
 	}
@@ -191,9 +206,6 @@
 	echo "	</div>\n";
 	echo "	<div style='clear: both;'></div>\n";
 	echo "</div>\n";
-
-	echo $text['label-call-statistics-description']."\n";
-	echo "<br /><br />\n";
 
 	echo "<div class='card'>\n";
 	?>
@@ -234,6 +246,7 @@
 				},
 				{
 					label: <?php echo json_encode($chart_labels['asr']); ?>,
+					unit: '%',
 					data: <?php echo json_encode($graph['asr']); ?>,
 					backgroundColor: "#F59E0B",
 					borderColor: "#F59E0B",
@@ -274,8 +287,12 @@
 			}
 		?>
 		const cdr_tooltip_date_formatter = new Intl.DateTimeFormat(
-			'vi-VN',
+			<?php echo json_encode($is_vietnamese ? 'vi-VN' : $language_code); ?>,
 			<?php echo json_encode($tooltip_date_options); ?>
+		);
+		const cdr_number_formatter = new Intl.NumberFormat(
+			<?php echo json_encode($is_vietnamese ? 'vi-VN' : $language_code); ?>,
+			{ maximumFractionDigits: 2 }
 		);
 
 		const cdr_stats_config = {
@@ -306,6 +323,10 @@
 							title: (items) => {
 								if (!items.length) return '';
 								return cdr_tooltip_date_formatter.format(new Date(items[0].parsed.x));
+							},
+							label: (context) => {
+								const suffix = context.dataset.unit ?? '';
+								return `${context.dataset.label}: ${cdr_number_formatter.format(context.parsed.y)}${suffix}`;
 							}
 						}
 					}
@@ -322,7 +343,10 @@
 						},
 					},
 					y: {
-						min: 0
+						min: 0,
+						ticks: {
+							callback: (value) => cdr_number_formatter.format(value)
+						}
 					}
 				},
 				elements: {
@@ -372,7 +396,7 @@
 	foreach ($stats as $row) {
 		$display_date = $row['date'];
 		$display_time = $row['time'];
-		if ($is_vietnamese && !empty($row['start_epoch']) && !empty($row['end_epoch'])) {
+		if (!empty($row['start_epoch']) && !empty($row['end_epoch'])) {
 			$start_date_time = (new DateTimeImmutable('@'.(int) $row['start_epoch']))->setTimezone(new DateTimeZone($time_zone));
 			$end_date_time = (new DateTimeImmutable('@'.(int) $row['end_epoch']))->setTimezone(new DateTimeZone($time_zone));
 			switch ($chart_range) {
@@ -381,15 +405,9 @@
 					$display_time = '';
 					break;
 				case '7d':
-					$weekdays = [
-						1 => 'Thứ Hai',
-						2 => 'Thứ Ba',
-						3 => 'Thứ Tư',
-						4 => 'Thứ Năm',
-						5 => 'Thứ Sáu',
-						6 => 'Thứ Bảy',
-						7 => 'Chủ Nhật',
-					];
+					$weekdays = $is_vietnamese
+						? [1 => 'T2', 2 => 'T3', 3 => 'T4', 4 => 'T5', 5 => 'T6', 6 => 'T7', 7 => 'CN']
+						: [1 => 'Mon', 2 => 'Tue', 3 => 'Wed', 4 => 'Thu', 5 => 'Fri', 6 => 'Sat', 7 => 'Sun'];
 					$display_date = $weekdays[(int) $start_date_time->format('N')].', '.$start_date_time->format('d/m');
 					$display_time = '';
 					break;
@@ -405,11 +423,11 @@
 		$combined_time = trim($display_date.(!empty($display_time) ? ' '.$display_time : ''));
 		echo "<tr class='list-row'>\n";
 		echo "	<td class='no-wrap'>".escape($combined_time)."&nbsp;</td>\n";
-		echo "	<td>".escape($row['volume'])."&nbsp;</td>\n";
-		echo "	<td>".escape(round($row['minutes'] ?? 0, 2))."&nbsp;</td>\n";
-		echo "	<td class='center'><a href=\"xml_cdr.php?call_result=missed&direction=".$direction."&start_epoch=".escape($row['start_epoch'] ?? '')."&stop_epoch=".escape($row['stop_epoch'] ?? '')."\">".escape($row['missed'] ?? '')."</a>&nbsp;</td>\n";
-		echo "	<td>".escape(round($row['asr'] ?? 0, 2))."&nbsp;</td>\n";
-		echo "	<td>".escape(round($row['aloc'] ?? 0, 2))."&nbsp;</td>\n";
+		echo "	<td>".escape($format_stat_number($row['volume'], 0))."&nbsp;</td>\n";
+		echo "	<td>".escape($format_stat_number($row['minutes'] ?? 0, 0))."&nbsp;</td>\n";
+		echo "	<td class='center'><a href=\"xml_cdr.php?call_result=missed&direction=".$direction."&start_epoch=".escape($row['start_epoch'] ?? '')."&stop_epoch=".escape($row['stop_epoch'] ?? '')."\">".escape($format_stat_number($row['missed'] ?? 0, 0))."</a>&nbsp;</td>\n";
+		echo "	<td>".escape($format_stat_number($row['asr'] ?? 0))."%&nbsp;</td>\n";
+		echo "	<td>".escape($format_stat_number($row['aloc'] ?? 0))."&nbsp;</td>\n";
 		echo "</tr >\n";
 	}
 	echo "</table>\n";

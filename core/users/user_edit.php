@@ -141,7 +141,7 @@
 				$contact_name_given = $_POST["contact_name_given"];
 				$contact_name_family = $_POST["contact_name_family"];
 			}
-			$group_uuid_name = $_POST["group_uuid_name"];
+			$group_uuids = isset($_POST["group_uuids"]) && is_array($_POST["group_uuids"]) ? $_POST["group_uuids"] : [];
 			$user_type = $_POST["user_type"];
 			$user_enabled = $_POST["user_enabled"];
 			if (permission_exists('api_key')) {
@@ -224,7 +224,7 @@
 				if (empty($password)) {
 					message::add($text['message-password_blank'], 'negative', 7500);
 				}
-				if (empty($group_uuid_name)) {
+				if (empty($group_uuids)) {
 					$invalid[] = $text['label-group'];
 				}
 			}
@@ -423,28 +423,42 @@
 			}
 			unset($sql, $parameters, $row);
 
-		//assign the user to the group
-			if ((permission_exists('user_add') || permission_exists('user_edit')) && !empty($_REQUEST["group_uuid_name"])) {
-				$group_data = explode('|', $group_uuid_name);
-				$group_uuid = $group_data[0];
-				$group_name = $group_data[1];
-
-				//compare the group level to only add groups at the same level or lower than the user
-				$sql = "select * from v_groups ";
+		//synchronize the user groups selected with the checkboxes
+			if (permission_exists('user_add') || permission_exists('user_edit')) {
+				$sql = "select group_uuid, group_name from v_groups ";
 				$sql .= "where (domain_uuid = :domain_uuid or domain_uuid is null) ";
-				$sql .= "and group_uuid = :group_uuid ";
+				$sql .= "and lower(group_name) not in ('agent', 'fax', 'public') ";
+				$sql .= "and group_level <= :group_level ";
 				$parameters['domain_uuid'] = $_SESSION['domain_uuid'];
-				$parameters['group_uuid'] = $group_uuid;
-				$row = $database->select($sql, $parameters, 'row');
-				if ($row['group_level'] <= $_SESSION['user']['group_level']) {
-					$array['user_groups'][$n]['user_group_uuid'] = uuid();
-					$array['user_groups'][$n]['domain_uuid'] = $domain_uuid;
-					$array['user_groups'][$n]['group_name'] = $group_name;
-					$array['user_groups'][$n]['group_uuid'] = $group_uuid;
-					$array['user_groups'][$n]['user_uuid'] = $user_uuid;
-					$n++;
+				$parameters['group_level'] = $_SESSION['user']['group_level'];
+				$available_groups = $database->select($sql, $parameters, 'all');
+				unset($sql, $parameters);
+
+				$sql = "select group_uuid from v_user_groups where user_uuid = :user_uuid ";
+				$parameters['user_uuid'] = $user_uuid;
+				$existing_groups = $database->select($sql, $parameters, 'all');
+				$existing_group_uuids = array_column(is_array($existing_groups) ? $existing_groups : [], 'group_uuid');
+				unset($sql, $parameters, $existing_groups);
+
+				foreach (is_array($available_groups) ? $available_groups : [] as $group) {
+					$group_selected = in_array($group['group_uuid'], $group_uuids, true);
+					$group_assigned = in_array($group['group_uuid'], $existing_group_uuids, true);
+					if ($group_selected && !$group_assigned) {
+						$array['user_groups'][$n]['user_group_uuid'] = uuid();
+						$array['user_groups'][$n]['domain_uuid'] = $domain_uuid;
+						$array['user_groups'][$n]['group_name'] = $group['group_name'];
+						$array['user_groups'][$n]['group_uuid'] = $group['group_uuid'];
+						$array['user_groups'][$n]['user_uuid'] = $user_uuid;
+						$n++;
+					}
+					else if (!$group_selected && $group_assigned && permission_exists('user_group_delete')) {
+						$delete_array['user_groups'][0]['group_uuid'] = $group['group_uuid'];
+						$delete_array['user_groups'][0]['user_uuid'] = $user_uuid;
+						$database->delete($delete_array);
+						unset($delete_array);
+					}
 				}
-				unset($parameters);
+				unset($available_groups, $existing_group_uuids, $group, $group_selected, $group_assigned);
 			}
 
 		//update domain, if changed
@@ -1001,6 +1015,7 @@
 		$sql .= "	) ";
 		$sql .= "	and ug.domain_uuid = :domain_uuid ";
 		$sql .= "	and ug.user_uuid = :user_uuid ";
+		$sql .= "	and lower(g.group_name) not in ('agent', 'fax', 'public') ";
 		$sql .= "order by ";
 		$sql .= "	g.domain_uuid desc, ";
 		$sql .= "	g.group_name asc ";
@@ -1008,30 +1023,19 @@
 		$parameters['user_uuid'] = $user_uuid;
 		$user_groups = $database->select($sql, $parameters, 'all');
 		if (is_array($user_groups)) {
-			echo "<table cellpadding='0' cellspacing='0' border='0'>\n";
-			if (permission_exists('user_group_delete')) {
-				echo "	<input type='hidden' id='action' name='action' value=''>\n";
-				echo "	<input type='hidden' id='group_uuid' name='group_uuid' value=''>\n";
-			}
-			$x = 0;
+			echo "<table cellpadding='0' cellspacing='0' border='0' style='display: none;'>\n";
 			foreach($user_groups as $field) {
 				if (!empty($field['group_name'])) {
 					echo "<tr>\n";
 					echo "	<td class='vtable' style='white-space: nowrap; padding-right: 30px;' nowrap='nowrap'>";
-					echo escape($field['group_name']).((!empty($field['group_domain_uuid'])) ? "@".$_SESSION['domains'][$field['group_domain_uuid']]['domain_name'] : null);
+					echo "<label><input type='checkbox' value='".escape($field['group_uuid'])."' checked='checked' disabled='disabled'> ";
+					echo escape($field['group_name']).((!empty($field['group_domain_uuid'])) ? "@".$_SESSION['domains'][$field['group_domain_uuid']]['domain_name'] : null)."</label>";
 					echo "	</td>\n";
-					if (permission_exists('user_group_delete')) {
-						echo "	<td class='list_control_icons' style='width: 25px;'>\n";
-						echo button::create(['type'=>'button','icon'=>'fas fa-minus','id'=>'btn_delete','class'=>'default list_control_icon','name'=>'btn_delete','onclick'=>"modal_open('modal-delete-group-$x','btn_delete');"]);
-						echo modal::create(['id'=>'modal-delete-group-'.$x,'type'=>'delete','actions'=>button::create(['type'=>'button','label'=>$text['button-continue'],'icon'=>'check','id'=>'btn_delete','style'=>'float: right; margin-left: 15px;','collapse'=>'never','onclick'=>"modal_close(); list_action_set('delete'); document.getElementById('group_uuid').value = '".escape($field['group_uuid'])."'; list_form_submit('frm');"])]);
-						echo "	</td>\n";
-					}
 					echo "</tr>\n";
 					if (is_uuid($field['group_uuid'])) {
 						$assigned_groups[] = $field['group_uuid'];
 					}
 				}
-				$x++;
 			}
 			echo "</table>\n";
 		}
@@ -1039,28 +1043,20 @@
 
 		$sql = "select * from v_groups ";
 		$sql .= "where (domain_uuid = :domain_uuid or domain_uuid is null) ";
-		if (!empty($assigned_groups) && is_array($assigned_groups) && sizeof($assigned_groups) > 0) {
-			$sql .= "and group_uuid not in ('".implode("','",$assigned_groups)."') ";
-		}
+		$sql .= "and lower(group_name) not in ('agent', 'fax', 'public') ";
 		$sql .= "order by domain_uuid desc, group_name asc ";
 		$parameters['domain_uuid'] = $domain_uuid;
 		$groups = $database->select($sql, $parameters, 'all');
 		if (is_array($groups)) {
-			if (isset($assigned_groups)) { echo "<br />\n"; }
-			echo "<select name='group_uuid_name' class='formfld' style='width: auto; margin-right: 3px;' ".($action == 'add' ? "required='required'" : null).">\n";
-			echo "	<option value=''></option>\n";
+			echo "<div style='display: flex; flex-wrap: wrap; gap: 8px 24px;'>\n";
 			foreach($groups as $field) {
 				if ($field['group_level'] <= $_SESSION['user']['group_level']) {
-					if (!isset($assigned_groups) || (isset($assigned_groups) && !in_array($field["group_uuid"], $assigned_groups))) {
-						if (isset($group_uuid_name) && $group_uuid_name == $field['group_uuid']."|".$field['group_name']) { $selected = "selected='selected'"; } else { $selected = ''; }
-						echo "	<option value='".$field['group_uuid']."|".$field['group_name']."' $selected>".$field['group_name'].((!empty($field['domain_uuid'])) ? "@".$_SESSION['domains'][$field['domain_uuid']]['domain_name'] : null)."</option>\n";
-					}
+					$checked = isset($assigned_groups) && in_array($field['group_uuid'], $assigned_groups, true) ? " checked='checked'" : null;
+					echo "	<label style='white-space: nowrap;'><input type='checkbox' name='group_uuids[]' value='".escape($field['group_uuid'])."'".$checked."> ";
+					echo escape($field['group_name']).((!empty($field['domain_uuid'])) ? "@".escape($_SESSION['domains'][$field['domain_uuid']]['domain_name']) : null)."</label>\n";
 				}
 			}
-			echo "</select>";
-			if ($action == 'edit') {
-				echo button::create(['type'=>'button','label'=>$text['button-add'],'icon'=>$settings->get('theme', 'button_icon_add'),'onclick'=>'submit_form();']);
-			}
+			echo "</div>";
 		}
 		unset($sql, $parameters, $groups, $field);
 

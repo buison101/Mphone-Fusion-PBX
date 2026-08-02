@@ -24,6 +24,7 @@
 	{if !empty($settings.theme.custom_css)}
 		<link rel='stylesheet' type='text/css' href='{$settings.theme.custom_css}'>
 	{/if}
+	<link rel='stylesheet' type='text/css' href='{$project_path}/themes/mybrand/custom.css'>
 
 {*//set favorite icon *}
 	<link rel='icon' href='{$settings.theme.favicon}'>

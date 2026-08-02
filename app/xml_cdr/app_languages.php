@@ -113,7 +113,10 @@ $text['title-call_detail_records']['ja-jp'] = "通話詳細記録";
 $text['title-call_detail_records']['ko-kr'] = "통화 내역 기록";
 
 $text['title-call-statistics']['en-us'] = "Call Detail Record Statistics";
-$text['title-call-statistics']['vi-vn'] = 'Thống kê bản ghi chi tiết cuộc gọi';
+$text['title-call-statistics']['vi-vn'] = 'Thống kê cuộc gọi';
+$text['title-call_statistics']['en-us'] = 'Call Statistics';
+$text['title-call_statistics']['en-gb'] = 'Call Statistics';
+$text['title-call_statistics']['vi-vn'] = 'Thống kê cuộc gọi';
 $text['title-call-statistics']['en-gb'] = "Call Detail Record Statistics";
 $text['title-call-statistics']['ar-eg'] = "إحصائيات سجل تفاصيل المكالمة";
 $text['title-call-statistics']['de-at'] = "Anruf Statistiken";

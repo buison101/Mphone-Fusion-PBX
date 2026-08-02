@@ -104,7 +104,7 @@
 
 //doughnut chart
 	if (empty($widget_chart_type) || $widget_chart_type == "doughnut") {
-		echo "<div class='hud_chart' style='width: 275px;'><canvas id='call_forward_chart'></canvas></div>\n";
+		echo "<div class='hud_chart' style='width: 90%;'><canvas id='call_forward_chart'></canvas></div>\n";
 
 		echo "<script>\n";
 		echo "	const call_forward_chart = new Chart(\n";
@@ -162,7 +162,8 @@
 		echo "					},\n";
 		echo "					legend: {\n";
 		echo "						display: true,\n";
-		echo "						position: 'right',\n";
+		echo "						position: 'left',\n";
+		echo "						align: 'center',\n";
 		echo "						reverse: true,\n";
 		echo "						labels: {\n";
 		echo "							usePointStyle: true,\n";
@@ -180,7 +181,7 @@
 		echo "					ctx.textBaseline = 'middle';\n";
 		echo "					ctx.textAlign = 'center';\n";
 		echo "					ctx.fillStyle = '".$widget_number_text_color."';\n";
-		echo "					ctx.fillText(options.text, width / 2, top + (height / 2));\n";
+		echo "					ctx.fillText(options.text, left + (width / 2), top + (height / 2));\n";
 		echo "					ctx.save();\n";
 		echo "				}\n";
 		echo "			}]\n";

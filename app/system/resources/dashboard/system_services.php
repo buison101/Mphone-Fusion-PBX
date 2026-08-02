@@ -156,7 +156,7 @@ echo "		<span class='hud_title'>".escape($widget_label)."</span>\n";
 
 //doughnut chart
 if (!isset($widget_chart_type) || $widget_chart_type == "doughnut") {
-	echo "	<div class='hud_chart' style='width: 250px;'><canvas id='system_services_chart'></canvas></div>\n";
+	echo "	<div class='hud_chart' style='width: 90%;'><canvas id='system_services_chart'></canvas></div>\n";
 	echo "	<script>\n";
 	echo "		const system_services_chart = new Chart (\n";
 	echo "			document.getElementById('system_services_chart').getContext('2d'),\n";
@@ -181,7 +181,8 @@ if (!isset($widget_chart_type) || $widget_chart_type == "doughnut") {
 	echo "						},\n";
 	echo "						legend: {\n";
 	echo "							display: true,\n";
-	echo "							position: 'right',\n";
+	echo "							position: 'left',\n";
+	echo "							align: 'center',\n";
 	echo "							labels: {\n";
 	echo "								usePointStyle: true,\n";
 	echo "								pointStyle: 'rect',\n";
@@ -198,7 +199,7 @@ if (!isset($widget_chart_type) || $widget_chart_type == "doughnut") {
 	echo "						ctx.textBaseline = 'middle';\n";
 	echo "						ctx.textAlign = 'center';\n";
 	echo "						ctx.fillStyle = '$widget_number_text_color';\n";
-	echo "						ctx.fillText(options.text, width / 2, top + (height / 2));\n";
+	echo "						ctx.fillText(options.text, left + (width / 2), top + (height / 2));\n";
 	echo "						ctx.save();\n";
 	echo "					}\n";
 	echo "				}]\n";

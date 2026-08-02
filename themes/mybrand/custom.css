@@ -91,6 +91,11 @@ body, div#body_header, #main_content {
     background: #fcfcfd;
 }
 
-input[type=text].formfld:focus {
-    box-shadow: none;
+input.formfld:focus, select.formfld:focus {
+    box-shadow: none !important;
+}
+/*	Ẩn hai mục Call Forward và Ring Group Forward trong Dashboard */
+.dashboard-call-forward,
+.dashboard-ring-group-forward {
+	display: none !important;
 }
