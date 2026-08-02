@@ -54,7 +54,6 @@
 		if ($application_group[5]) {
 			$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 			$apps[$x]['menu'][$y]['groups'][] = "admin";
-			$apps[$x]['menu'][$y]['groups'][] = "user";
 			$apps[$x]['menu'][$y]['groups'][] = "agent";
 			$apps[$x]['menu'][$y]['groups'][] = "fax";
 		}
@@ -79,7 +78,6 @@
 		$apps[$x]['menu'][$y]['order'] = $status_group[3];
 		$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 		$apps[$x]['menu'][$y]['groups'][] = "admin";
-		$apps[$x]['menu'][$y]['groups'][] = "user";
 		$y++;
 	}
 

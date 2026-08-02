@@ -815,32 +815,38 @@ class menu {
 			$_SESSION['groups'][0]['group_name'] = 'public';
 		}
 
-		//get the child menu from the database
+		//build the group filter
+		$x = 0;
+		$sql_where_or = [];
+		foreach ($_SESSION['groups'] as $row) {
+			$sql_where_or[] = "g.group_name = :group_name_" . $x;
+			$parameters['group_name_' . $x] = $row['group_name'];
+			$x++;
+		}
+		$sql_group_where = implode(' or ', $sql_where_or);
+
+		//get visible children and structural parents of visible grandchildren
 		$sql = "select i.menu_item_link, l.menu_item_title as menu_language_title, ";
 		$sql .= "i.menu_item_title, i.menu_item_category, i.menu_item_icon, ";
-		$sql .= "i.menu_item_icon_color, i.menu_item_uuid, i.menu_item_parent_uuid ";
+		$sql .= "i.menu_item_icon_color, i.menu_item_uuid, i.menu_item_parent_uuid, ";
+		$sql .= "case when exists ( ";
+		$sql .= "select 1 from v_menu_item_groups as g ";
+		$sql .= "where g.menu_uuid = :menu_uuid and g.menu_item_uuid = i.menu_item_uuid ";
+		$sql .= "and (" . $sql_group_where . ") ";
+		$sql .= ") then 'true' else 'false' end as menu_item_group_visible ";
 		$sql .= "from v_menu_items as i, v_menu_languages as l ";
 		$sql .= "where i.menu_item_uuid = l.menu_item_uuid ";
 		$sql .= "and l.menu_language = :menu_language ";
 		$sql .= "and l.menu_uuid = :menu_uuid ";
 		$sql .= "and i.menu_uuid = :menu_uuid ";
 		$sql .= "and i.menu_item_parent_uuid = :menu_item_parent_uuid ";
-		$sql .= "and i.menu_item_uuid in ";
-		$sql .= "( ";
-		$sql .= "select menu_item_uuid ";
-		$sql .= "from v_menu_item_groups ";
-		$sql .= "where menu_uuid = :menu_uuid ";
-		$x = 0;
-		foreach ($_SESSION['groups'] as $row) {
-			$sql_where_or[] = "group_name = :group_name_" . $x;
-			$parameters['group_name_' . $x] = $row['group_name'];
-			$x++;
-		}
-		if (is_array($sql_where_or) && @sizeof($sql_where_or) != 0) {
-			$sql .= "and ( ";
-			$sql .= implode(' or ', $sql_where_or);
-			$sql .= ") ";
-		}
+		$sql .= "and ( ";
+		$sql .= "exists (select 1 from v_menu_item_groups as g where g.menu_uuid = :menu_uuid and g.menu_item_uuid = i.menu_item_uuid and (" . $sql_group_where . ")) ";
+		$sql .= "or exists ( ";
+		$sql .= "select 1 from v_menu_items as child ";
+		$sql .= "join v_menu_item_groups as g on g.menu_item_uuid = child.menu_item_uuid and g.menu_uuid = :menu_uuid ";
+		$sql .= "where child.menu_item_parent_uuid = i.menu_item_uuid and child.menu_uuid = :menu_uuid and (" . $sql_group_where . ") ";
+		$sql .= ") ";
 		$sql .= ") ";
 		$sql .= "order by l.menu_item_title, i.menu_item_order asc ";
 		$parameters['menu_language'] = $this->settings->get('domain', 'language', 'en-us');
@@ -1488,6 +1494,13 @@ class menu {
 		$html = '';
 		foreach ($menu_items as $menu_item) {
 			$has_children = !empty($menu_item['menu_items']) && is_array($menu_item['menu_items']);
+			if (!$has_children && empty($menu_item['menu_item_link'])) {
+				continue;
+			}
+			if ($has_children && ($menu_item['menu_item_group_visible'] ?? 'true') === 'false') {
+				$html .= $this->menu_vertical_children($menu_item['menu_items'], $menu_side_state, $level);
+				continue;
+			}
 			$uuid = escape($menu_item['menu_item_uuid']);
 			$title = escape($menu_item['menu_language_title']);
 			$padding_left = $level === 1 ? 16 : 20 + (($level - 1) * 18);
