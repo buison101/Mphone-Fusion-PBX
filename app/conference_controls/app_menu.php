@@ -31,7 +31,7 @@
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/conference_controls/conference_controls.php";
 	$apps[$x]['menu'][$y]['order'] = "";
-	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
+	//$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
 
 ?>

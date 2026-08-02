@@ -31,8 +31,8 @@
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/conference_centers/conference_centers.php";
 	$apps[$x]['menu'][$y]['order'] = "";
-	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
-	$apps[$x]['menu'][$y]['groups'][] = "admin";
+	//$apps[$x]['menu'][$y]['groups'][] = "superadmin";
+	//$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$y++;
 	$apps[$x]['menu'][$y]['title']['en-us'] = "Conference Rooms";
 	$apps[$x]['menu'][$y]['title']['en-gb'] = "Conference Rooms";
@@ -64,7 +64,7 @@
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/conference_centers/conference_rooms.php";
 	$apps[$x]['menu'][$y]['order'] = "";
-	$apps[$x]['menu'][$y]['groups'][] = "user";
+	//$apps[$x]['menu'][$y]['groups'][] = "user";
 	$y++;
 
 ?>

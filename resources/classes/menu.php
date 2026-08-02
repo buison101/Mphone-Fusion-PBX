@@ -852,8 +852,24 @@ class menu {
 		//save the child menu into an array
 		$x = 0;
 		$a = [];
+		$hidden_menu_links = [
+			'/app/conferences/conferences.php',
+			'/app/conference_centers/conference_centers.php',
+			'/app/conference_centers/conference_rooms.php',
+			'/app/conference_profiles/conference_profiles.php',
+			'/app/conference_controls/conference_controls.php',
+			'/app/active_conferences/active_conferences.php',
+			'/app/conferences_active/conferences_active.php',
+			'/app/fax/fax.php',
+			'/app/fax_queue/fax_queue.php',
+		];
 		if (is_array($sub_result) && @sizeof($sub_result) != 0) {
 			foreach ($sub_result as $row) {
+				//hide conference-related pages from the navigation menu
+				if (in_array($row['menu_item_link'], $hidden_menu_links, true)) {
+					continue;
+				}
+
 				//set the variables
 				$menu_item_link = $row['menu_item_link'];
 				$menu_item_category = $row['menu_item_category'];
