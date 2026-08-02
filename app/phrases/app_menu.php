@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "フレーズ";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "실없는 말";
 	$apps[$x]['menu'][$y]['uuid'] = "a5caa6dc-a6d7-41c3-a484-e556ffd0d2ff";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010004-7a11-4f31-9011-000000000004";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/phrases/phrases.php";

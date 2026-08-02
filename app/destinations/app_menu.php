@@ -63,7 +63,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "目的地の概要";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "목적지 요약";
 	$apps[$x]['menu'][$y]['uuid'] = "47f7b1a4-1ea2-4068-8e14-b1c13c489bd2";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "0438b504-8613-7887-c420-c837ffb20cb1";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f020004-7a11-4f31-9021-000000000004";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/destinations/destination_summary.php";
@@ -98,7 +98,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "目的地マップ";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "목적지 지도";
 	$apps[$x]['menu'][$y]['uuid'] = "fbc720fc-d550-44cd-ad0b-0a25223d9299";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "0438b504-8613-7887-c420-c837ffb20cb1";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f020004-7a11-4f31-9021-000000000004";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/destinations/destination_map.php";

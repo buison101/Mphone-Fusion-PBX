@@ -26,7 +26,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "緊急ログ";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "긴급 상황 로그";
 	$apps[$x]['menu'][$y]['uuid'] = "4404d592-775b-11ee-bb5c-005056a27559";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "0438b504-8613-7887-c420-c837ffb20cb1";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f020003-7a11-4f31-9021-000000000003";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/emergency/emergency.php";

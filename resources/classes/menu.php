@@ -1482,6 +1482,36 @@ class menu {
 	}
 
 	/**
+	 * Render recursive children for the vertical menu.
+	 */
+	private function menu_vertical_children($menu_items, $menu_side_state, $level = 1) {
+		$html = '';
+		foreach ($menu_items as $menu_item) {
+			$has_children = !empty($menu_item['menu_items']) && is_array($menu_item['menu_items']);
+			$uuid = escape($menu_item['menu_item_uuid']);
+			$title = escape($menu_item['menu_language_title']);
+			$padding_left = $level === 1 ? 16 : 20 + (($level - 1) * 18);
+			$icon = '';
+			if ($this->settings->get('theme', 'menu_sub_icons', true) !== false && !empty($menu_item['menu_item_icon']) && substr($menu_item['menu_item_icon'], 0, 3) == 'fa-') {
+				$icon = "<span class='" . escape($menu_item['menu_item_icon']) . " fa-fw' style='" . (!empty($menu_item['menu_item_icon_color']) ? "color: " . escape($menu_item['menu_item_icon_color']) . " !important;" : "opacity: 0.3;") . "'></span>";
+			}
+			if ($has_children) {
+				$html .= "\t\t<a class='menu_side_item_sub menu_side_item_group' href='#' onclick=\"event.preventDefault(); $('#menu_side_child_" . $uuid . "').slideToggle(180); $('#menu_side_child_arrow_" . $uuid . "').toggleClass('fa-chevron-right fa-chevron-down');\" style='padding-left: " . $padding_left . "px;'>";
+				$html .= "<span class='menu_side_item_title' style='" . ($menu_side_state != 'expanded' ? "display: none;" : null) . "'>" . $title . "</span>" . $icon;
+				$html .= "<span id='menu_side_child_arrow_" . $uuid . "' class='fa-solid fa-chevron-down fa-xs' style='order: 3; margin-left: auto; opacity: 0.55;'></span></a>\n";
+				$html .= "\t\t<div id='menu_side_child_" . $uuid . "' class='menu_side_child' style='display: block;'>\n";
+				$html .= $this->menu_vertical_children($menu_item['menu_items'], $menu_side_state, $level + 1);
+				$html .= "\t\t</div>\n";
+			} else {
+				$target = $menu_item['menu_item_category'] == 'external' ? " target='_blank'" : '';
+				$html .= "\t\t<a class='menu_side_item_sub'" . $target . " href='" . escape($menu_item['menu_item_link']) . "' style='padding-left: " . $padding_left . "px;'>";
+				$html .= "<span class='menu_side_item_title' style='" . ($menu_side_state != 'expanded' ? "display: none;" : null) . "'>" . $title . "</span>" . $icon . "</a>\n";
+			}
+		}
+		return $html;
+	}
+
+	/**
 	 * Renders the vertical menu layout.
 	 *
 	 * @param array $menu_array An array of menu items.
@@ -1534,19 +1564,7 @@ class menu {
 				//sub menu items
 				if (is_array($menu_item_main['menu_items']) && sizeof($menu_item_main['menu_items']) != 0) {
 					$html .= "	<div id='sub_" . $menu_item_main['menu_item_uuid'] . "' class='menu_side_sub' style='display: none;'>\n";
-					foreach ($menu_item_main['menu_items'] as $menu_item_sub) {
-						$menu_sub_icon = null;
-						if ($this->settings->get('theme', 'menu_sub_icons', true) !== false) {
-							if (!empty($menu_item_sub['menu_item_icon']) && substr($menu_item_sub['menu_item_icon'], 0, 3) == 'fa-') { // font awesome icon
-								$menu_sub_icon = "<span class='" . escape($menu_item_sub['menu_item_icon']) . (substr($menu_item_sub['menu_item_icon'], 0, 3) == 'fa-' ? ' fa-fw' : null) . "' style='" . (!empty($menu_item_sub['menu_item_icon_color']) ? "color: " . $menu_item_sub['menu_item_icon_color'] . " !important;" : "opacity: 0.3;") . "'></span>";
-							} else {
-								$menu_sub_icon = null;
-							}
-						}
-						$html .= "		<a class='menu_side_item_sub' " . ($menu_item_sub['menu_item_category'] == 'external' ? "target='_blank'" : null) . " href='" . $menu_item_sub['menu_item_link'] . "'>";
-						$html .= "<span class='menu_side_item_title' style='" . ($menu_side_state != 'expanded' ? "display: none;" : null) . "'>" . $menu_item_sub['menu_language_title'] . "</span>";
-						$html .= $menu_sub_icon . "</a>\n";
-					}
+					$html .= $this->menu_vertical_children($menu_item_main['menu_items'], $menu_side_state);
 					$html .= "	</div>\n";
 				}
 			}

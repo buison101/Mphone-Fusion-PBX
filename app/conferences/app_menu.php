@@ -26,7 +26,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "カンファレンス";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "컨퍼런스";
 	$apps[$x]['menu'][$y]['uuid'] = "9f2a8c08-3e65-c41c-a716-3b53d42bc4d4";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010003-7a11-4f31-9011-000000000003";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/conferences/conferences.php";

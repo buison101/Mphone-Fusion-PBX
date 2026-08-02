@@ -26,13 +26,81 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "メニューマネージャー";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "메뉴 관리자";
 	$apps[$x]['menu'][$y]['uuid'] = "da3a9ab4-c28e-ea8d-50cc-e8405ac8e76e";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "594d99c5-6128-9c88-ca35-4b33392cec0f";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f030002-7a11-4f31-9031-000000000002";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/core/menu/menu.php";
 	$apps[$x]['menu'][$y]['order'] = "";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
+
+	//application menu groups
+	$application_groups = [
+		["Call Routing", "Điều hướng cuộc gọi", "7f010001-7a11-4f31-9011-000000000001", "10", "fa-solid fa-route", true],
+		["Call Center", "Trung tâm cuộc gọi", "7f010002-7a11-4f31-9011-000000000002", "20", "fa-solid fa-headset", true],
+		["Conferences", "Hội nghị", "7f010003-7a11-4f31-9011-000000000003", "30", "fa-solid fa-users", false],
+		["Audio & Recordings", "Âm thanh và ghi âm", "7f010004-7a11-4f31-9011-000000000004", "40", "fa-solid fa-volume-high", true],
+		["Communication Services", "Dịch vụ liên lạc", "7f010005-7a11-4f31-9011-000000000005", "50", "fa-solid fa-envelope", true],
+	];
+	foreach ($application_groups as $application_group) {
+		$apps[$x]['menu'][$y]['title']['en-us'] = $application_group[0];
+		$apps[$x]['menu'][$y]['title']['vi-vn'] = $application_group[1];
+		$apps[$x]['menu'][$y]['uuid'] = $application_group[2];
+		$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+		$apps[$x]['menu'][$y]['category'] = "internal";
+		$apps[$x]['menu'][$y]['icon'] = $application_group[4];
+		$apps[$x]['menu'][$y]['path'] = "";
+		$apps[$x]['menu'][$y]['order'] = $application_group[3];
+		if ($application_group[5]) {
+			$apps[$x]['menu'][$y]['groups'][] = "superadmin";
+			$apps[$x]['menu'][$y]['groups'][] = "admin";
+			$apps[$x]['menu'][$y]['groups'][] = "user";
+			$apps[$x]['menu'][$y]['groups'][] = "agent";
+			$apps[$x]['menu'][$y]['groups'][] = "fax";
+		}
+		$y++;
+	}
+
+	//status menu groups
+	$status_groups = [
+		["Realtime Activity", "Thời gian thực", "7f020001-7a11-4f31-9021-000000000001", "10", "fa-solid fa-bolt"],
+		["System & SIP", "Hệ thống và SIP", "7f020002-7a11-4f31-9021-000000000002", "20", "fa-solid fa-server"],
+		["Queues & Logs", "Hàng đợi và nhật ký", "7f020003-7a11-4f31-9021-000000000003", "30", "fa-solid fa-list"],
+		["Reports", "Báo cáo", "7f020004-7a11-4f31-9021-000000000004", "40", "fa-solid fa-chart-line"],
+	];
+	foreach ($status_groups as $status_group) {
+		$apps[$x]['menu'][$y]['title']['en-us'] = $status_group[0];
+		$apps[$x]['menu'][$y]['title']['vi-vn'] = $status_group[1];
+		$apps[$x]['menu'][$y]['uuid'] = $status_group[2];
+		$apps[$x]['menu'][$y]['parent_uuid'] = "0438b504-8613-7887-c420-c837ffb20cb1";
+		$apps[$x]['menu'][$y]['category'] = "internal";
+		$apps[$x]['menu'][$y]['icon'] = $status_group[4];
+		$apps[$x]['menu'][$y]['path'] = "";
+		$apps[$x]['menu'][$y]['order'] = $status_group[3];
+		$apps[$x]['menu'][$y]['groups'][] = "superadmin";
+		$apps[$x]['menu'][$y]['groups'][] = "admin";
+		$apps[$x]['menu'][$y]['groups'][] = "user";
+		$y++;
+	}
+
+	//advanced menu groups
+	$advanced_groups = [
+		["System Configuration", "Cấu hình hệ thống", "7f030001-7a11-4f31-9031-000000000001", "10", "fa-solid fa-gears"],
+		["Domains & Security", "Tên miền và bảo mật", "7f030002-7a11-4f31-9031-000000000002", "20", "fa-solid fa-shield-halved"],
+		["Data & Telephony", "Dữ liệu và điện thoại", "7f030003-7a11-4f31-9031-000000000003", "30", "fa-solid fa-database"],
+	];
+	foreach ($advanced_groups as $advanced_group) {
+		$apps[$x]['menu'][$y]['title']['en-us'] = $advanced_group[0];
+		$apps[$x]['menu'][$y]['title']['vi-vn'] = $advanced_group[1];
+		$apps[$x]['menu'][$y]['uuid'] = $advanced_group[2];
+		$apps[$x]['menu'][$y]['parent_uuid'] = "594d99c5-6128-9c88-ca35-4b33392cec0f";
+		$apps[$x]['menu'][$y]['category'] = "internal";
+		$apps[$x]['menu'][$y]['icon'] = $advanced_group[4];
+		$apps[$x]['menu'][$y]['path'] = "";
+		$apps[$x]['menu'][$y]['order'] = $advanced_group[3];
+		$apps[$x]['menu'][$y]['groups'][] = "superadmin";
+		$y++;
+	}
 	$apps[$x]['menu'][$y]['title']['en-us'] = "Home";
 	$apps[$x]['menu'][$y]['title']['en-gb'] = "Home";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "البيت";

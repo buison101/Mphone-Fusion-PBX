@@ -26,7 +26,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "コールセンター";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "콜센터";
 	$apps[$x]['menu'][$y]['uuid'] = "6c072b29-5b6c-49fc-008e-95e24c77de99";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010002-7a11-4f31-9011-000000000002";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/call_centers/call_center_queues.php";
@@ -59,7 +59,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "エージェントステータス";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "에이전트 상태";
 	$apps[$x]['menu'][$y]['uuid'] = "597c483a-51a9-f95a-8d54-ea7d87ada2b8";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "0438b504-8613-7887-c420-c837ffb20cb1";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f020001-7a11-4f31-9021-000000000001";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/call_centers/call_center_agent_status.php";

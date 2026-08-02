@@ -26,7 +26,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "アクティブ コール";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "활성 통화";
 	$apps[$x]['menu'][$y]['uuid'] = "eba3d07f-dd5c-6b7b-6880-493b44113ade";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "0438b504-8613-7887-c420-c837ffb20cb1";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f020001-7a11-4f31-9021-000000000001";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/active_calls/active_calls.php";

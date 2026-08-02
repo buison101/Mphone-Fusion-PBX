@@ -26,7 +26,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "フォローしてください";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "나를 따르라";
 	$apps[$x]['menu'][$y]['uuid'] = "a1144e12-873e-4722-9818-02da1adb6ba3";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010001-7a11-4f31-9011-000000000001";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/call_forward/call_forward.php";

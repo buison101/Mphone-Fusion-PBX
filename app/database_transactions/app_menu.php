@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "取引";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "업무";
 	$apps[$x]['menu'][$y]['uuid'] = "ffc57bea-df1d-4099-b7e5-835d68f09006";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "594d99c5-6128-9c88-ca35-4b33392cec0f";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f030003-7a11-4f31-9031-000000000003";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/database_transactions/database_transactions.php";

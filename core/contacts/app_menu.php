@@ -26,7 +26,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "コンタクト";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "콘택트 렌즈";
 	$apps[$x]['menu'][$y]['uuid'] = "f14e6ab6-6565-d4e6-cbad-a51d2e3e8ec6";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010005-7a11-4f31-9011-000000000005";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/core/contacts/contacts.php";

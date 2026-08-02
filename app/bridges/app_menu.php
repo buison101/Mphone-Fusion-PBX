@@ -26,7 +26,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "ブリッジ";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "교량";
 	$apps[$x]['menu'][$y]['uuid'] = "345f0aad-8321-4a8b-9f08-c4730297660c";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010001-7a11-4f31-9011-000000000001";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/bridges/bridges.php";

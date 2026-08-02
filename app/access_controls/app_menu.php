@@ -26,7 +26,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "アクセス制御";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "액세스 제어";
 	$apps[$x]['menu'][$y]['uuid'] = "bd47c972-5498-4541-b44a-d4bbfac69496";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "594d99c5-6128-9c88-ca35-4b33392cec0f";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f030002-7a11-4f31-9031-000000000002";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/access_controls/access_controls.php";

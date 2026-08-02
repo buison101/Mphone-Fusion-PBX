@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "ストリーム";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "스트림";
 	$apps[$x]['menu'][$y]['uuid'] = "c9762b7a-a809-444c-96db-f80f0c2bb36f";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010004-7a11-4f31-9011-000000000004";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/streams/streams.php";

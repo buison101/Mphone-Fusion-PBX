@@ -27,7 +27,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "コール録音";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "통화 녹음";
 	$apps[$x]['menu'][$y]['uuid'] = "d5b7bd0e-5e56-4d87-b2d5-7d7b2f7307ef";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010004-7a11-4f31-9011-000000000004";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/call_recordings/call_recordings.php";

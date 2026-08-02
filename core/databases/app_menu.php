@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "データベース";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "관련 기사";
 	$apps[$x]['menu'][$y]['uuid'] = "ebbd754d-ca74-d5b1-a77e-9206ba3ecc3f";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "594d99c5-6128-9c88-ca35-4b33392cec0f";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f030003-7a11-4f31-9031-000000000003";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/core/databases/databases.php";

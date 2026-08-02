@@ -26,7 +26,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "カンファレンスセンター";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "컨퍼런스 센터";
 	$apps[$x]['menu'][$y]['uuid'] = "95f88726-4706-43f0-b52b-9504a0b8046f";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010003-7a11-4f31-9011-000000000003";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/conference_centers/conference_centers.php";
@@ -59,7 +59,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "会議室";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "컨퍼런스 룸";
 	$apps[$x]['menu'][$y]['uuid'] = "b99cb768-ca19-4374-a954-02e344313d84";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010003-7a11-4f31-9011-000000000003";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/conference_centers/conference_rooms.php";

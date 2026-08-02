@@ -25,7 +25,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "アップグレード";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "업그레이드";
 	$apps[$x]['menu'][$y]['uuid'] = "8c826e92-be3c-0944-669a-24e5b915d562";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "594d99c5-6128-9c88-ca35-4b33392cec0f";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f030001-7a11-4f31-9031-000000000001";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/core/upgrade/index.php";

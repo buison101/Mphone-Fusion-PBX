@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "時間条件";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "시간 조건";
 	$apps[$x]['menu'][$y]['uuid'] = "67aede56-8623-df2d-6338-ecfbde5825f7";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010001-7a11-4f31-9011-000000000001";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/time_conditions/time_conditions.php";

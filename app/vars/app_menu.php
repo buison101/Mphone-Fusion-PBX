@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "変数";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "변수";
 	$apps[$x]['menu'][$y]['uuid'] = "7a4e9ec5-24b9-7200-89b8-d70bf8afdd8f";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "594d99c5-6128-9c88-ca35-4b33392cec0f";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f030001-7a11-4f31-9031-000000000001";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/vars/vars.php";

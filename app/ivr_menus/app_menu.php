@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "IVR メニュー";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "IVR 메뉴";
 	$apps[$x]['menu'][$y]['uuid'] = "72259497-a67b-e5aa-cac2-0f2dcef16308";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010001-7a11-4f31-9011-000000000001";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/ivr_menus/ivr_menus.php";

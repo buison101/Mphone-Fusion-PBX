@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "保留音";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "음악 보류";
 	$apps[$x]['menu'][$y]['uuid'] = "1cd1d6cb-912d-db32-56c3-e0d5699feb9d";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010004-7a11-4f31-9011-000000000004";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/music_on_hold/music_on_hold.php";

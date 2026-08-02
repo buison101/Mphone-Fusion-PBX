@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "暗証番号";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "PIN 번호";
 	$apps[$x]['menu'][$y]['uuid'] = "2e3d8f49-5beb-44a8-9617-0bffc5b418c2";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010005-7a11-4f31-9011-000000000005";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/pin_numbers/pin_numbers.php";

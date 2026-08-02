@@ -26,7 +26,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "お知らせ";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "공지사항";
 	$apps[$x]['menu'][$y]['uuid'] = "f8d65f91-0f4a-405a-b5ac-24cb3c4f10ba";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "594d99c5-6128-9c88-ca35-4b33392cec0f";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f030001-7a11-4f31-9031-000000000001";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/core/notifications/notification_edit.php";

@@ -4238,7 +4238,7 @@ a.menu_side_item_sub {
 	position: relative;
 	min-height: 40px;
 	display: flex;
-	gap: 12px;
+	gap: 8px;
 	line-height: 1.25;
 }
 

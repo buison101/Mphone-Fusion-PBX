@@ -26,7 +26,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "コールブロードキャスト";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "통화 브로드캐스트";
 	$apps[$x]['menu'][$y]['uuid'] = "50153bbf-78c5-b49e-7bd9-4b3e4b1134e6";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010002-7a11-4f31-9011-000000000002";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/call_broadcast/call_broadcast.php";

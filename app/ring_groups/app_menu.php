@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "着信グループ";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "전화 수신 그룹";
 	$apps[$x]['menu'][$y]['uuid'] = "b30f085f-3ec6-2819-7e62-53dfba5cb8d5";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010001-7a11-4f31-9011-000000000001";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/ring_groups/ring_groups.php";

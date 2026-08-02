@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "登録";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "등록";
 	$apps[$x]['menu'][$y]['uuid'] = "17dbfd56-291d-8c1c-bc43-713283a9dd5a";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "0438b504-8613-7887-c420-c837ffb20cb1";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f020002-7a11-4f31-9021-000000000002";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/registrations/registrations.php";

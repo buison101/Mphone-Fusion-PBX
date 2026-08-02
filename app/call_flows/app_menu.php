@@ -26,7 +26,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "コールフロー";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "통화 흐름";
 	$apps[$x]['menu'][$y]['uuid'] = "b0939384-7055-44e8-8b4c-9f72293e1878";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010001-7a11-4f31-9011-000000000001";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/call_flows/call_flows.php";

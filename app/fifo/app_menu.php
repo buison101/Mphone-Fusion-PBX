@@ -26,7 +26,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "キュー";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "꼬리";
 	$apps[$x]['menu'][$y]['uuid'] = "c535ac0b-1da1-0f9c-4653-7934c6f4732c";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010002-7a11-4f31-9011-000000000002";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/fifo/fifo.php";

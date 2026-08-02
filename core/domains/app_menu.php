@@ -25,7 +25,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "ドメイン";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "도메인";
 	$apps[$x]['menu'][$y]['uuid'] = "4fa7e90b-6d6c-12d4-712f-62857402b801";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "594d99c5-6128-9c88-ca35-4b33392cec0f";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f030002-7a11-4f31-9031-000000000002";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/core/domains/domains.php";

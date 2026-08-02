@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "ボイスメール";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "음성사서함";
 	$apps[$x]['menu'][$y]['uuid'] = "0347f82a-62a0-49d0-bacd-511d080c46d5";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010005-7a11-4f31-9011-000000000005";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/voicemails/voicemails.php";

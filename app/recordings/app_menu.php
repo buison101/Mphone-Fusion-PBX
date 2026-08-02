@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "録音";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "녹음";
 	$apps[$x]['menu'][$y]['uuid'] = "e4290fd2-3ccc-a758-1714-660d38453104";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010004-7a11-4f31-9011-000000000004";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/recordings/recordings.php";

@@ -28,7 +28,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "機能コードレポート";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "기능 코드 보고서";
 	$apps[$x]['menu'][$y]['uuid'] = "249d45a0-d414-4fe7-b652-d3f8834024b1";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "0438b504-8613-7887-c420-c837ffb20cb1";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f020002-7a11-4f31-9021-000000000002";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/feature_codes/feature_codes.php";

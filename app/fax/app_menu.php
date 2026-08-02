@@ -26,7 +26,7 @@
 	$apps[$x]['menu'][$y]['title']['ja-jp'] = "ファックス サーバー";
 	$apps[$x]['menu'][$y]['title']['ko-kr'] = "팩스 서버";
 	$apps[$x]['menu'][$y]['uuid'] = "9c9642e4-2b9b-2785-18d0-6c0a4ede2b2f";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "fd29e39c-c936-f5fc-8e2b-611681b266b5";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f010005-7a11-4f31-9011-000000000005";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['icon'] = "";
 	$apps[$x]['menu'][$y]['path'] = "/app/fax/fax.php";

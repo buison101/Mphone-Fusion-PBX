@@ -23,7 +23,7 @@
 	$apps[$x]['menu'][$y]['title']['sv-se'] = "Domän Inställning";
 	$apps[$x]['menu'][$y]['title']['uk-ua'] = "Налаштування доменів";
 	$apps[$x]['menu'][$y]['uuid'] = "0869ac79-4af3-498f-af65-69662280d74e";
-	$apps[$x]['menu'][$y]['parent_uuid'] = "594d99c5-6128-9c88-ca35-4b33392cec0f";
+	$apps[$x]['menu'][$y]['parent_uuid'] = "7f030002-7a11-4f31-9031-000000000002";
 	$apps[$x]['menu'][$y]['category'] = "internal";
 	$apps[$x]['menu'][$y]['path'] = "/core/domain_settings/domain_setting_edit.php";
 	//$apps[$x]['menu'][$y]['groups'][] = "superadmin";
