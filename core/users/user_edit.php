@@ -783,7 +783,7 @@
 	echo "<div class='card'>\n";
 	echo "<table cellpadding='0' cellspacing='0' border='0' width='100%'>";
 
-	echo "	<tr>";
+	echo "	<tr id='user_username_row'>";
 	echo "		<td width='30%' class='vncellreq' valign='top'>".$text['label-username']."</td>";
 	echo "		<td width='70%' class='vtable'>";
 	if (permission_exists("user_edit")) {
@@ -843,7 +843,7 @@
 		echo "	</tr>";
 	}
 
-	echo "	<tr>";
+	echo "	<tr id='user_email_row'>";
 	echo "		<td class='vncellreq'>".$text['label-email']."</td>";
 	echo "		<td class='vtable'><input type='text' class='formfld' name='user_email' value='".escape($user_email ?? '')."' required='required'></td>";
 	echo "	</tr>";
@@ -998,7 +998,7 @@
 	}
 
 	if (permission_exists("user_groups")) {
-		echo "	<tr>";
+		echo "	<tr id='user_groups_row'>";
 		echo "		<td class='vncellreq' valign='top'>".$text['label-groups']."</td>";
 		echo "		<td class='vtable'>";
 
@@ -1062,6 +1062,7 @@
 
 		echo "		</td>";
 		echo "	</tr>";
+		echo "<script>document.getElementById('user_username_row').after(document.getElementById('user_email_row')); document.getElementById('user_email_row').after(document.getElementById('user_groups_row'));</script>\n";
 	}
 
 	if (permission_exists('user_type')) {

@@ -36,4 +36,3 @@
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$apps[$x]['menu'][$y]['groups'][] = "manager";
-	$apps[$x]['menu'][$y]['groups'][] = "user";

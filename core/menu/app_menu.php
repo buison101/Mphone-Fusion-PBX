@@ -139,6 +139,7 @@
 	$y++;
 	$apps[$x]['menu'][$y]['title']['en-us'] = "Status";
 	$apps[$x]['menu'][$y]['title']['en-gb'] = "Status";
+	$apps[$x]['menu'][$y]['title']['vi-vn'] = "Trạng thái";
 	$apps[$x]['menu'][$y]['title']['ar-eg'] = "الحالة";
 	$apps[$x]['menu'][$y]['title']['de-at'] = "Status";
 	$apps[$x]['menu'][$y]['title']['de-de'] = "Status";
@@ -167,6 +168,7 @@
 	$apps[$x]['menu'][$y]['icon'] = "fa-solid fa-chart-column";
 	$apps[$x]['menu'][$y]['path'] = "";
 	$apps[$x]['menu'][$y]['order'] = "25";
+	$apps[$x]['menu'][$y]['groups'][] = "user";
 	$apps[$x]['menu'][$y]['groups'][] = "admin";
 	$apps[$x]['menu'][$y]['groups'][] = "superadmin";
 	$y++;
