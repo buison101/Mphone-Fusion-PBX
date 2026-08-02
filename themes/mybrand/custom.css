@@ -99,3 +99,7 @@ input.formfld:focus, select.formfld:focus {
 .dashboard-ring-group-forward {
 	display: none !important;
 }
+
+button:focus {
+    outline: none;
+}

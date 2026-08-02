@@ -43,9 +43,57 @@
 	if ($data_source === 'test' && !$can_use_test_data) {
 		$data_source = 'real';
 	}
-	$chart_range = $_REQUEST['chart_range'] ?? '24h';
-	if (!in_array($chart_range, ['24h', '7d', '30d', '1y'])) {
-		$chart_range = '24h';
+	$chart_range = $_REQUEST['chart_range'] ?? 'today';
+	if ($chart_range === '24h') {
+		$chart_range = 'today';
+	}
+	if (!in_array($chart_range, ['1h', '3h', 'today', 'yesterday', '7d', '30d', '1y'])) {
+		$chart_range = 'today';
+	}
+
+//regenerate the isolated synthetic dataset when the Test button is submitted
+	if ($_SERVER['REQUEST_METHOD'] === 'POST' && ($_POST['regenerate_test_data'] ?? '') === 'true') {
+		if (!$can_use_test_data) {
+			echo "access denied";
+			exit;
+		}
+		$token = new token;
+		if (!$token->validate($_SERVER['PHP_SELF'])) {
+			message::add('Invalid token', 'negative');
+			header('Location: xml_cdr_statistics.php?data_source=test&chart_range='.urlencode($chart_range));
+			exit;
+		}
+
+		$seed_file = '/opt/supabase/supabase-project/analytics-test/seed.sql';
+		try {
+			if (!is_readable($seed_file)) {
+				throw new RuntimeException('Synthetic CDR seed file is not readable');
+			}
+			$seed_sql = file_get_contents($seed_file);
+			$seed_sql = preg_replace('/^\\\\.*$/m', '', $seed_sql);
+			$seed_sql = preg_replace('/^SELECT setseed\([^;]+;\s*$/mi', '', $seed_sql);
+
+			$test_dsn = "pgsql:host=".$database->host.";port=".$database->port.";dbname=fusionpbx_analytics_test";
+			$test_database = new PDO($test_dsn, $database->username, $database->password, [
+				PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION,
+				PDO::ATTR_DEFAULT_FETCH_MODE => PDO::FETCH_ASSOC,
+			]);
+			$test_database->beginTransaction();
+			$test_database->exec("select pg_advisory_xact_lock(hashtext('fusionpbx_analytics_test_seed'))");
+			$test_database->exec($seed_sql);
+			$test_database->commit();
+			unset($seed_sql, $test_database);
+			message::add('Test data regenerated', 'positive');
+		}
+		catch (Throwable $exception) {
+			if (isset($test_database) && $test_database->inTransaction()) {
+				$test_database->rollBack();
+			}
+			error_log('CDR test data regeneration failed: '.$exception->getMessage());
+			message::add('Unable to regenerate test data', 'negative');
+		}
+		header('Location: xml_cdr_statistics.php?data_source=test&chart_range='.urlencode($chart_range).'&refresh='.rawurlencode(sprintf('%.6F', microtime(true))));
+		exit;
 	}
 
 //show all call detail records to admin and superadmin. for everyone else show only the call details for extensions assigned to them
@@ -395,29 +443,48 @@
 
 //build time buckets for the selected chart range
 	switch ($chart_range) {
+		case '1h':
+			$chart_bucket_count = 12;
+			$chart_bucket_label = 'Phút';
+			$statistics_date_format = 'DD Mon';
+			$statistics_windows_sql = "with anchor as (select date_trunc('minute', now()) - ((extract(minute from now())::int % 5) * interval '1 minute') as current_bucket) select bucket as s_id, (5.0 / 60)::numeric as s_hour, current_bucket - interval '55 minutes' + (bucket * interval '5 minutes') as start_date, current_bucket - interval '50 minutes' + (bucket * interval '5 minutes') as end_date from anchor cross join generate_series(0, 11) as bucket";
+			break;
+		case '3h':
+			$chart_bucket_count = 18;
+			$chart_bucket_label = 'Phút';
+			$statistics_date_format = 'DD Mon';
+			$statistics_windows_sql = "with anchor as (select date_trunc('minute', now()) - ((extract(minute from now())::int % 10) * interval '1 minute') as current_bucket) select bucket as s_id, (10.0 / 60)::numeric as s_hour, current_bucket - interval '170 minutes' + (bucket * interval '10 minutes') as start_date, current_bucket - interval '160 minutes' + (bucket * interval '10 minutes') as end_date from anchor cross join generate_series(0, 17) as bucket";
+			break;
+		case 'today':
+			$chart_bucket_count = 24;
+			$chart_bucket_label = 'Giờ';
+			$statistics_date_format = 'DD Mon';
+			$statistics_windows_sql = "select bucket as s_id, 1::numeric as s_hour, (date_trunc('day', now() at time zone :time_zone) + (bucket * interval '1 hour')) at time zone :time_zone as start_date, (date_trunc('day', now() at time zone :time_zone) + ((bucket + 1) * interval '1 hour')) at time zone :time_zone as end_date from generate_series(0, 23) as bucket";
+			break;
+		case 'yesterday':
+			$chart_bucket_count = 24;
+			$chart_bucket_label = 'Giờ';
+			$statistics_date_format = 'DD Mon';
+			$statistics_windows_sql = "select bucket as s_id, 1::numeric as s_hour, (date_trunc('day', now() at time zone :time_zone) - interval '1 day' + (bucket * interval '1 hour')) at time zone :time_zone as start_date, (date_trunc('day', now() at time zone :time_zone) - interval '1 day' + ((bucket + 1) * interval '1 hour')) at time zone :time_zone as end_date from generate_series(0, 23) as bucket";
+			break;
 		case '7d':
 			$chart_bucket_count = 7;
 			$chart_bucket_label = 'Ngày';
 			$statistics_date_format = 'DD Mon';
-			$statistics_windows_sql = "select bucket as s_id, 24::numeric as s_hour, date_trunc('day', now()) - (bucket * interval '1 day') as start_date, date_trunc('day', now()) + interval '1 day' - (bucket * interval '1 day') as end_date from generate_series(0, 6) as bucket";
+			$statistics_windows_sql = "select bucket as s_id, 24::numeric as s_hour, (date_trunc('day', now() at time zone :time_zone) - (bucket * interval '1 day')) at time zone :time_zone as start_date, (date_trunc('day', now() at time zone :time_zone) + interval '1 day' - (bucket * interval '1 day')) at time zone :time_zone as end_date from generate_series(0, 6) as bucket";
 			break;
 		case '30d':
 			$chart_bucket_count = 30;
 			$chart_bucket_label = 'Ngày';
 			$statistics_date_format = 'DD Mon';
-			$statistics_windows_sql = "select bucket as s_id, 24::numeric as s_hour, date_trunc('day', now()) - (bucket * interval '1 day') as start_date, date_trunc('day', now()) + interval '1 day' - (bucket * interval '1 day') as end_date from generate_series(0, 29) as bucket";
+			$statistics_windows_sql = "select bucket as s_id, 24::numeric as s_hour, (date_trunc('day', now() at time zone :time_zone) - (bucket * interval '1 day')) at time zone :time_zone as start_date, (date_trunc('day', now() at time zone :time_zone) + interval '1 day' - (bucket * interval '1 day')) at time zone :time_zone as end_date from generate_series(0, 29) as bucket";
 			break;
 		case '1y':
 			$chart_bucket_count = 12;
 			$chart_bucket_label = 'Tháng';
 			$statistics_date_format = 'Mon YYYY';
-			$statistics_windows_sql = "select bucket as s_id, extract(epoch from ((date_trunc('month', now()) + interval '1 month' - (bucket * interval '1 month')) - (date_trunc('month', now()) - (bucket * interval '1 month')))) / 3600 as s_hour, date_trunc('month', now()) - (bucket * interval '1 month') as start_date, date_trunc('month', now()) + interval '1 month' - (bucket * interval '1 month') as end_date from generate_series(0, 11) as bucket";
+			$statistics_windows_sql = "select bucket as s_id, extract(epoch from (((date_trunc('month', now() at time zone :time_zone) + interval '1 month' - (bucket * interval '1 month')) at time zone :time_zone) - ((date_trunc('month', now() at time zone :time_zone) - (bucket * interval '1 month')) at time zone :time_zone))) / 3600 as s_hour, (date_trunc('month', now() at time zone :time_zone) - (bucket * interval '1 month')) at time zone :time_zone as start_date, (date_trunc('month', now() at time zone :time_zone) + interval '1 month' - (bucket * interval '1 month')) at time zone :time_zone as end_date from generate_series(0, 11) as bucket";
 			break;
-		default:
-			$chart_bucket_count = 24;
-			$chart_bucket_label = 'Giờ';
-			$statistics_date_format = 'DD Mon';
-			$statistics_windows_sql = "select bucket as s_id, 1::numeric as s_hour, date_trunc('hour', now()) - (bucket * interval '1 hour') as start_date, date_trunc('hour', now()) + interval '1 hour' - (bucket * interval '1 hour') as end_date from generate_series(0, 23) as bucket";
 	}
 
 //build the sql query for xml cdr statistics

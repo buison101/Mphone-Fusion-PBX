@@ -54,6 +54,7 @@
 	$sql .= "widget_description ";
 	$sql .= "from v_dashboard_widgets as d ";
 	$sql .= "where widget_enabled = 'true' ";
+	$sql .= "and coalesce(widget_url, '') not in ('/app/conferences/conferences.php', '/app/conference_centers/conference_rooms.php') ";
 	$sql .= "and dashboard_widget_uuid in (";
 	$sql .= "	select dashboard_widget_uuid from v_dashboard_widget_groups where group_uuid in (";
 	$sql .= "		".$group_uuids_in." ";

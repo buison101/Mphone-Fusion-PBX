@@ -34,13 +34,18 @@
 		echo "access denied";
 		exit;
 	}
+	header('Cache-Control: no-store, no-cache, must-revalidate, max-age=0');
+	header('Pragma: no-cache');
 
 //add multi-lingual support
 	$language = new text;
 	$text = $language->get();
 	$language_code = strtolower($settings->get('domain', 'language', 'en-us'));
 	$is_vietnamese = $language_code === 'vi' || str_starts_with($language_code, 'vi-');
-	if ($chart_range === '24h') {
+	if (in_array($chart_range, ['1h', '3h'], true)) {
+		$chart_bucket_label = $text['label-minutes'] ?? ($is_vietnamese ? 'Phút' : 'Minutes');
+	}
+	else if (in_array($chart_range, ['today', 'yesterday'], true)) {
 		$chart_bucket_label = $text['label-hours'] ?? ($is_vietnamese ? 'Giờ' : 'Hours');
 	}
 	else if ($chart_range === '1y') {
@@ -179,17 +184,33 @@
 		echo "		<span style='display: inline-flex; align-items: center; gap: 6px; margin-right: 12px;'>\n";
 		echo "			<span>".escape($text['label-data_source'] ?? ($is_vietnamese ? 'Nguồn dữ liệu' : 'Data source')).":</span>\n";
 		echo button::create(['type'=>'button','label'=>($is_vietnamese ? 'Thật' : 'Real'),'icon'=>($data_source === 'real' ? 'check-circle' : 'database'),'link'=>'xml_cdr_statistics.php?chart_range='.urlencode($chart_range)]);
-		echo button::create(['type'=>'button','label'=>'Test','icon'=>($data_source === 'test' ? 'check-circle' : 'flask'),'link'=>'xml_cdr_statistics.php?data_source=test&chart_range='.urlencode($chart_range)]);
+		$test_token_object = new token;
+		$test_token = $test_token_object->create($_SERVER['PHP_SELF']);
+		echo "<form method='post' action='xml_cdr_statistics.php' style='display: inline; margin: 0;'>\n";
+		echo "<input type='hidden' name='".escape($test_token['name'])."' value='".escape($test_token['hash'])."'>\n";
+		echo "<input type='hidden' name='data_source' value='test'>\n";
+		echo "<input type='hidden' name='chart_range' value='".escape($chart_range)."'>\n";
+		echo "<input type='hidden' name='regenerate_test_data' value='true'>\n";
+		echo button::create(['type'=>'submit','label'=>'Test','icon'=>($data_source === 'test' ? 'check-circle' : 'flask')]);
+		echo "</form>\n";
 		echo "		</span>\n";
 	}
 	echo "		<span style='display: inline-flex; align-items: center; gap: 6px; margin-right: 12px;'>\n";
 	echo "			<span>".escape($text['label-chart_range'] ?? ($is_vietnamese ? 'Khoảng biểu đồ' : 'Chart range')).":</span>\n";
 	$range_options = $is_vietnamese
-		? ['24h' => '24 giờ', '7d' => '7 ngày', '30d' => '30 ngày', '1y' => '1 năm']
-		: ['24h' => '24 hours', '7d' => '7 days', '30d' => '30 days', '1y' => '1 year'];
+		? ['today' => 'Hôm nay', '1h' => '1 giờ', '3h' => '3 giờ', 'yesterday' => 'Hôm qua', '7d' => '7 ngày', '30d' => '30 ngày', '1y' => '1 năm']
+		: ['today' => 'Today', '1h' => '1 hour', '3h' => '3 hours', 'yesterday' => 'Yesterday', '7d' => '7 days', '30d' => '30 days', '1y' => '1 year'];
 	foreach ($range_options as $range_value => $range_label) {
 		$range_query = ($data_source === 'test' ? 'data_source=test&' : '').'chart_range='.$range_value;
-		echo button::create(['type'=>'button','label'=>$range_label,'icon'=>($chart_range === $range_value ? 'check-circle' : 'chart-line'),'link'=>'xml_cdr_statistics.php?'.$range_query]);
+		$range_active = $chart_range === $range_value;
+		echo button::create([
+			'type'=>'button',
+			'label'=>$range_label,
+			'icon'=>($range_active ? 'check-circle' : 'chart-line'),
+			'class'=>'default',
+			'style'=>($range_active ? 'color: #ffffff; background: #48484a; background-image: unset;' : null),
+			'link'=>'xml_cdr_statistics.php?'.$range_query,
+		]);
 	}
 	echo "		</span>\n";
 	if (substr_count($_SERVER['HTTP_REFERER'], 'app/xml_cdr/xml_cdr.php') != 0) {
@@ -213,8 +234,11 @@
 	<script src='/resources/chartjs/chartjs-adapter-date-fns.bundle.min.js'></script>
 
 	<div align='center' style="justify-content: center; margin-bottom: 25px;">
-		<div style="max-width: 100%; width: 800px; height: 280px;">
-			<canvas id="cdr_stats_chart" style="width: 100%; height: 100%;"></canvas>
+		<div style="max-width: 100%; width: 800px;">
+			<div id="cdr_stats_legend" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 18px; min-height: 22px; margin-bottom: 6px;"></div>
+			<div style="height: 280px;">
+				<canvas id="cdr_stats_chart" style="width: 100%; height: 100%;"></canvas>
+			</div>
 		</div>
 	</div>
 
@@ -245,18 +269,19 @@
 					fill: false
 				},
 				{
-					label: <?php echo json_encode($chart_labels['asr']); ?>,
-					unit: '%',
-					data: <?php echo json_encode($graph['asr']); ?>,
+					label: <?php echo json_encode($chart_labels['aloc']); ?>,
+					data: <?php echo json_encode($graph['aloc']); ?>,
 					backgroundColor: "#F59E0B",
 					borderColor: "#F59E0B",
 					fill: false
 				},
 				{
-					label: <?php echo json_encode($chart_labels['aloc']); ?>,
-					data: <?php echo json_encode($graph['aloc']); ?>,
+					label: <?php echo json_encode($chart_labels['asr']); ?>,
+					unit: '%',
+					data: <?php echo json_encode($graph['asr']); ?>,
 					backgroundColor: "#B9CEF8",
 					borderColor: "#B9CEF8",
+					hidden: true,
 					fill: false
 				}
 			]
@@ -264,40 +289,129 @@
 
 		<?php
 			$tooltip_date_options = ['timeZone' => $time_zone];
+			$axis_date_options = ['timeZone' => $time_zone];
+			$chart_time_unit = 'day';
+			$axis_max_ticks = 10;
 			switch ($chart_range) {
-				case '1y':
-					$tooltip_date_options['month'] = '2-digit';
-					$tooltip_date_options['year'] = 'numeric';
-					break;
-				case '7d':
-					$tooltip_date_options['day'] = '2-digit';
-					$tooltip_date_options['month'] = '2-digit';
-					break;
-				case '30d':
-					$tooltip_date_options['day'] = '2-digit';
-					$tooltip_date_options['month'] = '2-digit';
-					$tooltip_date_options['year'] = 'numeric';
-					break;
-				default:
+				case '1h':
+				case '3h':
+					$chart_time_unit = 'minute';
+					$axis_max_ticks = $chart_range === '1h' ? 12 : 10;
 					$tooltip_date_options['hour'] = '2-digit';
 					$tooltip_date_options['minute'] = '2-digit';
 					$tooltip_date_options['hour12'] = $settings->get('domain', 'time_format') != '24h';
 					$tooltip_date_options['day'] = '2-digit';
 					$tooltip_date_options['month'] = '2-digit';
+					$axis_date_options['hour'] = '2-digit';
+					$axis_date_options['minute'] = '2-digit';
+					$axis_date_options['hour12'] = $settings->get('domain', 'time_format') != '24h';
+					break;
+				case '1y':
+					$chart_time_unit = 'month';
+					$axis_max_ticks = 12;
+					$tooltip_date_options['month'] = '2-digit';
+					$tooltip_date_options['year'] = 'numeric';
+					$axis_date_options = $tooltip_date_options;
+					break;
+				case '7d':
+					$axis_max_ticks = 7;
+					$tooltip_date_options['day'] = '2-digit';
+					$tooltip_date_options['month'] = '2-digit';
+					$axis_date_options = $tooltip_date_options;
+					break;
+				case '30d':
+					$tooltip_date_options['day'] = '2-digit';
+					$tooltip_date_options['month'] = '2-digit';
+					$tooltip_date_options['year'] = 'numeric';
+					$axis_date_options['day'] = '2-digit';
+					$axis_date_options['month'] = '2-digit';
+					break;
+				default:
+					$chart_time_unit = 'hour';
+					$axis_max_ticks = 12;
+					$tooltip_date_options['hour'] = '2-digit';
+					$tooltip_date_options['minute'] = '2-digit';
+					$tooltip_date_options['hour12'] = $settings->get('domain', 'time_format') != '24h';
+					$tooltip_date_options['day'] = '2-digit';
+					$tooltip_date_options['month'] = '2-digit';
+					$axis_date_options['hour'] = '2-digit';
+					$axis_date_options['minute'] = '2-digit';
+					$axis_date_options['hour12'] = $settings->get('domain', 'time_format') != '24h';
 			}
 		?>
 		const cdr_tooltip_date_formatter = new Intl.DateTimeFormat(
 			<?php echo json_encode($is_vietnamese ? 'vi-VN' : $language_code); ?>,
 			<?php echo json_encode($tooltip_date_options); ?>
 		);
+		const cdr_axis_date_formatter = new Intl.DateTimeFormat(
+			<?php echo json_encode($is_vietnamese ? 'vi-VN' : $language_code); ?>,
+			<?php echo json_encode($axis_date_options); ?>
+		);
+		const cdr_axis_parts_formatter = new Intl.DateTimeFormat('vi-VN', {
+			timeZone: <?php echo json_encode($time_zone); ?>,
+			year: 'numeric',
+			month: '2-digit',
+			day: '2-digit',
+			hour: '2-digit',
+			minute: '2-digit',
+			hourCycle: 'h23'
+		});
+		const cdr_axis_label = (timestamp) => {
+			const date = new Date(timestamp);
+			<?php if ($is_vietnamese) { ?>
+			const parts = Object.fromEntries(
+				cdr_axis_parts_formatter.formatToParts(date)
+					.filter((part) => part.type !== 'literal')
+					.map((part) => [part.type, part.value])
+			);
+			<?php if ($chart_range === '1y') { ?>
+			return `${parts.month}/${parts.year}`;
+			<?php } else if (in_array($chart_range, ['7d', '30d'], true)) { ?>
+			return `${parts.day}/${parts.month}`;
+			<?php } else { ?>
+			return `${parts.hour}:${parts.minute}`;
+			<?php } ?>
+			<?php } else { ?>
+			return cdr_axis_date_formatter.format(date);
+			<?php } ?>
+		};
 		const cdr_number_formatter = new Intl.NumberFormat(
 			<?php echo json_encode($is_vietnamese ? 'vi-VN' : $language_code); ?>,
 			{ maximumFractionDigits: 2 }
 		);
+		const cdr_html_legend_plugin = {
+			id: 'cdrHtmlLegend',
+			afterUpdate: (chart) => {
+				const legend = document.getElementById('cdr_stats_legend');
+				legend.replaceChildren();
+				chart.data.datasets.forEach((dataset, dataset_index) => {
+					const visible = chart.isDatasetVisible(dataset_index);
+					const item = document.createElement('button');
+					item.type = 'button';
+					item.style.cssText = 'display:inline-flex;align-items:center;gap:6px;padding:0;border:0;background:transparent;color:#444;cursor:pointer;font:inherit;line-height:14px;';
+					item.onclick = () => {
+						chart.setDatasetVisibility(dataset_index, !chart.isDatasetVisible(dataset_index));
+						chart.update();
+					};
+
+					const swatch = document.createElement('span');
+					swatch.style.cssText = `display:inline-flex;align-items:center;justify-content:center;flex:0 0 14px;width:14px;height:14px;background:${dataset.borderColor};`;
+					if (visible) {
+						swatch.innerHTML = '<svg width="12.6" height="12.6" viewBox="0 0 640 640" aria-hidden="true"><path fill="#1c1c1e" d="M530.8 134.1C545.1 144.5 548.3 164.5 537.9 178.8L281.9 530.8C276.4 538.4 267.9 543.1 258.5 543.9C249.1 544.7 240 541.2 233.4 534.6L105.4 406.6C92.9 394.1 92.9 373.8 105.4 361.3C117.9 348.8 138.2 348.8 150.7 361.3L252.2 462.8L486.2 141.1C496.6 126.8 516.6 123.6 530.9 134z"/></svg>';
+					}
+
+					const label = document.createElement('span');
+					label.textContent = dataset.label;
+					item.append(swatch, label);
+					legend.append(item);
+				});
+			}
+		};
 
 		const cdr_stats_config = {
 			type: 'line',
 			data: cdr_stats_data,
+			plugins: [cdr_html_legend_plugin],
 			options: {
 				responsive: true,
 				maintainAspectRatio: false,
@@ -308,13 +422,7 @@
 				},
 				plugins: {
 					legend: {
-						display: true,
-						labels: {
-							usePointStyle: true,
-							pointStyle: 'rect',
-							color: '#444',
-							boxWidth: 15
-						}
+						display: false
 					},
 					tooltip: {
 						mode: 'index',
@@ -331,16 +439,27 @@
 						}
 					}
 				},
-				scales: {
-					x: {
-						type: "time",
-						time: {
-							displayFormats: {
+					scales: {
+						x: {
+							type: "time",
+							bounds: "data",
+							offset: false,
+							time: {
+							unit: <?php echo json_encode($chart_time_unit); ?>,
+								displayFormats: {
+								minute: 'HH:mm',
 								hour: '<?php echo $chart_time_format; ?>',
 								day: 'dd MMM',
 								month: 'MMM yyyy',
 							}
 						},
+						ticks: {
+							source: "data",
+							autoSkip: true,
+							maxTicksLimit: <?php echo (int) $axis_max_ticks; ?>,
+							maxRotation: 0,
+							callback: (value, index, ticks) => cdr_axis_label(ticks[index].value)
+						}
 					},
 					y: {
 						min: 0,
@@ -354,24 +473,6 @@
 						tension: 0.3
 					}
 				}
-			},
-			scales: {
-				<?php
-				if ($hours <= 48) {
-					echo "xAxes: {type: \"time\",timeFormat: \"%d:%H\",minTickSize: [1, \"hour\"]}";
-				}
-				else if ($hours > 48 && $hours < 168) {
-					echo "xAxes: {type: \"time\",timeFormat: \"%m:%d\",minTickSize: [1, \"day\"]}";
-				}
-				else {
-					echo "xAxes: {type: \"time\",timeFormat: \"%m:%d\",minTickSize: [1, \"month\"]}";
-				}
-				?>,
-				yAxes: [{
-					ticks: {
-						beginAtZero: true
-					}
-				}]
 			}
 		};
 
@@ -389,8 +490,8 @@
 	echo "	<th title='".$text['description-volume']."'>".escape($chart_labels['volume'])."</th>\n";
 	echo "	<th>".escape($chart_labels['minutes'])."</th>\n";
 	echo "	<th class='center'>".escape($chart_labels['missed'])."</th>\n";
-	echo "	<th title='".$text['description-asr']."'>".escape($chart_labels['asr'])."</th>\n";
 	echo "	<th title='".$text['description-aloc']."'>".escape($chart_labels['aloc'])."</th>\n";
+	echo "	<th title='".$text['description-asr']."'>".escape($chart_labels['asr'])."</th>\n";
 	echo "</tr>\n";
 
 	foreach ($stats as $row) {
@@ -426,8 +527,8 @@
 		echo "	<td>".escape($format_stat_number($row['volume'], 0))."&nbsp;</td>\n";
 		echo "	<td>".escape($format_stat_number($row['minutes'] ?? 0, 0))."&nbsp;</td>\n";
 		echo "	<td class='center'><a href=\"xml_cdr.php?call_result=missed&direction=".$direction."&start_epoch=".escape($row['start_epoch'] ?? '')."&stop_epoch=".escape($row['stop_epoch'] ?? '')."\">".escape($format_stat_number($row['missed'] ?? 0, 0))."</a>&nbsp;</td>\n";
-		echo "	<td>".escape($format_stat_number($row['asr'] ?? 0))."%&nbsp;</td>\n";
 		echo "	<td>".escape($format_stat_number($row['aloc'] ?? 0))."&nbsp;</td>\n";
+		echo "	<td>".escape($format_stat_number($row['asr'] ?? 0))."%&nbsp;</td>\n";
 		echo "</tr >\n";
 	}
 	echo "</table>\n";

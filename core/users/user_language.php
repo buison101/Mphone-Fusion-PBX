@@ -52,30 +52,30 @@
 		exit;
 	}
 
-//get the current language setting
-	$sql = "select user_setting_uuid from v_user_settings ";
+//check whether the user already has a language setting
+	$sql = "select count(*) from v_user_settings ";
 	$sql .= "where domain_uuid = :domain_uuid ";
 	$sql .= "and user_uuid = :user_uuid ";
 	$sql .= "and user_setting_category = 'domain' ";
 	$sql .= "and user_setting_subcategory = 'language' ";
 	$parameters['domain_uuid'] = $domain_uuid;
 	$parameters['user_uuid'] = $user_uuid;
-	$user_setting_uuid = $database->select($sql, $parameters, 'column');
+	$user_setting_count = (int) $database->select($sql, $parameters, 'column');
 	unset($sql, $parameters);
 
 //save the user setting
-	if (is_uuid($user_setting_uuid)) {
+	if ($user_setting_count > 0) {
 		$sql = "update v_user_settings set ";
 		$sql .= "user_setting_value = :user_setting_value, ";
 		$sql .= "user_setting_enabled = true, ";
 		$sql .= "update_date = now(), ";
 		$sql .= "update_user = :update_user ";
-		$sql .= "where user_setting_uuid = :user_setting_uuid ";
-		$sql .= "and domain_uuid = :domain_uuid ";
+		$sql .= "where domain_uuid = :domain_uuid ";
 		$sql .= "and user_uuid = :user_uuid ";
+		$sql .= "and user_setting_category = 'domain' ";
+		$sql .= "and user_setting_subcategory = 'language' ";
 		$parameters['user_setting_value'] = $user_language;
 		$parameters['update_user'] = $user_uuid;
-		$parameters['user_setting_uuid'] = $user_setting_uuid;
 		$parameters['domain_uuid'] = $domain_uuid;
 		$parameters['user_uuid'] = $user_uuid;
 		if ($database->execute($sql, $parameters) === false) {
@@ -109,5 +109,6 @@
 	if (!is_string($return_url) || $return_url === '' || preg_match('/[\r\n]/', $return_url) || preg_match('#^https?://#i', $return_url) || substr($return_url, 0, 2) === '//' || $return_url[0] !== '/') {
 		$return_url = PROJECT_PATH . '/';
 	}
-	header('Location: ' . $return_url);
+	$separator = str_contains($return_url, '?') ? '&' : '?';
+	header('Location: ' . $return_url . $separator . '_language_updated=' . time());
 	exit;
