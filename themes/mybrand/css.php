@@ -3016,7 +3016,7 @@ else { //default: white
 /* CARD **********************************************************************/
 
 	div.card {
-		margin-bottom: 15px;
+		margin-bottom: 16px;
 		overflow-x: auto;
 		<?php
 		if (isset($card_border_size) || !empty($card_border_color) || !empty($card_background_color) || !empty($card_shadow_color)) {

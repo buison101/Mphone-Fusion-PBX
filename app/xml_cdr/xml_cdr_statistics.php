@@ -201,16 +201,11 @@
 		? ['today' => 'Hôm nay', '1h' => '1 giờ', '3h' => '3 giờ', 'yesterday' => 'Hôm qua', '7d' => '7 ngày', '30d' => '30 ngày', '1y' => '1 năm']
 		: ['today' => 'Today', '1h' => '1 hour', '3h' => '3 hours', 'yesterday' => 'Yesterday', '7d' => '7 days', '30d' => '30 days', '1y' => '1 year'];
 	foreach ($range_options as $range_value => $range_label) {
-		$range_query = ($data_source === 'test' ? 'data_source=test&' : '').'chart_range='.$range_value;
 		$range_active = $chart_range === $range_value;
-		echo button::create([
-			'type'=>'button',
-			'label'=>$range_label,
-			'icon'=>($range_active ? 'check-circle' : 'chart-line'),
-			'class'=>'default',
-			'style'=>($range_active ? 'color: #ffffff; background: #48484a; background-image: unset;' : null),
-			'link'=>'xml_cdr_statistics.php?'.$range_query,
-		]);
+		echo "<button type='button' class='btn btn-default' data-cdr-chart-range='".escape($range_value)."'".($range_active ? " style='color:#ffffff;background:#48484a;background-image:unset;'" : null).">";
+		echo "<span class='fa-solid fa-".($range_active ? 'check-circle' : 'chart-line')." fa-fw'></span>";
+		echo "<span class='button-label pad'>".escape($range_label)."</span>";
+		echo "</button>";
 	}
 	echo "		</span>\n";
 	if (substr_count($_SERVER['HTTP_REFERER'], 'app/xml_cdr/xml_cdr.php') != 0) {
@@ -228,14 +223,35 @@
 	echo "	<div style='clear: both;'></div>\n";
 	echo "</div>\n";
 
-	echo "<div class='card'>\n";
+	//load the call analytics once; the common range selector updates every chart
+	require_once __DIR__.'/resources/classes/cdr_analytics.php';
+	$cdr_analytics_data = cdr_analytics_get($chart_range, $data_source);
 	?>
 	<script src='/resources/chartjs/chart.min.js'></script>
 	<script src='/resources/chartjs/chartjs-adapter-date-fns.bundle.min.js'></script>
-
-	<div align='center' style="justify-content: center; margin-bottom: 25px;">
+	<style>
+		.cdr-statistics-chart-grid { display:grid; grid-template-columns:minmax(0,3fr) minmax(0,2fr); grid-template-areas:'statistics analytics'; gap:16px; align-items:stretch; margin-bottom:16px; }
+		.cdr-statistics-chart-grid > .card { margin:0; min-width:0; }
+		.cdr-statistics-analytics-card { grid-area:analytics; }
+		.cdr-statistics-main-card { grid-area:statistics; }
+		@media (max-width:1024px) {
+			.cdr-statistics-chart-grid { grid-template-columns:minmax(0,1fr); grid-template-areas:'statistics' 'analytics'; }
+		}
+	</style>
+	<div class="cdr-statistics-chart-grid">
+		<div class="card cdr-statistics-analytics-card">
+		<?php
+		$analytics_id = 'cdr_statistics_analytics_summary';
+		$analytics_compact = false;
+		$analytics_show_summary = true;
+		$analytics_show_top = false;
+		require __DIR__.'/resources/views/cdr_analytics.php';
+		?>
+		</div>
+		<div class="card cdr-statistics-main-card">
+	<div align='center' style="justify-content: center; margin-top: 16px; margin-bottom: 0px;">
 		<div style="max-width: 100%; width: 800px;">
-			<div id="cdr_stats_legend" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 18px; min-height: 22px; margin-bottom: 6px;"></div>
+			<div id="cdr_stats_legend" style="display: flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 10px 18px; min-height: 20px; margin-bottom: 8px;"></div>
 			<div style="height: 280px;">
 				<canvas id="cdr_stats_chart" style="width: 100%; height: 100%;"></canvas>
 			</div>
@@ -356,24 +372,43 @@
 			minute: '2-digit',
 			hourCycle: 'h23'
 		});
+		let cdr_chart_range = <?php echo json_encode($chart_range); ?>;
+		const cdr_is_vietnamese = <?php echo $is_vietnamese ? 'true' : 'false'; ?>;
+		const cdr_chart_locale = <?php echo json_encode($language_code); ?>;
+		const cdr_chart_time_zone = <?php echo json_encode($time_zone); ?>;
+		const cdr_dynamic_date_label = (date, tooltip = false) => {
+			const options = {timeZone: cdr_chart_time_zone};
+			if (cdr_chart_range === '1y') Object.assign(options, {month:'2-digit', year:'numeric'});
+			else if (cdr_chart_range === '7d') Object.assign(options, {day:'2-digit', month:'2-digit'});
+			else if (cdr_chart_range === '30d') Object.assign(options, {day:'2-digit', month:'2-digit'}, tooltip ? {year:'numeric'} : {});
+			else Object.assign(options, {hour:'2-digit', minute:'2-digit', hour12:<?php echo $settings->get('domain', 'time_format') != '24h' ? 'true' : 'false'; ?>}, tooltip ? {day:'2-digit', month:'2-digit'} : {});
+			return new Intl.DateTimeFormat(cdr_chart_locale, options).format(date);
+		};
+		const cdr_date_parts = (date) => Object.fromEntries(
+			cdr_axis_parts_formatter.formatToParts(date)
+				.filter((part) => part.type !== 'literal')
+				.map((part) => [part.type, part.value])
+		);
 		const cdr_axis_label = (timestamp) => {
 			const date = new Date(timestamp);
-			<?php if ($is_vietnamese) { ?>
-			const parts = Object.fromEntries(
-				cdr_axis_parts_formatter.formatToParts(date)
-					.filter((part) => part.type !== 'literal')
-					.map((part) => [part.type, part.value])
-			);
-			<?php if ($chart_range === '1y') { ?>
-			return `${parts.month}/${parts.year}`;
-			<?php } else if (in_array($chart_range, ['7d', '30d'], true)) { ?>
-			return `${parts.day}/${parts.month}`;
-			<?php } else { ?>
-			return `${parts.hour}:${parts.minute}`;
-			<?php } ?>
-			<?php } else { ?>
-			return cdr_axis_date_formatter.format(date);
-			<?php } ?>
+			if (cdr_is_vietnamese) {
+				const parts = cdr_date_parts(date);
+				if (cdr_chart_range === '1y') return `${parts.month}/${parts.year}`;
+				if (cdr_chart_range === '7d' || cdr_chart_range === '30d') return `${parts.day}/${parts.month}`;
+				return `${parts.hour}:${parts.minute}`;
+			}
+			return cdr_dynamic_date_label(date, false);
+		};
+		const cdr_tooltip_label = (timestamp) => {
+			const date = new Date(timestamp);
+			if (cdr_is_vietnamese) {
+				const parts = cdr_date_parts(date);
+				if (cdr_chart_range === '1y') return `${parts.month}/${parts.year}`;
+				if (cdr_chart_range === '7d') return `${parts.day}/${parts.month}`;
+				if (cdr_chart_range === '30d') return `${parts.day}/${parts.month}/${parts.year}`;
+				return `${parts.hour}:${parts.minute} ${parts.day}/${parts.month}`;
+			}
+			return cdr_dynamic_date_label(date, true);
 		};
 		const cdr_number_formatter = new Intl.NumberFormat(
 			<?php echo json_encode($is_vietnamese ? 'vi-VN' : $language_code); ?>,
@@ -430,7 +465,7 @@
 						callbacks: {
 							title: (items) => {
 								if (!items.length) return '';
-								return cdr_tooltip_date_formatter.format(new Date(items[0].parsed.x));
+								return cdr_tooltip_label(items[0].parsed.x);
 							},
 							label: (context) => {
 								const suffix = context.dataset.unit ?? '';
@@ -477,14 +512,121 @@
 		};
 
 		const cdr_stats_chart = new Chart(ctx, cdr_stats_config);
+		const cdr_statistics_table_body = () => document.getElementById('cdr_statistics_table_body');
+		const cdr_append_cell = (row, value, class_name = '') => {
+			const cell = document.createElement('td');
+			cell.textContent = value;
+			if (class_name) cell.className = class_name;
+			row.append(cell);
+			return cell;
+		};
+		const cdr_table_time = (item) => {
+			const start = new Date(Number(item.start_epoch) * 1000);
+			const end = new Date(Number(item.end_epoch) * 1000);
+			const parts = cdr_date_parts(start);
+			if (cdr_chart_range === '1y') return `${parts.month}/${parts.year}`;
+			if (cdr_chart_range === '30d') return `${parts.day}/${parts.month}`;
+			if (cdr_chart_range === '7d') {
+				const weekday_key = new Intl.DateTimeFormat('en-US', {timeZone:cdr_chart_time_zone,weekday:'short'}).format(start);
+				const weekday = cdr_is_vietnamese
+					? ({Mon:'T2', Tue:'T3', Wed:'T4', Thu:'T5', Fri:'T6', Sat:'T7', Sun:'CN'}[weekday_key] ?? weekday_key)
+					: weekday_key;
+				return `${weekday}, ${parts.day}/${parts.month}`;
+			}
+			const end_parts = cdr_date_parts(end);
+			return `${parts.hour}:${parts.minute} - ${end_parts.hour}:${end_parts.minute} ${parts.day}/${parts.month}`;
+		};
+		const cdr_render_statistics_table = (stats) => {
+			const table_body = cdr_statistics_table_body();
+			if (!table_body) return;
+			table_body.replaceChildren();
+			stats.forEach((item) => {
+				const row = document.createElement('tr');
+				row.className = 'list-row';
+				cdr_append_cell(row, cdr_table_time(item), 'no-wrap');
+				cdr_append_cell(row, cdr_number_formatter.format(Number(item.volume) || 0));
+				cdr_append_cell(row, cdr_number_formatter.format(Math.round(Number(item.minutes) || 0)));
+				const missed_cell = cdr_append_cell(row, '', 'center');
+				const missed_link = document.createElement('a');
+				missed_link.href = `xml_cdr.php?call_result=missed&direction=${encodeURIComponent(<?php echo json_encode($direction); ?>)}&start_epoch=${encodeURIComponent(item.start_epoch ?? '')}&stop_epoch=${encodeURIComponent(item.end_epoch ?? '')}`;
+				missed_link.textContent = cdr_number_formatter.format(Number(item.missed) || 0);
+				missed_cell.append(missed_link);
+				cdr_append_cell(row, cdr_number_formatter.format(Number(item.aloc) || 0));
+				cdr_append_cell(row, `${cdr_number_formatter.format(Number(item.asr) || 0)}%`);
+				table_body.append(row);
+			});
+		};
+		const cdr_range_chart_options = (range) => {
+			if (range === '1h') return {unit:'minute', maxTicks:12};
+			if (range === '3h') return {unit:'minute', maxTicks:10};
+			if (range === 'today' || range === 'yesterday') return {unit:'hour', maxTicks:12};
+			if (range === '7d') return {unit:'day', maxTicks:7};
+			if (range === '30d') return {unit:'day', maxTicks:10};
+			return {unit:'month', maxTicks:12};
+		};
+		document.querySelectorAll('[data-cdr-chart-range]').forEach((button) => button.addEventListener('click', async () => {
+			const buttons = document.querySelectorAll('[data-cdr-chart-range]');
+			const table_body = cdr_statistics_table_body();
+			const analytics_roots = document.querySelectorAll('[id^="cdr_statistics_analytics_"]');
+			buttons.forEach((item) => item.disabled = true);
+			ctx.canvas.style.opacity = '0.55';
+			if (table_body) table_body.style.opacity = '0.55';
+			analytics_roots.forEach((item) => item.style.opacity = '0.55');
+			try {
+				const query = new URLSearchParams(window.location.search);
+				query.set('chart_range', button.dataset.cdrChartRange);
+				query.set('data_source', <?php echo json_encode($data_source); ?>);
+				const analytics_query = new URLSearchParams({range:button.dataset.cdrChartRange, data_source:<?php echo json_encode($data_source); ?>});
+				const [response, analytics_response] = await Promise.all([
+					fetch('/app/xml_cdr/resources/ajax/cdr_statistics.php?' + query.toString(), {credentials:'same-origin',cache:'no-store'}),
+					fetch('/app/xml_cdr/resources/ajax/cdr_analytics.php?' + analytics_query.toString(), {credentials:'same-origin',cache:'no-store'})
+				]);
+				if (!response.ok || !analytics_response.ok) throw new Error('statistics_request_failed');
+				const [data, analytics_data] = await Promise.all([response.json(), analytics_response.json()]);
+				cdr_chart_range = data.chart_range;
+				const graph = data.graph;
+				cdr_stats_chart.data.datasets[0].data = graph.volume ?? [];
+				cdr_stats_chart.data.datasets[1].data = graph.minutes ?? [];
+				cdr_stats_chart.data.datasets[2].data = graph.missed ?? [];
+				cdr_stats_chart.data.datasets[3].data = graph.aloc ?? [];
+				cdr_stats_chart.data.datasets[4].data = graph.asr ?? [];
+				const range_options = cdr_range_chart_options(cdr_chart_range);
+				cdr_stats_chart.options.scales.x.time.unit = range_options.unit;
+				cdr_stats_chart.options.scales.x.ticks.maxTicksLimit = range_options.maxTicks;
+				cdr_stats_chart.update();
+				cdr_render_statistics_table(data.stats ?? []);
+				(window.cdrAnalyticsUpdaters ?? []).forEach((update) => update(analytics_data));
+				buttons.forEach((item) => {
+					item.style.cssText = '';
+					const icon = item.querySelector('.fa-solid');
+					icon.className = 'fa-solid fa-chart-line fa-fw';
+				});
+				button.style.cssText = 'color:#ffffff;background:#48484a;background-image:unset;';
+				button.querySelector('.fa-solid').className = 'fa-solid fa-check-circle fa-fw';
+				const page_url = new URL(window.location.href);
+				page_url.searchParams.set('chart_range', cdr_chart_range);
+				history.replaceState({}, '', page_url);
+			}
+			catch (error) {
+				console.error('Unable to update CDR statistics', error);
+			}
+			finally {
+				buttons.forEach((item) => item.disabled = false);
+				ctx.canvas.style.opacity = '1';
+				if (table_body) table_body.style.opacity = '1';
+				analytics_roots.forEach((item) => item.style.opacity = '1');
+			}
+		}));
 	</script>
 
 	<?php
+	echo "</div>\n";
 	echo "</div>\n";
 
 //show the results
 	echo "<div class='card'>\n";
 	echo "<table class='list'>\n";
+	echo "<thead>\n";
 	echo "<tr class='list-header'>\n";
 	echo "	<th class='no-wrap'>".$text['label-time']."</th>\n";
 	echo "	<th title='".$text['description-volume']."'>".escape($chart_labels['volume'])."</th>\n";
@@ -493,6 +635,8 @@
 	echo "	<th title='".$text['description-aloc']."'>".escape($chart_labels['aloc'])."</th>\n";
 	echo "	<th title='".$text['description-asr']."'>".escape($chart_labels['asr'])."</th>\n";
 	echo "</tr>\n";
+	echo "</thead>\n";
+	echo "<tbody id='cdr_statistics_table_body'>\n";
 
 	foreach ($stats as $row) {
 		$display_date = $row['date'];
@@ -531,7 +675,17 @@
 		echo "	<td>".escape($format_stat_number($row['asr'] ?? 0))."%&nbsp;</td>\n";
 		echo "</tr >\n";
 	}
+	echo "</tbody>\n";
 	echo "</table>\n";
+	echo "</div>\n";
+
+//show the Top 10 tables in their existing card below the statistics table
+	$analytics_id = 'cdr_statistics_analytics_top';
+	$analytics_compact = false;
+	$analytics_show_summary = false;
+	$analytics_show_top = true;
+	echo "<div class='card'>\n";
+	require __DIR__.'/resources/views/cdr_analytics.php';
 	echo "</div>\n";
 	echo "<br><br>";
 
