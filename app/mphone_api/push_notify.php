@@ -30,12 +30,14 @@
 	if (!is_array($input)) {
 		push_response(400, ['error' => 'Invalid JSON body']);
 	}
+	$event_type = trim((string) ($input['event_type'] ?? 'started'));
 	$event_id = trim((string) ($input['event_id'] ?? ''));
 	$caller_number = trim((string) ($input['caller_number'] ?? ''));
 	$dialed_number = trim((string) ($input['dialed_number'] ?? ''));
 	$extension = trim((string) ($input['extension'] ?? ''));
 	$domain_name = trim((string) ($input['domain_name'] ?? ''));
-	if ($event_id === '' || $caller_number === '' || $dialed_number === '' ||
+	if (!in_array($event_type, ['started', 'ended'], true) ||
+		$event_id === '' || $caller_number === '' || $dialed_number === '' ||
 		$extension === '' || $domain_name === '' || strlen($event_id) > 255 ||
 		strlen($caller_number) > 255 || strlen($dialed_number) > 255) {
 		push_response(400, ['error' => 'Invalid call-forward event']);
@@ -48,9 +50,14 @@
 		'extension' => $extension,
 		'domain_name' => $domain_name,
 	], 'row');
-	if (empty($row) || !filter_var($row['forward_all_enabled'], FILTER_VALIDATE_BOOLEAN) ||
-		trim((string) $row['forward_all_destination']) === '') {
+	if (empty($row) || ($event_type === 'started' &&
+		(!filter_var($row['forward_all_enabled'], FILTER_VALIDATE_BOOLEAN) ||
+		trim((string) $row['forward_all_destination']) === ''))) {
 		push_response(202, ['sent' => false]);
+	}
+	$forward_destination = trim((string) ($input['forward_destination'] ?? ''));
+	if ($forward_destination === '') {
+		$forward_destination = trim((string) $row['forward_all_destination']);
 	}
 
 	$secret_file = '/etc/mphone/push-api-secret';
@@ -60,12 +67,19 @@
 		push_response(503, ['error' => 'Push service unavailable']);
 	}
 	$payload = json_encode([
+		'event_type' => $event_type,
 		'event_id' => $event_id,
 		'extension_uuid' => $row['extension_uuid'],
 		'extension' => $row['extension'],
 		'caller_number' => $caller_number,
 		'dialed_number' => $dialed_number,
-		'forward_destination' => trim((string) $row['forward_all_destination']),
+		'forward_destination' => $forward_destination,
+		'hangup_cause' => trim((string) ($input['hangup_cause'] ?? '')),
+		'start_epoch' => (int) ($input['start_epoch'] ?? 0),
+		'answer_epoch' => (int) ($input['answer_epoch'] ?? 0),
+		'end_epoch' => (int) ($input['end_epoch'] ?? 0),
+		'duration' => max(0, (int) ($input['duration'] ?? 0)),
+		'billsec' => max(0, (int) ($input['billsec'] ?? 0)),
 	], JSON_UNESCAPED_SLASHES | JSON_UNESCAPED_UNICODE);
 	$context = stream_context_create(['http' => [
 		'method' => 'POST',
@@ -81,8 +95,15 @@
 	);
 	$status_line = $http_response_header[0] ?? '';
 	if ($response === false || !preg_match('/\s2\d\d\s/', $status_line)) {
-		error_log('Mphone call-forward push relay failed: ' . $status_line);
+		error_log('Mphone call-forward push relay failed: ' . $status_line . ' ' . (string) $response);
 		push_response(502, ['error' => 'Unable to relay push event']);
 	}
-	push_response(200, ['sent' => true]);
-
+	$relay_response = json_decode((string) $response, true);
+	if (!is_array($relay_response)) {
+		$relay_response = [];
+	}
+	push_response(200, [
+		'sent' => ((int) ($relay_response['sent'] ?? 0)) > 0,
+		'devices' => (int) ($relay_response['devices'] ?? 0),
+		'delivered' => (int) ($relay_response['sent'] ?? 0),
+	]);

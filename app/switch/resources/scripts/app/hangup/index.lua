@@ -136,6 +136,31 @@
 	missed_call_data = env:getHeader("missed_call_data") or '';
 	call_direction = env:getHeader("call_direction") or '';
 
+--schedule Mphone call-forward lifecycle completion outside the hangup thread
+	mphone_forward_event_id = env:getHeader("mphone_forward_event_id") or '';
+	if (mphone_forward_event_id ~= '') then
+		local function safe_header(name)
+			local value = tostring(env:getHeader(name) or ''):gsub('[%s\'\"]', '');
+			return value;
+		end
+		local command = table.concat({
+			'luarun app.lua mphone_forward_notify_end',
+			"'" .. safe_header('mphone_forward_event_id') .. "'",
+			"'" .. safe_header('mphone_forward_caller_number') .. "'",
+			"'" .. safe_header('mphone_forward_dialed_number') .. "'",
+			"'" .. safe_header('mphone_forward_extension') .. "'",
+			"'" .. safe_header('mphone_forward_domain_name') .. "'",
+			"'" .. safe_header('mphone_forward_destination') .. "'",
+			"'" .. safe_header('originate_disposition') .. "'",
+			"'" .. safe_header('start_epoch') .. "'",
+			"'" .. safe_header('answer_epoch') .. "'",
+			"'" .. safe_header('end_epoch') .. "'",
+			"'" .. safe_header('duration') .. "'",
+			"'" .. safe_header('billsec') .. "'",
+		}, ' ');
+		api:executeString('bgapi ' .. command);
+	end
+
 -- get the Caller ID
 	caller_id_name = env:getHeader("caller_id_name");
 	caller_id_number = env:getHeader("caller_id_number");

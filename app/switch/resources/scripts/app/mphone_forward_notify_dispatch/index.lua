@@ -6,7 +6,8 @@ if session == nil or not session:ready() then
 end
 
 local function channel_value(name)
-	return tostring(session:getVariable(name) or ''):gsub('[%s\'\"]', '')
+	local value = tostring(session:getVariable(name) or ''):gsub('[%s\'\"]', '')
+	return value
 end
 
 local event_id = channel_value('uuid')
@@ -19,6 +20,16 @@ local domain_name = channel_value('domain_name')
 if event_id == '' or caller_number == '' or extension == '' or domain_name == '' then
 	return
 end
+
+-- Keep the original forwarding metadata on the A-leg. execute_on_hangup runs
+-- in the channel context and only schedules background work, so hangup is
+-- never delayed by the HTTP/FCM request.
+session:setVariable('mphone_forward_event_id', event_id)
+session:setVariable('mphone_forward_caller_number', caller_number)
+session:setVariable('mphone_forward_dialed_number', sip_to_user ~= '' and sip_to_user or caller_destination)
+session:setVariable('mphone_forward_extension', extension)
+session:setVariable('mphone_forward_domain_name', domain_name)
+session:setVariable('mphone_forward_destination', channel_value('forward_all_destination'))
 
 local command = table.concat({
 	'luarun app.lua mphone_forward_notify',

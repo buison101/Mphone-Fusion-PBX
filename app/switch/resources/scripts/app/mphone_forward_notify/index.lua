@@ -32,6 +32,7 @@ if dialed_number == '' then dialed_number = extension end
 
 local json = require 'resources.functions.lunajson'
 local payload = json.encode({
+	event_type = 'started',
 	event_id = event_id,
 	caller_number = caller_number,
 	dialed_number = dialed_number,
@@ -41,4 +42,3 @@ local payload = json.encode({
 local command = 'http://127.0.0.1/app/mphone_api/push_notify.php content-type application/json post ' .. payload
 local response = api:executeString('curl ' .. command)
 freeswitch.consoleLog('debug', '[mphone_forward_notify] relay response: ' .. tostring(response) .. '\n')
-
