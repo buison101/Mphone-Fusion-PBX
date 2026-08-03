@@ -4,6 +4,10 @@
 
 This repository is an active development copy of a FusionPBX PHP application. It is running on a Debian 12 virtual machine inside VirtualBox, so treat local paths, services, permissions, and web-server behavior as development-environment details unless the user says otherwise. Prefer small, reversible changes and verify them locally with targeted commands before reporting completion.
 
+The complete product also includes the Mphone Android application, maintained in a separate repository mounted from the VirtualBox host at `/mnt/linphone-android-master`. Treat the FusionPBX repository and that Android repository as two parts of the same product when a feature spans the PBX, Supabase, push notifications, or the mobile UI. Follow the Android repository's own `AGENTS.md` before changing files there.
+
+The VirtualBox share name is `linphone-android-master`, and `/etc/fstab` is configured to mount it at `/mnt/linphone-android-master`. Before Android work, verify it with `findmnt /mnt/linphone-android-master` and confirm the directory is not empty. If the mount is absent, run `modprobe vboxsf`, ensure the mount directory exists, then run `mount /mnt/linphone-android-master`. Do not mistake an empty, unmounted directory for an empty Android repository.
+
 Assume this is not a clean production checkout. There may be local experiments, deployment-specific files, or unfinished work in progress. Do not overwrite, normalize, or revert unrelated changes.
 
 ## Strict No-Touch Files
