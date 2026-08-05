@@ -80,7 +80,7 @@ div.card {
 }
 
 #main_content {
-    box-shadow: 0 1px 3px rgba(0,0,0,.08);
+    box-shadow: none;
 }
 
 div#menu_side_container > a.menu_side_item_main, div#menu_side_container > div > a.menu_side_item_main {
@@ -102,4 +102,12 @@ input.formfld:focus, select.formfld:focus {
 
 button:focus {
     outline: none;
+}
+
+.hud_details.hud_box, .hud_details.hud_box:hover {
+    border: none;
+}
+
+#footer {
+    display: none;
 }

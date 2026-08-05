@@ -1,0 +1,465 @@
+/* Modern Light Mode UI */
+
+:root {
+    --ui-bg: #faf8ff;
+    --ui-shell: #ffffff;
+    --ui-surface: #faf8ff;
+    --ui-surface-raised: #ffffff;
+    --ui-surface-soft: #f2f3ff;
+    --ui-surface-active: #dae2fd;
+    --ui-border: #c3c6d7;
+    --ui-border-strong: #737686;
+    --ui-text: #131b2e;
+    --ui-text-muted: #434655;
+    --ui-text-soft: #737686;
+    --ui-primary: #004ac6;
+    --ui-primary-hover: #0053db;
+    --ui-primary-soft: #dae2fd;
+    --ui-accent: #2563eb;
+    --ui-success: #16a34a;
+    --ui-success-hover: #15803d;
+    --ui-danger: #dc2626;
+    --ui-danger-hover: #b91c1c;
+    --ui-warning: #f59e0b;
+    --ui-shadow-sm: 0 1px 2px rgba(15, 23, 42, 0.08);
+    --ui-shadow-md: 0 12px 30px rgba(15, 23, 42, 0.12);
+    --ui-shadow-lg: 0 22px 60px rgba(15, 23, 42, 0.18);
+}
+
+body {
+    color: var(--ui-text);
+    background: var(--ui-bg);
+}
+
+.pageContainer {
+    box-shadow: var(--ui-shadow-lg);
+}
+
+.streamSection,
+.profileContainer,
+.highlightSection {
+    background-color: var(--ui-surface);
+}
+
+.buddy {
+    color: var(--ui-text);
+    border-left: 3px solid transparent;
+}
+
+.buddy:hover,
+.contact:hover {
+    background-color: var(--ui-surface-soft);
+}
+
+.buddySelected {
+    color: var(--ui-text);
+    background-color: var(--ui-surface-active);
+    border-left: 3px solid var(--ui-primary);
+}
+
+.buddyActiveCall {
+    color: var(--ui-text);
+    background-color: #ecfdf3;
+    border-left: 3px solid var(--ui-success);
+}
+
+.buddyActiveCallHollding {
+    color: var(--ui-text-muted);
+    background-color: #fff7e6;
+    border-left: 3px solid var(--ui-warning);
+}
+
+.buddyIcon,
+.lineIcon,
+.buddyActiveCall .lineIcon,
+.buddyActiveCallHollding .lineIcon {
+    border: 1px solid var(--ui-border);
+    color: #ffffff;
+}
+
+.hiddenBuddiesText,
+button,
+.roundButtons {
+    color: var(--ui-primary);
+}
+
+.hrline {
+    background-color: var(--ui-border);
+}
+
+.profileContainer {
+    border-bottom: 1px solid var(--ui-border);
+}
+
+.searchClean {
+    background-color: var(--ui-surface-soft);
+}
+
+.searchClean:before,
+.searchClean INPUT {
+    color: var(--ui-text-muted) !important;
+}
+
+.leftContentTable,
+.rightContent {
+    border-color: var(--ui-border);
+}
+
+.sectionBorderBottom {
+    border-bottom: 1px solid var(--ui-border);
+}
+
+.sectionBorderTop {
+    border-top: 1px solid var(--ui-border);
+}
+
+.presenceText,
+.messageDate,
+.cdrComment {
+    color: var(--ui-text-muted);
+}
+
+.streamSectionBackground {
+    background-color: var(--ui-surface-soft);
+}
+
+.chatMessage,
+.callRecording {
+    border: 1px solid var(--ui-border);
+    color: var(--ui-text);
+    background-color: var(--ui-surface);
+}
+
+.theirChatMessageText {
+    background-color: var(--ui-surface);
+    color: var(--ui-text);
+}
+
+.ourChatMessageText {
+    background-color: var(--ui-primary);
+    color: #ffffff;
+}
+
+.chatMessageDropdown {
+    color: var(--ui-text);
+    background-color: rgba(255, 255, 255, 0.86);
+}
+
+.dialTextInput {
+    color: var(--ui-text);
+    border-bottom: 1px solid var(--ui-border);
+}
+
+.dialButtons,
+.CallControl {
+    color: var(--ui-text);
+    background-color: var(--ui-surface-soft);
+}
+
+.dialButtonsDial,
+.answerButton {
+    color: #ffffff !important;
+    background-color: var(--ui-success) !important;
+}
+
+.hangupButton,
+.rejectButton {
+    color: #ffffff !important;
+    background-color: var(--ui-danger) !important;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=tel],
+select,
+textarea {
+    color: var(--ui-text) !important;
+    background-color: var(--ui-surface) !important;
+}
+
+/* Nocturne Light alignment based on UI UX mẫu/light.html */
+:root {
+    --ui-bg: #faf8ff;
+    --ui-shell: #ffffff;
+    --ui-surface: #faf8ff;
+    --ui-surface-raised: #ffffff;
+    --ui-surface-soft: #f2f3ff;
+    --ui-surface-active: #dae2fd;
+    --ui-border: #c3c6d7;
+    --ui-border-strong: #737686;
+    --ui-text: #131b2e;
+    --ui-text-muted: #434655;
+    --ui-text-soft: #737686;
+    --ui-primary: #004ac6;
+    --ui-primary-hover: #0053db;
+    --ui-primary-soft: #dae2fd;
+    --ui-accent: #2563eb;
+    --ui-success: #16a34a;
+    --ui-success-hover: #15803d;
+    --ui-danger: #ba1a1a;
+    --ui-danger-hover: #93000a;
+    --ui-warning: #b45309;
+    --ui-shadow-sm: 0 1px 2px rgba(19, 27, 46, 0.08);
+    --ui-shadow-md: 0 12px 28px rgba(19, 27, 46, 0.12);
+    --ui-shadow-lg: 0 20px 56px rgba(19, 27, 46, 0.14);
+    --ui-radius-xs: 4px;
+    --ui-radius-sm: 6px;
+    --ui-radius-md: 8px;
+    --ui-radius-lg: 12px;
+    --ui-font: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+body,
+html,
+#Phone {
+    background: var(--ui-bg) !important;
+    color: var(--ui-text);
+}
+
+.pageContainer {
+    background: var(--ui-shell) !important;
+    box-shadow: none !important;
+}
+
+#leftContent,
+#myContacts,
+.profileContainer,
+.streamSection,
+.highlightSection,
+#sidebarCta > td.streamSection {
+    background: #eaedff !important;
+}
+
+#searchArea > td.streamSection {
+    background: #eaedff !important;
+}
+
+.leftContentTable,
+.rightContent,
+.profileContainer,
+.buddyProfileSection,
+.buddyInteractionSection,
+#sidebarCta > td.streamSection,
+.sectionBorderBottom,
+.sectionBorderTop {
+    border-color: var(--ui-border) !important;
+}
+
+.streamSectionBackground {
+    background-color: var(--ui-bg) !important;
+    background-image:
+        radial-gradient(circle at 1px 1px, rgba(0, 0, 0, 0.03) 1px, transparent 0) !important;
+    background-size: 40px 40px !important;
+}
+
+.buddyProfileSection,
+.buddyInteractionSection {
+    background: rgba(250, 248, 255, 0.84) !important;
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+}
+
+.buddyProfileSection .roundButtons {
+    color: #434655 !important;
+    background: transparent !important;
+    border-color: transparent !important;
+}
+
+.buddyProfileSection .roundButtons:hover {
+    color: #004ac6 !important;
+    background: #dae2fd !important;
+}
+
+.buddyProfileSection .roundButtons:disabled,
+.buddyProfileSection .roundButtons[disabled] {
+    color: rgba(67, 70, 85, 0.38) !important;
+    background: transparent !important;
+}
+
+.buddyProfileSection td[id$="-action-buttons"] {
+    color: #434655 !important;
+}
+
+.buddyProfileSection td[id$="-action-buttons"] .roundButtons,
+.buddyProfileSection td[id$="-action-buttons"] .roundButtons i {
+    color: #434655 !important;
+}
+
+.buddyProfileSection td[id$="-action-buttons"] .roundButtons:hover,
+.buddyProfileSection td[id$="-action-buttons"] .roundButtons:hover i {
+    color: #004ac6 !important;
+}
+
+.contact,
+.buddy,
+.buddySelected,
+.buddyActiveCall,
+.buddyActiveCallHollding {
+    color: var(--ui-text) !important;
+    border-left-color: transparent !important;
+}
+
+.buddy:hover,
+.contact:hover {
+    background: #dae2fd !important;
+    box-shadow: none !important;
+}
+
+.buddySelected {
+    background: #2563eb !important;
+    color: #eeefff !important;
+    border-left-color: #004ac6 !important;
+}
+
+.buddySelected .contactNameText,
+.buddySelected .presenceText,
+.buddySelected .contactDate,
+.buddySelected .messageDate {
+    color: #eeefff !important;
+}
+
+.buddyActiveCall {
+    background: rgba(22, 163, 74, 0.12) !important;
+    border-left-color: var(--ui-success) !important;
+}
+
+.buddyActiveCallHollding {
+    background: rgba(180, 83, 9, 0.12) !important;
+    border-left-color: var(--ui-warning) !important;
+}
+
+.contactNameText,
+.ProfileTextLarge,
+.ProfileTextMedium {
+    color: var(--ui-text) !important;
+}
+
+.presenceText,
+.contactDate,
+.messageDate,
+.timelineMessageDate,
+.ProfileTextSmall,
+.cdrComment {
+    color: rgba(67, 70, 85, 0.82) !important;
+}
+
+.buddyIcon,
+.lineIcon,
+.buddyIconSmall,
+.callAnswerBuddyIcon,
+.inCallAvatar,
+.buddyProfilePic {
+    background-color: #d2d9f4 !important;
+    border-color: rgba(115, 118, 134, 0.28) !important;
+    box-shadow: none !important;
+}
+
+.lineIcon {
+    background: linear-gradient(135deg, #0053db, #2563eb) !important;
+    color: #ffffff !important;
+}
+
+.settingsMenu .roundButtons,
+.roundButtons,
+button {
+    color: var(--ui-primary) !important;
+}
+
+.settingsMenu .roundButtons:hover,
+.roundButtons:hover,
+button:hover {
+    background: #dae2fd !important;
+    color: var(--ui-primary-hover) !important;
+}
+
+.searchClean {
+    background: #f2f3ff !important;
+    border-color: var(--ui-border) !important;
+    color: var(--ui-text-soft) !important;
+}
+
+.searchClean:focus-within {
+    background: #ffffff !important;
+    border-color: var(--ui-primary) !important;
+    box-shadow: 0 0 0 3px rgba(0, 83, 219, 0.12) !important;
+}
+
+.searchClean:before,
+.searchClean INPUT,
+.searchClean INPUT:focus {
+    color: var(--ui-text-soft) !important;
+}
+
+.chatMessage {
+    background: #ffffff !important;
+    color: var(--ui-text) !important;
+    border-color: var(--ui-border) !important;
+}
+
+.chatMessage:focus {
+    border-color: var(--ui-primary) !important;
+    box-shadow: 0 0 0 3px rgba(0, 83, 219, 0.12) !important;
+}
+
+.theirChatMessageText {
+    background: #eaedff !important;
+    color: var(--ui-text) !important;
+    border: 1px solid #c3c6d7 !important;
+}
+
+.ourChatMessageText {
+    background: #2563eb !important;
+    color: #ffffff !important;
+    border-color: transparent !important;
+}
+
+.ourChatMessageText .messageDate,
+.ourChatMessageText .messageStatus,
+.ourChatMessageText .messageDate i {
+    color: rgba(238, 239, 255, 0.78) !important;
+}
+
+.chatMessageDropdown {
+    background: rgba(255, 255, 255, 0.72) !important;
+    color: var(--ui-text-muted) !important;
+}
+
+.timelineMessageText,
+.callRecording,
+.sendMessagePreviewHtml {
+    background: #ffffff !important;
+    border-color: var(--ui-border) !important;
+    color: var(--ui-text) !important;
+}
+
+.sidebarCtaButton,
+.sendMessageContainer [id$="-sendMessageButtons"] .roundButtons {
+    background: #2563eb !important;
+    color: #eeefff !important;
+    box-shadow: 0 10px 24px rgba(37, 99, 235, 0.2) !important;
+}
+
+.sidebarCtaButton:hover,
+.sendMessageContainer [id$="-sendMessageButtons"] .roundButtons:hover {
+    background: #0053db !important;
+    color: #ffffff !important;
+}
+
+.sendMessageContainer .MessageActions .roundButtons {
+    background: transparent !important;
+    color: var(--ui-text-soft) !important;
+}
+
+.sendMessageContainer .MessageActions .roundButtons:hover {
+    background: #dae2fd !important;
+    color: var(--ui-primary) !important;
+}
+
+.ui-dialog,
+.ui-menu {
+    background: #ffffff !important;
+    border-color: var(--ui-border) !important;
+    color: var(--ui-text) !important;
+    box-shadow: var(--ui-shadow-lg) !important;
+}

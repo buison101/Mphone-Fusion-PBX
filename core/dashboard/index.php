@@ -235,14 +235,6 @@
 	echo "	Chart.defaults.plugins.legend.display = false;\n";
 	echo "</script>\n";
 
-//determine initial state all button to display
-	$expanded_all = true;
-	if (!empty($widgets)) {
-		foreach ($widgets as $row) {
-			if ($row['widget_details_state'] == 'contracted' || $row['widget_details_state'] == 'hidden' || $row['widget_details_state'] == 'disabled') { $expanded_all = false; }
-		}
-	}
-
 //show the content
 	echo "<div class='action_bar' id='action_bar'>\n";
 	echo "	<div class='heading'><b>".$text['title-dashboard']."</b></div>\n";
@@ -255,10 +247,6 @@
 		echo button::create(['type'=>'button','label'=>$text['button-back'],'icon'=>$settings->get('theme', 'button_icon_back'),'id'=>'btn_back','name'=>'btn_back','style'=>'display: none;','onclick'=>"edit_mode('off');"]);
 		echo button::create(['type'=>'submit','label'=>$text['button-save'],'icon'=>$settings->get('theme', 'button_icon_save'),'id'=>'btn_save','name'=>'btn_save','style'=>'display: none; margin-left: 15px;']);
 	}
-	echo "<span id='expand_contract'>\n";
-		echo button::create(['type'=>'button','label'=>$text['button-expand_all'],'icon'=>$settings->get('theme', 'button_icon_expand'),'id'=>'btn_expand','name'=>'btn_expand','style'=>($expanded_all ? 'display: none;' : null),'onclick'=>"$('.hud_details').slideDown('fast'); $(this).hide(); $('#btn_contract').show(); toggle_grid_row_span_all();"]);
-		echo button::create(['type'=>'button','label'=>$text['button-collapse_all'],'icon'=>$settings->get('theme', 'button_icon_contract'),'id'=>'btn_contract','name'=>'btn_contract','style'=>(!$expanded_all ? 'display: none;' : null),'onclick'=>"$('.hud_details').slideUp('fast'); $(this).hide(); $('#btn_expand').show(); toggle_grid_row_span_all();"]);
-	echo "</span>\n";
 	if (permission_exists('dashboard_edit')) {
 		echo button::create(['type'=>'button','label'=>$text['button-edit'],'icon'=>$settings->get('theme', 'button_icon_edit'),'id'=>'btn_edit','name'=>'btn_edit','style'=>'margin-left: 15px;','onclick'=>"edit_mode('on');"]);
 		echo button::create(['type'=>'button','label'=>$text['button-settings'],'icon'=>$settings->get('theme', 'button_icon_add'),'id'=>'btn_add','name'=>'btn_add','link'=>'dashboard.php']);
@@ -291,7 +279,7 @@
 
 .widget {
 	/*background-color: #eee;*/
-	cursor: pointer;
+	cursor: default;
 }
 
 .widgets {
@@ -314,6 +302,15 @@ div.hud_content {
 div.hud_chart {
 	height: 150px;
 	padding-top: 7px;
+}
+
+.widgets .widget:not(.disabled) .hud_details,
+.widgets .child_widget:not(.disabled) .hud_details {
+	display: block !important;
+}
+
+.widgets .hud_expander {
+	display: none !important;
 }
 
 /* dashboard settings */
@@ -575,23 +572,10 @@ foreach ($widgets as $row) {
 </style>
 
 <script>
-
-document.addEventListener('click', function(event) {
-	let hud_content = event.target.closest('.hud_content');
-	let hud_expander = event.target.closest('.hud_expander');
-
-	if (hud_content || hud_expander) {
-		let widget = event.target.closest('div.widget, div.child_widget');
-
-		if (widget.classList.contains('disabled')) {
-			return;
-		}
-
-		if (widget && widget.id) {
-			toggle_grid_row_span(widget.id);
-		}
-	}
-});
+	document.addEventListener('DOMContentLoaded', function() {
+		document.querySelectorAll('div.widget:not(.disabled), div.child_widget:not(.disabled)').forEach((widget) => widget.classList.add('expanded'));
+		document.querySelectorAll('.widgets .hud_content[onclick], .widgets .hud_expander[onclick]').forEach((element) => element.removeAttribute('onclick'));
+	});
 
 function toggle_grid_row_span(widget_id) {
 	let widget = document.getElementById(widget_id);
@@ -732,7 +716,8 @@ window.addEventListener('resize', update_parent_height);
 		$widget_path_name = $widget_path_array[1];
 		$path_array = glob(dirname(__DIR__, 2).'/*/'.$application_name.'/resources/dashboard/'.$widget_path_name.'.php');
 
-		echo "<div class='widget ".$widget_details_state.$widget_class."' id='".$widget_id."' ".($widget_path == 'dashboard/parent' ? "data-is-parent='true'" : null)." draggable='false'>\n";
+		$widget_expanded_class = $widget_details_state !== 'disabled' ? ' expanded' : '';
+		echo "<div class='widget ".$widget_details_state.$widget_class.$widget_expanded_class."' id='".$widget_id."' ".($widget_path == 'dashboard/parent' ? "data-is-parent='true'" : null)." draggable='false'>\n";
 		if (file_exists($path_array[0])) {
 			include $path_array[0];
 		}

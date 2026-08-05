@@ -1,0 +1,184 @@
+/* Modern Dark Mode UI */
+
+:root {
+    --ui-bg: #0b1326;
+    --ui-shell: #060e20;
+    --ui-surface: #171f33;
+    --ui-surface-raised: #222a3d;
+    --ui-surface-soft: #131b2e;
+    --ui-surface-active: #2d3449;
+    --ui-border: #2d3449;
+    --ui-border-strong: #434655;
+    --ui-text: #dae2fd;
+    --ui-text-muted: #c3c6d7;
+    --ui-text-soft: #8d90a0;
+    --ui-primary: #2563eb;
+    --ui-primary-hover: #adc6ff;
+    --ui-primary-soft: rgba(180, 197, 255, 0.12);
+    --ui-accent: #b4c5ff;
+    --ui-success: #22c55e;
+    --ui-success-hover: #16a34a;
+    --ui-danger: #ef4444;
+    --ui-danger-hover: #dc2626;
+    --ui-warning: #fbbf24;
+    --ui-shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.3);
+    --ui-shadow-md: 0 14px 34px rgba(0, 0, 0, 0.34);
+    --ui-shadow-lg: 0 28px 70px rgba(0, 0, 0, 0.44);
+}
+
+body {
+    color: var(--ui-text);
+    background: var(--ui-bg);
+}
+
+.pageContainer {
+    box-shadow: var(--ui-shadow-lg);
+}
+
+.streamSection,
+.profileContainer,
+.highlightSection {
+    background-color: var(--ui-surface);
+}
+
+.buddy {
+    color: var(--ui-text);
+    border-left: 3px solid transparent;
+}
+
+.buddy:hover,
+.contact:hover {
+    background-color: var(--ui-surface-soft);
+}
+
+.buddySelected {
+    color: var(--ui-text);
+    background-color: var(--ui-surface-active);
+    border-left: 3px solid var(--ui-primary);
+}
+
+.buddyActiveCall {
+    color: var(--ui-text);
+    background-color: rgba(34, 197, 94, 0.14);
+    border-left: 3px solid var(--ui-success);
+}
+
+.buddyActiveCallHollding {
+    color: var(--ui-text-muted);
+    background-color: rgba(251, 191, 36, 0.14);
+    border-left: 3px solid var(--ui-warning);
+}
+
+.buddyIcon,
+.lineIcon,
+.buddyActiveCall .lineIcon,
+.buddyActiveCallHollding .lineIcon {
+    border: 1px solid var(--ui-border);
+    color: #ffffff;
+}
+
+.hiddenBuddiesText,
+button,
+.roundButtons {
+    color: var(--ui-primary);
+}
+
+.hrline {
+    background-color: var(--ui-border);
+}
+
+.profileContainer {
+    border-bottom: 1px solid var(--ui-border);
+}
+
+.searchClean {
+    background-color: var(--ui-surface-soft);
+}
+
+.searchClean:before,
+.searchClean INPUT {
+    color: var(--ui-text-muted) !important;
+}
+
+.leftContentTable,
+.rightContent {
+    border-color: var(--ui-border);
+}
+
+.sectionBorderBottom {
+    border-bottom: 1px solid var(--ui-border);
+}
+
+.sectionBorderTop {
+    border-top: 1px solid var(--ui-border);
+}
+
+.presenceText,
+.messageDate,
+.cdrComment {
+    color: var(--ui-text-muted);
+}
+
+.streamSectionBackground {
+    background-color: var(--ui-shell);
+}
+
+.chatMessage,
+.callRecording {
+    border: 1px solid var(--ui-border);
+    color: var(--ui-text);
+    background-color: var(--ui-surface);
+}
+
+.theirChatMessageText {
+    background-color: var(--ui-surface-raised);
+    color: var(--ui-text);
+    border-color: var(--ui-border);
+}
+
+.ourChatMessageText {
+    background-color: #2563eb;
+    color: #ffffff;
+}
+
+.chatMessageDropdown {
+    color: var(--ui-text);
+    background-color: rgba(15, 23, 42, 0.82);
+}
+
+.dialTextInput {
+    color: var(--ui-text);
+    border-bottom: 1px solid var(--ui-border);
+}
+
+.dialButtons,
+.CallControl {
+    color: var(--ui-text);
+    background-color: var(--ui-surface-soft);
+}
+
+.dialButtons span {
+    color: var(--ui-text-soft);
+}
+
+.dialButtonsDial,
+.answerButton {
+    color: #ffffff !important;
+    background-color: var(--ui-success) !important;
+}
+
+.hangupButton,
+.rejectButton {
+    color: #ffffff !important;
+    background-color: var(--ui-danger) !important;
+}
+
+input[type=text],
+input[type=password],
+input[type=email],
+input[type=tel],
+select,
+textarea {
+    color: var(--ui-text) !important;
+    background-color: var(--ui-surface) !important;
+}

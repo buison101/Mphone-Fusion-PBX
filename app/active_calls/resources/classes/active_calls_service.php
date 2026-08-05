@@ -486,6 +486,7 @@ class active_calls_service extends service implements websocket_service_interfac
 		if (!$websocket_message->has_permission('call_active_hangup')) {
 			$this->warning("Permission 'call_active_hangup' not found in subscriber request");
 			websocket_client::send($this->ws_client->socket(), websocket_message::request_forbidden($websocket_message->request_id, SERVICE_NAME, $websocket_message->topic));
+			return;
 		}
 
 		// Get the payload
@@ -547,6 +548,7 @@ class active_calls_service extends service implements websocket_service_interfac
 		if (!$websocket_message->has_permission('call_active_eavesdrop')) {
 			$this->warning("Permission 'call_active_eavesdrop' not found in subscriber request");
 			websocket_client::send($this->ws_client->socket(), websocket_message::request_forbidden($websocket_message->request_id, SERVICE_NAME, $websocket_message->topic));
+			return;
 		}
 
 		// Make sure we are connected

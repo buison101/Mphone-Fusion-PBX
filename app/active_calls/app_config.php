@@ -62,6 +62,7 @@
 	$apps[$x]['permissions'][$y]['menu']['uuid'] = "eba3d07f-dd5c-6b7b-6880-493b44113ade";
 	$apps[$x]['permissions'][$y]['groups'][] = "superadmin";
 	$apps[$x]['permissions'][$y]['groups'][] = "admin";
+	$apps[$x]['permissions'][$y]['groups'][] = "user";
 	//$y++;
 	//$apps[$x]['permissions'][$y]['name'] = "call_active_transfer";
 	//$apps[$x]['permissions'][$y]['groups'][] = "superadmin";

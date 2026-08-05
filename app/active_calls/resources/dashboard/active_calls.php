@@ -48,6 +48,11 @@ $widget_key = str_replace(' ', '_', strtolower($widget_name));
 
 //add multi-lingual support
 $text = (new text)->get($settings->get('domain', 'language', 'en-us'), 'app/active_calls');
+$active_calls_language = strtolower($settings->get('domain', 'language', 'en-us'));
+$active_calls_vi = $active_calls_language === 'vi' || str_starts_with($active_calls_language, 'vi-');
+$active_calls_range_labels = $active_calls_vi
+	? ['1m' => '1 phút', '15m' => '15 phút', '1h' => '1 giờ']
+	: ['1m' => '1 minute', '15m' => '15 minutes', '1h' => '1 hour'];
 
 //get the dashboard label
 $widget_label = $text['label-'.$widget_key] ?? $widget_name;
@@ -72,8 +77,13 @@ $row_style["1"] = "row_style1";
 echo "<div class='hud_content' ".($widget_details_state == "disabled" ?: "onclick=\"$('#hud_active_calls_details').slideToggle('fast');\"").">\n";
 	echo "<span class='hud_title'><a onclick=\"document.location.href='".PROJECT_PATH."/app/active_calls/active_calls.php'\">".escape($widget_label)."</a></span>\n";
 	if ($widget_chart_type == 'line') {
-		echo "<div class='hud_chart' style='width: 90%; height: 80%'>\n";
-			echo "<canvas id='active_calls_chart'></canvas>\n";
+		echo "<div class='hud_chart' style='width:90%;height:80%;display:flex;flex-direction:column;'>\n";
+			echo "<div id='active_calls_chart_ranges' style='display:flex;justify-content:center;gap:4px;margin-bottom:4px;'>\n";
+			foreach ($active_calls_range_labels as $range_value => $range_label) {
+				echo "<button type='button' class='btn btn-default' data-active-calls-range='".escape($range_value)."' onclick='event.stopPropagation();' style='padding:2px 7px;font-size:11px;line-height:16px;'>".escape($range_label)."</button>\n";
+			}
+			echo "</div>\n";
+			echo "<div style='position:relative;flex:1;min-height:0;'><canvas id='active_calls_chart'></canvas></div>\n";
 			echo "<input type=hidden id='calls_active_count' name='calls_active_count' value='0'>\n";
 		echo "</div>\n";
 	}
@@ -121,8 +131,36 @@ echo "<script src='/app/active_calls/resources/javascript/arrows.js?v=$version'>
 		name: "<?= $token['name'] ?>",
 		hash: "<?= $token['hash'] ?>"
 	};
-    if (active_calls_widget_chart_type === 'line') {
-        const active_calls_count = document.getElementById('active_calls_chart').getContext('2d');
+	if (active_calls_widget_chart_type === 'line') {
+		const active_calls_ranges = {
+			'1m': {duration:60000, sample:1000, maxTicks:4, seconds:true},
+			'15m': {duration:900000, sample:5000, maxTicks:4, seconds:false},
+			'1h': {duration:3600000, sample:10000, maxTicks:5, seconds:false}
+		};
+		const active_calls_range_storage_key = 'fusionpbx.active_calls.chart_range';
+		const active_calls_render_delay = 2000;
+		let active_calls_range = localStorage.getItem(active_calls_range_storage_key) || '15m';
+		if (!active_calls_ranges[active_calls_range]) active_calls_range = '15m';
+		const active_calls_history = [];
+		const active_calls_time_formatter = (include_seconds) => new Intl.DateTimeFormat(
+			<?=json_encode($active_calls_vi ? 'vi-VN' : $active_calls_language)?>,
+			{hour:'2-digit', minute:'2-digit', ...(include_seconds ? {second:'2-digit'} : {}), hourCycle:'h23'}
+		);
+		const active_calls_visible_history = () => {
+			const range = active_calls_ranges[active_calls_range];
+			const cutoff = Date.now() - range.duration - active_calls_render_delay;
+			const buckets = new Map();
+			let boundary_value = null;
+			active_calls_history.forEach((point) => {
+				if (point.x < cutoff) boundary_value = point.y;
+				else buckets.set(Math.floor(point.x / range.sample) * range.sample, point);
+			});
+			const points = Array.from(buckets.values());
+			if (boundary_value === null && points.length) boundary_value = points[0].y;
+			if (boundary_value !== null) points.unshift({x:cutoff, y:boundary_value});
+			return points;
+		};
+		const active_calls_count = document.getElementById('active_calls_chart').getContext('2d');
         window.active_calls_chart = new Chart(active_calls_count, {
             type: 'line',
             data: {
@@ -147,25 +185,34 @@ echo "<script src='/app/active_calls/resources/javascript/arrows.js?v=$version'>
                 //parsing: {xAxisKey: 'x', yAxisKey: 'y'},
                 maintainAspectRatio: false,
                 scales: {
-                    x: {
-                        type: 'realtime',
-                        realtime: {
-                            duration: 60000,   // last 60s
-                            refresh: 1000,     // redraw every 1s
-                            delay: 2000,       // 2s render delay to handle late packets
-                            onRefresh: (chart) => {
-                                chart.data.datasets[0].data.push({ x: Date.now(), y: get_count() });
-                            }
-                        },
-                        grid: {drawOnChartArea: false, color: '#d1d1d6'},
-                        ticks: {display: false},
+					x: {
+						type: 'realtime',
+						realtime: {
+							duration: active_calls_ranges[active_calls_range].duration,
+							refresh: 1000,
+							delay: active_calls_render_delay,
+							onRefresh: (chart) => {
+								const now = Date.now();
+								active_calls_history.push({x:now, y:get_count()});
+								while (active_calls_history.length && active_calls_history[0].x < now - 3600000) active_calls_history.shift();
+								chart.data.datasets[0].data = active_calls_visible_history();
+							}
+						},
+						grid: {drawOnChartArea: false, color: '#d1d1d6'},
+						ticks: {
+							display: true,
+							color: '#8e8e93',
+							maxRotation: 0,
+							maxTicksLimit: active_calls_ranges[active_calls_range].maxTicks,
+							callback: (value) => active_calls_time_formatter(active_calls_ranges[active_calls_range].seconds).format(new Date(value))
+						},
                     },
                     y: {
                         beginAtZero: true,
                         grace: '10%',
-                        ticks: {
-                            color: '#48484a',
-                            precision: 0,  //whole numbers only
+						ticks: {
+							color: '#48484a',
+							precision: 0,  //whole numbers only
                             callback: (v) => Number.isInteger(v) ? v : v.toFixed(0)
                         },
                         grid: {color: '#d1d1d6'},
@@ -179,9 +226,27 @@ echo "<script src='/app/active_calls/resources/javascript/arrows.js?v=$version'>
                     }
                 }
             }
-        });
+		});
+		const set_active_calls_range = (range_key) => {
+			if (!active_calls_ranges[range_key]) return;
+			active_calls_range = range_key;
+			localStorage.setItem(active_calls_range_storage_key, range_key);
+			const range = active_calls_ranges[range_key];
+			window.active_calls_chart.options.scales.x.realtime.duration = range.duration;
+			window.active_calls_chart.options.scales.x.ticks.maxTicksLimit = range.maxTicks;
+			window.active_calls_chart.data.datasets[0].data = active_calls_visible_history();
+			document.querySelectorAll('[data-active-calls-range]').forEach((button) => {
+				button.style.cssText = 'padding:2px 7px;font-size:11px;line-height:16px;';
+				if (button.dataset.activeCallsRange === range_key) {
+					button.style.cssText += 'color:#ffffff;background:#48484a;background-image:unset;';
+				}
+			});
+			window.active_calls_chart.update('none');
+		};
+		document.querySelectorAll('[data-active-calls-range]').forEach((button) => button.addEventListener('click', () => set_active_calls_range(button.dataset.activeCallsRange)));
+		set_active_calls_range(active_calls_range);
 
-        // Create custom tooltip element
+		// Create custom tooltip element
         const tooltipEl = document.createElement('div');
         tooltipEl.id = 'chartjs-tooltip';
         tooltipEl.style.cssText = 'position: absolute; background: rgba(0, 0, 0, 0.8); color: white; padding: 6px 10px; border-radius: 4px; font-size: 12px; pointer-events: none; opacity: 0; transition: opacity 0.2s; z-index: 1000;';

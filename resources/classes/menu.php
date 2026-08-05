@@ -1050,6 +1050,13 @@ class menu {
 		//get the list of languages
 		$language = new text;
 
+		//These actions are rendered in the header/user menu for this deployment.
+		$header_only_menu_uuids = [
+			'02194288-6d56-6d3e-0b1a-d53a2bc10788', //Home
+			'4d532f0b-c206-c39d-ff33-fc67d668fb69', //Account Profile
+			'0d29e9f4-0c9b-9d8d-cd2d-454899dc9bc4', //Logout
+		];
+
 		//create a uuid array of the original uuid used as the key and new uuid as the value
 		if (is_array($apps)) {
 			$x = 0;
@@ -1074,6 +1081,9 @@ class menu {
 			foreach ($apps as $row) {
 				if (is_array($row['menu'])) {
 					foreach ($row['menu'] as $menu) {
+						if (in_array($menu['uuid'], $header_only_menu_uuids, true)) {
+							continue;
+						}
 						//set the variables
 						if (!empty($menu['title'][$this->menu_language])) {
 							$menu_item_title = $menu['title'][$this->menu_language];
@@ -1321,6 +1331,10 @@ class menu {
 
 		$html .= "		<div class='collapse navbar-collapse' id='main_navbar'>\n";
 		$html .= "			<ul class='navbar-nav'>\n";
+		if (!empty($this->username)) {
+			$dashboard_title = $this->settings->get('domain', 'language', 'en-us') == 'vi-vn' ? 'Bảng điều khiển' : 'Dashboard';
+			$html .= "				<li class='nav-item'><a class='nav-link' href='" . PROJECT_PATH . "/core/dashboard/' title='" . escape($dashboard_title) . "'><i class='fa-solid fa-chart-bar fa-fw'></i><span class='d-none d-md-inline' style='margin-left: 7px;'>" . escape($dashboard_title) . "</span></a></li>\n";
+		}
 
 		if (!empty($menu_array) && sizeof($menu_array) != 0) {
 			foreach ($menu_array as $index_main => $menu_parent) {
@@ -1395,6 +1409,11 @@ class menu {
 		$html .= "			</ul>\n";
 
 		$html .= "			<ul class='navbar-nav ml-auto'>\n";
+		if (permission_exists('browser_phone_view')) {
+			$html .= "		<li class='nav-item'>\n";
+			$html .= "			<a class='nav-link' href='" . PROJECT_PATH . "/app/browser_phone/index.php' title='Webphone'><i class='fa-solid fa-phone fa-fw'></i><span class='d-none d-md-inline' style='margin-left: 7px;'>Webphone</span></a>\n";
+			$html .= "		</li>\n";
+		}
 		if (!empty($language_toggle_link = $this->language_toggle_link('top'))) {
 			$html .= "		" . $language_toggle_link;
 		}
@@ -1549,15 +1568,15 @@ class menu {
 				$html .= "<a class='menu_side_item_main menu_side_expand' onclick='menu_side_expand();' style='" . ($menu_side_state == 'expanded' ? "display: none;" : null) . " height: 60px;' title=\"" . $this->text['theme-label-expand_menu'] . "\"><i class='fa-solid fa-bars fa-fw' style='z-index: 99800; padding-left: 1px; padding-top: 11px;'></i></a>";
 				break;
 			case 'text':
-				$html .= "<a class='menu_brand_text' style='" . ($menu_side_state != 'expanded' ? "display: none;" : null) . "' href='" . PROJECT_PATH . "/'>" . escape($menu_brand_text) . "</a>\n";
+				$html .= "<a class='menu_brand_text' style='" . ($menu_side_state != 'expanded' ? "display: none;" : null) . "' href='" . PROJECT_PATH . "/core/dashboard/'>" . escape($menu_brand_text) . "</a>\n";
 				break;
 			case 'image_text':
-				$html .= "<span id='menu_brand_image_expanded' class='menu_brand_text menu_side_brand_expanded' style='" . ($menu_side_state != 'expanded' ? "display: none;" : null) . "'>" . escape($menu_brand_text) . "</span>";
+				$html .= "<a href='" . PROJECT_PATH . "/core/dashboard/' title='" . escape($menu_brand_text) . "' style='display:contents;'><span id='menu_brand_image_expanded' class='menu_brand_text menu_side_brand_expanded' style='" . ($menu_side_state != 'expanded' ? "display: none;" : null) . "'>" . escape($menu_brand_text) . "</span></a>";
 				break;
 			case 'image':
 			default:
 				$menu_brand_image_expanded = $this->settings->get('theme', 'menu_side_brand_image_expanded', PROJECT_PATH . '/themes/default/images/logo_side_expanded.png');
-				$html .= "<img id='menu_brand_image_expanded' class='menu_side_brand_expanded' style='" . ($menu_side_state != 'expanded' ? "display: none;" : null) . "' src='" . escape($menu_brand_image_expanded) . "' title=\"" . escape($menu_brand_text) . "\">";
+				$html .= "<a href='" . PROJECT_PATH . "/core/dashboard/' title='" . escape($menu_brand_text) . "' style='display:contents;'><img id='menu_brand_image_expanded' class='menu_side_brand_expanded' style='" . ($menu_side_state != 'expanded' ? "display: none;" : null) . "' src='" . escape($menu_brand_image_expanded) . "' title=\"" . escape($menu_brand_text) . "\"></a>";
 				break;
 		}
 		$html .= "	</div>\n";
@@ -1641,9 +1660,20 @@ class menu {
 		if ($this->settings->get('theme', 'body_header_brand_type') == 'text' || $this->settings->get('theme', 'body_header_brand_type') == 'image_text') {
 			$html .= "<div id='body_header_brand_text'><a href='" . PROJECT_PATH . "/'>" . $body_header_brand_text . "</a></div>";
 		}
+		if (!empty($this->username)) {
+			$dashboard_title = $this->settings->get('domain', 'language', 'en-us') == 'vi-vn' ? 'Bảng điều khiển' : 'Dashboard';
+			$html .= "<span style='display: inline-flex; align-items: center; height: 32px; vertical-align: top; padding-left: 20px; font-size: 90%;'>\n";
+			$html .= "\t<a class='header_dashboard' href='" . PROJECT_PATH . "/core/dashboard/' title='" . escape($dashboard_title) . "' style='display: inline-flex; align-items: center; line-height: 1;'><i class='fa-solid fa-chart-bar fa-fw' style='margin-right: 5px;'></i><span class='d-none d-sm-inline'>" . escape($dashboard_title) . "</span></a>";
+			$html .= "</span>\n";
+		}
 		$html .= "</div>\n";
 		//header: right
 		$html .= "<div class='float-right' style='white-space: nowrap;'>";
+		if (permission_exists('browser_phone_view')) {
+			$html .= "<span style='display: inline-flex; align-items: center; height: 32px; vertical-align: top; padding-right: 20px; font-size: 90%;'>\n";
+			$html .= "	<a href='" . PROJECT_PATH . "/app/browser_phone/index.php' title='Webphone' style='display: inline-flex; align-items: center; line-height: 1;'><i class='fa-solid fa-phone fa-fw' style='margin-right: 5px;'></i><span class='d-none d-sm-inline'>Webphone</span></a>";
+			$html .= "</span>\n";
+		}
 		if (!empty($language_toggle_link = $this->language_toggle_link('side'))) {
 			$html .= $language_toggle_link;
 		}

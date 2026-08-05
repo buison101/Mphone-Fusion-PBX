@@ -80,9 +80,37 @@ $analytics_tabs = ['top_callers','top_called','top_customers','top_missed','long
 	<?php } ?>
 	let summary = <?=json_encode($cdr_analytics_data['summary'], JSON_NUMERIC_CHECK)?>;
 	<?php if ($analytics_show_summary) { ?>
+	Chart.Tooltip.positioners.cdrDoughnutOutsideBottomCorner = function(elements) {
+		if (!elements.length) return false;
+		const element = elements[0].element;
+		const point = element.tooltipPosition();
+		return {
+			x: point.x,
+			y: point.y,
+			xAlign: point.x < element.x ? 'right' : 'left',
+			yAlign: 'bottom'
+		};
+	};
+	const tooltip_shadow_plugin = {
+		id: 'cdrDoughnutTooltipShadow',
+		beforeTooltipDraw: (chart, args) => {
+			const tooltip = args.tooltip;
+			if (!tooltip || tooltip.opacity <= 0) return;
+			const context = chart.ctx;
+			context.save();
+			context.shadowColor = 'rgba(0, 0, 0, 0.08)';
+			context.shadowBlur = 12;
+			context.shadowOffsetX = 0;
+			context.shadowOffsetY = 4;
+			context.fillStyle = 'rgba(252, 252, 253, 0.92)';
+			context.fillRect(tooltip.x, tooltip.y, tooltip.width, tooltip.height);
+			context.restore();
+		}
+	};
 	const doughnut = (id, labels, values, colors) => new Chart(document.getElementById(id), {
 		type: 'doughnut', data: {labels, datasets:[{data:values,backgroundColor:colors,borderWidth:0}]},
-		options: {responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom',labels:{boxWidth:12,padding:16,usePointStyle:true,pointStyle:'circle'}}}}
+		plugins: [tooltip_shadow_plugin],
+		options: {responsive:true,maintainAspectRatio:false,cutout:'62%',plugins:{legend:{position:'bottom',labels:{boxWidth:12,padding:16,usePointStyle:true,pointStyle:'circle'}},tooltip:{position:'cdrDoughnutOutsideBottomCorner',caretSize:0,caretPadding:0,cornerRadius:0,backgroundColor:'rgba(252, 252, 253, 0.92)',titleColor:'#1c1c1e',bodyColor:'#1c1c1e',footerColor:'#1c1c1e'}}}
 	});
 	const direction_chart = doughnut(<?=json_encode($analytics_id.'_direction')?>, <?=json_encode([$analytics_labels['inbound'],$analytics_labels['outbound'],$analytics_labels['local']])?>, [summary.inbound,summary.outbound,summary.local], ['#22C55E','#4F7FE2','#F59E0B']);
 	const outcome_chart = doughnut(<?=json_encode($analytics_id.'_outcome')?>, <?=json_encode([$analytics_labels['answered'],$analytics_labels['rejected'],$analytics_labels['missed']])?>, [summary.answered,summary.rejected,summary.missed], ['#22C55E','#F59E0B','#EF4444']);

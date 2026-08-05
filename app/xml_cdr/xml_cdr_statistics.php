@@ -442,11 +442,45 @@
 				});
 			}
 		};
+		Chart.Tooltip.positioners.cdrNearestBottomCorner = function(elements, event_position) {
+			const points = elements
+				.map((item) => item.element)
+				.filter((point) => Number.isFinite(point?.x) && Number.isFinite(point?.y));
+			if (!points.length) return false;
+			const nearest_point = points.reduce((nearest, point) => {
+				const distance = Math.hypot(point.x - event_position.x, point.y - event_position.y);
+				return distance < nearest.distance ? {point, distance} : nearest;
+			}, {point: points[0], distance: Number.POSITIVE_INFINITY}).point;
+			const tooltip_width = this.width || this._size?.width || 220;
+			const reaches_right_edge = nearest_point.x + tooltip_width > this.chart.width;
+			return {
+				x: nearest_point.x,
+				y: nearest_point.y,
+				xAlign: reaches_right_edge ? 'right' : 'left',
+				yAlign: 'bottom'
+			};
+		};
+		const cdr_tooltip_shadow_plugin = {
+			id: 'cdrTooltipShadow',
+			beforeTooltipDraw: (chart, args) => {
+				const tooltip = args.tooltip;
+				if (!tooltip || tooltip.opacity <= 0) return;
+				const context = chart.ctx;
+				context.save();
+				context.shadowColor = 'rgba(0, 0, 0, 0.08)';
+				context.shadowBlur = 12;
+				context.shadowOffsetX = 0;
+				context.shadowOffsetY = 4;
+				context.fillStyle = 'rgba(252, 252, 253, 0.92)';
+				context.fillRect(tooltip.x, tooltip.y, tooltip.width, tooltip.height);
+				context.restore();
+			}
+		};
 
 		const cdr_stats_config = {
 			type: 'line',
 			data: cdr_stats_data,
-			plugins: [cdr_html_legend_plugin],
+			plugins: [cdr_html_legend_plugin, cdr_tooltip_shadow_plugin],
 			options: {
 				responsive: true,
 				maintainAspectRatio: false,
@@ -462,11 +496,28 @@
 					tooltip: {
 						mode: 'index',
 						intersect: false,
+						position: 'cdrNearestBottomCorner',
+						caretSize: 0,
+						caretPadding: 0,
+						cornerRadius: 0,
+						backgroundColor: 'rgba(252, 252, 253, 0.92)',
+						titleColor: '#1c1c1e',
+						bodyColor: '#1c1c1e',
+						footerColor: '#1c1c1e',
+						usePointStyle: true,
+						boxWidth: 12,
+						boxHeight: 12,
 						callbacks: {
 							title: (items) => {
 								if (!items.length) return '';
 								return cdr_tooltip_label(items[0].parsed.x);
 							},
+							labelColor: (context) => ({
+								backgroundColor: context.dataset.backgroundColor,
+								borderColor: context.dataset.backgroundColor,
+								borderWidth: 0
+							}),
+							labelPointStyle: () => ({pointStyle: 'rect', rotation: 0}),
 							label: (context) => {
 								const suffix = context.dataset.unit ?? '';
 								return `${context.dataset.label}: ${cdr_number_formatter.format(context.parsed.y)}${suffix}`;
