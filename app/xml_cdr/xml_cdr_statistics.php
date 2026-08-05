@@ -294,6 +294,7 @@
 				{
 					label: <?php echo json_encode($chart_labels['asr']); ?>,
 					unit: '%',
+					yAxisID: 'yAsr',
 					data: <?php echo json_encode($graph['asr']); ?>,
 					backgroundColor: "#B9CEF8",
 					borderColor: "#B9CEF8",
@@ -551,6 +552,20 @@
 						min: 0,
 						ticks: {
 							callback: (value) => cdr_number_formatter.format(value)
+						}
+					},
+					yAsr: {
+						type: 'linear',
+						display: false,
+						position: 'right',
+						min: 0,
+						max: 100,
+						grid: {
+							drawOnChartArea: false
+						},
+						ticks: {
+							stepSize: 25,
+							callback: (value) => `${cdr_number_formatter.format(value)}%`
 						}
 					}
 				},
