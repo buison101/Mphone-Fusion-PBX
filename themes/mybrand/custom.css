@@ -108,6 +108,6 @@ button:focus {
     border: none;
 }
 
-#footer {
+div#footer {
     display: none;
 }

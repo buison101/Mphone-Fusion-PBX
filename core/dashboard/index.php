@@ -282,6 +282,14 @@
 	cursor: default;
 }
 
+.widgets .hud_content[onclick*="window.open"] {
+	cursor: pointer;
+}
+
+.widgets .widget.disabled[data-widget-url]:not([data-widget-url=""]) {
+	cursor: pointer;
+}
+
 .widgets {
 	max-width: 100%;
 	margin: 0 auto;
@@ -574,7 +582,15 @@ foreach ($widgets as $row) {
 <script>
 	document.addEventListener('DOMContentLoaded', function() {
 		document.querySelectorAll('div.widget:not(.disabled), div.child_widget:not(.disabled)').forEach((widget) => widget.classList.add('expanded'));
-		document.querySelectorAll('.widgets .hud_content[onclick], .widgets .hud_expander[onclick]').forEach((element) => element.removeAttribute('onclick'));
+		document.querySelectorAll('.widgets .hud_content[onclick], .widgets .hud_expander[onclick]').forEach((element) => {
+			if ((element.getAttribute('onclick') || '').includes('slideToggle')) element.removeAttribute('onclick');
+		});
+	});
+	document.addEventListener('click', function(event) {
+		const widget = event.target.closest('.widgets .widget.disabled[data-widget-url]');
+		if (!widget || !widget.dataset.widgetUrl) return;
+		if (event.target.closest('a, button, input, select, textarea, [onclick*="window.open"]')) return;
+		window.open(widget.dataset.widgetUrl, widget.dataset.widgetTarget || '_self');
 	});
 
 function toggle_grid_row_span(widget_id) {
@@ -717,7 +733,8 @@ window.addEventListener('resize', update_parent_height);
 		$path_array = glob(dirname(__DIR__, 2).'/*/'.$application_name.'/resources/dashboard/'.$widget_path_name.'.php');
 
 		$widget_expanded_class = $widget_details_state !== 'disabled' ? ' expanded' : '';
-		echo "<div class='widget ".$widget_details_state.$widget_class.$widget_expanded_class."' id='".$widget_id."' ".($widget_path == 'dashboard/parent' ? "data-is-parent='true'" : null)." draggable='false'>\n";
+		$widget_target_name = $widget_target === 'new' ? '_blank' : '_self';
+		echo "<div class='widget ".$widget_details_state.$widget_class.$widget_expanded_class."' id='".$widget_id."' data-widget-url='".escape($widget_url)."' data-widget-target='".escape($widget_target_name)."' ".($widget_path == 'dashboard/parent' ? "data-is-parent='true'" : null)." draggable='false'>\n";
 		if (file_exists($path_array[0])) {
 			include $path_array[0];
 		}
