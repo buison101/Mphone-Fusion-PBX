@@ -59,10 +59,10 @@
 		return '';
 	}
 
-	function session_user_uuid(string $token): string {
+	function session_principal(string $token): array {
 		$parts = explode('.', $token);
 		if (count($parts) !== 3) {
-			return '';
+			return [];
 		}
 		[$encoded_header, $encoded_payload, $encoded_signature] = $parts;
 		$header_json = base64url_decode($encoded_header);
@@ -70,25 +70,37 @@
 		$signature = base64url_decode($encoded_signature);
 		$secret = supabase_jwt_secret();
 		if ($header_json === false || $payload_json === false || $signature === false || $secret === '') {
-			return '';
+			return [];
 		}
 		$header = json_decode($header_json, true);
 		$payload = json_decode($payload_json, true);
 		if (!is_array($header) || !is_array($payload) || ($header['alg'] ?? '') !== 'HS256') {
-			return '';
+			return [];
 		}
 		$expected_signature = hash_hmac('sha256', $encoded_header . '.' . $encoded_payload, $secret, true);
 		if (!hash_equals($expected_signature, $signature)) {
-			return '';
+			return [];
 		}
 		if (($payload['iss'] ?? '') !== 'mphone-fusionpbx' || ($payload['aud'] ?? '') !== 'authenticated') {
-			return '';
+			return [];
 		}
 		if (!isset($payload['exp']) || (int) $payload['exp'] < time()) {
-			return '';
+			return [];
 		}
+		$actor_type = ($payload['actor_type'] ?? 'user') === 'extension' ? 'extension' : 'user';
 		$user_uuid = trim((string) ($payload['user_uuid'] ?? ''));
-		return is_uuid($user_uuid) ? $user_uuid : '';
+		$extension_uuid = trim((string) ($payload['extension_uuid'] ?? ''));
+		if ($actor_type === 'user' && !is_uuid($user_uuid)) {
+			return [];
+		}
+		if ($actor_type === 'extension' && !is_uuid($extension_uuid)) {
+			return [];
+		}
+		return [
+			'actor_type' => $actor_type,
+			'user_uuid' => is_uuid($user_uuid) ? $user_uuid : '',
+			'extension_uuid' => is_uuid($extension_uuid) ? $extension_uuid : '',
+		];
 	}
 
 	function forward_payload(array $row): array {
@@ -151,11 +163,49 @@
 		];
 	}
 
+	function save_with_api_permissions(database $database, array &$array, bool $include_follow_me = false): bool {
+		$permission_names = ['extension_edit'];
+		if ($include_follow_me) {
+			$permission_names = array_merge($permission_names, [
+				'follow_me_edit',
+				'follow_me_destination_add',
+				'follow_me_destination_edit',
+				'follow_me_destination_delete',
+			]);
+		}
+
+		$temporary_permissions = permissions::new();
+		foreach ($permission_names as $permission_name) {
+			$temporary_permissions->add($permission_name, 'temp');
+		}
+		try {
+			return $database->save($array) !== false;
+		}
+		finally {
+			foreach ($permission_names as $permission_name) {
+				$temporary_permissions->delete($permission_name, 'temp');
+			}
+		}
+	}
+
+	function select_extension(database $database, string $extension_uuid): array {
+		$sql = "select e.extension_uuid, e.domain_uuid, e.extension, e.number_alias, e.call_timeout, ";
+		$sql .= "e.do_not_disturb, e.follow_me_uuid, e.follow_me_enabled, ";
+		$sql .= "e.forward_all_enabled, e.forward_all_destination, ";
+		$sql .= "e.forward_busy_enabled, e.forward_busy_destination, ";
+		$sql .= "e.forward_no_answer_enabled, e.forward_no_answer_destination, ";
+		$sql .= "e.forward_user_not_registered_enabled, e.forward_user_not_registered_destination, ";
+		$sql .= "d.domain_name from v_extensions e ";
+		$sql .= "join v_domains d on d.domain_uuid = e.domain_uuid ";
+		$sql .= "where e.extension_uuid = :extension_uuid and e.enabled = 'true' and d.domain_enabled = 'true'";
+		return $database->select($sql, ['extension_uuid' => $extension_uuid], 'row') ?: [];
+	}
+
 	$service_secret = getenv('MPHONE_API_SECRET') ?: '';
 	$provided_secret = request_header('X-Mphone-Api-Key');
-	$session_user_uuid = session_user_uuid(request_header('X-Mphone-Session'));
+	$session_principal = session_principal(request_header('X-Mphone-Session'));
 	$valid_service_secret = $service_secret !== '' && $provided_secret !== '' && hash_equals($service_secret, $provided_secret);
-	if (!$valid_service_secret && $session_user_uuid === '') {
+	if (!$valid_service_secret && empty($session_principal)) {
 		api_response(401, ['error' => 'Unauthorized']);
 	}
 
@@ -175,12 +225,19 @@
 	}
 	$mode = trim((string) ($_GET['mode'] ?? $input['mode'] ?? 'basic'));
 
-	$user_uuid = $session_user_uuid !== ''
-		? $session_user_uuid
+	$user_uuid = ($session_principal['user_uuid'] ?? '') !== ''
+		? $session_principal['user_uuid']
 		: trim((string) ($_GET['user_uuid'] ?? $input['user_uuid'] ?? ''));
 	$extension_uuid = trim((string) ($_GET['extension_uuid'] ?? $input['extension_uuid'] ?? ''));
-	if (!is_uuid($user_uuid) || !is_uuid($extension_uuid)) {
-		api_response(400, ['error' => 'Invalid user_uuid or extension_uuid']);
+	if (!is_uuid($extension_uuid)) {
+		api_response(400, ['error' => 'Invalid extension_uuid']);
+	}
+	$is_extension_session = ($session_principal['actor_type'] ?? '') === 'extension';
+	if ($is_extension_session && ($session_principal['extension_uuid'] ?? '') !== $extension_uuid) {
+		api_response(403, ['error' => 'Extension is outside this session']);
+	}
+	if (!$is_extension_session && !is_uuid($user_uuid)) {
+		api_response(400, ['error' => 'Invalid user_uuid']);
 	}
 
 	$sql = "select e.extension_uuid, e.domain_uuid, e.extension, e.number_alias, e.call_timeout, ";
@@ -191,20 +248,24 @@
 	$sql .= "e.forward_user_not_registered_enabled, e.forward_user_not_registered_destination, ";
 	$sql .= "d.domain_name ";
 	$sql .= "from v_extensions e ";
-	$sql .= "join v_extension_users eu on eu.extension_uuid = e.extension_uuid ";
-	$sql .= "join v_users u on u.user_uuid = eu.user_uuid and u.domain_uuid = e.domain_uuid ";
 	$sql .= "join v_domains d on d.domain_uuid = e.domain_uuid ";
-	$sql .= "where e.extension_uuid = :extension_uuid and u.user_uuid = :user_uuid ";
-	$sql .= "and e.enabled = 'true' and u.user_enabled = 'true' ";
-	$parameters = [
-		'extension_uuid' => $extension_uuid,
-		'user_uuid' => $user_uuid,
-	];
+	$parameters = ['extension_uuid' => $extension_uuid];
+	if ($is_extension_session) {
+		$sql .= "where e.extension_uuid = :extension_uuid ";
+		$sql .= "and e.enabled = 'true' and d.domain_enabled = 'true' ";
+	}
+	else {
+		$sql .= "join v_extension_users eu on eu.extension_uuid = e.extension_uuid ";
+		$sql .= "join v_users u on u.user_uuid = eu.user_uuid and u.domain_uuid = e.domain_uuid ";
+		$sql .= "where e.extension_uuid = :extension_uuid and u.user_uuid = :user_uuid ";
+		$sql .= "and e.enabled = 'true' and u.user_enabled = 'true' ";
+		$parameters['user_uuid'] = $user_uuid;
+	}
 	$row = $database->select($sql, $parameters, 'row');
 	unset($sql, $parameters);
 
 	if (empty($row)) {
-		api_response(404, ['error' => 'Extension not found or not assigned to user']);
+		api_response(404, ['error' => 'Extension not found or not available to this session']);
 	}
 
 	if ($method === 'GET' && $mode === 'advanced') {
@@ -281,7 +342,9 @@
 					'follow_me_order' => $destination['order'],
 				];
 			}
-			$database->save($array);
+			if (!save_with_api_permissions($database, $array, true)) {
+				throw new RuntimeException('FusionPBX rejected the advanced forwarding update');
+			}
 			unset($array);
 
 			$kept_uuids = array_column($destinations, 'uuid');
@@ -293,7 +356,16 @@
 				}
 			}
 			if (!empty($delete)) {
-				$database->delete($delete);
+				$delete_permissions = permissions::new();
+				$delete_permissions->add('follow_me_destination_delete', 'temp');
+				try {
+					if (!$database->delete($delete)) {
+						throw new RuntimeException('FusionPBX rejected deleting an advanced forwarding destination');
+					}
+				}
+				finally {
+					$delete_permissions->delete('follow_me_destination_delete', 'temp');
+				}
 			}
 
 			$cache = new cache;
@@ -302,9 +374,11 @@
 				$extension_config = new extension;
 				$extension_config->xml();
 			}
-			$row['follow_me_uuid'] = $follow_me_uuid;
-			$row['follow_me_enabled'] = $enabled ? 'true' : 'false';
-			api_response(200, follow_me_payload($database, $row));
+			$saved_row = select_extension($database, $extension_uuid);
+			if (empty($saved_row) || filter_var($saved_row['follow_me_enabled'], FILTER_VALIDATE_BOOLEAN) !== $enabled) {
+				throw new RuntimeException('Advanced forwarding state was not persisted');
+			}
+			api_response(200, follow_me_payload($database, $saved_row));
 		}
 		catch (Throwable $error) {
 			error_log('Mphone advanced call-forward API failed: ' . $error->getMessage());
@@ -361,7 +435,9 @@
 			$array['follow_me'][0]['follow_me_uuid'] = $row['follow_me_uuid'];
 			$array['follow_me'][0]['follow_me_enabled'] = 'false';
 		}
-		$database->save($array);
+		if (!save_with_api_permissions($database, $array)) {
+			throw new RuntimeException('FusionPBX rejected the call-forward update');
+		}
 		unset($array);
 
 		$cache = new cache;
@@ -389,8 +465,23 @@
 			$extension_config->xml();
 		}
 
-		$row = array_merge($row, $updates);
-		api_response(200, forward_payload($row));
+		$saved_row = select_extension($database, $extension_uuid);
+		if (empty($saved_row)) {
+			throw new RuntimeException('Updated extension could not be read back');
+		}
+		foreach ($updates as $field => $expected_value) {
+			$actual_value = $saved_row[$field] ?? null;
+			if (str_ends_with($field, '_enabled') || $field === 'do_not_disturb' || is_bool($actual_value)) {
+				$actual_value = filter_var($actual_value, FILTER_VALIDATE_BOOLEAN) ? 'true' : 'false';
+			}
+			else {
+				$actual_value = (string) ($actual_value ?? '');
+			}
+			if ($actual_value !== $expected_value) {
+				throw new RuntimeException("Call-forward field $field was not persisted");
+			}
+		}
+		api_response(200, forward_payload($saved_row));
 	}
 	catch (Throwable $error) {
 		error_log('Mphone call-forward API failed: ' . $error->getMessage());
