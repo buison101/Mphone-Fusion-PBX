@@ -1,0 +1,567 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Softphone.Pro Team — HTML replica</title>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+<style>
+/* ==========================================================================
+   Design tokens — trích trực tiếp từ mteam.softphone.pro
+   ========================================================================== */
+:root{
+  --primary:#3068F4; --primary-dark:#2B5ACE; --primary-soft:#CEDBFC; --primary-underline:#D6E1FD;
+  --secondary:#8897AA; --success:#02BC77; --info:#28C3D7; --warning:#FF7E08; --danger:#D9534F;
+  --acw:#1E70CD;
+  --bg-page:#F7F8FA; --surface:#fff;
+  --text:#4E5155; --text-2:#707070; --muted:#8897AA; --disabled:#A3A4A6;
+  --border:rgba(24,28,33,.06); --border-strong:rgba(24,28,33,.1); --border-input:#EAEAEA; --divider:#DADADA;
+  --badge-blue-bg:#F0F4FF; --badge-blue-fg:#6F9CFF;
+  --badge-yellow-bg:#FFEDB0; --badge-yellow-fg:#865203;
+  --radius:.25rem;
+  --shadow-card:0 1px 6px rgba(0,0,0,.09);
+  --shadow-dd:0 0 6px 0 rgba(0,0,0,.16);
+  --shadow-navbar:0 1px 0 0 rgba(24,28,33,.06);
+  --fs-xs:.625rem; --fs-sm:.75rem; --fs-base:.894rem; --fs-md:1rem;
+  --gap-1:.25rem; --gap-2:.5rem; --gap-3:.75rem; --gap-4:1rem;
+}
+*{box-sizing:border-box}
+html{font-size:16px}
+svg{flex:none}
+.caret{width:9px;height:9px;fill:currentColor}
+.ico-sm{width:13px;height:13px;fill:currentColor;vertical-align:-2px;margin-right:5px}
+body{
+  margin:0; background:var(--bg-page); color:var(--text);
+  font-family:"Roboto",-apple-system,BlinkMacSystemFont,"Segoe UI",Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
+  font-size:var(--fs-base); font-weight:400; line-height:1.47; text-align:left;
+  -webkit-font-smoothing:antialiased;
+}
+a{color:var(--primary);text-decoration:none}
+button{font-family:inherit;font-size:inherit;color:inherit}
+
+/* ---------- Top navbar ---------- */
+.topbar{
+  background:var(--primary); color:#fff; height:48px;
+  display:flex; align-items:center; gap:0; padding:0 24px;
+  box-shadow:var(--shadow-navbar); position:relative; z-index:20;
+}
+.brand{display:flex;align-items:center;margin-right:22px}
+.brand .logo{width:40px;height:40px;border-radius:50%;background:#fff;display:flex;align-items:center;justify-content:center}
+.brand .logo svg{width:26px;height:26px;fill:var(--primary)}
+.mainnav{display:flex;align-items:center;gap:0;list-style:none;margin:0;padding:0;height:100%}
+.mainnav li{height:100%}
+.mainnav a{
+  display:flex;align-items:center;height:100%;padding:0 13px;
+  color:rgba(255,255,255,.8); font-size:var(--fs-md); position:relative; white-space:nowrap;
+}
+.mainnav a:hover{color:#fff}
+.mainnav a.active{color:#fff;font-weight:400}
+.mainnav a.active::after{content:"";position:absolute;left:13px;right:13px;bottom:6px;height:2px;background:#fff}
+.topbar .right{margin-left:auto;display:flex;align-items:center;gap:18px}
+.bell{width:18px;height:18px;fill:rgba(255,255,255,.9);cursor:pointer}
+.companyid{font-size:var(--fs-base);color:rgba(255,255,255,.95)}
+.userbox{display:flex;align-items:center;gap:9px;cursor:pointer;position:relative}
+.avatar{
+  width:30px;height:30px;border-radius:50%;background:#B7BEAE;color:#fff;
+  display:flex;align-items:center;justify-content:center;font-size:var(--fs-sm);font-weight:500;letter-spacing:.02em;
+}
+.userbox .caret{width:9px;height:9px;fill:rgba(255,255,255,.85)}
+.dropdown-menu{
+  position:absolute;top:calc(100% + 10px);right:0;min-width:190px;background:#fff;
+  border-radius:var(--radius);box-shadow:var(--shadow-dd);padding:6px 0;display:none;z-index:40;
+}
+.dropdown-menu.open{display:block}
+.dropdown-menu a{display:flex;align-items:center;gap:9px;padding:8px 16px;color:var(--text);font-size:var(--fs-base)}
+.dropdown-menu a:hover{background:rgba(24,28,33,.03)}
+
+/* ---------- Sub navbar ---------- */
+.subnav{background:var(--primary-dark);height:31px;display:flex;align-items:stretch;padding:0 24px;position:relative;z-index:19}
+.subnav a{
+  display:flex;align-items:center;padding:0 14px;color:var(--primary-soft);
+  font-size:var(--fs-base);position:relative;white-space:nowrap;
+}
+.subnav a:first-child{padding-left:0}
+.subnav a:hover{color:#fff}
+.subnav a.active{color:#fff;box-shadow:0 -2px 0 0 var(--primary-underline) inset}
+.subnav .caret{width:8px;height:8px;margin-left:6px;fill:currentColor;opacity:.8}
+
+/* ---------- Layout ---------- */
+.content{padding:22px 24px 40px}
+.row{display:flex;gap:24px;flex-wrap:wrap}
+.card{background:var(--surface);border-radius:var(--radius);box-shadow:var(--shadow-card)}
+
+/* ---------- Buttons ---------- */
+.btn{
+  white-space:nowrap;
+  display:inline-flex;align-items:center;justify-content:center;gap:7px;
+  border:1px solid transparent;border-radius:var(--radius);
+  padding:.45rem .95rem;font-size:var(--fs-base);line-height:1.47;cursor:pointer;
+  background:transparent;transition:background .12s,box-shadow .12s;
+}
+.btn:focus{outline:none}
+.btn-primary{background:var(--primary);color:#fff}
+.btn-primary:hover{background:var(--primary-dark)}
+.btn-primary:focus{box-shadow:0 0 0 2px rgba(48,104,244,.4)}
+.btn-primary.soft{background:#7FA0F8}
+.btn-primary.soft:hover{background:#6a91f7}
+.btn-sm{padding:.3rem .7rem;font-size:var(--fs-base)}
+.btn-light{background:var(--surface);color:var(--text)}
+.btn-ghost{color:var(--disabled);cursor:default}
+.btn-group{display:inline-flex}
+.btn-group .btn:first-child{border-top-right-radius:0;border-bottom-right-radius:0}
+.btn-group .btn:last-child{border-top-left-radius:0;border-bottom-left-radius:0;padding-left:.55rem;padding-right:.55rem;border-left:1px solid rgba(255,255,255,.25)}
+
+/* ---------- Chips / status pills ---------- */
+.chips{display:flex;gap:10px;align-items:center;flex-wrap:wrap}
+.chip{
+  display:inline-flex;align-items:center;gap:8px;padding:.42rem .85rem;
+  border-radius:var(--radius);font-size:var(--fs-base);background:transparent;color:var(--text);cursor:pointer;
+}
+.chip.active{background:var(--primary);color:#fff}
+.dot{width:9px;height:9px;border-radius:50%;flex:none}
+.dot.online{background:var(--success)} .dot.working{background:var(--danger)}
+.dot.away{background:var(--warning)} .dot.offline{background:var(--secondary)}
+.dot.oncall{background:var(--primary)} .dot.acw{background:var(--acw)}
+.dot.ringing{background:var(--danger)}
+
+/* ---------- Stat widgets ---------- */
+.stats{display:grid;grid-template-columns:repeat(4,1fr);gap:24px}
+.stat{position:relative;padding:20px 22px;min-height:104px}
+.stat .val{font-size:1.7rem;font-weight:400;line-height:1.2;color:var(--text)}
+.stat .lbl{font-size:var(--fs-sm);color:var(--text-2);margin-top:6px}
+.stat .ico{
+  position:absolute;top:18px;right:20px;width:34px;height:34px;border-radius:50%;
+  background:rgba(48,104,244,.10);display:flex;align-items:center;justify-content:center;
+}
+.stat .ico svg{width:16px!important;height:16px!important;fill:var(--primary);opacity:.85;margin:0}
+
+/* ---------- Chart block ---------- */
+.chartwrap{margin-top:22px}
+.chart-head{display:flex;align-items:center;gap:14px;margin-bottom:6px}
+.chart-head .title{font-size:var(--fs-base)}
+.legend{display:inline-flex;align-items:center;gap:7px;font-size:var(--fs-base);color:var(--text)}
+.legend i{width:11px;height:11px;border:2px solid var(--info);border-radius:2px;display:inline-block}
+.select-inline{
+  margin-left:auto;display:inline-flex;align-items:center;gap:8px;background:#fff;
+  border:1px solid var(--border-input);border-radius:var(--radius);padding:.32rem .6rem;font-size:var(--fs-base);cursor:pointer;
+}
+.select-inline .caret{width:9px;height:9px;fill:var(--muted)}
+
+/* ---------- Tables ---------- */
+.tbl{width:100%;border-collapse:collapse;background:#fff;font-size:var(--fs-base)}
+.tbl th,.tbl td{padding:12px 14px;text-align:left;border-bottom:1px solid var(--border-input);vertical-align:middle}
+.tbl thead th{font-weight:400;color:var(--text);border-bottom:1px solid var(--border-input);white-space:nowrap}
+.tbl thead th.grp{text-align:center;border-left:1px solid var(--border-input);border-bottom:1px solid var(--border-input)}
+.tbl thead tr.sub th{font-size:var(--fs-base);color:var(--text);padding-top:8px;padding-bottom:8px}
+.tbl .colsep{border-left:1px solid var(--border-input)}
+.sortico{width:11px;height:11px;fill:var(--primary);opacity:.85;margin-left:6px;vertical-align:-1px}
+.help{width:12px;height:12px;fill:var(--muted);margin-left:4px;vertical-align:-2px}
+.tbl tbody tr:hover{background:rgba(48,104,244,.03)}
+.filterrow input,.filterrow .fakeselect{
+  width:100%;border:1px solid var(--border-input);border-radius:var(--radius);
+  padding:.3rem .5rem;font-size:var(--fs-sm);color:var(--text);background:#fff;
+}
+.filterrow input::placeholder{color:var(--disabled)}
+.filterrow .fakeselect{display:flex;align-items:center;justify-content:space-between;color:var(--disabled);cursor:pointer}
+.filterrow .fakeselect .caret{width:8px;height:8px;fill:var(--muted)}
+.searchwrap{position:relative}
+.searchwrap svg{position:absolute;right:8px;top:50%;transform:translateY(-50%);width:12px!important;height:12px!important;fill:var(--muted);margin:0}
+.agentcell{display:flex;align-items:center;gap:10px}
+.agentcell .who{min-width:0}
+.agentcell .who a{display:block;line-height:1.3}
+.agentcell .avatar{width:26px;height:26px;font-size:var(--fs-xs);background:#B7BEAE}
+.agentcell a{color:var(--primary)}
+.badge{display:inline-block;padding:.12rem .5rem;border-radius:var(--radius);font-size:1em}
+.badge.blue{background:var(--badge-blue-bg);color:var(--badge-blue-fg)}
+.badge.yellow{background:var(--badge-yellow-bg);color:var(--badge-yellow-fg)}
+.status-txt{display:inline-flex;align-items:center;gap:7px}
+.status-txt.online{color:var(--success)} .status-txt.away{color:var(--warning)}
+.status-txt.offline{color:var(--secondary)} .status-txt.ringing{color:var(--danger)}
+.status-txt.oncall{color:var(--primary)} .status-txt.acw{color:var(--acw)}
+.mono{font-variant-numeric:tabular-nums;white-space:nowrap}
+.toolbar{display:flex;align-items:center;gap:16px;margin-bottom:18px;flex-wrap:wrap}
+.toolbar .right{margin-left:auto;display:flex;align-items:center;gap:18px;font-size:var(--fs-base)}
+.perpage a{color:var(--primary);margin-left:9px}
+.perpage a.active{color:var(--primary);font-weight:500;text-decoration:underline}
+.switcher{position:relative;display:inline-block;width:2.375rem;height:1.375rem;flex:none}
+.switcher input{display:none}
+.switcher .ind{position:absolute;inset:0;background:#C8C8C8;border-radius:10rem;transition:background .15s}
+.switcher .ind::after{
+  content:"";position:absolute;top:2px;left:2px;width:1.05rem;height:1.05rem;border-radius:50%;
+  background:#fff;transition:left .15s;box-shadow:0 1px 3px rgba(0,0,0,.2);
+}
+.switcher input:checked + .ind{background:var(--primary)}
+.switcher input:checked + .ind::after{left:calc(100% - 1.15rem)}
+
+/* ---------- Empty state ---------- */
+.empty{padding:70px 0;text-align:center;color:var(--text)}
+.empty svg{width:56px;height:40px;fill:var(--disabled);opacity:.55;display:block;margin:0 auto 14px}
+
+/* ---------- Forms (Settings) ---------- */
+.formwrap{max-width:580px}
+.formgroup{margin-bottom:20px}
+.formgroup label{display:block;font-size:var(--fs-base);color:var(--text);margin-bottom:7px}
+.formgroup .ctrl{
+  width:100%;height:38px;border:1px solid var(--border-input);border-radius:var(--radius);
+  background:#fff;display:flex;align-items:center;padding:0 12px;font-size:var(--fs-base);
+}
+.formgroup .ctrl .caret{margin-left:auto;width:9px;height:9px;fill:var(--muted)}
+.formgroup .ctrl input{border:0;outline:0;flex:1;font:inherit;color:inherit}
+.formgroup .ctrl input::placeholder{color:var(--disabled)}
+.pagehead{display:flex;align-items:center;gap:12px;margin-bottom:24px}
+.pagehead h4{margin:0;font-size:1.3rem;font-weight:400}
+.pagehead .btn{margin-left:auto}
+.bigavatar{width:120px;height:120px;border-radius:50%;background:#B7BEAE;color:#fff;
+  display:flex;align-items:center;justify-content:center;font-size:2.6rem;font-weight:500}
+.notice{background:#F4F4F4;border-radius:var(--radius);padding:18px 22px;font-size:var(--fs-base);margin-bottom:24px}
+.notice p{margin:0 0 12px}
+.notice p:last-child{margin-bottom:0}
+.sectionhead{font-size:1.05rem;font-weight:400;margin:26px 0 16px}
+.switchrow{display:flex;align-items:center;gap:12px;margin:18px 0}
+
+/* ---------- Payments ---------- */
+.subcard{max-width:400px;margin:26px auto 0;padding:26px 34px}
+.subcard h5{text-align:center;font-weight:400;font-size:var(--fs-base);margin:0 0 24px}
+.kvrow{display:flex;align-items:baseline;gap:8px;margin-bottom:18px;font-size:var(--fs-base)}
+.kvrow .k{color:var(--muted)}
+.kvrow .fill{flex:1;border-bottom:1px solid var(--divider);transform:translateY(-3px)}
+.kvrow .v{color:var(--text)}
+.kvrow .v.red{color:var(--danger)}
+.centertitle{text-align:center;font-size:var(--fs-md);margin:8px 0 0}
+
+/* ---------- Date presets (Reporting) ---------- */
+.presets{display:inline-flex;background:#fff;border-radius:var(--radius);overflow:hidden;box-shadow:var(--shadow-card)}
+.presets a{padding:.5rem .95rem;font-size:var(--fs-base);color:var(--text);border-right:1px solid var(--border-input)}
+.presets a:last-child{border-right:0}
+.presets a.active{color:var(--primary)}
+.daterange{display:inline-flex;align-items:center;gap:10px;background:#fff;border-radius:var(--radius);
+  box-shadow:var(--shadow-card);padding:.5rem .9rem;font-size:var(--fs-base);margin-left:22px}
+.daterange svg{width:14px;height:14px;fill:var(--text-2)}
+.granularity{margin-left:auto;display:inline-flex;gap:0}
+.granularity a{padding:.5rem .8rem;font-size:var(--fs-base);color:var(--disabled)}
+.granularity a.active{color:var(--primary)}
+
+.hint{margin:26px 24px 0;font-size:var(--fs-sm);color:var(--muted)}
+</style>
+</head>
+<body>
+
+<!-- ============================ TOP NAVBAR ============================ -->
+<nav class="topbar">
+  <div class="brand">
+    <div class="logo">
+      <svg viewBox="0 0 24 24"><path d="M12 2a8 8 0 00-8 8v4.5A2.5 2.5 0 006.5 17H8v-7H6v-.5a6 6 0 1112 0V10h-2v7h1.2a2.8 2.8 0 01-2.7 2.1H13v-1h-2v3h2v-1h1.5A4.3 4.3 0 0018.8 17h-.3A2.5 2.5 0 0020 14.5V10a8 8 0 00-8-8z"/></svg>
+    </div>
+  </div>
+  <ul class="mainnav">
+    <li><a href="#" data-page="dashboard" class="active">Dashboard</a></li>
+    <li><a href="#" data-page="calllog">Call Log</a></li>
+    <li><a href="#" data-page="reporting">Reporting</a></li>
+    <li><a href="#" data-page="settings">Settings</a></li>
+    <li><a href="#" data-page="payments">Payments</a></li>
+  </ul>
+  <div class="right">
+    <svg class="bell" viewBox="0 0 24 24"><path d="M12 22a2.1 2.1 0 002.1-2.1H9.9A2.1 2.1 0 0012 22zm6.3-6.2v-5.3c0-3.2-1.7-5.9-4.7-6.6v-.7a1.6 1.6 0 10-3.2 0v.7c-3 .7-4.7 3.4-4.7 6.6v5.3L3.6 17.9v1h16.8v-1z"/></svg>
+    <span class="companyid">Company ID: 0000</span>
+    <div class="userbox" id="userbox">
+      <div class="avatar">NA</div>
+      <span>Nguyen Van A</span>
+      <svg class="caret" viewBox="0 0 10 10"><path d="M0 3l5 5 5-5z"/></svg>
+      <div class="dropdown-menu" id="usermenu">
+        <a href="#">Settings</a>
+        <a href="#">Knowledge base</a>
+        <a href="#">Contact support</a>
+        <a href="#">Log out</a>
+      </div>
+    </div>
+  </div>
+</nav>
+
+<nav class="subnav" id="subnav"></nav>
+<main class="content" id="view"></main>
+<p class="hint">Bản dựng lại tĩnh bằng HTML/CSS thuần — token màu, typography, spacing lấy nguyên từ mteam.softphone.pro. Dữ liệu là dữ liệu mẫu.</p>
+
+<script>
+/* ====================== ICONS ====================== */
+const I = {
+  caret:'<svg class="caret" viewBox="0 0 10 10"><path d="M0 3l5 5 5-5z"/></svg>',
+  sort:'<svg class="sortico" viewBox="0 0 10 14"><path d="M5 0L8 4H2zM5 14L2 10h6z"/></svg>',
+  help:'<svg class="help" viewBox="0 0 16 16"><path d="M8 0a8 8 0 100 16A8 8 0 008 0zm.9 12.5H7.1v-1.8h1.8v1.8zm1.3-5.1l-.8.8c-.5.5-.6.9-.6 1.6H7.2v-.4c0-.7.3-1.3.8-1.8l1.1-1.1c.3-.3.5-.7.5-1.2A1.6 1.6 0 008 3.7a1.6 1.6 0 00-1.6 1.6H4.8a3.2 3.2 0 116.4 0c0 .7-.3 1.3-.7 1.8z"/></svg>',
+  phone:'<svg class="ico-sm" viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1z"/></svg>',
+  phoneIn:'<svg class="ico-sm" viewBox="0 0 24 24"><path d="M6.6 10.8a15 15 0 006.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.2.4 2.4.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1A17 17 0 013 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1zM20 8V3h-1.6v2.3L15 1.9l-1.1 1.1 3.4 3.4H15V8z"/></svg>',
+  cal:'<svg class="ico-sm" viewBox="0 0 24 24"><path d="M19 4h-1V2h-2v2H8V2H6v2H5a2 2 0 00-2 2v14a2 2 0 002 2h14a2 2 0 002-2V6a2 2 0 00-2-2zm0 16H5V10h14z"/></svg>',
+  search:'<svg class="ico-sm" viewBox="0 0 16 16"><path d="M11.7 10.3l3 3-1.4 1.4-3-3a6 6 0 111.4-1.4zM6.5 11a4.5 4.5 0 100-9 4.5 4.5 0 000 9z"/></svg>',
+  people:'<svg viewBox="0 0 64 46"><ellipse cx="14" cy="14" rx="9" ry="9"/><ellipse cx="50" cy="14" rx="9" ry="9"/><ellipse cx="32" cy="11" rx="11" ry="11"/><path d="M32 25c-9 0-16 5-16 11v6h32v-6c0-6-7-11-16-11zM14 27c-7 0-14 4-14 9v6h13v-7c0-3 2-6 5-8zM50 27c7 0 14 4 14 9v6H51v-7c0-3-2-6-5-8z"/></svg>'
+};
+
+/* ====================== SAMPLE DATA ====================== */
+const AGENTS = [
+  {n:'Nguyen Van A', i:'NA', st:'oncall',  stl:'On call',  cur:'+1 555 0142', prev:'+1 555 0108', calls:37, in_:21, ans:19, pans:'90%', out:16, suc:13, psuc:'81%'},
+  {n:'Tran Thi B',   i:'TB', st:'online',  stl:'Online',   cur:'—',           prev:'+1 555 0177', calls:29, in_:18, ans:17, pans:'94%', out:11, suc:9,  psuc:'82%'},
+  {n:'Le Van C',     i:'LC', st:'ringing', stl:'Ringing',  cur:'+1 555 0193', prev:'+1 555 0121', calls:24, in_:15, ans:12, pans:'80%', out:9,  suc:6,  psuc:'67%'},
+  {n:'Pham Thi D',   i:'PD', st:'acw',     stl:'ACW',      cur:'—',           prev:'+1 555 0164', calls:18, in_:10, ans:9,  pans:'90%', out:8,  suc:7,  psuc:'88%'},
+  {n:'Hoang Van E',  i:'HE', st:'away',    stl:'Away',     cur:'—',           prev:'+1 555 0150', calls:12, in_:7,  ans:5,  pans:'71%', out:5,  suc:3,  psuc:'60%'},
+  {n:'Vu Thi F',     i:'VF', st:'offline', stl:'Offline',  cur:'—',           prev:'—',           calls:0,  in_:0,  ans:0,  pans:'—',   out:0,  suc:0,  psuc:'—'}
+];
+const CALLS = [
+  {d:'10:42:18', a:'Nguyen Van A', ai:'NA', dir:'in',  ph:'+1 555 0142', ty:'Inbound',  stt:'Answered', w:'0:06', t:'4:12', acw:'0:35', tag:'Sales'},
+  {d:'10:31:04', a:'Tran Thi B',   ai:'TB', dir:'out', ph:'+1 555 0177', ty:'Outbound', stt:'Answered', w:'—',    t:'2:48', acw:'0:20', tag:'Support'},
+  {d:'10:22:55', a:'Le Van C',     ai:'LC', dir:'in',  ph:'+1 555 0193', ty:'Inbound',  stt:'Missed',   w:'0:24', t:'—',    acw:'—',    tag:''},
+  {d:'10:08:12', a:'Pham Thi D',   ai:'PD', dir:'in',  ph:'+1 555 0164', ty:'Inbound',  stt:'Answered', w:'0:03', t:'7:31', acw:'1:02', tag:'Billing'},
+  {d:'09:54:39', a:'Nguyen Van A', ai:'NA', dir:'out', ph:'+1 555 0108', ty:'Outbound', stt:'No answer',w:'—',    t:'—',    acw:'—',    tag:''},
+  {d:'09:41:27', a:'Hoang Van E',  ai:'HE', dir:'in',  ph:'+1 555 0150', ty:'Inbound',  stt:'Answered', w:'0:11', t:'3:05', acw:'0:44', tag:'Sales'}
+];
+const SERIES = [0,0,1,3,6,11,18,24,29,31,27,22,26,33,38,35,28,19,12,7,4,2,1,0];
+
+/* ====================== HELPERS ====================== */
+const el = h => { const d=document.createElement('div'); d.innerHTML=h.trim(); return d.firstElementChild; };
+const avatar = (i,cls='') => `<div class="avatar ${cls}">${i}</div>`;
+
+function lineChart(data,w=1160,h=250){
+  const pad={l:34,r:10,t:12,b:26};
+  const max=Math.max(...data,1), iw=w-pad.l-pad.r, ih=h-pad.t-pad.b;
+  const x=i=>pad.l+iw*i/(data.length-1), y=v=>pad.t+ih-(v/max)*ih;
+  const pts=data.map((v,i)=>`${x(i).toFixed(1)},${y(v).toFixed(1)}`).join(' ');
+  const area=`${pad.l},${pad.t+ih} ${pts} ${pad.l+iw},${pad.t+ih}`;
+  const ticks=[0,Math.round(max/2),max];
+  return `<svg viewBox="0 0 ${w} ${h}" style="width:100%;height:${h}px;display:block" role="img" aria-label="Biểu đồ số cuộc gọi theo giờ">
+    ${ticks.map(t=>`<g><line x1="${pad.l}" x2="${w-pad.r}" y1="${y(t)}" y2="${y(t)}" stroke="#EEE"/>
+      <text x="${pad.l-8}" y="${y(t)+4}" text-anchor="end" font-size="11" fill="#8897AA">${t}</text></g>`).join('')}
+    <polygon points="${area}" fill="rgba(40,195,215,.10)"/>
+    <polyline points="${pts}" fill="none" stroke="#28C3D7" stroke-width="2" stroke-linejoin="round"/>
+    ${data.map((v,i)=>i%3===0?`<circle cx="${x(i)}" cy="${y(v)}" r="3" fill="#fff" stroke="#28C3D7" stroke-width="2"/>`:'').join('')}
+    <line x1="${pad.l}" x2="${w-pad.r}" y1="${pad.t+ih}" y2="${pad.t+ih}" stroke="#DADADA"/>
+    ${[0,6,12,18,23].map(i=>`<text x="${x(i)}" y="${h-6}" text-anchor="middle" font-size="11" fill="#8897AA">${String(i).padStart(2,'0')}:00</text>`).join('')}
+  </svg>`;
+}
+
+/* ====================== PAGES ====================== */
+const SUBNAV = {
+  dashboard:[['All calls',1],['Inbound calls',0],['Outbound calls',0]],
+  calllog:[],
+  reporting:[['Calls',1,1],['Inbound Distribution',0,1],['Inbound Service Level',0,1],['Outbound Performance',0,1],['Agents',0,1],['Asterisk',0,1],['Order custom report',0,0]],
+  settings:[['Users',0],['Teams',0],['Softphone.Pro',0,1],['Company',0],['My Profile',1]],
+  payments:[['Subscription',1],['Orders',0]]
+};
+
+function pageDashboard(){
+  const stats=[['120','All calls',I.phone],['49','Outbound calls',I.phoneIn],['71','Inbound calls',I.phoneIn],['87%','Inbound answered, %',I.phoneIn]];
+  return `
+  <div class="toolbar">
+    <button class="btn btn-primary btn-sm">Agents and Teams ${I.caret}</button>
+    <span style="font-size:1.05rem">Data provided for the current day</span>
+  </div>
+  <div class="stats">
+    ${stats.map(([v,l,ic])=>`<div class="card stat"><div class="val">${v}</div><div class="lbl">${l}</div><div class="ico">${ic}</div></div>`).join('')}
+  </div>
+  <div class="chartwrap">
+    <div class="chart-head">
+      <span class="title">Calls</span>
+      <span class="legend"><i></i> All calls</span>
+      <span class="select-inline">All calls ${I.caret}</span>
+    </div>
+    ${lineChart(SERIES)}
+  </div>
+  <div class="card" style="margin-top:22px;overflow:hidden">
+    <div class="chips" style="padding:18px 18px 4px">
+      <span class="chip active">All agents 6</span>
+      <span class="chip"><i class="dot online"></i>Online 2</span>
+      <span class="chip"><i class="dot working"></i>Working 2</span>
+      <span class="chip"><i class="dot away"></i>Away 1</span>
+      <span class="chip"><i class="dot offline"></i>Offline 1</span>
+    </div>
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th rowspan="2" style="width:250px">
+            <div style="display:flex;align-items:center;gap:12px">Agents
+              <span class="searchwrap" style="flex:1"><input placeholder="Search">${I.search}</span>
+            </div>
+          </th>
+          <th rowspan="2">Current call</th>
+          <th rowspan="2">Previous calls</th>
+          <th rowspan="2">More ${I.help}</th>
+          <th rowspan="2">Calls ${I.sort}</th>
+          <th colspan="3" class="grp">${I.phoneIn} Inbound</th>
+          <th colspan="3" class="grp">${I.phoneIn} Outbound</th>
+        </tr>
+        <tr class="sub">
+          <th class="colsep">In.${I.help}${I.sort}</th><th>Ans.${I.help}${I.sort}</th><th>% Ans.${I.help}${I.sort}</th>
+          <th class="colsep">Out.${I.help}${I.sort}</th><th>Suc.${I.help}${I.sort}</th><th>% Suc.${I.help}${I.sort}</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${AGENTS.map(a=>`<tr>
+          <td><div class="agentcell">${avatar(a.i)}<div class="who"><a href="#">${a.n}</a><div class="status-txt ${a.st}" style="font-size:var(--fs-sm)"><i class="dot ${a.st}"></i>${a.stl}</div></div></div></td>
+          <td class="mono">${a.cur}</td><td class="mono">${a.prev}</td><td></td>
+          <td class="mono">${a.calls}</td>
+          <td class="colsep mono">${a.in_}</td><td class="mono">${a.ans}</td><td class="mono">${a.pans}</td>
+          <td class="colsep mono">${a.out}</td><td class="mono">${a.suc}</td><td class="mono">${a.psuc}</td>
+        </tr>`).join('')}
+      </tbody>
+    </table>
+  </div>`;
+}
+
+function pageCallLog(){
+  const dirIco = d => d==='in'
+    ? '<svg viewBox="0 0 24 24" style="width:14px;height:14px;fill:var(--success)"><path d="M20 5.4L18.6 4 7 15.6V9H5v10h10v-2H8.4z"/></svg>'
+    : '<svg viewBox="0 0 24 24" style="width:14px;height:14px;fill:var(--primary)"><path d="M4 18.6L5.4 20 17 8.4V15h2V5H9v2h6.6z"/></svg>';
+  const sttCls = s => s==='Answered'?'online':(s==='Missed'?'ringing':'offline');
+  return `
+  <div class="toolbar">
+    <span class="btn-group">
+      <button class="btn btn-primary soft">Export</button>
+      <button class="btn btn-primary soft">${I.caret}</button>
+    </span>
+    <div class="right">
+      <label class="switcher"><input type="checkbox"><span class="ind"></span></label>
+      <span>Join related inbound calls ${I.help}</span>
+      <span style="color:var(--muted)">Calls count: <b style="color:var(--text)">${CALLS.length}</b></span>
+      <span class="perpage">Items per page: <a href="#" class="active">20</a><a href="#">50</a><a href="#">100</a></span>
+    </div>
+  </div>
+  <div class="card" style="overflow:hidden">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th style="width:150px">Date ${I.sort}<div style="color:var(--primary);font-size:var(--fs-sm);margin-top:2px">Today</div></th>
+          <th style="width:190px">Agent ${I.sort}</th>
+          <th style="width:44px"></th>
+          <th style="width:170px">Phone ${I.sort}</th>
+          <th style="width:120px">Type ${I.sort}</th>
+          <th style="width:130px">Status ${I.sort}</th>
+          <th style="width:90px">Wait ${I.sort}</th>
+          <th style="width:90px">Talk ${I.sort}</th>
+          <th style="width:90px">ACW ${I.sort}</th>
+          <th style="width:120px">Tag ${I.sort}</th>
+          <th>SIP</th>
+        </tr>
+        <tr class="filterrow">
+          <td></td>
+          <td><span class="fakeselect">Select… ${I.caret}</span></td>
+          <td></td>
+          <td><span class="searchwrap"><input placeholder="Search…">${I.search}</span></td>
+          <td><span class="fakeselect">S… ${I.caret}</span></td>
+          <td><span class="fakeselect">S… ${I.caret}</span></td>
+          <td style="color:var(--text);font-size:var(--fs-sm)">Any</td>
+          <td style="color:var(--text);font-size:var(--fs-sm)">Any</td>
+          <td></td>
+          <td><span class="fakeselect">Searc… ${I.caret}</span></td>
+          <td></td>
+        </tr>
+      </thead>
+      <tbody>
+        ${CALLS.map(c=>`<tr>
+          <td class="mono">${c.d}</td>
+          <td><div class="agentcell">${avatar(c.ai)}<a href="#">${c.a}</a></div></td>
+          <td>${dirIco(c.dir)}</td>
+          <td class="mono"><a href="#">${c.ph}</a></td>
+          <td>${c.ty}</td>
+          <td><span class="status-txt ${sttCls(c.stt)}"><i class="dot ${sttCls(c.stt)}"></i>${c.stt}</span></td>
+          <td class="mono">${c.w}</td><td class="mono">${c.t}</td><td class="mono">${c.acw}</td>
+          <td>${c.tag?`<span class="badge blue">${c.tag}</span>`:''}</td>
+          <td></td>
+        </tr>`).join('')}
+      </tbody>
+    </table>
+  </div>`;
+}
+
+function pageReporting(){
+  return `
+  <div class="toolbar">
+    <span class="presets">
+      <a href="#">Last 90 days</a><a href="#">Last 30 days</a><a href="#">Last 7 days</a><a href="#">Yesterday</a><a href="#" class="active">Today</a>
+    </span>
+    <span class="daterange">${I.cal}<span>2026-08-18 – 2026-08-18</span></span>
+    <span class="granularity"><a href="#" class="active">By hour</a><a href="#">By day</a><a href="#">By week</a><a href="#">By month</a></span>
+  </div>
+  <div class="chart-head">
+    <span class="title">Calls</span>
+    <span class="legend"><i></i> Calls</span>
+    <span class="select-inline">All calls ${I.caret}</span>
+  </div>
+  ${lineChart(SERIES,1160,230)}
+  <div class="card" style="margin-top:22px;overflow:hidden">
+    <table class="tbl">
+      <thead>
+        <tr>
+          <th rowspan="2" style="width:160px">Date</th>
+          <th rowspan="2">Calls ${I.help}</th>
+          <th rowspan="2">Avg. talk time ${I.help}</th>
+          <th colspan="3" class="grp">Inbound</th>
+          <th colspan="3" class="grp">Outbound</th>
+        </tr>
+        <tr class="sub">
+          <th class="colsep">Inbound calls ${I.help}</th><th>Answered ${I.help}</th><th>% Answered ${I.help}</th>
+          <th class="colsep">Outbound calls ${I.help}</th><th>Successful ${I.help}</th><th>% Successful ${I.help}</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr style="font-weight:500"><td>Total</td><td class="mono">120</td><td class="mono">4:07</td>
+          <td class="colsep mono">71</td><td class="mono">62</td><td class="mono">87%</td>
+          <td class="colsep mono">49</td><td class="mono">38</td><td class="mono">78%</td></tr>
+        ${[['08:00 – 09:00',18,'3:52',11,10,'91%',7,6,'86%'],['09:00 – 10:00',31,'4:21',19,17,'89%',12,9,'75%'],['10:00 – 11:00',38,'4:02',22,19,'86%',16,13,'81%'],['11:00 – 12:00',33,'4:10',19,16,'84%',14,10,'71%']]
+          .map(r=>`<tr><td><a href="#">${r[0]}</a></td><td class="mono">${r[1]}</td><td class="mono">${r[2]}</td>
+          <td class="colsep mono">${r[3]}</td><td class="mono">${r[4]}</td><td class="mono">${r[5]}</td>
+          <td class="colsep mono">${r[6]}</td><td class="mono">${r[7]}</td><td class="mono">${r[8]}</td></tr>`).join('')}
+      </tbody>
+    </table>
+  </div>`;
+}
+
+function pageSettings(){
+  return `
+  <div class="pagehead">
+    <svg viewBox="0 0 24 24" style="width:26px;height:26px;fill:var(--text)"><path d="M10 12a4 4 0 100-8 4 4 0 000 8zm0 2c-4 0-8 2-8 4.5V21h11v-2.5c0-.9.3-1.8.8-2.5A16 16 0 0010 14zm10.6 2.6l1.2-.7-1-1.7-1.3.5a3 3 0 00-1-.6l-.2-1.4h-2l-.2 1.4a3 3 0 00-1 .6l-1.3-.5-1 1.7 1.2.7a3 3 0 000 1.2l-1.2.7 1 1.7 1.3-.5c.3.3.6.5 1 .6l.2 1.4h2l.2-1.4c.4-.1.7-.3 1-.6l1.3.5 1-1.7-1.2-.7a3 3 0 000-1.2zm-3.3 2.1a1.5 1.5 0 110-3 1.5 1.5 0 010 3z"/></svg>
+    <h4>My Profile</h4>
+    <button class="btn btn-primary">Save</button>
+  </div>
+  <div class="formwrap">
+    <div class="formgroup"><label>Language</label><div class="ctrl">English ${I.caret}</div></div>
+    <div class="formgroup"><label>Timezone</label><div class="ctrl"><input placeholder=""> ${I.caret}</div></div>
+    <div class="formgroup"><label>Profile picture</label>
+      <div style="display:flex;align-items:flex-start;gap:34px;margin-top:12px">
+        <div class="bigavatar">NA</div>
+        <div style="padding-top:26px">
+          <div style="font-size:var(--fs-base);margin-bottom:14px">Upload profile picture</div>
+          <button class="btn btn-primary">Upload file</button>
+          <button class="btn btn-primary soft" style="margin-left:10px">Delete picture</button>
+        </div>
+      </div>
+    </div>
+  </div>`;
+}
+
+function pagePayments(){
+  return `
+  <h4 class="centertitle">Current subscription</h4>
+  <div class="card subcard">
+    <h5>Demo Subscription</h5>
+    <div class="kvrow"><span class="k">Start date</span><span class="fill"></span><span class="v mono">8/18/26</span></div>
+    <div class="kvrow"><span class="k">Expiration date</span><span class="fill"></span><span class="v red mono">8/31/26</span></div>
+    <div class="kvrow"><span class="k">Number of users</span><span class="fill"></span><span class="v mono">100</span></div>
+    <button class="btn btn-primary" style="width:100%;margin-top:6px">Renew subscription</button>
+  </div>`;
+}
+
+const PAGES = {dashboard:pageDashboard, calllog:pageCallLog, reporting:pageReporting, settings:pageSettings, payments:pagePayments};
+
+/* ====================== ROUTER ====================== */
+function render(page){
+  document.querySelectorAll('.mainnav a').forEach(a=>a.classList.toggle('active',a.dataset.page===page));
+  const sn=document.getElementById('subnav');
+  const items=SUBNAV[page]||[];
+  sn.style.display = items.length ? 'flex' : 'none';
+  sn.innerHTML = items.map(([t,act,car])=>`<a href="#" class="${act?'active':''}">${t}${car?I.caret:''}</a>`).join('');
+  sn.querySelectorAll('a').forEach(a=>a.onclick=e=>{e.preventDefault();sn.querySelectorAll('a').forEach(x=>x.classList.remove('active'));a.classList.add('active')});
+  document.getElementById('view').innerHTML = PAGES[page]();
+}
+document.querySelectorAll('.mainnav a').forEach(a=>a.onclick=e=>{e.preventDefault();render(a.dataset.page)});
+document.getElementById('userbox').onclick=e=>{e.stopPropagation();document.getElementById('usermenu').classList.toggle('open')};
+document.body.onclick=()=>document.getElementById('usermenu').classList.remove('open');
+render('dashboard');
+</script>
+</body>
+</html>

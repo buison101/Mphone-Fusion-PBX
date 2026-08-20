@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   version="1.1"
+   width="17"
+   height="13"
+   viewBox="0 0 17 13"
+   id="svg2"
+   inkscape:version="0.91 r13725"
+   sodipodi:docname="account_add.svg">
+  <metadata
+     id="metadata10">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <defs
+     id="defs8" />
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="751"
+     inkscape:window-height="480"
+     id="namedview6"
+     showgrid="false"
+     inkscape:zoom="9.8333333"
+     inkscape:cx="-9.5002734"
+     inkscape:cy="12"
+     inkscape:window-x="0"
+     inkscape:window-y="0"
+     inkscape:window-maximized="0"
+     inkscape:current-layer="svg2" />
+<path d="M2.33366 12.8335H0.666992C0.666992 10.0721 2.90557 7.8335 5.66699 7.8335C8.42842 7.8335 10.667 10.0721 10.667 12.8335H9.00033C9.00033 10.9925 7.50794 9.50016 5.66699 9.50016C3.82604 9.50016 2.33366 10.9925 2.33366 12.8335ZM14.8337 10.3335H13.167V7.8335H10.667V6.16683H13.167V3.66683H14.8337V6.16683H17.3337V7.8335H14.8337V10.3335ZM5.66699 7.00016C3.82604 7.00016 2.33366 5.50778 2.33366 3.66683C2.33366 1.82588 3.82604 0.333496 5.66699 0.333496C7.50794 0.333496 9.00033 1.82588 9.00033 3.66683C8.99803 5.50683 7.50699 6.99787 5.66699 7.00016ZM5.66699 2.00016C4.75649 2.00109 4.01523 2.73254 4.00219 3.64295C3.98914 4.55336 4.70913 5.30575 5.61923 5.33276C6.52934 5.35977 7.29269 4.65141 7.33366 3.74183V4.07516V3.66683C7.33366 2.74635 6.58747 2.00016 5.66699 2.00016Z" 
+fill="#ffffff"/>
+</svg>
+

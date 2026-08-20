@@ -219,36 +219,66 @@ class call_recordings {
 
 		//define the variable(s)
 		$call_summary = '';
+		$summary_status = 'disabled';
+		$summary_model = '';
+		$summary_duration = 0;
+		$summary_attempt_count = 0;
+		$summary_last_error = '';
 
 		//summarize the transcript
 		if ($settings->get('language_model', 'enabled') && $settings->get('call_recordings', 'summary_enabled') && !empty($params['transcribe_message'])) {
-			//get the transcribed text
-			$transcribe_text = transcribe::conversation_format($params['transcribe_message'], 'text');
+			$summary_status = 'processing';
+			$summary_attempt_count = 1;
+			$summary_started = microtime(true);
+			try {
+				//get the transcribed text
+				$transcribe_text = trim(strip_tags(transcribe::conversation_format($params['transcribe_message'], 'text')));
+				$summary_min_characters = (int)$settings->get('call_recordings', 'summary_min_characters', 40);
+				if (mb_strlen($transcribe_text) < $summary_min_characters) {
+					throw new LengthException('Transcript is too short to summarize reliably');
+				}
 
-			//get the summary language model prompt
-			$default_prompt = "Summarize this conversation with Key Points, Action Items if any, and Sentiment. Use names when they are provided. Keep the summary professional. Return text without markdown.";
-			$prompt = $this->settings->get('call_recordings', 'summary_model_prompt', $default_prompt);
+				//get the summary language model prompt
+				$default_prompt = "Tóm tắt cuộc gọi bằng tiếng Việt theo đúng bốn dòng: Nội dung chính, Kết quả, Việc cần thực hiện, Cảm xúc. Chỉ dùng thông tin có trong hội thoại; ghi 'Không xác định' khi không có dữ liệu. Không suy đoán và không dùng Markdown.";
+				$prompt = $settings->get('call_recordings', 'summary_model_prompt', $default_prompt);
 
-			//combine the prompt with the call transcript
-			$request_data['prompt'] = $prompt . "```\n".$transcribe_text."\n```";
+				//combine the prompt with the call transcript
+				$request_data['prompt'] = $prompt . "```\n".$transcribe_text."\n```";
 
-			//get the summary language model name
-			$request_model = $this->settings->get('call_recordings', 'summary_model_name', 'ministral-3:8b');
+				//get the summary language model name
+				$request_model = $settings->get('call_recordings', 'summary_model_name', 'ministral-3:8b');
+				$summary_model = $request_model;
 
-			//load the language model and get the call summary
-			$language_model = new language_model();
-			$params['transcript_summary'] = $language_model->request($request_model, $request_data);
+				//load the language model and get the call summary
+				$language_model = new language_model(false, $settings);
+				$params['transcript_summary'] = $language_model->request($request_model, $request_data);
 
-			//get the summary from the params
-			$transcript_summary = $params['transcript_summary'] ?? '';
+				//get the summary from the params
+				$transcript_summary = $params['transcript_summary'] ?? '';
 
-			//format the call recording transcript summary
-			require_once "resources/classes/parsedown.php";
-			$parsedown = new Parsedown();
-			$parsedown->setSafeMode(true);
-			$parsedown->setMarkupEscaped(true);
-			$call_summary = str_replace('###', '', $transcript_summary);
-			$call_summary = str_replace('&amp;', '&', $parsedown->text($call_summary));
+				//format the call recording transcript summary
+				require_once "resources/classes/parsedown.php";
+				$parsedown = new Parsedown();
+				$parsedown->setSafeMode(true);
+				$parsedown->setMarkupEscaped(true);
+				$call_summary = str_replace('###', '', $transcript_summary);
+				$call_summary = str_replace('&amp;', '&', $parsedown->text($call_summary));
+				$summary_status = 'completed';
+			}
+			catch (Throwable $exception) {
+				if ($exception instanceof LengthException) {
+					$summary_status = 'skipped';
+				}
+				else {
+					$summary_status = 'failed';
+					$summary_last_error = preg_replace('/[\r\n\t]+/', ' ', $exception->getMessage());
+					$summary_last_error = mb_substr($summary_last_error, 0, 500);
+					error_log('Call summary failed for '.$params['xml_cdr_uuid'].': '.$summary_last_error);
+				}
+				$params['transcript_summary'] = '';
+				$call_summary = '';
+			}
+			$summary_duration = round(microtime(true) - $summary_started, 1);
 		}
 
 		//prepare the array with the transcript details
@@ -257,6 +287,11 @@ class call_recordings {
 		$array['xml_cdr_transcripts'][0]['xml_cdr_uuid'] = $params['xml_cdr_uuid'];
 		$array['xml_cdr_transcripts'][0]['transcript_json'] = $params['transcribe_message'];
 		$array['xml_cdr_transcripts'][0]['transcript_summary'] = $params['transcript_summary'] ?? '';
+		$array['xml_cdr_transcripts'][0]['summary_status'] = $summary_status;
+		$array['xml_cdr_transcripts'][0]['summary_model'] = $summary_model;
+		$array['xml_cdr_transcripts'][0]['summary_duration'] = $summary_duration;
+		$array['xml_cdr_transcripts'][0]['summary_attempt_count'] = $summary_attempt_count;
+		$array['xml_cdr_transcripts'][0]['summary_last_error'] = $summary_last_error;
 
 		//add temporary permissions
 		$p = permissions::new();

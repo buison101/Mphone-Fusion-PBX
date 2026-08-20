@@ -1411,7 +1411,7 @@ class menu {
 		$html .= "			<ul class='navbar-nav ml-auto'>\n";
 		if (permission_exists('browser_phone_view')) {
 			$html .= "		<li class='nav-item'>\n";
-			$html .= "			<a class='nav-link' href='" . PROJECT_PATH . "/app/browser_phone/index.php' title='Webphone'><i class='fa-solid fa-phone fa-fw'></i><span class='d-none d-md-inline' style='margin-left: 7px;'>Webphone</span></a>\n";
+			$html .= "			<a class='nav-link' href='" . PROJECT_PATH . "/app/webphone/' title='Webphone'><i class='fa-solid fa-phone fa-fw'></i><span class='d-none d-md-inline' style='margin-left: 7px;'>Webphone</span></a>\n";
 			$html .= "		</li>\n";
 		}
 		if (!empty($language_toggle_link = $this->language_toggle_link('top'))) {
@@ -1671,7 +1671,7 @@ class menu {
 		$html .= "<div class='float-right' style='white-space: nowrap;'>";
 		if (permission_exists('browser_phone_view')) {
 			$html .= "<span style='display: inline-flex; align-items: center; height: 32px; vertical-align: top; padding-right: 20px; font-size: 90%;'>\n";
-			$html .= "	<a href='" . PROJECT_PATH . "/app/browser_phone/index.php' title='Webphone' style='display: inline-flex; align-items: center; line-height: 1;'><i class='fa-solid fa-phone fa-fw' style='margin-right: 5px;'></i><span class='d-none d-sm-inline'>Webphone</span></a>";
+			$html .= "	<a href='" . PROJECT_PATH . "/app/webphone/' title='Webphone' style='display: inline-flex; align-items: center; line-height: 1;'><i class='fa-solid fa-phone fa-fw' style='margin-right: 5px;'></i><span class='d-none d-sm-inline'>Webphone</span></a>";
 			$html .= "</span>\n";
 		}
 		if (!empty($language_toggle_link = $this->language_toggle_link('side'))) {

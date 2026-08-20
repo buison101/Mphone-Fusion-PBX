@@ -10,3 +10,8 @@ secure/*.sqlite
 *.php~
 
 app/yealink/resources/firmware/*
+
+# customer portal - build output and dependencies
+/p/
+app/portal/spa/node_modules/
+app/portal/spa/dist/

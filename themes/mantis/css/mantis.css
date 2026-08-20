@@ -1,0 +1,259 @@
+/* Mantis surface for the FusionPBX administration pages.
+
+   Colour, type and spacing now come from palette.php, which css.php reads while
+   generating its rules, so this file only carries what a theme setting cannot
+   express: shape, borders that css.php has no variable for, the Mantis type
+   scale, and a handful of structural corrections.
+
+   Keep it that way. If something here is a plain colour, it probably belongs in
+   palette.php instead. */
+
+/* Type scale ----------------------------------------------------------------- */
+/* css.php has one heading size setting, Mantis has a six step scale. */
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: var(--mt-font);
+	color: var(--mt-text-primary);
+	font-weight: var(--mt-weight-semibold);
+	letter-spacing: 0;
+	margin-top: 0;
+}
+
+h1 { font-size: 2.375rem; line-height: 1.21; }
+h2 { font-size: 1.875rem; line-height: 1.27; }
+h3 { font-size: 1.5rem;   line-height: 1.33; }
+h4 { font-size: 1.25rem;  line-height: 1.4;  }
+h5 { font-size: 1rem;     line-height: 1.5;  }
+h6 { font-size: 0.875rem; line-height: 1.57; font-weight: var(--mt-weight-regular); }
+
+body {
+	line-height: var(--mt-line-height-body);
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+/* Shell borders --------------------------------------------------------------- */
+/* menu_main_border_size feeds both the drawer and the top bar, so it is left at
+   zero and the two edges Mantis actually draws are set here. */
+
+div#menu_side_container {
+	border-right: 1px solid var(--mt-drawer-border);
+}
+
+nav.navbar {
+	border-bottom: 1px solid var(--mt-divider);
+}
+
+div#menu_side_control_container {
+	border-bottom: 1px solid var(--mt-divider);
+}
+
+/* Drawer items ---------------------------------------------------------------- */
+/* Mantis marks the hovered and current item with a rounded tint rather than a
+   full width band. Selectors mirror the specificity css.php generates. */
+
+div#menu_side_container > a.menu_side_item_main,
+div#menu_side_container > div > a.menu_side_item_main,
+div#menu_side_container a.menu_side_item_sub {
+	border-radius: var(--mt-radius-sm);
+	margin: 2px 8px;
+	width: calc(100% - 16px);
+	transition: background-color 0.15s ease, color 0.15s ease;
+}
+
+div#menu_side_container > a.menu_side_item_main.active,
+div#menu_side_container > a.menu_side_item_main.selected,
+div#menu_side_container a.menu_side_item_sub.active,
+div#menu_side_container a.menu_side_item_sub.selected {
+	background: var(--mt-drawer-item-active-bg);
+	color: var(--mt-drawer-item-active);
+	font-weight: var(--mt-weight-semibold);
+}
+
+/* Cards ----------------------------------------------------------------------- */
+
+div.card {
+	box-shadow: none;
+	transition: box-shadow 0.15s ease;
+}
+
+div.card:hover {
+	box-shadow: var(--mt-shadow-z1);
+}
+
+/* Lists ------------------------------------------------------------------------ */
+/* css.php colours the cells but draws no frame. Mantis wraps a list in a bordered
+   panel with rounded corners, which needs separate borders and a clipped box. */
+
+table.list {
+	border: 1px solid var(--mt-border-card);
+	border-radius: var(--mt-radius);
+	border-collapse: separate;
+	border-spacing: 0;
+	overflow: hidden;
+	background: var(--mt-bg-paper);
+	width: 100%;
+}
+
+table.list tr.list-header th,
+table.list th.list-header {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid var(--mt-divider);
+	font-weight: var(--mt-weight-semibold);
+	text-transform: none;
+	letter-spacing: 0;
+	white-space: nowrap;
+	vertical-align: middle;
+}
+
+table.list tr.list-row td {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid var(--mt-divider);
+	vertical-align: middle;
+}
+
+/* the panel already ends in a border, a second hairline would double it */
+table.list tr.list-row:last-child td {
+	border-bottom: 0;
+}
+
+/* checkbox and control columns read better tight and centred */
+table.list td.checkbox,
+table.list th.checkbox {
+	width: 1%;
+	white-space: nowrap;
+}
+
+table.list td.action-button,
+table.list th.action-button {
+	width: 1%;
+	white-space: nowrap;
+	text-align: right;
+}
+
+/* Detail forms ----------------------------------------------------------------- */
+
+table.vtable {
+	border: 1px solid var(--mt-border-card);
+	border-radius: var(--mt-radius);
+	border-collapse: separate;
+	border-spacing: 0;
+	overflow: hidden;
+	background: var(--mt-bg-paper);
+	width: 100%;
+}
+
+table.vtable td.vncell,
+table.vtable td.vncellreq,
+table.vtable td.vtable {
+	border-top: 0;
+	border-left: 0;
+	border-right: 0;
+	border-bottom: 1px solid var(--mt-divider);
+	vertical-align: top;
+}
+
+table.vtable tr:last-child td {
+	border-bottom: 0;
+}
+
+/* the label column carries the field name, it should not compete with the value */
+table.vtable td.vncell {
+	width: 28%;
+	min-width: 180px;
+}
+
+/* Buttons ------------------------------------------------------------------------ */
+/* Mantis capitalises button labels rather than shouting them. */
+
+button.btn,
+a.btn,
+input.btn {
+	text-transform: capitalize;
+	box-shadow: none;
+	transition: background-color 0.15s ease, border-color 0.15s ease, color 0.15s ease;
+}
+
+button.btn-default,
+a.btn-default {
+	background: var(--mt-bg-paper);
+	background-image: none;
+	color: var(--mt-text-primary);
+	border: 1px solid var(--mt-border-input);
+}
+
+button.btn-default:hover,
+button.btn-default:active,
+button.btn-default:focus,
+a.btn-default:hover {
+	background: var(--mt-primary-lighter);
+	background-image: none;
+	color: var(--mt-primary-main);
+	border-color: var(--mt-primary-main);
+}
+
+button.btn-link,
+a.btn-link {
+	background: transparent;
+	border: 0;
+	color: var(--mt-primary-main);
+}
+
+/* Modal --------------------------------------------------------------------------- */
+
+div.modal-content {
+	border: 1px solid var(--mt-border-card);
+	border-radius: var(--mt-radius);
+	box-shadow: var(--mt-shadow-popup);
+}
+
+div.modal-header {
+	border-bottom: 1px solid var(--mt-divider);
+}
+
+div.modal-footer {
+	border-top: 1px solid var(--mt-divider);
+}
+
+/* Dashboard widgets ---------------------------------------------------------------- */
+/* Frame only. Per widget colours are written into the page from the database and
+   are deliberately left alone. */
+
+div.hud_box {
+	border-radius: var(--mt-radius);
+	transition: box-shadow 0.15s ease;
+}
+
+div.hud_box:hover {
+	box-shadow: var(--mt-shadow-z1);
+}
+
+span.hud_title {
+	text-transform: none;
+	letter-spacing: 0;
+}
+
+/* Scrollbars ------------------------------------------------------------------------ */
+
+* {
+	scrollbar-width: thin;
+	scrollbar-color: var(--mt-grey-300) transparent;
+}
+
+*::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+
+*::-webkit-scrollbar-thumb {
+	background: var(--mt-grey-300);
+	border-radius: 4px;
+}
+
+*::-webkit-scrollbar-track {
+	background: transparent;
+}

@@ -1,0 +1,117 @@
+/* ==========================================================================
+   Softphone.Pro Team — Design Tokens
+   Trích từ https://mteam.softphone.pro (Angular + Bootstrap 4 + Appwork theme)
+   Ngày trích: 2026-08-18
+   ========================================================================== */
+
+:root {
+  /* ---------- Brand ---------- */
+  --spp-primary:            #3068F4;
+  --spp-primary-hover:      #2B5ACE;   /* navbar sub-bar, trạng thái đậm hơn */
+  --spp-primary-focus-ring: rgba(48, 104, 244, .4);
+  --spp-primary-soft:       #CEDBFC;   /* chữ mờ trên nền primary */
+  --spp-primary-underline:  #D6E1FD;   /* gạch chân tab đang chọn (inset) */
+
+  --spp-secondary:          #8897AA;
+  --spp-success:            #02BC77;
+  --spp-info:               #28C3D7;
+  --spp-warning:            #FF7E08;
+  --spp-danger:             #D9534F;
+  --spp-light:              rgba(24, 28, 33, .06);
+  --spp-dark:               rgba(24, 28, 33, .9);
+
+  /* Bảng màu phụ của Bootstrap (giữ nguyên tên gốc) */
+  --spp-blue:               #1E70CD;
+  --spp-indigo:             #6610F2;
+  --spp-purple:             #6F42C1;
+  --spp-pink:               #E83E8C;
+  --spp-red:                #D9534F;
+  --spp-orange:             #FEB744;
+  --spp-yellow:             #FFD950;
+  --spp-green:              #02BC77;
+  --spp-teal:               #20C997;
+  --spp-cyan:               #28C3D7;
+  --spp-gray:               #A3A4A6;
+  --spp-acw-blue:           #1E70CD;   /* After Call Work */
+
+  /* ---------- Bề mặt & chữ ---------- */
+  --spp-bg-page:            #F7F8FA;
+  --spp-bg-surface:         #FFFFFF;
+  --spp-text:               #4E5155;   /* màu chữ mặc định của body */
+  --spp-text-secondary:     #707070;
+  --spp-text-muted:         #8897AA;
+  --spp-text-disabled:      #A3A4A6;
+  --spp-text-on-primary:    #FFFFFF;
+
+  --spp-border:             rgba(24, 28, 33, .06);
+  --spp-border-strong:      rgba(24, 28, 33, .1);
+  --spp-border-input:       #EAEAEA;
+  --spp-divider:            #DADADA;
+
+  /* ---------- Trạng thái agent (dùng cho quản lý cuộc gọi) ---------- */
+  --spp-status-online:      #02BC77;
+  --spp-status-away:        #FF7E08;
+  --spp-status-offline:     #8897AA;
+  --spp-status-ringing:     #D9534F;
+  --spp-status-oncall:      #3068F4;
+  --spp-status-busy:        #D9534F;
+  --spp-status-acw:         #1E70CD;
+
+  /* ---------- Badge ---------- */
+  --spp-badge-blue-bg:      #F0F4FF;
+  --spp-badge-blue-fg:      #6F9CFF;
+  --spp-badge-yellow-bg:    #FFEDB0;
+  --spp-badge-yellow-fg:    #865203;
+
+  /* ---------- Typography ---------- */
+  --spp-font: "Roboto", -apple-system, BlinkMacSystemFont, "Segoe UI", Oxygen,
+              Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  --spp-font-mono: "SFMono-Regular", Menlo, Monaco, Consolas, "Liberation Mono",
+                   "Courier New", monospace;
+
+  --spp-fs-xs:    .625rem;   /* 10px   — nhãn phụ, chỉ số nhỏ */
+  --spp-fs-sm:    .75rem;    /* 12px   — caption, chú thích bảng */
+  --spp-fs-base:  .894rem;   /* 14.3px — CỠ CHỮ NỀN của toàn app */
+  --spp-fs-md:    1rem;      /* 16px   — tiêu đề card, nav */
+  --spp-fs-lg:    1.5em;     /* ~21px  — tiêu đề mục */
+  --spp-fs-xl:    2em;       /* ~28.6px— số liệu lớn trên widget */
+  --spp-fs-hero:  3rem;      /* 42.9px — con số KPI dashboard */
+
+  --spp-fw-normal:  400;
+  --spp-fw-medium:  500;
+  --spp-fw-bold:    700;
+  --spp-fw-black:   900;     /* dùng cho icon font Awesome solid */
+  --spp-lh-base:    1.47;
+
+  /* ---------- Bo góc ---------- */
+  --spp-radius:      .25rem;  /* 4px — mặc định gần như mọi nơi */
+  --spp-radius-sm:   2px;
+  --spp-radius-lg:   1rem;
+  --spp-radius-pill: 10rem;
+  --spp-radius-circle: 50%;
+
+  /* ---------- Đổ bóng ---------- */
+  --spp-shadow-card:     0 1px 6px rgba(0, 0, 0, .09);
+  --spp-shadow-card-alt: 0 0 0 1px rgba(0, 0, 0, .1), 0 1px 6px rgba(0, 0, 0, .09);
+  --spp-shadow-dropdown: 0 0 6px 0 rgba(0, 0, 0, .16);
+  --spp-shadow-navbar:   0 1px 0 0 rgba(24, 28, 33, .06);
+  /* Focus ring: 0 0 0 2px rgba(<màu brand>, .4) */
+
+  /* ---------- Khoảng cách (thang gap thực tế trong app) ---------- */
+  --spp-gap-0: 0;
+  --spp-gap-1: .25rem;   /* 4px  (một số chỗ dùng .2rem) */
+  --spp-gap-2: .5rem;    /* 8px  */
+  --spp-gap-3: .75rem;   /* 12px */
+  --spp-gap-4: 1rem;     /* 16px */
+
+  /* ---------- Kích thước control ---------- */
+  --spp-switch-w: 2.375rem;
+  --spp-switch-h: 1.375rem;
+  --spp-switch-fs: .625rem;
+
+  /* ---------- Breakpoint ---------- */
+  --spp-bp-sm: 576px;
+  --spp-bp-md: 768px;
+  --spp-bp-lg: 992px;
+  --spp-bp-xl: 1200px;
+}

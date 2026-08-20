@@ -111,3 +111,11 @@
 		$apps[$x]['default_settings'][$y]['default_setting_value'] = "ministral-3:8b";
 		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
 		$apps[$x]['default_settings'][$y]['default_setting_description'] = "The language model name used to generate the call summary.";
+		$y++;
+		$apps[$x]['default_settings'][$y]['default_setting_uuid'] = "2dc0ee4a-e1c4-46de-971d-20f63588ca24";
+		$apps[$x]['default_settings'][$y]['default_setting_category'] = "call_recordings";
+		$apps[$x]['default_settings'][$y]['default_setting_subcategory'] = "summary_min_characters";
+		$apps[$x]['default_settings'][$y]['default_setting_name'] = "numeric";
+		$apps[$x]['default_settings'][$y]['default_setting_value'] = "40";
+		$apps[$x]['default_settings'][$y]['default_setting_enabled'] = "false";
+		$apps[$x]['default_settings'][$y]['default_setting_description'] = "Minimum transcript length required before generating a summary.";

@@ -1,0 +1,8 @@
+/* Custom CSS for the Mantis theme.
+
+   The theme setting theme/custom_css points here, and this file is loaded after
+   every other stylesheet, so anything written here wins.
+
+   Prefer changing themes/mantis/palette.php for colour and type, and
+   themes/mantis/css/tokens.css for the design tokens. Use this file only for
+   site specific tweaks that do not belong in the theme itself. */

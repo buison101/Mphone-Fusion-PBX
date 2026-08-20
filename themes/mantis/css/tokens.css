@@ -1,0 +1,100 @@
+/* Mantis design tokens.
+   Values resolved by running the Mantis theme code itself (@ant-design/colors
+   preset through src/themes/theme/index.js), not sampled by eye, so the admin
+   pages and the React portal at /p/ render the same colours.
+
+   Everything below this file styles against these variables. To rebrand, change
+   the values here and nothing else. */
+
+:root {
+	/* Primary - @ant-design blue */
+	--mt-primary-lighter: #e6f4ff;
+	--mt-primary-100: #bae0ff;
+	--mt-primary-200: #91caff;
+	--mt-primary-light: #69b1ff;
+	--mt-primary-400: #4096ff;
+	--mt-primary-main: #1677ff;
+	--mt-primary-dark: #0958d9;
+	--mt-primary-700: #003eb3;
+	--mt-primary-darker: #002c8c;
+	--mt-primary-contrast: #ffffff;
+
+	/* Neutral scale */
+	--mt-grey-0: #ffffff;
+	--mt-grey-50: #fafafa;
+	--mt-grey-100: #f5f5f5;
+	--mt-grey-200: #f0f0f0;
+	--mt-grey-300: #d9d9d9;
+	--mt-grey-400: #bfbfbf;
+	--mt-grey-500: #8c8c8c;
+	--mt-grey-600: #595959;
+	--mt-grey-700: #262626;
+	--mt-grey-800: #141414;
+	--mt-grey-900: #000000;
+	--mt-grey-a50: #fafafb;
+	--mt-grey-a200: #bfbfbf;
+	--mt-grey-a400: #434343;
+	--mt-grey-a700: #1f1f1f;
+	--mt-grey-a800: #e6ebf1;
+
+	/* Status */
+	--mt-error-lighter: #fff1f0;
+	--mt-error-light: #ffa39e;
+	--mt-error-main: #ff4d4f;
+	--mt-error-dark: #a8071a;
+	--mt-warning-lighter: #fffbe6;
+	--mt-warning-light: #ffd666;
+	--mt-warning-main: #faad14;
+	--mt-warning-dark: #ad6800;
+	--mt-info-lighter: #e6fffb;
+	--mt-info-light: #5cdbd3;
+	--mt-info-main: #13c2c2;
+	--mt-info-dark: #006d75;
+	--mt-success-lighter: #f6ffed;
+	--mt-success-light: #95de64;
+	--mt-success-main: #52c41a;
+	--mt-success-dark: #237804;
+
+	/* Semantic aliases - what the rules below actually reference */
+	--mt-text-primary: var(--mt-grey-700);
+	--mt-text-secondary: var(--mt-grey-500);
+	--mt-text-disabled: var(--mt-grey-400);
+	--mt-text-inverse: #ffffff;
+
+	--mt-bg-canvas: var(--mt-grey-a50);
+	--mt-bg-paper: var(--mt-grey-0);
+	--mt-bg-subtle: var(--mt-grey-100);
+	--mt-bg-hover: var(--mt-grey-50);
+
+	--mt-border-card: var(--mt-grey-a800);
+	--mt-divider: var(--mt-grey-200);
+	--mt-border-input: var(--mt-grey-300);
+
+	/* Sidebar - Mantis keeps the drawer light, not the dark bar FusionPBX ships */
+	--mt-drawer-bg: var(--mt-grey-0);
+	--mt-drawer-border: var(--mt-grey-a800);
+	--mt-drawer-item: var(--mt-grey-600);
+	--mt-drawer-item-hover-bg: var(--mt-primary-lighter);
+	--mt-drawer-item-active-bg: var(--mt-primary-lighter);
+	--mt-drawer-item-active: var(--mt-primary-main);
+
+	/* Elevation - customShadows.z1 from the template */
+	--mt-shadow-z1: 0 1px 4px rgba(0, 0, 0, 0.08);
+	--mt-shadow-popup: 0 2px 8px rgba(0, 0, 0, 0.10);
+
+	/* Shape and metrics */
+	--mt-radius: 8px;
+	--mt-radius-sm: 4px;
+	--mt-drawer-width: 260px;
+	--mt-drawer-width-mini: 60px;
+	--mt-toolbar-height: 60px;
+
+	/* Type scale, mirrors themes/typography.js */
+	--mt-font: 'Public Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Arial, sans-serif;
+	--mt-font-size-body: 0.875rem;
+	--mt-font-size-small: 0.75rem;
+	--mt-line-height-body: 1.57;
+	--mt-weight-regular: 400;
+	--mt-weight-medium: 500;
+	--mt-weight-semibold: 600;
+}

@@ -1,0 +1,178 @@
+/* =============================================================================
+   Mantis Design System — token đã resolve sẵn giá trị
+   Nguồn: mantis-free-react-admin-template v2.2.0 (MIT, CodedThemes)
+   Bảng màu gốc: @ant-design/colors v8 — presetPalettes / presetDarkPalettes
+   Scheme dark đối chiếu và khớp với demo Pro tại mantisdashboard.com
+   ============================================================================= */
+
+:root,
+[data-color-scheme="light"] {
+  --mantis-primary-100: #bae0ff;
+  --mantis-primary-200: #91caff;
+  --mantis-primary-400: #4096ff;
+  --mantis-primary-700: #003eb3;
+  --mantis-primary-900: #001d66;
+  --mantis-primary-lighter: #e6f4ff;
+  --mantis-primary-light: #69b1ff;
+  --mantis-primary-main: #1677ff;
+  --mantis-primary-dark: #0958d9;
+  --mantis-primary-darker: #002c8c;
+  --mantis-primary-contrastText: #fff;
+  --mantis-secondary-lighter: #f5f5f5;
+  --mantis-secondary-light: #d9d9d9;
+  --mantis-secondary-main: #8c8c8c;
+  --mantis-secondary-dark: #262626;
+  --mantis-secondary-darker: #000000;
+  --mantis-secondary-contrastText: #ffffff;
+  --mantis-error-lighter: #fff1f0;
+  --mantis-error-light: #ffa39e;
+  --mantis-error-main: #ff4d4f;
+  --mantis-error-dark: #a8071a;
+  --mantis-error-darker: #5c0011;
+  --mantis-error-contrastText: #fff;
+  --mantis-warning-lighter: #fffbe6;
+  --mantis-warning-light: #ffd666;
+  --mantis-warning-main: #faad14;
+  --mantis-warning-dark: #ad6800;
+  --mantis-warning-darker: #613400;
+  --mantis-warning-contrastText: #f5f5f5;
+  --mantis-info-lighter: #e6fffb;
+  --mantis-info-light: #5cdbd3;
+  --mantis-info-main: #13c2c2;
+  --mantis-info-dark: #006d75;
+  --mantis-info-darker: #002329;
+  --mantis-info-contrastText: #fff;
+  --mantis-success-lighter: #f6ffed;
+  --mantis-success-light: #95de64;
+  --mantis-success-main: #52c41a;
+  --mantis-success-dark: #237804;
+  --mantis-success-darker: #092b00;
+  --mantis-success-contrastText: #fff;
+  --mantis-grey-0: #ffffff;
+  --mantis-grey-50: #fafafa;
+  --mantis-grey-100: #f5f5f5;
+  --mantis-grey-200: #f0f0f0;
+  --mantis-grey-300: #d9d9d9;
+  --mantis-grey-400: #bfbfbf;
+  --mantis-grey-500: #8c8c8c;
+  --mantis-grey-600: #595959;
+  --mantis-grey-700: #262626;
+  --mantis-grey-800: #141414;
+  --mantis-grey-900: #000000;
+  --mantis-grey-A50: #fafafb;
+  --mantis-grey-A100: #fafafa;
+  --mantis-grey-A200: #bfbfbf;
+  --mantis-grey-A400: #434343;
+  --mantis-grey-A700: #1f1f1f;
+  --mantis-grey-A800: #e6ebf1;
+  --mantis-text-primary: #262626;
+  --mantis-text-secondary: #8c8c8c;
+  --mantis-text-disabled: #bfbfbf;
+  --mantis-divider: #f0f0f0;
+  --mantis-bg-paper: #ffffff;
+  --mantis-bg-default: #fafafb;
+
+  /* ---- Typography ---- */
+  --mantis-font: 'Public Sans', sans-serif;
+  --mantis-font-alt-1: 'Inter', sans-serif;
+  --mantis-font-alt-2: 'Poppins', sans-serif;
+  --mantis-font-alt-3: 'Roboto', sans-serif;
+  --mantis-html-font-size: 16px;
+
+  --mantis-h1-size: 2.375rem;  --mantis-h1-lh: 1.21;  --mantis-h1-fw: 600;
+  --mantis-h2-size: 1.875rem;  --mantis-h2-lh: 1.27;  --mantis-h2-fw: 600;
+  --mantis-h3-size: 1.5rem;    --mantis-h3-lh: 1.33;  --mantis-h3-fw: 600;
+  --mantis-h4-size: 1.25rem;   --mantis-h4-lh: 1.40;  --mantis-h4-fw: 600;
+  --mantis-h5-size: 1rem;      --mantis-h5-lh: 1.50;  --mantis-h5-fw: 600;
+  --mantis-h6-size: 0.875rem;  --mantis-h6-lh: 1.57;  --mantis-h6-fw: 400;
+  --mantis-body1-size: 0.875rem; --mantis-body1-lh: 1.57;
+  --mantis-body2-size: 0.75rem;  --mantis-body2-lh: 1.66;
+  --mantis-subtitle1-size: 0.875rem; --mantis-subtitle1-fw: 600;
+  --mantis-subtitle2-size: 0.75rem;  --mantis-subtitle2-fw: 500;
+  --mantis-caption-size: 0.75rem;    --mantis-caption-lh: 1.66;
+  --mantis-fw-light: 300; --mantis-fw-regular: 400; --mantis-fw-medium: 500; --mantis-fw-bold: 600;
+
+  /* ---- Layout ---- */
+  --mantis-drawer-width: 260px;
+  --mantis-mini-drawer-width: 60px;
+  --mantis-toolbar-min-height: 60px;
+  --mantis-toolbar-pt: 8px;
+  --mantis-toolbar-pb: 8px;
+
+  /* ---- Breakpoint (KHÁC mặc định MUI) ---- */
+  --mantis-bp-xs: 0px;  --mantis-bp-sm: 768px; --mantis-bp-md: 1024px;
+  --mantis-bp-lg: 1266px; --mantis-bp-xl: 1440px;
+
+  /* ---- Shadow ---- */
+  --mantis-shadow-z1: 0px 1px 4px rgb(0 0 0 / 8%);
+  --mantis-shadow-button: 0 2px #0000000b;
+  --mantis-shadow-text: 0 -1px 0 rgb(0 0 0 / 12%);
+  /* focus ring: 0 0 0 2px <màu>/20%  ·  button shadow: 0 14px 12px <màu>/20% */
+}
+
+[data-color-scheme="dark"] {
+  --mantis-primary-100: #112545;
+  --mantis-primary-200: #15325b;
+  --mantis-primary-400: #1554ad;
+  --mantis-primary-700: #65a9f3;
+  --mantis-primary-900: #b7dcfa;
+  --mantis-primary-lighter: #111a2c;
+  --mantis-primary-light: #15417e;
+  --mantis-primary-main: #1668dc;
+  --mantis-primary-dark: #3c89e8;
+  --mantis-primary-darker: #8dc5f8;
+  --mantis-primary-contrastText: #fff;
+  --mantis-secondary-lighter: #1f1f1f;
+  --mantis-secondary-light: #434343;
+  --mantis-secondary-main: #8c8c8c;
+  --mantis-secondary-dark: #d9d9d9;
+  --mantis-secondary-darker: #ffffff;
+  --mantis-secondary-contrastText: #000000;
+  --mantis-error-lighter: #2a1215;
+  --mantis-error-light: #58181c;
+  --mantis-error-main: #a61d24;
+  --mantis-error-dark: #f37370;
+  --mantis-error-darker: #fac8c3;
+  --mantis-error-contrastText: #fff;
+  --mantis-warning-lighter: #2b2111;
+  --mantis-warning-light: #7c5914;
+  --mantis-warning-main: #d89614;
+  --mantis-warning-dark: #f3cc62;
+  --mantis-warning-darker: #faedb5;
+  --mantis-warning-contrastText: #1f1f1f;
+  --mantis-info-lighter: #112123;
+  --mantis-info-light: #146262;
+  --mantis-info-main: #13a8a8;
+  --mantis-info-dark: #58d1c9;
+  --mantis-info-darker: #b2f1e8;
+  --mantis-info-contrastText: #fff;
+  --mantis-success-lighter: #162312;
+  --mantis-success-light: #306317;
+  --mantis-success-main: #49aa19;
+  --mantis-success-dark: #8fd460;
+  --mantis-success-darker: #d5f2bb;
+  --mantis-success-contrastText: #fff;
+  --mantis-grey-0: #000000;
+  --mantis-grey-50: #141414;
+  --mantis-grey-100: #1f1f1f;
+  --mantis-grey-200: #262626;
+  --mantis-grey-300: #434343;
+  --mantis-grey-400: #595959;
+  --mantis-grey-500: #8c8c8c;
+  --mantis-grey-600: #bfbfbf;
+  --mantis-grey-700: #d9d9d9;
+  --mantis-grey-800: #f0f0f0;
+  --mantis-grey-900: #ffffff;
+  --mantis-grey-A50: #121212;
+  --mantis-grey-A100: #141414;
+  --mantis-grey-A200: #434343;
+  --mantis-grey-A400: #bfbfbf;
+  --mantis-grey-A700: #fafafa;
+  --mantis-grey-A800: #1e1e1e;
+  --mantis-text-primary: rgba(255,255,255,.87);
+  --mantis-text-secondary: #595959;
+  --mantis-text-disabled: rgba(255,255,255,.45);
+  --mantis-divider: rgba(255,255,255,.05);
+  --mantis-bg-paper: #1e1e1e;
+  --mantis-bg-default: #121212;
+}
