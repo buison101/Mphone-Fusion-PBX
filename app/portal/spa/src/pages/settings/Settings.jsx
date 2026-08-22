@@ -143,7 +143,7 @@ export default function Settings() {
   const { data, error, isLoading, refresh } = useAnalytics(SETTINGS_URL);
   return (
     <Stack sx={{ gap: 2.5 }}>
-      <Typography variant="h5">
+      <Typography variant="h2">
         <FormattedMessage id="settings.title" />
       </Typography>
       {isLoading && !data ? (

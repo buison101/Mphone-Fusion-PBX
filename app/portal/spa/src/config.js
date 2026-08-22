@@ -10,6 +10,8 @@ export const BASE_PATH = import.meta.env.VITE_APP_BASE_NAME || '/p';
 
 // server rendered endpoints the portal talks to
 export const SESSION_URL = '/app/portal/service/session.php';
+export const IDENTITY_URL = '/app/portal/service/identity.php';
+export const ACCOUNT_URL = '/app/portal/service/account.php';
 export const DASHBOARD_URL = '/app/portal/service/dashboard.php';
 export const CALLS_URL = '/app/portal/service/calls.php';
 export const RECORDING_URL = '/app/portal/service/recording.php';

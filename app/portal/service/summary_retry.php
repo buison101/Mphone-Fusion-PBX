@@ -23,7 +23,7 @@
 
 	$parameters = ['xml_cdr_uuid' => $xml_cdr_uuid, 'domain_uuid' => $domain_uuid];
 	$scope_sql = '';
-	if (!permission_exists('xml_cdr_domain')) {
+	if (!portal_identity_has_domain_scope()) {
 		$extension_uuids = portal_assigned_extension_uuids();
 		if (empty($extension_uuids)) {
 			http_response_code(404);

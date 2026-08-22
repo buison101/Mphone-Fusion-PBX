@@ -41,9 +41,9 @@ export default function Recordings() {
   const rows = data?.rows ?? [];
 
   return (
-    <Grid container spacing={2.75}>
+    <Grid container spacing={2.5}>
       <Grid size={12}>
-        <Typography variant="h5">
+        <Typography variant="h2">
           <FormattedMessage id="recordings.title" />
         </Typography>
       </Grid>

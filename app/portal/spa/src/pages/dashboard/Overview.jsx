@@ -89,10 +89,10 @@ export default function Overview() {
     }));
 
   return (
-    <Grid container rowSpacing={4.5} columnSpacing={2.75}>
-      <Grid sx={{ mb: -2.25 }} size={12}>
+    <Grid container spacing={2.5}>
+      <Grid size={12}>
         <Stack direction="row" sx={{ alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 1.5 }}>
-          <Typography variant="h5">
+          <Typography variant="h2">
             <FormattedMessage id="overview.title" />
           </Typography>
           <Stack direction="row" sx={{ flexWrap: 'wrap', gap: 1 }}>
@@ -173,10 +173,7 @@ export default function Overview() {
       </Grid>
 
       <Grid size={{ xs: 12, lg: 8 }}>
-        <Typography variant="h5" sx={{ mb: 2 }}>
-          <FormattedMessage id="overview.volume" />
-        </Typography>
-        <MainCard content={false} sx={{ p: 1 }}>
+        <MainCard title={intl.formatMessage({ id: 'overview.volume' })} contentSX={{ p: 1 }}>
           {unavailable ? (
             <Box sx={{ height: 320, display: 'flex', alignItems: 'center', justifyContent: 'center', px: 3 }}>
               <Typography variant="body2" sx={{ color: 'text.secondary', textAlign: 'center' }}>
@@ -190,10 +187,7 @@ export default function Overview() {
       </Grid>
 
       <Grid size={{ xs: 12, lg: 4 }}>
-        <Typography variant="h5" sx={{ mb: 2 }}>
-          <FormattedMessage id="overview.duration" />
-        </Typography>
-        <MainCard>
+        <MainCard title={intl.formatMessage({ id: 'overview.duration' })}>
           <Stack sx={{ gap: 2.5 }}>
             <Stack sx={{ gap: 0.5 }}>
               <Typography variant="h6" sx={{ color: 'text.secondary' }}>
@@ -229,10 +223,7 @@ export default function Overview() {
       </Grid>
 
       <Grid size={{ xs: 12, lg: 4 }}>
-        <Typography variant="h5" sx={{ mb: 2 }}>
-          <FormattedMessage id="overview.statusDistribution" />
-        </Typography>
-        <MainCard>
+        <MainCard title={intl.formatMessage({ id: 'overview.statusDistribution' })}>
           {statusSeries.length > 0 ? (
             <PieChart
               height={250}
@@ -248,10 +239,7 @@ export default function Overview() {
       </Grid>
 
       <Grid size={12}>
-        <Typography variant="h5" sx={{ mb: 2 }}>
-          <FormattedMessage id="overview.recent" />
-        </Typography>
-        <MainCard content={false}>
+        <MainCard title={intl.formatMessage({ id: 'overview.recent' })} content={false}>
           <TableContainer sx={{ overflowX: 'auto' }}>
             <Table size="small">
               <TableHead>

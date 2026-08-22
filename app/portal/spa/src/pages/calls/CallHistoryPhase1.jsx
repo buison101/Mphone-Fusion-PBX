@@ -126,10 +126,10 @@ export default function CallHistoryPhase1() {
   }
 
   return (
-    <Grid container spacing={2.75}>
+    <Grid container spacing={2.5}>
       <Grid size={12}>
-        <Stack direction="row" sx={{ alignItems: 'center', justifyContent: 'space-between', gap: 1, flexWrap: 'wrap' }}>
-          <Typography variant="h5">
+        <Stack direction="row" sx={{ alignItems: 'center', justifyContent: 'space-between', gap: 1.5, flexWrap: 'wrap' }}>
+          <Typography variant="h2">
             <FormattedMessage id="history.title" />
           </Typography>
           <Stack direction="row" sx={{ alignItems: 'center', gap: 1.5 }}>

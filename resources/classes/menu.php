@@ -1409,6 +1409,12 @@ class menu {
 		$html .= "			</ul>\n";
 
 		$html .= "			<ul class='navbar-nav ml-auto'>\n";
+		//customer portal, the React application served at /p/ - see app/portal
+		if (permission_exists('portal_view')) {
+			$html .= "		<li class='nav-item'>\n";
+			$html .= "			<a class='nav-link' href='" . PROJECT_PATH . "/p/dashboard' title='Portal'><i class='fa-solid fa-table-columns fa-fw'></i><span class='d-none d-md-inline' style='margin-left: 7px;'>Portal</span></a>\n";
+			$html .= "		</li>\n";
+		}
 		if (permission_exists('browser_phone_view')) {
 			$html .= "		<li class='nav-item'>\n";
 			$html .= "			<a class='nav-link' href='" . PROJECT_PATH . "/app/webphone/' title='Webphone'><i class='fa-solid fa-phone fa-fw'></i><span class='d-none d-md-inline' style='margin-left: 7px;'>Webphone</span></a>\n";
@@ -1669,6 +1675,12 @@ class menu {
 		$html .= "</div>\n";
 		//header: right
 		$html .= "<div class='float-right' style='white-space: nowrap;'>";
+		//customer portal, the React application served at /p/ - see app/portal
+		if (permission_exists('portal_view')) {
+			$html .= "<span style='display: inline-flex; align-items: center; height: 32px; vertical-align: top; padding-right: 20px; font-size: 90%;'>\n";
+			$html .= "	<a class='header_portal' href='" . PROJECT_PATH . "/p/dashboard' title='Portal' style='display: inline-flex; align-items: center; line-height: 1;'><i class='fa-solid fa-table-columns fa-fw' style='margin-right: 5px;'></i><span class='d-none d-sm-inline'>Portal</span></a>";
+			$html .= "</span>\n";
+		}
 		if (permission_exists('browser_phone_view')) {
 			$html .= "<span style='display: inline-flex; align-items: center; height: 32px; vertical-align: top; padding-right: 20px; font-size: 90%;'>\n";
 			$html .= "	<a href='" . PROJECT_PATH . "/app/webphone/' title='Webphone' style='display: inline-flex; align-items: center; line-height: 1;'><i class='fa-solid fa-phone fa-fw' style='margin-right: 5px;'></i><span class='d-none d-sm-inline'>Webphone</span></a>";

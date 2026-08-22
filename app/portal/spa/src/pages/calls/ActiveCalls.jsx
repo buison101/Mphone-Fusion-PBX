@@ -135,13 +135,12 @@ export default function ActiveCalls() {
   const waiting = status !== 'subscribed' && calls.length === 0;
 
   return (
-    <Grid container rowSpacing={4.5} columnSpacing={2.75}>
-      <Grid sx={{ mb: -2.25 }} size={12}>
-        <Typography variant="h5">
+    <Grid container spacing={2.5}>
+      <Grid size={12}>
+        <Typography variant="h2">
           <FormattedMessage id="calls.title" />
         </Typography>
       </Grid>
-
       <Grid size={{ xs: 12, sm: 4 }}>
         <StatCard title={intl.formatMessage({ id: 'calls.total' })} count={calls.length} />
       </Grid>

@@ -15,8 +15,18 @@
 	$page_size = (int) ($_GET['page_size'] ?? 20);
 	if (!in_array($page_size, [20, 50, 100], true)) { $page_size = 20; }
 	$parameters = $context['parameters'];
-	$callback_scope = permission_exists('xml_cdr_domain') ? '' : 'and o.extension_uuid in (select extension_uuid from v_extension_users where user_uuid = :portal_user_uuid) ';
-	if (!permission_exists('xml_cdr_domain')) { $parameters['portal_user_uuid'] = $_SESSION['user_uuid']; }
+	$callback_scope = '';
+	if (!portal_identity_has_domain_scope()) {
+		$callback_placeholders = [];
+		foreach (portal_assigned_extension_uuids() as $index => $extension_uuid) {
+			$key = 'callback_extension_' . $index;
+			$callback_placeholders[] = ':' . $key;
+			$parameters[$key] = $extension_uuid;
+		}
+		$callback_scope = empty($callback_placeholders)
+			? 'and 1 = 0 '
+			: 'and o.extension_uuid in (' . implode(', ', $callback_placeholders) . ') ';
+	}
 	$status_sql = portal_call_status_sql('c');
 	$normalized_caller = "regexp_replace(coalesce(c.caller_id_number,''), '[^0-9]+', '', 'g')";
 	$normalized_outbound = "regexp_replace(coalesce(o.destination_number,''), '[^0-9]+', '', 'g')";

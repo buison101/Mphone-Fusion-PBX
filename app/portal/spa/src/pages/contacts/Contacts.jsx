@@ -35,7 +35,7 @@ export default function Contacts() {
 
   return (
     <Stack sx={{ gap: 2.5 }}>
-      <Typography variant="h5">
+      <Typography variant="h2">
         <FormattedMessage id="contacts.title" />
       </Typography>
       <MainCard>

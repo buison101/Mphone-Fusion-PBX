@@ -8,6 +8,7 @@
 	header('Cache-Control: no-store');
 	header('X-Content-Type-Options: nosniff');
 	if (($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'GET') { http_response_code(405); echo json_encode(['error' => 'method_not_allowed']); exit; }
+	portal_identity_validate_session();
 	if (empty($_SESSION['authorized']) || empty($_SESSION['user_uuid'])) { http_response_code(401); echo json_encode(['error' => 'unauthorized']); exit; }
 	if (!permission_exists('portal_view') || !permission_exists('xml_cdr_view')) { http_response_code(403); echo json_encode(['error' => 'forbidden']); exit; }
 

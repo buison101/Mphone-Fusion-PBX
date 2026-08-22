@@ -1,4 +1,5 @@
 <?php
+	require_once __DIR__ . '/identity_session.php';
 
 /* Shared, read-only CDR scope and bounded reporting period for Portal reports. */
 
@@ -23,7 +24,7 @@
 			'to_stamp' => date('Y-m-d', strtotime($to . ' +1 day')) . ' 00:00:00',
 		];
 
-		if (!permission_exists('xml_cdr_domain')) {
+		if (!portal_identity_has_domain_scope()) {
 			$scope = 'extensions';
 			$extension_uuids = [];
 			foreach (($_SESSION['user']['extension'] ?? []) as $row) {

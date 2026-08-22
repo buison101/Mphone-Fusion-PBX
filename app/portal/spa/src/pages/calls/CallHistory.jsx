@@ -81,12 +81,9 @@ export default function CallHistory() {
   }
 
   return (
-    <Grid container rowSpacing={3} columnSpacing={2.75}>
+    <Grid container spacing={2.5}>
       <Grid size={12}>
-        <Stack direction="row" sx={{ alignItems: 'center', justifyContent: 'space-between', flexWrap: 'wrap', gap: 1.5 }}>
-          <Typography variant="h5">
-            <FormattedMessage id="history.title" />
-          </Typography>
+        <Stack direction="row" sx={{ alignItems: 'center', justifyContent: 'flex-end', flexWrap: 'wrap', gap: 1.5 }}>
           <Typography variant="body2" sx={{ color: 'text.secondary' }}>
             <FormattedMessage id="history.results" values={{ total }} />
           </Typography>

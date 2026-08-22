@@ -6,9 +6,19 @@ import AudioOutlined from '@ant-design/icons/AudioOutlined';
 import BarChartOutlined from '@ant-design/icons/BarChartOutlined';
 import ContactsOutlined from '@ant-design/icons/ContactsOutlined';
 import SettingOutlined from '@ant-design/icons/SettingOutlined';
+import UserOutlined from '@ant-design/icons/UserOutlined';
 
 // icons
-const icons = { DashboardOutlined, PhoneOutlined, HistoryOutlined, AudioOutlined, BarChartOutlined, ContactsOutlined, SettingOutlined };
+const icons = {
+  DashboardOutlined,
+  PhoneOutlined,
+  HistoryOutlined,
+  AudioOutlined,
+  BarChartOutlined,
+  ContactsOutlined,
+  SettingOutlined,
+  UserOutlined
+};
 
 // ==============================|| MENU ITEMS - NAVIGATION ||============================== //
 
@@ -31,7 +41,7 @@ const navigation = {
       type: 'item',
       url: '/calls/active',
       icon: icons.PhoneOutlined,
-      breadcrumbs: false
+      breadcrumbs: true
     },
     {
       id: 'call-history',
@@ -47,7 +57,7 @@ const navigation = {
       type: 'item',
       url: '/recordings',
       icon: icons.AudioOutlined,
-      breadcrumbs: false
+      breadcrumbs: true
     },
     {
       id: 'reports',
@@ -55,7 +65,7 @@ const navigation = {
       type: 'item',
       url: '/reports',
       icon: icons.BarChartOutlined,
-      breadcrumbs: false
+      breadcrumbs: true
     },
     {
       id: 'missed-calls',
@@ -63,7 +73,7 @@ const navigation = {
       type: 'item',
       url: '/missed-calls',
       icon: icons.PhoneOutlined,
-      breadcrumbs: false
+      breadcrumbs: true
     },
     {
       id: 'contacts',
@@ -71,7 +81,7 @@ const navigation = {
       type: 'item',
       url: '/contacts',
       icon: icons.ContactsOutlined,
-      breadcrumbs: false
+      breadcrumbs: true
     },
     {
       id: 'settings',
@@ -79,7 +89,15 @@ const navigation = {
       type: 'item',
       url: '/settings',
       icon: icons.SettingOutlined,
-      breadcrumbs: false
+      breadcrumbs: true
+    },
+    {
+      id: 'account',
+      title: 'nav.account',
+      type: 'item',
+      url: '/account',
+      icon: icons.UserOutlined,
+      breadcrumbs: true
     }
   ]
 };

@@ -32,7 +32,7 @@
 		phase2_check(strpos($source, 'portal_report_context') !== false, $file . ' uses shared report scope');
 	}
 	$scope_source = file_get_contents(dirname(__DIR__) . '/report_scope.php');
-	foreach (['domain_uuid', 'xml_cdr_domain', 'extension_uuid', '366'] as $needle) {
+	foreach (['domain_uuid', 'portal_identity_has_domain_scope', 'extension_uuid', '366'] as $needle) {
 		phase2_check(strpos($scope_source, $needle) !== false, 'report scope includes ' . $needle);
 	}
 

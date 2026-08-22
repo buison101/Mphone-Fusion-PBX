@@ -15,6 +15,7 @@ import Stack from '@mui/material/Stack';
 import Tooltip from '@mui/material/Tooltip';
 import Typography from '@mui/material/Typography';
 import Box from '@mui/material/Box';
+import { Link } from 'react-router-dom';
 
 // third-party
 import { FormattedMessage } from 'react-intl';
@@ -24,11 +25,12 @@ import Avatar from 'components/@extended/Avatar';
 import MainCard from 'components/MainCard';
 import Transitions from 'components/@extended/Transitions';
 import useSession from 'hooks/useSession';
-import { ADMIN_URL, LOGOUT_URL } from 'config';
+import { ADMIN_URL } from 'config';
 
 // assets
 import LogoutOutlined from '@ant-design/icons/LogoutOutlined';
 import SettingOutlined from '@ant-design/icons/SettingOutlined';
+import UserOutlined from '@ant-design/icons/UserOutlined';
 
 // ==============================|| HEADER CONTENT - PROFILE ||============================== //
 //
@@ -36,7 +38,7 @@ import SettingOutlined from '@ant-design/icons/SettingOutlined';
 // logout so both the portal and the admin pages end the session together.
 
 export default function Profile() {
-  const { session } = useSession();
+  const { session, logout } = useSession();
   const anchorRef = useRef(null);
   const [open, setOpen] = useState(false);
 
@@ -108,13 +110,23 @@ export default function Profile() {
                   </CardContent>
                   <Divider />
                   <List sx={{ p: 0, '& .MuiListItemButton-root': { py: 1.25, px: 2.5 } }}>
-                    <ListItemButton component="a" href={ADMIN_URL}>
-                      <ListItemIcon>
-                        <SettingOutlined />
-                      </ListItemIcon>
-                      <ListItemText primary={<FormattedMessage id="profile.admin" />} />
-                    </ListItemButton>
-                    <ListItemButton component="a" href={LOGOUT_URL}>
+                    {session?.identity && (
+                      <ListItemButton component={Link} to="/account" onClick={() => setOpen(false)}>
+                        <ListItemIcon>
+                          <UserOutlined />
+                        </ListItemIcon>
+                        <ListItemText primary={<FormattedMessage id="profile.account" />} />
+                      </ListItemButton>
+                    )}
+                    {!session?.identity && (
+                      <ListItemButton component="a" href={ADMIN_URL}>
+                        <ListItemIcon>
+                          <SettingOutlined />
+                        </ListItemIcon>
+                        <ListItemText primary={<FormattedMessage id="profile.admin" />} />
+                      </ListItemButton>
+                    )}
+                    <ListItemButton onClick={logout}>
                       <ListItemIcon>
                         <LogoutOutlined />
                       </ListItemIcon>

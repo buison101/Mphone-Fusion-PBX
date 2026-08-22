@@ -22,6 +22,7 @@
 
 //includes files
 	require_once dirname(__DIR__, 3) . "/resources/require.php";
+	require_once dirname(__DIR__) . "/resources/identity_session.php";
 
 //json only, never cached, never framed
 	header('Content-Type: application/json; charset=utf-8');
@@ -36,9 +37,10 @@
 	}
 
 //the browser follows redirects, so answer with a status the application can act on
+	portal_identity_validate_session();
 	if (empty($_SESSION['authorized']) || empty($_SESSION['user_uuid'])) {
 		http_response_code(401);
-		echo json_encode(['error' => 'unauthorized', 'login_url' => PROJECT_PATH . '/']);
+		echo json_encode(['error' => 'unauthorized', 'login_csrf' => portal_identity_login_csrf()]);
 		exit;
 	}
 
@@ -92,6 +94,9 @@
 		}
 	}
 	unset($permission_name);
+	if (portal_identity_is_active()) {
+		unset($permissions['call_active_all'], $permissions['call_active_domain'], $permissions['xml_cdr_domain'], $permissions['contact_domain_view'], $permissions['portal_call_tag_edit']);
+	}
 
 //the extensions assigned to this user determine the call scope when the user
 //has neither call_active_all nor call_active_domain
@@ -129,11 +134,35 @@
 	subscriber::save_token($token, ['active.calls'], $token_time_limit);
 	$_SESSION['portal']['ws_token_name'] = $token['name'];
 
+//branding, resolved the same way the PHP pages resolve it so the portal and the
+//administration interface always carry the same mark. Reading it here rather than
+//hardcoding a path means switching the template moves the portal with it.
+//
+//footer.php falls back to the default template for the favicon rather than the
+//active one, so the same fallback is repeated here on purpose: a portal showing a
+//different icon than the rest of the product would be the bug, not the fix.
+	$branding = [
+		'favicon' => $settings->get('theme', 'favicon') ?: PROJECT_PATH . '/themes/default/favicon.ico',
+		'logo' => $settings->get('theme', 'menu_side_brand_image_expanded')
+			?: $settings->get('theme', 'logo_login')
+			?: $settings->get('theme', 'logo')
+			?: null,
+		'logo_icon' => $settings->get('theme', 'menu_side_brand_image_contracted') ?: null,
+		'brand_text' => $settings->get('theme', 'menu_brand_text') ?: 'Mphone',
+		'brand_type' => $settings->get('theme', 'menu_brand_type') ?: 'image',
+	];
+
 //the websocket router is only proxied on the tls listener
 	$host = $_SERVER['HTTP_HOST'] ?? ($_SERVER['SERVER_NAME'] ?? 'localhost');
 	$_SESSION['portal']['csrf'] = bin2hex(random_bytes(32));
 
 	echo json_encode([
+		'identity' => portal_identity_is_active() ? [
+			'identity_uuid' => $_SESSION['portal_identity']['identity_uuid'],
+			'primary_email' => $_SESSION['portal_identity']['primary_email'] ?? '',
+		] : null,
+		'customer' => portal_identity_is_active() ? ($_SESSION['portal_identity']['customer'] ?? []) : null,
+		'membership' => portal_identity_is_active() ? ($_SESSION['portal_identity']['membership'] ?? []) : null,
 		'user' => [
 			'user_uuid' => $_SESSION['user_uuid'],
 			'username' => $_SESSION['username'] ?? '',
@@ -144,6 +173,7 @@
 			'domain_name' => $_SESSION['domain_name'] ?? '',
 		],
 		'permissions' => $permissions,
+		'branding' => $branding,
 		'csrf' => $_SESSION['portal']['csrf'],
 		'websocket' => [
 			'url' => 'wss://' . $host . '/websockets/',

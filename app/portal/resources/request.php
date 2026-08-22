@@ -1,4 +1,5 @@
 <?php
+	require_once __DIR__ . '/identity_session.php';
 
 	function portal_json_headers(): void {
 		header('Content-Type: application/json; charset=utf-8');
@@ -7,6 +8,7 @@
 	}
 
 	function portal_require_session(array $permissions = []): void {
+		portal_identity_validate_session();
 		if (empty($_SESSION['authorized']) || empty($_SESSION['user_uuid'])) { http_response_code(401); echo json_encode(['error' => 'unauthorized']); exit; }
 		if (!permission_exists('portal_view')) { http_response_code(403); echo json_encode(['error' => 'forbidden']); exit; }
 		foreach ($permissions as $permission) {

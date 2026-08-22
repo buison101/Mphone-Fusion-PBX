@@ -48,7 +48,7 @@ export default function MissedCalls() {
 
   return (
     <Stack sx={{ gap: 2.5 }}>
-      <Typography variant="h5">
+      <Typography variant="h2">
         <FormattedMessage id="missed.title" />
       </Typography>
       <Grid container spacing={2}>

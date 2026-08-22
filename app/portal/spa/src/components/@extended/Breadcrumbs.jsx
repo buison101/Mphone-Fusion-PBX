@@ -1,6 +1,7 @@
 import PropTypes from 'prop-types';
 import { useEffect, useState } from 'react';
 import { Link, useLocation } from 'react-router-dom';
+import { useIntl } from 'react-intl';
 
 // material-ui
 import { useTheme } from '@mui/material/styles';
@@ -35,7 +36,10 @@ export default function Breadcrumbs({
   ...others
 }) {
   const theme = useTheme();
+  const intl = useIntl();
   const location = useLocation();
+
+  const label = (value) => (value ? intl.formatMessage({ id: value, defaultMessage: value }) : '');
 
   const [main, setMain] = useState();
   const [item, setItem] = useState();
@@ -111,7 +115,7 @@ export default function Breadcrumbs({
         sx={{ textDecoration: 'none', color: window.location.pathname === main.url ? 'text.primary' : 'text.secondary' }}
       >
         {icons && <CollapseIcon style={iconSX} />}
-        {main?.title}
+        {label(main?.title)}
       </Typography>
     );
 
@@ -132,13 +136,13 @@ export default function Breadcrumbs({
               <Typography component={Link} to="/" variant="h6" sx={{ color: 'text.secondary', textDecoration: 'none' }}>
                 {icons && <HomeOutlined style={iconSX} />}
                 {icon && !icons && <HomeFilled style={{ ...iconSX, marginRight: 0 }} />}
-                {(!icon || icons) && 'Home'}
+                {(!icon || icons) && intl.formatMessage({ id: 'breadcrumb.home' })}
               </Typography>
               {mainContent}
             </MuiBreadcrumbs>
             {title && titleBottom && (
               <Typography variant="h2" sx={{ mt: card === false ? 0.25 : 1 }}>
-                {main.title}
+                {label(main.title)}
               </Typography>
             )}
           </Stack>
@@ -156,16 +160,16 @@ export default function Breadcrumbs({
     itemContent = (
       <Typography variant="subtitle1" sx={{ color: 'text.primary' }}>
         {icons && <ItemIcon style={iconSX} />}
-        {itemTitle}
+        {label(itemTitle)}
       </Typography>
     );
 
     let tempContent = (
       <MuiBreadcrumbs aria-label="breadcrumb" maxItems={maxItems || 8} separator={separatorIcon}>
-        <Typography component={Link} to="/" variant="h6" sx={{ color: 'text.secondary', textDecoration: 'none' }}>
+        <Typography component={Link} to="/dashboard" variant="h6" sx={{ color: 'text.secondary', textDecoration: 'none' }}>
           {icons && <HomeOutlined style={iconSX} />}
           {icon && !icons && <HomeFilled style={{ ...iconSX, marginRight: 0 }} />}
-          {(!icon || icons) && 'Home'}
+          {(!icon || icons) && intl.formatMessage({ id: 'breadcrumb.home' })}
         </Typography>
         {mainContent}
         {itemContent}
@@ -208,11 +212,11 @@ export default function Breadcrumbs({
             direction={rightAlign ? 'row' : 'column'}
             sx={{ gap: 1, justifyContent: rightAlign ? 'space-between' : 'flex-start', alignItems: rightAlign ? 'center' : 'flex-start' }}
           >
-            {title && !titleBottom && <Typography variant="h2">{custom ? heading : item?.title}</Typography>}
+            {title && !titleBottom && <Typography variant="h2">{custom ? heading : label(item?.title)}</Typography>}
             {tempContent}
             {title && titleBottom && (
               <Typography variant="h2" sx={{ mt: card === false ? 0.25 : 1 }}>
-                {custom ? heading : item?.title}
+                {custom ? heading : label(item?.title)}
               </Typography>
             )}
           </Stack>

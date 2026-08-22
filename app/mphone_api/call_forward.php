@@ -59,6 +59,35 @@
 		return '';
 	}
 
+	function mphone_auth_public_key(): string {
+		$path = getenv('MPHONE_AUTH_PUBLIC_KEY_FILE') ?: '/etc/mphone/auth-v2-public.pem';
+		if (!is_readable($path)) {
+			return '';
+		}
+		$value = file_get_contents($path);
+		return $value === false ? '' : trim($value);
+	}
+
+	function jwt_es256_der_signature(string $signature): string|false {
+		if (strlen($signature) !== 64) {
+			return false;
+		}
+		$encode_integer = static function (string $value): string {
+			$value = ltrim($value, "\x00");
+			if ($value === '') {
+				$value = "\x00";
+			}
+			if ((ord($value[0]) & 0x80) !== 0) {
+				$value = "\x00" . $value;
+			}
+			return "\x02" . chr(strlen($value)) . $value;
+		};
+		$r = $encode_integer(substr($signature, 0, 32));
+		$s = $encode_integer(substr($signature, 32, 32));
+		$sequence = $r . $s;
+		return "\x30" . chr(strlen($sequence)) . $sequence;
+	}
+
 	function session_principal(string $token): array {
 		$parts = explode('.', $token);
 		if (count($parts) !== 3) {
@@ -68,27 +97,48 @@
 		$header_json = base64url_decode($encoded_header);
 		$payload_json = base64url_decode($encoded_payload);
 		$signature = base64url_decode($encoded_signature);
-		$secret = supabase_jwt_secret();
-		if ($header_json === false || $payload_json === false || $signature === false || $secret === '') {
+		if ($header_json === false || $payload_json === false || $signature === false) {
 			return [];
 		}
 		$header = json_decode($header_json, true);
 		$payload = json_decode($payload_json, true);
-		if (!is_array($header) || !is_array($payload) || ($header['alg'] ?? '') !== 'HS256') {
+		if (!is_array($header) || !is_array($payload)) {
 			return [];
 		}
-		$expected_signature = hash_hmac('sha256', $encoded_header . '.' . $encoded_payload, $secret, true);
-		if (!hash_equals($expected_signature, $signature)) {
+		$algorithm = $header['alg'] ?? '';
+		$signing_input = $encoded_header . '.' . $encoded_payload;
+		if ($algorithm === 'HS256') {
+			$secret = supabase_jwt_secret();
+			if ($secret === '') {
+				return [];
+			}
+			$expected_signature = hash_hmac('sha256', $signing_input, $secret, true);
+			if (!hash_equals($expected_signature, $signature)) {
+				return [];
+			}
+		}
+		elseif ($algorithm === 'ES256') {
+			$public_key = mphone_auth_public_key();
+			$der_signature = jwt_es256_der_signature($signature);
+			if ($public_key === '' || $der_signature === false ||
+				openssl_verify($signing_input, $der_signature, $public_key, OPENSSL_ALGO_SHA256) !== 1) {
+				return [];
+			}
+		}
+		else {
 			return [];
 		}
-		if (($payload['iss'] ?? '') !== 'mphone-fusionpbx' || ($payload['aud'] ?? '') !== 'authenticated') {
+		$is_v2 = ($payload['token_version'] ?? 1) === 2;
+		$expected_issuer = $is_v2 ? 'mphone-identity' : 'mphone-fusionpbx';
+		$expected_audience = $is_v2 ? 'mphone-api' : 'authenticated';
+		if (($payload['iss'] ?? '') !== $expected_issuer || ($payload['aud'] ?? '') !== $expected_audience) {
 			return [];
 		}
 		if (!isset($payload['exp']) || (int) $payload['exp'] < time()) {
 			return [];
 		}
 		$actor_type = ($payload['actor_type'] ?? 'user') === 'extension' ? 'extension' : 'user';
-		$user_uuid = trim((string) ($payload['user_uuid'] ?? ''));
+		$user_uuid = trim((string) ($payload['user_uuid'] ?? ($actor_type === 'user' ? ($payload['actor_uuid'] ?? '') : '')));
 		$extension_uuid = trim((string) ($payload['extension_uuid'] ?? ''));
 		if ($actor_type === 'user' && !is_uuid($user_uuid)) {
 			return [];

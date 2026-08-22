@@ -24,6 +24,7 @@
 */
 
 	require_once dirname(__DIR__, 3) . "/resources/require.php";
+	require_once dirname(__DIR__) . "/resources/identity_session.php";
 
 	header('Cache-Control: private, no-store');
 	header('X-Content-Type-Options: nosniff');
@@ -39,6 +40,7 @@
 		deny(405);
 	}
 
+	portal_identity_validate_session();
 	if (empty($_SESSION['authorized']) || empty($_SESSION['user_uuid'])) {
 		deny(401);
 	}
@@ -63,7 +65,7 @@
 	$parameters = ['xml_cdr_uuid' => $xml_cdr_uuid, 'domain_uuid' => $domain_uuid];
 	$scope_sql = '';
 
-	if (!permission_exists('xml_cdr_domain')) {
+	if (!portal_identity_has_domain_scope()) {
 		$extension_uuids = [];
 		if (!empty($_SESSION['user']['extension']) && is_array($_SESSION['user']['extension'])) {
 			foreach ($_SESSION['user']['extension'] as $row) {

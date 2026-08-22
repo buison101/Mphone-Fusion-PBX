@@ -23,6 +23,7 @@
 
 	require_once dirname(__DIR__, 3) . "/resources/require.php";
 	require_once dirname(__DIR__) . "/resources/call_status.php";
+	require_once dirname(__DIR__) . "/resources/identity_session.php";
 
 	header('Content-Type: application/json; charset=utf-8');
 	header('Cache-Control: no-store');
@@ -34,6 +35,7 @@
 		exit;
 	}
 
+	portal_identity_validate_session();
 	if (empty($_SESSION['authorized']) || empty($_SESSION['user_uuid'])) {
 		http_response_code(401);
 		echo json_encode(['error' => 'unauthorized', 'login_url' => PROJECT_PATH . '/']);
@@ -64,7 +66,7 @@
 
 //scope
 	$scope = 'domain';
-	if (!permission_exists('xml_cdr_domain')) {
+	if (!portal_identity_has_domain_scope()) {
 		$scope = 'extensions';
 		$extension_uuids = [];
 		if (!empty($_SESSION['user']['extension']) && is_array($_SESSION['user']['extension'])) {

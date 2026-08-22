@@ -42,7 +42,7 @@
 
 	$extension_conditions = ['e.domain_uuid = :domain_uuid', "e.enabled = 'true'"];
 	$extension_parameters = ['domain_uuid' => $domain_uuid];
-	if (!permission_exists('xml_cdr_domain')) {
+	if (!portal_identity_has_domain_scope()) {
 		$uuids = portal_assigned_extension_uuids();
 		if (empty($uuids)) { $extension_conditions[] = '1=0'; }
 		else {

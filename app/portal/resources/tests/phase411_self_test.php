@@ -32,7 +32,7 @@
 	phase411_check($invalid_states === 0, 'persisted summary states use the bounded contract');
 
 	$endpoint = file_get_contents(dirname(__DIR__, 2).'/service/summary_retry.php');
-	foreach (['portal_require_csrf', 'transcribe_queue_edit', 'domain_uuid', 'xml_cdr_domain', "REQUEST_METHOD"] as $needle) {
+	foreach (['portal_require_csrf', 'transcribe_queue_edit', 'domain_uuid', 'portal_identity_has_domain_scope', "REQUEST_METHOD"] as $needle) {
 		phase411_check(strpos($endpoint, $needle) !== false, 'summary retry enforces '.$needle);
 	}
 	phase411_check(strpos($endpoint, "['error' => 'summary_failed']") !== false, 'summary retry hides provider error details');

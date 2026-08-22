@@ -336,7 +336,7 @@ export default function Reports() {
 
   return (
     <Stack sx={{ gap: 2.5 }}>
-      <Typography variant="h5">
+      <Typography variant="h2">
         <FormattedMessage id="reports.title" />
       </Typography>
       <MainCard content={false}>
