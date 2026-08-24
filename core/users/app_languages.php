@@ -3166,3 +3166,16 @@ $text['label-photo']['tr-tr'] = "Fotoğraf";
 $text['label-photo']['zh-cn'] = "照片";
 $text['label-photo']['ja-jp'] = "写真";
 $text['label-photo']['ko-kr'] = "사진";
+
+$text['label-mphone_account']['en-us'] = 'Mphone account';
+$text['label-mphone_account']['vi-vn'] = 'Tài khoản Mphone';
+$text['button-invite_short']['en-us'] = 'Invite';
+$text['button-invite_short']['vi-vn'] = 'Mời';
+$text['mphone-status-pending']['en-us'] = 'Invitation pending';
+$text['mphone-status-pending']['vi-vn'] = 'Chờ kích hoạt';
+$text['mphone-status-active']['en-us'] = 'Active';
+$text['mphone-status-active']['vi-vn'] = 'Đã kích hoạt';
+$text['mphone-status-disabled']['en-us'] = 'Disabled';
+$text['mphone-status-disabled']['vi-vn'] = 'Đã khóa';
+$text['button-resend_parenthesized']['en-us'] = 'Resend';
+$text['button-resend_parenthesized']['vi-vn'] = 'Gửi lại';

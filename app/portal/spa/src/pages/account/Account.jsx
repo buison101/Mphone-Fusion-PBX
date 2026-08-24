@@ -11,6 +11,7 @@ import TableCell from '@mui/material/TableCell';
 import TableContainer from '@mui/material/TableContainer';
 import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
+import TextField from '@mui/material/TextField';
 import Typography from '@mui/material/Typography';
 import { FormattedMessage, useIntl } from 'react-intl';
 import PropTypes from 'prop-types';
@@ -19,14 +20,23 @@ import MainCard from 'components/MainCard';
 import ContentState from 'components/states/ContentState';
 import useAnalytics from 'hooks/useAnalytics';
 import useSession from 'hooks/useSession';
-import { ACCOUNT_URL } from 'config';
+import { ACCOUNT_URL, GOOGLE_OAUTH_URL } from 'config';
 
 function IdentityAccount({ session }) {
   const intl = useIntl();
+  const { lifecycle } = useSession();
   const { data, error, isLoading, refresh } = useAnalytics(ACCOUNT_URL);
   const [busy, setBusy] = useState('');
   const [feedback, setFeedback] = useState('');
   const [showHistory, setShowHistory] = useState(false);
+  const [currentPassword, setCurrentPassword] = useState('');
+  const [newPassword, setNewPassword] = useState('');
+  const [newPasswordConfirm, setNewPasswordConfirm] = useState('');
+  const [newEmail, setNewEmail] = useState('');
+  const [googlePassword, setGooglePassword] = useState('');
+  const [googleLinkReady, setGoogleLinkReady] = useState(new URLSearchParams(window.location.search).get('google') === 'link_ready');
+
+  const googleProvider = (data?.providers ?? []).find((provider) => provider.provider === 'google');
 
   const postAction = async (body) => {
     const response = await fetch(ACCOUNT_URL, {
@@ -68,6 +78,96 @@ function IdentityAccount({ session }) {
     setBusy('');
   };
 
+  const changePassword = async (event) => {
+    event.preventDefault();
+    if (newPassword !== newPasswordConfirm) {
+      setFeedback('passwordMismatch');
+      return;
+    }
+    setBusy('password');
+    setFeedback('');
+    const result = await lifecycle(
+      {
+        action: 'change_password',
+        current_password: currentPassword,
+        new_password: newPassword
+      },
+      true
+    );
+    setBusy('');
+    if (!result.ok) {
+      setFeedback(result.data?.error === 'recent_auth_failed' ? 'reauthError' : 'error');
+      return;
+    }
+    setCurrentPassword('');
+    setNewPassword('');
+    setNewPasswordConfirm('');
+    setFeedback('passwordChanged');
+    refresh();
+  };
+
+  const requestEmailChange = async (event) => {
+    event.preventDefault();
+    setBusy('email');
+    setFeedback('');
+    const result = await lifecycle(
+      {
+        action: 'request_email_change',
+        current_password: currentPassword,
+        new_email: newEmail
+      },
+      true
+    );
+    setBusy('');
+    if (!result.ok) {
+      setFeedback(
+        result.data?.error === 'recent_auth_failed'
+          ? 'reauthError'
+          : result.data?.error === 'email_unavailable'
+            ? 'emailUnavailable'
+            : result.data?.error === 'delivery_failed'
+              ? 'emailDeliveryFailed'
+              : 'error'
+      );
+      return;
+    }
+    setCurrentPassword('');
+    setNewEmail('');
+    setFeedback('emailChangeSent');
+  };
+
+  const finishGoogleLink = async (event) => {
+    event.preventDefault();
+    setBusy('google');
+    setFeedback('');
+    const { response, payload } = await postAction({ action: 'link_google', current_password: googlePassword });
+    setBusy('');
+    setGooglePassword('');
+    window.history.replaceState({}, '', '/p/account');
+    setGoogleLinkReady(false);
+    if (!response.ok) {
+      setFeedback(payload.error === 'recent_auth_failed' ? 'reauthError' : 'googleLinkError');
+      return;
+    }
+    setFeedback('googleLinked');
+    refresh();
+  };
+
+  const unlinkGoogle = async (event) => {
+    event.preventDefault();
+    setBusy('google');
+    setFeedback('');
+    const { response, payload } = await postAction({ action: 'unlink_google', current_password: googlePassword });
+    setBusy('');
+    setGooglePassword('');
+    if (!response.ok) {
+      setFeedback(payload.error === 'recent_auth_failed' ? 'reauthError' : 'googleUnlinkError');
+      return;
+    }
+    setFeedback('googleUnlinked');
+    refresh();
+  };
+
   if (isLoading && !data) return <ContentState state="loading" title={<FormattedMessage id="table.loading" />} />;
   if (error) {
     return (
@@ -103,6 +203,18 @@ function IdentityAccount({ session }) {
       {feedback === 'error' && (
         <Alert severity="error">
           <FormattedMessage id="account.error" />
+        </Alert>
+      )}
+      {['passwordChanged', 'emailChangeSent', 'googleLinked', 'googleUnlinked'].includes(feedback) && (
+        <Alert severity="success">
+          <FormattedMessage id={`account.security.${feedback}`} />
+        </Alert>
+      )}
+      {['passwordMismatch', 'reauthError', 'emailUnavailable', 'emailDeliveryFailed', 'googleLinkError', 'googleUnlinkError'].includes(
+        feedback
+      ) && (
+        <Alert severity="error">
+          <FormattedMessage id={`account.security.${feedback}`} />
         </Alert>
       )}
       <Grid container spacing={2.5}>
@@ -258,6 +370,123 @@ function IdentityAccount({ session }) {
             />
           </Button>
         )}
+      </MainCard>
+
+      <Grid container spacing={2.5}>
+        <Grid size={{ xs: 12, md: 6 }}>
+          <MainCard title={<FormattedMessage id="account.security.changePassword" />}>
+            <Stack component="form" onSubmit={changePassword} sx={{ gap: 1.5 }}>
+              <TextField
+                type="password"
+                autoComplete="current-password"
+                label={<FormattedMessage id="account.security.currentPassword" />}
+                value={currentPassword}
+                onChange={(event) => setCurrentPassword(event.target.value)}
+                required
+              />
+              <TextField
+                type="password"
+                autoComplete="new-password"
+                label={<FormattedMessage id="account.security.newPassword" />}
+                helperText={<FormattedMessage id="lifecycle.passwordHelp" />}
+                inputProps={{ minLength: 12, maxLength: 128 }}
+                value={newPassword}
+                onChange={(event) => setNewPassword(event.target.value)}
+                required
+              />
+              <TextField
+                type="password"
+                autoComplete="new-password"
+                label={<FormattedMessage id="account.security.confirmPassword" />}
+                inputProps={{ minLength: 12, maxLength: 128 }}
+                value={newPasswordConfirm}
+                onChange={(event) => setNewPasswordConfirm(event.target.value)}
+                required
+              />
+              <Button type="submit" variant="contained" disabled={busy !== ''}>
+                <FormattedMessage id="account.security.changePassword" />
+              </Button>
+            </Stack>
+          </MainCard>
+        </Grid>
+        <Grid size={{ xs: 12, md: 6 }}>
+          <MainCard title={<FormattedMessage id="account.security.changeEmail" />}>
+            <Stack component="form" onSubmit={requestEmailChange} sx={{ gap: 1.5 }}>
+              <TextField
+                type="email"
+                autoComplete="email"
+                label={<FormattedMessage id="account.security.newEmail" />}
+                value={newEmail}
+                onChange={(event) => setNewEmail(event.target.value)}
+                required
+              />
+              <TextField
+                type="password"
+                autoComplete="current-password"
+                label={<FormattedMessage id="account.security.currentPassword" />}
+                value={currentPassword}
+                onChange={(event) => setCurrentPassword(event.target.value)}
+                required
+              />
+              <Typography variant="body2" color="text.secondary">
+                <FormattedMessage id="account.security.changeEmailHelp" />
+              </Typography>
+              <Button type="submit" variant="contained" disabled={busy !== ''}>
+                <FormattedMessage id="account.security.sendEmailConfirmation" />
+              </Button>
+            </Stack>
+          </MainCard>
+        </Grid>
+      </Grid>
+
+      <MainCard title={<FormattedMessage id="account.providers.title" />}>
+        <Stack sx={{ gap: 1.5 }}>
+          <Stack direction={{ xs: 'column', sm: 'row' }} sx={{ justifyContent: 'space-between', alignItems: { sm: 'center' }, gap: 1.5 }}>
+            <Stack>
+              <Typography>Google</Typography>
+              <Typography variant="body2" color="text.secondary">
+                <FormattedMessage id={googleProvider ? 'account.providers.googleLinked' : 'account.providers.googleNotLinked'} />
+              </Typography>
+            </Stack>
+            {!googleProvider && !googleLinkReady && data?.google_enabled && (
+              <Button component="a" href={`${GOOGLE_OAUTH_URL}?action=start&flow=link`} variant="outlined">
+                <FormattedMessage id="account.providers.linkGoogle" />
+              </Button>
+            )}
+          </Stack>
+          {googleLinkReady && (
+            <Stack component="form" onSubmit={finishGoogleLink} direction={{ xs: 'column', sm: 'row' }} sx={{ gap: 1.5 }}>
+              <TextField
+                type="password"
+                autoComplete="current-password"
+                label={<FormattedMessage id="account.security.currentPassword" />}
+                value={googlePassword}
+                onChange={(event) => setGooglePassword(event.target.value)}
+                required
+                fullWidth
+              />
+              <Button type="submit" variant="contained" disabled={busy !== ''}>
+                <FormattedMessage id="account.providers.confirmLink" />
+              </Button>
+            </Stack>
+          )}
+          {googleProvider && (
+            <Stack component="form" onSubmit={unlinkGoogle} direction={{ xs: 'column', sm: 'row' }} sx={{ gap: 1.5 }}>
+              <TextField
+                type="password"
+                autoComplete="current-password"
+                label={<FormattedMessage id="account.security.currentPassword" />}
+                value={googlePassword}
+                onChange={(event) => setGooglePassword(event.target.value)}
+                required
+                fullWidth
+              />
+              <Button type="submit" color="error" variant="outlined" disabled={busy !== ''}>
+                <FormattedMessage id="account.providers.unlinkGoogle" />
+              </Button>
+            </Stack>
+          )}
+        </Stack>
       </MainCard>
 
       <MainCard title={<FormattedMessage id="account.danger" />}>

@@ -104,6 +104,7 @@
 		$search =  strtolower($_GET["search"]);
 		$sql_search = " (";
 		$sql_search .= "	lower(username) like :search ";
+		$sql_search .= "	or exists (select 1 from v_users vu where vu.user_uuid = view_users.user_uuid and lower(vu.user_email) like :search) ";
 		$sql_search .= "	or lower(group_names) like :search ";
 		$sql_search .= "	or lower(contact_organization) like :search ";
 		$sql_search .= "	or lower(contact_name) like :search ";
@@ -163,7 +164,8 @@
 	}
 
 //get the list
-	$sql = "select domain_name, domain_uuid, user_uuid, username, group_names, ";
+	$sql = "select domain_name, domain_uuid, user_uuid, username, ";
+	$sql .= "(select vu.user_email from v_users vu where vu.user_uuid = view_users.user_uuid limit 1) as user_email, group_names, ";
 	$sql .= "contact_organization,contact_name,contact_note, ";
 	$sql .= "cast(user_enabled as text) ";
 	$sql .= "from view_users ";
@@ -191,6 +193,14 @@
 	$sql .= limit_offset($rows_per_page, $offset);
 	$users = $database->select($sql, $parameters, 'all');
 	unset($sql, $parameters);
+	$mphone_statuses = [];
+	if (permission_exists('customer_identity_view') && is_array($users) && file_exists('../../app/customer_identities/resources/customer_platform.php')) {
+		require_once '../../app/customer_identities/resources/customer_platform.php';
+		$mphone_result = customer_platform_request(['action' => 'user_statuses', 'fusion_user_uuids' => array_column($users, 'user_uuid')]);
+		if ($mphone_result['status'] === 200) {
+			foreach (($mphone_result['payload']['users'] ?? []) as $mphone_user) $mphone_statuses[$mphone_user['fusion_user_uuid']] = $mphone_user;
+		}
+	}
 
 //create token
 	$object = new token;
@@ -272,12 +282,12 @@
 	}
 	echo th_order_by('username', $text['label-username'], $order_by, $order, null, null, $param);
 	echo th_order_by('group_names', $text['label-groups'], $order_by, $order, null, null, $param);
-	echo th_order_by('contact_organization', $text['label-organization'], $order_by, $order, null, null, $param);
 	echo th_order_by('contact_name', $text['label-name'], $order_by, $order, null, null, $param);
+	echo th_order_by('user_email', $text['label-email'], $order_by, $order, null, null, $param);
 	//echo th_order_by('contact_name_family', $text['label-contact_name_family'], $order_by, $order);
 	//echo th_order_by('user_status', $text['label-user_status'], $order_by, $order);
 	//echo th_order_by('add_date', $text['label-add_date'], $order_by, $order);
-	echo th_order_by('contact_note', $text['label-contact_note'], $order_by, $order, null, "class='center'", $param);
+	if (permission_exists('customer_identity_view')) echo "<th class='center'>" . escape($text['label-mphone_account']) . "</th>\n";
 	echo th_order_by('user_enabled', $text['label-user_enabled'], $order_by, $order, null, "class='center'", $param);
 	if (permission_exists('user_edit') && $list_row_edit_button) {
 		echo "	<td class='action-button'>&nbsp;</td>\n";
@@ -312,13 +322,21 @@
 			}
 			echo "	</td>\n";
 			echo "	<td>".escape($row['group_names'])."</td>\n";
-			echo "	<td>".escape($row['contact_organization'])."</td>\n";
 			echo "	<td>".escape($row['contact_name'])."</td>\n";
+			echo "	<td>".escape($row['user_email'])."</td>\n";
 			//echo "	<td>".escape($row['contact_name_given'])."</td>\n";
 			//echo "	<td>".escape($row['contact_name_family'])."</td>\n";
 			//echo "	<td>".escape($row['user_status'])."</td>\n";
 			//echo "	<td>".escape($row['add_date'])."</td>\n";
-			echo "	<td>".escape($row['contact_note'])."</td>\n";
+			if (permission_exists('customer_identity_view')) {
+				$mphone = $mphone_statuses[$row['user_uuid']] ?? null;
+				echo "	<td class='no-link center'>\n";
+				if (($mphone['status'] ?? '') === 'active') echo button::create(['type'=>'button','class'=>'link','label'=>$text['button-resend_parenthesized'],'icon'=>'envelope','link'=>PROJECT_PATH.'/app/customer_identities/invite_user.php?id='.urlencode($row['user_uuid']).'&resend=1']);
+				elseif ($mphone) echo escape($text['mphone-status-' . ($mphone['status'] ?? 'pending')] ?? ($mphone['status'] ?? ''));
+				elseif (permission_exists('customer_identity_edit') && $row['user_enabled'] === 'true') echo button::create(['type'=>'button','class'=>'link','label'=>$text['button-invite_short'],'icon'=>'envelope','link'=>PROJECT_PATH.'/app/customer_identities/invite_user.php?id='.urlencode($row['user_uuid'])]);
+				else echo '—';
+				echo "	</td>\n";
+			}
 			if (permission_exists('user_edit')) {
 				echo "	<td class='no-link center'>\n";
 				echo button::create(['type'=>'submit','class'=>'link','label'=>$text['label-'.$row['user_enabled']],'title'=>$text['button-toggle'],'onclick'=>"list_self_check('checkbox_".$x."'); list_action_set('toggle'); list_form_submit('form_list')"]);

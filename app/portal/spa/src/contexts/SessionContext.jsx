@@ -2,7 +2,7 @@ import PropTypes from 'prop-types';
 import { createContext, useCallback, useEffect, useMemo, useRef, useState } from 'react';
 
 // project imports
-import { SESSION_URL, IDENTITY_URL } from 'config';
+import { SESSION_URL, IDENTITY_URL, IDENTITY_LIFECYCLE_URL } from 'config';
 
 // ==============================|| SESSION CONTEXT ||============================== //
 //
@@ -108,6 +108,36 @@ export function SessionProvider({ children }) {
     return response.ok;
   }, [session]);
 
+  const completeGoogleLogin = useCallback(async () => {
+    const response = await fetch(IDENTITY_URL, {
+      method: 'POST',
+      credentials: 'same-origin',
+      headers: { 'Content-Type': 'application/json', 'X-CSRF-Token': loginCsrf },
+      body: JSON.stringify({ action: 'google_complete' })
+    });
+    const data = await response.json().catch(() => ({}));
+    if (!response.ok) return { ok: false, error: data.error || 'unavailable' };
+    await load();
+    return { ok: true };
+  }, [load, loginCsrf]);
+
+  const lifecycle = useCallback(
+    async (body, authenticated = false) => {
+      const response = await fetch(IDENTITY_LIFECYCLE_URL, {
+        method: 'POST',
+        credentials: 'same-origin',
+        headers: {
+          'Content-Type': 'application/json',
+          'X-CSRF-Token': authenticated ? session?.csrf || '' : loginCsrf
+        },
+        body: JSON.stringify(body)
+      });
+      const data = await response.json().catch(() => ({}));
+      return { ok: response.ok, status: response.status, data };
+    },
+    [loginCsrf, session]
+  );
+
   useEffect(() => {
     load();
     return () => {
@@ -135,10 +165,12 @@ export function SessionProvider({ children }) {
       error,
       reload: load,
       login,
+      completeGoogleLogin,
       logout,
+      lifecycle,
       can: (permission) => Boolean(session?.permissions?.[permission])
     }),
-    [session, loading, error, load, login, logout]
+    [session, loading, error, load, login, completeGoogleLogin, logout, lifecycle]
   );
 
   return <SessionContext.Provider value={value}>{children}</SessionContext.Provider>;

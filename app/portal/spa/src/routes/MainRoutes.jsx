@@ -15,6 +15,8 @@ const MissedCalls = Loadable(lazy(() => import('pages/missed/MissedCalls')));
 const Contacts = Loadable(lazy(() => import('pages/contacts/Contacts')));
 const Settings = Loadable(lazy(() => import('pages/settings/Settings')));
 const Account = Loadable(lazy(() => import('pages/account/Account')));
+const Users = Loadable(lazy(() => import('pages/users/Users')));
+const Customers = Loadable(lazy(() => import('pages/customers/Customers')));
 
 // ==============================|| MAIN ROUTING ||============================== //
 
@@ -49,6 +51,14 @@ const MainRoutes = {
     {
       path: 'account',
       element: <Account />
+    },
+    {
+      path: 'users',
+      element: <Users />
+    },
+    {
+      path: 'customers',
+      element: <Customers />
     },
     {
       path: 'dashboard',

@@ -95,7 +95,10 @@
 	}
 	unset($permission_name);
 	if (portal_identity_is_active()) {
-		unset($permissions['call_active_all'], $permissions['call_active_domain'], $permissions['xml_cdr_domain'], $permissions['contact_domain_view'], $permissions['portal_call_tag_edit']);
+		unset($permissions['call_active_all'], $permissions['call_active_domain'], $permissions['xml_cdr_domain'], $permissions['contact_domain_view']);
+		if (!if_group('superadmin')) {
+			unset($permissions['portal_call_tag_edit']);
+		}
 	}
 
 //the extensions assigned to this user determine the call scope when the user
@@ -157,6 +160,12 @@
 	$_SESSION['portal']['csrf'] = bin2hex(random_bytes(32));
 
 	echo json_encode([
+		'user_management' => [
+			'allowed' => portal_identity_is_active()
+				? in_array((string) ($_SESSION['portal_identity']['membership']['role'] ?? ''), ['owner', 'customer_admin'], true)
+				: (if_group('superadmin') || if_group('admin')),
+			'superadmin' => !portal_identity_is_active() && if_group('superadmin'),
+		],
 		'identity' => portal_identity_is_active() ? [
 			'identity_uuid' => $_SESSION['portal_identity']['identity_uuid'],
 			'primary_email' => $_SESSION['portal_identity']['primary_email'] ?? '',

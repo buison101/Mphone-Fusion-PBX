@@ -20,6 +20,7 @@
 			'me' => portal_identity_api_request('GET', 'me', null, $access_token),
 			'extensions' => portal_identity_api_request('GET', 'extensions', null, $access_token),
 			'devices' => portal_identity_api_request('GET', 'devices', null, $access_token),
+			'providers' => portal_identity_api_request('GET', 'providers', null, $access_token),
 		];
 		foreach ($requests as $result) {
 			if ($result['status'] !== 200) {
@@ -43,6 +44,8 @@
 			'membership' => $_SESSION['portal_identity']['membership'] ?? [],
 			'extensions' => $extensions,
 			'devices' => $requests['devices']['payload']['devices'] ?? [],
+			'providers' => $requests['providers']['payload']['providers'] ?? [],
+			'google_enabled' => (bool) ($requests['providers']['payload']['google_enabled'] ?? false),
 		]);
 		exit;
 	}
@@ -93,6 +96,49 @@
 			exit;
 		}
 		echo json_encode(['revoked' => true]);
+		exit;
+	}
+
+	if ($action === 'link_google') {
+		$current_password = (string) ($input['current_password'] ?? '');
+		$id_token = (string) ($_SESSION['mphone_google_id_token'] ?? '');
+		$id_token_expires_at = (int) ($_SESSION['mphone_google_id_token_expires_at'] ?? 0);
+		unset($_SESSION['mphone_google_id_token'], $_SESSION['mphone_google_id_token_expires_at']);
+		if ($current_password === '' || strlen($current_password) > 1024
+			|| $id_token === '' || $id_token_expires_at < time()) {
+			http_response_code(400);
+			echo json_encode(['error' => 'invalid_request']);
+			exit;
+		}
+		$result = portal_identity_api_request('POST', 'link-google', [
+			'current_password' => $current_password,
+			'id_token' => $id_token,
+		], $access_token);
+		if ($result['status'] !== 200) {
+			http_response_code(in_array($result['status'], [400, 401, 409, 429], true) ? $result['status'] : 503);
+			echo json_encode(['error' => $result['payload']['error'] ?? 'service_unavailable']);
+			exit;
+		}
+		echo json_encode(['linked' => true]);
+		exit;
+	}
+
+	if ($action === 'unlink_google') {
+		$current_password = (string) ($input['current_password'] ?? '');
+		if ($current_password === '' || strlen($current_password) > 1024) {
+			http_response_code(400);
+			echo json_encode(['error' => 'invalid_request']);
+			exit;
+		}
+		$result = portal_identity_api_request('POST', 'unlink-google', [
+			'current_password' => $current_password,
+		], $access_token);
+		if ($result['status'] !== 200) {
+			http_response_code(in_array($result['status'], [401, 404, 409, 429], true) ? $result['status'] : 503);
+			echo json_encode(['error' => $result['payload']['error'] ?? 'service_unavailable']);
+			exit;
+		}
+		echo json_encode(['unlinked' => true]);
 		exit;
 	}
 

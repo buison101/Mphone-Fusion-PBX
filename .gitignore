@@ -15,3 +15,6 @@ app/yealink/resources/firmware/*
 /p/
 app/portal/spa/node_modules/
 app/portal/spa/dist/
+
+# Local AI configuration
+.claude/

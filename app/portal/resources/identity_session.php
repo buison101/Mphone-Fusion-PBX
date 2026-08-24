@@ -5,8 +5,11 @@
 		return rtrim(!empty($value) ? $value : 'http://127.0.0.1:8000', '/');
 	}
 
-	function portal_identity_api_request(string $method, string $action, ?array $body = null, string $access_token = ''): array {
-		$url = portal_identity_api_url() . '/functions/v1/mphone-auth-v2/' . ltrim($action, '/');
+	function portal_identity_api_request(string $method, string $action, ?array $body = null, string $access_token = '', string $service = 'mphone-auth-v2'): array {
+		if (!preg_match('/^[a-z0-9-]+$/', $service)) {
+			return ['status' => 0, 'payload' => [], 'error' => 'invalid_service'];
+		}
+		$url = portal_identity_api_url() . '/functions/v1/' . $service . '/' . ltrim($action, '/');
 		$headers = ['Accept: application/json', 'Content-Type: application/json'];
 		if ($access_token !== '') {
 			$headers[] = 'Authorization: Bearer ' . $access_token;
@@ -89,8 +92,10 @@
 			'call_active_domain',
 			'xml_cdr_domain',
 			'contact_domain_view',
-			'portal_call_tag_edit',
 		];
+		if (!if_group('superadmin')) {
+			$blocked[] = 'portal_call_tag_edit';
+		}
 		foreach ($blocked as $permission) {
 			unset($_SESSION['permissions'][$permission]);
 			unset($_SESSION['user']['permissions'][$permission]);

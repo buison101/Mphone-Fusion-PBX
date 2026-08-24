@@ -52,33 +52,50 @@
 		exit;
 	}
 
-	if ($action !== 'login') {
+	if ($action !== 'login' && $action !== 'google_complete') {
 		http_response_code(400);
 		echo json_encode(['error' => 'invalid_request']);
 		exit;
 	}
 
-	$email = strtolower(trim((string) ($input['email'] ?? '')));
-	$password = (string) ($input['password'] ?? '');
-	if (!filter_var($email, FILTER_VALIDATE_EMAIL) || strlen($password) < 1 || strlen($password) > 1024) {
-		http_response_code(400);
-		echo json_encode(['error' => 'invalid_request']);
-		exit;
+	$email = '';
+	$request = [];
+	if ($action === 'login') {
+		$email = strtolower(trim((string) ($input['email'] ?? '')));
+		$password = (string) ($input['password'] ?? '');
+		if (!filter_var($email, FILTER_VALIDATE_EMAIL) || strlen($password) < 1 || strlen($password) > 1024) {
+			http_response_code(400);
+			echo json_encode(['error' => 'invalid_request']);
+			exit;
+		}
+		$request = ['login_mode' => 'account', 'login' => $email, 'password' => $password];
+	}
+	else {
+		$id_token = (string) ($_SESSION['mphone_google_id_token'] ?? '');
+		$id_token_expires_at = (int) ($_SESSION['mphone_google_id_token_expires_at'] ?? 0);
+		unset($_SESSION['mphone_google_id_token'], $_SESSION['mphone_google_id_token_expires_at']);
+		if ($id_token === '' || $id_token_expires_at < time()) {
+			http_response_code(400);
+			echo json_encode(['error' => 'invalid_google_token']);
+			exit;
+		}
+		$request = ['login_mode' => 'google', 'id_token' => $id_token];
 	}
 
 	$installation_id = portal_identity_installation_id();
-	$result = portal_identity_api_request('POST', 'login', [
-		'login_mode' => 'account',
-		'login' => $email,
-		'password' => $password,
+	$result = portal_identity_api_request('POST', 'login', array_merge($request, [
 		'tenant' => 'shared',
 		'installation_id' => $installation_id,
 		'device' => portal_identity_device_metadata(),
-	]);
+	]));
 	$payload = $result['payload'];
 	if ($result['status'] !== 200 || ($payload['subject_kind'] ?? '') !== 'customer_identity') {
 		http_response_code(in_array($result['status'], [429, 503], true) ? $result['status'] : 401);
-		echo json_encode(['error' => in_array($result['status'], [429, 503], true) ? ($payload['error'] ?? 'service_unavailable') : 'invalid_credentials']);
+		$google_errors = ['google_not_linked', 'invalid_google_token', 'google_disabled'];
+		$error = $action === 'google_complete' && in_array($payload['error'] ?? '', $google_errors, true)
+			? $payload['error'] : (in_array($result['status'], [429, 503], true)
+				? ($payload['error'] ?? 'service_unavailable') : 'invalid_credentials');
+		echo json_encode(['error' => $error]);
 		exit;
 	}
 

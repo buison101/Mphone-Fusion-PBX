@@ -92,6 +92,24 @@ const navigation = {
       breadcrumbs: true
     },
     {
+      id: 'users',
+      title: 'nav.users',
+      type: 'item',
+      url: '/users',
+      icon: icons.UserOutlined,
+      requiresUserManagement: true,
+      breadcrumbs: true
+    },
+    {
+      id: 'customers',
+      title: 'nav.customers',
+      type: 'item',
+      url: '/customers',
+      icon: icons.ContactsOutlined,
+      requiresSuperadmin: true,
+      breadcrumbs: true
+    },
+    {
       id: 'account',
       title: 'nav.account',
       type: 'item',

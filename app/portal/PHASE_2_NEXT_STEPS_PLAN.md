@@ -1,15 +1,40 @@
 # Kế hoạch hoàn thiện Phase 2 sau Identity Pilot
 
-Trạng thái: Bước 1, Bước 2 và Bước 4 đã triển khai trên môi trường thử nghiệm;
-Bước 5 đã hoàn thiện phần triển khai; Bước 3 và Bước 6 chưa triển khai.
+Trạng thái: Bước 1, Bước 2, Bước 3 và Bước 4 đã triển khai trên môi trường thử
+nghiệm; Bước 5 đã hoàn thiện phần triển khai; Bước 6 chưa triển khai. Chi tiết
+Bước 3 nằm tại `PHASE_3_EMAIL_PASSWORD_IMPLEMENTATION.md`.
 
 Ngày lập: 2026-08-22.
+
+Cập nhật hạ tầng: 2026-08-24.
 
 Tài liệu liên quan:
 
 - `CUSTOMER_IDENTITY_PHASE_1_2_PLAN.md`
 - `PHASE_1_IDENTITY_IMPLEMENTATION.md`
 - `PHASE_2_IDENTITY_IMPLEMENTATION.md`
+
+## 0. Bối cảnh triển khai hiện tại
+
+- Server hiện đã được đưa lên Internet; không còn được xem là môi trường chỉ có
+  shared LAN.
+- `login.mphone.vn` là hostname công khai dự kiến dùng cho Portal, Auth v2 và
+  callback verify/recovery. DNS công khai đã trỏ tới server.
+- Việc server có thể truy cập từ Internet không tự động chứng minh HTTPS đã đạt
+  yêu cầu production. Trước khi gửi link cho người dùng thật, phải kiểm tra từ
+  mạng ngoài rằng chuỗi chứng thư của `login.mphone.vn` được trình duyệt và
+  Android tin cậy, hostname khớp, cổng 443 truy cập được và HTTP chuyển hướng an
+  toàn sang HTTPS. Chứng thư LAN/test không được dùng cho callback production.
+- Chưa được giả định rằng email delivery đã sẵn sàng. Bước 3 vẫn phải xác nhận
+  nhà cung cấp SMTP/email API, sender domain, SPF, DKIM, DMARC, bounce handling
+  và khả năng gửi thử trước khi bật cho người dùng thật.
+- Vì dịch vụ đã có bề mặt Internet, mọi endpoint đăng nhập, verify, resend,
+  recovery và callback mới phải mặc định coi là public/untrusted: áp dụng rate
+  limit, phản hồi chống dò email, token một lần, log không chứa credential và
+  kiểm thử abuse trước rollout.
+- Endpoint HTTP nội bộ `127.0.0.1:8000` chỉ dành cho giao tiếp server-to-server.
+  APK release, browser và link trong email phải dùng HTTPS công khai; không phát
+  sinh link chứa địa chỉ LAN, localhost hoặc cổng Supabase nội bộ.
 
 ## 1. Mục tiêu
 
@@ -95,6 +120,12 @@ kiểm thử và giới hạn nằm tại `PHASE_2_ACCOUNT_DEVICES_IMPLEMENTATIO
 
 ### Bước 3 — Hoàn thiện vòng đời email/password
 
+**Trạng thái: đã triển khai server và Portal ngày 2026-08-24. HTTPS công khai,
+Resend domain/API, token lifecycle, rate limit và Portal UI đã được kiểm thử.
+Android API dùng chung đã sẵn sàng nhưng source share chưa mount được để bổ sung
+nút Quên mật khẩu trong APK. Chi tiết tại
+`PHASE_3_EMAIL_PASSWORD_IMPLEMENTATION.md`.**
+
 #### Phạm vi
 
 - Xác minh email khi tạo Identity hoặc đổi email.
@@ -110,6 +141,10 @@ kiểm thử và giới hạn nằm tại `PHASE_2_ACCOUNT_DEVICES_IMPLEMENTATIO
 - Domain gửi email và SPF/DKIM/DMARC phù hợp.
 - Template email tiếng Việt và tiếng Anh.
 - URL HTTPS công khai cho verify/recovery callback.
+- Kiểm tra callback từ một mạng ngoài server và trên Android/browser thông dụng;
+  không coi truy cập thành công qua `--insecure` hoặc CA nội bộ là nghiệm thu.
+- Cấu hình base URL duy nhất phía server để tạo link; không nhận callback/base
+  URL do client truyền lên.
 
 #### Tiêu chí nghiệm thu
 
@@ -174,6 +209,10 @@ Chi tiết nằm tại
 
 ### Bước 6 — Google OAuth và liên kết provider
 
+**Trạng thái: backend, Portal và Android đã triển khai ngày 2026-08-25; chờ
+nghiệm thu bằng Google test user thật. Chi tiết tại
+`PHASE_6_GOOGLE_OAUTH_IMPLEMENTATION.md`.**
+
 Chỉ bắt đầu sau khi các bước 1–5 ổn định và có HTTPS công khai.
 
 #### Phạm vi
@@ -221,14 +260,22 @@ Chưa triển khai thanh toán trong kế hoạch này, nhưng cần giữ các 
 
 ## 6. Rollout đề xuất
 
-1. Triển khai Portal Identity cho một Customer test trong shared Domain.
-2. Bật trang thiết bị và revoke session cho Customer test.
-3. Kết nối SMTP và thử verify/reset với địa chỉ nội bộ.
-4. Bật quản lý assignment cho operator, chưa mở self-service rộng rãi.
-5. Phát hành debug APK có assignment reconciliation.
-6. Kiểm thử Customer A/B isolation và một VIP Domain.
-7. Cấu hình HTTPS công khai và Google OAuth cho allowlist.
-8. Mở rộng pilot theo nhóm Customer.
+Các Bước 1, 2, 4 và 5 đã hoàn thành phần triển khai. Rollout tiếp theo được cập
+nhật theo trạng thái server đã lên Internet:
+
+1. Nghiệm thu DNS, HTTPS và callback `login.mphone.vn` từ mạng ngoài; thay mọi
+   chứng thư LAN/test trên đường public bằng chứng thư được client tin cậy.
+2. Chọn SMTP/email API, cấu hình sender domain và xác nhận SPF/DKIM/DMARC.
+3. Triển khai backend Bước 3 sau feature flag, gồm token một lần, expiry, consume
+   nguyên tử, rate limit, audit và session revocation.
+4. Gửi verify/reset tới allowlist email nội bộ, kiểm tra link trên browser và
+   Android qua mạng ngoài.
+5. Chạy kiểm thử dò email, replay, token hết hạn, Identity disabled, log secret,
+   Customer A/B isolation và rollback.
+6. Bật giao diện verify/recovery/change password cho một Customer pilot.
+7. Theo dõi delivery, bounce, rate-limit và audit rồi mới mở rộng theo nhóm
+   Customer.
+8. Chỉ sau khi Bước 3 ổn định mới triển khai Bước 6 Google OAuth trên allowlist.
 9. Chỉ bắt đầu Billing sau khi Identity, Membership và entitlement ổn định.
 
 Mỗi bước phải có feature flag hoặc đường rollback; không xóa session, local SIP
@@ -236,7 +283,7 @@ configuration hoặc dữ liệu FusionPBX trong quá trình rollback.
 
 ## 7. Thứ tự ưu tiên ngay tiếp theo
 
-Ưu tiên số một là **Bước 1 — Portal dùng chung Customer Identity**. Công việc nên
-bắt đầu bằng thiết kế contract web session và cầu nối Portal PHP/websocket, sau
-đó mới xây màn hình đăng nhập. Đây là điểm phụ thuộc lớn nhất trước quản lý thiết
-bị, email recovery, Google OAuth và Billing.
+Ưu tiên tiếp theo là nghiệm thu Bước 3 với một email pilot thật và bổ sung điểm
+vào luồng recovery trong APK khi Android share khả dụng. Sau thời gian theo dõi
+delivery, rate-limit và session revocation ổn định, có thể bắt đầu Bước 6 Google
+OAuth trên allowlist.
