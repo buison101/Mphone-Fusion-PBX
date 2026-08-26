@@ -7,6 +7,7 @@ import BarChartOutlined from '@ant-design/icons/BarChartOutlined';
 import ContactsOutlined from '@ant-design/icons/ContactsOutlined';
 import SettingOutlined from '@ant-design/icons/SettingOutlined';
 import UserOutlined from '@ant-design/icons/UserOutlined';
+import CreditCardOutlined from '@ant-design/icons/CreditCardOutlined';
 
 // icons
 const icons = {
@@ -17,7 +18,8 @@ const icons = {
   BarChartOutlined,
   ContactsOutlined,
   SettingOutlined,
-  UserOutlined
+  UserOutlined,
+  CreditCardOutlined
 };
 
 // ==============================|| MENU ITEMS - NAVIGATION ||============================== //
@@ -107,6 +109,15 @@ const navigation = {
       url: '/customers',
       icon: icons.ContactsOutlined,
       requiresSuperadmin: true,
+      breadcrumbs: true
+    },
+    {
+      id: 'billing',
+      title: 'nav.billing',
+      type: 'item',
+      url: '/billing',
+      icon: icons.CreditCardOutlined,
+      requiresIdentity: true,
       breadcrumbs: true
     },
     {

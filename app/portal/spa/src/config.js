@@ -16,6 +16,7 @@ export const USERS_URL = '/app/portal/service/users.php';
 export const CUSTOMERS_URL = '/app/portal/service/customers.php';
 export const GOOGLE_OAUTH_URL = '/app/portal/service/google_oauth.php';
 export const ACCOUNT_URL = '/app/portal/service/account.php';
+export const BILLING_URL = '/app/portal/service/billing.php';
 export const DASHBOARD_URL = '/app/portal/service/dashboard.php';
 export const CALLS_URL = '/app/portal/service/calls.php';
 export const RECORDING_URL = '/app/portal/service/recording.php';

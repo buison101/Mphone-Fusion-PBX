@@ -17,6 +17,7 @@ const Settings = Loadable(lazy(() => import('pages/settings/Settings')));
 const Account = Loadable(lazy(() => import('pages/account/Account')));
 const Users = Loadable(lazy(() => import('pages/users/Users')));
 const Customers = Loadable(lazy(() => import('pages/customers/Customers')));
+const Billing = Loadable(lazy(() => import('pages/billing/Billing')));
 
 // ==============================|| MAIN ROUTING ||============================== //
 
@@ -59,6 +60,10 @@ const MainRoutes = {
     {
       path: 'customers',
       element: <Customers />
+    },
+    {
+      path: 'billing',
+      element: <Billing />
     },
     {
       path: 'dashboard',

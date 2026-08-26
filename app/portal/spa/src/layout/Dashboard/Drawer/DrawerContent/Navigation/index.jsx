@@ -16,7 +16,8 @@ export default function Navigation() {
     children: item.children?.filter(
       (child) =>
         (!child.requiresUserManagement || session?.user_management?.allowed) &&
-        (!child.requiresSuperadmin || session?.user_management?.superadmin)
+        (!child.requiresSuperadmin || session?.user_management?.superadmin) &&
+        (!child.requiresIdentity || Boolean(session?.identity))
     )
   }));
   const navGroups = visibleMenu.map((item) => {
