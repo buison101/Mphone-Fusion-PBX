@@ -60,3 +60,34 @@ $function$;
 
 revoke all on function public.mphone_ensure_portal_user(uuid, text) from public;
 grant execute on function public.mphone_ensure_portal_user(uuid, text) to fusionpbx_readonly;
+grant execute on function public.mphone_ensure_portal_user(uuid, text) to supabase_reader;
+
+create or replace function public.mphone_set_portal_user_state(
+	p_user_uuid uuid,
+	p_enabled boolean,
+	p_email text default null
+) returns boolean
+language plpgsql
+security definer
+set search_path = pg_catalog, public
+as $function$
+declare
+	v_email text := nullif(lower(btrim(p_email)), '');
+begin
+	if v_email is not null and
+		(v_email !~ '^[^[:space:]@]+@[^[:space:]@]+\.[^[:space:]@]+$' or length(v_email) > 254) then
+		raise exception 'invalid_email';
+	end if;
+	update public.v_users set
+		user_enabled = p_enabled,
+		user_email = coalesce(v_email, user_email),
+		username = case when v_email is null then username else v_email end,
+		update_date = now()
+	where user_uuid = p_user_uuid;
+	return found;
+end;
+$function$;
+
+revoke all on function public.mphone_set_portal_user_state(uuid, boolean, text) from public;
+grant execute on function public.mphone_set_portal_user_state(uuid, boolean, text) to fusionpbx_readonly;
+grant execute on function public.mphone_set_portal_user_state(uuid, boolean, text) to supabase_reader;
