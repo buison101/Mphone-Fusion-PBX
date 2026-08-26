@@ -23,7 +23,7 @@
 	$config = mphone_google_config();
 	$client_id = (string) ($config['MPHONE_GOOGLE_WEB_CLIENT_ID'] ?? '');
 	$client_secret = (string) ($config['MPHONE_GOOGLE_WEB_CLIENT_SECRET'] ?? '');
-	$redirect_uri = 'https://login.mphone.vn/app/portal/service/google_oauth.php?action=callback';
+	$redirect_uri = 'https://call.mphone.vn/app/portal/service/google_oauth.php?action=callback';
 	$action = trim((string) ($_GET['action'] ?? ''));
 	if ($client_id === '' || $client_secret === '') {
 		if ($action === 'status') {
