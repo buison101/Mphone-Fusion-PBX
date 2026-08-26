@@ -497,5 +497,21 @@
   "customers.error.generic": "Không thể hoàn tất yêu cầu.",
   "customers.error.invalid_request": "Hãy kiểm tra thông tin khách hàng và thử lại.",
   "customers.error.tenant_not_found": "Tenant đã chọn không còn khả dụng.",
-  "customers.error.service_unavailable": "Customer Platform hiện tạm thời không sẵn sàng."
+  "customers.error.service_unavailable": "Customer Platform hiện tạm thời không sẵn sàng.",
+  "customers.contactEmail": "Email liên hệ",
+  "customers.phone": "Điện thoại",
+  "customers.sync": "Đồng bộ",
+  "customers.sync.linked": "Đã liên kết",
+  "customers.sync.pending": "Đang chờ",
+  "customers.sync.error": "Có lỗi",
+  "customers.sync.unlinked": "Chưa liên kết",
+  "customers.openOdoo": "Mở trong Odoo",
+  "customers.retrySync": "Thử lại",
+  "customers.odooReadOnly": "Thông tin kinh doanh được quản lý trong Odoo và chỉ hiển thị trên Portal. Tại đây chỉ có thể đổi trạng thái kỹ thuật của Customer.",
+  "customers.detail.profile": "Hồ sơ kinh doanh từ Odoo",
+  "customers.legalName": "Tên pháp lý",
+  "customers.address": "Địa chỉ",
+  "customers.taxId": "Mã số thuế",
+  "customers.website": "Website",
+  "customers.lastSynced": "Đồng bộ lần cuối"
 }

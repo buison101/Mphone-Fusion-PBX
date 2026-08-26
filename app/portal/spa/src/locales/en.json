@@ -497,5 +497,21 @@
   "customers.error.generic": "The request could not be completed.",
   "customers.error.invalid_request": "Check the Customer information and try again.",
   "customers.error.tenant_not_found": "The selected tenant is unavailable.",
-  "customers.error.service_unavailable": "The Customer Platform is temporarily unavailable."
+  "customers.error.service_unavailable": "The Customer Platform is temporarily unavailable.",
+  "customers.contactEmail": "Contact email",
+  "customers.phone": "Phone",
+  "customers.sync": "Sync",
+  "customers.sync.linked": "Linked",
+  "customers.sync.pending": "Pending",
+  "customers.sync.error": "Error",
+  "customers.sync.unlinked": "Unlinked",
+  "customers.openOdoo": "Open in Odoo",
+  "customers.retrySync": "Retry",
+  "customers.odooReadOnly": "Business information is managed in Odoo and is read-only in the Portal. Only the technical Customer status can be changed here.",
+  "customers.detail.profile": "Business profile from Odoo",
+  "customers.legalName": "Legal name",
+  "customers.address": "Address",
+  "customers.taxId": "Tax ID",
+  "customers.website": "Website",
+  "customers.lastSynced": "Last synced"
 }

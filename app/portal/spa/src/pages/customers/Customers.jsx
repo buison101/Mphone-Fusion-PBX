@@ -79,7 +79,9 @@ export default function Customers() {
           !needle ||
           [
             customer.display_name,
-            customer.customer_code,
+            customer.legal_name,
+            customer.contact_email,
+            customer.phone,
             customer.owner_email,
             ...(customer.tenants || []).map((tenant) => tenant.domain_name)
           ].some((value) =>
@@ -111,16 +113,23 @@ export default function Customers() {
     setBusy(true);
     setError('');
     try {
-      await request({
-        action: 'update',
-        customer_uuid: editing.customer_uuid,
-        display_name: editing.display_name,
-        customer_type: editing.customer_type
-      });
       if (editing.status !== editing.original_status)
         await request({ action: 'status', customer_uuid: editing.customer_uuid, status: editing.status });
       setEditing(null);
       await load();
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setBusy(false);
+    }
+  };
+  const retrySync = async (customerUuid) => {
+    setBusy(true);
+    setError('');
+    try {
+      await request({ action: 'sync_retry', customer_uuid: customerUuid });
+      await load();
+      if (detail?.customer?.customer_uuid === customerUuid) await openDetail({ customer_uuid: customerUuid });
     } catch (err) {
       setError(err.message);
     } finally {
@@ -197,10 +206,10 @@ export default function Customers() {
                   <FormattedMessage id="customers.name" />
                 </TableCell>
                 <TableCell>
-                  <FormattedMessage id="customers.domain" />
+                  <FormattedMessage id="customers.contactEmail" />
                 </TableCell>
                 <TableCell>
-                  <FormattedMessage id="customers.owner" />
+                  <FormattedMessage id="customers.phone" />
                 </TableCell>
                 <TableCell align="right">
                   <FormattedMessage id="customers.users" />
@@ -209,7 +218,7 @@ export default function Customers() {
                   <FormattedMessage id="customers.extensions" />
                 </TableCell>
                 <TableCell>
-                  <FormattedMessage id="customers.status" />
+                  <FormattedMessage id="customers.sync" />
                 </TableCell>
                 <TableCell align="right">
                   <FormattedMessage id="customers.actions" />
@@ -219,18 +228,23 @@ export default function Customers() {
             <TableBody>
               {filtered.map((customer) => (
                 <TableRow key={customer.customer_uuid}>
-                  <TableCell>{customer.display_name}</TableCell>
                   <TableCell>
-                    {(customer.tenants || []).map((tenant) => tenant.domain_name || tenant.tenant_key).join(', ') || '—'}
+                    <Stack spacing={0.25}>
+                      <Typography>{customer.display_name}</Typography>
+                      <Typography variant="caption" color="text.secondary">
+                        {intl.formatMessage({ id: `customers.status.${customer.status}` })}
+                      </Typography>
+                    </Stack>
                   </TableCell>
-                  <TableCell>{customer.owner_email || '—'}</TableCell>
+                  <TableCell>{customer.contact_email || '—'}</TableCell>
+                  <TableCell>{customer.phone || '—'}</TableCell>
                   <TableCell align="right">{customer.membership_count}</TableCell>
                   <TableCell align="right">{customer.extension_count}</TableCell>
                   <TableCell>
                     <Chip
                       size="small"
-                      color={customer.status === 'active' ? 'success' : customer.status === 'suspended' ? 'warning' : 'default'}
-                      label={intl.formatMessage({ id: `customers.status.${customer.status}` })}
+                      color={customer.sync_status === 'linked' ? 'success' : customer.sync_status === 'error' ? 'error' : 'warning'}
+                      label={intl.formatMessage({ id: `customers.sync.${customer.sync_status}` })}
                     />
                   </TableCell>
                   <TableCell align="right">
@@ -240,6 +254,16 @@ export default function Customers() {
                     <Button size="small" onClick={() => setEditing({ ...customer, original_status: customer.status })}>
                       <FormattedMessage id="customers.edit" />
                     </Button>
+                    {customer.odoo_url && (
+                      <Button size="small" component="a" href={customer.odoo_url} target="_blank" rel="noreferrer">
+                        <FormattedMessage id="customers.openOdoo" />
+                      </Button>
+                    )}
+                    {['error', 'unlinked'].includes(customer.sync_status) && (
+                      <Button size="small" disabled={busy} onClick={() => retrySync(customer.customer_uuid)}>
+                        <FormattedMessage id="customers.retrySync" />
+                      </Button>
+                    )}
                   </TableCell>
                 </TableRow>
               ))}
@@ -316,11 +340,9 @@ export default function Customers() {
         <DialogContent>
           {editing && (
             <Stack spacing={2} sx={{ pt: 1 }}>
-              <TextField
-                label={intl.formatMessage({ id: 'customers.name' })}
-                value={editing.display_name}
-                onChange={(event) => setEditing({ ...editing, display_name: event.target.value })}
-              />
+              <Alert severity="info">
+                <FormattedMessage id="customers.odooReadOnly" />
+              </Alert>
               <FormControl>
                 <InputLabel>
                   <FormattedMessage id="customers.status" />
@@ -349,7 +371,7 @@ export default function Customers() {
           <Button onClick={() => setEditing(null)}>
             <FormattedMessage id="customers.cancel" />
           </Button>
-          <Button variant="contained" disabled={busy || editing?.display_name.trim().length < 2} onClick={saveCustomer}>
+          <Button variant="contained" disabled={busy || editing?.status === editing?.original_status} onClick={saveCustomer}>
             <FormattedMessage id="customers.save" />
           </Button>
         </DialogActions>
@@ -359,6 +381,62 @@ export default function Customers() {
         <DialogContent>
           {detail && (
             <Stack spacing={2}>
+              <Typography variant="subtitle1">
+                <FormattedMessage id="customers.detail.profile" />
+              </Typography>
+              <Stack spacing={0.5}>
+                <Typography>
+                  <FormattedMessage id="customers.legalName" />: {detail.customer.legal_name || detail.customer.display_name || '—'}
+                </Typography>
+                <Typography>
+                  <FormattedMessage id="customers.contactEmail" />: {detail.customer.contact_email || '—'}
+                </Typography>
+                <Typography>
+                  <FormattedMessage id="customers.phone" />: {detail.customer.phone || '—'}
+                </Typography>
+                <Typography>
+                  <FormattedMessage id="customers.address" />:{' '}
+                  {[
+                    detail.customer.street,
+                    detail.customer.street2,
+                    detail.customer.city,
+                    detail.customer.postal_code,
+                    detail.customer.country_code
+                  ]
+                    .filter(Boolean)
+                    .join(', ') || '—'}
+                </Typography>
+                <Typography>
+                  <FormattedMessage id="customers.taxId" />: {detail.customer.tax_id || '—'}
+                </Typography>
+                <Typography>
+                  <FormattedMessage id="customers.website" />: {detail.customer.website || '—'}
+                </Typography>
+              </Stack>
+              <Stack direction="row" spacing={1} alignItems="center" useFlexGap flexWrap="wrap">
+                <Chip
+                  size="small"
+                  color={
+                    detail.customer.sync_status === 'linked' ? 'success' : detail.customer.sync_status === 'error' ? 'error' : 'warning'
+                  }
+                  label={intl.formatMessage({ id: `customers.sync.${detail.customer.sync_status}` })}
+                />
+                {detail.customer.last_synced_at && (
+                  <Typography variant="body2" color="text.secondary">
+                    <FormattedMessage id="customers.lastSynced" />: {new Date(detail.customer.last_synced_at).toLocaleString()}
+                  </Typography>
+                )}
+                {detail.customer.odoo_url && (
+                  <Button size="small" component="a" href={detail.customer.odoo_url} target="_blank" rel="noreferrer">
+                    <FormattedMessage id="customers.openOdoo" />
+                  </Button>
+                )}
+                {['error', 'unlinked'].includes(detail.customer.sync_status) && (
+                  <Button size="small" disabled={busy} onClick={() => retrySync(detail.customer.customer_uuid)}>
+                    <FormattedMessage id="customers.retrySync" />
+                  </Button>
+                )}
+              </Stack>
               <Typography variant="subtitle1">
                 <FormattedMessage id="customers.detail.users" />
               </Typography>

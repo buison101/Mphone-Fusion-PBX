@@ -44,6 +44,7 @@
 		'create' => 'customer_manage_create',
 		'update' => 'customer_manage_update',
 		'status' => 'customer_manage_status',
+		'sync_retry' => 'customer_manage_sync_retry',
 	];
 	if (!isset($action_map[$action])) {
 		http_response_code(400);
