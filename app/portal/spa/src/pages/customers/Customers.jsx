@@ -218,6 +218,12 @@ export default function Customers() {
                   <FormattedMessage id="customers.extensions" />
                 </TableCell>
                 <TableCell>
+                  <FormattedMessage id="customers.plan" />
+                </TableCell>
+                <TableCell>
+                  <FormattedMessage id="customers.subscriptionStatus" />
+                </TableCell>
+                <TableCell>
                   <FormattedMessage id="customers.sync" />
                 </TableCell>
                 <TableCell align="right">
@@ -251,6 +257,14 @@ export default function Customers() {
                   <TableCell>{customer.phone || '—'}</TableCell>
                   <TableCell align="right">{customer.membership_count}</TableCell>
                   <TableCell align="right">{customer.extension_count}</TableCell>
+                  <TableCell>{customer.subscription_name || '—'}</TableCell>
+                  <TableCell>
+                    {customer.subscription_status ? (
+                      <Chip size="small" label={intl.formatMessage({ id: `customers.subscription.${customer.subscription_status}` })} />
+                    ) : (
+                      '—'
+                    )}
+                  </TableCell>
                   <TableCell>
                     <Chip
                       size="small"
@@ -378,6 +392,30 @@ export default function Customers() {
                   <FormattedMessage id="customers.website" />: {detail.customer.website || '—'}
                 </Typography>
               </Stack>
+              <Typography variant="subtitle1">
+                <FormattedMessage id="customers.detail.subscription" />
+              </Typography>
+              {(detail.subscriptions || []).length ? (
+                detail.subscriptions.map((subscription) => (
+                  <Stack key={subscription.subscription_uuid} spacing={0.5}>
+                    <Typography>
+                      {subscription.display_name} · {intl.formatMessage({ id: `customers.subscription.${subscription.status}` })}
+                    </Typography>
+                    <Typography color="text.secondary">
+                      {subscription.billable_quantity} × {Number(subscription.unit_monthly_price).toLocaleString()} {subscription.currency}{' '}
+                      / {intl.formatMessage({ id: `customers.cycle.${subscription.billing_cycle}` })}
+                    </Typography>
+                    <Typography color="text.secondary">
+                      {subscription.period_start} – {subscription.period_end} · {Number(subscription.total_amount).toLocaleString()}{' '}
+                      {subscription.currency}
+                    </Typography>
+                  </Stack>
+                ))
+              ) : (
+                <Typography color="text.secondary">
+                  <FormattedMessage id="customers.subscription.none" />
+                </Typography>
+              )}
               <Stack direction="row" spacing={1} alignItems="center" useFlexGap flexWrap="wrap">
                 <Chip
                   size="small"
