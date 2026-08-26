@@ -552,5 +552,22 @@
   "billing.status.expired": "Hết hạn",
   "billing.status.refunded": "Đã hoàn",
   "billing.downloadQr": "Tải mã QR",
-  "billing.qrError": "Không thể tạo mã VietQR. Hãy dùng thông tin ngân hàng và mã thanh toán hiển thị phía trên."
+  "billing.qrError": "Không thể tạo mã VietQR. Hãy dùng thông tin ngân hàng và mã thanh toán hiển thị phía trên.",
+  "billing.prepaidBalance": "Số dư trả trước",
+  "billing.topupCode": "Mã nạp tiền",
+  "billing.topupAmount": "Số tiền nạp (VND)",
+  "billing.createTopupQr": "Tạo QR nạp tiền",
+  "billing.topupManualNotice": "Trong giai đoạn pilot, số dư được cộng sau khi quản trị viên xác minh giao dịch ngân hàng.",
+  "billing.balanceHistory": "Lịch sử số dư",
+  "billing.balanceHistoryEmpty": "Chưa có giao dịch số dư.",
+  "billing.time": "Thời gian",
+  "billing.transactionType": "Giao dịch",
+  "billing.balanceAfter": "Số dư sau giao dịch",
+  "billing.ledger.deposit": "Nạp tiền",
+  "billing.ledger.subscription_charge": "Thanh toán subscription",
+  "billing.ledger.adjustment_credit": "Điều chỉnh cộng",
+  "billing.ledger.adjustment_debit": "Điều chỉnh trừ",
+  "billing.ledger.refund": "Hoàn tiền",
+  "billing.ledger.reversal": "Đảo giao dịch",
+  "billing.ledger.opening_balance": "Số dư ban đầu"
 }

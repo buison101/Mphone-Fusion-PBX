@@ -552,5 +552,22 @@
   "billing.status.expired": "Expired",
   "billing.status.refunded": "Refunded",
   "billing.downloadQr": "Download QR",
-  "billing.qrError": "The VietQR code could not be generated. Use the bank details and payment code shown above."
+  "billing.qrError": "The VietQR code could not be generated. Use the bank details and payment code shown above.",
+  "billing.prepaidBalance": "Prepaid balance",
+  "billing.topupCode": "Top-up code",
+  "billing.topupAmount": "Top-up amount (VND)",
+  "billing.createTopupQr": "Create top-up QR",
+  "billing.topupManualNotice": "During the pilot, the balance is credited after an administrator verifies the bank transaction.",
+  "billing.balanceHistory": "Balance history",
+  "billing.balanceHistoryEmpty": "No balance transactions yet.",
+  "billing.time": "Time",
+  "billing.transactionType": "Transaction",
+  "billing.balanceAfter": "Balance after",
+  "billing.ledger.deposit": "Deposit",
+  "billing.ledger.subscription_charge": "Subscription charge",
+  "billing.ledger.adjustment_credit": "Credit adjustment",
+  "billing.ledger.adjustment_debit": "Debit adjustment",
+  "billing.ledger.refund": "Refund",
+  "billing.ledger.reversal": "Reversal",
+  "billing.ledger.opening_balance": "Opening balance"
 }
