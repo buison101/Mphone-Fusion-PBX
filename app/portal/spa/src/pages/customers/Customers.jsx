@@ -38,7 +38,6 @@ export default function Customers() {
   const [busy, setBusy] = useState(false);
   const [createOpen, setCreateOpen] = useState(false);
   const [form, setForm] = useState({ display_name: '', customer_type: 'organization', tenant_uuid: '' });
-  const [editing, setEditing] = useState(null);
   const [detail, setDetail] = useState(null);
 
   const request = useCallback(
@@ -109,13 +108,11 @@ export default function Customers() {
       setBusy(false);
     }
   };
-  const saveCustomer = async () => {
+  const updateCustomerStatus = async (customerUuid, status) => {
     setBusy(true);
     setError('');
     try {
-      if (editing.status !== editing.original_status)
-        await request({ action: 'status', customer_uuid: editing.customer_uuid, status: editing.status });
-      setEditing(null);
+      await request({ action: 'status', customer_uuid: customerUuid, status });
       await load();
     } catch (err) {
       setError(err.message);
@@ -209,6 +206,9 @@ export default function Customers() {
                   <FormattedMessage id="customers.contactEmail" />
                 </TableCell>
                 <TableCell>
+                  <FormattedMessage id="customers.status" />
+                </TableCell>
+                <TableCell>
                   <FormattedMessage id="customers.phone" />
                 </TableCell>
                 <TableCell align="right">
@@ -229,14 +229,25 @@ export default function Customers() {
               {filtered.map((customer) => (
                 <TableRow key={customer.customer_uuid}>
                   <TableCell>
-                    <Stack spacing={0.25}>
-                      <Typography>{customer.display_name}</Typography>
-                      <Typography variant="caption" color="text.secondary">
-                        {intl.formatMessage({ id: `customers.status.${customer.status}` })}
-                      </Typography>
-                    </Stack>
+                    <Typography>{customer.display_name}</Typography>
                   </TableCell>
                   <TableCell>{customer.contact_email || '—'}</TableCell>
+                  <TableCell>
+                    <FormControl size="small" sx={{ minWidth: 132 }}>
+                      <Select
+                        value={customer.status}
+                        disabled={busy}
+                        inputProps={{ 'aria-label': intl.formatMessage({ id: 'customers.status' }) }}
+                        onChange={(event) => updateCustomerStatus(customer.customer_uuid, event.target.value)}
+                      >
+                        {customerStatuses.map((status) => (
+                          <MenuItem key={status} value={status}>
+                            {intl.formatMessage({ id: `customers.status.${status}` })}
+                          </MenuItem>
+                        ))}
+                      </Select>
+                    </FormControl>
+                  </TableCell>
                   <TableCell>{customer.phone || '—'}</TableCell>
                   <TableCell align="right">{customer.membership_count}</TableCell>
                   <TableCell align="right">{customer.extension_count}</TableCell>
@@ -250,9 +261,6 @@ export default function Customers() {
                   <TableCell align="right">
                     <Button size="small" disabled={busy} onClick={() => openDetail(customer)}>
                       <FormattedMessage id="customers.view" />
-                    </Button>
-                    <Button size="small" onClick={() => setEditing({ ...customer, original_status: customer.status })}>
-                      <FormattedMessage id="customers.edit" />
                     </Button>
                     {customer.odoo_url && (
                       <Button size="small" component="a" href={customer.odoo_url} target="_blank" rel="noreferrer">
@@ -330,49 +338,6 @@ export default function Customers() {
           </Button>
           <Button variant="contained" disabled={busy || form.display_name.trim().length < 2 || !form.tenant_uuid} onClick={createCustomer}>
             <FormattedMessage id="customers.create" />
-          </Button>
-        </DialogActions>
-      </Dialog>
-      <Dialog open={Boolean(editing)} onClose={() => setEditing(null)} fullWidth maxWidth="sm">
-        <DialogTitle>
-          <FormattedMessage id="customers.edit" />
-        </DialogTitle>
-        <DialogContent>
-          {editing && (
-            <Stack spacing={2} sx={{ pt: 1 }}>
-              <Alert severity="info">
-                <FormattedMessage id="customers.odooReadOnly" />
-              </Alert>
-              <FormControl>
-                <InputLabel>
-                  <FormattedMessage id="customers.status" />
-                </InputLabel>
-                <Select
-                  value={editing.status}
-                  label={intl.formatMessage({ id: 'customers.status' })}
-                  onChange={(event) => setEditing({ ...editing, status: event.target.value })}
-                >
-                  {customerStatuses.map((status) => (
-                    <MenuItem key={status} value={status}>
-                      {intl.formatMessage({ id: `customers.status.${status}` })}
-                    </MenuItem>
-                  ))}
-                </Select>
-              </FormControl>
-              {['suspended', 'closed'].includes(editing.status) && editing.status !== editing.original_status && (
-                <Alert severity="warning">
-                  <FormattedMessage id="customers.statusWarning" />
-                </Alert>
-              )}
-            </Stack>
-          )}
-        </DialogContent>
-        <DialogActions>
-          <Button onClick={() => setEditing(null)}>
-            <FormattedMessage id="customers.cancel" />
-          </Button>
-          <Button variant="contained" disabled={busy || editing?.status === editing?.original_status} onClick={saveCustomer}>
-            <FormattedMessage id="customers.save" />
           </Button>
         </DialogActions>
       </Dialog>
