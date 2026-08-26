@@ -25,7 +25,8 @@ import ContentState from 'components/states/ContentState';
 import useSession from 'hooks/useSession';
 import { USERS_URL } from 'config';
 
-const roles = ['customer_admin', 'member', 'billing_admin'];
+const roles = ['owner', 'member'];
+const inviteRoles = ['member'];
 
 export default function Users() {
   const intl = useIntl();
@@ -290,8 +291,8 @@ export default function Users() {
                       disabled={savingId === member.membership_uuid || (member.role === 'owner' && !data?.capabilities?.superadmin)}
                       onChange={(event) => saveMember(member, { role: event.target.value })}
                     >
-                      {[...(data?.capabilities?.superadmin ? ['owner'] : []), ...roles].map((role) => (
-                        <MenuItem key={role} value={role}>
+                      {roles.map((role) => (
+                        <MenuItem key={role} value={role} disabled={role === 'owner' && !data?.capabilities?.superadmin}>
                           {intl.formatMessage({ id: `users.role.${role}` })}
                         </MenuItem>
                       ))}
@@ -354,7 +355,7 @@ export default function Users() {
                 label={intl.formatMessage({ id: 'users.role' })}
                 onChange={(event) => setInviteRole(event.target.value)}
               >
-                {roles.map((role) => (
+                {inviteRoles.map((role) => (
                   <MenuItem key={role} value={role}>
                     {intl.formatMessage({ id: `users.role.${role}` })}
                   </MenuItem>
