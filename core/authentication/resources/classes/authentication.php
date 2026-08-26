@@ -466,6 +466,11 @@ class authentication {
 			$this->domain_name = $domain_array[0];
 		}
 
+		//pbx.mphone.vn is the administration hostname for the call.mphone.vn tenant.
+		if ($this->domain_name === 'pbx.mphone.vn') {
+			$this->domain_name = 'call.mphone.vn';
+		}
+
 		//if the username
 		if (!empty($_REQUEST["username"])) {
 			$_SESSION['username'] = trim($_REQUEST["username"]);
