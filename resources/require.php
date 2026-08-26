@@ -117,6 +117,12 @@
 			$domain_name = $domain_array[0];
 		}
 
+		//pbx.mphone.vn is the administration hostname for the call.mphone.vn tenant.
+		//Keep HTTP_HOST unchanged for generated URLs while resolving the Fusion domain.
+		if ($domain_name === 'pbx.mphone.vn') {
+			$domain_name = 'call.mphone.vn';
+		}
+
 		//get the domain_uuid from the database
 		$sql = "select domain_uuid from v_domains \n";
 		$sql .= "where domain_name = :domain_name \n";
