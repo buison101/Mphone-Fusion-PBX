@@ -550,5 +550,7 @@
   "billing.status.suspended": "Tạm ngưng",
   "billing.status.cancelled": "Đã hủy",
   "billing.status.expired": "Hết hạn",
-  "billing.status.refunded": "Đã hoàn"
+  "billing.status.refunded": "Đã hoàn",
+  "billing.downloadQr": "Tải mã QR",
+  "billing.qrError": "Không thể tạo mã VietQR. Hãy dùng thông tin ngân hàng và mã thanh toán hiển thị phía trên."
 }

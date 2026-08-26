@@ -12,6 +12,7 @@ import { FormattedMessage, useIntl } from 'react-intl';
 
 import MainCard from 'components/MainCard';
 import ContentState from 'components/states/ContentState';
+import VietQrCode from 'components/billing/VietQrCode';
 import useAnalytics from 'hooks/useAnalytics';
 import { BILLING_URL } from 'config';
 
@@ -22,6 +23,7 @@ export default function Billing() {
   if (error) return <Alert severity="error"><FormattedMessage id="billing.error" /></Alert>;
   const subscriptions = data?.subscriptions ?? [];
   const periods = data?.billing_periods ?? [];
+  const payable = periods.find((item) => ['pending', 'overdue'].includes(item.status));
   const money = (value, currency = 'VND') => new Intl.NumberFormat(intl.locale, { style: 'currency', currency }).format(Number(value || 0));
   return <Stack spacing={2}>
     <Typography variant="h4"><FormattedMessage id="billing.title" /></Typography>
@@ -34,6 +36,7 @@ export default function Billing() {
     <MainCard title={<FormattedMessage id="billing.bankTransfer" />}>
       <Typography>{data?.bank?.name} · {data?.bank?.account} · {data?.bank?.account_name}</Typography>
       <Typography color="text.secondary"><FormattedMessage id="billing.transferHelp" /></Typography>
+      {payable && <VietQrCode bank={data.bank} period={payable} />}
     </MainCard>
     <MainCard title={<FormattedMessage id="billing.periods" />} content={false}>
       <TableContainer><Table><TableHead><TableRow>

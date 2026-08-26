@@ -30,6 +30,7 @@
 		? (parse_ini_file('/etc/mphone/billing.env', false, INI_SCANNER_RAW) ?: []) : [];
 	$bank = [
 		'name' => 'Techcombank',
+		'bin' => (string) ($billing_config['MPHONE_BILLING_BANK_BIN'] ?? '970407'),
 		'account' => (string) ($billing_config['MPHONE_BILLING_BANK_ACCOUNT'] ?? '662888'),
 		'account_name' => (string) ($billing_config['MPHONE_BILLING_BANK_NAME'] ?? 'MPHONE'),
 	];

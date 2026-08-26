@@ -550,5 +550,7 @@
   "billing.status.suspended": "Suspended",
   "billing.status.cancelled": "Cancelled",
   "billing.status.expired": "Expired",
-  "billing.status.refunded": "Refunded"
+  "billing.status.refunded": "Refunded",
+  "billing.downloadQr": "Download QR",
+  "billing.qrError": "The VietQR code could not be generated. Use the bank details and payment code shown above."
 }
