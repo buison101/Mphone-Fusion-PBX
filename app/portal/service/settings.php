@@ -5,7 +5,7 @@
 
 	portal_json_headers();
 	if (($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'GET') { http_response_code(405); echo json_encode(['error' => 'method_not_allowed']); exit; }
-	portal_require_session(['extension_view']);
+	portal_require_session();
 	$domain_uuid = $_SESSION['domain_uuid'] ?? '';
 	if (!is_uuid($domain_uuid)) { http_response_code(400); echo json_encode(['error' => 'invalid_domain']); exit; }
 	$uuids = portal_assigned_extension_uuids();
