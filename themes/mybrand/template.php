@@ -10,11 +10,7 @@
 <head>
 {if $settings.theme.menu_style == 'side'}
 <script>
-(function() {
-	if (window.matchMedia && window.matchMedia('(min-width: 1200px)').matches) {
-		document.documentElement.className += ' menu_side_preload_desktop';
-	}
-})();
+	document.documentElement.className += ' menu_side_preload';
 </script>
 {/if}
 <meta charset='utf-8'>
@@ -31,7 +27,7 @@
 	<link rel='preconnect' href='https://fonts.googleapis.com'>
 	<link rel='preconnect' href='https://fonts.gstatic.com' crossorigin>
 	<link rel='stylesheet' type='text/css' href='https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap'>
-	<link rel='stylesheet' type='text/css' href='{$project_path}/themes/mybrand/css.php?updated=202606090000'>
+	<link rel='stylesheet' type='text/css' href='{$project_path}/themes/mybrand/css.php?updated=202608260000'>
 {*//link to custom css file *}
 	{if !empty($settings.theme.custom_css)}
 		<link rel='stylesheet' type='text/css' href='{$settings.theme.custom_css}'>
@@ -265,7 +261,7 @@
 			{literal}
 			menu_side_desktop_default();
 			menu_side_apply_layout(false);
-			jQuery(document.documentElement).removeClass("menu_side_preload_desktop");
+			jQuery(document.documentElement).removeClass("menu_side_preload");
 			jQuery("#content_container").on("click touchstart", function(event) {
 				if (jQuery(window).width() < 1200 && menu_side_state_current == "expanded") {
 					event.preventDefault();

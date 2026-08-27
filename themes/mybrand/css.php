@@ -916,14 +916,66 @@ else { //default: white
 		border-radius: <?=$menu_main_border_radius?>;
 		}
 
+	/* Reserve the responsive side-menu layout before jQuery initializes it. */
+	@media (max-width: 575.98px) {
+		html.menu_side_preload div#menu_side_container {
+			display: none !important;
+			width: 0 !important;
+			}
+
+		html.menu_side_preload div#content_container {
+			width: 100% !important;
+			}
+	}
+
+	@media (min-width: 576px) and (max-width: 1199.98px) {
+		html.menu_side_preload div#menu_side_container {
+			width: <?=$menu_side_width_contracted?>px !important;
+			}
+
+		html.menu_side_preload div#content_container {
+			width: calc(100% - <?=$menu_side_width_contracted?>px) !important;
+			float: right;
+			}
+
+		html.menu_side_preload #menu_brand_image_expanded,
+		html.menu_side_preload .menu_brand_text,
+		html.menu_side_preload .menu_side_item_main_sub_icons,
+		html.menu_side_preload .menu_side_item_title {
+			display: none !important;
+			}
+
+		html.menu_side_preload div#menu_side_control_container {
+			justify-content: center;
+			}
+
+		html.menu_side_preload div#menu_side_control_container .menu_side_control_state {
+			margin-left: 0;
+			}
+	}
+
 	@media (min-width: 1200px) {
-		html.menu_side_preload_desktop div#menu_side_container {
+		html.menu_side_preload div#menu_side_container {
 			width: <?=$menu_side_width_expanded?>px !important;
 			}
 
-		html.menu_side_preload_desktop div#content_container {
+		html.menu_side_preload div#content_container {
 			width: calc(100% - <?=$menu_side_width_expanded?>px) !important;
 			float: right;
+			}
+
+		html.menu_side_preload #menu_brand_image_contracted {
+			display: none !important;
+			}
+
+		html.menu_side_preload #menu_brand_image_expanded,
+		html.menu_side_preload .menu_brand_text,
+		html.menu_side_preload .menu_side_item_title {
+			display: inline-block !important;
+			}
+
+		html.menu_side_preload .menu_side_item_main_sub_icons {
+			display: block !important;
 			}
 	}
 

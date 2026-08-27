@@ -16,7 +16,8 @@
 	$menu = $database->select("select count(*) from v_menu_items where menu_item_link='/app/customer_identities/customer_identities.php'", [], 'column');
 	customer_identity_check((int) $menu === 0, 'standalone operator menu removed');
 
-	$command = "curl -sS -o /dev/null -w '%{http_code}' -H 'Content-Type: application/json' --data '{\"action\":\"list\"}' http://127.0.0.1:8000/functions/v1/mphone-customer-admin";
+	$admin_endpoint = customer_platform_api_url() . '/functions/v1/mphone-customer-admin';
+	$command = "curl -sS -o /dev/null -w '%{http_code}' -H 'Content-Type: application/json' --data '{\"action\":\"list\"}' " . escapeshellarg($admin_endpoint);
 	$output = [];
 	exec($command, $output, $status);
 	customer_identity_check($status === 0 && trim(implode('', $output)) === '401', 'admin API rejects missing service credential');

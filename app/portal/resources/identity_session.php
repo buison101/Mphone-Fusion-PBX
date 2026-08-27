@@ -2,6 +2,13 @@
 
 	function portal_identity_api_url(): string {
 		$value = getenv('MPHONE_PORTAL_AUTH_URL');
+		if (empty($value)) {
+			$value = getenv('MPHONE_CUSTOMER_PLATFORM_URL');
+		}
+		$config_file = '/etc/mphone/customer-platform-url';
+		if (empty($value) && is_readable($config_file)) {
+			$value = trim((string) file_get_contents($config_file));
+		}
 		return rtrim(!empty($value) ? $value : 'http://127.0.0.1:8000', '/');
 	}
 

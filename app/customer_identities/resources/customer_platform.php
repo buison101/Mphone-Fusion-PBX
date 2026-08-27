@@ -1,5 +1,14 @@
 <?php
 
+	function customer_platform_api_url(): string {
+		$value = getenv('MPHONE_CUSTOMER_PLATFORM_URL');
+		$config_file = '/etc/mphone/customer-platform-url';
+		if (empty($value) && is_readable($config_file)) {
+			$value = trim((string) file_get_contents($config_file));
+		}
+		return rtrim(!empty($value) ? $value : 'http://127.0.0.1:8000', '/');
+	}
+
 	function customer_platform_request(array $payload): array {
 		$secret_file = '/etc/mphone/customer-admin-secret';
 		if (!is_readable($secret_file)) {
@@ -8,7 +17,7 @@
 		$secret = trim((string) file_get_contents($secret_file));
 		$payload['operator_user_uuid'] = $_SESSION['user_uuid'] ?? null;
 		$payload['operator_domain_uuid'] = $_SESSION['domain_uuid'] ?? null;
-		$handle = curl_init('http://127.0.0.1:8000/functions/v1/mphone-customer-admin');
+		$handle = curl_init(customer_platform_api_url() . '/functions/v1/mphone-customer-admin');
 		curl_setopt_array($handle, [
 			CURLOPT_POST => true,
 			CURLOPT_HTTPHEADER => [
