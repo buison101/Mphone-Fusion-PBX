@@ -160,6 +160,10 @@
 	$_SESSION['portal']['csrf'] = bin2hex(random_bytes(32));
 
 	echo json_encode([
+		'workspace' => [
+			'active' => portal_identity_has_workspace(),
+			'customer_uuid' => portal_identity_has_workspace() ? ($_SESSION['portal_identity']['customer_uuid'] ?? null) : null,
+		],
 		'user_management' => [
 			'allowed' => portal_identity_is_active()
 				? in_array((string) ($_SESSION['portal_identity']['membership']['role'] ?? ''), ['owner', 'customer_admin'], true)
@@ -170,8 +174,8 @@
 			'identity_uuid' => $_SESSION['portal_identity']['identity_uuid'],
 			'primary_email' => $_SESSION['portal_identity']['primary_email'] ?? '',
 		] : null,
-		'customer' => portal_identity_is_active() ? ($_SESSION['portal_identity']['customer'] ?? []) : null,
-		'membership' => portal_identity_is_active() ? ($_SESSION['portal_identity']['membership'] ?? []) : null,
+		'customer' => portal_identity_has_workspace() ? ($_SESSION['portal_identity']['customer'] ?? null) : null,
+		'membership' => portal_identity_has_workspace() ? ($_SESSION['portal_identity']['membership'] ?? null) : null,
 		'user' => [
 			'user_uuid' => $_SESSION['user_uuid'],
 			'username' => $_SESSION['username'] ?? '',

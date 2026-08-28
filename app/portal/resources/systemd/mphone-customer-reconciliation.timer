@@ -1,0 +1,12 @@
+[Unit]
+Description=Run Mphone Customer Platform reconciliation periodically
+
+[Timer]
+OnBootSec=5min
+OnUnitActiveSec=15min
+RandomizedDelaySec=2min
+Persistent=true
+Unit=mphone-customer-reconciliation.service
+
+[Install]
+WantedBy=timers.target

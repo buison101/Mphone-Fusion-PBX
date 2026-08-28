@@ -7,9 +7,14 @@
 	header('Cache-Control: no-store');
 	header('X-Content-Type-Options: nosniff');
 
-	if (!portal_identity_validate_session(true) || !portal_identity_is_active()) {
+	if (!portal_identity_validate_session(true) || !portal_identity_has_workspace()) {
 		http_response_code(401);
 		echo json_encode(['error' => 'unauthorized']);
+		exit;
+	}
+	if (!in_array((string) ($_SESSION['portal_identity']['membership']['role'] ?? ''), ['owner', 'billing_admin'], true)) {
+		http_response_code(403);
+		echo json_encode(['error' => 'forbidden']);
 		exit;
 	}
 	if (($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'GET') {

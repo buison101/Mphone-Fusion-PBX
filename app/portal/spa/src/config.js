@@ -16,7 +16,9 @@ export const USERS_URL = '/app/portal/service/users.php';
 export const CUSTOMERS_URL = '/app/portal/service/customers.php';
 export const GOOGLE_OAUTH_URL = '/app/portal/service/google_oauth.php';
 export const ACCOUNT_URL = '/app/portal/service/account.php';
+export const WORKSPACES_URL = '/app/portal/service/workspaces.php';
 export const BILLING_URL = '/app/portal/service/billing.php';
+export const CUSTOMER_URL = '/app/portal/service/customer.php';
 export const DASHBOARD_URL = '/app/portal/service/dashboard.php';
 export const CALLS_URL = '/app/portal/service/calls.php';
 export const RECORDING_URL = '/app/portal/service/recording.php';
@@ -33,7 +35,7 @@ export const FORWARDING_URL = '/app/portal/service/forwarding.php';
 export const CLICK_TO_CALL_URL = '/app/portal/service/click_to_call.php';
 export const LOGIN_URL = '/';
 export const LOGOUT_URL = '/logout.php';
-export const ADMIN_URL = '/core/dashboard/';
+export const ADMIN_URL = 'https://pbx.mphone.vn/core/dashboard/';
 
 const config = {
   fontFamily: `'Public Sans', sans-serif`

@@ -39,6 +39,9 @@ export default function Customers() {
   const [createOpen, setCreateOpen] = useState(false);
   const [form, setForm] = useState({ display_name: '', customer_type: 'organization', tenant_uuid: '' });
   const [detail, setDetail] = useState(null);
+  const [extensionOpen, setExtensionOpen] = useState(false);
+  const [profileReview, setProfileReview] = useState(null);
+  const [reviewNote, setReviewNote] = useState('');
 
   const request = useCallback(
     async (body) => {
@@ -143,6 +146,64 @@ export default function Customers() {
     } finally {
       setBusy(false);
     }
+  };
+  const assignExtension = async (extension) => {
+    if (!detail?.customer?.customer_uuid) return;
+    const transferring = Boolean(extension.owner_customer_uuid && extension.owner_customer_uuid !== detail.customer.customer_uuid);
+    if (
+      transferring &&
+      !window.confirm(
+        intl.formatMessage(
+          { id: 'customers.extensions.transferConfirm' },
+          { extension: extension.extension, owner: extension.owner_name, target: detail.customer.display_name }
+        )
+      )
+    )
+      return;
+    setBusy(true);
+    setError('');
+    try {
+      await request({
+        action: 'extension_transfer',
+        customer_uuid: detail.customer.customer_uuid,
+        extension_uuid: extension.extension_uuid,
+        confirm_transfer: transferring,
+        source_customer_uuid: extension.owner_customer_uuid
+      });
+      await Promise.all([load(), openDetail({ customer_uuid: detail.customer.customer_uuid })]);
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setBusy(false);
+    }
+  };
+  const decideProfileChange = async (decision) => {
+    if (!profileReview || !detail?.customer?.customer_uuid) return;
+    setBusy(true);
+    setError('');
+    try {
+      await request({
+        action: decision === 'approve' ? 'profile_change_approve' : 'profile_change_reject',
+        request_uuid: profileReview.request_uuid,
+        review_note: reviewNote
+      });
+      const customerUuid = detail.customer.customer_uuid;
+      setProfileReview(null);
+      setReviewNote('');
+      await openDetail({ customer_uuid: customerUuid });
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setBusy(false);
+    }
+  };
+  const retryProfileChange = async (requestUuid) => {
+    if (!detail?.customer?.customer_uuid) return;
+    setBusy(true); setError('');
+    try {
+      await request({ action: 'profile_change_retry', request_uuid: requestUuid });
+      await openDetail({ customer_uuid: detail.customer.customer_uuid });
+    } catch (err) { setError(err.message); } finally { setBusy(false); }
   };
 
   if (!session?.user_management?.superadmin) return <ContentState title={<FormattedMessage id="customers.forbidden" />} />;
@@ -471,9 +532,14 @@ export default function Customers() {
                   ))}
                 </TableBody>
               </Table>
-              <Typography variant="subtitle1">
-                <FormattedMessage id="customers.detail.extensions" />
-              </Typography>
+              <Stack direction="row" justifyContent="space-between" alignItems="center">
+                <Typography variant="subtitle1">
+                  <FormattedMessage id="customers.detail.extensions" />
+                </Typography>
+                <Button size="small" variant="outlined" onClick={() => setExtensionOpen(true)}>
+                  <FormattedMessage id="customers.extensions.manage" />
+                </Button>
+              </Stack>
               <Stack direction="row" spacing={1} useFlexGap flexWrap="wrap">
                 {detail.extensions.map((extension) => (
                   <Chip
@@ -483,6 +549,33 @@ export default function Customers() {
                 ))}
                 {detail.extensions.length === 0 && <Typography color="text.secondary">—</Typography>}
               </Stack>
+              <Typography variant="subtitle1">
+                <FormattedMessage id="customers.profileChanges" />
+              </Typography>
+              {(detail.profile_change_requests || []).map((item) => (
+                <Stack key={item.request_uuid} direction={{ xs: 'column', sm: 'row' }} spacing={1}
+                  justifyContent="space-between" alignItems={{ sm: 'center' }}>
+                  <Stack>
+                    <Typography>{item.requested_by_email} · {new Date(item.submitted_at).toLocaleString()}</Typography>
+                    <Typography variant="caption" color="text.secondary">{(item.changed_fields || []).join(', ')}</Typography>
+                    {item.review_note && <Typography variant="caption" color="text.secondary">{item.review_note}</Typography>}
+                  </Stack>
+                  <Stack direction="row" spacing={1} alignItems="center">
+                    <Chip size="small" label={intl.formatMessage({ id: `customer.changeStatus.${item.status}` })} />
+                    {['submitted', 'under_review'].includes(item.status) && (
+                      <Button size="small" onClick={() => { setProfileReview(item); setReviewNote(''); }}>
+                        <FormattedMessage id="customers.review" />
+                      </Button>
+                    )}
+                    {item.status === 'failed' && (
+                      <Button size="small" disabled={busy} onClick={() => retryProfileChange(item.request_uuid)}>
+                        <FormattedMessage id="customers.retrySync" />
+                      </Button>
+                    )}
+                  </Stack>
+                </Stack>
+              ))}
+              {!detail.profile_change_requests?.length && <Typography color="text.secondary">—</Typography>}
               <Typography variant="subtitle1">
                 <FormattedMessage id="customers.detail.audit" />
               </Typography>
@@ -497,6 +590,92 @@ export default function Customers() {
         </DialogContent>
         <DialogActions>
           <Button onClick={() => setDetail(null)}>
+            <FormattedMessage id="customers.close" />
+          </Button>
+        </DialogActions>
+      </Dialog>
+      <Dialog open={Boolean(profileReview)} onClose={() => !busy && setProfileReview(null)} fullWidth maxWidth="sm">
+        <DialogTitle><FormattedMessage id="customers.reviewProfileChange" /></DialogTitle>
+        <DialogContent>
+          <Stack spacing={2} sx={{ pt: 1 }}>
+            {(profileReview?.changed_fields || []).map((field) => (
+              <Stack key={field}>
+                <Typography variant="caption" color="text.secondary"><FormattedMessage id={`customer.field.${field}`} /></Typography>
+                <Typography>{String(profileReview?.old_values?.[field] || '—')} → {String(profileReview?.new_values?.[field] || '—')}</Typography>
+              </Stack>
+            ))}
+            <TextField multiline minRows={3} value={reviewNote} onChange={(event) => setReviewNote(event.target.value)}
+              label={intl.formatMessage({ id: 'customers.reviewNote' })} inputProps={{ maxLength: 1000 }} />
+          </Stack>
+        </DialogContent>
+        <DialogActions>
+          <Button disabled={busy} onClick={() => setProfileReview(null)}><FormattedMessage id="customers.cancel" /></Button>
+          <Button color="error" disabled={busy || reviewNote.trim().length < 2} onClick={() => decideProfileChange('reject')}>
+            <FormattedMessage id="customers.reject" />
+          </Button>
+          <Button variant="contained" disabled={busy} onClick={() => decideProfileChange('approve')}>
+            <FormattedMessage id="customers.approve" />
+          </Button>
+        </DialogActions>
+      </Dialog>
+      <Dialog open={extensionOpen} onClose={() => !busy && setExtensionOpen(false)} fullWidth maxWidth="md">
+        <DialogTitle>
+          <FormattedMessage id="customers.extensions.title" values={{ customer: detail?.customer?.display_name || '' }} />
+        </DialogTitle>
+        <DialogContent>
+          <Alert severity="info" sx={{ mb: 2 }}>
+            <FormattedMessage id="customers.extensions.help" />
+          </Alert>
+          <Table size="small">
+            <TableHead>
+              <TableRow>
+                <TableCell>
+                  <FormattedMessage id="customers.extensions.extension" />
+                </TableCell>
+                <TableCell>
+                  <FormattedMessage id="customers.extensions.currentOwner" />
+                </TableCell>
+                <TableCell align="right">
+                  <FormattedMessage id="customers.actions" />
+                </TableCell>
+              </TableRow>
+            </TableHead>
+            <TableBody>
+              {(detail?.extension_candidates || []).map((extension) => {
+                const current = extension.owner_customer_uuid === detail?.customer?.customer_uuid;
+                return (
+                  <TableRow key={extension.extension_uuid}>
+                    <TableCell>
+                      {extension.extension}
+                      {extension.display_name ? ` · ${extension.display_name}` : ''}
+                    </TableCell>
+                    <TableCell>{extension.owner_name || <FormattedMessage id="customers.extensions.unassigned" />}</TableCell>
+                    <TableCell align="right">
+                      <Button size="small" disabled={busy || current} onClick={() => assignExtension(extension)}>
+                        <FormattedMessage
+                          id={
+                            current
+                              ? 'customers.extensions.current'
+                              : extension.owner_customer_uuid
+                                ? 'customers.extensions.transfer'
+                                : 'customers.extensions.assign'
+                          }
+                        />
+                      </Button>
+                    </TableCell>
+                  </TableRow>
+                );
+              })}
+            </TableBody>
+          </Table>
+          {(detail?.extension_candidates || []).length === 0 && (
+            <Typography color="text.secondary" sx={{ mt: 2 }}>
+              <FormattedMessage id="customers.extensions.none" />
+            </Typography>
+          )}
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setExtensionOpen(false)} disabled={busy}>
             <FormattedMessage id="customers.close" />
           </Button>
         </DialogActions>

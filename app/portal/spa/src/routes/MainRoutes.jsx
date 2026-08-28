@@ -5,6 +5,7 @@ import { Navigate } from 'react-router-dom';
 import Loadable from 'components/Loadable';
 import DashboardLayout from 'layout/Dashboard';
 import { APP_DEFAULT_PATH } from 'config';
+import useSession from 'hooks/useSession';
 
 const Overview = Loadable(lazy(() => import('pages/dashboard/Overview')));
 const ActiveCalls = Loadable(lazy(() => import('pages/calls/ActiveCalls')));
@@ -15,11 +16,25 @@ const MissedCalls = Loadable(lazy(() => import('pages/missed/MissedCalls')));
 const Contacts = Loadable(lazy(() => import('pages/contacts/Contacts')));
 const Settings = Loadable(lazy(() => import('pages/settings/Settings')));
 const Account = Loadable(lazy(() => import('pages/account/Account')));
-const Users = Loadable(lazy(() => import('pages/users/Users')));
-const Customers = Loadable(lazy(() => import('pages/customers/Customers')));
+const SystemUsers = Loadable(lazy(() => import('pages/users/SystemUsers')));
+const CustomerMembers = Loadable(lazy(() => import('pages/users/CustomerMembers')));
+const CustomerArea = Loadable(lazy(() => import('pages/customers/CustomerArea')));
+const CustomerProfile = Loadable(lazy(() => import('pages/customers/CustomerProfile')));
+const CustomerServices = Loadable(lazy(() => import('pages/customers/CustomerServices')));
+const CustomerSecurity = Loadable(lazy(() => import('pages/customers/CustomerSecurity')));
 const Billing = Loadable(lazy(() => import('pages/billing/Billing')));
 
 // ==============================|| MAIN ROUTING ||============================== //
+
+function LandingRedirect() {
+  const { session } = useSession();
+  return <Navigate to={session?.identity && !session?.workspace?.active ? '/customers' : APP_DEFAULT_PATH} replace />;
+}
+
+function LegacyUsersRedirect() {
+  const { session } = useSession();
+  return <Navigate to={session?.identity ? '/customer/members' : '/admin/users'} replace />;
+}
 
 const MainRoutes = {
   path: '/',
@@ -27,7 +42,7 @@ const MainRoutes = {
   children: [
     {
       path: '/',
-      element: <Navigate to={APP_DEFAULT_PATH} replace />
+      element: <LandingRedirect />
     },
     {
       path: 'recordings',
@@ -55,11 +70,31 @@ const MainRoutes = {
     },
     {
       path: 'users',
-      element: <Users />
+      element: <LegacyUsersRedirect />
+    },
+    {
+      path: 'admin/users',
+      element: <SystemUsers />
+    },
+    {
+      path: 'customer/members',
+      element: <CustomerMembers />
+    },
+    {
+      path: 'customer/profile',
+      element: <CustomerProfile />
+    },
+    {
+      path: 'customer/services',
+      element: <CustomerServices />
+    },
+    {
+      path: 'customer/security',
+      element: <CustomerSecurity />
     },
     {
       path: 'customers',
-      element: <Customers />
+      element: <CustomerArea />
     },
     {
       path: 'billing',

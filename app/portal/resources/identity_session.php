@@ -44,10 +44,31 @@
 		];
 	}
 
+	function portal_identity_api_binary_request(string $action, string $access_token): array {
+		$url = portal_identity_api_url() . '/functions/v1/mphone-auth-v2/' . ltrim($action, '/');
+		$handle = curl_init($url);
+		curl_setopt_array($handle, [
+			CURLOPT_HTTPHEADER => ['Accept: image/*', 'Authorization: Bearer ' . $access_token],
+			CURLOPT_RETURNTRANSFER => true,
+			CURLOPT_CONNECTTIMEOUT => 3,
+			CURLOPT_TIMEOUT => 8,
+		]);
+		$body = curl_exec($handle);
+		$status = (int) curl_getinfo($handle, CURLINFO_RESPONSE_CODE);
+		$content_type = (string) curl_getinfo($handle, CURLINFO_CONTENT_TYPE);
+		curl_close($handle);
+		return ['status' => $status, 'body' => is_string($body) ? $body : '', 'content_type' => $content_type];
+	}
+
 	function portal_identity_is_active(): bool {
 		return !empty($_SESSION['portal_identity']['identity_uuid'])
-			&& !empty($_SESSION['portal_identity']['customer_uuid'])
 			&& !empty($_SESSION['portal_identity']['session_id']);
+	}
+
+	function portal_identity_has_workspace(): bool {
+		return portal_identity_is_active()
+			&& !empty($_SESSION['portal_identity']['customer_uuid'])
+			&& !empty($_SESSION['portal_identity']['membership_uuid']);
 	}
 
 	function portal_identity_login_csrf(): string {
@@ -191,7 +212,8 @@
 		if ($session_result['status'] !== 200
 			|| ($principal['subjectKind'] ?? '') !== 'customer_identity'
 			|| ($principal['identityUuid'] ?? '') !== ($_SESSION['portal_identity']['identity_uuid'] ?? '')
-			|| ($principal['customerUuid'] ?? '') !== ($_SESSION['portal_identity']['customer_uuid'] ?? '')) {
+			|| ($principal['customerUuid'] ?? '') !== ($_SESSION['portal_identity']['customer_uuid'] ?? '')
+			|| ($principal['membershipUuid'] ?? '') !== ($_SESSION['portal_identity']['membership_uuid'] ?? '')) {
 			portal_identity_clear_local_session();
 			return false;
 		}

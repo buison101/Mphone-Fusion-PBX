@@ -357,7 +357,7 @@ bị nhầm với thông tin đăng nhập hơn `Tài khoản dịch vụ`.
 | Personal Identity profile | Thông tin cá nhân | Tên, avatar, điện thoại, ngôn ngữ |
 | Customer | Hồ sơ dịch vụ | Tên bao quát hướng khách hàng |
 | Customer list | Hồ sơ dịch vụ | Nhãn menu/danh sách |
-| Active Customer | Hồ sơ đang sử dụng | Ngữ cảnh dịch vụ hiện tại |
+| Active Customer | Hồ sơ hiện tại | Ngữ cảnh dịch vụ hiện tại |
 | Customer switcher | Chuyển hồ sơ | Nhãn hành động ngắn |
 | Individual Customer | Hồ sơ cá nhân | Chủ thể sử dụng dịch vụ là cá nhân |
 | Organization Customer | Hồ sơ doanh nghiệp | Công ty hoặc tổ chức |

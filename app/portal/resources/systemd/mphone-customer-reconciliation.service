@@ -1,0 +1,11 @@
+[Unit]
+Description=Mphone Customer Platform reconciliation
+After=network-online.target docker.service
+Wants=network-online.target
+
+[Service]
+Type=oneshot
+User=root
+ExecStart=/usr/bin/flock -n /run/mphone-customer-reconciliation.lock /usr/bin/php /var/www/fusionpbx/app/portal/resources/reconcile.php
+PrivateTmp=true
+NoNewPrivileges=true

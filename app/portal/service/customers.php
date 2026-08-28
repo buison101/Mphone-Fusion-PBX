@@ -45,6 +45,10 @@
 		'update' => 'customer_manage_update',
 		'status' => 'customer_manage_status',
 		'sync_retry' => 'customer_manage_sync_retry',
+		'extension_transfer' => 'customer_manage_extension_transfer',
+		'profile_change_approve' => 'customer_profile_change_approve',
+		'profile_change_reject' => 'customer_profile_change_reject',
+		'profile_change_retry' => 'customer_profile_change_retry',
 	];
 	if (!isset($action_map[$action])) {
 		http_response_code(400);

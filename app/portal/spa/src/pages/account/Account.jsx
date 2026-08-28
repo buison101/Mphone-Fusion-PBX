@@ -1,9 +1,11 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 
 import Alert from '@mui/material/Alert';
+import Avatar from '@mui/material/Avatar';
 import Button from '@mui/material/Button';
 import Chip from '@mui/material/Chip';
 import Grid from '@mui/material/Grid';
+import MenuItem from '@mui/material/MenuItem';
 import Stack from '@mui/material/Stack';
 import Table from '@mui/material/Table';
 import TableBody from '@mui/material/TableBody';
@@ -35,6 +37,18 @@ function IdentityAccount({ session }) {
   const [newEmail, setNewEmail] = useState('');
   const [googlePassword, setGooglePassword] = useState('');
   const [googleLinkReady, setGoogleLinkReady] = useState(new URLSearchParams(window.location.search).get('google') === 'link_ready');
+  const [profile, setProfile] = useState({ full_name: '', phone_number: '', locale: 'vi-VN', timezone: 'Asia/Ho_Chi_Minh', version: 1 });
+
+  useEffect(() => {
+    if (!data?.identity) return;
+    setProfile({
+      full_name: data.identity.full_name || '',
+      phone_number: data.identity.phone_number || '',
+      locale: data.identity.locale || 'vi-VN',
+      timezone: data.identity.timezone || 'Asia/Ho_Chi_Minh',
+      version: data.identity.profile_version || 1
+    });
+  }, [data?.identity]);
 
   const googleProvider = (data?.providers ?? []).find((provider) => provider.provider === 'google');
 
@@ -168,6 +182,50 @@ function IdentityAccount({ session }) {
     refresh();
   };
 
+  const saveProfile = async (event) => {
+    event.preventDefault();
+    setBusy('profile');
+    setFeedback('');
+    const { response, payload } = await postAction({ action: 'update_profile', ...profile });
+    setBusy('');
+    if (!response.ok) {
+      setFeedback(payload.error === 'profile_conflict' ? 'profileConflict' : 'profileError');
+      if (payload.error === 'profile_conflict') refresh();
+      return;
+    }
+    setFeedback('profileSaved');
+    refresh();
+  };
+
+  const uploadAvatar = async (event) => {
+    const file = event.target.files?.[0];
+    event.target.value = '';
+    if (!file) return;
+    if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type) || file.size > 2 * 1024 * 1024) {
+      setFeedback('avatarInvalid');
+      return;
+    }
+    setBusy('avatar');
+    setFeedback('');
+    const dataUrl = await new Promise((resolve, reject) => {
+      const reader = new FileReader();
+      reader.onload = () => resolve(String(reader.result || ''));
+      reader.onerror = reject;
+      reader.readAsDataURL(file);
+    }).catch(() => '');
+    const encoded = dataUrl.includes(',') ? dataUrl.split(',')[1] : '';
+    const { response } = encoded
+      ? await postAction({ action: 'update_avatar', content_type: file.type, data: encoded })
+      : { response: { ok: false } };
+    setBusy('');
+    if (!response.ok) {
+      setFeedback('avatarError');
+      return;
+    }
+    setFeedback('avatarSaved');
+    refresh();
+  };
+
   if (isLoading && !data) return <ContentState state="loading" title={<FormattedMessage id="table.loading" />} />;
   if (error) {
     return (
@@ -205,12 +263,13 @@ function IdentityAccount({ session }) {
           <FormattedMessage id="account.error" />
         </Alert>
       )}
-      {['passwordChanged', 'emailChangeSent', 'googleLinked', 'googleUnlinked'].includes(feedback) && (
+      {['passwordChanged', 'emailChangeSent', 'googleLinked', 'googleUnlinked', 'profileSaved', 'avatarSaved'].includes(feedback) && (
         <Alert severity="success">
           <FormattedMessage id={`account.security.${feedback}`} />
         </Alert>
       )}
-      {['passwordMismatch', 'reauthError', 'emailUnavailable', 'emailDeliveryFailed', 'googleLinkError', 'googleUnlinkError'].includes(
+      {['passwordMismatch', 'reauthError', 'emailUnavailable', 'emailDeliveryFailed', 'googleLinkError', 'googleUnlinkError',
+        'profileConflict', 'profileError', 'avatarInvalid', 'avatarError'].includes(
         feedback
       ) && (
         <Alert severity="error">
@@ -220,7 +279,46 @@ function IdentityAccount({ session }) {
       <Grid container spacing={2.5}>
         <Grid size={{ xs: 12, md: 6 }}>
           <MainCard title={<FormattedMessage id="account.profile" />}>
-            <Stack sx={{ gap: 1.5 }}>
+            <Stack component="form" onSubmit={saveProfile} sx={{ gap: 1.5 }}>
+              <Stack direction="row" sx={{ gap: 2, alignItems: 'center' }}>
+                <Avatar
+                  src={data?.identity?.avatar_version > 0 ? `${ACCOUNT_URL}?resource=avatar&v=${data.identity.avatar_version}` : undefined}
+                  sx={{ width: 72, height: 72, fontSize: 24 }}
+                >
+                  {(profile.full_name || data?.identity?.primary_email || '?').trim().charAt(0).toUpperCase()}
+                </Avatar>
+                <Button component="label" variant="outlined" disabled={busy !== ''}>
+                  <FormattedMessage id="account.profile.avatar" />
+                  <input hidden type="file" accept="image/jpeg,image/png,image/webp" onChange={uploadAvatar} />
+                </Button>
+              </Stack>
+              <TextField
+                label={<FormattedMessage id="account.profile.fullName" />}
+                value={profile.full_name}
+                inputProps={{ maxLength: 120 }}
+                onChange={(event) => setProfile((current) => ({ ...current, full_name: event.target.value }))}
+              />
+              <TextField
+                label={<FormattedMessage id="account.profile.phone" />}
+                value={profile.phone_number}
+                inputProps={{ maxLength: 32 }}
+                onChange={(event) => setProfile((current) => ({ ...current, phone_number: event.target.value }))}
+              />
+              <TextField
+                select
+                label={<FormattedMessage id="account.profile.language" />}
+                value={profile.locale}
+                onChange={(event) => setProfile((current) => ({ ...current, locale: event.target.value }))}
+              >
+                <MenuItem value="vi-VN"><FormattedMessage id="account.profile.language.vi" /></MenuItem>
+                <MenuItem value="en"><FormattedMessage id="account.profile.language.en" /></MenuItem>
+              </TextField>
+              <TextField
+                label={<FormattedMessage id="account.profile.timezone" />}
+                value={profile.timezone}
+                inputProps={{ maxLength: 64 }}
+                onChange={(event) => setProfile((current) => ({ ...current, timezone: event.target.value }))}
+              />
               <Stack>
                 <Typography variant="caption" color="text.secondary">
                   <FormattedMessage id="account.email" />
@@ -250,6 +348,9 @@ function IdentityAccount({ session }) {
                 </Typography>
                 <Typography>{data?.membership?.role || '—'}</Typography>
               </Stack>
+              <Button type="submit" variant="contained" disabled={busy !== ''}>
+                <FormattedMessage id="account.profile.save" />
+              </Button>
             </Stack>
           </MainCard>
         </Grid>

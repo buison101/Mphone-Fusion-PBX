@@ -1,4 +1,5 @@
 import { useCallback, useEffect, useMemo, useState } from 'react';
+import PropTypes from 'prop-types';
 import { FormattedMessage, useIntl } from 'react-intl';
 import Alert from '@mui/material/Alert';
 import Button from '@mui/material/Button';
@@ -8,6 +9,7 @@ import DialogActions from '@mui/material/DialogActions';
 import DialogContent from '@mui/material/DialogContent';
 import DialogTitle from '@mui/material/DialogTitle';
 import FormControl from '@mui/material/FormControl';
+import FormControlLabel from '@mui/material/FormControlLabel';
 import InputLabel from '@mui/material/InputLabel';
 import MenuItem from '@mui/material/MenuItem';
 import Select from '@mui/material/Select';
@@ -25,10 +27,10 @@ import ContentState from 'components/states/ContentState';
 import useSession from 'hooks/useSession';
 import { USERS_URL } from 'config';
 
-const roles = ['owner', 'member'];
-const inviteRoles = ['member'];
+const roles = ['owner', 'customer_admin', 'billing_admin', 'member'];
+const inviteRoles = ['customer_admin', 'billing_admin', 'member'];
 
-export default function Users() {
+export default function Users({ titleId = 'users.title', assignmentManagement = true }) {
   const intl = useIntl();
   const { session } = useSession();
   const [customers, setCustomers] = useState([]);
@@ -45,6 +47,10 @@ export default function Users() {
   const [mergePreview, setMergePreview] = useState(null);
   const [mergeConfirmation, setMergeConfirmation] = useState('');
   const [selectedMemberships, setSelectedMemberships] = useState([]);
+  const [assignmentMember, setAssignmentMember] = useState(null);
+  const [assignmentRows, setAssignmentRows] = useState([]);
+  const [assignmentLoading, setAssignmentLoading] = useState(false);
+  const [assignmentImported, setAssignmentImported] = useState(false);
 
   const request = useCallback(
     async (body) => {
@@ -94,13 +100,19 @@ export default function Users() {
     const extensionMap = new Map((data?.extensions || []).map((item) => [item.extension_uuid, item.extension]));
     const map = new Map();
     (data?.assignments || []).forEach((item) => {
-      const values = map.get(item.identity_uuid) || [];
+      const key = `${item.identity_uuid}::${item.customer_uuid}`;
+      const values = map.get(key) || [];
       const extension = extensionMap.get(item.extension_uuid);
       if (extension && !values.includes(extension)) values.push(extension);
-      map.set(item.identity_uuid, values);
+      map.set(key, values);
     });
     return map;
   }, [data]);
+
+  const visibleUsers = useMemo(
+    () => [...(data?.memberships || []), ...(session?.user_management?.superadmin ? data?.directory || [] : [])],
+    [data, session?.user_management?.superadmin]
+  );
 
   const submitInvite = async () => {
     setBusy(true);
@@ -151,6 +163,64 @@ export default function Users() {
       setSavingId('');
     }
   };
+
+  const openAssignments = async (member) => {
+    setAssignmentMember(member);
+    setAssignmentRows([]);
+    setAssignmentImported(false);
+    setAssignmentLoading(true);
+    setError('');
+    try {
+      const response = await fetch(`${USERS_URL}?action=list&customer_uuid=${encodeURIComponent(member.customer_uuid || customerUuid)}`, {
+        credentials: 'same-origin'
+      });
+      const payload = await response.json().catch(() => ({}));
+      if (!response.ok) throw new Error(payload.error || 'service_unavailable');
+      const assigned = new Map(
+        (payload.assignments || []).filter((item) => item.identity_uuid === member.identity_uuid).map((item) => [item.extension_uuid, item])
+      );
+      const fusionLinked = new Set(
+        (payload.fusion_links || []).filter((item) => item.user_uuid === member.fusion_user_uuid).map((item) => item.extension_uuid)
+      );
+      setAssignmentRows(
+        (payload.extensions || []).map((extension) => ({
+          ...extension,
+          selected: assigned.has(extension.extension_uuid),
+          fusion_linked: fusionLinked.has(extension.extension_uuid)
+        }))
+      );
+    } catch (err) {
+      setError(err.message);
+      setAssignmentMember(null);
+    } finally {
+      setAssignmentLoading(false);
+    }
+  };
+
+  const saveAssignments = async () => {
+    if (!assignmentMember) return;
+    setBusy(true);
+    setError('');
+    try {
+      await request({
+        action: 'update',
+        customer_uuid: assignmentMember.customer_uuid || customerUuid,
+        identity_uuid: assignmentMember.identity_uuid,
+        role: assignmentMember.role,
+        status: assignmentMember.status,
+        assignment_source: assignmentImported ? 'fusion_import' : 'portal',
+        assignments: assignmentRows
+          .filter((item) => item.selected)
+          .map((item) => ({ extension_uuid: item.extension_uuid, can_use: true, can_manage: true }))
+      });
+      setAssignmentMember(null);
+      await load();
+    } catch (err) {
+      setError(err.message);
+    } finally {
+      setBusy(false);
+    }
+  };
   const previewMerge = async () => {
     setBusy(true);
     setError('');
@@ -190,7 +260,7 @@ export default function Users() {
   if (!session?.user_management?.allowed) return <ContentState title={<FormattedMessage id="users.forbidden" />} />;
   return (
     <MainCard
-      title={<FormattedMessage id="users.title" />}
+      title={<FormattedMessage id={titleId} />}
       secondary={
         <Stack direction="row" spacing={1}>
           {session?.user_management?.superadmin && selectedMemberships.length > 0 && (
@@ -265,51 +335,84 @@ export default function Users() {
               </TableRow>
             </TableHead>
             <TableBody>
-              {(data?.memberships || []).map((member) => (
-                <TableRow key={member.membership_uuid}>
-                  {session?.user_management?.superadmin && (
-                    <TableCell padding="checkbox">
-                      <Checkbox
-                        checked={selectedMemberships.includes(member.membership_uuid)}
-                        onChange={(event) =>
-                          setSelectedMemberships((current) =>
-                            event.target.checked
-                              ? [...current, member.membership_uuid]
-                              : current.filter((uuid) => uuid !== member.membership_uuid)
-                          )
-                        }
-                      />
+              {visibleUsers.map((member) => {
+                const hasMembership = Boolean(member.membership_uuid);
+                return (
+                  <TableRow key={member.membership_uuid || member.directory_key}>
+                    {session?.user_management?.superadmin && (
+                      <TableCell padding="checkbox">
+                        <Checkbox
+                          disabled={!hasMembership}
+                          checked={selectedMemberships.includes(member.membership_uuid)}
+                          onChange={(event) =>
+                            setSelectedMemberships((current) =>
+                              event.target.checked
+                                ? [...current, member.membership_uuid]
+                                : current.filter((uuid) => uuid !== member.membership_uuid)
+                            )
+                          }
+                        />
+                      </TableCell>
+                    )}
+                    <TableCell>
+                      {member.customer_name || '—'}
+                      {member.customer_status && member.customer_status !== 'active' && (
+                        <Typography variant="caption" color="warning.main" sx={{ display: 'block' }}>
+                          <FormattedMessage id={`users.customerStatus.${member.customer_status}`} />
+                        </Typography>
+                      )}
                     </TableCell>
-                  )}
-                  <TableCell>{member.customer_name || '—'}</TableCell>
-                  <TableCell>{member.primary_email}</TableCell>
-                  <TableCell>{member.username || '—'}</TableCell>
-                  <TableCell>
-                    <Select
-                      variant="standard"
-                      value={member.role}
-                      disabled={savingId === member.membership_uuid || (member.role === 'owner' && !data?.capabilities?.superadmin)}
-                      onChange={(event) => saveMember(member, { role: event.target.value })}
-                    >
-                      {roles.map((role) => (
-                        <MenuItem key={role} value={role} disabled={role === 'owner' && !data?.capabilities?.superadmin}>
-                          {intl.formatMessage({ id: `users.role.${role}` })}
-                        </MenuItem>
-                      ))}
-                    </Select>
-                  </TableCell>
-                  <TableCell>{assignments.get(member.identity_uuid)?.join(', ') || '—'}</TableCell>
-                  <TableCell align="right">
-                    <Button size="small" disabled={savingId === member.membership_uuid} onClick={() => resend(member)}>
-                      <FormattedMessage id="users.resend" />
-                    </Button>
-                  </TableCell>
-                </TableRow>
-              ))}
+                    <TableCell>{member.primary_email || '—'}</TableCell>
+                    <TableCell>{member.username || '—'}</TableCell>
+                    <TableCell>
+                      {hasMembership ? (
+                        <Select
+                          variant="standard"
+                          value={member.role}
+                          disabled={savingId === member.membership_uuid || (member.role === 'owner' && !data?.capabilities?.superadmin)}
+                          onChange={(event) => saveMember(member, { role: event.target.value })}
+                        >
+                          {roles.map((role) => (
+                            <MenuItem key={role} value={role} disabled={role === 'owner' && !data?.capabilities?.superadmin}>
+                              {intl.formatMessage({ id: `users.role.${role}` })}
+                            </MenuItem>
+                          ))}
+                        </Select>
+                      ) : (
+                        <FormattedMessage id={`users.directory.${member.directory_type}`} />
+                      )}
+                    </TableCell>
+                    <TableCell>{assignments.get(`${member.identity_uuid}::${member.customer_uuid}`)?.join(', ') || '—'}</TableCell>
+                    <TableCell align="right">
+                      {hasMembership ? (
+                        <Stack direction="row" justifyContent="flex-end" spacing={0.5}>
+                          {assignmentManagement && (
+                            <Button
+                              size="small"
+                              disabled={
+                                savingId === member.membership_uuid ||
+                                (member.role === 'owner' && !session?.user_management?.superadmin && session?.membership?.role !== 'owner')
+                              }
+                              onClick={() => openAssignments(member)}
+                            >
+                              <FormattedMessage id="users.assignments.action" />
+                            </Button>
+                          )}
+                          <Button size="small" disabled={savingId === member.membership_uuid} onClick={() => resend(member)}>
+                            <FormattedMessage id="users.resend" />
+                          </Button>
+                        </Stack>
+                      ) : (
+                        '—'
+                      )}
+                    </TableCell>
+                  </TableRow>
+                );
+              })}
             </TableBody>
           </Table>
         </TableContainer>
-        {data && data.memberships.length === 0 && (
+        {data && visibleUsers.length === 0 && (
           <Typography color="text.secondary">
             <FormattedMessage id="users.empty" />
           </Typography>
@@ -370,6 +473,74 @@ export default function Users() {
           </Button>
           <Button variant="contained" disabled={busy || !email} onClick={submitInvite}>
             <FormattedMessage id="users.sendInvite" />
+          </Button>
+        </DialogActions>
+      </Dialog>
+      <Dialog open={assignmentManagement && Boolean(assignmentMember)} onClose={() => !busy && setAssignmentMember(null)} fullWidth maxWidth="sm">
+        <DialogTitle>
+          <FormattedMessage id="users.assignments.title" values={{ email: assignmentMember?.primary_email || '' }} />
+        </DialogTitle>
+        <DialogContent>
+          <Stack spacing={1.5} sx={{ pt: 1 }}>
+            {assignmentLoading && (
+              <Typography>
+                <FormattedMessage id="table.loading" />
+              </Typography>
+            )}
+            {!assignmentLoading && assignmentRows.length === 0 && (
+              <Alert severity="info">
+                <FormattedMessage id="users.assignments.empty" />
+              </Alert>
+            )}
+            {assignmentRows.some((item) => item.fusion_linked && !item.selected) && (
+              <Alert
+                severity="info"
+                action={
+                  <Button
+                    color="inherit"
+                    size="small"
+                    onClick={() => {
+                      setAssignmentImported(true);
+                      setAssignmentRows((rows) => rows.map((item) => (item.fusion_linked ? { ...item, selected: true } : item)));
+                    }}
+                  >
+                    <FormattedMessage id="users.assignments.importFusion" />
+                  </Button>
+                }
+              >
+                <FormattedMessage id="users.assignments.fusionDetected" />
+              </Alert>
+            )}
+            {assignmentRows.map((item) => (
+              <Stack key={item.extension_uuid} direction="row" alignItems="center" justifyContent="space-between" spacing={2}>
+                <FormControlLabel
+                  control={
+                    <Checkbox
+                      checked={item.selected}
+                      onChange={(event) =>
+                        setAssignmentRows((rows) =>
+                          rows.map((row) => (row.extension_uuid === item.extension_uuid ? { ...row, selected: event.target.checked } : row))
+                        )
+                      }
+                    />
+                  }
+                  label={`${item.extension}${item.display_name ? ` · ${item.display_name}` : ''}${item.fusion_linked ? ' · Fusion' : ''}`}
+                />
+              </Stack>
+            ))}
+            {assignmentRows.length > 0 && (
+              <Typography variant="caption" color="text.secondary">
+                <FormattedMessage id="users.assignments.unifiedPermission" />
+              </Typography>
+            )}
+          </Stack>
+        </DialogContent>
+        <DialogActions>
+          <Button onClick={() => setAssignmentMember(null)} disabled={busy}>
+            <FormattedMessage id="users.cancel" />
+          </Button>
+          <Button variant="contained" onClick={saveAssignments} disabled={busy || assignmentLoading}>
+            <FormattedMessage id="users.assignments.save" />
           </Button>
         </DialogActions>
       </Dialog>
@@ -460,3 +631,5 @@ export default function Users() {
     </MainCard>
   );
 }
+
+Users.propTypes = { titleId: PropTypes.string, assignmentManagement: PropTypes.bool };

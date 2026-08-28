@@ -103,8 +103,8 @@
 	$domain_uuid = trim((string) ($payload['domain_uuid'] ?? ''));
 	if (!is_uuid($user_uuid) || !is_uuid($domain_uuid)
 		|| !is_uuid($payload['identity_uuid'] ?? '')
-		|| !is_uuid($payload['customer_uuid'] ?? '')
-		|| !is_uuid($payload['membership_uuid'] ?? '')) {
+		|| (!empty($payload['customer_uuid']) && !is_uuid($payload['customer_uuid']))
+		|| (!empty($payload['membership_uuid']) && !is_uuid($payload['membership_uuid']))) {
 		http_response_code(503);
 		echo json_encode(['error' => 'invalid_identity_mapping']);
 		exit;
@@ -136,8 +136,8 @@
 	portal_identity_strip_domain_permissions();
 	$_SESSION['portal_identity'] = [
 		'identity_uuid' => $payload['identity_uuid'],
-		'customer_uuid' => $payload['customer_uuid'],
-		'membership_uuid' => $payload['membership_uuid'],
+		'customer_uuid' => $payload['customer_uuid'] ?? null,
+		'membership_uuid' => $payload['membership_uuid'] ?? null,
 		'session_id' => $payload['session_id'],
 		'installation_id' => $installation_id,
 		'access_token' => $payload['access_token'],
