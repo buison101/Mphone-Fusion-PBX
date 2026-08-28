@@ -118,7 +118,7 @@ const navigation = [
         type: 'item',
         url: '/customer/services',
         icon: PhoneOutlined,
-        ...workspaceAdminRequired,
+        ...workspaceRequired,
         breadcrumbs: true
       },
       {

@@ -654,7 +654,7 @@
   "billing.ledger.reversal": "Reversal",
   "billing.ledger.opening_balance": "Opening balance",
   "nav.customerProfile": "Service profile",
-  "nav.customerServices": "Services and extensions",
+  "nav.customerServices": "Service plan",
   "nav.customerSecurity": "Security & activity",
   "customer.workspaceRequired": "Select a service profile to continue.",
   "customer.profileTitle": "Service profile information",
