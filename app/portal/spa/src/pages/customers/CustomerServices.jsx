@@ -19,7 +19,7 @@ import ContentState from 'components/states/ContentState';
 import useSession from 'hooks/useSession';
 import { CUSTOMER_URL } from 'config';
 
-const TYPES = ['increase_quantity', 'decrease_quantity', 'upgrade_plan', 'downgrade_plan', 'change_cycle', 'cancel_at_renewal'];
+const TYPES = ['quantity_change', 'plan_cycle_change', 'cancel_at_renewal'];
 
 export default function CustomerServices() {
   const intl = useIntl();
@@ -29,7 +29,7 @@ export default function CustomerServices() {
   const [busy, setBusy] = useState(false);
   const [error, setError] = useState('');
   const [open, setOpen] = useState(false);
-  const [form, setForm] = useState({ change_type: 'increase_quantity', requested_quantity: '', requested_plan_uuid: '', requested_billing_cycle: '', reason: '' });
+  const [form, setForm] = useState({ change_type: 'quantity_change', requested_quantity: '', requested_plan_uuid: '', requested_billing_cycle: '', reason: '' });
   const load = useCallback(async () => {
     const response = await fetch(`${CUSTOMER_URL}?resource=subscription`, { credentials: 'same-origin' });
     const payload = await response.json().catch(() => ({}));
@@ -41,14 +41,14 @@ export default function CustomerServices() {
   const submit = async () => {
     setBusy(true); setError('');
     try {
-      const quantityType = ['increase_quantity', 'decrease_quantity'].includes(form.change_type);
-      const planType = ['upgrade_plan', 'downgrade_plan'].includes(form.change_type);
+      const quantityType = form.change_type === 'quantity_change';
+      const planType = form.change_type === 'plan_cycle_change';
       const response = await fetch(CUSTOMER_URL, { method: 'POST', credentials: 'same-origin',
         headers: { 'Content-Type': 'application/json', 'X-CSRF-Token': session?.csrf || '' },
         body: JSON.stringify({ resource: 'subscription_change_submit', subscription_uuid: subscription.subscription_uuid,
           change_type: form.change_type, requested_quantity: quantityType ? Number(form.requested_quantity) : null,
           requested_plan_uuid: planType ? form.requested_plan_uuid || null : null,
-          requested_billing_cycle: form.change_type === 'change_cycle' ? form.requested_billing_cycle || null : null, reason: form.reason }) });
+          requested_billing_cycle: planType ? form.requested_billing_cycle || null : null, reason: form.reason }) });
       const payload = await response.json().catch(() => ({}));
       if (!response.ok) throw new Error(payload.error || 'service_unavailable');
       setOpen(false); await load();
@@ -74,9 +74,9 @@ export default function CustomerServices() {
     <Dialog open={open} onClose={() => !busy && setOpen(false)} fullWidth maxWidth="sm"><DialogTitle><FormattedMessage id="subscription.requestChange" /></DialogTitle><DialogContent><Stack spacing={2} sx={{ pt: 1 }}>
       <Alert severity="info"><FormattedMessage id="subscription.reviewHelp" /></Alert>
       <FormControl fullWidth><InputLabel><FormattedMessage id="subscription.changeType" /></InputLabel><Select value={form.change_type} label={intl.formatMessage({ id: 'subscription.changeType' })} onChange={(event) => setForm((value) => ({ ...value, change_type: event.target.value }))}>{TYPES.map((type) => <MenuItem key={type} value={type}><FormattedMessage id={`subscription.change.${type}`} /></MenuItem>)}</Select></FormControl>
-      {['increase_quantity', 'decrease_quantity'].includes(form.change_type) && <TextField type="number" inputProps={{ min: 1 }} required label={intl.formatMessage({ id: 'subscription.requestedQuantity' })} value={form.requested_quantity} onChange={(event) => setForm((value) => ({ ...value, requested_quantity: event.target.value }))} />}
-      {['upgrade_plan', 'downgrade_plan'].includes(form.change_type) && <FormControl fullWidth required><InputLabel><FormattedMessage id="subscription.requestedPlan" /></InputLabel><Select value={form.requested_plan_uuid} label={intl.formatMessage({ id: 'subscription.requestedPlan' })} onChange={(event) => setForm((value) => ({ ...value, requested_plan_uuid: event.target.value }))}>{(data?.plans || []).filter((plan) => plan.plan_uuid !== subscription?.plan_uuid).map((plan) => <MenuItem key={plan.plan_uuid} value={plan.plan_uuid}>{plan.name} · {new Intl.NumberFormat(intl.locale).format(plan.amount)} {plan.currency}</MenuItem>)}</Select></FormControl>}
-      {form.change_type === 'change_cycle' && <FormControl fullWidth required><InputLabel><FormattedMessage id="subscription.requestedCycle" /></InputLabel><Select value={form.requested_billing_cycle} label={intl.formatMessage({ id: 'subscription.requestedCycle' })} onChange={(event) => setForm((value) => ({ ...value, requested_billing_cycle: event.target.value }))}>{['monthly', 'annual'].map((cycle) => <MenuItem key={cycle} value={cycle}><FormattedMessage id={`subscription.cycle.${cycle}`} /></MenuItem>)}</Select></FormControl>}
+      {form.change_type === 'quantity_change' && <TextField type="number" inputProps={{ min: 1 }} required label={intl.formatMessage({ id: 'subscription.requestedQuantity' })} value={form.requested_quantity} onChange={(event) => setForm((value) => ({ ...value, requested_quantity: event.target.value }))} />}
+      {form.change_type === 'plan_cycle_change' && <><FormControl fullWidth required><InputLabel><FormattedMessage id="subscription.requestedPlan" /></InputLabel><Select value={form.requested_plan_uuid} label={intl.formatMessage({ id: 'subscription.requestedPlan' })} onChange={(event) => setForm((value) => ({ ...value, requested_plan_uuid: event.target.value }))}>{(data?.plans || []).map((plan) => <MenuItem key={plan.plan_uuid} value={plan.plan_uuid}>{plan.name} · {new Intl.NumberFormat(intl.locale).format(plan.amount)} {plan.currency}</MenuItem>)}</Select></FormControl>
+      <FormControl fullWidth required><InputLabel><FormattedMessage id="subscription.requestedCycle" /></InputLabel><Select value={form.requested_billing_cycle} label={intl.formatMessage({ id: 'subscription.requestedCycle' })} onChange={(event) => setForm((value) => ({ ...value, requested_billing_cycle: event.target.value }))}>{['monthly', 'annual'].map((cycle) => <MenuItem key={cycle} value={cycle}><FormattedMessage id={`subscription.cycle.${cycle}`} /></MenuItem>)}</Select></FormControl></>}
       <TextField multiline minRows={3} required inputProps={{ maxLength: 1000 }} label={intl.formatMessage({ id: 'subscription.reason' })} value={form.reason} onChange={(event) => setForm((value) => ({ ...value, reason: event.target.value }))} />
     </Stack></DialogContent><DialogActions><Button disabled={busy} onClick={() => setOpen(false)}><FormattedMessage id="users.cancel" /></Button><Button variant="contained" disabled={busy || form.reason.trim().length < 3} onClick={submit}><FormattedMessage id="subscription.submit" /></Button></DialogActions></Dialog>
   </Stack>;
