@@ -2,6 +2,7 @@
 
 	require_once dirname(__DIR__, 3).'/resources/require.php';
 	require_once dirname(__DIR__).'/resources/request.php';
+	require_once dirname(__DIR__).'/resources/entitlement.php';
 
 	portal_json_headers();
 	if (($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'GET') {
@@ -10,6 +11,8 @@
 		exit;
 	}
 	portal_require_session(['xml_cdr_view']);
+	$transcript_allowed = portal_entitlement_allows('speech_to_text');
+	$summary_allowed = portal_entitlement_allows('ai_summary');
 
 	$xml_cdr_uuid = $_GET['id'] ?? '';
 	$domain_uuid = $_SESSION['domain_uuid'] ?? '';
@@ -49,7 +52,7 @@
 		exit;
 	}
 
-	$transcript = permission_exists('xml_cdr_transcript_view') ? $database->select(
+	$transcript = $transcript_allowed && permission_exists('xml_cdr_transcript_view') ? $database->select(
 		'select transcript_json, transcript_summary, summary_status, summary_model, summary_duration, '.
 		'coalesce(summary_attempt_count, 0) as summary_attempt_count, update_date, insert_date from v_xml_cdr_transcripts '.
 		'where xml_cdr_uuid = :xml_cdr_uuid and domain_uuid = :domain_uuid limit 1',
@@ -79,10 +82,10 @@
 			if (count($segments) >= 2000) { break; }
 		}
 		$state = !empty($segments) ? 'completed' : 'failed';
-		$summary = trim(strip_tags((string)($transcript['transcript_summary'] ?? '')));
-		$summary_state = in_array(($transcript['summary_status'] ?? ''), ['disabled', 'processing', 'completed', 'failed', 'skipped'], true)
+		$summary = $summary_allowed ? trim(strip_tags((string)($transcript['transcript_summary'] ?? ''))) : '';
+		$summary_state = $summary_allowed && in_array(($transcript['summary_status'] ?? ''), ['disabled', 'processing', 'completed', 'failed', 'skipped'], true)
 			? $transcript['summary_status']
-			: ($summary !== '' ? 'completed' : 'unavailable');
+			: ($summary_allowed && $summary !== '' ? 'completed' : 'unavailable');
 		if ($summary_state === 'processing' && !empty($transcript['update_date']) && strtotime($transcript['update_date']) <= time() - 900) {
 			$summary_state = 'failed';
 		}
@@ -92,7 +95,7 @@
 		$date = $transcript['update_date'] ?: $transcript['insert_date'];
 		$updated_at = !empty($date) ? date('c', strtotime($date)) : null;
 	}
-	elseif (permission_exists('xml_cdr_transcript_view')) {
+	elseif ($transcript_allowed && permission_exists('xml_cdr_transcript_view')) {
 		$queue = $database->select(
 			'select transcribe_status, update_date from v_transcribe_queue '.
 			'where transcribe_queue_uuid = :xml_cdr_uuid and domain_uuid = :domain_uuid limit 1',

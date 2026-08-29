@@ -20,6 +20,8 @@ import useSession from 'hooks/useSession';
 import { CUSTOMER_URL } from 'config';
 
 const TYPES = ['quantity_change', 'plan_cycle_change', 'cancel_at_renewal'];
+const CAPABILITIES = ['call_forwarding', 'external_forwarding', 'call_history', 'outbound_calling', 'call_statistics',
+  'call_recording', 'recording_download', 'speech_to_text', 'ai_summary', 'ai_auto_answer'];
 
 export default function CustomerServices() {
   const intl = useIntl();
@@ -68,6 +70,16 @@ export default function CustomerServices() {
         <Stack direction="row" spacing={1} alignItems="center"><Chip size="small" label={<FormattedMessage id={`subscription.status.${subscription.status}`} />} />
           {data.capabilities?.request_change && <Button variant="outlined" disabled={data.requests?.some((item) => ['submitted', 'imported'].includes(item.status))} onClick={() => setOpen(true)}><FormattedMessage id="subscription.requestChange" /></Button>}</Stack>
       </Stack></MainCard>}
+    {data?.entitlement && <MainCard title={<FormattedMessage id="subscription.features" />}><Stack spacing={1.5}>
+      <Alert severity={data.entitlement.status === 'active' ? 'info' : 'warning'}><FormattedMessage
+        id={data.entitlement.status === 'active' ? 'subscription.featuresActive' : 'subscription.featuresInactive'} /></Alert>
+      <Stack direction="row" useFlexGap flexWrap="wrap" gap={1}>{CAPABILITIES.map((key) => <Chip key={key}
+        color={data.entitlement.capabilities?.[key] === true ? 'success' : 'default'}
+        variant={data.entitlement.capabilities?.[key] === true ? 'filled' : 'outlined'}
+        label={<FormattedMessage id={`subscription.capability.${key}`} />} />)}</Stack>
+      <Typography variant="caption" color="text.secondary"><FormattedMessage id="subscription.entitlementVersion"
+        values={{ generation: data.entitlement.generation, mode: data.entitlement.enforcement_mode }} /></Typography>
+    </Stack></MainCard>}
     <MainCard title={<FormattedMessage id="subscription.requestHistory" />}><Stack spacing={1}>
       {(data?.requests || []).map((item) => <Stack key={item.request_uuid} direction="row" justifyContent="space-between"><Typography><FormattedMessage id={`subscription.change.${item.change_type}`} /> · {new Date(item.created_at).toLocaleString(intl.locale)}</Typography><Chip size="small" label={<FormattedMessage id={`subscription.requestStatus.${item.status}`} />}/></Stack>)}
       {!data?.requests?.length && <Typography color="text.secondary"><FormattedMessage id="subscription.requestEmpty" /></Typography>}</Stack></MainCard>

@@ -3,6 +3,7 @@
 	require_once dirname(__DIR__, 3) . '/resources/require.php';
 	require_once dirname(__DIR__) . '/resources/call_status.php';
 	require_once dirname(__DIR__) . '/resources/report_scope.php';
+	require_once dirname(__DIR__) . '/resources/entitlement.php';
 
 	header('Content-Type: application/json; charset=utf-8');
 	header('Cache-Control: no-store');
@@ -11,6 +12,7 @@
 	portal_identity_validate_session();
 	if (empty($_SESSION['authorized']) || empty($_SESSION['user_uuid'])) { http_response_code(401); echo json_encode(['error' => 'unauthorized']); exit; }
 	if (!permission_exists('portal_view') || !permission_exists('xml_cdr_view')) { http_response_code(403); echo json_encode(['error' => 'forbidden']); exit; }
+	portal_entitlement_require('call_statistics');
 
 	$report = $_GET['report'] ?? 'volume';
 	if (!in_array($report, ['volume', 'extensions', 'inbound', 'outbound', 'time', 'dimensions'], true)) { http_response_code(400); echo json_encode(['error' => 'invalid_report']); exit; }

@@ -25,6 +25,7 @@
 
 	require_once dirname(__DIR__, 3) . "/resources/require.php";
 	require_once dirname(__DIR__) . "/resources/identity_session.php";
+	require_once dirname(__DIR__) . "/resources/entitlement.php";
 
 	header('Cache-Control: private, no-store');
 	header('X-Content-Type-Options: nosniff');
@@ -54,6 +55,10 @@
 	}
 	if (!permission_exists('xml_cdr_recording_play') && !permission_exists('xml_cdr_recording_download')) {
 		deny(403);
+	}
+	portal_entitlement_require('call_recording');
+	if (!empty($_GET['download'])) {
+		portal_entitlement_require('recording_download');
 	}
 
 	$xml_cdr_uuid = $_GET['id'] ?? '';

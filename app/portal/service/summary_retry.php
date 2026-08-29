@@ -2,6 +2,7 @@
 
 	require_once dirname(__DIR__, 3).'/resources/require.php';
 	require_once dirname(__DIR__).'/resources/request.php';
+	require_once dirname(__DIR__).'/resources/entitlement.php';
 
 	portal_json_headers();
 	if (($_SERVER['REQUEST_METHOD'] ?? 'GET') !== 'POST') {
@@ -11,6 +12,7 @@
 	}
 	portal_require_csrf();
 	portal_require_session(['xml_cdr_view', 'xml_cdr_transcript_view', 'transcribe_queue_edit']);
+	portal_entitlement_require('ai_summary');
 
 	$payload = json_decode(file_get_contents('php://input'), true);
 	$xml_cdr_uuid = is_array($payload) ? ($payload['id'] ?? '') : '';
