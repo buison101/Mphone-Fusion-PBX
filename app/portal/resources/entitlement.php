@@ -4,9 +4,9 @@
 	require_once __DIR__ . '/identity_session.php';
 	require_once dirname(__DIR__, 2) . '/customer_identities/resources/customer_platform.php';
 
-	function portal_entitlement_allows(string $capability): bool {
+	function portal_entitlement_decision(string $capability): array {
 		if (!portal_identity_validate_session(true) || !portal_identity_has_workspace()) {
-			return false;
+			return ['allowed' => false, 'effective_allowed' => false, 'enforcement_mode' => 'enforce'];
 		}
 		static $decisions = [];
 		if (array_key_exists($capability, $decisions)) {
@@ -19,9 +19,20 @@
 			'actor_session_uuid' => (string) ($_SESSION['portal_identity']['session_id'] ?? ''),
 			'capability' => $capability,
 		]);
-		$allowed = $result['status'] === 200 && ($result['payload']['allowed'] ?? false) === true;
-		$decisions[$capability] = $allowed;
-		return $allowed;
+		$payload = $result['status'] === 200 && is_array($result['payload']) ? $result['payload'] : [];
+		$decision = [
+			'allowed' => ($payload['allowed'] ?? false) === true,
+			'effective_allowed' => ($payload['effective_allowed'] ?? false) === true,
+			'enforcement_mode' => (string) ($payload['enforcement_mode'] ?? 'enforce'),
+			'generation' => $payload['generation'] ?? null,
+			'checksum' => $payload['checksum'] ?? null,
+		];
+		$decisions[$capability] = $decision;
+		return $decision;
+	}
+
+	function portal_entitlement_allows(string $capability): bool {
+		return portal_entitlement_decision($capability)['allowed'] === true;
 	}
 
 	function portal_entitlement_require(string $capability): void {
