@@ -15,8 +15,8 @@
 			return ['status' => 503, 'payload' => ['error' => 'admin_secret_unavailable']];
 		}
 		$secret = trim((string) file_get_contents($secret_file));
-		$payload['operator_user_uuid'] = $_SESSION['user_uuid'] ?? null;
-		$payload['operator_domain_uuid'] = $_SESSION['domain_uuid'] ?? null;
+		$payload['operator_user_uuid'] = $_SESSION['user_uuid'] ?? ($payload['operator_user_uuid'] ?? null);
+		$payload['operator_domain_uuid'] = $_SESSION['domain_uuid'] ?? ($payload['operator_domain_uuid'] ?? null);
 		$handle = curl_init(customer_platform_api_url() . '/functions/v1/mphone-customer-admin');
 		curl_setopt_array($handle, [
 			CURLOPT_POST => true,
