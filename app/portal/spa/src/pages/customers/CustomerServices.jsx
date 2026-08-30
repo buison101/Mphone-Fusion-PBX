@@ -20,8 +20,8 @@ import useSession from 'hooks/useSession';
 import { CUSTOMER_URL } from 'config';
 
 const TYPES = ['quantity_change', 'plan_cycle_change', 'cancel_at_renewal'];
-const CAPABILITIES = ['call_forwarding', 'external_forwarding', 'call_history', 'outbound_calling', 'call_statistics',
-  'call_recording', 'recording_download', 'speech_to_text', 'ai_summary', 'ai_auto_answer'];
+const CAPABILITIES = ['call_forwarding', 'call_history', 'outbound_calling', 'call_statistics', 'call_recording',
+  'speech_to_text', 'ai_summary', 'auto_dialer', 'ai_auto_answer'];
 
 export default function CustomerServices() {
   const intl = useIntl();
