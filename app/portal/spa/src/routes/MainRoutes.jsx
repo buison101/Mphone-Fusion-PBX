@@ -23,6 +23,8 @@ const CustomerProfile = Loadable(lazy(() => import('pages/customers/CustomerProf
 const CustomerServices = Loadable(lazy(() => import('pages/customers/CustomerServices')));
 const CustomerSecurity = Loadable(lazy(() => import('pages/customers/CustomerSecurity')));
 const Billing = Loadable(lazy(() => import('pages/billing/Billing')));
+const DidInventory = Loadable(lazy(() => import('pages/dids/DidInventory')));
+const SimpleCallRouting = Loadable(lazy(() => import('pages/routing/SimpleCallRouting')));
 
 // ==============================|| MAIN ROUTING ||============================== //
 
@@ -95,6 +97,14 @@ const MainRoutes = {
     {
       path: 'customers',
       element: <CustomerArea />
+    },
+    {
+      path: 'admin/dids',
+      element: <DidInventory />
+    },
+    {
+      path: 'phone-numbers',
+      element: <SimpleCallRouting />
     },
     {
       path: 'billing',

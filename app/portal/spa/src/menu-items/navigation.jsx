@@ -122,6 +122,15 @@ const navigation = [
         breadcrumbs: true
       },
       {
+        id: 'phone-numbers',
+        title: 'nav.phoneNumbers',
+        type: 'item',
+        url: '/phone-numbers',
+        icon: PhoneOutlined,
+        ...workspaceRequired,
+        breadcrumbs: true
+      },
+      {
         id: 'settings',
         title: 'nav.callSettings',
         type: 'item',
@@ -161,6 +170,15 @@ const navigation = [
         type: 'item',
         url: '/customers',
         icon: ContactsOutlined,
+        requiresSuperadmin: true,
+        breadcrumbs: true
+      },
+      {
+        id: 'did-inventory',
+        title: 'nav.didInventory',
+        type: 'item',
+        url: '/admin/dids',
+        icon: PhoneOutlined,
         requiresSuperadmin: true,
         breadcrumbs: true
       }
