@@ -1,6 +1,6 @@
 # Kế hoạch Mphone Account Center
 
-Trạng thái: đề xuất để lập kế hoạch triển khai  
+Trạng thái: đề xuất để lập kế hoạch triển khai
 Tài liệu chính tiếng Anh: `MPHONE_ACCOUNT_CENTER_PLAN.md`
 
 ## 1. Mục tiêu

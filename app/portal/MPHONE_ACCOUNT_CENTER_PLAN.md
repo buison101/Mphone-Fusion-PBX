@@ -1,7 +1,7 @@
 # Mphone Account Center Plan
 
-Status: proposal for implementation planning  
-Primary language: English  
+Status: proposal for implementation planning
+Primary language: English
 Vietnamese companion: `MPHONE_ACCOUNT_CENTER_PLAN_VI.md`
 
 ## 1. Objective
